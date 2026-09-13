@@ -1,0 +1,315 @@
+{
+  "object_description": "three-level compact hall building on a tall base with a sloping roof",
+  "geometry_property": [
+    "compact",
+    "three-level",
+    "tall",
+    "slightly sloping",
+    "gable-roofed",
+    "multi-storey"
+  ],
+  "design_condition": "The building is placed as a striking element at the hilltop and aligned with the school complex, but its height creates a tight relationship with the kindergarten and weakly connects the lower forecourts and playground to the existing open-space structure.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building fits into the orthogonally oriented school complex.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3117,
+            0.7403,
+            0.5644
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top and elevation views show a compact orthogonally aligned building mass."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building volume towers over the existing school complex and appears far too dominant overall.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4578,
+            0.6767,
+            1
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevations clearly show the building's tall multi-storey volume and dominant roof height."
+        }
+      },
+      {
+        "statement": "The forecourts and playground are only peripherally connected to the existing open-space structure.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "forecourts and playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2278,
+            0.2055,
+            0.0852
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The exterior sample provides only a low southern site-edge anchor for these open-space areas."
+        }
+      },
+      {
+        "statement": "The western corner violates the program by extending the already expanded construction area.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "western corner",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1261,
+            0.329,
+            0.303
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The western directional constraint places the comment at the leftmost footprint corner."
+        }
+      },
+      {
+        "statement": "The distance between the high south facade and the kindergarten is only around 7.5 metres.",
+        "tags": [
+          "scale",
+          "privacy",
+          "safety"
+        ],
+        "position": {
+          "target": "high south facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.467,
+            0.0785,
+            0.7386
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South and top views constrain a high facade position along the southern building edge."
+        }
+      },
+      {
+        "statement": "The macro-spatial competition with the church cannot be justified by a secular gymnasium.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "macro-spatial competition with the church",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8366,
+            0.7213,
+            0.7822
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The absent church is represented by a broad upper building anchor for the stated urban comparison."
+        }
+      },
+      {
+        "statement": "The separation of work lessons and sports activities is only possible to a limited extent.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "separation of work lessons and sports activities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1525,
+            0.293,
+            0.5208
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior program separation is not distinguishable, so it receives an approximate mid-building surface anchor."
+        }
+      },
+      {
+        "statement": "The workrooms share access and corridors with cloakrooms and sanitary facilities, creating significant potential for disruption.",
+        "tags": [
+          "layout",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "workrooms, cloakrooms and sanitary facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2098,
+            0.2151,
+            0.3901
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal access relationship is absent from the exterior sample and mapped approximately to the lower volume."
+        }
+      },
+      {
+        "statement": "The foyer cannot be closed off, so use independent of sports operations is not possible.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "operation"
+        ],
+        "position": {
+          "target": "foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6379,
+            0.2226,
+            0.2594
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The foyer is not identifiable externally, so it is approximated near the lower southern building surface."
+        }
+      },
+      {
+        "statement": "The multi-storey structure generates additional traffic areas and exceeds average building volume and total cost.",
+        "tags": [
+          "massing",
+          "circulation",
+          "cost"
+        ],
+        "position": {
+          "target": "multi-storey structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8586,
+            0.6915,
+            0.6079
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "All elevations visibly corroborate the multi-storey mass and its extensive circulation volume."
+        }
+      },
+      {
+        "statement": "The project is not convincing in terms of site planning, functional, and economic aspects.",
+        "tags": [
+          "urban integration",
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4071,
+            0.8102,
+            0.303
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The combined site-planning judgment is anchored broadly to the sampled building and surrounding site edge."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "open space",
+      "functionality",
+      "operation",
+      "circulation",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

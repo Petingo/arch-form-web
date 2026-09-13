@@ -1,0 +1,413 @@
+{
+  "object_description": "two volumetrically distinct building bodies containing a school and sports hall",
+  "geometry_property": [
+    "two-part",
+    "cubic",
+    "three-tiered",
+    "compact",
+    "permeable",
+    "split-level"
+  ],
+  "design_condition": "The two building bodies are positioned in relation to neighbouring buildings and the existing lawn to strengthen the path connection, create a southern break area, and integrate the complex into the landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two building bodies ensure a pleasant permeability of the area.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "permeable area between buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5595,
+            0.4523,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The separated bodies visibly leave open passages across the site."
+        }
+      },
+      {
+        "statement": "The path connection between Lerchenhalde and Bergacker is strengthened.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "path connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5595,
+            0.4523,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The connection is approximated along the open route between the two visible bodies."
+        }
+      },
+      {
+        "statement": "The break area with groups of trees is inviting and offers a wide variety of uses.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "southern break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3952,
+            0.2683,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern open area is placed beside the low southern building mass."
+        }
+      },
+      {
+        "statement": "The school building is very nicely organized internally through a split-level system.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "split-level school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1853,
+            0.2514,
+            0.2857
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact southwest body is visibly distinct and stepped in elevation."
+        }
+      },
+      {
+        "statement": "The joint generates a generous, naturally lit access area and divides the class groups into an appropriate size.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "joint access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5724,
+            0.3608,
+            0.2143
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The access joint is anchored at the visible separation between the two bodies."
+        }
+      },
+      {
+        "statement": "The economic targets are just met.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "economic targets",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic performance is not spatially represented."
+        }
+      },
+      {
+        "statement": "Accommodating the school building and double sports hall in two buildings brings great structural advantages and potential for landscape integration.",
+        "tags": [
+          "structure",
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "school and double sports hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6411,
+            0.4725,
+            0.2857
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two clearly separated masses provide the building and sports-hall anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The individual building parts neglect their own relationship and remain volumetrically alien to one another.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "relationship between building parts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5659,
+            0.4065,
+            0.2857
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The critique concerns the visible spatial separation and mismatch between both masses."
+        }
+      },
+      {
+        "statement": "The access situation along the fenced hard space is particularly unpleasant.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "fenced hard-space access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7788,
+            0.1203,
+            0.0714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The hard access edge is approximated along the southern perimeter."
+        }
+      },
+      {
+        "statement": "The facade appears modest for an urban public building.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "modest public-building facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4589,
+            0.0161,
+            0.4286
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The south-facing envelope provides the directional facade anchor."
+        }
+      },
+      {
+        "statement": "Access to the classrooms is rather tight, and the additional level shifts seem strained.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "tight classroom access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1853,
+            0.2514,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Classroom circulation is approximated within the identifiable school body."
+        }
+      },
+      {
+        "statement": "The narrow corridor without daylight is significantly less confident in its length and darkness.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "dark narrow corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1898,
+            0.2739,
+            0.4286
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The interior corridor is absent, so its marker is constrained to the school volume."
+        }
+      },
+      {
+        "statement": "The school use in front of the gymnasium cloakrooms is probably an awkward solution and expresses a lack of space.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school use before gym cloakrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4798,
+            0.2383,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The criticized adjacency is approximated at the joint between school and sports hall."
+        }
+      },
+      {
+        "statement": "The arrangement and relationship between the two building bodies remain incomprehensible.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "arrangement of two building bodies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6411,
+            0.4725,
+            0.2857
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Both bodies and their relationship are clearly visible in the calibrated views."
+        }
+      },
+      {
+        "statement": "The sustainability targets are only just reached, partly because of the relatively uncompact building volume.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "uncompact building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6928,
+            0.4853,
+            0.4286
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sustainability criticism references the visibly spread two-body massing."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "layout",
+      "functionality",
+      "circulation",
+      "daylight",
+      "facade",
+      "cost"
+    ]
+  }
+}

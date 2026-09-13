@@ -1,0 +1,425 @@
+{
+  "object_description": "low polygonal pavilion integrated into a park",
+  "geometry_property": [
+    "low-rise",
+    "polygonal",
+    "pavilion-like",
+    "topographically adapted",
+    "fragmented-facade",
+    "large-footprint",
+    "multi-level"
+  ],
+  "design_condition": "The low, polygonal volume follows the natural topography in the park, structures connected plazas and pedestrian routes, and maintains level relationships between the different uses.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The polygonal volume breaks up its facades and reduces the scale of the large footprint.",
+        "tags": [
+          "massing",
+          "scale",
+          "facade"
+        ],
+        "position": {
+          "target": "polygonal facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0904,
+            0.431,
+            0.5215
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broken polygonal perimeter and fragmented elevation edges are clearly visible."
+        }
+      },
+      {
+        "statement": "The low heights reduce the building's impact and encourage indoor-outdoor relations.",
+        "tags": [
+          "scale",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "low heights and indoor-outdoor relations",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4466,
+            0.7773,
+            0.3039
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad footprint with low, shallow elevation profile supports the placement."
+        }
+      },
+      {
+        "statement": "The new pedestrian walkway articulates the various plazas and structures the site as a whole.",
+        "tags": [
+          "circulation",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "new pedestrian walkway",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5055,
+            0.1626,
+            0.0429
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Ground-level site edge approximates the route connecting outdoor plazas."
+        }
+      },
+      {
+        "statement": "The functions are judiciously distributed, with generous circulation linked to the outdoor walkway.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "generous circulation linked to outdoor walkway",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4227,
+            0.1683,
+            0.2604
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior-adjacent low-level placement represents circulation connected to the exterior."
+        }
+      },
+      {
+        "statement": "Natural lighting is generally of high quality.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "natural lighting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4466,
+            0.7773,
+            0.391
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Lighting judgment applies broadly to the low pavilion envelope; openings are not directly sampled."
+        }
+      },
+      {
+        "statement": "Kitchen deliveries can be served independently.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "kitchen deliveries",
+          "spatial_scope": "zone",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Independent delivery operation has no identifiable spatial anchor in the exterior sample."
+        }
+      },
+      {
+        "statement": "The architectural expression is consistent with the layout.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4757,
+            0.7837,
+            0.3474
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall polygonal pavilion expression is visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The project takes the site into account and offers a contemporary pavilion-like response to the surrounding buildings and church.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "pavilion-like response to surrounding buildings and church",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4466,
+            0.7773,
+            0.3474
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Low polygonal mass is directly represented, while surrounding context is absent."
+        }
+      },
+      {
+        "statement": "The environmental effects of the large surface area and footprint are offset by glazing, limited excavation, and wood use.",
+        "tags": [
+          "sustainability",
+          "topography"
+        ],
+        "position": {
+          "target": "large surface area and footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4466,
+            0.7773,
+            0.3474
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Large low footprint and shallow excavation profile are evident in the sampled model."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The stairs do not guarantee access to the multipurpose hall for deliveries, services, or winter snow clearance.",
+        "tags": [
+          "accessibility",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "stairs to multipurpose hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1951,
+            0.1978,
+            0.1299
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low peripheral access point approximates stairs, which are not individually distinguishable."
+        }
+      },
+      {
+        "statement": "The external parking position compromises access and outdoor space for the future school.",
+        "tags": [
+          "accessibility",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "external parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8665,
+            0.1111,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral ground zone provides a plausible parking location beside the pavilion."
+        }
+      },
+      {
+        "statement": "The use of wood shingles on the facade is questionable.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "wood shingles on facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5844,
+            0.0979,
+            0.5215
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South-facing envelope is visible, but shingle material cannot be distinguished from points."
+        }
+      },
+      {
+        "statement": "The sheet-metal roof has a significant visual impact from the station.",
+        "tags": [
+          "expression",
+          "visibility"
+        ],
+        "position": {
+          "target": "sheet-metal roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5369,
+            0.4942,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Roof silhouette spans the broad pavilion and is clearly visible in every elevation."
+        }
+      },
+      {
+        "statement": "The project is expensive because of its high volume, generous corridors, and changing rooms.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "construction cost",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no spatial referent."
+        }
+      },
+      {
+        "statement": "The project raises questions about fire standards in the compartments.",
+        "tags": [
+          "fire safety"
+        ],
+        "position": {
+          "target": "fire standards in the compartments",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Fire-standard judgment concerns internal compartments absent from the exterior point cloud."
+        }
+      },
+      {
+        "statement": "The treatment of the shingled facades in relation to their use remains questionable.",
+        "tags": [
+          "facade",
+          "functionality"
+        ],
+        "position": {
+          "target": "shingled facades in relation to their use",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0904,
+            0.431,
+            0.5215
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade placement is visible, but use relationships and shingle treatment are not distinguishable."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "landscape",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "daylight",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

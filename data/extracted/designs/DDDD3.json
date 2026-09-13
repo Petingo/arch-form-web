@@ -1,0 +1,317 @@
+{
+  "object_description": "elegant filigree five-storey volume organized around a full-height atrium",
+  "geometry_property": [
+    "compact",
+    "five-storey",
+    "layered",
+    "filigree",
+    "transparent",
+    "full-height atrium",
+    "wide-span"
+  ],
+  "design_condition": "The building completely occupies the cramped site perimeter, creating a strong urban statement but leaving no significant outdoor spaces and relying on its atrium to organize the interior.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project creates a convincing and self-confident urban and architectural statement as a further building block on the hospital site.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "hospital-site building block",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1762,
+            0.7056,
+            0.6216
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Full compact perimeter mass and layered elevations clearly support the building-block reading."
+        }
+      },
+      {
+        "statement": "The interplay of the load-bearing structure and the full-height atrium forms the real heart of the complex.",
+        "tags": [
+          "structure",
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "load-bearing structure and full-height atrium",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6665,
+            0.2065,
+            0.5405
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central opening and repeated structural layers indicate the atrium-structure relationship."
+        }
+      },
+      {
+        "statement": "The column-slab system creates a very high and future-proof flexibility of use on all floors.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "column-slab system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8658,
+            0.3231,
+            0.5134
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated elevation bands suggest a regular structural system, without individually resolved columns and slabs."
+        }
+      },
+      {
+        "statement": "The spatial continuum is an impressive, identity-forming element of the school building.",
+        "tags": [
+          "identity",
+          "layout",
+          "scale"
+        ],
+        "position": {
+          "target": "spatial continuum",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6665,
+            0.2065,
+            0.6216
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central full-height zone is approximated from the visible interior opening and vertical continuity."
+        }
+      },
+      {
+        "statement": "The project creates very good operational conditions.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "operational conditions",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational quality applies broadly and has no specific geometric referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building completely occupies the building perimeter and offers no significant outdoor spaces.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "building perimeter and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1982,
+            0.2596,
+            0.0269
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view shows a nearly complete perimeter footprint with little sampled exterior space."
+        }
+      },
+      {
+        "statement": "The unconditional striving for all-pervading transparency seems a little too forced.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "transparent façade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.488,
+            0.0858,
+            0.6486
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Southern façade is directly localized, while transparency is inferred rather than visually separable."
+        }
+      },
+      {
+        "statement": "The spatial continuum places high demands on acoustics, furnishings, and users for access zones and quiet learning zones to function well together.",
+        "tags": [
+          "acoustics",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial continuum",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6665,
+            0.2065,
+            0.5405
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central continuum is anchored in the atrium zone; acoustic and furnishing demands are not geometric."
+        }
+      },
+      {
+        "statement": "The suggested transparency to the outside is unlikely to correspond to reality because there is no direct view outward and privacy protection will be necessary.",
+        "tags": [
+          "visibility",
+          "privacy",
+          "facade"
+        ],
+        "position": {
+          "target": "privacy and outward views",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6873,
+            0.2024,
+            0.4864
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior-facing façade is localized, but sightlines and privacy barriers are not represented."
+        }
+      },
+      {
+        "statement": "The design of the learning islands raises a few question marks.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "learning islands",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8693,
+            0.6251,
+            0.5134
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior learning areas are approximated near the atrium because individual islands are not distinguishable."
+        }
+      },
+      {
+        "statement": "The elaborate façade and high proportion of glass have a cost-driving effect, resulting in the highest construction costs in comparison.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "elaborate façade and high glass proportion",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3027,
+            0.7959,
+            0.6486
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "North façade provides a surface anchor; façade elaboration and glazing proportion are only partially visible."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "identity",
+      "structure",
+      "flexibility",
+      "functionality",
+      "acoustics",
+      "privacy",
+      "cost"
+    ]
+  }
+}

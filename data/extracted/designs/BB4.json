@@ -1,0 +1,217 @@
+{
+  "object_description": "elongated low building volume with offset plan and gable roof",
+  "geometry_property": [
+    "elongated",
+    "low-rise",
+    "parallel to contours",
+    "partly sunken",
+    "offset",
+    "gable-roofed",
+    "orthogonal"
+  ],
+  "design_condition": "The elongated volume is placed low at the upper part of the sloping site, parallel to the contours, but forms a visual barrier between the upper and lower areas and turns away from the station.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The box plan is spatially well-adjusted and highly efficient in operation.",
+        "tags": [
+          "layout",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "box plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6583,
+            0.6159,
+            0.4091
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elongated orthogonal footprint and low volume are clearly represented across views."
+        }
+      },
+      {
+        "statement": "Orthogonal, flowing sequences of spaces provide varied, high-quality rooms.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "flowing sequences of spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6063,
+            0.6847,
+            0.3182
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior sequences are approximated along the elongated plan, though rooms are not visible."
+        }
+      },
+      {
+        "statement": "The elongated volumetry is articulated by an interesting offset in plan.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "offset in plan",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6794,
+            0.6019,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The stepped displacement between elongated plan segments is distinct in top view."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The transversal layout closes off the site and contradicts the desired views and links between its upper and lower parts.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "visibility"
+        ],
+        "position": {
+          "target": "transversal layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6583,
+            0.6159,
+            0.4091
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated building spans the site and visibly forms a continuous barrier."
+        }
+      },
+      {
+        "statement": "The gable roof is not well resolved at roof level, and the facade appears to suffer from the plan rather than accompany it.",
+        "tags": [
+          "expression",
+          "facade",
+          "proportion"
+        ],
+        "position": {
+          "target": "gable roof and facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5949,
+            0.5191,
+            0.9545
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Gable roof profile and enclosing facade edges are clearly visible in the renders."
+        }
+      },
+      {
+        "statement": "The unfavorable form factor creates sustainability problems.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "unfavorable form factor",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6414,
+            0.6311,
+            0.3182
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Sustainability criticism concerns the visible elongated low building form."
+        }
+      },
+      {
+        "statement": "The staircase would have to be partitioned off to comply with fire protection regulations.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2951,
+            0.4797,
+            0.3182
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A central-low placement approximates the staircase within the elongated envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "layout",
+      "functionality",
+      "operation",
+      "urban integration",
+      "visibility",
+      "facade",
+      "sustainability",
+      "fire safety"
+    ]
+  }
+}

@@ -1,0 +1,417 @@
+{
+  "object_description": "compact four-storey solitaire forming an identity-giving urban cornerstone",
+  "geometry_property": [
+    "compact",
+    "four-storey",
+    "solitaire",
+    "rectangular",
+    "cornerstone",
+    "grid-based",
+    "fully-glazed"
+  ],
+  "design_condition": "The compact volume closes the public space between the existing buildings and creates independent open spaces to the north and south, while integrating the bridge into the northern edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building volume creates an identity-forming cornerstone at the end of the public space.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "identity-forming urban cornerstone",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9916,
+            0.4736,
+            0.5
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The compact solitaire reads as a distinct rectangular urban endpoint across all principal views."
+        }
+      },
+      {
+        "statement": "The urban positioning creates a new neighborhood square that can function independently of the sports field.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "independent neighborhood square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4891,
+            0.0904,
+            0.0316
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern open edge is the plausible independent square beside the compact volume."
+        }
+      },
+      {
+        "statement": "The bridge is closely connected to the school building and integrated into the urban space in a natural way.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "massing"
+        ],
+        "position": {
+          "target": "integrated northern bridge",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.5585
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The bridge connection is visibly concentrated along the northern building edge."
+        }
+      },
+      {
+        "statement": "The access cascade connects all floors, from the playground to the roof sports area.",
+        "tags": [
+          "circulation",
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "access cascade",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5889,
+            0.9067,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Diagonal and repeated vertical circulation traces are visible through the elevations."
+        }
+      },
+      {
+        "statement": "The communal rooms are functionally arranged and can be easily combined.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "communal rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior rooms are approximated within the central compact volume."
+        }
+      },
+      {
+        "statement": "The expressive glazing allows plenty of daylight into the interior.",
+        "tags": [
+          "facade",
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "expressive glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4891,
+            0.0904,
+            0.5585
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Dense regular facade sampling supports a continuous glazed exterior reading."
+        }
+      },
+      {
+        "statement": "The space efficiency and short distances support an economical solution.",
+        "tags": [
+          "layout",
+          "circulation",
+          "cost"
+        ],
+        "position": {
+          "target": "space-efficient building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic efficiency is a non-spatial judgment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The staircase offsets can only be bridged barrier-free by means of an elevator connection.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "staircase offsets",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5889,
+            0.9067,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "high",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "Circulation offsets are visibly concentrated near the northern connection and facade."
+        }
+      },
+      {
+        "statement": "The fixed grid only partially allows further subdivision of the proposed rooms.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "fixed room grid",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The repeated orthogonal grid is visible across the compact building envelope."
+        }
+      },
+      {
+        "statement": "The planned ball-catching height is insufficient.",
+        "tags": [
+          "safety",
+          "proportion"
+        ],
+        "position": {
+          "target": "insufficient ball-catching height",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4596,
+            0.9067,
+            0.9684
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "The critique concerns the roof sports area at the model’s upper level."
+        }
+      },
+      {
+        "statement": "The direct connection of the bridge exit to the façade is unproblematic for operations only with reservations.",
+        "tags": [
+          "operation",
+          "circulation",
+          "facade"
+        ],
+        "position": {
+          "target": "bridge exit at facade",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The bridge exit is localized where the northern access meets the building facade."
+        }
+      },
+      {
+        "statement": "The proposed statics appear undersized.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "undersized structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.5585
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular structural spacing is visible across the elevations, enabling a system-level anchor."
+        }
+      },
+      {
+        "statement": "The full-surface glazing must be questioned in terms of energy efficiency.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "full-surface glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4891,
+            0.0904,
+            0.5585
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled elevations visibly show dense full-height facade coverage."
+        }
+      },
+      {
+        "statement": "The construction method requires additional reworking time for fire-protection measures.",
+        "tags": [
+          "fire safety",
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "fire-protection reworking",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.6464
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Fire-protection work is assigned broadly within the multi-storey building envelope."
+        }
+      },
+      {
+        "statement": "Questions remain unanswered regarding the energy-related construction solutions.",
+        "tags": [
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "energy-related construction solutions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4831,
+            0.9067,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Energy construction questions concern the overall compact envelope and facade system."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "identity",
+      "massing",
+      "open space",
+      "circulation",
+      "accessibility",
+      "layout",
+      "daylight",
+      "structure",
+      "sustainability"
+    ]
+  }
+}

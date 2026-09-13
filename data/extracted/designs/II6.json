@@ -1,0 +1,332 @@
+{
+  "object_description": "articulated class volume with detached sports volume and staggered housing volumes",
+  "geometry_property": [
+    "articulated",
+    "detached",
+    "cubic",
+    "staggered",
+    "fragmented",
+    "monumental"
+  ],
+  "design_condition": "The project places the educational buildings along an existing green axis, with outdoor spaces between the volumes, but vehicle access and the fragmented arrangement weaken the continuity and identity of the park.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The separation of the classes and sports halls into two buildings is clearly organized.",
+        "tags": [
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "classes and sports halls",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6967,
+            0.32,
+            0.4167
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Separate upper-left and lower-right volumes clearly distinguish educational and sports masses."
+        }
+      },
+      {
+        "statement": "The central distribution space and atriums enrich the experience of the internal routes.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central distribution space and atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4484,
+            0.5484,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central openings and connecting spaces are legible within the articulated plan."
+        }
+      },
+      {
+        "statement": "The simplicity and unity of the facades were appreciated.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5069,
+            0.4823,
+            0.6667
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Simple continuous outer faces are visible across the staggered volumes."
+        }
+      },
+      {
+        "statement": "The landscaping is refined in section and articulates generously with the wooded edge, while managing the level difference for water recovery.",
+        "tags": [
+          "landscape",
+          "topography",
+          "sustainability"
+        ],
+        "position": {
+          "target": "wooded edge landscaping",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3367,
+            0.3287,
+            0.0833
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low perimeter anchor represents the landscaped edge and level-transition zone."
+        }
+      },
+      {
+        "statement": "The staggered cubic housing volumes are arranged within a heavily wooded landscaped setting.",
+        "tags": [
+          "massing",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "staggered cubic housing volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4383,
+            0.7076,
+            0.6667
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Staggered cubic masses are directly visible in the top and elevation projections."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central distribution system has no real functional added value, while the atriums suggest probable security issues.",
+        "tags": [
+          "functionality",
+          "safety"
+        ],
+        "position": {
+          "target": "central distribution system and atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4484,
+            0.5484,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central connector is visible, while functional and security consequences are inferred."
+        }
+      },
+      {
+        "statement": "The upper-level plan does not convincingly reproduce the distributive quality of the standard system.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "upper-level plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.436,
+            0.7109,
+            0.8333
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper projections constrain the criticized distribution at the roofward level."
+        }
+      },
+      {
+        "statement": "The overall architectural expression is considered rather banal.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns overall expression without a specific locatable feature."
+        }
+      },
+      {
+        "statement": "The monumental landscaping and parallel paths tend to divide the park.",
+        "tags": [
+          "landscape",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "monumental landscaping and parallel paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.501,
+            0.2759,
+            0
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A broad low site region represents paths dividing the park."
+        }
+      },
+      {
+        "statement": "Vehicle access crossing the greenery weakens the composition.",
+        "tags": [
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "vehicle access through greenery",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.36,
+            0.3022,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A ground-level peripheral anchor approximates the criticized crossing."
+        }
+      },
+      {
+        "statement": "Joining two built volumes creates a front and back and weakens the habitability of the exterior spaces.",
+        "tags": [
+          "massing",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "joined built volumes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5886,
+            0.3897,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The connection between masses is visible, with adjacent exterior space constrained around it."
+        }
+      },
+      {
+        "statement": "The fragmented housing proposal makes it difficult to give this portion of territory a clear identity.",
+        "tags": [
+          "massing",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "fragmented housing proposal",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4383,
+            0.7076,
+            0.4167
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distributed upper volumes provide the sampled anchor for the fragmented territorial identity."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "layout",
+      "circulation",
+      "functionality",
+      "facade",
+      "expression",
+      "landscape",
+      "open space",
+      "identity"
+    ]
+  }
+}

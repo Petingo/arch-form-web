@@ -1,0 +1,429 @@
+{
+  "object_description": "two-story mirrored pavilion with a shared roof",
+  "geometry_property": [
+    "two-story",
+    "mirror-symmetric",
+    "Z-shaped",
+    "large-footprint",
+    "roof-linked",
+    "compact"
+  ],
+  "design_condition": "The subordinate two-story volume adapts its footprint to the surroundings, forms two small forecourts, and uses a shared break roof to mediate elegantly between the existing school buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The basic figure is adapted to the surroundings through mirror symmetry and a relatively large footprint.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "mirror-symmetric basic figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3659,
+            0.3369,
+            0.5625
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The large mirrored pavilion footprint and stepped profile are clearly visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The break roof creates a single common place of arrival for the two-part school.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "break roof and common arrival place",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4436,
+            0.5652,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The shared roof is visibly continuous over the central arrival zone."
+        }
+      },
+      {
+        "statement": "The subordinating architectural expression continues coherently.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "subordinating architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The expression judgment concerns the overall building language rather than a single geometric feature."
+        }
+      },
+      {
+        "statement": "The central internal access offers good orientation.",
+        "tags": [
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "central internal access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6318,
+            0.6676,
+            0.5625
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central access is approximated at the internal hinge of the Z-shaped plan."
+        }
+      },
+      {
+        "statement": "The class floor offers an attractive range of spaces with real quality of stay.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "class floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6318,
+            0.6676,
+            0.75
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper occupied level is assigned to the elevated portion of the two-story pavilion."
+        }
+      },
+      {
+        "statement": "The zones for learning, playing and informal communication are very well exposed.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "learning, playing and informal communication zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3659,
+            0.3369,
+            0.6875
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "These internal zones are distributed across the upper pavilion level, not individually visible."
+        }
+      },
+      {
+        "statement": "The terraces are an extremely promising addition to everyday school life.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "terraces",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3031,
+            0.2372,
+            0.5625
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open terrace-like recesses are visible along the stepped perimeter of the plan."
+        }
+      },
+      {
+        "statement": "The arrangement of all classrooms upstairs positively influences exchange between the classes.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms upstairs",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6959,
+            0.6497,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom allocation is placed on the upper level of the visible two-story mass."
+        }
+      },
+      {
+        "statement": "Visibility is optimally guaranteed everywhere.",
+        "tags": [
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "visibility",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement evaluates visibility throughout the building rather than one location."
+        }
+      },
+      {
+        "statement": "The skeleton structure clearly separates primary and secondary structure and allows a free division of the internal organization.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "skeleton structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6612,
+            0.658,
+            0.5625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural organization is assigned broadly to the visible pavilion frame."
+        }
+      },
+      {
+        "statement": "The rational construction method with repetitive elements contributes to a reduction in construction costs.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "repetitive construction elements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6318,
+            0.6676,
+            0.5625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repetition is approximated across the building envelope visible in the elevations."
+        }
+      },
+      {
+        "statement": "The break roof is an identity-forming element mediating between old and new.",
+        "tags": [
+          "identity",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "break roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4436,
+            0.5652,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The shared break roof is the clearly visible mediating identity element."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The direct assignment of the cloakrooms to the classrooms is not completely resolved.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "cloakrooms and classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3311,
+            0.3453,
+            0.5625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The relationship is approximated within the lower-middle interior zone, without room boundaries in the sample."
+        }
+      },
+      {
+        "statement": "The location of the teachers' rooms is not quite ideal because of its distance from the entrance.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "teachers' rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8163,
+            0.6208,
+            0.4375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Teachers' rooms are placed approximately between the entrance zone and upper classroom areas."
+        }
+      },
+      {
+        "statement": "The comparatively small floor area and building volume are economical, but the individual jumps make the building little compact.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "small floor area and building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3659,
+            0.3369,
+            0.5625
+          ],
+          "radius": 0.3202,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compactness and stepped jumps are visible in the overall footprint and elevations."
+        }
+      },
+      {
+        "statement": "Replacing the two terraces with additional classrooms would massively weaken the core of the project idea.",
+        "tags": [
+          "flexibility",
+          "open space"
+        ],
+        "position": {
+          "target": "terraces versus additional classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3031,
+            0.2372,
+            0.5625
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The terrace locations are visible as perimeter recesses within the stepped plan."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "circulation",
+      "layout",
+      "functionality",
+      "open space",
+      "identity",
+      "structure",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

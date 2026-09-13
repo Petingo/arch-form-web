@@ -1,0 +1,378 @@
+{
+  "object_description": "narrow elongated backbone with permeable ground floor",
+  "geometry_property": [
+    "narrow",
+    "elongated",
+    "linear",
+    "perpendicular to road",
+    "backbone-like",
+    "permeable",
+    "plinth-based"
+  ],
+  "design_condition": "A narrow elongated volume is placed perpendicular to the road as a backbone, organizing the existing school, warehouse, gym, and a generous public space while connecting the eastern and western parts of the site.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban planning attitude is very interesting because the strategy saves the existing school and resolves the urban question in the first stage.",
+        "tags": [
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "existing school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1137,
+            0.4696,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated school/backbone mass is clearly visible along the western side and organizes the remaining sampled volumes."
+        }
+      },
+      {
+        "statement": "The narrow elongated building becomes a backbone that organizes the other elements and creates a well-defined public place.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "narrow elongated backbone",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1195,
+            0.4466,
+            0.5833
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct narrow linear volume is visible in plan and elevations, spanning the model diagonally."
+        }
+      },
+      {
+        "statement": "The permeable ground floor connects the areas on both sides of the school and produces a generous public space.",
+        "tags": [
+          "open space",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "permeable ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2367,
+            0.4389,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Open lower level is inferred beneath the elongated mass and adjacent connections."
+        }
+      },
+      {
+        "statement": "The simplicity of the upper structure contrasted with the organic ground floor is an interesting concept.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "upper structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0991,
+            0.527,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Simple elevated linear structure is visible above the lower-level organization."
+        }
+      },
+      {
+        "statement": "The placement of the classrooms on a single floor is appreciated.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms on a single floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2589,
+            0.5788,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom floor is assigned within the elongated upper volume at its repeated elevated level."
+        }
+      },
+      {
+        "statement": "The outdoor ground-floor space allows recreation in bad weather.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor ground-floor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3163,
+            0.2329,
+            0.0833
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Open space is placed beside the permeable lower level and between visible masses."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The resulting public space is generous but only sketchily organized.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "public space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.722,
+            0.4962,
+            0
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Large unbuilt area is visible east of the backbone but lacks distinguishable internal organization."
+        }
+      },
+      {
+        "statement": "Solving the school and gym in almost identical ways raises reservations about their formal expression and differing needs.",
+        "tags": [
+          "expression",
+          "functionality"
+        ],
+        "position": {
+          "target": "school and gym expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5,
+            0.81,
+            0.6667
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two separated sampled masses support a broad comparative architectural-expression anchor."
+        }
+      },
+      {
+        "statement": "The constructive resolution requires greater investigation.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "constructive resolution",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2618,
+            0.5673,
+            0.5833
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural concern is anchored to the main elongated building system."
+        }
+      },
+      {
+        "statement": "The first-floor distribution raises strong doubts about a space that cannot be merely transitional.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "first-floor distribution",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2618,
+            0.5673,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "First-floor criticism is assigned to the repeated upper level of the backbone."
+        }
+      },
+      {
+        "statement": "Using the school basement for almost all gym ancillary spaces is non-ideal and insufficiently studied.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1781,
+            0.4412,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Basement anchor follows the footprint of the elongated western building."
+        }
+      },
+      {
+        "statement": "The classrooms cannot communicate with each other.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0904,
+            0.5615,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classrooms are approximated along the upper backbone floor; internal communication is not directly visible."
+        }
+      },
+      {
+        "statement": "The ground-floor toilet location at the edge of the building is not very functional.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "ground-floor toilet",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2157,
+            0.1829,
+            0.0833
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Edge location is approximated at the southern outer edge of the ground-floor building footprint."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "expression",
+      "layout",
+      "functionality",
+      "circulation",
+      "structure",
+      "flexibility"
+    ]
+  }
+}

@@ -1,0 +1,287 @@
+{
+  "object_description": "two orthogonally arranged building volumes",
+  "geometry_property": [
+    "orthogonal",
+    "two-part",
+    "five-storey",
+    "compact upper volume",
+    "arcaded",
+    "relief façade"
+  ],
+  "design_condition": "The buildings are positioned around an orthogonal crossroads, separating school and public open spaces while connecting to the park and neighboring care center.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project impresses with its clarity and unambiguousness at a superordinate urban planning level.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "urban planning organization",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4961,
+            0.5112,
+            0.3739
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two orthogonal volumes and their crossroads relationship are clearly legible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The clever positioning of the buildings allows for a spacious, open green area with a sensible division into school and public open spaces.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "school and public green areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7393,
+            0.2907,
+            0.0625
+          ],
+          "radius": 0.318,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open areas are anchored on opposite sides of the orthogonally arranged volumes."
+        }
+      },
+      {
+        "statement": "The school building provides access to six well-functioning clusters on three floors.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "school clusters on three floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3007,
+            0.5723,
+            0.3739
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The school volume and repeated floor bands are visible, while individual clusters are not separable."
+        }
+      },
+      {
+        "statement": "Both buildings have a clear static structure visible in the high-quality façade.",
+        "tags": [
+          "structure",
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "static facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.725,
+            0.3582,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Regular facade bands and relief are directly visible on the exposed elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The rather high mounds with the necessary earth fillings are inappropriate and obstruct the open spaces.",
+        "tags": [
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "high earth mounds",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4271,
+            0.2413,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Topography is not distinguishable; an open-space edge is used for the constrained site anchor."
+        }
+      },
+      {
+        "statement": "The complicated route to the school swimming pool and the awkward arrangement of the checkrooms in the basement require revision.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "school pool and basement checkrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3528,
+            0.5972,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Interior facilities are absent, approximated on the lower school-volume surface."
+        }
+      },
+      {
+        "statement": "The all-weather pitch on the roof does not meet the requirements for the desired dimensions of the sports field.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "roof all-weather pitch",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6489,
+            0.4071,
+            0.9375
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper compact volume is visible, but a distinct sports pitch is not clearly separable."
+        }
+      },
+      {
+        "statement": "The volumetric division results in a relatively large façade area and a deficit in compactness.",
+        "tags": [
+          "massing",
+          "facade"
+        ],
+        "position": {
+          "target": "large facade area",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.706,
+            0.3704,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Long exposed elevations visibly support the facade-area and compactness criticism."
+        }
+      },
+      {
+        "statement": "The complex layout of the sports building would need to be revised.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "sports building layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7024,
+            0.5604,
+            0.3739
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The sports-related volume is approximated within the two-part massing, without interior distinctions."
+        }
+      },
+      {
+        "statement": "The proposed materialization is solid and durable, but expensive to construct.",
+        "tags": [
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "materialization cost",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5918,
+            0.4437,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Construction-cost concern is anchored to the visible durable facade and structural envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "topography",
+      "layout",
+      "functionality",
+      "circulation",
+      "facade",
+      "cost"
+    ]
+  }
+}

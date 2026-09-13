@@ -1,0 +1,393 @@
+{
+  "object_description": "five-story elongated building with recessed upper level and arcade",
+  "geometry_property": [
+    "elongated",
+    "orthogonal",
+    "five-story",
+    "recessed",
+    "arcaded",
+    "wide access zone"
+  ],
+  "design_condition": "Placed on the southern edge, the elongated volume connects to the existing base, defines a street-level central square, and reshapes the adjoining outdoor areas.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The elongated volume is embedded convincingly in the topographically difficult situation and defines an attractive central square.",
+        "tags": [
+          "topography",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "central square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5127,
+            0.1967,
+            0.0369
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated mass visibly frames a street-level open area along its southern edge."
+        }
+      },
+      {
+        "statement": "The orthogonal development pattern fits the existing buildings and supports legibility.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "orthogonal development pattern",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5451,
+            0.41,
+            0.5166
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular orthogonal edges and repeated levels are clear across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The public-intensive uses are coherently oriented toward the square and can be combined effectively.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "public-intensive uses toward the square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.1749,
+            0.2368
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A plausible lower southern zone faces the visible central square."
+        }
+      },
+      {
+        "statement": "The arcade living typology corresponds positively to campus living, and the floor-by-floor division of housing types is convincing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "arcade living typology",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5538,
+            0.3325,
+            0.5166
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated horizontal bands and recessed edges indicate an arcade-like residential zone."
+        }
+      },
+      {
+        "statement": "The recessed upper level is volumetrically clever and provides a covered outdoor area with functional advantages.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "recessed upper level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6385,
+            0.4537,
+            0.9165
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper mass is visibly set back, leaving a covered edge below."
+        }
+      },
+      {
+        "statement": "The proposed timber construction is structurally well thought through, while the rooms have a pleasant simplicity and directness.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "timber construction and simple rooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4094,
+            0.3465,
+            0.5566
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled building envelope supports a broad structural and spatial reading, though rooms are not resolved."
+        }
+      },
+      {
+        "statement": "The planted arcade promises a high quality of stay through climate-regulating vegetation.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "planted arcade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5127,
+            0.1967,
+            0.4767
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern edge provides the most plausible location for the planted arcade."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The position of the multi-purpose hall behind the new stairs is somewhat unfavorable.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "multi-purpose hall behind new stairs",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3259,
+            0.1093,
+            0.3167
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A lower southern access zone is plausible, but the hall and stairs are not distinguishable."
+        }
+      },
+      {
+        "statement": "The studios and apartments are generally sparsely lit, and the direct entry into the living-dining area is critically questioned.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "studios and apartments",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6995,
+            0.2842,
+            0.5966
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Residential rooms are approximated along the southern envelope; interior lighting and entry conditions are unresolved."
+        }
+      },
+      {
+        "statement": "The rational grid cannot be maintained across the different housing offerings, the wet cells are poorly stacked, and the top-floor static system is unconvincing.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "housing grid and wet cells",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8212,
+            0.5392,
+            0.8365
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper residential structure is broadly anchored to the visible mass, without interior system evidence."
+        }
+      },
+      {
+        "statement": "The external-space visualization and proposed materiality read as two unrelated worlds, so the intention cannot be clearly understood.",
+        "tags": [
+          "expression",
+          "landscape"
+        ],
+        "position": {
+          "target": "external-space visualization and materiality",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1933,
+            0.1325,
+            0.0769
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern building-edge and adjoining open-space interface is the relevant visible comparison zone."
+        }
+      },
+      {
+        "statement": "The flat open-space concept seals large areas and sacrifices some mature trees without the visualized species-rich planting being evident.",
+        "tags": [
+          "landscape",
+          "sustainability",
+          "open space"
+        ],
+        "position": {
+          "target": "flat open-space concept and mature trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7463,
+            0.306,
+            0.0369
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A peripheral southern site area is indicated, but paving and tree species are not represented distinctly."
+        }
+      },
+      {
+        "statement": "Planting the wooden structure with climbing plants may create problems for longevity.",
+        "tags": [
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "climbing plants on wooden structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5127,
+            0.1967,
+            0.5566
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely planted facade aligns with the southern arcade, though climbing vegetation is not visible."
+        }
+      },
+      {
+        "statement": "The green roof appears to have only a thin substrate layer, with no apparent use of the roof areas.",
+        "tags": [
+          "sustainability",
+          "functionality"
+        ],
+        "position": {
+          "target": "green roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5353,
+            0.8251,
+            0.9964
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The roof plane is visible at the recessed upper footprint; substrate depth and use remain indeterminate."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "topography",
+      "open space",
+      "layout",
+      "functionality",
+      "circulation",
+      "daylight",
+      "structure",
+      "landscape",
+      "sustainability"
+    ]
+  }
+}

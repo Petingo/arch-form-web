@@ -1,0 +1,369 @@
+{
+  "object_description": "cluster of three pavilions with a separate partly sunken solitaire",
+  "geometry_property": [
+    "clustered",
+    "detached",
+    "two-storey",
+    "pentagonal",
+    "partly sunken",
+    "pavilion-like",
+    "courtyard-carved",
+    "slope-adapted"
+  ],
+  "design_condition": "The clustered pavilions are placed on flattened ground at the northern perimeter, while the separate solitaire sinks into the mountain-side terrain and forms its own eastern outdoor area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building volumes convey their own identity and create a coherent, independent architectural formulation.",
+        "tags": [
+          "identity",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2742,
+            0.6497,
+            0.5949
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three distinct pavilion volumes visibly establish separate identities within a coherent cluster."
+        }
+      },
+      {
+        "statement": "The courtyards and skylights form centers that make orientation easier, while the surrounding corridors are well lit.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "courtyards and skylights",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3685,
+            0.6178,
+            0.5949
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple clustered pavilion centers and openings are visible in the top view and elevations."
+        }
+      },
+      {
+        "statement": "The units are arranged so that flexibility in use is possible.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2742,
+            0.6497,
+            0.5949
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Detached units are clearly separated in the clustered footprint, supporting flexible use."
+        }
+      },
+      {
+        "statement": "Separating the school and gym from the clinic creates a welcome route to the school.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "route to the school",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1871,
+            0.526,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The route is approximated through the gap between clustered school-gym pavilions and the solitaire."
+        }
+      },
+      {
+        "statement": "The floor plan allows good flexibility in the use of space and provides a good overview.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "floor plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2742,
+            0.6497,
+            0.5949
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Plan-level flexibility and overview are assigned broadly across the visible pavilion cluster."
+        }
+      },
+      {
+        "statement": "The project offers an inviting, friendly atmosphere and a well-thought-out, efficient operating concept.",
+        "tags": [
+          "functionality",
+          "operation",
+          "expression"
+        ],
+        "position": {
+          "target": "operating concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2742,
+            0.6497,
+            0.5949
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Operational assessment applies across the clustered buildings and their connecting spaces."
+        }
+      },
+      {
+        "statement": "The vertical expansion potential is a particular plus.",
+        "tags": [
+          "flexibility",
+          "massing"
+        ],
+        "position": {
+          "target": "vertical expansion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2742,
+            0.6497,
+            1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Expansion potential is anchored at the upper envelope of the two-storey pavilion cluster."
+        }
+      },
+      {
+        "statement": "A pedestrian connection creates a clear address and connects the building groups well to neighboring districts.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "pedestrian connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7771,
+            0.2973,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The connection is approximated along the open approach between the pavilion cluster and eastern solitaire."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "It is not entirely clear how the separate solitaire is intended to connect to the ground.",
+        "tags": [
+          "topography",
+          "massing"
+        ],
+        "position": {
+          "target": "separate solitaire",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8644,
+            0.1867,
+            0.3924
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The detached eastern solitaire is clearly visible and partly separated from the northern pavilion cluster."
+        }
+      },
+      {
+        "statement": "The ward rooms are too peripheral and views into the rooms are not available everywhere.",
+        "tags": [
+          "layout",
+          "visibility",
+          "privacy"
+        ],
+        "position": {
+          "target": "ward rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2395,
+            0.6671,
+            0.5949
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ward-room placement is estimated within the main pavilion cluster near its peripheral edges."
+        }
+      },
+      {
+        "statement": "Monitoring room access is not possible.",
+        "tags": [
+          "operation",
+          "safety"
+        ],
+        "position": {
+          "target": "monitoring room access",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2967,
+            0.7791,
+            0.5949
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The monitoring room is not distinguishable, so access is approximated within the main cluster."
+        }
+      },
+      {
+        "statement": "The entrances and common areas are too inconspicuous to create a clear address.",
+        "tags": [
+          "circulation",
+          "visibility",
+          "identity"
+        ],
+        "position": {
+          "target": "entrances and common areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3732,
+            0.5479,
+            0.1899
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Entry and common-area concerns are placed at the lower approach edge of the pavilion cluster."
+        }
+      },
+      {
+        "statement": "The low and sparse Alpinum vegetation can hardly guarantee the required protection and retreat.",
+        "tags": [
+          "privacy",
+          "landscape"
+        ],
+        "position": {
+          "target": "Alpinum vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9401,
+            0.0554,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape protection is approximated around the separate eastern solitaire's outdoor area."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "identity",
+      "daylight",
+      "circulation",
+      "flexibility",
+      "operation",
+      "privacy",
+      "landscape"
+    ]
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "object_description": "compact slender bar with differentiated facades and terraced outdoor spaces",
+  "geometry_property": [
+    "compact",
+    "slender",
+    "linear",
+    "bar-shaped",
+    "terraced",
+    "multi-level",
+    "proportioned"
+  ],
+  "design_condition": "The compact body sits centrally to divide the open space into front and garden zones while preserving the green belt and allowing potential future development.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact body creates generous outdoor spaces and potential for another building.",
+        "tags": [
+          "massing",
+          "open space",
+          "flexibility"
+        ],
+        "position": {
+          "target": "compact central body",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3801,
+            0.3643,
+            0.4102
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "A single slender bar is clearly centered between broad front and garden-side open spaces."
+        }
+      },
+      {
+        "statement": "The green belt is integrated optimally into the project and supports diverse outdoor use.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "green belt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6424,
+            0.6822,
+            0.0564
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Vegetation is not sampled; the garden-side perimeter provides the constrained landscape location."
+        }
+      },
+      {
+        "statement": "The body and facades have beautiful proportions.",
+        "tags": [
+          "proportion",
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "proportioned facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4554,
+            0.2283,
+            0.5872
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The long bar and differentiated elevation bands make facade proportions visible."
+        }
+      },
+      {
+        "statement": "The different entrances make the desired separation possible.",
+        "tags": [
+          "circulation",
+          "layout",
+          "privacy"
+        ],
+        "position": {
+          "target": "different entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5025,
+            0.1998,
+            0.2333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are not individually identifiable; the marker uses the front longitudinal edge."
+        }
+      },
+      {
+        "statement": "The staircases and access axes offer ideal connections within the house.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "staircases and access axes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3801,
+            0.3643,
+            0.4102
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation is interior and unresolved, constrained to the central bar."
+        }
+      },
+      {
+        "statement": "The structural system will enable flexible room layout in the future.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "flexible structural system",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Future layout flexibility describes the structural concept rather than one visible location."
+        }
+      },
+      {
+        "statement": "The linden tree can be preserved.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "preserved linden tree",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7026,
+            0.6296,
+            0.0564
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The tree is absent from the point cloud; the garden-side green belt supplies an approximate location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large glass surfaces pose a risk that the indoor climate can only be controlled with complex building technology.",
+        "tags": [
+          "facade",
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "large glass surfaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4554,
+            0.2283,
+            0.5282
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "The long front and rear elevations are visible, though glazing is not separately resolved."
+        }
+      },
+      {
+        "statement": "With the awnings down, artificial lighting may be necessary inside.",
+        "tags": [
+          "daylight",
+          "facade"
+        ],
+        "position": {
+          "target": "awnings and interior lighting",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4554,
+            0.2283,
+            0.6461
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Awnings are not distinguishable; the marker estimates the exposed facade zone."
+        }
+      },
+      {
+        "statement": "The structure violates the distance from the forest and requires a special plan or exception.",
+        "tags": [
+          "urban integration",
+          "safety"
+        ],
+        "position": {
+          "target": "forest-distance violation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7026,
+            0.6296,
+            0.1154
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The forest boundary is absent; the rear perimeter is the only directional spatial constraint."
+        }
+      },
+      {
+        "statement": "The slim bar pushes the school building's front side too tightly into the topography.",
+        "tags": [
+          "topography",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "school building front side",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5025,
+            0.1998,
+            0.2923
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The front longitudinal edge is visible as the bar approaches the lower terrain side."
+        }
+      },
+      {
+        "statement": "The quality of the rearmost kindergarten and its group room suffers from this measure.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "rearmost kindergarten group room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7227,
+            0.612,
+            0.3513
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The rear room is not distinguishable; the marker uses the garden-side end of the bar."
+        }
+      },
+      {
+        "statement": "The parking arrangement causes undesirable shading of the rear cloakroom.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2858,
+            0.3895,
+            0.1154
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent from the sample; the marker estimates the front-side access zone."
+        }
+      },
+      {
+        "statement": "The basement makes construction and development more complex than a ground-level arrangement.",
+        "tags": [
+          "cost",
+          "functionality"
+        ],
+        "position": {
+          "target": "basement construction",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3801,
+            0.3643,
+            0.0564
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Lower elevation bands indicate a possible basement-level zone beneath the compact bar."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "landscape",
+      "facade",
+      "proportion",
+      "circulation",
+      "flexibility",
+      "daylight",
+      "topography",
+      "cost"
+    ]
+  }
+}

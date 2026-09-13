@@ -1,0 +1,145 @@
+{
+  "object_description": "two distinct building volumes with a southward extension",
+  "geometry_property": [
+    "detached",
+    "two-part",
+    "modular",
+    "compact",
+    "small-scale",
+    "southward extension"
+  ],
+  "design_condition": "The multipurpose volume is placed east of the grounds and the extension projects south from the existing structure, while demolitions clarify the square.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The resulting layout and spatiality, with two distinct spaces, were appreciated by the jury.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "two distinct spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4865,
+            0.5902,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The separated elongated and compact volumes visibly create distinct spatial parts."
+        }
+      },
+      {
+        "statement": "Prefabrication offers executive advantages and short execution times.",
+        "tags": [
+          "structure",
+          "operation"
+        ],
+        "position": {
+          "target": "prefabrication",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Execution advantages and timing have no useful spatial referent in the sampled geometry."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The added module with architecture identical to the existing classroom block was considered implausible.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "added module",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6849,
+            0.8697,
+            0.1667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The detached east volume is the most plausible sampled anchor for the added module."
+        }
+      },
+      {
+        "statement": "The architectural language of the other additions was considered poorly integrated with the pre-existing buildings.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "other additions and pre-existing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4865,
+            0.5902,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central junction approximates the relationship between additions and existing massing."
+        }
+      },
+      {
+        "statement": "The materialization was judged to have relatively expensive costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "materialization costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent in the sampled model."
+        }
+      }
+    ],
+    "keyword": [
+      "layout",
+      "open space",
+      "massing",
+      "expression",
+      "urban integration",
+      "structure",
+      "operation",
+      "cost"
+    ]
+  }
+}

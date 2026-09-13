@@ -1,0 +1,510 @@
+{
+  "object_description": "large isolated puristic cuboid with basement atriums and a central atrium",
+  "geometry_property": [
+    "cuboid",
+    "isolated",
+    "puristic",
+    "rectangular",
+    "well-proportioned",
+    "basement-supported",
+    "atrium-containing",
+    "glazed"
+  ],
+  "design_condition": "The cuboid mediates between three distinct urban structures, maintaining distance from its surroundings while concentrating much of the program below ground and shaping several surrounding open spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The stand-alone cuboid is well-proportioned, efficiently organized, and maintains sufficient distance from its surroundings.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "stand-alone cuboid",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5158,
+            0.5913,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Cuboid massing and isolation are clearly visible across the calibrated top and elevation views."
+        }
+      },
+      {
+        "statement": "The forecourt-foyer-atrium sequence is smooth and impressive.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "forecourt-foyer-atrium sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4946,
+            0.1167,
+            0.3214
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-central approach and central void provide a constrained anchor for the sequential spatial experience."
+        }
+      },
+      {
+        "statement": "The large atrium links teaching, research, and departments visually, functionally, and symbolically.",
+        "tags": [
+          "layout",
+          "functionality",
+          "identity"
+        ],
+        "position": {
+          "target": "large atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5158,
+            0.5913,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central rectangular void is clearly legible in plan and aligned with the elevations."
+        }
+      },
+      {
+        "statement": "The atrium provides an airy and spectacular central heart for the building.",
+        "tags": [
+          "expression",
+          "open space"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5158,
+            0.5913,
+            0.5357
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central atrium placement is corroborated by the top view and corresponding elevation openings."
+        }
+      },
+      {
+        "statement": "The open-space concept creates usable areas with low sealing, effective rainwater management, and high biodiversity.",
+        "tags": [
+          "open space",
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "surrounding open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2799,
+            0.5829,
+            0.0357
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Perimeter open-space bands are visible around the isolated building footprint in the top view."
+        }
+      },
+      {
+        "statement": "The building is clear and effectively organized inside.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "interior organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3015,
+            0.3125,
+            0.4643
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is not exposed, so the marker uses a distributed low-level building-surface approximation."
+        }
+      },
+      {
+        "statement": "The construction costs are within the specifications.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost compliance has no useful geometric referent in the sampled model."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Enlarging the cuboid reduces and underdevelops the open space.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "enlarged cuboid and reduced open space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5158,
+            0.5913,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full cuboid envelope and its surrounding open-space margin are directly visible across all views."
+        }
+      },
+      {
+        "statement": "The southeast square has limited staying quality, while the western garden remains spatially undecided and residual.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "southeast square and western garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7953,
+            0.1275,
+            0.0357
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southeast and western landscape areas are constrained by the building footprint and visible perimeter spaces."
+        }
+      },
+      {
+        "statement": "The fitness area is awkwardly divided into two unconnected zones.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "fitness area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7953,
+            0.1275,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The fitness zones are interior and indistinguishable, so the marker uses a lower-level southeast approximation."
+        }
+      },
+      {
+        "statement": "Innovative university operations are only rudimentarily represented in the floor plans.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "university operations",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3015,
+            0.3125,
+            0.4286
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Operational planning is not visible; the marker approximates an interior mid-level zone from the sampled envelope."
+        }
+      },
+      {
+        "statement": "Noise from the foyer, meeting, and catering areas remains problematic, especially around the atrium.",
+        "tags": [
+          "acoustics",
+          "functionality"
+        ],
+        "position": {
+          "target": "foyer, meeting, and catering areas around the atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5158,
+            0.5913,
+            0.4643
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central atrium is visible, while surrounding acoustic sources are inferred as adjacent internal zones."
+        }
+      },
+      {
+        "statement": "The flexibility suggested by the floor plan is severely limited by restrictive fire-protection conditions.",
+        "tags": [
+          "flexibility",
+          "fire safety"
+        ],
+        "position": {
+          "target": "restrictive fire-protection conditions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6624,
+            0.3254,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Fire-protection constraints lack a visible element, so a distributed building-level approximation is used."
+        }
+      },
+      {
+        "statement": "The facade evokes an office building and does not adequately represent the institution.",
+        "tags": [
+          "facade",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.489,
+            0.0151,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "The repetitive cuboid facade is directly visible and comparable across all four elevations."
+        }
+      },
+      {
+        "statement": "The large glass sheds lack delicacy, while the high glazing proportion is energetically unfavorable and difficult to clean.",
+        "tags": [
+          "facade",
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "large glass sheds",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5158,
+            0.5913,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level shed-like glazed elements are identified from the top silhouette and upper elevation bands."
+        }
+      },
+      {
+        "statement": "Some teaching rooms receive no natural light, and other teaching rooms have unfavorable side lighting.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "teaching rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3015,
+            0.3125,
+            0.5714
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Teaching-room daylight conditions are not directly visible; placement is constrained to a south-side upper zone."
+        }
+      },
+      {
+        "statement": "The building's usage density appears too high.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "whole building usage density",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6361,
+            0.5956,
+            0.5357
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Density is a building-wide judgment, anchored to the visible overall mass and distributed envelope."
+        }
+      },
+      {
+        "statement": "The delivery arrangement and bicycle parking are unsatisfactory.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "delivery arrangement and bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8554,
+            0.1296,
+            0.0357
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Service and bicycle facilities are not distinguishable, so the southeast site edge provides a directional approximation."
+        }
+      },
+      {
+        "statement": "The life-cycle costs exceed expectations and the energy concept is considered unsustainable.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "life-cycle costs and energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and energy performance judgments have no reliable spatial marker in the sampled geometry."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "layout",
+      "functionality",
+      "operation",
+      "acoustics",
+      "fire safety",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

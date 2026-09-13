@@ -1,0 +1,368 @@
+{
+  "object_description": "single-story kindergarten row paired with a three-story care building",
+  "geometry_property": [
+    "paired volumes",
+    "linear",
+    "single-story",
+    "three-story",
+    "slope-adapted",
+    "staggered",
+    "edge-forming"
+  ],
+  "design_condition": "The two buildings occupy opposing site edges, adapt their heights to the terrain, close the square, and divide the open space into distinct zones.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building types respond convincingly to the different topographical conditions.",
+        "tags": [
+          "topography",
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "topographical building types",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2572,
+            0.3664,
+            0.2833
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The paired linear volumes visibly differ in height and occupy opposing terrain edges."
+        }
+      },
+      {
+        "statement": "The structural occupation of the edges closes the square and creates open space inside.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "square-closing edge structures",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4245,
+            0.4952,
+            0.14
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two opposing bars define an enclosed central open-space field."
+        }
+      },
+      {
+        "statement": "Massing and volume formation respond well to the immediate neighborhoods.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "neighborhood-responsive massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2217,
+            0.2625,
+            0.57
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The long paired masses visibly establish a low-to-high edge relationship across the site."
+        }
+      },
+      {
+        "statement": "Interior and exterior spaces are woven together in a direct and easily accessible way.",
+        "tags": [
+          "layout",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "interior and exterior connections",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4245,
+            0.4952,
+            0.14
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Open space is visibly positioned between the two accessible linear building edges."
+        }
+      },
+      {
+        "statement": "The kindergarten building is naturally staggered into the area and convincingly concludes the valley side with outdoor space.",
+        "tags": [
+          "topography",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "staggered kindergarten building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2064,
+            0.3519,
+            0.14
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The low linear volume is visibly staggered along one site edge beside outdoor space."
+        }
+      },
+      {
+        "statement": "The building separates and connects spaces in a convincingly functional way.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "functional separation and connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4245,
+            0.4952,
+            0.4266
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior organization is not resolved, so the marker uses the central relationship between paired volumes."
+        }
+      },
+      {
+        "statement": "Both buildings achieve polyvalence comparatively well due to their structural clarity.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "polyvalent structural clarity",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Polyvalence is a whole-building performance judgment without a single spatial referent."
+        }
+      },
+      {
+        "statement": "The ensemble creates a convincing completion of the square and a differentiated discussion of the location and task.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "completion of the square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4245,
+            0.4952,
+            0.14
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The opposing volumes visibly frame and differentiate the central square."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The hedge structure separates the kindergarten groups, reducing coexistence and making the open space appear fragmented.",
+        "tags": [
+          "open space",
+          "layout",
+          "privacy"
+        ],
+        "position": {
+          "target": "hedge structure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4245,
+            0.4952,
+            0.14
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Hedges are not sampled; the marker estimates the central open-space divider."
+        }
+      },
+      {
+        "statement": "The overall large footprint makes the open space correspondingly smaller.",
+        "tags": [
+          "massing",
+          "open space",
+          "scale"
+        ],
+        "position": {
+          "target": "large building footprint",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2643,
+            0.3872,
+            0.14
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The paired bars occupy substantial opposing site edges, visibly reducing the central void."
+        }
+      },
+      {
+        "statement": "The childcare building's functionality is more modest and its interweaving is not essential.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "childcare building functionality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8388,
+            0.6187,
+            0.7133
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The taller opposing volume is identifiable, but internal functionality is not visible in the sample."
+        }
+      },
+      {
+        "statement": "Design elements in the childcare building sometimes appear applied and arbitrary.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "applied design elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8388,
+            0.6187,
+            0.7133
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Facade additions are not distinguishable; the marker is placed on the taller building envelope."
+        }
+      },
+      {
+        "statement": "The roof shape seems driven less by local planning necessity than by the search for analogy.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "analogical roof shape",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8395,
+            0.6208,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The taller building's roof line is visible as a repeated linear upper edge."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "topography",
+      "open space",
+      "layout",
+      "functionality",
+      "flexibility",
+      "expression"
+    ]
+  }
+}

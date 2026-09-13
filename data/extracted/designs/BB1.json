@@ -1,0 +1,229 @@
+{
+  "object_description": "three articulated compact building volumes",
+  "geometry_property": [
+    "three-part",
+    "articulated",
+    "compact",
+    "three-level",
+    "partially excavated",
+    "topographically adapted"
+  ],
+  "design_condition": "The children's center is placed at the top of the site and uses three articulated volumes, horizontal paths, and stepped levels to reinforce the existing settlement and landscape structure.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project offers a detailed reading of the block and very precise work on its layout.",
+        "tags": [
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "block layout",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4574,
+            0.5434,
+            0.3529
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Articulated masses and precise site placement are clearly visible in the top view and elevations."
+        }
+      },
+      {
+        "statement": "The articulated buildings interact with existing buildings and reinforce the character of the settlement.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "articulated buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4574,
+            0.5434,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three compact articulated volumes are legible across all calibrated views."
+        }
+      },
+      {
+        "statement": "Horizontal paths integrate the parking lot and future school into the site as components of its quality.",
+        "tags": [
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "horizontal paths and parking lot",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2264,
+            0.499,
+            0.1176
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Site-edge paths and lower open areas are visible, though parking is not separately identified."
+        }
+      },
+      {
+        "statement": "The organization across three levels uses the topography to provide age-appropriate outdoor connections.",
+        "tags": [
+          "topography",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "three-level outdoor connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4574,
+            0.5434,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped and vertically varied masses visibly support the three-level topographic organization."
+        }
+      },
+      {
+        "statement": "The functions are organized to ensure optimal operation of the children's center.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "children's center operation",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational quality concerns the whole center rather than a specific geometric location."
+        }
+      },
+      {
+        "statement": "The sober architectural expression blends naturally into the existing fabric while providing an evocative image.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "sober architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4646,
+            0.0296,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact stepped façades and restrained massing are clearly visible in the elevations."
+        }
+      },
+      {
+        "statement": "The volume and compactness are favorable economically and in terms of sustainable development.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic and sustainability judgment applies to overall compactness, without a single marker."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The after-school reading and rest area should be located in a quieter area given its function.",
+        "tags": [
+          "layout",
+          "acoustics"
+        ],
+        "position": {
+          "target": "after-school reading and rest area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7878,
+            0.6236,
+            0.4412
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior quiet area is not visible; a rear upper-volume location provides a constrained approximation."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "massing",
+      "topography",
+      "landscape",
+      "operation",
+      "functionality",
+      "expression",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

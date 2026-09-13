@@ -1,0 +1,471 @@
+{
+  "object_description": "large symmetrical three-storey volume with folded roof",
+  "geometry_property": [
+    "large",
+    "three-storey",
+    "solitary",
+    "symmetrical",
+    "slope-staggered",
+    "folded-roofed",
+    "broad-footprint"
+  ],
+  "design_condition": "The solitary volume follows the slope and matches the neighborhood scale, but its broad footprint places it close to the main street, restricts surrounding usable space, weakens its relationship to the existing complex, and affects downdrafts.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The slope-following staggering achieves successful integration with the neighborhood scale.",
+        "tags": [
+          "topography",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "slope-following staggering",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.5449
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad stepped massing and changing elevations are clearly visible across the model."
+        }
+      },
+      {
+        "statement": "The clear volume and organization on the visible surface continue coherently into the basement levels.",
+        "tags": [
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "clear volume and basement organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.2724
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The main volume and lowest layers align coherently in the sampled elevations."
+        }
+      },
+      {
+        "statement": "The spacious school square forms a central element connecting the schoolyard with the existing gymnasium wing.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "school square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5463,
+            0.368,
+            0.1816
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central-front exterior zone is selected as the likely square connecting the building and gymnasium."
+        }
+      },
+      {
+        "statement": "The canteen and multi-purpose rooms face the existing school and invite communal use.",
+        "tags": [
+          "layout",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "canteen and multi-purpose rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3054,
+            0.265,
+            0.4087
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Named communal rooms are approximated on the side facing the existing-school direction."
+        }
+      },
+      {
+        "statement": "The spaciousness of the interconnecting rooms is welcome.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "interconnecting rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.4995
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior room spaciousness is anchored within the central broad footprint."
+        }
+      },
+      {
+        "statement": "The rhythmic façade and folded roof provide a convincing architectural expression.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "rhythmic façade and folded roof",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4874,
+            0.5334,
+            0.9081
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated elevations and folded upper silhouette are clearly visible across multiple views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large occupied floor area severely restricts the usable surrounding area.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "usable surrounding area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.238,
+            0.3132,
+            0.0908
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral open area beside the broad footprint represents the restricted usable surroundings."
+        }
+      },
+      {
+        "statement": "The new building has little relationship with the existing building when viewed as a whole.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "relationship with existing building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2717,
+            0.2891,
+            0.0908
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The likely connecting exterior side is marked near the building’s front-left edge."
+        }
+      },
+      {
+        "statement": "The building size significantly influences downdrafts.",
+        "tags": [
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "downdrafts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.4995
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad building volume is the spatial source associated with the stated wind effect."
+        }
+      },
+      {
+        "statement": "The symmetry dominates the organization and makes it inefficient.",
+        "tags": [
+          "layout",
+          "functionality",
+          "proportion"
+        ],
+        "position": {
+          "target": "symmetrical organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.4995
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Symmetrical broad massing is directly evident in the sampled plans and elevations."
+        }
+      },
+      {
+        "statement": "The cascading access routes are very long and not very intuitive.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "cascading access routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2884,
+            0.5525,
+            0.3178
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Access is approximated along the stepped side of the slope-following building."
+        }
+      },
+      {
+        "statement": "Routing everyday school access past the indoor swimming pool is viewed critically.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "indoor swimming pool route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6626,
+            0.4834,
+            0.4087
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The route is not visible; a side interior zone is selected as a constrained proxy."
+        }
+      },
+      {
+        "statement": "The kitchen is located on the opposite side of the building and is considered impractical.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "kitchen",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8069,
+            0.6209,
+            0.3178
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Kitchen location is not distinguishable, so it is placed on the opposite lateral side."
+        }
+      },
+      {
+        "statement": "The circular corridor and single elevator system create long access routes and are uneconomical overall.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "cost"
+        ],
+        "position": {
+          "target": "circular corridor and elevator",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.4995
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is approximated centrally within the symmetrical volume."
+        }
+      },
+      {
+        "statement": "The veranda is not understood in connection with the otherwise successful side façades.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "veranda",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2884,
+            0.5525,
+            0.4995
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A side façade edge is used as the likely veranda location."
+        }
+      },
+      {
+        "statement": "The urban-planning positioning makes little reference to the existing complex.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "urban-planning positioning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2717,
+            0.2891,
+            0.0908
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Placement judgment is anchored to the building’s likely relationship edge toward the existing complex."
+        }
+      },
+      {
+        "statement": "The functionality of the building, including its symmetry, access typology, and functional arrangement, is not convincing.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "overall functionality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5739,
+            0.488,
+            0.4995
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall functionality applies to the complete sampled building and its visible organization."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "scale",
+      "open space",
+      "layout",
+      "functionality",
+      "circulation",
+      "accessibility",
+      "facade",
+      "expression"
+    ]
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "object_description": "over-corner volume connecting the school square and sloping landscape",
+  "geometry_property": [
+    "over-corner",
+    "set back",
+    "slope-edge volume",
+    "transparent ground floor",
+    "gymnasium base",
+    "covered atrium",
+    "compact clusters",
+    "layered"
+  ],
+  "design_condition": "Set back from the street and positioned on the dominant slope edge, the new volume connects the two school-ground levels, defines the school square, and integrates the wooded embankment into the open-space system.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The volumetric disposition respectfully strengthens the site and the listed buildings as an ensemble.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "site ensemble",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6124,
+            0.5631,
+            0.5
+          ],
+          "radius": 0.32021,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper and lower volumes visibly form a connected ensemble around the sloping open-space edge."
+        }
+      },
+      {
+        "statement": "The transparent ground floor mediates between the school square and the landscape, while the square provides identity and orientation.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "visibility"
+        ],
+        "position": {
+          "target": "transparent ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6399,
+            0.5704,
+            0.1875
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level massing and open base are visible between the upper volume and landscape."
+        }
+      },
+      {
+        "statement": "The continuation of the slope edge to the street creates an exciting sequence of streetscapes.",
+        "tags": [
+          "urban integration",
+          "topography",
+          "expression"
+        ],
+        "position": {
+          "target": "slope edge to the street",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.304,
+            0.2815,
+            0.1875
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The detached lower form visibly continues the diagonal slope-edge sequence toward the street."
+        }
+      },
+      {
+        "statement": "The precise positioning develops the embankment's presence and integrates the wooded area as part of the open space.",
+        "tags": [
+          "topography",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "wooded area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3998,
+            0.3543,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape is not explicitly sampled, so the adjacent lower open-space edge provides the approximate anchor."
+        }
+      },
+      {
+        "statement": "The generously proportioned foyer functions as an extension of the square and mediates between school, auditorium, and library uses.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "generous foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4943,
+            0.3245,
+            0.1875
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The foyer is approximated in the lower central transition between the square-facing and landscape-facing masses."
+        }
+      },
+      {
+        "statement": "The façade grid ties in with the architectural language of the existing wing and its color accentuation mediates between the existing buildings.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "facade grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8048,
+            0.6139,
+            0.625
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The upper volume perimeter is clearly visible, providing an approximate façade anchor."
+        }
+      },
+      {
+        "statement": "The open-space concept has clear zoning, careful handling of existing qualities, and coherent new elements.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "open-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.428,
+            0.3481,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open space is represented by the visible separation and transition between the two sampled masses."
+        }
+      },
+      {
+        "statement": "The structural system follows the architectural and functional logic and promises efficient load transfer.",
+        "tags": [
+          "structure",
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6948,
+            0.5849,
+            0.5625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structure is not individually distinguishable, so it is anchored within the clearly sampled upper volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "It is questionable whether the ensemble would remain respectfully strengthened with the planned extension.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "ensemble extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6948,
+            0.5849,
+            0.5625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The judgment concerns the relationship of the main upper extension to the lower connecting volume."
+        }
+      },
+      {
+        "statement": "The access to the ensemble and the routes from the west and north are not convincing.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "west and north routes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.212,
+            0.6138,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Routes are not sampled directly; the western and northern perimeter around the volumes supplies the constrained anchor."
+        }
+      },
+      {
+        "statement": "The group rooms are not located between the classroom units as required, calling the intended flexibility of the studios into question.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5677,
+            0.7099,
+            0.5625
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are absent, so the upper building surface provides a plausible classroom-zone location."
+        }
+      },
+      {
+        "statement": "The sports hall is unevenly lit and its hall access separates the direct connection between the equipment room and the hall.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "sports hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6399,
+            0.5704,
+            0.1875
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sports hall is approximated within the lower building base, where its sampled mass is most evident."
+        }
+      },
+      {
+        "statement": "There is a lack of clear statements on the materialization and structural design of the façades.",
+        "tags": [
+          "facade",
+          "structure"
+        ],
+        "position": {
+          "target": "façade materialization and structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8048,
+            0.6139,
+            0.625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The façade perimeter is visible, but material and structural articulation are not distinguishable."
+        }
+      },
+      {
+        "statement": "The childcare outdoor areas are problematic because they adjoin parking and are not directly accessible from the childcare facilities.",
+        "tags": [
+          "open space",
+          "accessibility",
+          "safety"
+        ],
+        "position": {
+          "target": "childcare outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2765,
+            0.2743,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The outdoor childcare zone is approximated in the lower open-space area beside the detached mass."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "topography",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "flexibility",
+      "facade",
+      "structure"
+    ]
+  }
+}

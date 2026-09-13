@@ -1,0 +1,267 @@
+{
+  "object_description": "fully sunken library volume beneath an existing building",
+  "geometry_property": [
+    "subterranean",
+    "fully sunken",
+    "linear ramp",
+    "large atrium",
+    "deep-plan",
+    "horizontal"
+  ],
+  "design_condition": "The entire new volume is placed underground, with an entrance ramp and glazed atrium marking the intervention while creating a spacious but visually concealed relationship to the urban setting.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The enlarged public space and entrance gesture are surprising in their grandeur.",
+        "tags": [
+          "open space",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "public space and entrance gesture",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5012,
+            0.1179,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The pointed southern approach in plan marks the entrance gesture and adjoining public space."
+        }
+      },
+      {
+        "statement": "The entrance situation is light-filled and spacious.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "entrance situation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4856,
+            0.1426,
+            0.75
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is constrained to the southern ramp edge, with elevated points indicating the upper access zone."
+        }
+      },
+      {
+        "statement": "The public areas can be flexibly furnished and make optimal use of the atrium daylight.",
+        "tags": [
+          "flexibility",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "public areas and atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4355,
+            0.474,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central elongated opening and surrounding volume identify the atrium-centered public zone."
+        }
+      },
+      {
+        "statement": "The escape-route concept is well resolved.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "escape-route concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8058,
+            0.4206,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Escape routes are not explicit; the marker follows the side access alignment within the sampled volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Hiding the entire additional volume underground suppresses the presence of the new institution and contributes little to the city’s urban development.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "visibility"
+        ],
+        "position": {
+          "target": "entire additional volume underground",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4257,
+            0.4896,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The point cloud shows a broad horizontal intervention with no above-ground mass, supporting the concealed-volume criticism."
+        }
+      },
+      {
+        "statement": "The ramp appears empty at its full extent and gives the existing building an unjustifiably prominent position.",
+        "tags": [
+          "open space",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "ramp",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.507,
+            0.1087,
+            0.25
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The ramp is approximated along the pointed southern approach visible in plan."
+        }
+      },
+      {
+        "statement": "The access cores create an unattractive passage, poorly usable façade-side rooms, and undesirable blind zones.",
+        "tags": [
+          "circulation",
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "access cores and facade-side rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7932,
+            0.491,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Cores and side rooms are not separable; the marker uses the eastern perimeter band of the sampled volume."
+        }
+      },
+      {
+        "statement": "Vertical access is inadequate, with a narrow staircase, hidden lifts, and no internal connections between key uses.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "vertical access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7249,
+            0.4927,
+            0.5
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Vertical circulation is interior; the anchor is placed near the eastern access-side portion."
+        }
+      },
+      {
+        "statement": "The underground construction, groundwater excavation, and relocation of the watercourse require great effort and lead to below-average sustainability.",
+        "tags": [
+          "cost",
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "underground construction and watercourse relocation",
+          "spatial_scope": "site",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement primarily evaluates construction effort, groundwater, and sustainability rather than a visible feature."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "visibility",
+      "circulation",
+      "daylight",
+      "layout",
+      "functionality",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

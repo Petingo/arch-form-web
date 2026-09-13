@@ -1,0 +1,478 @@
+{
+  "object_description": "windmill-like composition of three building wings",
+  "geometry_property": [
+    "windmill-like",
+    "three-winged",
+    "fragmented",
+    "low-rise",
+    "asymmetrical",
+    "slim wing",
+    "compact"
+  ],
+  "design_condition": "Three differently oriented wings create an entrance forecourt to the north, a generous outdoor school area to the southeast, and a garden-like playground toward the neighbouring residences, while preserving surrounding trees and pedestrian links.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise placement of the volumes produces well-proportioned and easily usable outdoor spaces.",
+        "tags": [
+          "massing",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "three-wing outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.588,
+            0.6737,
+            0.1
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three visible wings define a forecourt, southeast open area, and adjoining perimeter spaces."
+        }
+      },
+      {
+        "statement": "The footpath connections are logically laid out and conflict zones are largely disentangled.",
+        "tags": [
+          "circulation",
+          "operation",
+          "safety"
+        ],
+        "position": {
+          "target": "footpath connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.588,
+            0.8196,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pedestrian links are anchored around the northern forecourt and wing junctions."
+        }
+      },
+      {
+        "statement": "The usage arrangement across the three wings appears plausible and clear.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "three-wing usage arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5171,
+            0.5598,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The three distinct volumes provide visible anchors for differentiated uses."
+        }
+      },
+      {
+        "statement": "The relationships between ground-floor uses and outdoor spaces are carefully designed.",
+        "tags": [
+          "layout",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "ground-floor uses and outdoor spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.588,
+            0.632,
+            0.2
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level edges adjoining the southeast open zone are spatially constrained by the footprint."
+        }
+      },
+      {
+        "statement": "The efficient plan organization and building structure minimize traffic areas and volume.",
+        "tags": [
+          "layout",
+          "circulation",
+          "massing"
+        ],
+        "position": {
+          "target": "efficient plan organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4804,
+            0.5598,
+            0.4
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Slim wings and limited connector geometry visibly reduce circulation volume."
+        }
+      },
+      {
+        "statement": "The hedges and tree structure are largely preserved and well integrated.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "preserved hedges and tree structure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8332,
+            0.7299,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape elements are not distinguishable; marker uses the residential-facing eastern edge."
+        }
+      },
+      {
+        "statement": "The design creates attractive, well-proportioned, functioning rooms with living-space quality.",
+        "tags": [
+          "open space",
+          "landscape",
+          "proportion"
+        ],
+        "position": {
+          "target": "functioning rooms with living-space quality",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2975,
+            0.3757,
+            0.4
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior rooms are not sampled separately; western wing surface provides a plausible room anchor."
+        }
+      },
+      {
+        "statement": "The landscape contribution is valuable because of its exciting spatial sequence and natural potential.",
+        "tags": [
+          "landscape",
+          "open space",
+          "identity"
+        ],
+        "position": {
+          "target": "landscape spatial sequence",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.588,
+            0.7571,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The wing arrangement visibly creates sequential exterior pockets toward the southeast."
+        }
+      },
+      {
+        "statement": "The project translates the spatial program into clearly structured functional units.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "structured functional units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5171,
+            0.5598,
+            0.4
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Three separable volumes visibly correspond to structured functional units."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The pedestrian connection between the school complexes is made more difficult by the delivery arrangement.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "school pedestrian connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.588,
+            0.903,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Delivery conflict is anchored to the northern forecourt connection, though vehicles are not represented."
+        }
+      },
+      {
+        "statement": "The minimal volumetricity comes at the expense of interior quality in several places.",
+        "tags": [
+          "massing",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "interior quality in several places",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4628,
+            0.3757,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad interior-quality criticism is distributed across the compact wing assembly."
+        }
+      },
+      {
+        "statement": "Some corridors are spatially cramped and lack adequate spatial reference.",
+        "tags": [
+          "circulation",
+          "proportion",
+          "visibility"
+        ],
+        "position": {
+          "target": "cramped corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.462,
+            0.5598,
+            0.4
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Corridors are not identifiable; the central connector is the most plausible constrained location."
+        }
+      },
+      {
+        "statement": "The connecting hall is mostly access area and lacks the quality required as a spatial center.",
+        "tags": [
+          "circulation",
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "connecting hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5156,
+            0.5891,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connector between visible wings is directly identifiable in plan and elevations."
+        }
+      },
+      {
+        "statement": "The low storage mass and increased zenithal light are critical for summer heat protection.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "summer heat protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.588,
+            0.6945,
+            0.8
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Zenithal-light concern is anchored near the upper roof surfaces of the slim wings."
+        }
+      },
+      {
+        "statement": "The dimensions of the control centers and distribution of building-technology installations remain unresolved.",
+        "tags": [
+          "functionality",
+          "structure"
+        ],
+        "position": {
+          "target": "control centers and building-technology installations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6272,
+            0.5598,
+            0.4
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Technical rooms are absent from the sample; marker uses a plausible service-side wing region."
+        }
+      },
+      {
+        "statement": "The reduced traffic areas leave insufficient open space, while the center appears somewhat barren.",
+        "tags": [
+          "open space",
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "reduced traffic areas and barren center",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5229,
+            0.5598,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central connector and surrounding voids visibly define the potentially barren central area."
+        }
+      },
+      {
+        "statement": "The structure's breakdown into individual buildings is less convincing.",
+        "tags": [
+          "massing",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "breakdown into individual buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6272,
+            0.5598,
+            0.5
+          ],
+          "radius": 0.29,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Separate wing masses and their visible gaps directly support the fragmentation assessment."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "sustainability",
+      "daylight",
+      "identity",
+      "operation"
+    ]
+  }
+}

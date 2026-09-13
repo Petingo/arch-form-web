@@ -1,0 +1,355 @@
+{
+  "object_description": "three-part compact L-shaped volume stepped into the slope",
+  "geometry_property": [
+    "three-part",
+    "compact",
+    "L-shaped",
+    "stepped",
+    "pavilion-like",
+    "multi-storey"
+  ],
+  "design_condition": "Placed at the lower edge of the site, the volume follows the rising terrain and interweaves with the existing complex, forest, sports fields, and sloping outdoor spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The finely structured, compact volume forms a successful and harmonious ensemble with the existing school complex.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "three-part compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6149,
+            0.5119,
+            0.5556
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three stepped wings and the L-shaped arrangement are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The school is cleverly integrated into the rising terrain, with access points at all levels.",
+        "tags": [
+          "topography",
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "rising terrain and access points",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3914,
+            0.596,
+            0.277
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped massing visibly follows the slope, with access implied at multiple levels."
+        }
+      },
+      {
+        "statement": "The covered outdoor hall becomes a gathering center with good outdoor access to shared uses.",
+        "tags": [
+          "circulation",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "covered outdoor hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5902,
+            0.4273,
+            0.0556
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central overlap between the stepped wings is the clearest plausible covered gathering zone."
+        }
+      },
+      {
+        "statement": "The airy interpenetration of inside and outside continues through the upper-floor decks and protective balconies.",
+        "tags": [
+          "open space",
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "upper-floor decks and protective balconies",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7795,
+            0.7127,
+            0.7755
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated projecting upper-level edges are visible around the elevated stepped volume."
+        }
+      },
+      {
+        "statement": "The clusters can be flexibly subdivided and arranged according to different educational concepts.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7273,
+            0.7424,
+            0.5556
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior clusters are not distinguishable; distributed across the upper connected wings."
+        }
+      },
+      {
+        "statement": "The sports facilities are accessible from the lower level and easy for non-school users to find.",
+        "tags": [
+          "accessibility",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "sports facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2228,
+            0.6593,
+            0.0556
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower-level sports access is anchored to the lower stepped portion of the complex."
+        }
+      },
+      {
+        "statement": "The project shows coherence between its expression, diverse outdoor areas, and generous internal flexibility.",
+        "tags": [
+          "expression",
+          "open space",
+          "flexibility"
+        ],
+        "position": {
+          "target": "expression and diverse outdoor areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6115,
+            0.5612,
+            0.5
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped expression and multiple mass gaps are consistently visible across plan and elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The artificial ventilation concept is incomprehensible under these optimal conditions.",
+        "tags": [
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "artificial ventilation concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6682,
+            0.776,
+            0.6111
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Ventilation equipment is unrepresented; anchor to occupied upper-level envelope."
+        }
+      },
+      {
+        "statement": "The external connecting staircases could be left open.",
+        "tags": [
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "external connecting staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6115,
+            0.5612,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Staircases are not separately resolved; approximate the central level connector between wings."
+        }
+      },
+      {
+        "statement": "The new building should be more open and permeable, with stronger interaction between levels and the two schools.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "new building and two schools interaction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6444,
+            0.4951,
+            0.5556
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Inter-building permeability is assessed across the connected stepped mass, not a distinct visible element."
+        }
+      },
+      {
+        "statement": "The separate gymnasium requires considerable excavation and undermines the otherwise sensitive handling of the situation.",
+        "tags": [
+          "topography",
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "separate gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1067,
+            0.8896,
+            0.0556
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Gymnasium is not identifiable; approximate a detached lower-edge volume."
+        }
+      },
+      {
+        "statement": "Large basement areas, redundant accesses, and oversized areas cause the project to overshoot the cost target by far.",
+        "tags": [
+          "cost",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "large basement areas and redundant accesses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6701,
+            0.5266,
+            0.0556
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Basements and internal accesses are absent; anchor near the extensive lower building footprint."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "urban integration",
+      "open space",
+      "layout",
+      "flexibility",
+      "ventilation",
+      "cost"
+    ]
+  }
+}

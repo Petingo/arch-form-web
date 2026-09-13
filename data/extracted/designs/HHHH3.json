@@ -1,0 +1,320 @@
+{
+  "object_description": "dominant three-story volume with attached pent roofs",
+  "geometry_property": [
+    "three-story",
+    "dominant",
+    "strongly massed",
+    "extra-high ground floor",
+    "pent-roofed",
+    "single-story connector"
+  ],
+  "design_condition": "The main volume follows the existing school complex and encloses a courtyard with a low connecting building, but its proximity and scale beside the church and village square make the urban setting difficult to imagine.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The break area is clearly defined, with a paved circulation zone, gravel area, trees, and a covered bicycle shelter.",
+        "tags": [
+          "open space",
+          "landscape",
+          "circulation"
+        ],
+        "position": {
+          "target": "break area with bicycle shelter",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6933,
+            0.4016,
+            0.0455
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The break area is approximated in the open zone between the main masses."
+        }
+      },
+      {
+        "statement": "The main entrances are easy to find and grouped under the large canopy.",
+        "tags": [
+          "circulation",
+          "visibility",
+          "accessibility"
+        ],
+        "position": {
+          "target": "main entrances under large canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2838,
+            0.3017,
+            0.1818
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are placed along the lower edge of the dominant volume beneath its projected canopy."
+        }
+      },
+      {
+        "statement": "The community hall foyer is spacious, well lit on both sides, and directly connected to the inner courtyard.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "community hall foyer and inner courtyard",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4759,
+            0.4623,
+            0.2295
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The foyer is approximated at the central connection between hall volume and courtyard."
+        }
+      },
+      {
+        "statement": "All rooms in the halls are correctly placed and well developed.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "rooms in the halls",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7584,
+            0.5284,
+            0.3182
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Hall rooms are distributed within the eastern sampled volume, though interiors are not separable."
+        }
+      },
+      {
+        "statement": "The slightly sloping roofs adopt familiar elements from the neighborhood and integrate well with them.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "slightly sloping roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2693,
+            0.5115,
+            0.9545
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof profiles and their stepped massing are visible across the elevations."
+        }
+      },
+      {
+        "statement": "The materialization with color-treated wooden parts is appropriate for the location and easy to imagine.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "color-treated wooden facade parts",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2447,
+            0.2103,
+            0.5455
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Material treatment is anchored to the exposed facade of the dominant volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The three-story house appears as a strongly dominating volume despite being set back from the cemetery and church.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "three-story dominating volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3416,
+            0.437,
+            0.7273
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The tall left-hand volume dominates the elevations and plan."
+        }
+      },
+      {
+        "statement": "The proximity of the four-story main building to the church and village square is problematic and represents a missed opportunity.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "main building beside church and village square",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2504,
+            0.2236,
+            0.6818
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The dominant volume is placed toward the village-square-facing southern side."
+        }
+      },
+      {
+        "statement": "The height of the village square and the entrance to the parish hall is questioned.",
+        "tags": [
+          "topography",
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "village square and parish hall entrance height",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6837,
+            0.1063,
+            0.0909
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance-height concern is anchored to the lower open edge near the square."
+        }
+      },
+      {
+        "statement": "The possible internal connection between the halls would also be questionable.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal connection between the halls",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4759,
+            0.4623,
+            0.2295
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central link between the two visible masses is the plausible connection location."
+        }
+      },
+      {
+        "statement": "The project remains too closely linked to the existing building.",
+        "tags": [
+          "identity",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "project linked to existing building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4759,
+            0.4623,
+            0.2295
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The connector zone is used as the approximate interface with the existing building."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "scale",
+      "open space",
+      "circulation",
+      "daylight",
+      "layout",
+      "functionality",
+      "identity"
+    ]
+  }
+}

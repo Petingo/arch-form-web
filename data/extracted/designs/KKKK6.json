@@ -1,0 +1,259 @@
+{
+  "object_description": "two orthogonally oriented building units forming a central joint space",
+  "geometry_property": [
+    "two-part",
+    "orthogonal",
+    "parallel",
+    "angled",
+    "massive-base",
+    "light-framed upper structure"
+  ],
+  "design_condition": "The school and sports unit is oriented across the existing clinic while the clinic unit runs parallel to the access road, producing a central outdoor address and preserving open space along the opposite edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two building units form a coherent overall system in urban and operational terms.",
+        "tags": [
+          "urban integration",
+          "functionality",
+          "massing"
+        ],
+        "position": {
+          "target": "two building units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5503,
+            0.4787,
+            0.4
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Two orthogonally oriented footprints visibly form a coherent paired system."
+        }
+      },
+      {
+        "statement": "The change in direction creates an interesting central outdoor space and address for all uses.",
+        "tags": [
+          "open space",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "central outdoor space and address",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6196,
+            0.4034,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central joint and surrounding opening are clearly legible in the top view."
+        }
+      },
+      {
+        "statement": "The central space achieves a convincing balance between access and staying.",
+        "tags": [
+          "circulation",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "central access and staying space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6196,
+            0.4034,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central joint visibly mediates movement between the two building units."
+        }
+      },
+      {
+        "statement": "The common typological structure creates a shared-apartment atmosphere with bright, friendly living spaces.",
+        "tags": [
+          "layout",
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "shared-apartment living spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6794,
+            0.3739,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Living interiors are hidden; marker follows the larger clinic unit."
+        }
+      },
+      {
+        "statement": "The assigned outdoor areas provide protected transitions into the garden.",
+        "tags": [
+          "open space",
+          "privacy",
+          "landscape"
+        ],
+        "position": {
+          "target": "assigned outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7483,
+            0.4454,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Protected transition zones are approximated along the open edge."
+        }
+      },
+      {
+        "statement": "The architectural expression is logically derived from the construction principles.",
+        "tags": [
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comment concerns the overall relationship between expression and construction principles."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The dimensions of the school building put severe pressure on the central place, landscape, and protected hedge.",
+        "tags": [
+          "scale",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "school building dimensions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2655,
+            0.7686,
+            0.6
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "west"
+          ],
+          "rationale": "Smaller upper-left unit visibly constrains the adjacent central open space."
+        }
+      },
+      {
+        "statement": "The outdoor spaces are not presented or differentiated sufficiently, leaving privacy and demarcation unresolved.",
+        "tags": [
+          "open space",
+          "privacy",
+          "layout"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6645,
+            0.3813,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open spaces around the central joint are visible but insufficiently differentiated."
+        }
+      },
+      {
+        "statement": "The design and materials are not appropriate at the transition to the historical park.",
+        "tags": [
+          "facade",
+          "landscape",
+          "expression"
+        ],
+        "position": {
+          "target": "transition to historical park",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.873,
+            0.3225,
+            0.3
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Park context is absent; eastern outer edge provides the transition anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "scale",
+      "layout",
+      "functionality",
+      "privacy",
+      "expression"
+    ]
+  }
+}

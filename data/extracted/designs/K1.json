@@ -1,0 +1,409 @@
+{
+  "object_description": "irregular four-winged building under a continuous shed roof",
+  "geometry_property": [
+    "irregular",
+    "four-winged",
+    "low-rise",
+    "orthogonal",
+    "shed-roofed",
+    "centrally linked"
+  ],
+  "design_condition": "The orthogonal structure extends the existing school system, uses a tree-lined connection to establish the entrance, and divides the site into four distinct outdoor areas closely related to the building wings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project forms a harmonious addition to the existing school system.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "harmonious addition to existing school system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2991,
+            0.2539,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall building mass is visible, though school-system integration is not distinguishable in the sampled geometry."
+        }
+      },
+      {
+        "statement": "The arrangement of the different areas of use seems sensible and practical.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "different areas of use",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7382,
+            0.2022,
+            0.2
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view shows differentiated outdoor and wing areas around the irregular building footprint."
+        }
+      },
+      {
+        "statement": "The classrooms are optimally oriented and benefit from good natural lighting and protected garden access.",
+        "tags": [
+          "orientation",
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "classrooms with garden access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1916,
+            0.8485,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Classrooms are not identifiable, so the north-west wing provides a constrained approximate anchor."
+        }
+      },
+      {
+        "statement": "The clear functional structure is unified as one building through clever spatial linking.",
+        "tags": [
+          "layout",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "spatial linking",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5156,
+            0.4329,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central linking geometry is legible between the four orthogonal wings."
+        }
+      },
+      {
+        "statement": "The shed-like roof gives the complex additional identity and cohesion.",
+        "tags": [
+          "expression",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "shed-like roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7192,
+            0.787,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous roof footprint and upper elevation rows are visible across the complex."
+        }
+      },
+      {
+        "statement": "The modular structural principle promises a high level of flexibility and variability.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "modular structural principle",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2991,
+            0.2539,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Regular orthogonal repetition suggests modularity, but the structural system is not directly separable."
+        }
+      },
+      {
+        "statement": "The carefully differentiated facades and precise spatial arrangement demonstrate high architectural quality.",
+        "tags": [
+          "facade",
+          "proportion",
+          "expression"
+        ],
+        "position": {
+          "target": "differentiated facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9939,
+            0.5432,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "The east perimeter is a visible facade surface, while differentiation is only partially evidenced."
+        }
+      },
+      {
+        "statement": "The varied outdoor spaces provide well-proportioned experiences and learning places.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "varied outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7713,
+            0.2022,
+            0.2
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Several open pockets are visible around the building, including the south-east outdoor area."
+        }
+      },
+      {
+        "statement": "The energy and building-envelope concept is impressive, and the target construction costs are met.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "energy and building-envelope concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2991,
+            0.2907,
+            0.8
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The exterior envelope is represented broadly, but energy performance and construction cost are not geometric."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Conflict-free operation of the various users is not yet possible in the proposed form.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "conflict-free operation of various users",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5156,
+            0.4329,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central linking space is the likely circulation focus, though user flows are not represented directly."
+        }
+      },
+      {
+        "statement": "The small-scale structure risks creating invisible niches and prevents the desired permeability.",
+        "tags": [
+          "layout",
+          "visibility",
+          "accessibility"
+        ],
+        "position": {
+          "target": "small-scale structure and invisible niches",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6255,
+            0.6487,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The north-east wing junction offers a plausible anchor for constrained visibility and permeability concerns."
+        }
+      },
+      {
+        "statement": "The high proportion of paved areas has not yet been conclusively resolved for biodiversity.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "paved areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8044,
+            0.2022,
+            0.1
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The south-east open area is a plausible surface location for the unresolved landscape concern."
+        }
+      },
+      {
+        "statement": "The proposed water element leaves questions about safety and technical feasibility unanswered.",
+        "tags": [
+          "safety",
+          "functionality"
+        ],
+        "position": {
+          "target": "water element",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7382,
+            0.2022,
+            0.1
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "No water feature is distinguishable, so the adjacent south-east outdoor surface is used as an estimate."
+        }
+      },
+      {
+        "statement": "The technical concept leaves open questions about the dimensions and distribution of central areas.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "central areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5156,
+            0.4329,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central linking and void region is visible and provides the best anchor for area distribution questions."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "functionality",
+      "operation",
+      "identity",
+      "flexibility",
+      "open space",
+      "sustainability",
+      "safety",
+      "cost"
+    ]
+  }
+}

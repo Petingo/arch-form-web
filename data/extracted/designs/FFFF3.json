@@ -1,0 +1,331 @@
+{
+  "object_description": "compact two-part building volume with cantilevered upper floor",
+  "geometry_property": [
+    "compact",
+    "two-part",
+    "cantilevered",
+    "shed-roofed",
+    "two-storey",
+    "basemented"
+  ],
+  "design_condition": "The compact volume aligns with the existing complex and preserves the church-to-hill visual axis, while retaining outdoor-space dimensions at the cost of views and daylight for the kindergarten.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The local setting and volumetric appearance are impressive.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "local setting and volumetric appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5373,
+            0.5941,
+            0.812
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact cantilevered two-part volume is clearly legible across the top and all elevations."
+        }
+      },
+      {
+        "statement": "The compactness of the building volume enables low construction costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7575,
+            0.7072,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Overall compactness is directly evidenced by the concentrated footprint and closely aligned elevation profiles."
+        }
+      },
+      {
+        "statement": "The relationships between interior and exterior space are convincing.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "interior and exterior relationships",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6585,
+            0.2026,
+            0.188
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Relationship is approximated along the visible south-side edge and adjacent external space."
+        }
+      },
+      {
+        "statement": "The school-room organization and circulation are strong.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "school-room organization and circulation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7727,
+            0.6867,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Interior organization is not visible; placement follows the elongated upper-floor and lower-volume arrangement."
+        }
+      },
+      {
+        "statement": "The workrooms are well lit and sensibly developed.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "well-lit workrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.828,
+            0.6982,
+            0.6248
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Workroom zone is approximated on the elevated east-facing portion where daylight openings would occur."
+        }
+      },
+      {
+        "statement": "The compact spatial concept largely dispenses with purely access areas and is very economical to construct.",
+        "tags": [
+          "layout",
+          "cost"
+        ],
+        "position": {
+          "target": "economical spatial concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2971,
+            0.7647,
+            0.3128
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Overall compact mass represents reduced access-area provision and economical construction concept."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The viewing gallery is too small.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "viewing gallery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7422,
+            0.7277,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Gallery is not separately visible; approximate location uses the elevated front-facing portion."
+        }
+      },
+      {
+        "statement": "The basement access areas are too small and lack an adequate connection between the stairs and the gymnasiums.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "basement access areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2292,
+            0.2232,
+            0.0632
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Basement condition is constrained to the lowest visible level beneath the compact footprint."
+        }
+      },
+      {
+        "statement": "The outdoor-space structure has potential, but the design is difficult to read and not very meaningful.",
+        "tags": [
+          "open space",
+          "landscape",
+          "expression"
+        ],
+        "position": {
+          "target": "outdoor-space structure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2444,
+            0.2028,
+            0.0632
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "External-space critique is anchored to the open south-west perimeter around the building."
+        }
+      },
+      {
+        "statement": "Locating the building along the kindergarten line severely limits views and lighting.",
+        "tags": [
+          "visibility",
+          "daylight",
+          "urban integration"
+        ],
+        "position": {
+          "target": "kindergarten views and daylight",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1566,
+            0.6556,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Long building edge visibly occupies the west side, constraining views and daylight toward the adjacent setting."
+        }
+      },
+      {
+        "statement": "Functional deficiencies in the basement would require a slightly larger overall volume and higher construction costs.",
+        "tags": [
+          "functionality",
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "basement functional deficiencies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7187,
+            0.2493,
+            0.1256
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Lower-volume anchor represents basement shortcomings and their implied pressure for a larger building."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "layout",
+      "functionality",
+      "circulation",
+      "open space",
+      "landscape",
+      "daylight",
+      "visibility",
+      "cost"
+    ]
+  }
+}

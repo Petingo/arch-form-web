@@ -1,0 +1,288 @@
+{
+  "object_description": "compact six-storey volume with a transparent central foyer and sunken courtyard",
+  "geometry_property": [
+    "compact",
+    "rectilinear",
+    "six-storey",
+    "vertical",
+    "transparent",
+    "central-core",
+    "partly sunken"
+  ],
+  "design_condition": "The building is set back to create a public entrance space and forms a new urban composition with neighboring buildings, while the sunken courtyard accommodates lit basement spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The public space creates an appealing entrance situation for the school building and the neighboring tower.",
+        "tags": [
+          "circulation",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "public entrance space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5054,
+            0.0887,
+            0.0691
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Setback and entrance are constrained along the southern edge of the tall sampled volume."
+        }
+      },
+      {
+        "statement": "The spacious and transparent foyer provides good orientation and clarity.",
+        "tags": [
+          "circulation",
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "transparent foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5725,
+            0.3242,
+            0.5227
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central vertical opening is suggested by the footprint and elevation discontinuities."
+        }
+      },
+      {
+        "statement": "The central staircase connects all floors and simultaneously creates an open communication zone.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5725,
+            0.3242,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The staircase is anchored within the central core, but individual stair geometry is not distinguishable."
+        }
+      },
+      {
+        "statement": "The classrooms are clearly structured, flexibly usable, and have well-dimensioned and well-lit access zones.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "classrooms and access zones",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7214,
+            0.413,
+            0.6134
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper perimeter floors provide a plausible classroom anchor; internal daylight zones are not directly visible."
+        }
+      },
+      {
+        "statement": "The learning islands are correctly arranged and well dimensioned, creating interior connections and interesting spatial structures.",
+        "tags": [
+          "layout",
+          "functionality",
+          "daylight"
+        ],
+        "position": {
+          "target": "learning islands",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7214,
+            0.413,
+            0.5454
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior placement is approximated beside the central core, without distinguishable island geometry."
+        }
+      },
+      {
+        "statement": "The load-bearing system provides a high degree of flexibility for all functional areas.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "load-bearing system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2062,
+            0.7294,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular vertical and horizontal sampling suggests structural organization, but members are not individually identifiable."
+        }
+      },
+      {
+        "statement": "The project impresses with its high functionality and structure.",
+        "tags": [
+          "functionality",
+          "structure"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7214,
+            0.413,
+            0.5907
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Tall compact mass and central opening are clearly visible across the calibrated views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The quality of the new situation is somewhat diminished by the proximity of the school building to the tower block.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "school building and tower block proximity",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9118,
+            0.5463,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Proximity is approximated at the eastern edge, while neighboring structures are absent from the point cloud."
+        }
+      },
+      {
+        "statement": "The open stance and large glazed façades raise the question of whether this gesture is justifiable in the highly constricted situation.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "facade"
+        ],
+        "position": {
+          "target": "large glazed façades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0363,
+            0.5149,
+            0.5907
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad elevation surfaces are visible, though glazing itself is inferred from the statement."
+        }
+      },
+      {
+        "statement": "The materialization gives the building a consistent but rather cool interior atmosphere.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "interior atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The comment concerns overall material atmosphere, not a specific geometric location."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "circulation",
+      "layout",
+      "functionality",
+      "flexibility",
+      "structure",
+      "daylight",
+      "facade",
+      "massing",
+      "expression"
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "object_description": "large dominant school building paired with a tree-roof landscape element",
+  "geometry_property": [
+    "large-scale",
+    "longitudinal",
+    "tall",
+    "dominant",
+    "tree-covered field",
+    "central staircase",
+    "surrounding escape balconies"
+  ],
+  "design_condition": "The large building and tree field reorganize the campus, placing the gym near the existing gym and creating a visible address and rainwater infiltration area, but the building's length, height and geometric position are too dominant and insufficiently self-evident.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The tree field is a creative response to drainage and provides a clear and unique address.",
+        "tags": [
+          "landscape",
+          "sustainability",
+          "identity"
+        ],
+        "position": {
+          "target": "tree field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1892,
+            0.2071,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view supports an exterior landscaped zone beside the elongated building, though the tree field is not distinctly separable."
+        }
+      },
+      {
+        "statement": "The entrance hall leads over a beautiful main staircase with seating steps that also serves the mezzanine.",
+        "tags": [
+          "circulation",
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "main staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5529,
+            0.597,
+            0.6664
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central stepped geometry is visible in plan and elevation, with its mezzanine relationship constraining the vertical anchor."
+        }
+      },
+      {
+        "statement": "The classroom floor is spatially and operationally interesting, with lots of light and attractive views of the outdoor classrooms.",
+        "tags": [
+          "layout",
+          "daylight",
+          "visibility"
+        ],
+        "position": {
+          "target": "classroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6332,
+            0.6419,
+            0.6664
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Longitudinal upper-level bands in the plan and elevations support a classroom-floor placement with daylight exposure."
+        }
+      },
+      {
+        "statement": "The path from outside and inside the building to the cloakrooms and gym is a pragmatic solution.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "path to cloakrooms and gym",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6918,
+            0.3064,
+            0.2495
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A plausible internal-to-external circulation anchor is placed along the building’s longitudinal route toward a service end."
+        }
+      },
+      {
+        "statement": "The classroom floor is a valuable contribution.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3504,
+            0.7126,
+            0.6664
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A separate upper-level longitudinal segment represents the classroom contribution across the sampled building volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building's length and height appear too dominant in its surroundings.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6143,
+            0.5526,
+            0.6664
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated footprint and tall elevation profile are clearly visible across the calibrated plan and elevations."
+        }
+      },
+      {
+        "statement": "Its geometric position within the campus is not self-evident enough.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "building position within campus",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6918,
+            0.3064,
+            0.2495
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The top view locates the building mass, but sampled geometry provides limited surrounding-campus context."
+        }
+      },
+      {
+        "statement": "The playground is smaller than desired and its division with the all-weather pitch is viewed negatively.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "playground and all-weather pitch division",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7179,
+            0.3381,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "An exterior ground-zone anchor is placed beside the building footprint where open-space division would occur."
+        }
+      },
+      {
+        "statement": "The southern school grounds have inadequate shading, and parking along the entrance is problematic.",
+        "tags": [
+          "landscape",
+          "comfort",
+          "accessibility"
+        ],
+        "position": {
+          "target": "southern school grounds and entrance parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3511,
+            0.09,
+            0
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing ground edge is constrained by the plan and southern elevation, including the entrance-side exterior zone."
+        }
+      },
+      {
+        "statement": "The kindergarten toilets and corridor, main access and path to the gym have too little daylight and are partly unclear.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "kindergarten toilets, corridor, main access and gym path",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3009,
+            0.1263,
+            0.3329
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior features are not distinguishable, so a low-confidence south-side access and circulation surface anchor is used."
+        }
+      },
+      {
+        "statement": "The outside equipment space is too tight.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "outside equipment space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8668,
+            0.7492,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The equipment zone is approximated on an exterior ground surface beside the sampled building mass."
+        }
+      },
+      {
+        "statement": "The escape balconies are questionable because of fire protection and summer heat protection efficiency.",
+        "tags": [
+          "fire safety",
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "escape balconies",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7392,
+            0.3639,
+            0.5892
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated projecting balcony bands are visible around the building perimeter in the elevation views."
+        }
+      },
+      {
+        "statement": "Future operation is characterized by a rather complex variety of indoor and outdoor spaces and routes.",
+        "tags": [
+          "operation",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "indoor and outdoor routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8173,
+            0.5015,
+            0.4163
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad operational critique is anchored to a representative route within the visibly complex building envelope."
+        }
+      },
+      {
+        "statement": "The large building, its setting and the excessive use of creative means are not convincing enough inside.",
+        "tags": [
+          "expression",
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "whole building interior and setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4634,
+            0.388,
+            0.6664
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A broad interior-facing building anchor represents the critique of massing, setting, and creative expression."
+        }
+      },
+      {
+        "statement": "The project moves slightly above the calculated average value of creation costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "creation costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost performance has no useful spatial referent in the sampled model."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "landscape",
+      "daylight",
+      "circulation",
+      "operation",
+      "fire safety",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

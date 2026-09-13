@@ -1,0 +1,372 @@
+{
+  "object_description": "four staggered buildings with oversized gable roofs",
+  "geometry_property": [
+    "four-part",
+    "staggered",
+    "rectangular",
+    "high-volume",
+    "gable-roofed",
+    "overly high roofs"
+  ],
+  "design_condition": "Four staggered buildings reduce in height toward the church and organize a school square, but the courtyard orientation, cemetery edge, sloping site, and relationship to the existing gymnasium remain problematic.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear analysis of the local development situation leads to a coherent interpretation with four staggered buildings.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "four staggered buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4935,
+            0.4819,
+            0.5
+          ],
+          "radius": 0.321,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four distinct staggered masses are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The easily usable school square leads directly to the village square via a staircase.",
+        "tags": [
+          "open space",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "school square and staircase",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.465,
+            0.3853,
+            0.0417
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open space between masses is visible near the lower, street-facing side."
+        }
+      },
+      {
+        "statement": "The organizational arrangement solves the essential processes well to very well internally.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "internal organizational arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3196,
+            0.6454,
+            0.4167
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior processes are approximated within the larger sampled building volumes."
+        }
+      },
+      {
+        "statement": "The chosen arrangement allows the desired flexibility in the school building.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "flexibility in the school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7343,
+            0.4016,
+            0.4167
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Flexibility is assigned to the eastern school volume, without distinguishable interior markers."
+        }
+      },
+      {
+        "statement": "The supporting structure, statics, and foundation are described in detail and plausibly.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "supporting structure, statics, and foundation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5039,
+            0.4632,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural judgment is anchored to the visible building footprints and ground contact."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The rectangular and overly high gable roofs integrate poorly into the existing townscape and appear out of place in their materialization.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "rectangular overly high gable roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5534,
+            0.4456,
+            0.9583
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Tall rectangular roof forms are clearly visible above the eastern mass."
+        }
+      },
+      {
+        "statement": "The orientation of the inner courtyard towards the cemetery is likely to be problematic.",
+        "tags": [
+          "open space",
+          "privacy",
+          "urban integration"
+        ],
+        "position": {
+          "target": "inner courtyard towards cemetery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5381,
+            0.7366,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The courtyard is approximated in the gap between masses toward the northern edge."
+        }
+      },
+      {
+        "statement": "The connection to and architectural treatment of the existing gymnasium is hidden, so the desired uniform appearance breaks apart.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "connection to existing gymnasium",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7941,
+            0.5169,
+            0.2917
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The likely connection is placed at the detached eastern volume’s inward-facing edge."
+        }
+      },
+      {
+        "statement": "The use of the break room and outdoor school room adjacent to the cemetery seems questionable.",
+        "tags": [
+          "functionality",
+          "privacy",
+          "open space"
+        ],
+        "position": {
+          "target": "break room and outdoor school room adjacent to cemetery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5381,
+            0.7366,
+            0.0833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Adjacency to the cemetery constrains this estimate along the northern site edge."
+        }
+      },
+      {
+        "statement": "The open space facing the street pays little attention to the sloping elevation and develops no concrete statement about it.",
+        "tags": [
+          "topography",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "open space facing the street",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3748,
+            0.2251,
+            0.0417
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing open space is placed along the southern foreground edge of the site."
+        }
+      },
+      {
+        "statement": "No statements are made about sun protection, and the facade treatment is not convincing for summer heat protection.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "summer heat protection and facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4876,
+            0.0716,
+            0.5417
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south-facing envelope provides the most relevant approximate facade anchor."
+        }
+      },
+      {
+        "statement": "No further statements are made regarding the sound problems arising when instruments are used in a wooden structure.",
+        "tags": [
+          "acoustics",
+          "structure"
+        ],
+        "position": {
+          "target": "sound problems in wooden structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5566,
+            0.4437,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Acoustic concern is assigned to the visible upper structure of the school volume."
+        }
+      },
+      {
+        "statement": "The project loses clarity in the site setting and the resulting outdoor spaces, and its overarching integration is not convincing.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "site setting and resulting outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5239,
+            0.4635,
+            0.0417
+          ],
+          "radius": 0.327,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The overall arrangement and fragmented outdoor spaces are visible across the site plan."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "topography",
+      "facade",
+      "expression",
+      "flexibility",
+      "acoustics",
+      "structure"
+    ]
+  }
+}

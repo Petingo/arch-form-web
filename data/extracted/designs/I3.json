@@ -1,0 +1,347 @@
+{
+  "object_description": "fragmented perimeter ensemble of three differentiated volumes",
+  "geometry_property": [
+    "multi-volume",
+    "perimeter-based",
+    "fragmented",
+    "staggered",
+    "tower-like",
+    "pavilion-like",
+    "partly underground"
+  ],
+  "design_condition": "The three volumes occupy the perimeter between the new quarter and sports fields, using diagonal outdoor spaces to filter between the existing buildings and the new ensemble.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project creates a diverse and dense atmosphere that is well networked with the existing buildings through the open spaces.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "expression"
+        ],
+        "position": {
+          "target": "open-space network between three volumes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.622,
+            0.4026,
+            0.1688
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view shows three differentiated perimeter volumes separated by diagonal open spaces; elevations confirm their dense ensemble."
+        }
+      },
+      {
+        "statement": "The partly over-high sectional solution ensures good lighting in all rooms.",
+        "tags": [
+          "daylight",
+          "proportion"
+        ],
+        "position": {
+          "target": "over-high sectional solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.814,
+            0.59,
+            0.5828
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevations show pronounced vertical differentiation, while the upper massing remains visible in the top view."
+        }
+      },
+      {
+        "statement": "The finely staggered vestibules create an interesting connection to the outside and enable rich spatial development.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "staggered vestibules",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.607,
+            0.388,
+            0.3344
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped perimeter edges and intermediate gaps suggest vestibule-like thresholds connecting interior volumes to open space."
+        }
+      },
+      {
+        "statement": "Dividing the uses between three buildings is conceivable in favor of an overall composition.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "three-building overall composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6669,
+            0.4465,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views clearly show three separate, differentiated volumes forming one staggered composition."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The spatial and functional assignments raise questions about whether they are sensibly laid out and whether the urban concept creates spatial restrictions.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "spatial and functional assignments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3413,
+            0.3512,
+            0.3344
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The fragmented plan and separated masses provide a broad site anchor, but internal assignments are not identifiable."
+        }
+      },
+      {
+        "statement": "The completely underground gymnasium facility seems unnecessary and undesirable for educational reasons.",
+        "tags": [
+          "functionality",
+          "daylight"
+        ],
+        "position": {
+          "target": "underground gymnasium facility",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1501,
+            0.2269,
+            0.086
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low south-west anchor approximates the partly underground portion; the gymnasium itself is not distinguishable externally."
+        }
+      },
+      {
+        "statement": "The roof gardens separated from teaching are questioned in terms of their quality, usability, and appropriateness.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "roof gardens separated from teaching",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.814,
+            0.59,
+            0.5828
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper surfaces are visible, but roof gardens and their separation from teaching spaces are not distinguishable."
+        }
+      },
+      {
+        "statement": "The richly cut horticultural figure lacks simplicity and is likely problematic economically.",
+        "tags": [
+          "landscape",
+          "cost"
+        ],
+        "position": {
+          "target": "cut horticultural figure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5747,
+            0.4042,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central diagonal gaps provide the most plausible landscape anchor; detailed horticultural geometry is not represented."
+        }
+      },
+      {
+        "statement": "The three open spaces are somewhat overcrowded and consequently lose some of their spaciousness.",
+        "tags": [
+          "open space",
+          "scale"
+        ],
+        "position": {
+          "target": "three open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5747,
+            0.4042,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view visibly identifies multiple narrow open spaces between the three separated volumes."
+        }
+      },
+      {
+        "statement": "The vegetation concept seems random and does not support the spaces conceptually.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "vegetation concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2718,
+            0.4738,
+            0.086
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A landscape anchor is placed within the diagonal interstitial spaces, where vegetation would conceptually support circulation."
+        }
+      },
+      {
+        "statement": "The spatial freedom comes at a relatively high cost.",
+        "tags": [
+          "cost",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial freedom",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6369,
+            0.4173,
+            0.2516
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The distributed masses and intervening gaps represent the spatial freedom referenced, while cost has no physical marker."
+        }
+      },
+      {
+        "statement": "The tower height in relation to the existing building is criticized and exceeds the permitted maximum.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "tower height",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8826,
+            0.6569,
+            0.5828
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The isolated north-east tower is clearly identifiable in plan and all elevations, including its pronounced height."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "functionality",
+      "open space",
+      "daylight",
+      "landscape",
+      "scale",
+      "cost"
+    ]
+  }
+}

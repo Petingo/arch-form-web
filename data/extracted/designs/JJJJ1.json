@@ -1,0 +1,408 @@
+{
+  "object_description": "nine staggered linear volumes joined by an internal connecting wing",
+  "geometry_property": [
+    "linear",
+    "east-west aligned",
+    "nine-part",
+    "staggered",
+    "comb-like",
+    "four-storey street edge",
+    "six-storey rear volumes",
+    "courtyard-based"
+  ],
+  "design_condition": "The volumes align east-west with the surrounding military buildings, shorten the northern street frontage to form a precise entrance area, respect the avenue scale, and anticipate greater height toward the rear.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The considered urban planning approach adopts the volumetric rigor and serial arrangement of the surrounding military buildings.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "serial arrangement and surrounding military buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.477,
+            0.3493,
+            0.3571
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The repeated east-west volumes visibly establish a rigorous site-scale serial arrangement."
+        }
+      },
+      {
+        "statement": "Shortening the northern building creates a clearly defined access area and a precise extension of the historic axis.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "northern access area and historic axis",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5,
+            0.8613,
+            0.2143
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The shortened northern frontage creates an identifiable access zone along the upper site edge."
+        }
+      },
+      {
+        "statement": "The street frontage respects the scale of the surrounding buildings.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "street frontage",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5,
+            0.9275,
+            0.3571
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern edge is visibly defined by the shortened street-facing building sequence."
+        }
+      },
+      {
+        "statement": "The internal connecting wing forms a clear functional backbone and makes orientation easy.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "internal connecting wing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.477,
+            0.3493,
+            0.3571
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The internal longitudinal connection is approximated through the centre of the repeated masses."
+        }
+      },
+      {
+        "statement": "The sequence of covered courtyards noticeably increases the spaciousness of the internal connection.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "covered courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.477,
+            0.3493,
+            0.1429
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated gaps between the linear volumes visibly form a sequence of courtyard-like spaces."
+        }
+      },
+      {
+        "statement": "The office wings can be combined horizontally and vertically, allowing several variants for distributing organizational units.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "office wings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6,
+            0.6756,
+            0.4286
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The repeated rear and central wings provide the plausible anchor for flexible office groupings."
+        }
+      },
+      {
+        "statement": "All office workstations are appropriately sized, easily accessible and well lit.",
+        "tags": [
+          "functionality",
+          "accessibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "office workstations",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6,
+            0.6756,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior workstations are unseen, so the office-wing surface provides an approximate anchor."
+        }
+      },
+      {
+        "statement": "The outer facades establish a coherent connection to the surrounding roof landscapes and add a welcome degree of sensuality.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "outer facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7975,
+            0.6507,
+            0.4286
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The perimeter edges of the repeated volumes visibly define the outer facades."
+        }
+      },
+      {
+        "statement": "The thematic courtyards create varied atmospheres and enhance the quality of stay in the interior spaces.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "thematic courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.477,
+            0.3493,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The repeated internal voids are visibly distributed among the building bodies."
+        }
+      },
+      {
+        "statement": "The proposal integrates security elements into the open-space concept with elegant means.",
+        "tags": [
+          "safety",
+          "open space"
+        ],
+        "position": {
+          "target": "security elements in open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1807,
+            1,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern access area provides the most plausible surface anchor for security elements."
+        }
+      },
+      {
+        "statement": "Overall, the project is skilful and very precise, fitting into the existing structure of the military installations.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "whole proposal",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.477,
+            0.3493,
+            0.3571
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete serial campus arrangement anchors the overall assessment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The stringency of the concept leaves few options to omit or reduce one or two courtyards.",
+        "tags": [
+          "flexibility",
+          "massing"
+        ],
+        "position": {
+          "target": "courtyard sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.477,
+            0.3493,
+            0.1429
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The repeated courtyard gaps are visibly embedded in the rigid serial composition."
+        }
+      },
+      {
+        "statement": "The proposed tree species and growth height have only a limited dialogue with the building scale and district open spaces.",
+        "tags": [
+          "landscape",
+          "scale"
+        ],
+        "position": {
+          "target": "proposed tree species and growth height",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6181,
+            0.3493,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open courtyard and perimeter surfaces provide an approximate landscape anchor; trees are not distinguishable."
+        }
+      },
+      {
+        "statement": "The tight sequence of building bodies and rigid grid structure should be moderated by deliberate rule breaks.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "tight sequence of building bodies and grid structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5335,
+            0.6507,
+            0.3571
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The dense repeated bodies and aligned levels are clearly visible across the model."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "circulation",
+      "layout",
+      "flexibility",
+      "daylight",
+      "facade",
+      "landscape",
+      "open space"
+    ]
+  }
+}

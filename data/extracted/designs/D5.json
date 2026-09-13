@@ -1,0 +1,306 @@
+{
+  "object_description": "long narrow four-storey building volume",
+  "geometry_property": [
+    "elongated",
+    "linear",
+    "narrow",
+    "four-storey",
+    "partly sunken",
+    "arcaded"
+  ],
+  "design_condition": "The narrow linear volume accompanies the main street, opens a large space toward the smaller-scale neighbourhood, and buries the gymnasium to create a spacious esplanade.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The placement and structure develop a clear attitude toward the different sides of the building and the neighbourhood.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "different building sides and neighbourhood",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4186,
+            0.4989,
+            0.7772
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The elongated volume’s contrasting perimeter edges and neighbourhood-facing sides are visible across all projections."
+        }
+      },
+      {
+        "statement": "The buried gymnasium creates a spacious esplanade.",
+        "tags": [
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "buried gymnasium and esplanade",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4842,
+            1,
+            0
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The broad open zone is approximated along the northern side beside the long linear building."
+        }
+      },
+      {
+        "statement": "The building is beautifully proportioned and robustly designed.",
+        "tags": [
+          "proportion",
+          "expression"
+        ],
+        "position": {
+          "target": "building proportions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4186,
+            0.4989,
+            0.7772
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The long, narrow, four-storey proportion is clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The public uses enliven the public space with local uses and do a great deal for the district.",
+        "tags": [
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "public uses and public space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4842,
+            1,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Public-facing open space is represented along the neighbourhood-facing side of the linear volume."
+        }
+      },
+      {
+        "statement": "The entrance hall and two main staircases are clearly arranged.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "entrance hall and main staircases",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4186,
+            0.4466,
+            0.7772
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Internal circulation is not exposed; the estimate is placed centrally within the elongated building."
+        }
+      },
+      {
+        "statement": "The simple and economical system allows for great planning and operational flexibility.",
+        "tags": [
+          "flexibility",
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "planning system",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility and operational economy describe the overall planning system without a discrete spatial marker."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Because the facility occupies the entire perimeter, any extension would considerably weaken the complex in urban-development terms.",
+        "tags": [
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "perimeter occupation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4186,
+            0.4989,
+            0.7772
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The long volume visibly occupies the site edge-to-edge, leaving limited perimeter capacity for extension."
+        }
+      },
+      {
+        "statement": "The very high proportion of glass is questionable for school use.",
+        "tags": [
+          "facade",
+          "functionality"
+        ],
+        "position": {
+          "target": "glass façade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5111,
+            0,
+            0.5545
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Glazing is not materially distinguishable, so the marker uses the south-facing upper façade."
+        }
+      },
+      {
+        "statement": "It is unclear whether the hard mineral concept for the northern open space was deliberate or resulted from insufficient attention.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "northern open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4842,
+            1,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern open-space edge is constrained by the building’s long footprint and adjacent exterior zone."
+        }
+      },
+      {
+        "statement": "The outdoor areas are designated but not developed in terms of overall concept, range of uses, or quality.",
+        "tags": [
+          "landscape",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4842,
+            1,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Exterior areas are represented as the broad open zone alongside the linear building."
+        }
+      },
+      {
+        "statement": "The heavily zoned vegetation concept does not correspond to the desired continuity of the park.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "zoned vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1685,
+            0.7105,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Vegetation is not visible; the marker estimates a northern park-edge zone where continuity is judged."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "facade",
+      "circulation",
+      "flexibility",
+      "operation",
+      "cost"
+    ]
+  }
+}

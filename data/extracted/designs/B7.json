@@ -1,0 +1,397 @@
+{
+  "object_description": "three interlocking structures with a floating classroom wing",
+  "geometry_property": [
+    "three-part",
+    "interlocking",
+    "floating",
+    "long-span",
+    "pyramid-based",
+    "vertically stacked",
+    "folded-roofed",
+    "cantilevered"
+  ],
+  "design_condition": "The structures are placed along the site edges to preserve a generous central green space while enclosing pedestrian routes and connecting the complex to surrounding destinations.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "Three clearly defined structures accommodate different uses, subtly touch each other, and create a distinctive whole.",
+        "tags": [
+          "massing",
+          "identity",
+          "layout"
+        ],
+        "position": {
+          "target": "three interlocking structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4784,
+            0.5836,
+            0.5556
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three distinct masses and their interlocking relationships are clearly visible across views."
+        }
+      },
+      {
+        "statement": "The complex has high utility value and a well-thought-out organization of uses.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "complex organization of uses",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment addresses overall utility and organization without a single spatial referent."
+        }
+      },
+      {
+        "statement": "The multipurpose hall and canteen can be combined.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "multipurpose hall and canteen",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5159,
+            0.623,
+            0.2778
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior functions are unseen; lower central mass provides a constrained shared-use anchor."
+        }
+      },
+      {
+        "statement": "The pergola serves as an escape route and frees the long hall from fire-protection requirements.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "pergola escape route",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5159,
+            0.623,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Pergola is not distinctly separated, so the connecting central route is approximated."
+        }
+      },
+      {
+        "statement": "The pergola and tapering roof cleverly make the floating body appear less high than it is.",
+        "tags": [
+          "scale",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "pergola and tapering roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5135,
+            0.455,
+            0.8889
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Roof taper and elevated body are visible, with the central upper mass as anchor."
+        }
+      },
+      {
+        "statement": "The project offers well-thought-out organization, urban orientation, and memorable architecture.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "layout"
+        ],
+        "position": {
+          "target": "urban orientation and memorable architecture",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5035,
+            0.4614,
+            0.1667
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Edge-set masses enclosing central open space are legible as an overall site strategy."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The outdoor areas receive sunlight only in the evening.",
+        "tags": [
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5035,
+            0.4614,
+            0.0556
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Generous central open space is clearly visible, while sunlight timing is not geometrically verifiable."
+        }
+      },
+      {
+        "statement": "The route to the break area is long, lacks an elevator, and is inaccessible to people with walking difficulties.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "break area route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.698,
+            0.5836,
+            0.4444
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Route and elevator are not visible; marker approximates an upper-side circulation zone."
+        }
+      },
+      {
+        "statement": "The glass railings raise unresolved safety questions.",
+        "tags": [
+          "safety",
+          "facade"
+        ],
+        "position": {
+          "target": "glass railings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5135,
+            0.455,
+            0.7222
+          ],
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Railings are too fine to identify, so an elevated perimeter location is used."
+        }
+      },
+      {
+        "statement": "The concrete construction high above the playground requires elaborate temporary structures.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "concrete construction above playground",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5135,
+            0.455,
+            0.7222
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevated concrete body above the open central area is visible in multiple views."
+        }
+      },
+      {
+        "statement": "The load-bearing slabs create considerable thermal bridges.",
+        "tags": [
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "load-bearing slabs",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5135,
+            0.455,
+            0.6667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Slabs are not individually resolved; marker is placed within the elevated structure."
+        }
+      },
+      {
+        "statement": "The large external development and many recesses are complex.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "external development and recesses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5035,
+            0.4614,
+            0.1667
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Edge routes, recesses, and open-space interfaces are visible in the site-scale composition."
+        }
+      },
+      {
+        "statement": "The load transfer of the south-facing trusses remains unresolved.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "south-facing trusses",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4831,
+            0.0147,
+            0.7241
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South-facing upper structure is constrained on the elevation, though trusses are not distinct."
+        }
+      },
+      {
+        "statement": "The generous open space is offered as a fenced all-weather pitch rather than neighborhood and recreational space.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "fenced all-weather pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5035,
+            0.4614,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Open central ground zone is visible, but fencing and pitch use are not distinguishable."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "layout",
+      "functionality",
+      "circulation",
+      "accessibility",
+      "open space",
+      "structure",
+      "safety",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

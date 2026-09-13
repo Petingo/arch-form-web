@@ -1,0 +1,415 @@
+{
+  "object_description": "three linked buildings organized around an entrance square and recreation area",
+  "geometry_property": [
+    "three-part composition",
+    "linked volumes",
+    "pavilion-like",
+    "courtyard-forming",
+    "partly sunken",
+    "roof gardens",
+    "separated structures"
+  ],
+  "design_condition": "Three buildings are linked along Billeweg to form an entrance square and recreation area, while the pavilion-like basic-level wing opens toward the park and natural ground.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The common center is functionally well designed, with the assembly hall, kitchen, library and day school clearly organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "common center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6554,
+            0.5025,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central linked zone is approximated between the three visible building masses."
+        }
+      },
+      {
+        "statement": "The division into three structures creates controlled intermediate spaces and the desired external layout without the complex falling apart.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "three structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6525,
+            0.5202,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views clearly show three separated, linked volumes."
+        }
+      },
+      {
+        "statement": "The pavilion-like basic level responds well to its use and allows permeability from the residential buildings to the park.",
+        "tags": [
+          "massing",
+          "functionality",
+          "urban integration"
+        ],
+        "position": {
+          "target": "pavilion-like basic level",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.132,
+            0.6788,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Low elongated pavilion mass is visibly distinct from the taller residential volumes."
+        }
+      },
+      {
+        "statement": "The outdoor sports facilities are fulfilled according to the space allocation plan and are well arranged.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "outdoor sports facilities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6229,
+            0.7064,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open recreation area is estimated beside the linked masses in the top view."
+        }
+      },
+      {
+        "statement": "The room program for changing rooms, equipment rooms and material rooms is complete and well organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "changing rooms, equipment rooms and material rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7543,
+            0.4806,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Support rooms are not distinguishable, so they are anchored near the lower building edge."
+        }
+      },
+      {
+        "statement": "The various buildings have a clean structural solution, and the gymnasium ceiling uses an interesting truss construction.",
+        "tags": [
+          "structure",
+          "massing"
+        ],
+        "position": {
+          "target": "gymnasium ceiling truss",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6281,
+            0.7722,
+            0.8333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Ceiling height is constrained within the taller hall volume, though truss members are unresolved."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The elementary-school location is not entirely unproblematic in urban-planning terms.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "elementary-school location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6245,
+            0.6963,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "School placement is approximated across the building-and-open-space composition."
+        }
+      },
+      {
+        "statement": "The roof gardens are too limited to work convincingly as break areas in the proposed arrangement.",
+        "tags": [
+          "open space",
+          "functionality",
+          "proportion"
+        ],
+        "position": {
+          "target": "roof gardens",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7769,
+            0.3173,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper surfaces of the taller right-hand mass provide the likely roof-garden location."
+        }
+      },
+      {
+        "statement": "The allocation of group rooms is unfavorable, and one break area would serve four classrooms.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4171,
+            0.7495,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior group rooms are absent, anchored approximately within the central school mass."
+        }
+      },
+      {
+        "statement": "The escape-route concept was not considered feasible and requires revision.",
+        "tags": [
+          "fire safety",
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "escape-route concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6525,
+            0.5202,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation system is not represented, placed approximately through the linked building network."
+        }
+      },
+      {
+        "statement": "The proposed façades are too vaguely formulated and leave too much room for interpretation.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "proposed facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7171,
+            0.1142,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Exterior envelopes are visible, with the south-facing frontage used as representative evidence."
+        }
+      },
+      {
+        "statement": "The buried gymnasium provides little stimulation and social control of the above-ground pitches.",
+        "tags": [
+          "visibility",
+          "safety",
+          "operation"
+        ],
+        "position": {
+          "target": "buried gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6981,
+            0.5191,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Low hall-like mass is estimated beneath or beside the visible pitches."
+        }
+      },
+      {
+        "statement": "The classroom access and outdoor-space arrangement forms a problematic knot that can hardly be solved.",
+        "tags": [
+          "circulation",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "classroom access and outdoor-space arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6405,
+            0.5958,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The spatial knot is approximated at the central transition between buildings and open areas."
+        }
+      },
+      {
+        "statement": "The daycare-center rooms lack clear allocation to care groups, and some room functions remain unclear.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "daycare-center rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1804,
+            0.6908,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Interior daycare allocation is not visible, anchored within the low pavilion volume."
+        }
+      },
+      {
+        "statement": "The project is costly in terms of maintenance and building cleaning.",
+        "tags": [
+          "cost",
+          "operation"
+        ],
+        "position": {
+          "target": "maintenance and building cleaning",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational cost judgment has no useful spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "open space",
+      "circulation",
+      "facade",
+      "expression",
+      "fire safety",
+      "cost"
+    ]
+  }
+}

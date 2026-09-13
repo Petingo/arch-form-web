@@ -1,0 +1,379 @@
+{
+  "object_description": "multi-storey point building beside a flat community-hall volume",
+  "geometry_property": [
+    "point structure",
+    "flat volume",
+    "multi-storey",
+    "single-storey spatial layer",
+    "central hall volume",
+    "courtyard-forming",
+    "independent ensemble"
+  ],
+  "design_condition": "The ensemble occupies the plot independently of the surrounding diagonal structure, uses setbacks and courtyards to receive pedestrian flows, and creates limited green edges and outdoor spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project takes up the scale of the surrounding area while creating an independent presence and identity.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "surrounding scale and independent identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6705,
+            0.5117,
+            0.75
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Point tower and flat hall visibly form an independent ensemble with contrasting scale."
+        }
+      },
+      {
+        "statement": "Equal accessibility from the north and south correctly picks up pedestrian flows from the village.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "accessibility"
+        ],
+        "position": {
+          "target": "north and south accessibility",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4409,
+            0.135,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "Approach routes are approximated at opposite north and south edges of the site."
+        }
+      },
+      {
+        "statement": "The differently designed courtyards create pleasant arrival spaces and attractive potential outdoor event spaces.",
+        "tags": [
+          "open space",
+          "landscape",
+          "circulation"
+        ],
+        "position": {
+          "target": "differently designed courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3973,
+            0.1451,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open courtyard areas are visible between the dense point structure and flatter volume."
+        }
+      },
+      {
+        "statement": "The hall, foyer, and outdoor spaces are designed for the greatest possible flexibility across many kinds of events.",
+        "tags": [
+          "flexibility",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "hall, foyer and outdoor spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9297,
+            0.5215,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Flat hall volume and adjacent open spaces are clearly identifiable, while foyer remains interior."
+        }
+      },
+      {
+        "statement": "Sliding partition elements enable diverse uses of the interior and exterior spaces.",
+        "tags": [
+          "flexibility",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "sliding partition elements",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9297,
+            0.5215,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Partitions are absent from the exterior sample, anchored within the hall volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new open spaces are too small to allow adequate greening.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "new open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5539,
+            0.9336,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Limited open areas are visible around the point building and hall."
+        }
+      },
+      {
+        "statement": "The gate signals the main entrance, but the gesture does not actually create an address.",
+        "tags": [
+          "identity",
+          "circulation"
+        ],
+        "position": {
+          "target": "main entrance gate",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4845,
+            0.1248,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance gesture is approximated along the southern approach edge."
+        }
+      },
+      {
+        "statement": "The possible outdoor events remain rather theoretical because residents must be protected from emissions.",
+        "tags": [
+          "open space",
+          "acoustics",
+          "urban integration"
+        ],
+        "position": {
+          "target": "outdoor events and emissions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9382,
+            0.5891,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor event area is estimated beside the hall, with emissions affecting nearby surroundings."
+        }
+      },
+      {
+        "statement": "The private green space cannot create any quality of stay because it borders the street on two sides.",
+        "tags": [
+          "landscape",
+          "open space",
+          "privacy"
+        ],
+        "position": {
+          "target": "private green space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1794,
+            0.1959,
+            0.0833
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Green space is not distinguishable, approximated along the street-facing perimeter."
+        }
+      },
+      {
+        "statement": "The connection of the side and rear rooms is not convincing with every seating option.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "side and rear rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9382,
+            0.5891,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior room connections are not represented, anchored toward the hall’s side and rear."
+        }
+      },
+      {
+        "statement": "Mobile room partitions require high-quality acoustic solutions and are maintenance-intensive.",
+        "tags": [
+          "acoustics",
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "mobile room partitions",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9212,
+            0.4539,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Mobile partitions are not visible, placed within the hall interior."
+        }
+      },
+      {
+        "statement": "The west-facing apartments are affected by emissions from the hall entrance courtyard.",
+        "tags": [
+          "acoustics",
+          "privacy",
+          "urban integration"
+        ],
+        "position": {
+          "target": "west-facing apartments",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.068,
+            0.4874,
+            0.625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "west",
+            "top"
+          ],
+          "rationale": "West-facing residential envelope is visible on the tower’s left side."
+        }
+      },
+      {
+        "statement": "Using only two-thirds of the permitted volume is likely to have a negative impact on profitability.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "permitted volume",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Volume utilization and profitability judgment has no useful spatial referent."
+        }
+      },
+      {
+        "statement": "The cultural-center concept overshoots the brief and would require costly management, while clubs would lack optimal conditions for regular use.",
+        "tags": [
+          "functionality",
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "cultural-center concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Management, program and profitability judgment concerns the overall project without one location."
+        }
+      }
+    ],
+    "keyword": [
+      "scale",
+      "identity",
+      "circulation",
+      "open space",
+      "landscape",
+      "flexibility",
+      "acoustics",
+      "cost",
+      "functionality"
+    ]
+  }
+}

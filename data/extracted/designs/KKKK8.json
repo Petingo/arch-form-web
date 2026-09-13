@@ -1,0 +1,422 @@
+{
+  "object_description": "large stepped volume with courtyards and a sunken gymnasium",
+  "geometry_property": [
+    "large-scale",
+    "stepped",
+    "two-story",
+    "three-story",
+    "courtyard-forming",
+    "sunken",
+    "deep-footprint"
+  ],
+  "design_condition": "A single large volume occupies the northern part of the plot, preserving southern expansion space and weaving the clinic into the park, although its footprint and topographic placement remain problematic.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The carefully structured volume with setbacks and courtyards is attractive.",
+        "tags": [
+          "massing",
+          "proportion",
+          "open space"
+        ],
+        "position": {
+          "target": "stepped volume with courtyards",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.561,
+            0.5799,
+            0.625
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The large stepped footprint and internal courtyard voids are clearly visible in the top view."
+        }
+      },
+      {
+        "statement": "The landscape concept successfully integrates the existing clinic into an overarching outdoor-space system.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor-space system",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5733,
+            0.1798,
+            0.125
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The southern open area provides the strongest plausible anchor for the integrated landscape system."
+        }
+      },
+      {
+        "statement": "The oval outdoor areas naturally weave the clinic into the park landscape.",
+        "tags": [
+          "landscape",
+          "open space",
+          "identity"
+        ],
+        "position": {
+          "target": "oval outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5733,
+            0.1798,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor areas are approximated within the open southern landscape around the main volume."
+        }
+      },
+      {
+        "statement": "The main entrance and forecourt provide clear addressing.",
+        "tags": [
+          "circulation",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main entrance and forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5678,
+            0.1567,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely public approach is anchored on the open southern edge facing the preserved expansion area."
+        }
+      },
+      {
+        "statement": "The central staircase enables easy orientation through the three floors.",
+        "tags": [
+          "circulation",
+          "layout",
+          "accessibility"
+        ],
+        "position": {
+          "target": "central staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.561,
+            0.5799,
+            0.625
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central vertical connector is approximated within the courtyard-forming central mass."
+        }
+      },
+      {
+        "statement": "The circuit organization offers different movement paths and additional exposure.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "circuit organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5686,
+            0.5762,
+            0.375
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Movement circuits are internal and not directly visible, so the connected central building mass is used."
+        }
+      },
+      {
+        "statement": "The southern area remains available for a coherently integrated later expansion.",
+        "tags": [
+          "flexibility",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "southern later expansion area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5678,
+            0.1567,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open southern zone is visibly distinct from the large northern building footprint."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The sunken gymnasium and its projecting skylight lanterns appear strange in the situation.",
+        "tags": [
+          "massing",
+          "expression",
+          "daylight"
+        ],
+        "position": {
+          "target": "sunken gymnasium and skylight lanterns",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5686,
+            0.5762,
+            0.125
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The lowered gymnasium is approximated within the central building mass; lanterns are not separately identifiable."
+        }
+      },
+      {
+        "statement": "The seemingly oversized paved access area is criticized.",
+        "tags": [
+          "open space",
+          "scale",
+          "circulation"
+        ],
+        "position": {
+          "target": "paved access area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5678,
+            0.1567,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The expansive southern approach zone is the plausible location for the criticized paved access."
+        }
+      },
+      {
+        "statement": "Rooms arranged around the courtyards create undesirable corridors with dark endings.",
+        "tags": [
+          "layout",
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "courtyard corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5686,
+            0.5762,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyard voids and surrounding perimeter bands are visibly identifiable, though corridor darkness is internal."
+        }
+      },
+      {
+        "statement": "The ward room at the children's ward entrance is operationally disadvantageous.",
+        "tags": [
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "ward room at children's ward entrance",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4288,
+            0.3528,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The entrance-side room is approximated near the southern approach within the stepped footprint."
+        }
+      },
+      {
+        "statement": "The school arrangement removes the everyday route to school, which is regrettable and undesirable.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "school everyday route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5678,
+            0.1567,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The missing everyday route is anchored between the southern approach and the building entrance."
+        }
+      },
+      {
+        "statement": "The terrace and connecting walkways above the entrance courtyard are unthinkable.",
+        "tags": [
+          "safety",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "terrace and connecting walkways",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5528,
+            0.3498,
+            0.625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper connections above the entrance courtyard are approximated along the southern upper building edge."
+        }
+      },
+      {
+        "statement": "The youth outdoor area can only be reached via stairs.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "youth outdoor area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7221,
+            0.2008,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The youth area is placed in the southern open zone, with stair access not directly visible."
+        }
+      },
+      {
+        "statement": "The large footprint leaves the topographic positioning unresolved and raises questions about the visible roof landscape.",
+        "tags": [
+          "topography",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "large footprint and visible roof landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.561,
+            0.5799,
+            0.75
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad roofed footprint and stepped massing are clearly visible, while topographic resolution remains uncertain."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "landscape",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "topography",
+      "daylight",
+      "accessibility"
+    ]
+  }
+}

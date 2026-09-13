@@ -1,0 +1,280 @@
+{
+  "object_description": "two compact volumes set within a landscaped field",
+  "geometry_property": [
+    "two-part",
+    "compact",
+    "freestanding",
+    "rectilinear",
+    "corridor-centered",
+    "landscape-oriented"
+  ],
+  "design_condition": "The freestanding volumes preserve a diluted landscape setting and frame distant views, while their scale and proximity to neighbouring buildings raise questions about densification and shadow.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The meeting spaces and informal exchanges between users are welcomed and praised by the jury.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "meeting spaces and informal exchanges",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.477,
+            0.5075,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Likely exchange areas are approximated near the corridor-centered interiors of both volumes."
+        }
+      },
+      {
+        "statement": "The teaching building’s slightly oversized corridors suggest appropriation beyond strict functionality.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "teaching building corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2089,
+            0.4898,
+            0.4375
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The larger west volume visibly contains broad corridor-like internal bands."
+        }
+      },
+      {
+        "statement": "The buildings are distributively rational and economically constructed.",
+        "tags": [
+          "layout",
+          "cost"
+        ],
+        "position": {
+          "target": "rational and economical distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6392,
+            0.515,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two compact rectilinear volumes provide the building-scale anchor for distribution and economy."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The proposal remains committed to a solitary landscaped establishment despite the site’s increasing densification.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "solitary landscaped establishment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.477,
+            0.5075,
+            0.25
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The separated volumes and open surrounding field indicate a dispersed landscape setting."
+        }
+      },
+      {
+        "statement": "The perspectives overlook existing university buildings within the users’ field of vision.",
+        "tags": [
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "existing university buildings in users’ field of vision",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4876,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Adjacent buildings are absent; estimate places the affected visual edge along the east facade."
+        }
+      },
+      {
+        "statement": "Practical-work rooms spread over too many floors, with unresolved basement access and research flows.",
+        "tags": [
+          "circulation",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "practical-work rooms, basement access, and research flows",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2279,
+            0.5597,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Basement and circulation details are not distinguishable; estimate uses the lower teaching volume."
+        }
+      },
+      {
+        "statement": "The very compact volumes obtain density at the expense of natural lighting and non-mechanical ventilation.",
+        "tags": [
+          "daylight",
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact volumes and natural lighting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6392,
+            0.515,
+            0.4375
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Daylight and ventilation criticism applies across both visibly compact volumes."
+        }
+      },
+      {
+        "statement": "The size and proximity of the volumes risk casting shadows on a neighbouring terrace.",
+        "tags": [
+          "scale",
+          "open space",
+          "daylight"
+        ],
+        "position": {
+          "target": "neighbouring terrace shadow risk",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9554,
+            0.6082,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Terrace is not visible; east-north placement estimates the potentially overshadowed edge."
+        }
+      },
+      {
+        "statement": "The transition slab and large spans demand substantial structural measures.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "transition slab and large spans",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.477,
+            0.5075,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The transition is approximated between the two visible compact volumes."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "landscape",
+      "visibility",
+      "layout",
+      "circulation",
+      "daylight",
+      "ventilation",
+      "structure",
+      "cost"
+    ]
+  }
+}

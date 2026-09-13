@@ -1,0 +1,390 @@
+{
+  "object_description": "elevated upper volume carried by pavilion-like ground-floor piers",
+  "geometry_property": [
+    "elevated",
+    "pier-supported",
+    "pavilion-like",
+    "bridge-linked",
+    "deep-plan",
+    "expressionist",
+    "mechanically-repetitive"
+  ],
+  "design_condition": "The project links the two campus fabrics through a pavilion-like ground level, an upper body aligned with the neighboring complex, and a western pedestrian gateway, but the avenue entrance remains only a delivery access.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The implementation subtly links the two built fabrics through distinct ground-floor and upper-level strategies.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "ground-floor and upper-level strategies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4374,
+            0.4,
+            0.1885
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top and elevations show distinct pavilion-like ground level beneath a repetitive elevated upper volume."
+        }
+      },
+      {
+        "statement": "The project effectively connects user flows at ground level and through the gateway to the neighboring campus.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "accessibility"
+        ],
+        "position": {
+          "target": "gateway to the neighboring campus",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0251,
+            0.4797,
+            0.1261
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Western edge provides the most plausible gateway location, constrained at ground level by the elevations."
+        }
+      },
+      {
+        "statement": "The project gives the pedestrian route the western gateway it currently lacks.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "western pedestrian gateway",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0251,
+            0.4797,
+            0.1261
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "A western-edge opening is approximated from the plan and west-facing perimeter condition."
+        }
+      },
+      {
+        "statement": "The building and site are conceived together so that neither interior nor exterior is treated as secondary.",
+        "tags": [
+          "urban integration",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "building and site",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2531,
+            0.3249,
+            0.1261
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled model combines a broad building footprint with perimeter ground-level and landscape relationships."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The avenue entrance is only a delivery access beside technical premises, rather than an invitation to the buried auditorium level.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "avenue entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9407,
+            0.5096,
+            0.0636
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern edge is assigned as the avenue-side access, at the technical ground-floor perimeter."
+        }
+      },
+      {
+        "statement": "The spectacular ground-floor formalization raises questions about decor, kitsch, and its break with the ordinary pedestrian path.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "ground-floor formalization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1624,
+            0.4405,
+            0.0636
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The western ground zone is a plausible location for the formalized pedestrian-path break."
+        }
+      },
+      {
+        "statement": "The thick slab device amplifies structural issues, adds cost, and introduces construction complications.",
+        "tags": [
+          "structure",
+          "cost",
+          "expression"
+        ],
+        "position": {
+          "target": "thick slab device",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6146,
+            0.566,
+            0.1885
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated elevations visibly identify thick horizontal slab bands within the elevated upper body."
+        }
+      },
+      {
+        "statement": "The banal mechanical floor typology does not provide the expected spatial richness for a place of learning and exchange.",
+        "tags": [
+          "layout",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "mechanical floor typology",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.4761,
+            0.5006
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Dense repetitive horizontal floor bands are clearly visible across the upper elevations."
+        }
+      },
+      {
+        "statement": "The deep floor plan raises serious questions about natural lighting.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "deep floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6348,
+            0.5393,
+            0.1885
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The broad plan depth and limited visible openings support a constrained interior daylight location."
+        }
+      },
+      {
+        "statement": "A significant part of the program is missing, with no reception space and no toilets for the cafeteria.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "reception space and cafeteria toilets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2494,
+            0.2805,
+            0.0636
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Missing interior program is approximated within the ground-floor plan near the southern portion."
+        }
+      },
+      {
+        "statement": "Long corridors and insufficient vertical distribution make user-flow management unsatisfactory.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "long corridors and vertical distribution",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7086,
+            0.6365,
+            0.1885
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Internal circulation is absent from the exterior sample, so a central-upper plan location is constrained."
+        }
+      },
+      {
+        "statement": "The construction performs poorly against sustainable-development objectives because of its energy-intensive systems and limited daylight.",
+        "tags": [
+          "sustainability",
+          "daylight",
+          "structure"
+        ],
+        "position": {
+          "target": "energy-intensive systems and limited daylight",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4761,
+            0.563
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Building-wide system and envelope concerns are anchored to the deep upper volume and its repetitive elevations."
+        }
+      },
+      {
+        "statement": "The exterior arrangements cut existing vegetation and are expensive by the nature of the project.",
+        "tags": [
+          "landscape",
+          "cost",
+          "urban integration"
+        ],
+        "position": {
+          "target": "exterior arrangements and existing vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1358,
+            0.2829,
+            0.0636
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern-western perimeter is a plausible sampled surface location for exterior landscape works."
+        }
+      },
+      {
+        "statement": "The cost of the work is above the average range of comparable projects.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "cost of the work",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost comparison applies globally and has no useful geometric referent."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "circulation",
+      "expression",
+      "structure",
+      "daylight",
+      "functionality",
+      "sustainability",
+      "landscape",
+      "cost"
+    ]
+  }
+}

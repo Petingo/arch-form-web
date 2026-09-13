@@ -1,0 +1,336 @@
+{
+  "object_description": "elongated narrow three-story building volume",
+  "geometry_property": [
+    "elongated",
+    "narrow",
+    "three-story",
+    "linear"
+  ],
+  "design_condition": "The building is placed centrally between the street and stream, opening generous outdoor areas toward the green islands, playground, and existing school, while the sloping terrain restricts road access and deliveries.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The central placement creates generous outdoor and lounge areas.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "central outdoor and lounge areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4837,
+            0.3892,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open areas are located around the central elongated footprint at ground level."
+        }
+      },
+      {
+        "statement": "The spacious, light-flooded learning zone is easy to use and complements the classrooms.",
+        "tags": [
+          "layout",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "light-flooded learning zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6323,
+            0.5741,
+            0.5833
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Learning zone is approximated centrally within the narrow three-story volume."
+        }
+      },
+      {
+        "statement": "The clustered classrooms with intervening group rooms create an attractive, two-sidedly lit learning space.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "clustered classrooms and group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7531,
+            0.4619,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom cluster is placed in the central upper portion of the linear building."
+        }
+      },
+      {
+        "statement": "The lockable stairwells allow the learning zone to be furnished freely in the event of a fire.",
+        "tags": [
+          "fire safety",
+          "flexibility"
+        ],
+        "position": {
+          "target": "lockable stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3154,
+            0.5164,
+            0.4167
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Stairwell position is approximated within the repeated vertical circulation bands."
+        }
+      },
+      {
+        "statement": "The ground-floor special rooms have generous glazing and three entrances to the break area.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "ground-floor special rooms and entrances",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2589,
+            0.559,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-level rooms are anchored to the lowest visible elevation band."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The lack of a road connection leaves emergency access, deliveries, and personal transport clearly limited.",
+        "tags": [
+          "accessibility",
+          "safety",
+          "operation"
+        ],
+        "position": {
+          "target": "road connection and access routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2205,
+            0.8852,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Access concern is located along the street-side approach to the elongated volume."
+        }
+      },
+      {
+        "statement": "The proposed view through the building from the street is questionable.",
+        "tags": [
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "views through the building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3903,
+            0.4598,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Visibility concern is assigned to the building’s central longitudinal axis."
+        }
+      },
+      {
+        "statement": "The stairwells are too tight and narrow for the otherwise generous spatial conditions.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7522,
+            0.4836,
+            0.5
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation issue is approximated at an internal vertical connection."
+        }
+      },
+      {
+        "statement": "The toilet arrangement does not comply with fire regulations and would have to be changed.",
+        "tags": [
+          "fire safety",
+          "layout"
+        ],
+        "position": {
+          "target": "toilet arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3154,
+            0.5164,
+            0.3333
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Toilet layout is placed as an interior lower-middle zone approximation."
+        }
+      },
+      {
+        "statement": "The building shell appears somewhat arbitrary in relation to its transparent architectural expression.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "transparent building shell",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7157,
+            0.214,
+            0.5
+          ],
+          "radius": 0.21,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Shell concern is anchored to the visible long elevation and its transparent linear expression."
+        }
+      },
+      {
+        "statement": "The sustainable and energy-efficient construction remains ambiguous and contains glaring problem areas.",
+        "tags": [
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "sustainable and energy-efficient construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4433,
+            0.6959,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Construction performance concern is assigned to the building-wide envelope and structural system."
+        }
+      },
+      {
+        "statement": "The indefinite settlement makes the school appear isolated above the residential buildings.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "indefinite settlement above residential buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5052,
+            0.3209,
+            0.75
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Massing concern is anchored to the elevated three-story linear volume."
+        }
+      }
+    ],
+    "keyword": [
+      "open space",
+      "accessibility",
+      "safety",
+      "circulation",
+      "daylight",
+      "fire safety",
+      "facade",
+      "expression",
+      "sustainability",
+      "urban integration"
+    ]
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "object_description": "flat, stepped clinic volume with curved wings",
+  "geometry_property": [
+    "flat",
+    "stepped",
+    "curved",
+    "terrain-following",
+    "low-rise",
+    "courtyard-forming"
+  ],
+  "design_condition": "The volume follows the sloping terrain, opens toward the valley panorama, and forms enclosed, protected gardens toward the mountain side.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The landscape concept coherently connects the existing and new clinics.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "landscape concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4349,
+            0.4948,
+            0.1667
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Low stepped footprint and open interstitial areas provide the site-level landscape anchor."
+        }
+      },
+      {
+        "statement": "The precisely shaped building creates generous, protected outdoor areas for all clinical departments.",
+        "tags": [
+          "open space",
+          "landscape",
+          "privacy"
+        ],
+        "position": {
+          "target": "protected outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4379,
+            0.6804,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Curved wings visibly form enclosed garden-like voids within the footprint."
+        }
+      },
+      {
+        "statement": "The restrained architectural attitude develops a convincing identity from its landscape setting and clinic function.",
+        "tags": [
+          "identity",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "restrained architectural attitude",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Identity and restraint describe the complete architectural expression."
+        }
+      },
+      {
+        "statement": "The courtyards successfully distinguish communal areas from more introverted retreat spaces.",
+        "tags": [
+          "open space",
+          "privacy",
+          "layout"
+        ],
+        "position": {
+          "target": "courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3153,
+            0.7334,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Paired curved wings visibly define protected internal courtyard spaces."
+        }
+      },
+      {
+        "statement": "The project is cost-efficient and provides a particularly small amount of floor area.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building floor area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5274,
+            0.5846,
+            0.1667
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Broad low-rise footprint represents compact floor area and cost efficiency."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The generous openness of the wards limits everyday use because patients lack differentiated retreat options.",
+        "tags": [
+          "privacy",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "wards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3593,
+            0.6387,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ward interiors are hidden; marker follows the main curved clinical volume."
+        }
+      },
+      {
+        "statement": "Common rooms in the corridor create acoustic and olfactory interference with patient rooms.",
+        "tags": [
+          "acoustics",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "common rooms and patient rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5274,
+            0.5846,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Room relationships are indistinguishable; placement follows the central visible building strip."
+        }
+      },
+      {
+        "statement": "The arrangement makes separation of patient groups difficult and creates conflict between therapeutic work and aggression management.",
+        "tags": [
+          "functionality",
+          "safety",
+          "layout"
+        ],
+        "position": {
+          "target": "patient-group separation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3972,
+            0.6328,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal zoning critique is anchored within the main clinic footprint."
+        }
+      },
+      {
+        "statement": "The small, separated kitchen prevents important aspects of milieu therapy.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "small separated kitchen",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5273,
+            0.6227,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Kitchen location is absent; anchor is a plausible point within the clinic."
+        }
+      },
+      {
+        "statement": "Long, confusing ward paths and missing sanitary facilities impair operation.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "ward paths and sanitary facilities",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4349,
+            0.4948,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Circulation and sanitary interiors are hidden; marker covers the primary volume."
+        }
+      },
+      {
+        "statement": "The west side lacks a clear address and a convincing relationship to the street.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "visibility"
+        ],
+        "position": {
+          "target": "west side street address",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0737,
+            0.5409,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "West perimeter is constrained by the model boundary and west elevation."
+        }
+      }
+    ],
+    "keyword": [
+      "landscape",
+      "massing",
+      "topography",
+      "open space",
+      "privacy",
+      "functionality",
+      "circulation",
+      "urban integration",
+      "cost"
+    ]
+  }
+}

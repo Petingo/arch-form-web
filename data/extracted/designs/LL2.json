@@ -1,0 +1,408 @@
+{
+  "object_description": "two separate school volumes framing linked exterior spaces",
+  "geometry_property": [
+    "two-part",
+    "separated",
+    "low-rise",
+    "mid-rise",
+    "courtyard-forming",
+    "bayonet-arranged",
+    "edge-positioned"
+  ],
+  "design_condition": "Two buildings are positioned on either side of a connecting path to form a courtyard and public square, but their edge placement brings them close to neighboring buildings and narrows a major pedestrian axis.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two buildings are cleverly arranged to create two exterior spaces linked by a bayonet device.",
+        "tags": [
+          "massing",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "bayonet-linked exterior spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5187,
+            0.4766,
+            0.25
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Separated volumes and the connecting bayonet arrangement visibly frame linked exterior spaces."
+        }
+      },
+      {
+        "statement": "The courtyard and public square open appropriately in front of the ground-floor programs.",
+        "tags": [
+          "open space",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "courtyard and public square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.349,
+            0.2658,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open ground-level areas are visible between and in front of the two building volumes."
+        }
+      },
+      {
+        "statement": "The restaurant has good potential to enliven the public square.",
+        "tags": [
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "restaurant",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.338,
+            0.273,
+            0.0833
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior restaurant is unidentifiable; it is approximated adjacent to the public square at ground level."
+        }
+      },
+      {
+        "statement": "The entrance portico provides cover facing the playground and welcomes students in optimal conditions.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "entrance portico",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1617,
+            0.1193,
+            0.0833
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is constrained to the south-facing ground-floor edge toward the playground."
+        }
+      },
+      {
+        "statement": "The organization in plan and section is very effective, with correctly arranged vertical circulations.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "vertical circulations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5442,
+            0.6742,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Internal circulation is not distinguishable, so it is placed within the linked building organization."
+        }
+      },
+      {
+        "statement": "The gym can be accessed independently by the public outside school hours.",
+        "tags": [
+          "operation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "gym",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2942,
+            0.3018,
+            0.0833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gym is unidentifiable internally and approximated within the accessible ground-floor volume."
+        }
+      },
+      {
+        "statement": "The implementation and arrangement of the program in two buildings are mastered.",
+        "tags": [
+          "massing",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "two-building program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3281,
+            0.3337,
+            0.4167
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled model clearly shows two separated program-bearing volumes with differing placement and height."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The conceptual implementation is clear, but its materialization remains quite schematic.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "schematic materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7907,
+            0.8707,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Material character is not sampled distinctly; the judgment is anchored broadly to the visible building envelope."
+        }
+      },
+      {
+        "statement": "The jury questions the edge location because it creates notable proximity to neighboring buildings.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "edge location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8673,
+            0.8204,
+            0.3333
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The northeast building volume visibly occupies an edge position near the model boundary."
+        }
+      },
+      {
+        "statement": "The position partially reduces the width of the rectilinear pedestrian mall.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "rectilinear pedestrian mall",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3512,
+            0.2479,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The pedestrian route is approximated along the southern gap where the separated volumes narrow open circulation."
+        }
+      },
+      {
+        "statement": "The proposal follows a fairly classic typology and offers no true educational innovation.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classic school typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3171,
+            0.3409,
+            0.4167
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Typological criticism concerns the overall arrangement of the two visible school volumes."
+        }
+      },
+      {
+        "statement": "The architectural expression remains very summary and generic, without a strong contextual position.",
+        "tags": [
+          "expression",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "generic architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8126,
+            0.8563,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "The expression judgment is anchored to the visible outer facades, where contextual detail is not distinguishable."
+        }
+      },
+      {
+        "statement": "The two building heights make the school seem to suffer the tower's scale rather than establish a dialectical relationship with it.",
+        "tags": [
+          "scale",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "taller school volume and tower relationship",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7907,
+            0.8707,
+            0.8333
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The northeast volume’s greater height is legible in plan and elevations, supporting the scale comparison."
+        }
+      },
+      {
+        "statement": "The proposal is too neutral both educationally and in its architectural response to the particular urban context.",
+        "tags": [
+          "identity",
+          "functionality",
+          "urban integration"
+        ],
+        "position": {
+          "target": "neutral urban response",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5378,
+            0.6248,
+            0.4167
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The critique addresses the overall school placement and visible massing within its urban setting."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "urban integration",
+      "circulation",
+      "layout",
+      "functionality",
+      "expression",
+      "identity",
+      "scale",
+      "operation"
+    ]
+  }
+}

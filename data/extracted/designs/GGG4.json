@@ -1,0 +1,465 @@
+{
+  "object_description": "two-story overlapping sports-hall volume",
+  "geometry_property": [
+    "paired volumes",
+    "overlapping",
+    "two-story",
+    "rectilinear",
+    "partly sunken"
+  ],
+  "design_condition": "The new volume sits close to the southern and eastern plot borders, using its placement and adjacent green areas to shield traffic while creating a shared forecourt with the existing hall.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two buildings form a balanced ensemble of public uses in the heterogeneous residential area.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "balanced ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.871,
+            0.5994,
+            0.5
+          ],
+          "radius": 0.3202,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two overlapping rectilinear volumes visibly form one balanced ensemble."
+        }
+      },
+      {
+        "statement": "The access and forecourt create a distinctive space with a high quality of stay.",
+        "tags": [
+          "open space",
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "access and forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2257,
+            0.0879,
+            0.0556
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side forecourt and access edge are clearly constrained by the site arrangement."
+        }
+      },
+      {
+        "statement": "A sequence of well-proportioned outdoor spaces is proposed.",
+        "tags": [
+          "open space",
+          "proportion",
+          "landscape"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1935,
+            0.1947,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A sequence of external spaces is approximated along the southern and western perimeter."
+        }
+      },
+      {
+        "statement": "The publicly usable rooms and functional separation allow for a seamless coexistence.",
+        "tags": [
+          "layout",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "public rooms and functional separation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.863,
+            0.6261,
+            0.4444
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Overlapping volumes provide a useful exterior anchor for internal separation."
+        }
+      },
+      {
+        "statement": "The autonomous evening and weekend use of the sports hall is easy to implement.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "autonomous sports-hall use",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8549,
+            0.6528,
+            0.4444
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The larger eastern volume is the plausible sports-hall zone."
+        }
+      },
+      {
+        "statement": "The desired flexible floor plan of a modern school can be implemented.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "flexible school floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1128,
+            0.4618,
+            0.6111
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper overlapping volume provides the best approximation for the flexible school floor."
+        }
+      },
+      {
+        "statement": "The generous glazing and ceiling skylights ensure good daylight conditions and optimal interior atmosphere.",
+        "tags": [
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "generous glazing and ceiling skylights",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7014,
+            0.0939,
+            0.7778
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Light-transmitting facade bands and upper roof openings are visible in elevations."
+        }
+      },
+      {
+        "statement": "The interdisciplinary project is finely developed and demonstrates a high level of design expertise.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "design expertise",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.863,
+            0.6261,
+            0.5556
+          ],
+          "radius": 0.3202,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall overlapping massing and articulated roof provide the building-level design anchor."
+        }
+      },
+      {
+        "statement": "The requirements for energy, ecology and sustainability are conceptually planned and credibly described.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "energy ecology and sustainability",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5135,
+            0.4559,
+            1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Sustainability is spatially broad, anchored to the visible building envelope."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new building is relatively close to the southern and eastern borders, creating a certain impact on neighboring plots.",
+        "tags": [
+          "urban integration",
+          "privacy"
+        ],
+        "position": {
+          "target": "southern and eastern borders",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8939,
+            0.1342,
+            0.2222
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The stated southern and eastern plot edges correspond to visible building perimeter zones."
+        }
+      },
+      {
+        "statement": "The entrance access spaces appear extremely opulent and inappropriate to the importance of the building.",
+        "tags": [
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "entrance access spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2338,
+            0.0612,
+            0.0556
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South forecourt is the likely entrance-access region, though its scale is not distinguishable."
+        }
+      },
+      {
+        "statement": "The step at the main entrance is incomprehensible and cannot be implemented due to accessibility.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "main entrance step",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2418,
+            0.0345,
+            0.1111
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "A south-facing entrance surface is plausible, but the step is below reliable point-cloud resolution."
+        }
+      },
+      {
+        "statement": "The surface of the multifunctional space remains unclear.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "multifunctional space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3806,
+            0.0268,
+            0.0556
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The unclear multifunctional area is approximated within the shared forecourt."
+        }
+      },
+      {
+        "statement": "Not enough information is given about the selection of trees.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "tree selection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1935,
+            0.1947,
+            0.0556
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Adjacent green areas are visible only as broad site context, not individual tree species."
+        }
+      },
+      {
+        "statement": "The training of the main supports is judged to be complex.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "main supports",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.871,
+            0.5994,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated facade support lines provide an approximate structural anchor."
+        }
+      },
+      {
+        "statement": "The large trusses are arranged on the facade although this would not be statically necessary.",
+        "tags": [
+          "structure",
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "large facade trusses",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7335,
+            0.1006,
+            0.6667
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Long facade-aligned structural bands are visible, though trusses are not uniquely identifiable."
+        }
+      },
+      {
+        "statement": "The generosity of the floor plans produces the highest construction and operating costs and clearly misses the cost target.",
+        "tags": [
+          "cost",
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "generous floor plans and costs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.871,
+            0.5994,
+            0.5556
+          ],
+          "radius": 0.3202,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad overlapping volume anchors the spatial aspect; cost judgment itself is not localized."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "flexibility",
+      "daylight",
+      "structure",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

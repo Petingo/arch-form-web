@@ -1,0 +1,408 @@
+{
+  "object_description": "sequence of separate school volumes around shared courtyards",
+  "geometry_property": [
+    "linear",
+    "separate volumes",
+    "long and narrow",
+    "partly sunken",
+    "multi-level",
+    "courtyard-forming",
+    "staged development"
+  ],
+  "design_condition": "Separate volumes are arranged along the principal square and around shared outdoor spaces, with the gymnasium partly sunk into the ground and a later primary-school building extending into the park.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The basic urban-planning situation is clear and well suited to school operations.",
+        "tags": [
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "basic urban-planning situation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8627,
+            0.6877,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Separate volumes and courtyard arrangement are clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The separate structures create positive outdoor spaces at different levels with good connections to the square and park.",
+        "tags": [
+          "open space",
+          "landscape",
+          "topography"
+        ],
+        "position": {
+          "target": "outdoor spaces at different levels",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.666,
+            0.5327,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open spaces are inferred between separated masses, with elevations indicating varied levels."
+        }
+      },
+      {
+        "statement": "The differentiated building depths are well adapted to the uses.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "differentiated building depths",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8627,
+            0.6877,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top and elevation views show distinct narrow and deeper volume profiles."
+        }
+      },
+      {
+        "statement": "The close connection of the elementary school to the two playgrounds is ideal for school operations.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "elementary school and two playgrounds",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7047,
+            0.2682,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A school volume and adjacent open areas are approximated from the separated massing."
+        }
+      },
+      {
+        "statement": "The visual connection to the square and partly recessed gymnasium supports animation and social control after school hours.",
+        "tags": [
+          "visibility",
+          "safety",
+          "urban integration"
+        ],
+        "position": {
+          "target": "square and recessed gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7778,
+            0.8167,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The east-side volume and low-level mass are used as approximate square-facing gymnasium locations."
+        }
+      },
+      {
+        "statement": "The arrangement of public spaces in the public building area and private classrooms in the deeper building is logical.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "public building area and deeper classrooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5338,
+            0.7509,
+            0.508
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Public and deeper-use distinctions are not explicit, so the central deeper mass is an approximate anchor."
+        }
+      },
+      {
+        "statement": "The daycare layout provides a good overview, short distances and an original additional level of quiet rooms.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "daycare layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8627,
+            0.6877,
+            0.75
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The multi-level east-side volume provides the most plausible daycare anchor."
+        }
+      },
+      {
+        "statement": "The project takes a careful and convincing approach to the historically significant existing building.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "existing historic building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.184,
+            0.7913,
+            0.508
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The outer west-side volume is used as an approximate existing-building location."
+        }
+      },
+      {
+        "statement": "The project is classified as cost-effective overall.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "overall cost-effectiveness",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The second-stage primary-school structure is not yet convincing as either a primary school or a volume in the park.",
+        "tags": [
+          "functionality",
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "second-stage primary-school structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8593,
+            0.1821,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The isolated lower-right volume is clearly distinguishable in the top view and elevations."
+        }
+      },
+      {
+        "statement": "The relationship between the kindergarten units and their outdoor spaces is not yet sufficiently formulated.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "kindergarten units and outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8593,
+            0.6942,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Unit-to-yard relationships are interior and approximated around the east-side mass."
+        }
+      },
+      {
+        "statement": "The proposed relocation floor plan is schematic and unconvincing in its internal and external references.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "relocation floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2322,
+            0.6695,
+            0.508
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The west-side building is a directional approximation for the referenced relocation plan."
+        }
+      },
+      {
+        "statement": "A required equipment room is missing from the sports facilities.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "equipment room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7183,
+            0.1752,
+            0.125
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Sports facilities are approximated at the low-level east-side volume; the room is not distinguishable."
+        }
+      },
+      {
+        "statement": "The force transmission through the thermal insulation leads to numerous thermal bridges and requires revision for execution.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "thermal insulation force transmission",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8627,
+            0.6877,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The comment concerns the exterior envelope, approximated on the prominent east-side façades."
+        }
+      },
+      {
+        "statement": "The narrow axial dimensions result in a large number of solar-shading elements.",
+        "tags": [
+          "proportion",
+          "sustainability"
+        ],
+        "position": {
+          "target": "solar-shading elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8563,
+            0.7149,
+            0.625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated elevation lines indicate façade elements on the taller east-side volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "topography",
+      "layout",
+      "functionality",
+      "visibility",
+      "safety",
+      "cost"
+    ]
+  }
+}

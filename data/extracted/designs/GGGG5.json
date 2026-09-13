@@ -1,0 +1,355 @@
+{
+  "object_description": "compact three-story volume with staggered massing and hipped roofs",
+  "geometry_property": [
+    "compact",
+    "three-story",
+    "staggered",
+    "recessed corner",
+    "hipped roofs",
+    "sloping roofs",
+    "windmill-like classroom arrangement"
+  ],
+  "design_condition": "The compact building is placed close to the old building, freeing substantial outdoor space; its recessed northeast corner forms an access space and its staggered volume establishes a dialogue with the existing building.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compactness and spatial dimensions create an interesting dialogue with the old building.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "compact dialogue with old building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0864,
+            0.5356,
+            0.5385
+          ],
+          "radius": 0.29,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact staggered mass and close western edge visibly establish the stated relationship."
+        }
+      },
+      {
+        "statement": "The compact building leaves considerable freedom for possible later additional buildings.",
+        "tags": [
+          "massing",
+          "flexibility",
+          "open space"
+        ],
+        "position": {
+          "target": "future additional building space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8059,
+            0.5816,
+            0.1923
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Freed space is estimated along the more open eastern perimeter of the compact mass."
+        }
+      },
+      {
+        "statement": "The centrally located auditorium and library are highly visible, while the upper teaching floors allow retreat and unforced cluster formation.",
+        "tags": [
+          "visibility",
+          "layout",
+          "privacy"
+        ],
+        "position": {
+          "target": "central auditorium and library",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7215,
+            0.6109,
+            0.4615
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central interior zone is used for the stated highly visible shared facilities."
+        }
+      },
+      {
+        "statement": "The auditorium and library can support several forms of everyday and event use.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "auditorium and library flexible use",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7215,
+            0.6109,
+            0.3846
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Same central shared-use zone provides the most plausible spatial anchor."
+        }
+      },
+      {
+        "statement": "The compact building shape has a positive effect on economic efficiency.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact building economic efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7215,
+            0.6109,
+            0.5385
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact three-story envelope is directly evident in the sampled massing."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The main staircase is somewhat cramped, and the student route to the upper floors is not particularly elegant.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "main staircase and upper-floor route",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0864,
+            0.5356,
+            0.4615
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Stair is approximated toward the western circulation side of the compact volume."
+        }
+      },
+      {
+        "statement": "The circulation to the lower school is long and circuitous because of the additional entrance.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "long route to lower school",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2904,
+            0.1625,
+            0.2308
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Lower south-west route is estimated from the additional entrance condition."
+        }
+      },
+      {
+        "statement": "The proximity of the music room and music lessons is not optimal.",
+        "tags": [
+          "layout",
+          "acoustics"
+        ],
+        "position": {
+          "target": "music room and music lessons",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7637,
+            0.5963,
+            0.4615
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Eastern interior zone is a plausible anchor for the referenced music spaces."
+        }
+      },
+      {
+        "statement": "The static system provides only limited flexibility for the upper-floor layout.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "upper-floor static system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7215,
+            0.6109,
+            0.7692
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper central building zone approximates the structural constraint on floor layouts."
+        }
+      },
+      {
+        "statement": "The windmill-like classroom arrangement is judged too rigid and accepts operational disadvantages and inconsistencies.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "operation"
+        ],
+        "position": {
+          "target": "windmill-like classroom arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.529,
+            0.5661,
+            0.9615
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-floor arrangement is constrained to the repeated upper-level envelope, though rooms are unresolved."
+        }
+      },
+      {
+        "statement": "Classroom quality varies, with some rooms disadvantaged by limited daylight and missing direct connections to group rooms.",
+        "tags": [
+          "daylight",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms with limited daylight",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8617,
+            0.2152,
+            0.7308
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "An upper perimeter zone is estimated for classrooms with poorer daylight and group-room connections."
+        }
+      },
+      {
+        "statement": "The high windows may cause overheating in summer and make furnishing difficult.",
+        "tags": [
+          "daylight",
+          "sustainability",
+          "functionality"
+        ],
+        "position": {
+          "target": "high windows and overheating",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8178,
+            0.5277,
+            0.9231
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper facade band provides the plausible location for high windows affecting heat and furnishing."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "compactness",
+      "flexibility",
+      "layout",
+      "circulation",
+      "operation",
+      "daylight",
+      "acoustics",
+      "cost"
+    ]
+  }
+}

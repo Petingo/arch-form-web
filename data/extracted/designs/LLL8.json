@@ -1,0 +1,352 @@
+{
+  "object_description": "staggered main volume with a smaller prismatic annex",
+  "geometry_property": [
+    "staggered",
+    "stepped",
+    "prismatic",
+    "elongated",
+    "courtyard-based",
+    "colonnaded",
+    "connected",
+    "multi-level"
+  ],
+  "design_condition": "Two volumes occupy both plots, with the main building stepping toward the viaduct and following the track field, while excavation creates a generous low-level outdoor space linked by a boulevard and campus square.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The proposal creates a clear and simple campus structure with functioning logistics processes.",
+        "tags": [
+          "layout",
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "campus structure and logistics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6059,
+            0.4039,
+            0.3279
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed marker covers the connected stepped building arrangement supporting campus-wide logistics."
+        }
+      },
+      {
+        "statement": "The central passage is formulated as a meeting space and connects public uses along the length of the building.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "central passage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5723,
+            0.5263,
+            0.3356
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view indicates a longitudinal central void or passage through the main volume."
+        }
+      },
+      {
+        "statement": "Connecting the campus at city level to surrounding pedestrian routes and public spaces is convincing.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "surrounding pedestrian routes and public spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4973,
+            0.3939,
+            0.1039
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Site-level marker is placed along the building perimeter where routes and public spaces connect."
+        }
+      },
+      {
+        "statement": "The robust structural approach is overlaid by an interior opening with great identification potential.",
+        "tags": [
+          "structure",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "interior opening",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.569,
+            0.5775,
+            0.552
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central opening is identifiable in plan and reflected by the surrounding elevations."
+        }
+      },
+      {
+        "statement": "The buildings are designed flexibly for changes in use and to carry on the history of the place through their shape.",
+        "tags": [
+          "flexibility",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "flexible building forms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6832,
+            0.5775,
+            0.552
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped and connected volumes provide the visible massing anchor for adaptable use and place identity."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The landscape themes are almost exclusively confined to the north-facing area and therefore seem added together.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "north-facing landscape area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6034,
+            0.9118,
+            0.1039
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North-side site edge is constrained by the directional comment and perimeter geometry."
+        }
+      },
+      {
+        "statement": "The required route along the city stream is on the wrong side, and the infrastructure buildings are insufficiently integrated.",
+        "tags": [
+          "urban integration",
+          "accessibility"
+        ],
+        "position": {
+          "target": "city stream route",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4745,
+            0.1046,
+            0.1039
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A perimeter route is approximated at the lower site edge; the stream itself is not distinguishable."
+        }
+      },
+      {
+        "statement": "The passerelle is too narrow, too steep, and partly outside the perimeter.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "safety"
+        ],
+        "position": {
+          "target": "passerelle",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5266,
+            0.5263,
+            0.3356
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Potential connector is placed near the central link, with slope and perimeter status unresolved."
+        }
+      },
+      {
+        "statement": "Some courtyards are too narrow, so insufficient daylight reaches the rooms everywhere.",
+        "tags": [
+          "proportion",
+          "daylight"
+        ],
+        "position": {
+          "target": "narrow courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3843,
+            0.4165,
+            0.3279
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several enclosed voids are visible in plan and correspond to daylight-limited adjacent rooms."
+        }
+      },
+      {
+        "statement": "The central passage is diminished by a second boulevard running parallel to it.",
+        "tags": [
+          "layout",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "second boulevard parallel to the central passage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6202,
+            0.4165,
+            0.1039
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parallel circulation is approximated beside the central longitudinal passage in the main footprint."
+        }
+      },
+      {
+        "statement": "The supports conflict with individual rooms and the structural system is complex and rigid.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "structural supports and individual rooms",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6059,
+            0.4039,
+            0.44
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Colonnaded structural traces are visible, while their conflicts with interior rooms remain approximate."
+        }
+      },
+      {
+        "statement": "The large building volume and envelope area make the project the most expensive of the ranked proposals.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6202,
+            0.4165,
+            0.552
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad stepped mass and extensive envelope are directly visible across all calibrated views."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "accessibility",
+      "daylight",
+      "structure",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

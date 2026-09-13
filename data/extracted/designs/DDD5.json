@@ -1,0 +1,259 @@
+{
+  "object_description": "compact square main volume with a secondary three-storey building",
+  "geometry_property": [
+    "compact",
+    "square",
+    "rectilinear",
+    "cantilevered",
+    "hipped-roofed",
+    "layered",
+    "low-rise"
+  ],
+  "design_condition": "The main building is positioned between the existing school and the public street, forming a cultural square while preserving and extending the surrounding open spaces and tree canopy.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building makes a self-confident appearance while subordinating itself to the existing school through its eaves height and expression.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "expression"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5477,
+            0.4654,
+            0.875
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact low-rise mass and roof profile are visible; eaves relationship to the existing school is not represented."
+        }
+      },
+      {
+        "statement": "The Kulturplatz is created as an extended arrival and meeting place.",
+        "tags": [
+          "circulation",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "Kulturplatz",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5034,
+            0.0937,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Arrival space is constrained to the public-facing southern edge, beside the sampled building footprint."
+        }
+      },
+      {
+        "statement": "The new building joins the school complex and the public side of the street in a very natural way.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "school and public street connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4823,
+            0.0829,
+            0.1875
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The public-side connection is approximated along the southern building edge; neighboring school and street are absent."
+        }
+      },
+      {
+        "statement": "The new structure of the open spaces is pleasantly simple and convincing in its functionality.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1994,
+            0.7587,
+            0.0625
+          ],
+          "radius": 0.3025,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space structure is approximated around the building perimeter, with landscape geometry not directly sampled."
+        }
+      },
+      {
+        "statement": "The stage system complies with the design brief and its opening to the south offers exciting possibilities for open-air events.",
+        "tags": [
+          "functionality",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "stage system",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5034,
+            0.0937,
+            0.1875
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stage is placed near the southern opening, whose detailed interior arrangement is not distinguishable."
+        }
+      },
+      {
+        "statement": "The compact design with a comparatively small building volume has a positive effect on construction costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7997,
+            0.2454,
+            0.4375
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Small compact volume and layered roof form are clearly visible across the calibrated views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Simplifications in the standard are accepted in favour of the clarity of the building's organization.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "building organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7711,
+            0.6585,
+            0.5
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled rectilinear envelope visibly communicates a clear overall organization."
+        }
+      },
+      {
+        "statement": "The foyer only provides access to spectator areas for large events, while separate hall access is possible only from outside on one side.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "foyer and hall access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6939,
+            0.1912,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is approximated at the southern/front side; internal foyer and hall routes are not separable."
+        }
+      },
+      {
+        "statement": "The clarity of the appearance and situation requires concessions to individual operational processes and their comfort.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "operational processes",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns operational comfort across the building rather than a useful geometric location."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "circulation",
+      "functionality",
+      "layout",
+      "operation",
+      "massing",
+      "cost"
+    ]
+  }
+}

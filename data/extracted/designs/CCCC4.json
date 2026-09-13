@@ -1,0 +1,452 @@
+{
+  "object_description": "three detached buildings with C-shaped residential volumes and a broken rectangular block",
+  "geometry_property": [
+    "three-part",
+    "detached",
+    "C-shaped",
+    "rectangular",
+    "broken",
+    "semi-open",
+    "varied",
+    "freely arranged"
+  ],
+  "design_condition": "Two C-shaped buildings sit freely within the site while a broken rectangular block defines the road edge; their courtyards connect toward the park but leave residual spaces and an ambiguous public square.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The distinction between the different parts of the program is clearly expressed through differentiated building forms.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "differentiated building forms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5082,
+            0.5266,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three detached masses, including C-shaped and broken rectangular forms, are clearly differentiated."
+        }
+      },
+      {
+        "statement": "The project is fundamentally sound in its foundations, structure, energy and sustainable development.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "foundations, structure, energy and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates technical and environmental resolution without a specific visible geometric location."
+        }
+      },
+      {
+        "statement": "The compact buildings and recommended construction methods lead to an economical project.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.542,
+            0.3593,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact detached footprints are directly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The layout of the student rooms is well resolved.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "student rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2269,
+            0.7148,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Residential rooms are approximated within a C-shaped volume; interiors are not directly represented."
+        }
+      },
+      {
+        "statement": "The landscape section successfully links the future district with the surrounding campus.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "landscape section connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8382,
+            0.5826,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Open residual zones between detached volumes provide the site-level landscape anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The main square struggles to assert a function beyond that of a transit area.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "main square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5251,
+            0.4547,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The open area between detached volumes is clearly visible as the ambiguous central square."
+        }
+      },
+      {
+        "statement": "The arrangement does not convincingly create a sense of belonging to a greater whole.",
+        "tags": [
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "greater whole",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5082,
+            0.5266,
+            0.3333
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The separated masses and intervening voids directly support a site-wide cohesion judgment."
+        }
+      },
+      {
+        "statement": "The identity of the neighborhood and the definition of outdoor spaces remain unconvincing.",
+        "tags": [
+          "identity",
+          "open space"
+        ],
+        "position": {
+          "target": "neighborhood identity and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8263,
+            0.529,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Detached courtyards and residual exterior spaces are visible across the site plan."
+        }
+      },
+      {
+        "statement": "The random arrangement of built forms accentuates rather than resolves the urban disorder of the fabric.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "random arrangement of built forms",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3044,
+            0.6967,
+            0.4167
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The three masses are visibly freely arranged rather than aligned as one composition."
+        }
+      },
+      {
+        "statement": "The close proximity of the sports hall and residential building creates an ambiguous relationship between them.",
+        "tags": [
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "sports hall and residential building relationship",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.75,
+            0.1853,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "A close peripheral relationship is approximated, though program identities are not separable."
+        }
+      },
+      {
+        "statement": "The main square remains too open and the layout generates many residual spaces.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "main square and residual spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5321,
+            0.5391,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The plan clearly shows an open square surrounded by multiple leftover gaps."
+        }
+      },
+      {
+        "statement": "The height and proximity of the buildings give the whole an imposing presence.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "height and proximity of buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7213,
+            0.212,
+            0.75
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevations visibly show repeated heights and close spacing between the detached masses."
+        }
+      },
+      {
+        "statement": "The façade expression creates an austere image reminiscent of an administrative district.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "austere facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.75,
+            0.1853,
+            0.5833
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled facade bands provide a visible exterior anchor for the expression judgment."
+        }
+      },
+      {
+        "statement": "The distribution systems are seriously lacking in natural light.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "distribution systems",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3044,
+            0.6967,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Circulation is approximated within a residential volume because distribution systems are not exposed."
+        }
+      },
+      {
+        "statement": "The cold load-bearing façades lead to costly solutions for insulating brackets.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "load-bearing facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.726,
+            0.2077,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior perimeter bands are visible, but insulation brackets are not represented."
+        }
+      },
+      {
+        "statement": "The shape of the buildings penalizes the absorption of seismic forces.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "building shapes and seismic forces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3275,
+            0.7123,
+            0.5
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The irregular detached and C-shaped forms are visible; seismic performance is not directly observable."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "layout",
+      "identity",
+      "scale",
+      "facade",
+      "expression",
+      "daylight",
+      "structure"
+    ]
+  }
+}

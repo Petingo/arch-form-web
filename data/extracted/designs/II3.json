@@ -1,0 +1,287 @@
+{
+  "object_description": "linear building volume with a roof crossing two axes",
+  "geometry_property": [
+    "linear",
+    "north-south",
+    "layered",
+    "asymmetrical",
+    "central-atrial",
+    "exoskeleton-framed"
+  ],
+  "design_condition": "The linear volume follows the north-south axis, uses the topographic difference to light basement spaces, and organizes earthworks to distinguish domestic areas from the more public park and courtyard.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The topographic difference allows natural lighting of the basement music rooms and aula and gives form to the adjacent district-facing facade.",
+        "tags": [
+          "topography",
+          "daylight",
+          "facade"
+        ],
+        "position": {
+          "target": "basement music rooms and aula",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6742,
+            0.4771,
+            0.0833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Linear building surface anchors the basement zone low along the district-facing edge."
+        }
+      },
+      {
+        "statement": "The rationality of the plan should be underlined.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "rational plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4199,
+            0.5716,
+            0.4167
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Regular linear organization is read across the elongated top footprint and repeated elevations."
+        }
+      },
+      {
+        "statement": "The concrete exoskeleton intelligently responds to modularity in plan while giving the facades a sculptural character.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "expression"
+        ],
+        "position": {
+          "target": "concrete exoskeleton",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4019,
+            0.5586,
+            0.6667
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Outer framed edges are visibly repeated around the linear volume."
+        }
+      },
+      {
+        "statement": "The scale brought to the site is coherent and rigorously organized.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "overall site scale",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6751,
+            0.5181,
+            0.3333
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The long, compact footprint provides the sampled model’s scale reference."
+        }
+      },
+      {
+        "statement": "The earthworks distinguish domestic spaces from the more public parts of the park and courtyard.",
+        "tags": [
+          "topography",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "domestic and public park zones",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.354,
+            0.4548,
+            0.0833
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low site-edge anchor represents the earthwork transition around the building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The sports halls are not connected to the public staircase and are only accessible from the school, which impedes their use.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "sports halls and public staircase",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6921,
+            0.2966,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The eastern lower portion of the linear sample is used for the inaccessible sports zone."
+        }
+      },
+      {
+        "statement": "The spatial qualities resulting from the rational plan do not correspond to the jury's expectations.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "rational plan spatial qualities",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6456,
+            0.5498,
+            0.4167
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The critique concerns the overall repeated organization, anchored across the building mass."
+        }
+      },
+      {
+        "statement": "The geometric system neglects the spatial gradation between the overall building scale and the scale of classrooms or subgroups.",
+        "tags": [
+          "scale",
+          "proportion",
+          "layout"
+        ],
+        "position": {
+          "target": "classroom and subgroup scale",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4558,
+            0.5976,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A representative mid-building interior zone approximates classroom-scale relationships."
+        }
+      },
+      {
+        "statement": "The composition seems to refer only to itself and has no link with the larger landscape or territorial structure.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "larger landscape connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7101,
+            0.3096,
+            0.0833
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The building edge is anchored where the sampled composition meets its implied landscape."
+        }
+      },
+      {
+        "statement": "The predetermined functions of the subspaces work against the desired flexibility of use for a park of this size.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "predetermined subspaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2925,
+            0.5208,
+            0.1704
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A lower interior zone represents the inflexible subdivision of park-related uses."
+        }
+      }
+    ],
+    "keyword": [
+      "topography",
+      "daylight",
+      "layout",
+      "functionality",
+      "circulation",
+      "structure",
+      "flexibility",
+      "expression",
+      "scale",
+      "urban integration"
+    ]
+  }
+}

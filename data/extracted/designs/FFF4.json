@@ -1,0 +1,468 @@
+{
+  "object_description": "large wave-like building volume organized around a central atrium",
+  "geometry_property": [
+    "wave-like",
+    "organic",
+    "amorphous",
+    "large-scale",
+    "bent",
+    "atrium-containing",
+    "multi-level",
+    "green-roofed"
+  ],
+  "design_condition": "The building occupies nearly the entire plot and expands toward the city, forming a town square, neighbourhood square, hillside garden, and delivery area that mediate between different urban levels and contexts.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The wave-like form creates several urban situations with distinct spatial qualities.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "wave-like form and urban situations",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.3208,
+            0.2727
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad wave-like massing is visible across the footprint and elevations, supporting approximate urban-edge placement."
+        }
+      },
+      {
+        "statement": "The underpass connection and access to different levels are handled well at the urban scale.",
+        "tags": [
+          "circulation",
+          "topography"
+        ],
+        "position": {
+          "target": "underpass connection and level access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1988,
+            0.4977,
+            0.0909
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Access is constrained to the lower building perimeter and ground level; the underpass itself is not distinguishable."
+        }
+      },
+      {
+        "statement": "The internal courtyards and central atrium support flexibility, spatial relationships, orientation, and interdisciplinary exchange.",
+        "tags": [
+          "flexibility",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "internal courtyards and central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4334,
+            0.332,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central void-like organization is identifiable in the top view and supported by the multi-level elevations."
+        }
+      },
+      {
+        "statement": "The auditorium and teaching rooms implement the desired flexibility and spatial relationships very well.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "auditorium and teaching rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7409,
+            0.2789,
+            0.4091
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior rooms are not individually visible, so the placement estimates a plausible mid-level building zone."
+        }
+      },
+      {
+        "statement": "The connection between research and teaching is possible horizontally and vertically.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "research and teaching connection",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.775,
+            0.6903,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The horizontal and vertical relationship is internal; a distributed mid-building anchor represents it approximately."
+        }
+      },
+      {
+        "statement": "The majority of operational processes are efficient and the density of use is appropriate.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "operational processes and density of use",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational efficiency and use density have no reliable geometric marker in the sampled exterior."
+        }
+      },
+      {
+        "statement": "The central atrium is effective across all levels and facilitates orientation.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4334,
+            0.332,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central organizing void is the clearest interior-related feature in the top view and spans the elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The overall volume creates a clear jump in scale and introduces a new standard to the district.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "overall volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4334,
+            0.332,
+            0.5455
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The large building volume and its scale are directly evident across all calibrated views."
+        }
+      },
+      {
+        "statement": "The building occupies almost the entire property and requires demolition of the existing church.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "whole property and existing church",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.204,
+            0.3183,
+            0.0909
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled building nearly fills the visible footprint; the existing church is not separately represented."
+        }
+      },
+      {
+        "statement": "The uniform facade does not respond sufficiently to the differentiated urban situations promised by the form.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "uniform facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1584,
+            0.3279,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated elevation rows show a broadly uniform envelope, though differentiated urban faces are not identifiable."
+        }
+      },
+      {
+        "statement": "Some circulation areas are excessively generous and cannot be used convincingly throughout.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "generous circulation areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7409,
+            0.2789,
+            0.4545
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Circulation interiors are absent from the point cloud, so a plausible mid-level peripheral zone is used."
+        }
+      },
+      {
+        "statement": "Daylight harvesting inside the building may be difficult.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "daylight harvesting inside the building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4334,
+            0.332,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The atrium provides the only plausible daylight-related anchor, while internal daylight paths remain indistinguishable."
+        }
+      },
+      {
+        "statement": "The photovoltaic-dominated green terrace creates a conflict on the fifth facade.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "photovoltaic-dominated green terrace",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6189,
+            0.5506,
+            1
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A roof-level terrace is constrained by the top footprint, but photovoltaic and planting elements are not separately visible."
+        }
+      },
+      {
+        "statement": "The large spans lead to a complex structural system.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "large-span structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4772,
+            0.3141,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Spans are not directly recoverable, so the structural issue is anchored to the broad central mass."
+        }
+      },
+      {
+        "statement": "The project ranks poorly in sustainability and economic viability.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "sustainability and economic viability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability and economic viability are evaluative judgments without a reliable spatial referent."
+        }
+      },
+      {
+        "statement": "The technical access system is somewhat undirected because of the form.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "technical access system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8882,
+            0.496,
+            0.1818
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Technical access is internal and indistinguishable; the marker uses a plausible lower peripheral service zone."
+        }
+      },
+      {
+        "statement": "The city's interests have to take a back seat in places.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "city's interests",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.3208,
+            0.2273
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The comment concerns urban integration broadly, so it is distributed over a representative building-site edge."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "open space",
+      "circulation",
+      "layout",
+      "flexibility",
+      "daylight",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

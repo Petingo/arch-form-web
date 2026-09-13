@@ -1,0 +1,401 @@
+{
+  "object_description": "three perpendicular volumes framing two distinct squares",
+  "geometry_property": [
+    "multi-volume",
+    "perpendicular",
+    "ordered",
+    "full-and-empty",
+    "square-forming",
+    "porticoed",
+    "contextual"
+  ],
+  "design_condition": "Three volumes are ordered perpendicular to the road, balancing solids and voids to define distinct public and private spaces in relation to the field, historical context, and terrain.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear order positions three buildings and three expertly organized, well-qualified outdoor spaces.",
+        "tags": [
+          "massing",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "three buildings and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5064,
+            0.5029,
+            0.3333
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three separated volumes and intervening voids are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The position of the volumes is well calibrated and harmonious with one another and with the historical and orographic context.",
+        "tags": [
+          "massing",
+          "proportion",
+          "urban integration"
+        ],
+        "position": {
+          "target": "position of the volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5027,
+            0.519,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct perpendicular masses have clearly legible relative placement and scale."
+        }
+      },
+      {
+        "statement": "The sober architecture establishes an interesting dialogue with the pre-existences.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "sober architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5027,
+            0.519,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Simple rectilinear volumes define the visible architectural expression."
+        }
+      },
+      {
+        "statement": "The good balance between full and empty spaces is appreciated.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "full and empty spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5064,
+            0.5029,
+            0.1667
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two substantial voids are visibly framed by three solids."
+        }
+      },
+      {
+        "statement": "The clear distinction between the two squares and their functions is appreciated.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "two squares",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5039,
+            0.5141,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Distinct open squares are readable between the three plan volumes."
+        }
+      },
+      {
+        "statement": "The structural concept is correct.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5027,
+            0.519,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular orthogonal masses provide moderate evidence for a coherent structural concept."
+        }
+      },
+      {
+        "statement": "The large entrance to the school is appreciated.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "large entrance to the school",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2779,
+            0.3578,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Entrance is approximated at the southern edge of the larger western volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The clear design loses clarity in the detailed design and organization of the spaces.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "detailed design and organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5013,
+            0.5253,
+            0.3333
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad criticism is anchored across the visible three-volume composition."
+        }
+      },
+      {
+        "statement": "Questionable choices in the external porticoes, corridors, and monumental staircase weaken an otherwise solid system.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "external porticoes, corridors, and monumental staircase",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5064,
+            0.5029,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "External circulation elements are approximated along the interfaces between volumes and squares."
+        }
+      },
+      {
+        "statement": "The design of the external spaces suffers from the uncertainties of the internal spaces.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "external spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.509,
+            0.4917,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open spaces are directly visible, though internal-space uncertainty cannot be represented."
+        }
+      },
+      {
+        "statement": "Locating the bathrooms for all first-floor classrooms on the ground floor is not very functional.",
+        "tags": [
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "bathrooms for first-floor classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3203,
+            0.7368,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Bathrooms are approximated on the ground floor beneath the larger western building."
+        }
+      },
+      {
+        "statement": "The location of the teachers’ room and management is not very functional.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "teachers’ room and management",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8588,
+            0.315,
+            0.3333
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Administrative rooms are assigned approximately within the smaller eastern volume."
+        }
+      },
+      {
+        "statement": "The classrooms are only partially communicating.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2968,
+            0.7127,
+            0.6667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Classrooms are approximated in the larger upper western mass; partial communication is not directly visible."
+        }
+      },
+      {
+        "statement": "The project is above the average cost of the projects analyzed.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "project cost",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost is an unlocated performance judgment without a spatial model referent."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "layout",
+      "functionality",
+      "circulation",
+      "expression",
+      "structure",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

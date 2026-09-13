@@ -1,0 +1,255 @@
+{
+  "object_description": "compact monumental building volume",
+  "geometry_property": [
+    "compact",
+    "vertical",
+    "small-footprint",
+    "plinth-based",
+    "staggered"
+  ],
+  "design_condition": "The compact footprint creates an urban setting, but the surrounding open space does not fully exploit the resulting site potential.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The central staircase was rethought into a spatially strong element, with daylight reaching far down.",
+        "tags": [
+          "expression",
+          "daylight"
+        ],
+        "position": {
+          "target": "central staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6654,
+            0.486,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central vertical circulation is approximated within the compact upper mass and traced through the elevations."
+        }
+      },
+      {
+        "statement": "The façade breaks away from its earlier role models, with a more purified division of the design.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "purified façade division",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7019,
+            0,
+            0.15
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "South and east elevations visibly show the building’s divided plinth and upper façade expression."
+        }
+      },
+      {
+        "statement": "The interior is spatially enriched through clever and stringent organization.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "interior organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6654,
+            0.486,
+            0.45
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior organization is not exposed; the marker uses the apparent central upper volume."
+        }
+      },
+      {
+        "statement": "The proposal impresses with its urban setting.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "urban setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1914,
+            0,
+            0.05
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The compact footprint leaves surrounding perimeter space, represented near the south-west site edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The connection between the stairwell and the outside space remains unresolved.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "stairwell–outside connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7019,
+            0,
+            0.15
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The external stair connection is not distinguishable; the marker is constrained to the south-facing circulation edge."
+        }
+      },
+      {
+        "statement": "The proposed classroom transparency to the stairwell is not feasible from a school perspective.",
+        "tags": [
+          "privacy",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom transparency to stairwell",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.619,
+            0.486,
+            0.65
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classrooms are unobservable internally; the estimate lies along the south façade at upper levels."
+        }
+      },
+      {
+        "statement": "The monumentality remains, and the new division into plinth and main façade is not convincing.",
+        "tags": [
+          "expression",
+          "scale",
+          "facade"
+        ],
+        "position": {
+          "target": "plinth and main façade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7019,
+            0,
+            0.15
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The stepped plinth-to-main-façade division is directly legible in the south and east elevations."
+        }
+      },
+      {
+        "statement": "The surroundings do not exploit the potential of the small footprint, and their use remains unclear.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "surroundings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.1852,
+            0.05
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open perimeter space surrounds the compact footprint, with the south-west area representing unclear external use."
+        }
+      },
+      {
+        "statement": "The scale and architectural expression are not appropriate for an elementary school.",
+        "tags": [
+          "scale",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "elementary-school scale and expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7118,
+            0.486,
+            0.55
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The compact, vertically emphatic volume is visible across the top and elevations as the judged whole building."
+        }
+      }
+    ],
+    "keyword": [
+      "expression",
+      "facade",
+      "daylight",
+      "urban integration",
+      "layout",
+      "open space",
+      "landscape",
+      "scale"
+    ]
+  }
+}

@@ -1,0 +1,391 @@
+{
+  "object_description": "two opposing buildings forming a built front around the stream",
+  "geometry_property": [
+    "two-part",
+    "opposing",
+    "stream-separated",
+    "partly buried",
+    "compact",
+    "three-level",
+    "long",
+    "massive"
+  ],
+  "design_condition": "Two buildings face each other across the stream, forming a southwest built front while leaving a generous northeast open area for courtyards, sports fields, landscape, and access.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The partially buried sports building provides a significant amount of natural lighting in the halls.",
+        "tags": [
+          "daylight",
+          "topography"
+        ],
+        "position": {
+          "target": "partially buried sports building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6591,
+            0.2519,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower opposing volume appears partly buried and is the plausible sports-building anchor."
+        }
+      },
+      {
+        "statement": "The project integrates smoothly into the general topography and proposes landscaping for the stream and its surroundings.",
+        "tags": [
+          "topography",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "stream landscaping and surroundings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5081,
+            0.5007,
+            0.1
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Stream surroundings are not modeled distinctly; the separation corridor provides a constrained landscape location."
+        }
+      },
+      {
+        "statement": "The northeast open space is generously connected to the larger landscape and links all access to the buildings.",
+        "tags": [
+          "open space",
+          "landscape",
+          "circulation"
+        ],
+        "position": {
+          "target": "northeast open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5591,
+            0.8257,
+            0.2
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northeast area is the visibly open side beyond the opposing building masses."
+        }
+      },
+      {
+        "statement": "The intervention is simple and rational, and the compact plan is economical.",
+        "tags": [
+          "massing",
+          "layout",
+          "cost"
+        ],
+        "position": {
+          "target": "compact plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5191,
+            0.5164,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two compact long volumes and their overall arrangement are clearly visible across the calibrated views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The equipment rooms are not directly adjoining the sports halls, making equipment routing impossible in this form.",
+        "tags": [
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "equipment rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8192,
+            0.4744,
+            0.3
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Equipment rooms are internal; the lower sports-building volume offers the closest constrained location."
+        }
+      },
+      {
+        "statement": "The day-center program spread over two levels increases traffic and makes supervision of children difficult.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "day-center program",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1888,
+            0.797,
+            0.7
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The program is not identifiable; the upper opposing volume is used as a two-level circulation anchor."
+        }
+      },
+      {
+        "statement": "The classroom levels are very compact and have little clearance space.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1888,
+            0.797,
+            0.7
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated elevation bands indicate compact upper levels in the northwest volume."
+        }
+      },
+      {
+        "statement": "The rigor and concentration of the class levels weaken the plan educationally.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "class levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7521,
+            0.3436,
+            0.6
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The opposing volume also shows repeated compact floor bands, supporting this distributed classroom anchor."
+        }
+      },
+      {
+        "statement": "The teacher's room loses the necessary contact with the schoolyard.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "teacher's room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2158,
+            0.8281,
+            0.6
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The teacher's room is interior; the northwest building edge nearest the open area is a plausible anchor."
+        }
+      },
+      {
+        "statement": "Parking management is poorly controlled near the northwest facade and risks conflict with pedestrian flows.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "parking near northwest facade",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2016,
+            0.8118,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Parking is absent from the sample; the northwest exterior edge is fixed by the stated direction."
+        }
+      },
+      {
+        "statement": "The economic feasibility of an underground car park in this sparsely urbanized context is questioned.",
+        "tags": [
+          "cost",
+          "urban integration"
+        ],
+        "position": {
+          "target": "underground car park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2106,
+            0.8221,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The car park is not visible; a below-grade location near the northwest access edge is estimated."
+        }
+      },
+      {
+        "statement": "The entire building gives off a strong impression of massiveness.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "entire building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5191,
+            0.5164,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Both long opposing masses are visible, supporting a broad massiveness judgment."
+        }
+      },
+      {
+        "statement": "The differences between the two volumes leave the experts perplexed.",
+        "tags": [
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "two volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5112,
+            0.5052,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The two separated building masses and their differing profiles are directly legible in the renders."
+        }
+      },
+      {
+        "statement": "The significant length of the south facade presents a relatively harsh face toward the village.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "south facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5821,
+            0.149,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The long south-facing edge is clearly visible in plan and south elevation."
+        }
+      }
+    ],
+    "keyword": [
+      "topography",
+      "landscape",
+      "open space",
+      "daylight",
+      "layout",
+      "functionality",
+      "circulation",
+      "safety",
+      "massing",
+      "cost"
+    ]
+  }
+}

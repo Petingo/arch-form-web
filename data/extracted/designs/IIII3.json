@@ -1,0 +1,423 @@
+{
+  "object_description": "three-story main building with attached lower gymnasium and pergola",
+  "geometry_property": [
+    "three-story",
+    "compact footprint",
+    "attached gymnasium",
+    "stepped",
+    "pergola-accented",
+    "gridded facade"
+  ],
+  "design_condition": "The compact building is positioned as a solitary element within the campus ensemble, unlocking generous outdoor spaces and using tree rows and a play forest to define connections with the neighbourhood.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The comparatively small footprint unlocks generous outdoor spaces on the campus.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "generous outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5424,
+            0.2761,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space judgment is anchored to the building perimeter and adjacent sampled ground region."
+        }
+      },
+      {
+        "statement": "The play forest and rows of trees create strong spatial elements and a connection to the surrounding neighbourhood.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "play forest and rows of trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3568,
+            0.6163,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape elements are absent, so placement estimates the northern campus edge near the building."
+        }
+      },
+      {
+        "statement": "The main building is clearly structured, and the atrium gives the interior a good atmosphere and daylight.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.401,
+            0.667,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central interior anchor follows the main building footprint and visible internal opening."
+        }
+      },
+      {
+        "statement": "The large internal spaces offer circular paths and zoning possibilities, while the generously sized central cloakroom area supports a good atmosphere.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "central cloakroom area and circular paths",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6519,
+            0.3957,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior circulation is estimated within the central portion of the main longitudinal volume."
+        }
+      },
+      {
+        "statement": "The large covered entrance area effectively serves the school and the two associated entrances.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered entrance area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1049,
+            0.3275,
+            0.0833
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrance anchor is placed at the lower building junction where the attached volumes meet."
+        }
+      },
+      {
+        "statement": "The carefully designed floor plans achieve compactness while combining the volume with spatial qualities inside.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "compact floor plans and spatial qualities",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4535,
+            0.7271,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad judgment is anchored across the main building’s visible compact mass."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The ensemble appears somewhat random, and the proportions between the main building and gymnasium are not balanced.",
+        "tags": [
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "main building and gymnasium proportions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1657,
+            0.1952,
+            0.3333
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The imbalance is localized at the visible junction between the main building and attached gymnasium."
+        }
+      },
+      {
+        "statement": "The volumetric connection of the gymnasium seems problematic.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "gymnasium volumetric connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1792,
+            0.1859,
+            0.3333
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The gymnasium connection is clearly visible at the lower-left attached volume."
+        }
+      },
+      {
+        "statement": "The terrace over the gymnasium raises unresolved questions concerning coverage, irrigation, lockability, and management during school holidays.",
+        "tags": [
+          "operation",
+          "safety",
+          "sustainability"
+        ],
+        "position": {
+          "target": "terrace over the gymnasium",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1385,
+            0.2138,
+            0.5833
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Terrace-related concerns are anchored to the gymnasium roof surface."
+        }
+      },
+      {
+        "statement": "The playground equipment suffers from the edge conditions, and the break area functions more as a passage than as a place to stay.",
+        "tags": [
+          "layout",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "playground edge and break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1176,
+            0.1231,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "External play and break functions are estimated along the lower campus edge."
+        }
+      },
+      {
+        "statement": "The separation of the shot-put facility from the athletics area is not optimal operationally, and one entrance ends at the sports lawn, complicating maintenance.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "shot-put facility and athletics area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5424,
+            0.2761,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sports-area separation is estimated in the open site region beyond the building."
+        }
+      },
+      {
+        "statement": "The kindergarten lacks recognizable addressing despite having three equivalent entrances.",
+        "tags": [
+          "identity",
+          "circulation"
+        ],
+        "position": {
+          "target": "kindergarten entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0944,
+            0.3155,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Entrances are approximated at the attached lower-volume frontage."
+        }
+      },
+      {
+        "statement": "Having all students move through one stairwell is suboptimal because the corridor zones become bottlenecks.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "single stairwell and corridor bottlenecks",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.401,
+            0.667,
+            0.4167
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Circulation bottleneck is estimated within the main building’s central interior."
+        }
+      },
+      {
+        "statement": "One of the internal spaces is insufficiently exposed and therefore less attractive.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "insufficiently exposed internal space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3695,
+            0.6309,
+            0.4167
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "An interior room is approximated inside the less exposed central building zone."
+        }
+      },
+      {
+        "statement": "The gridded facade gives little indication of how the school building should work as a whole.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "gridded facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3607,
+            0.0618,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Regular facade grid is directly visible across the elevation point rows."
+        }
+      },
+      {
+        "statement": "Statements about surface-water seepage and green roofs are missing.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "surface-water seepage and green roofs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a missing sustainability statement without a reliable geometric location."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "proportion",
+      "urban integration",
+      "open space",
+      "landscape",
+      "layout",
+      "functionality",
+      "circulation",
+      "daylight",
+      "sustainability"
+    ]
+  }
+}

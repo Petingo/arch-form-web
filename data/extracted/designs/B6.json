@@ -1,0 +1,367 @@
+{
+  "object_description": "large staggered school building with roof terraces",
+  "geometry_property": [
+    "staggered",
+    "large-scale",
+    "multi-level",
+    "loggia-fronted",
+    "terraced",
+    "repetitive-frame",
+    "compactly structured"
+  ],
+  "design_condition": "The building occupies nearly the entire plot perimeter, differentiates its scale through staggered volumes, and creates elevated and ground-level public spaces connected to the footbridge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The staggered building structure differentiates scale effectively and gives the public building a distinctive character.",
+        "tags": [
+          "massing",
+          "scale",
+          "identity"
+        ],
+        "position": {
+          "target": "staggered building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5224,
+            0.5306,
+            0.5909
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Staggered massing and multiple levels are legible across the top and elevation views."
+        }
+      },
+      {
+        "statement": "The large two-storey loggia forms an urban entrance to the school.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "two-storey loggia entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5088,
+            0.0048,
+            0.4538
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South façade shows the likely entrance frontage, though the loggia is not separately resolved."
+        }
+      },
+      {
+        "statement": "The sports hall and communal area become an autonomous public space usable independently of school operating hours.",
+        "tags": [
+          "operation",
+          "open space"
+        ],
+        "position": {
+          "target": "sports hall and communal area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5129,
+            0.5306,
+            0.3613
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Public lower-level zone is anchored to the broad ground-floor mass."
+        }
+      },
+      {
+        "statement": "The clearly structured clusters provide roof-terrace access without disturbing classroom views.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "roof terraces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5224,
+            0.5306,
+            0.9545
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped roof terraces are visible through roof bands and elevated massing in all relevant views."
+        }
+      },
+      {
+        "statement": "The skeleton construction allows basic flexibility and adaptability.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "skeleton construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4831,
+            0.0048,
+            0.5455
+          ],
+          "radius": 0.11,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repetitive structural frame is clearly sampled on the elevations."
+        }
+      },
+      {
+        "statement": "The photovoltaic system is sufficient and water retention is possible.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "photovoltaic system and water retention",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6965,
+            0.5306,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Roof systems are not individually resolved; marker sits on the visible upper terrace region."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The depicted façade joint appears more like a thin dress.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "façade joint",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7443,
+            0.0048,
+            0.5455
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Joint expression is constrained to the articulated south façade, without a distinct joint marker."
+        }
+      },
+      {
+        "statement": "The height offset of the footbridge is viewed critically in functional terms.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "footbridge height offset",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5224,
+            0.5306,
+            0.6818
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Bridge alignment is not isolated; its approximate elevated crossing is marked centrally."
+        }
+      },
+      {
+        "statement": "The roof playground is too small and its playability is restricted by footbridge access.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "roof playground",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3167,
+            0.2597,
+            1
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper roof zone is visible, though playground boundaries are not distinct."
+        }
+      },
+      {
+        "statement": "The second playground is not publicly accessible to the neighborhood.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "second playground",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7741,
+            0.5306,
+            0.3613
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Ground-level open-space location is approximated on the right-side building perimeter."
+        }
+      },
+      {
+        "statement": "The repetitive concrete-frame construction appears undersized.",
+        "tags": [
+          "structure",
+          "proportion"
+        ],
+        "position": {
+          "target": "repetitive concrete frame",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5088,
+            0.0048,
+            0.4538
+          ],
+          "radius": 0.11,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Concrete-frame repetition is visibly sampled across the elevations."
+        }
+      },
+      {
+        "statement": "The break area is not independently accessible from the school.",
+        "tags": [
+          "accessibility",
+          "operation"
+        ],
+        "position": {
+          "target": "break area access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2517,
+            0.5306,
+            0.3613
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Break area is not identifiable; access is approximated in the lower left-side volume."
+        }
+      },
+      {
+        "statement": "The private access via the spiral staircase devalues the footbridge's connecting function.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "spiral staircase access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8612,
+            0.5306,
+            0.3613
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Stair location is not resolved; marker uses the right perimeter as a constrained access anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "circulation",
+      "open space",
+      "operation",
+      "flexibility",
+      "structure",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

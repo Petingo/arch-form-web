@@ -1,0 +1,377 @@
+{
+  "object_description": "articulated cross-shaped volume between bar and gables",
+  "geometry_property": [
+    "articulated",
+    "cross-shaped",
+    "three-level",
+    "bar-and-gable",
+    "centralized",
+    "partly sunken"
+  ],
+  "design_condition": "The building is positioned at a route junction and organizes entrances and outdoor spaces around its cross-shaped volume, but the nearly two-metre terrain difference and the relationship between the square and parking are insufficiently resolved.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The articulated volume reduces the building's visual impact.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "articulated volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4678,
+            0.2771,
+            0.5357
+          ],
+          "radius": 0.323,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Articulated building mass and reduced visual impact are legible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The cross-shaped building provides four distinct outdoor spaces and differentiated entrances.",
+        "tags": [
+          "open space",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "cross-shaped building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4261,
+            0.3021,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view clearly shows the cross-shaped organization and differentiated perimeter approaches."
+        }
+      },
+      {
+        "statement": "The clearance spaces are generous and have good light quality.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "clearance spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8,
+            0.5132,
+            0.5357
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open clearances are inferred from visible gaps and recessed spaces around the articulated volume."
+        }
+      },
+      {
+        "statement": "The proposed extension does not undermine the coherence of the project.",
+        "tags": [
+          "massing",
+          "flexibility"
+        ],
+        "position": {
+          "target": "proposed extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8,
+            0.5132,
+            0.5357
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The extension is not separately identifiable, so it is anchored to a plausible projecting mass."
+        }
+      },
+      {
+        "statement": "The cut volume is consistent with the scale of the village.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "cut volume",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4261,
+            0.3021,
+            0.2143
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level massing and partially sunken geometry constrain the cut volume near the building base."
+        }
+      },
+      {
+        "statement": "The structural system presents good rationality, particularly for vertical load transmission.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4261,
+            0.3021,
+            0.4643
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structure is not directly exposed; the marker represents the central load-bearing building zone."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The landscape and exterior arrangements are insufficiently considered, with no clear planting or water-management strategy.",
+        "tags": [
+          "landscape",
+          "open space",
+          "sustainability"
+        ],
+        "position": {
+          "target": "landscape and exterior arrangements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.128,
+            0.2362,
+            0.0357
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior space surrounds the sampled building, with a peripheral southwest site anchor."
+        }
+      },
+      {
+        "statement": "The difference in topography is not taken into account, weakening the concept for a space participating in village life.",
+        "tags": [
+          "topography",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "topography difference",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.374,
+            0.1803,
+            0.0714
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Terrain-related variation is assigned to the lower southwest edge of the partly sunken volume."
+        }
+      },
+      {
+        "statement": "The jury doubts the northern access and regrets the unresolved relationship between the village square and parking.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "northern access, village square and parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6761,
+            0.7882,
+            0.0357
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Northern perimeter space is the most useful anchor for access and square-parking relationships."
+        }
+      },
+      {
+        "statement": "The northwest classroom is difficult to use because of its position over the recreation area and its semi-buried condition.",
+        "tags": [
+          "functionality",
+          "topography",
+          "daylight"
+        ],
+        "position": {
+          "target": "northwest classroom",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2606,
+            0.9002,
+            0.2143
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Northwest plan position and low elevation approximate the classroom’s semi-buried condition."
+        }
+      },
+      {
+        "statement": "The proportion of openings is too high and raises concerns about computerized teaching and overheating.",
+        "tags": [
+          "facade",
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "facade openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8452,
+            0.4392,
+            0.5714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "A representative exposed facade region anchors concerns about opening proportion and overheating."
+        }
+      },
+      {
+        "statement": "The required storage spaces cannot be accommodated as proposed.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "required storage spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2082,
+            0.5434,
+            0.1786
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Storage is interior and absent from the sample; a lower peripheral surface provides an approximate anchor."
+        }
+      },
+      {
+        "statement": "The facade transparency is difficult to reconcile with the rural and massive roof expression.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "facade transparency and massive roof expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5032,
+            0.2904,
+            0.8929
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper envelope and roof edge are visible, supporting a representative facade-roof expression marker."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "topography",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "daylight",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

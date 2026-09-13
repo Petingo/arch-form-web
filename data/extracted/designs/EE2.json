@@ -1,0 +1,280 @@
+{
+  "object_description": "three separate buildings linked by a broad connecting slab",
+  "geometry_property": [
+    "three-part",
+    "separate",
+    "large-roofed",
+    "four-sided roofs",
+    "linked",
+    "multi-level",
+    "tall",
+    "slab-connected"
+  ],
+  "design_condition": "The three volumes are distributed across the stream and connected by a broad slab, but the extension encroaches on the planned playground and the resulting outdoor space is relatively shaded and ungenerous.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project takes a sensitive and respectful approach to local traditions.",
+        "tags": [
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2273,
+            0.7747,
+            0.5714
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distributed volumes and connecting slab are visible across the model, supporting a broad integration assessment."
+        }
+      },
+      {
+        "statement": "The gymnasium is generously lit by natural light.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2323,
+            0.7792,
+            0.7143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Gymnasium is not identifiable internally; upper western volume provides the most plausible spatial anchor."
+        }
+      },
+      {
+        "statement": "The presentation of the project is convincing.",
+        "tags": [
+          "expression"
+        ],
+        "position": {
+          "target": "presentation of the project",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Presentation quality is a non-spatial judgment without a specific model location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The extension encroaches substantially on the planned playground, contrary to the program.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "planned playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7572,
+            0.2116,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The playground is not represented; the eastern lower open edge is used as a plausible encroachment zone."
+        }
+      },
+      {
+        "statement": "The connecting outdoor space is relatively little sunny and not very generous.",
+        "tags": [
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "connecting outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5626,
+            0.5576,
+            0.2119
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The broad central connector and adjacent space are clearly visible between the separated volumes."
+        }
+      },
+      {
+        "statement": "The dining area and kitchen lack natural light.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "dining area and kitchen",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7761,
+            0.2289,
+            0.3571
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior functions are absent; the lower eastern volume provides a plausible constrained anchor."
+        }
+      },
+      {
+        "statement": "The classroom arrangement produces downstream heights of four floors and does not respect the imposed regulations.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "classroom arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7056,
+            0.2942,
+            0.8571
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stacked levels are evident in elevations, with the eastern volume anchoring the height concern."
+        }
+      },
+      {
+        "statement": "The gallery distributing the retractable stands is relatively narrow.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "gallery distributing retractable stands",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4174,
+            0.4367,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal gallery is not distinguishable; the central connecting slab is the nearest circulation anchor."
+        }
+      },
+      {
+        "statement": "The facade treatment seriously raises questions of maintenance and upkeep.",
+        "tags": [
+          "facade",
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9644,
+            0.4518,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The exposed eastern edge is visible in plan and elevation, providing a facade maintenance anchor."
+        }
+      },
+      {
+        "statement": "The jury questions whether the morphological aspects and materialization have been transcribed too literally despite differing programs and scales.",
+        "tags": [
+          "expression",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "morphological aspects and materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7041,
+            0.6874,
+            0.5714
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The comparison concerns the visible multi-volume composition and its material expression across the project."
+        }
+      }
+    ],
+    "keyword": [
+      "tradition",
+      "massing",
+      "scale",
+      "open space",
+      "daylight",
+      "functionality",
+      "circulation",
+      "facade",
+      "operation"
+    ]
+  }
+}

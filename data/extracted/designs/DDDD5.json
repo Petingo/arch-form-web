@@ -1,0 +1,415 @@
+{
+  "object_description": "elongated nine-storey cuboid with two outdoor spaces",
+  "geometry_property": [
+    "elongated",
+    "cuboid",
+    "nine-storey",
+    "compact",
+    "narrow-fronted",
+    "stacked-frame-structured"
+  ],
+  "design_condition": "The building is positioned with its narrow side toward the street to extend the established high-rise pattern and form two differently proportioned outdoor spaces within the plot.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project develops the established punctiform high-rise pattern into an organizing large-scale form suited to the heterogeneous structural environment.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "organizing large-scale form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2232,
+            0.4794,
+            0.5631
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Elongated high-rise massing is visible; urban-pattern compatibility is anchored on the full volume."
+        }
+      },
+      {
+        "statement": "The arrangement of the outdoor space around the building is convincing.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "outdoor space around the building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.239,
+            0.3721,
+            0.0851
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Open-space judgment is anchored to the low perimeter around the elongated building footprint."
+        }
+      },
+      {
+        "statement": "The lower-level public-use arrangement creates a convincing functional prelude to the building.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "lower-level public-use arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3382,
+            0.2457,
+            0.1383
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower public uses are approximated at the street-facing base of the building."
+        }
+      },
+      {
+        "statement": "The educational floors are well structured and provide classrooms of different sizes for contemporary forms of teaching.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "educational floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7564,
+            0.5473,
+            0.6809
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Upper repeated floor bands identify the likely educational zone."
+        }
+      },
+      {
+        "statement": "The interconnectable classrooms have good and usable room proportions.",
+        "tags": [
+          "flexibility",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "interconnectable classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7564,
+            0.5473,
+            0.6809
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Classroom interiors are not distinguishable, so the upper educational envelope provides the anchor."
+        }
+      },
+      {
+        "statement": "The façade-open access area provides an outdoor connection and attractive locations for flexibly configurable learning islands.",
+        "tags": [
+          "circulation",
+          "open space",
+          "flexibility"
+        ],
+        "position": {
+          "target": "façade-open access area",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4885,
+            0.0745,
+            0.5851
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access area is constrained to the open street-facing façade edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large forecourt lacks an adequate design and a convincing connection to the first-floor use.",
+        "tags": [
+          "open space",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "large forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.393,
+            0.1371,
+            0.0426
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Forecourt is placed at the broad low zone directly in front of the building."
+        }
+      },
+      {
+        "statement": "The extra-wide staircase obscures the values and desired moods of the two outdoor spaces.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "extra-wide staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.393,
+            0.1371,
+            0.383
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stair location is approximated along the front access edge at mid-lower height."
+        }
+      },
+      {
+        "statement": "The rear lower-floor room sequences are unattractive and poorly lit.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "rear lower-floor room sequences",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6225,
+            0.8348,
+            0.2021
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Rear and lower constraints place the room sequence at the back base of the volume."
+        }
+      },
+      {
+        "statement": "The connection between the lower and upper floors appears random and lacks a convincing overall spatial concept.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "connection between lower and upper floors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6796,
+            0.6645,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Vertical connection is approximated through the central stacked building volume."
+        }
+      },
+      {
+        "statement": "The administration floors lack vertical connections and zenithal lighting to enrich the closed access corridor.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "administration floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3216,
+            0.8953,
+            0.7766
+          ],
+          "radius": 0.23,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Administration is assigned to an approximate upper-rear floor region."
+        }
+      },
+      {
+        "statement": "The main circulation in the high-rise core is neither functional nor spatially comprehensible.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "main circulation in the high-rise core",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6965,
+            0.6388,
+            0.5851
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Core circulation is anchored centrally within the vertically continuous tower."
+        }
+      },
+      {
+        "statement": "The stair system is unrealistic for reaching the upper floors, the number of lifts is too low, and required fire-protection vestibules are absent.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "fire safety"
+        ],
+        "position": {
+          "target": "stair system, lifts, and fire-protection vestibules",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6976,
+            0.6371,
+            0.6277
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Vertical access systems are approximated at the tower core."
+        }
+      },
+      {
+        "statement": "The fire-protection glazing, extensive façade, high glass proportion, escape balconies, and external stairs make an economical solution impossible and drive costs upward.",
+        "tags": [
+          "fire safety",
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "fire-protection glazing, extensive façade, escape balconies, and external stairs",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7986,
+            0.1598,
+            0.6498
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Extensive vertical façades and external edge elements are visible in the elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "circulation",
+      "layout",
+      "daylight",
+      "functionality",
+      "flexibility",
+      "fire safety",
+      "cost"
+    ]
+  }
+}

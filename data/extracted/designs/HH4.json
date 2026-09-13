@@ -1,0 +1,362 @@
+{
+  "object_description": "angular two-wing school complex with differentiated heights and depths",
+  "geometry_property": [
+    "angular",
+    "two-winged",
+    "three-story",
+    "four-story",
+    "narrow",
+    "deep",
+    "courtyard-forming",
+    "grid-based"
+  ],
+  "design_condition": "The angular complex occupies the northwest corner between residential development, sports fields, and slopes, using the topography to form a public forecourt, an intimate courtyard yard, and varied viewing axes with the neighbouring retirement home.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise setting creates a beautiful courtyard formation toward the linden hill.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "courtyard formation toward the linden hill",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4412,
+            0.4788,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central open space is identifiable in plan, with the courtyard edge positioned toward the stated hill."
+        }
+      },
+      {
+        "statement": "The large forecourt acquires public qualities through its connection to the village and functions as a meeting point.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "large forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1593,
+            0.1086,
+            0.05
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A broad exterior area lies along the lower-left building edge, representing the public forecourt."
+        }
+      },
+      {
+        "statement": "The covered external staircase cleverly connects the access level with the courtyard-side break area.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "covered external staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3349,
+            0.4084,
+            0.35
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stair is approximated along the courtyard-side access edge between lower and raised levels."
+        }
+      },
+      {
+        "statement": "The building’s differentiated heights and depths respond carefully to the surrounding buildings and topography.",
+        "tags": [
+          "scale",
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "differentiated heights and depths",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6999,
+            0.7115,
+            0.7
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped massing and varying wing depths are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The precise, calm project is carefully edited and makes a valuable contribution in many respects.",
+        "tags": [
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement evaluates the project’s overall architectural contribution without identifying one spatial location."
+        }
+      },
+      {
+        "statement": "The regular structural grid clearly characterizes both the facade and the internal construction.",
+        "tags": [
+          "facade",
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "regular structural grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5263,
+            0.0901,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated horizontal and vertical point patterns visibly characterize the elevations and imply the structural rhythm."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The cooking-unit spaces and their connection to the main staircase are too small.",
+        "tags": [
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "cooking-unit spaces and main staircase",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3436,
+            0.3741,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior kitchen and stair relationships are not separable, so they are approximated within the lower central building zone."
+        }
+      },
+      {
+        "statement": "The internal trapped caretaker rooms do not meet the requirement.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "internal caretaker rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.508,
+            0.2165,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The internal rooms are absent from the exterior sample and are placed as a constrained guess within the east wing."
+        }
+      },
+      {
+        "statement": "External use of the separated area is not possible because of the lack of direct access to toilet facilities.",
+        "tags": [
+          "operation",
+          "accessibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "separated area and toilet access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5198,
+            0.1702,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The separated external zone is approximated beside the lower east-side edge where direct service access would occur."
+        }
+      },
+      {
+        "statement": "The proportions and spatial qualities of the two-storey auditorium are questionable, especially with the one-storey lunch table extension.",
+        "tags": [
+          "proportion",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "two-storey auditorium and lunch table extension",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4641,
+            0.3887,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The auditorium and adjoining extension are approximated within the deeper central-right massing."
+        }
+      },
+      {
+        "statement": "The skylight strips and glazed sections should ensure good internal lighting but will be difficult to darken when necessary.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "skylight strips and glazed sections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5999,
+            0.6845,
+            0.85
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Roof and upper façade bands suggest a constrained location for the daylight elements, though individual strips are indistinct."
+        }
+      },
+      {
+        "statement": "The access corridor provides hardly any work niches suitable for groups.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "access corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4205,
+            0.3604,
+            0.4
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal corridor is not directly visible and is approximated along the courtyard-facing circulation zone."
+        }
+      },
+      {
+        "statement": "The narrow-sided primary lighting and poorly rhythmic access corridor only partially implement the pedagogical concept.",
+        "tags": [
+          "daylight",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "narrow-sided primary lighting and access corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2912,
+            0.5799,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west",
+            "south"
+          ],
+          "rationale": "The constrained placement follows the narrow west-side wing and its adjacent circulation band."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "topography",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "daylight",
+      "proportion",
+      "facade"
+    ]
+  }
+}

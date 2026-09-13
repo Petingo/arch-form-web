@@ -1,0 +1,317 @@
+{
+  "object_description": "radiant compact building volume around a central patio",
+  "geometry_property": [
+    "compact",
+    "radiant",
+    "central-patio",
+    "peripheral-stairwell",
+    "articulated",
+    "multi-level"
+  ],
+  "design_condition": "The compact building is placed north of the site, with housing to the southwest and a large park to the east, while a central spine, mounds, paths, and courtyards structure the wider landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise arrangement allows a structured development of the site in stages, with potential for housing growth and a generous public park.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "flexibility"
+        ],
+        "position": {
+          "target": "structured site development",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1782,
+            0.7726,
+            0.1875
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view shows a compact building footprint with surrounding open regions."
+        }
+      },
+      {
+        "statement": "The mounds protect the park from noise, conceal parking, and use excavation materials judiciously.",
+        "tags": [
+          "landscape",
+          "sustainability",
+          "safety"
+        ],
+        "position": {
+          "target": "protective mounds",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7825,
+            0.7642,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Mounds are not distinguishable; east-side low site placement follows the stated park relationship."
+        }
+      },
+      {
+        "statement": "The central patio creates diversified openings onto the landscape and brings the functions together around a shared heart.",
+        "tags": [
+          "layout",
+          "open space",
+          "visibility"
+        ],
+        "position": {
+          "target": "central patio",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5118,
+            0.5294,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central opening is clearly visible within the surrounding multi-level volume."
+        }
+      },
+      {
+        "statement": "The four peripheral stairwells provide efficient distribution on all floors with short, precise routes.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "peripheral stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1104,
+            0.4528,
+            0.4375
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Vertical circulation is unresolved; anchor uses a side perimeter position."
+        }
+      },
+      {
+        "statement": "The facade expression is effective through its load-bearing mesh system.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "load-bearing mesh facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8013,
+            0.5229,
+            0.625
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Dense articulated facade bands are visible on the elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Certain corridors lack natural lighting and certain areas need to be resized.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "corridors and resized areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3398,
+            0.4898,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior corridors and room sizes are unresolved; anchor samples the middle region."
+        }
+      },
+      {
+        "statement": "The foyer is poorly sized for the expected number of students, and the patio may be too large at ground level.",
+        "tags": [
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "foyer and ground-level patio",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5488,
+            0.4617,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central patio is visible; foyer remains unresolved, so both use a ground-level anchor."
+        }
+      },
+      {
+        "statement": "The stairs need a more sensitive formal characterization, and the classroom interior facades require clarification.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "stairs and classroom interior facades",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1513,
+            0.7482,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior stairs and classroom faces are not separately visible."
+        }
+      },
+      {
+        "statement": "The balconies do not seem to offer easy use because of monitoring difficulties and the risk of objects being thrown or falling.",
+        "tags": [
+          "safety",
+          "operation"
+        ],
+        "position": {
+          "target": "balconies",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7348,
+            0.7209,
+            0.625
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper perimeter placement represents the monitoring and falling-object concern."
+        }
+      },
+      {
+        "statement": "The relationship between the facade system and the gymnasium spaces appears problematic.",
+        "tags": [
+          "facade",
+          "structure"
+        ],
+        "position": {
+          "target": "facade system and gymnasium spaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8455,
+            0.4636,
+            0.4375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Gymnasium and facade interface is unresolved; anchor marks a side elevation zone."
+        }
+      },
+      {
+        "statement": "The large empty gymnasium spaces do not exploit the possibilities for diverse expression and transparency, producing a problematic interior-exterior relationship.",
+        "tags": [
+          "expression",
+          "visibility",
+          "facade"
+        ],
+        "position": {
+          "target": "large empty gymnasium spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8896,
+            0.4043,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Gymnasium interiors are absent from the exterior sample; approximate a large side volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "landscape",
+      "open space",
+      "layout",
+      "circulation",
+      "functionality",
+      "daylight",
+      "facade",
+      "expression",
+      "safety"
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "object_description": "transparent low-rise school volume around a central courtyard",
+  "geometry_property": [
+    "low-rise",
+    "permeable",
+    "transparent",
+    "centralized",
+    "courtyard-forming",
+    "shed-roofed",
+    "single-level classroom floor"
+  ],
+  "design_condition": "The centrally placed low-rise school forms a generous public space with the surrounding housing, while its courtyard, tree-lined paths and sports field structure connections toward the neighborhood and river.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The light structure offers great transparency and permeability.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "light structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2093,
+            0.3923,
+            0.6
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Anchored to the sampled school envelope, representing its broadly distributed transparent and permeable structure."
+        }
+      },
+      {
+        "statement": "Its size is inspired by the existing artisanal structures in the neighborhood.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "neighborhood artisanal structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1203,
+            0.4365,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Placed on a representative low-rise building region for the jury’s neighborhood scale comparison."
+        }
+      },
+      {
+        "statement": "The low height creates clearance from the massive future housing.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "low height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6016,
+            0.2857,
+            0.2
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Located near the lower sampled envelope, supported by the clearly low-rise elevation profile."
+        }
+      },
+      {
+        "statement": "The central location transforms the public space into a generous covered-market-like square.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "central covered-market-like square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4968,
+            0.4625,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Anchored near the central ground-level open-space region identified from the top and elevations."
+        }
+      },
+      {
+        "statement": "The organization of spaces is simple and very convincing, with all classrooms on one level.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "single-level classroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7386,
+            0.1449,
+            0.2
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Placed on the low ground-level band corresponding to the school’s single classroom level."
+        }
+      },
+      {
+        "statement": "The north-facing sheds create a very airy space and homogeneous natural light.",
+        "tags": [
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "north-facing sheds",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5999,
+            0.8187,
+            0.9
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Located along the upper northern roof edge where the shed roof profile is most constrained."
+        }
+      },
+      {
+        "statement": "The generous central space supports many activities beyond simple distribution and creates a real learning workshop.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "generous central learning workshop",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4968,
+            0.4625,
+            0.1
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Anchored to the central ground-level space, interpreted as the flexible activity and learning zone."
+        }
+      },
+      {
+        "statement": "The dual-purpose academic and public program is brought together at ground level and made available to residents outside school hours.",
+        "tags": [
+          "functionality",
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "academic and public program at ground level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1075,
+            0.6707,
+            0.1
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Placed on a representative portion of the shared ground-level building and public interface."
+        }
+      },
+      {
+        "statement": "The school responds relevantly to densification by becoming a center of the neighborhood and improving residents' quality of life.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "school neighborhood center",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5875,
+            0.2047,
+            0.4
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Uses a distributed building anchor for the school’s broad neighborhood and densification role."
+        }
+      }
+    ],
+    "negative": [],
+    "keyword": [
+      "transparency",
+      "permeability",
+      "scale",
+      "urban integration",
+      "open space",
+      "layout",
+      "functionality",
+      "daylight",
+      "flexibility"
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "object_description": "four identical building volumes arranged around a central square",
+  "geometry_property": [
+    "four-part",
+    "identical",
+    "staggered",
+    "compact",
+    "courtyard-forming",
+    "rectilinear"
+  ],
+  "design_condition": "The four volumes follow the planted-alley geometry beside the sports fields, establish a central square within a park, and relate the fragmented urban fabric to nearby institutional buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise siting and well-measured massing provide an appropriate urban and territorial response.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "precise siting and measured massing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6117,
+            0.5343,
+            0.4167
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four compact volumes are visibly arranged around a central square with consistent spacing."
+        }
+      },
+      {
+        "statement": "The rigorous ground-plan composition brings order to the fragmented urban fabric and establishes a formal relationship with surrounding institutional buildings.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "rigorous ground-plan composition",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6118,
+            0.5335,
+            0.0833
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view clearly shows an ordered four-part composition around the central open space."
+        }
+      },
+      {
+        "statement": "The project is fundamentally sound, with foundations, structure, energy, and sustainable development well understood.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "foundations, structure, energy and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates technical and environmental resolution without a specific visible geometric location."
+        }
+      },
+      {
+        "statement": "The compact buildings and recommended construction methods lead to an economical project.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2228,
+            0.7516,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The four compact rectilinear volumes are directly visible in plan and elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The disappearance of the openings makes the courtyards introverted and removes their identity and permeability to the outside.",
+        "tags": [
+          "open space",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "introverted courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6117,
+            0.5343,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central courtyard voids are visible, with limited openings toward the exterior perimeter."
+        }
+      },
+      {
+        "statement": "The identical buildings do not suggest a hierarchy of access or a differentiated distribution of the program.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "hierarchy of access and program distribution",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7653,
+            0.2329,
+            0.4167
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated volumes provide a circulation anchor, but access hierarchy is not distinguishable."
+        }
+      },
+      {
+        "statement": "The proximity of the facades puts many rooms in the unfortunate situation of facing one another.",
+        "tags": [
+          "facade",
+          "privacy"
+        ],
+        "position": {
+          "target": "facing facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6117,
+            0.5343,
+            0.5833
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Opposing parallel facades around the central square are clearly visible."
+        }
+      },
+      {
+        "statement": "The outdoor spaces of the children's center in front of busy walkways are unconvincing.",
+        "tags": [
+          "open space",
+          "safety"
+        ],
+        "position": {
+          "target": "children's center outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1737,
+            0.8324,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "A perimeter open zone is used because the children's center is not separately identifiable."
+        }
+      },
+      {
+        "statement": "The plan and cross-section lack flexibility and appear fixed in their ability to respond to context.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "plan and cross-section flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7423,
+            0.717,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Identical rectilinear volumes visibly suggest a fixed repeated response across the site."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "identity",
+      "layout",
+      "circulation",
+      "flexibility",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

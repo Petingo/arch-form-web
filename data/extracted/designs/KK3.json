@@ -1,0 +1,470 @@
+{
+  "object_description": "low pavilion-like volume following the river",
+  "geometry_property": [
+    "elongated",
+    "low-rise",
+    "pavilion-like",
+    "river-aligned",
+    "partly sunken",
+    "skylit",
+    "grid-structured"
+  ],
+  "design_condition": "The low volume follows the river over a long distance, opens a sequence of break areas toward the landscape, and remains compatible with the residential slope context through its reduced apparent height.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The lying volume convincingly accompanies the course of the river and opens attractive break areas between building and river.",
+        "tags": [
+          "landscape",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "river-aligned lying volume and break areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5554,
+            0.3095,
+            0.25
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Elongated footprint visibly follows the diagonal river direction, with openings distributed along the landscape-facing edge."
+        }
+      },
+      {
+        "statement": "On the slope side, the building volumes are compatible with the small-scale residential buildings because they do not appear at full height.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "slope-side building volumes",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3175,
+            0.8637,
+            0.3333
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Low massing is approximated along the upper, slope-facing side of the elongated footprint."
+        }
+      },
+      {
+        "statement": "The shifted skylights reduce the massive volumetrics to a size comparable to the residential buildings.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "shifted skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5921,
+            0.4834,
+            0.9167
+          ],
+          "radius": 0.07,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated roof interruptions are visible along the upper footprint and localized near roof level."
+        }
+      },
+      {
+        "statement": "The footbridge over the river leads directly in front of the main entrance and provides a convincing connection to the existing school area.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "footbridge and main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0569,
+            0.8085,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Entrance-side connection is approximated at the slope-facing end of the sampled footprint."
+        }
+      },
+      {
+        "statement": "The disciplined grid creates a lively central space and supports diverse learning cluster arrangements.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central space and learning clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4627,
+            0.3909,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The top view shows a structured central zone between the elongated perimeter edges."
+        }
+      },
+      {
+        "statement": "The skylights provide zenithal light to the learning landscape and additional light to adjacent school rooms.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "skylit learning landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4845,
+            0.4475,
+            0.8333
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Learning area is placed beneath the visible skylight sequence at upper-middle building height."
+        }
+      },
+      {
+        "statement": "Structural discipline achieves flexibility and efficiency while creating manageable units that invite appropriation.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "structural grid and manageable units",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5793,
+            0.2079,
+            0.4167
+          ],
+          "radius": 0.13,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Regular repeated bay pattern is visible across the footprint and elevations."
+        }
+      },
+      {
+        "statement": "The structural and material organization is very carefully developed, including a convincing system separation.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "structural and material organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.686,
+            0.1351,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Building-wide organization is anchored to the clearly repeated envelope and level bands."
+        }
+      },
+      {
+        "statement": "The prefabricated concrete construction allows very different usage scenarios over the lifespan of the building.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "prefabricated concrete construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4395,
+            0.7806,
+            0.4167
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Construction judgment is anchored to the repeated structural bands visible on the elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The steep road embankment begins directly at the building and provides no attractive space for the ground-floor rooms on the slope side.",
+        "tags": [
+          "topography",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "steep road embankment and slope-side ground-floor rooms",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0701,
+            0.8564,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper footprint edge is used as the slope-side ground interface."
+        }
+      },
+      {
+        "statement": "Views from the street down into the classrooms are unwanted.",
+        "tags": [
+          "privacy",
+          "visibility"
+        ],
+        "position": {
+          "target": "street views into classrooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3175,
+            0.8637,
+            0.4167
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Privacy concern is anchored to the slope-facing side where street overlook is described."
+        }
+      },
+      {
+        "statement": "The lack of emergency access, deliveries, and disabled access seems impractical.",
+        "tags": [
+          "accessibility",
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "emergency access, deliveries, and disabled access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0437,
+            0.7607,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Access deficiency is approximated at the constrained slope-side approach."
+        }
+      },
+      {
+        "statement": "The connection to paths and roads on the slope side appears unmanageable, with the main footpath awkwardly routed around the building.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "slope-side paths and roads",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2607,
+            0.9025,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Circulation issue is located along the upper edge of the long building mass."
+        }
+      },
+      {
+        "statement": "The distinction between green and paved areas remains schematic and leaves no further statements.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "green and paved areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7276,
+            0.1068,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape interface is approximated beside the lower, river-facing edge."
+        }
+      },
+      {
+        "statement": "A learning cluster on the entrance level creates potential conflict with the break area in front of it.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance-level learning cluster and break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.037,
+            0.7367,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Potential conflict is placed near the entrance-side lower zone."
+        }
+      },
+      {
+        "statement": "Overall stability and seismic safety should be checked for a more economical structural solution.",
+        "tags": [
+          "structure",
+          "safety",
+          "cost"
+        ],
+        "position": {
+          "target": "overall structural stability and seismic safety",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.625,
+            0.1767,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structural concern is anchored to the repeated low-rise frame visible across elevations."
+        }
+      },
+      {
+        "statement": "The foundation on strip footings running in only one direction could be simplified.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "strip footing foundation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5541,
+            0.3285,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Foundation judgment is placed beneath the visible longitudinal structural organization."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "landscape",
+      "open space",
+      "topography",
+      "urban integration",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "structure",
+      "safety"
+    ]
+  }
+}

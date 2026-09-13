@@ -1,0 +1,459 @@
+{
+  "object_description": "two long slender school volumes with stepped ends",
+  "geometry_property": [
+    "elongated",
+    "slender",
+    "parallel",
+    "two-part",
+    "two-storey",
+    "staggered",
+    "stepped",
+    "partly elevated"
+  ],
+  "design_condition": "The two buildings are placed along the northern park edge and accommodate the terrain while freeing the park center, but their full-length occupation and southern facades dominate the open space.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The attempt to free up the center of the park by setting the school building to the side is appreciated.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "center of the park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4866,
+            0.4928,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central open gap between the two diagonal school volumes approximates the freed park center."
+        }
+      },
+      {
+        "statement": "The two-building arrangement accommodates the height differences in the terrain relatively elegantly.",
+        "tags": [
+          "topography",
+          "massing"
+        ],
+        "position": {
+          "target": "two-building arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4866,
+            0.4928,
+            0.5
+          ],
+          "radius": 0.315,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two elongated, staggered volumes are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The buildings remain noticeable as only one storey toward the northern neighborhood while retaining clear views.",
+        "tags": [
+          "scale",
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "northern neighborhood scale",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7319,
+            0.827,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern portions of the upper building approximate the neighborhood-facing low-scale edge."
+        }
+      },
+      {
+        "statement": "The internal clear structure corresponds to the stringent construction principle and provides high flexibility of use.",
+        "tags": [
+          "layout",
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "internal clear structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.678,
+            0.749,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior structure is not exposed; the marker is constrained to the upper elongated school volume."
+        }
+      },
+      {
+        "statement": "The wooden construction, simple basic structure and flexibility of use take sustainability requirements into account.",
+        "tags": [
+          "sustainability",
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "wooden construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2378,
+            0.1966,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Material is not distinguishable; placement marks the lower school volume as a representative construction anchor."
+        }
+      },
+      {
+        "statement": "The idea of uniting gardeners and athletes through shared infrastructure is socially stimulating.",
+        "tags": [
+          "functionality",
+          "urban integration"
+        ],
+        "position": {
+          "target": "shared infrastructure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4866,
+            0.4928,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The inter-building gap is the plausible shared zone between the two visible school volumes."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The open space is overdeveloped by four parallel paths, while a clear path concept is not recognizable.",
+        "tags": [
+          "landscape",
+          "circulation"
+        ],
+        "position": {
+          "target": "four parallel paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4854,
+            0.4408,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open space between and around the parallel buildings approximates the criticized path network."
+        }
+      },
+      {
+        "statement": "There are hardly any places to stay away from, and the required diversity of play spaces is missing.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "play spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3934,
+            0.3597,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "No play-space geometry is distinguishable; the marker indicates the adjacent open-space region."
+        }
+      },
+      {
+        "statement": "The school lacks a main entrance and therefore a clear address because of its longitudinal orientation and access on all sides.",
+        "tags": [
+          "circulation",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3542,
+            0.3114,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "No entrance is visible; the southern edge provides a constrained facade anchor."
+        }
+      },
+      {
+        "statement": "The sports field and southern school facades dominate the park, leaving landscape areas only as fragments.",
+        "tags": [
+          "massing",
+          "facade",
+          "landscape"
+        ],
+        "position": {
+          "target": "southern school facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3807,
+            0.3375,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Long southern edges of the diagonal volumes visibly face the open central area."
+        }
+      },
+      {
+        "statement": "The division of the program into two buildings is operationally suboptimal because movement between them occurs through uncovered outdoor space.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "uncovered space between buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4866,
+            0.4928,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The clear gap separating the two building masses is directly visible in plan."
+        }
+      },
+      {
+        "statement": "The separation of the all-day school and regular school makes future expansion of the all-day offer difficult.",
+        "tags": [
+          "flexibility",
+          "operation"
+        ],
+        "position": {
+          "target": "separated school buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4866,
+            0.4928,
+            0.5
+          ],
+          "radius": 0.315,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The model clearly shows two distinct, disconnected elongated school volumes."
+        }
+      },
+      {
+        "statement": "The corridors have little daylight, lack spatial quality and cannot adequately absorb the expected number of students.",
+        "tags": [
+          "daylight",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6728,
+            0.7437,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior corridors are not visible; the marker is placed within the upper building footprint."
+        }
+      },
+      {
+        "statement": "The schematic repetition of the external expression lacks expressiveness.",
+        "tags": [
+          "expression",
+          "facade",
+          "identity"
+        ],
+        "position": {
+          "target": "external expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7151,
+            0.7855,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated stepped and parallel outer edges visibly support a schematic facade-expression anchor."
+        }
+      },
+      {
+        "statement": "The proposed building-services rooms are far too small.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "building-services rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2272,
+            0.1862,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Services rooms are absent internally; the lower building footprint supplies a constrained location."
+        }
+      },
+      {
+        "statement": "The creation costs reach the top of the ranked projects.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "creation costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost ranking has no useful spatial referent in the sampled geometry."
+        }
+      },
+      {
+        "statement": "The proposal occupies too much park space and becomes a school park rather than a school in the park.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "whole school in the park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5436,
+            0.4982,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The two long school masses occupy a substantial portion of the visible site plan."
+        }
+      }
+    ],
+    "keyword": [
+      "open space",
+      "landscape",
+      "urban integration",
+      "massing",
+      "circulation",
+      "operation",
+      "flexibility",
+      "expression",
+      "daylight",
+      "cost"
+    ]
+  }
+}

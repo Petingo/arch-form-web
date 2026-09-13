@@ -1,0 +1,366 @@
+{
+  "object_description": "three-layered building volume with elevated pavilion and shed roofs",
+  "geometry_property": [
+    "compact",
+    "three-layered",
+    "horizontally stratified",
+    "elevated-upper-volume",
+    "shed-roofed",
+    "open-foyer-layer"
+  ],
+  "design_condition": "Placed on the site's northwestern edge, the building slightly restricts the flowing green space but creates a spacious surrounding area and a visually permeable green connection through the neighborhood.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project has strong potential to create a neighborhood center.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "neighborhood center",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2836,
+            0.2348,
+            0.2
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central communal potential assigned to the layered building and its surrounding open site."
+        }
+      },
+      {
+        "statement": "The clear architectural formulation presents a contemporary communal school building convincingly.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "communal school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4953,
+            0.5043,
+            0.8
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete contemporary school volume is clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The open gym is an unexpected and interesting gesture.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "open gym",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7565,
+            0.2716,
+            0.2
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open lower-layer gesture is approximated within the broad ground-level building footprint."
+        }
+      },
+      {
+        "statement": "The spacious upper-floor layout offers great flexibility for possible conversions.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "upper-floor layout",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.608,
+            0.4197,
+            0.8
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper band is identifiable as a distinct elevated layer in plan and elevations."
+        }
+      },
+      {
+        "statement": "The logical structural design corresponds to the project's clear layered structure in section.",
+        "tags": [
+          "structure",
+          "massing"
+        ],
+        "position": {
+          "target": "layered structural design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4953,
+            0.5043,
+            0.8
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal strata and aligned bands visibly establish the structural organization."
+        }
+      },
+      {
+        "statement": "The open space can form a connecting green band with the character of a neighborhood park.",
+        "tags": [
+          "landscape",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "connecting green band",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2498,
+            0.7254,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open peripheral areas around the compact footprint provide the plausible green connection."
+        }
+      },
+      {
+        "statement": "The tree placement creates an independent atmosphere corresponding with the park context.",
+        "tags": [
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "tree placement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2664,
+            0.7451,
+            0
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are not distinguishable, so the park-context edge is used as an approximate anchor."
+        }
+      },
+      {
+        "statement": "The open forecourt and southeastern playground are appropriately designed.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "southeastern playground",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7232,
+            0.2322,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southeastern external space is anchored beside the visible building footprint."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The open gym still needs to be optimized for everyday use.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "open gym everyday use",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7565,
+            0.2716,
+            0.2
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The critique is assigned to the same approximate open lower-layer gym zone."
+        }
+      },
+      {
+        "statement": "A better zoning and opening to the surroundings is desirable.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "surrounding openings and zoning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7236,
+            0.7522,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral open space is used to represent zoning and connection to surroundings."
+        }
+      },
+      {
+        "statement": "The school garden is somewhat cramped in the terraced area and needs review during further development.",
+        "tags": [
+          "open space",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "terraced school garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3033,
+            0.2182,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The garden is not distinct; a lower peripheral terrace-side area provides an approximate anchor."
+        }
+      },
+      {
+        "statement": "The planned sheds and large proportion of glass may be costly and need optimization.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "glass facade and sheds",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8933,
+            0.4271,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "East and south elevations show the relevant exposed envelope, though glass and sheds are indistinct."
+        }
+      },
+      {
+        "statement": "The detailing has promising development potential that must be addressed in further development.",
+        "tags": [
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "building detailing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5488,
+            0.4695,
+            0.8
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Detailing concerns are distributed across the visible layered envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "functionality",
+      "operation",
+      "flexibility",
+      "structure",
+      "massing",
+      "open space",
+      "landscape",
+      "cost"
+    ]
+  }
+}

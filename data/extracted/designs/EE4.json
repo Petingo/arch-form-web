@@ -1,0 +1,346 @@
+{
+  "object_description": "two right-angled school buildings on a base above a buried sports hall",
+  "geometry_property": [
+    "right-angled",
+    "two-part",
+    "compact",
+    "sloping-roofed",
+    "terraced",
+    "partly buried",
+    "connected",
+    "multi-level"
+  ],
+  "design_condition": "Two school buildings are arranged at right angles to define the courtyard, while the buried sports hall and later-stage building extend the ensemble along the stream and preserve passages toward the lake landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact volumes and sloping roofs seek an appropriate scale relationship with the village structure.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "compact volumes and sloping roofs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7296,
+            0.764,
+            0.8
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three compact roofed volumes and their varied heights are clearly visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The arrangement leaves maximum free passages and openings toward the landscape balcony.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "free passages and openings toward landscape balcony",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5616,
+            0.6242,
+            0.2
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Open passages are legible around the courtyard and between volumes, though the balcony is not labeled."
+        }
+      },
+      {
+        "statement": "The general organization is clear and functional.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "general organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5929,
+            0.6042,
+            0.4
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The right-angled arrangement and connected base are directly visible in all principal views."
+        }
+      },
+      {
+        "statement": "The typological quality and general compactness of the proposal are appreciated.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "typological quality and compactness",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6493,
+            0.6157,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact grouped volumes and their typological arrangement are clearly represented."
+        }
+      },
+      {
+        "statement": "The simple and rational supporting system allows great flexibility in the use and organization of the premises.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "supporting system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5121,
+            0.4338,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Structure is not separately modeled; the connected base provides a broad system anchor."
+        }
+      },
+      {
+        "statement": "The proposal's rationality and simplicity are compelling.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "proposal's rationality and simplicity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6023,
+            0.6458,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The visible arrangement supports a broad architectural assessment without isolating one element."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The excessive multiplicity of accesses prevents a more obvious organization aligned with the requested program.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "multiple accesses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4808,
+            0.4539,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Individual entrances are not distinguishable; the courtyard-facing circulation zone is used as an anchor."
+        }
+      },
+      {
+        "statement": "The multiplication of stairwells and generous clearance areas contradict the desired economy of means.",
+        "tags": [
+          "circulation",
+          "cost"
+        ],
+        "position": {
+          "target": "stairwells and clearance areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4494,
+            0.4739,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Internal circulation elements are absent; the central connected area provides a plausible constrained location."
+        }
+      },
+      {
+        "statement": "The largely buried sports halls require significant earthworks and have insufficient lighting.",
+        "tags": [
+          "topography",
+          "daylight",
+          "cost"
+        ],
+        "position": {
+          "target": "buried sports halls",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6375,
+            0.3537,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low base extension along the lower edge best corresponds to the buried sports-hall zone."
+        }
+      },
+      {
+        "statement": "The machine-room layout does not work because corridor access is difficult and the doors are substantially undersized.",
+        "tags": [
+          "layout",
+          "accessibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "machine-room layout",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6061,
+            0.3737,
+            0.3
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Machine rooms are not visible; a lower service zone near the buried hall is estimated."
+        }
+      },
+      {
+        "statement": "The courtyard facades lack solar protection, creating a risk of summer overheating and discomfort.",
+        "tags": [
+          "facade",
+          "sustainability",
+          "comfort"
+        ],
+        "position": {
+          "target": "courtyard facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4698,
+            0.4609,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The courtyard is defined by the inner edges of the two right-angled school buildings."
+        }
+      },
+      {
+        "statement": "The apparent simplicity is contradicted by differentiated entrances and facades with four levels on the opposite side, weakening integration with surrounding buildings.",
+        "tags": [
+          "expression",
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "differentiated entrances and four-level facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7923,
+            0.7239,
+            0.8
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The taller opposite-facing elevations and differentiated volume edges are visible, though entrances are indistinct."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "layout",
+      "functionality",
+      "circulation",
+      "flexibility",
+      "structure",
+      "daylight",
+      "facade"
+    ]
+  }
+}

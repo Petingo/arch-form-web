@@ -1,0 +1,525 @@
+{
+  "object_description": "double-symmetrical four-wing structure around a central courtyard",
+  "geometry_property": [
+    "four-winged",
+    "double-symmetrical",
+    "elongated",
+    "central courtyard",
+    "semi-open courtyards",
+    "set-back central body",
+    "four-storey street edge",
+    "extra-high upper floor"
+  ],
+  "design_condition": "The building and security fence are set back from the street to form an arrival filter, while the central and semi-open courtyards organize the site and open spaces around the elongated structure.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project creates well-sized, legible and understandable building sequences for employees and the neighborhood.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "building sequences",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.508,
+            0.0887,
+            0.4167
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad circulation and organization are anchored across the elongated building and readable perimeter."
+        }
+      },
+      {
+        "statement": "The forecourt and canopy provide an appropriately sized and protected arrival sequence.",
+        "tags": [
+          "circulation",
+          "scale"
+        ],
+        "position": {
+          "target": "forecourt and canopy",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.508,
+            0.0887,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Arrival zone is constrained to the south-facing setback and low entrance edge."
+        }
+      },
+      {
+        "statement": "The central courtyard and semi-open courtyards provide effective lounge areas for employees.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "central and semi-open courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4381,
+            0.5,
+            0.25
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central void and surrounding semi-open courtyard cuts are clearly legible."
+        }
+      },
+      {
+        "statement": "The building structure gives a very good overview of the internal organization and clear readability of assignments from outside.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4381,
+            0.5,
+            0.5833
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Organization is anchored through the symmetrical wing layout and repeated levels."
+        }
+      },
+      {
+        "statement": "The four wings are highly flexible and allow organizational units to expand without an undesirable mix.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "four wings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1621,
+            0.7043,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct four-wing arrangement is directly visible around the central courtyard."
+        }
+      },
+      {
+        "statement": "The organization of jobs and floor plans supports a high quality of work.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "work areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8229,
+            0.7043,
+            0.5833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Work organization is approximated within an upper wing zone."
+        }
+      },
+      {
+        "statement": "The design optimally meets today's sustainability requirements.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "sustainability requirements",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns overall sustainability performance without a specific spatial referent."
+        }
+      },
+      {
+        "statement": "The landscape integration of the security fence combines sober aesthetics with functional and varied hollows.",
+        "tags": [
+          "landscape",
+          "safety",
+          "expression"
+        ],
+        "position": {
+          "target": "security fence",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0606,
+            0.2957,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Fence and landscape edge are anchored along the set-back site perimeter."
+        }
+      },
+      {
+        "statement": "Rainwater management and the environmental potential of the site are intelligently integrated.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "rainwater management and site environment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8307,
+            0.2957,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Site-wide environmental treatment is approximated in open perimeter and courtyard areas."
+        }
+      },
+      {
+        "statement": "The point-symmetrical reflection creates a memorable, well-tailored floor-plan figure.",
+        "tags": [
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "point-symmetrical floor-plan figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4381,
+            0.5,
+            0.5833
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Point symmetry and elongated figure are directly legible in the views."
+        }
+      },
+      {
+        "statement": "The functionality, allocation of uses and floor-plan design are very well resolved on all levels.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "floor-plan design on all levels",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8229,
+            0.7043,
+            0.5833
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "All-level functionality is distributed across visible wings and stacked elevations."
+        }
+      },
+      {
+        "statement": "The access areas are optimally located and appropriately sized, apart from the garage entrance.",
+        "tags": [
+          "circulation",
+          "scale"
+        ],
+        "position": {
+          "target": "access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1531,
+            0,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is anchored to the front setback and perimeter entry zones."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The underground car-park entrance affects the quality of stay in the northeastern courtyard and devalues its importance.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "underground car-park entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.149,
+            0.0833
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Northeastern courtyard edge constrains the approximate garage-entry location."
+        }
+      },
+      {
+        "statement": "The staging concept may not respond adequately to changing staging requirements and program adjustments.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "staging concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8229,
+            0.7043,
+            0.5833
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Program and staging critique applies broadly across repeated wing organization."
+        }
+      },
+      {
+        "statement": "The facade is insufficiently differentiated and somewhat monotonous for such an important building.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8319,
+            0,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Long repetitive elevations visibly support the monotony assessment."
+        }
+      },
+      {
+        "statement": "The vegetation concept is not in proportion to the building.",
+        "tags": [
+          "landscape",
+          "proportion"
+        ],
+        "position": {
+          "target": "vegetation concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.1772,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Landscape critique is anchored to the open perimeter relative to the building."
+        }
+      },
+      {
+        "statement": "The potential of the central atrium is shown only timidly.",
+        "tags": [
+          "open space",
+          "expression"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4381,
+            0.5,
+            0.3333
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central atrium is identified by the courtyard void, though architectural emphasis is understated."
+        }
+      },
+      {
+        "statement": "The urban-development attitude is questioned in relation to the military use, different neighborhoods and potential phasing.",
+        "tags": [
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "urban-development attitude",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1843,
+            0.2957,
+            0.3333
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Urban relationship and phasing critique is distributed across the set-back site."
+        }
+      },
+      {
+        "statement": "The architecturally uniform expression should be more differentiated given the value and size of the building.",
+        "tags": [
+          "expression",
+          "scale"
+        ],
+        "position": {
+          "target": "architecturally uniform expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8079,
+            0.6162,
+            0.5833
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Uniform repeated facade expression is visible across building elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "flexibility",
+      "circulation",
+      "facade",
+      "expression",
+      "open space",
+      "sustainability"
+    ]
+  }
+}

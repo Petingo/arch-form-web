@@ -1,0 +1,381 @@
+{
+  "object_description": "two similar building pairs framing a permeable internal courtyard",
+  "geometry_property": [
+    "two-part ensemble",
+    "separate volumes",
+    "paired",
+    "lower annexes",
+    "courtyard-forming",
+    "permeable",
+    "varied heights",
+    "small-scale"
+  ],
+  "design_condition": "The separate building pairs follow the district’s small-scale grain and urban paths, forming a permeable tree-lined courtyard and a sequence of connected public spaces while stepping toward the slope.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two similar but separate buildings fit well into the overall granularity of the district.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two similar separate buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2881,
+            0.5382,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top and elevations show paired, separate volumes with related proportions."
+        }
+      },
+      {
+        "statement": "The ensemble creates a spacious, permeable, tree-lined, attractive public space.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "tree-lined public space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6427,
+            0.5303,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central permeable gap is visibly framed by the separate building pairs."
+        }
+      },
+      {
+        "statement": "The design reacts sensitively to the surrounding urban space and incorporates traditional elements.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "traditional elements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2881,
+            0.5382,
+            0.25
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Expression is anchored to a representative outer volume within the small-scale ensemble."
+        }
+      },
+      {
+        "statement": "The building system takes up the city's paths and creates a natural connection to the city.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "paths connecting to the city",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5132,
+            0.2332,
+            0.0417
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central and front gaps provide the sampled surface proxy for urban paths."
+        }
+      },
+      {
+        "statement": "The different heights are cleverly integrated into the sequence of open spaces.",
+        "tags": [
+          "massing",
+          "open space",
+          "topography"
+        ],
+        "position": {
+          "target": "different heights and open spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7183,
+            0.7078,
+            0.2917
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevations visibly confirm stepped heights around the sequence of open spaces."
+        }
+      },
+      {
+        "statement": "The central courtyards are well proportioned and offer good communication opportunities.",
+        "tags": [
+          "proportion",
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "central courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6427,
+            0.5303,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view clearly locates the courtyard void between the paired volumes."
+        }
+      },
+      {
+        "statement": "The construction shows good values in terms of environmental impact and sustainability.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "environmental impact and sustainability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability assessment has no useful geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "It remains open whether the courtyard functions as a passageway.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "courtyard passageway",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6427,
+            0.5303,
+            0.0417
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central courtyard gap is directly visible, though its passage function is uncertain."
+        }
+      },
+      {
+        "statement": "Dividing the buildings is difficult for the university's functional processes, and flexibility requires compromises.",
+        "tags": [
+          "operation",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "divided buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7469,
+            0.5671,
+            0.2917
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Separate sampled masses visibly support the concern about divided functional processes."
+        }
+      },
+      {
+        "statement": "The duplicated courtyards prevent the development of a central interior space.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "duplicated courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6427,
+            0.5303,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Courtyard voids are visible between the paired building volumes."
+        }
+      },
+      {
+        "statement": "The tin fluting appears strange in relation to the mineral, solid design language.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "tin fluting",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6427,
+            0.2431,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The facade material is not distinguishable; marker uses a representative outer elevation."
+        }
+      },
+      {
+        "statement": "The heavily occupied roof areas conflict with the extensive green roofs.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "occupied roof areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6758,
+            0.5671,
+            1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view exposes roof surfaces across the paired volumes."
+        }
+      },
+      {
+        "statement": "The project is in the last third regarding space consumption and cost-effectiveness.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "space consumption and cost-effectiveness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost-effectiveness has no useful geometric location."
+        }
+      },
+      {
+        "statement": "The design cannot meet all of the university's requirements.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "university requirements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.401,
+            0.4525,
+            0.3333
+          ],
+          "radius": 0.3327,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The broad functional judgment is anchored to the overall sampled building ensemble."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "layout",
+      "flexibility",
+      "operation",
+      "sustainability",
+      "cost",
+      "expression"
+    ]
+  }
+}

@@ -1,0 +1,265 @@
+{
+  "object_description": "radically compact rectangular volume with suspended projecting element",
+  "geometry_property": [
+    "compact",
+    "rectangular",
+    "stacked",
+    "minimal-footprint",
+    "detached-projecting-element"
+  ],
+  "design_condition": "The compact volume is placed at the downhill edge, away from the existing building, preserving a renaturalized open space around the sports fields and playgrounds.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The direct, inventive implementation of sustainability criteria is compelling.",
+        "tags": [
+          "sustainability",
+          "expression"
+        ],
+        "position": {
+          "target": "sustainability implementation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4982,
+            0.3785,
+            0.5556
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact stacked envelope visibly embodies the broad sustainability strategy."
+        }
+      },
+      {
+        "statement": "The structure and testing of new elements create a technoid yet pleasant atmosphere.",
+        "tags": [
+          "structure",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "structure and new elements",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3513,
+            0.3603,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Projecting detached element and stacked structure are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The project offers an innovative reconsideration of established architectural paradigms.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "architectural paradigms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4982,
+            0.3785,
+            0.5556
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Innovation judgment applies to the complete compact building composition."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central corridors on the upper classroom floors produce unattractive arrangements with limited scope for different teaching methods.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central corridors on upper classroom floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4982,
+            0.3785,
+            0.7778
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper levels are clearly visible, while corridor placement is constrained within the tall volume."
+        }
+      },
+      {
+        "statement": "The suspended element takes light from the rooms behind it and seems unsuitable as a covered break area.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "suspended element",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3498,
+            0.3346,
+            0.4722
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The projecting suspended component is distinctly visible beside the main volume."
+        }
+      },
+      {
+        "statement": "The lack of entrance halls weakens school operations.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "entrance halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.523,
+            0.2207,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance halls are not distinguishable; a front lower edge provides a constrained proxy."
+        }
+      },
+      {
+        "statement": "Access routes over many floors are unattractive.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "access routes over many floors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4982,
+            0.3785,
+            0.5556
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Vertical circulation concern is anchored to the complete tall building envelope."
+        }
+      },
+      {
+        "statement": "Long corridors offer little scope for different teaching methods.",
+        "tags": [
+          "circulation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4982,
+            0.3785,
+            0.6111
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Upper and middle levels constrain the likely corridor bands within the rectangular volume."
+        }
+      },
+      {
+        "statement": "The two parts of the complex communicate little with each other.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "two parts of the complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4497,
+            0.4216,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Main compact block and projecting element are visibly distinct components with limited connection."
+        }
+      }
+    ],
+    "keyword": [
+      "sustainability",
+      "compactness",
+      "structure",
+      "expression",
+      "daylight",
+      "layout",
+      "circulation",
+      "operation",
+      "flexibility",
+      "urban integration"
+    ]
+  }
+}

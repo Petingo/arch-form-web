@@ -1,0 +1,417 @@
+{
+  "object_description": "four-storey hexagonal solitary volume with a recessed parapet",
+  "geometry_property": [
+    "hexagonal",
+    "four-storey",
+    "solitary",
+    "compact",
+    "recessed",
+    "cantilevered-roofed",
+    "permeable"
+  ],
+  "design_condition": "The compact solitary volume precisely defines the northern schoolyard, mediates between contrasting scales and preserves permeability within the existing complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The hexagonal volumetry creates a coherent urban design and mediates between large-scale residential buildings and the pavilion school.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "hexagonal volumetry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2326,
+            0.3506,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The hexagonal footprint and tall solitary volume are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The independent new building precisely defines the schoolyard while maintaining the permeability of the complex.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "schoolyard-defining building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.47,
+            0.9185,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The solitary volume visibly occupies one side of the open schoolyard."
+        }
+      },
+      {
+        "statement": "The entrance is clearly positioned at the open gymnasium courtyard in a green area.",
+        "tags": [
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "entrance at open gymnasium courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4912,
+            0.047,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is assigned to the southern lower edge facing the open courtyard."
+        }
+      },
+      {
+        "statement": "The concentric internal organization is efficient and clear.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "concentric internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2326,
+            0.3506,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The concentric interior is not externally legible and is anchored within the centered volume."
+        }
+      },
+      {
+        "statement": "The centrally lit staircase functions as an access area, seating area, stage and catwalk.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "centrally lit staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2326,
+            0.3506,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The staircase is placed centrally inside the clearly centralized building mass."
+        }
+      },
+      {
+        "statement": "The exterior connections promote close collaboration between the classes.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "exterior class connections",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8419,
+            0.4386,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Exterior connections are approximated along the building perimeter between classroom zones."
+        }
+      },
+      {
+        "statement": "The basement lighting is comprehensibly solved through terrain excavations.",
+        "tags": [
+          "daylight",
+          "topography"
+        ],
+        "position": {
+          "target": "basement lighting excavations",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1283,
+            0.7855,
+            0.075
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Lower-level terrain openings are approximated along the building’s perimeter near ground level."
+        }
+      },
+      {
+        "statement": "The design responds to the complex task with urban planning precision and architectural sensitivity.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "whole building response",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a broad assessment of the complete urban and architectural proposal."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The staircase platforms could become too crowded at peak times.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "staircase platforms",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2326,
+            0.3506,
+            0.55
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Platforms are approximated at the central circulation core across the stacked volume."
+        }
+      },
+      {
+        "statement": "Too little space is given to the necessary checkrooms in the front areas of the classrooms.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom front checkrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5438,
+            0.0565,
+            0.55
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front classroom areas are assigned to the southern edge of the hexagonal building."
+        }
+      },
+      {
+        "statement": "The group rooms offer only limited opportunities to form clusters across classes.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2007,
+            0.3984,
+            0.55
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Group rooms are approximated within the western half of the stacked floor plates."
+        }
+      },
+      {
+        "statement": "The day school is split across floors and adjacent school rooms are hardly suitable for its use.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "day school across floors",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2326,
+            0.3506,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The four-storey stacking visibly supports the criticism of vertically split organization."
+        }
+      },
+      {
+        "statement": "Secondary school pupils have to walk longer distances during breaks.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "longer break routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.869,
+            0.49,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Longer circulation is approximated along the outer perimeter of the solitary volume."
+        }
+      },
+      {
+        "statement": "The solution for the room acoustics remains unclear and could restrict the room-side dimensions.",
+        "tags": [
+          "acoustics",
+          "flexibility"
+        ],
+        "position": {
+          "target": "room acoustics",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Acoustic performance has no reliable visible geometric anchor in the point cloud."
+        }
+      },
+      {
+        "statement": "The project is not entirely convincing in its typological and functional approach to contemporary schooling.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "typological and functional approach",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The criticism addresses the overall building type and program rather than one visible location."
+        }
+      },
+      {
+        "statement": "The degree of intervention in the existing buildings results in higher construction costs.",
+        "tags": [
+          "cost",
+          "urban integration"
+        ],
+        "position": {
+          "target": "construction costs from intervention",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost impact is non-spatial and concerns the project-wide intervention."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "layout",
+      "circulation",
+      "functionality",
+      "flexibility",
+      "daylight",
+      "acoustics",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "object_description": "compact four-story structure with an expressive roof and colonnade",
+  "geometry_property": [
+    "compact",
+    "four-story",
+    "centrally positioned",
+    "expressive saddle roof",
+    "colonnaded",
+    "regular structural grid",
+    "simple volume"
+  ],
+  "design_condition": "The compact building is centrally positioned along the school's main access axis, connects to the existing schoolhouse through a colonnade, uses the sloping terrain for the auditorium, and expands the surrounding outdoor spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The access axis, colonnade, and new building form a coherent overall situation.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "access axis, colonnade, and new building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4912,
+            0.1033,
+            0.2955
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing frontage and connecting colonnade anchor the new building along the access edge."
+        }
+      },
+      {
+        "statement": "The compact central volume allows a spacious and varied expansion of the outdoor area.",
+        "tags": [
+          "massing",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "compact central volume and outdoor area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1606,
+            0.7372,
+            0.0909
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Compact mass leaves distributed outdoor space around its perimeter, especially beyond the north-facing edge."
+        }
+      },
+      {
+        "statement": "The skeleton structure is a good prerequisite for the required flexibility of use.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "skeleton structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5275,
+            0.5534,
+            0.8409
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular repeated structural grid is visible across the top and all elevation point patterns."
+        }
+      },
+      {
+        "statement": "The compact building height and footprint result in very good compactness and economic efficiency.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compactness and economic efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic compactness is a whole-building judgment without a distinct spatial marker."
+        }
+      },
+      {
+        "statement": "The sloping terrain is cleverly used to provide the auditorium with the required height.",
+        "tags": [
+          "topography",
+          "functionality"
+        ],
+        "position": {
+          "target": "auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1273,
+            0.6516,
+            0.1591
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Auditorium is constrained to a lower terrain-facing portion beneath the compact upper volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The interplay of lightness and heaviness creates an ultimately obscure attitude toward the massive historic school building.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "massive historic school building relationship",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4912,
+            0.1033,
+            0.5682
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The comment concerns the new building’s south-facing relationship toward the existing school."
+        }
+      },
+      {
+        "statement": "The music booths can only be accessed through the auditorium.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "music booths",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8671,
+            0.3424,
+            0.2955
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior booths are not distinguishable; approximate them within the auditorium-facing building surface."
+        }
+      },
+      {
+        "statement": "The separation of the special education rooms from the other classrooms is clearly disadvantageous.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "special education rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0941,
+            0.566,
+            0.5455
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior separation is unobservable, so the rooms are placed in a plausible lateral classroom zone."
+        }
+      },
+      {
+        "statement": "The long paths are clearly disadvantageous, especially for students from the old school building.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "long paths from old school building",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4912,
+            0.1033,
+            0.4091
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Long circulation is anchored along the access-side connection toward the south edge."
+        }
+      },
+      {
+        "statement": "The expressive roof and proposed skylights are not conclusively demonstrated.",
+        "tags": [
+          "massing",
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "expressive roof and skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5154,
+            0.4986,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distinctive sloping roof is clearly visible in the top and elevation silhouettes; skylights remain unresolved."
+        }
+      },
+      {
+        "statement": "The separation of the two teaching areas through the teacher's room is problematic.",
+        "tags": [
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "two teaching areas and teacher's room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9003,
+            0.428,
+            0.5909
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Internal teaching-area division is not visible; a lateral upper-floor zone provides the approximate anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "circulation",
+      "massing",
+      "open space",
+      "landscape",
+      "structure",
+      "flexibility",
+      "cost",
+      "topography",
+      "daylight"
+    ]
+  }
+}

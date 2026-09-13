@@ -1,0 +1,460 @@
+{
+  "object_description": "single elongated building forming a monumental podium",
+  "geometry_property": [
+    "elongated",
+    "linear",
+    "single-volume",
+    "low-rise",
+    "perpendicular to road",
+    "podium-like",
+    "roofed"
+  ],
+  "design_condition": "A single lengthwise building runs perpendicular to the road, mediating between the historical context and landscape while forming a plinth beside the sports field and a green buffer toward the car park.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building manages the public dimension of the historical context on one side and the landscape on the other.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "historical context and landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2869,
+            0.3971,
+            0.1667
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Single elongated building visibly mediates between opposite longitudinal surroundings."
+        }
+      },
+      {
+        "statement": "The entire program is resolved in a single-floor, large, flexible, and well-organized podium.",
+        "tags": [
+          "massing",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "single-floor podium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2869,
+            0.3971,
+            0.3333
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "One broad linear mass dominates the plan and remains low in elevations."
+        }
+      },
+      {
+        "statement": "The project has a strong identity as a temple for knowledge.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "temple for knowledge",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5836,
+            0.5827,
+            0.6667
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Monumental elongated podium provides a strong, legible identity."
+        }
+      },
+      {
+        "statement": "The distribution system is well resolved and consistent with the proposed concept.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "distribution system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3155,
+            0.3397,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Longitudinal organization visibly anchors the distribution assessment."
+        }
+      },
+      {
+        "statement": "The compact and optimized volume makes the placement of the changing rooms under the school spaces well-considered.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "changing rooms under school spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2869,
+            0.3971,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower building zone is used as the plausible location beneath the school spaces."
+        }
+      },
+      {
+        "statement": "The large external portico for recreation in bad weather is convincing.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "external recreation portico",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6339,
+            0.7663,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad edge zone along the elongated podium plausibly forms the recreation portico."
+        }
+      },
+      {
+        "statement": "All classrooms could become communicating by simply inserting a door between them.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "communicating classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7622,
+            0.5079,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Repeated internal bays are approximated along the main elongated school volume."
+        }
+      },
+      {
+        "statement": "The project is lower than the average cost of the projects analyzed.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "project cost",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent in the sampled geometry."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The access to the warehouses appears unfortunate and does not qualify the external school areas.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "warehouse access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.325,
+            0.3205,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is approximated at the near end of the long building."
+        }
+      },
+      {
+        "statement": "The only access to the school causes the external spaces, especially in the northern part, to remain unconvincing.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "school access and northern external spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.553,
+            0.929,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern edge of the elongated podium anchors the criticized external spaces."
+        }
+      },
+      {
+        "statement": "The strong idea is at times rigid in resolving crucial functional aspects.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "rigid functional resolution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3083,
+            0.354,
+            0.3333
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Single rigid linear mass visibly dominates the functional organization."
+        }
+      },
+      {
+        "statement": "The strong identity contains ambiguity in its relationship with the context, favoring the football field over the higher road.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "relationship with context",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.553,
+            0.929,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern long edge provides the plausible context-facing relationship anchor."
+        }
+      },
+      {
+        "statement": "Without the gym, the rigor and monumentality may no longer be justified.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "gym and monumental expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5998,
+            0.5493,
+            0.6667
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The building’s monumentality is concentrated in the single broad podium volume."
+        }
+      },
+      {
+        "statement": "The project’s strength may suffer from construction in stages.",
+        "tags": [
+          "expression",
+          "flexibility"
+        ],
+        "position": {
+          "target": "construction in stages",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2869,
+            0.3971,
+            0.3333
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Whole-building placement represents the phasing concern without visible stage divisions."
+        }
+      },
+      {
+        "statement": "The high slab thicknesses required by the composition are a concern.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "slab thicknesses",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5998,
+            0.5493,
+            0.6667
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Upper horizontal building edge provides the only plausible slab-related anchor."
+        }
+      },
+      {
+        "statement": "A greater number of accesses would be necessary because of the building’s extension.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "additional accesses",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7836,
+            0.4649,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "A secondary end access is approximated at the extended building perimeter."
+        }
+      },
+      {
+        "statement": "The windows facing the football pitch could become a source of disturbance and distraction.",
+        "tags": [
+          "visibility",
+          "acoustics"
+        ],
+        "position": {
+          "target": "windows facing football pitch",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4082,
+            0.1531,
+            0.5139
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Long façade toward the likely field side anchors the window disturbance concern."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "identity",
+      "expression",
+      "layout",
+      "functionality",
+      "circulation",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

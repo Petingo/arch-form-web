@@ -1,0 +1,494 @@
+{
+  "object_description": "three balanced campus volumes with differentiated outdoor spaces",
+  "geometry_property": [
+    "three volumes",
+    "balanced",
+    "scale-differentiated",
+    "campus-like",
+    "deep linear wing",
+    "two-part gymnasium",
+    "permeable pavilion-like wing",
+    "topographic level jumps"
+  ],
+  "design_condition": "Three volumes organize a campus around a central spatial field, with the school wing along the track field, the gymnasium along the street and topographic transitions shaping outdoor spaces, although the underground car park introduces access conflicts.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The three volumetrically balanced building volumes generate a campus-like situation with an extremely balanced layout.",
+        "tags": [
+          "massing",
+          "layout",
+          "proportion"
+        ],
+        "position": {
+          "target": "three building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5025,
+            0.7185,
+            0.3732
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "All three volumes and their balanced campus arrangement are visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "Precisely scaled structures, topographical transitions and well-proportioned outdoor spaces characterize the complex.",
+        "tags": [
+          "scale",
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor spaces and topographic transitions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5317,
+            0.3191,
+            0.1258
+          ],
+          "radius": 0.3255,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Open fields and level relationships are distributed between the visible building volumes."
+        }
+      },
+      {
+        "statement": "The coherent interaction of the buildings and outdoor spaces is highly convincing in terms of urban development.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "buildings and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5317,
+            0.3191,
+            0.1258
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The campus composition and interstitial outdoor field are legible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The clearly and concisely structured facades and striking supporting elements create a sensual expression and high identification potential.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "structured facades and supporting elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6847,
+            0.2347,
+            0.311
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "top"
+          ],
+          "rationale": "Regular facade bands and repeated structural elements are most legible along the street-facing edge."
+        }
+      },
+      {
+        "statement": "The school wing turns an ostensibly disadvantageous location into a light-flooded and thematically dense school building.",
+        "tags": [
+          "daylight",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "school wing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4911,
+            0.9328,
+            0.5598
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The deep linear wing is clearly identifiable along the northern edge of the campus plan."
+        }
+      },
+      {
+        "statement": "The atriums and veranda layer allow unrestricted usability and furnishing of the inner access zones.",
+        "tags": [
+          "daylight",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "atriums and veranda layer",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5983,
+            0.7326,
+            0.4354
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal voids and access bands are approximated within the larger eastern building volume."
+        }
+      },
+      {
+        "statement": "The gymnasium's covered grandstand-like situation brings public use to the fore.",
+        "tags": [
+          "urban integration",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "covered gymnasium grandstand",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7983,
+            0.2347,
+            0.311
+          ],
+          "radius": 0.17,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The large two-part volume is clearly visible in the southeast portion of the plan."
+        }
+      },
+      {
+        "statement": "The swimming pool wing's large-scale and permeable character does justice to its hinge function in the district.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "accessibility"
+        ],
+        "position": {
+          "target": "swimming pool wing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4631,
+            0.2305,
+            0.311
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The smaller western pavilion-like volume is used as the approximate pool-wing anchor."
+        }
+      },
+      {
+        "statement": "The atriums guarantee optimal daylight situations, while solid construction enables convincing passive cooling.",
+        "tags": [
+          "daylight",
+          "sustainability"
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5983,
+            0.7326,
+            0.622
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central internal voids provide the most plausible sampled locations for the daylight strategy."
+        }
+      },
+      {
+        "statement": "The high-quality materials and construction should result in relatively few maintenance costs.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "maintenance costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a non-spatial judgment about material quality, construction, and future maintenance."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The functional intersection with the underground car park exit is not possible for urban planning and operational reasons.",
+        "tags": [
+          "urban integration",
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "underground car park exit",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7659,
+            0,
+            0.1244
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The likely access conflict is anchored along the southern street edge, though the exit is not distinguishable."
+        }
+      },
+      {
+        "statement": "The pavilion-like appearance of the swimming pool wing comes at a high cost because of its deep underground volume.",
+        "tags": [
+          "massing",
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "deep underground volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1528,
+            0.297,
+            0.0622
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The underground concern is assigned beneath the approximate western swimming-pool-wing footprint."
+        }
+      },
+      {
+        "statement": "The proposed park character of the sports field is doubted.",
+        "tags": [
+          "landscape",
+          "open space",
+          "identity"
+        ],
+        "position": {
+          "target": "sports field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4938,
+            0.3191,
+            0.0622
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central open field between volumes is the plausible location for the questioned park character."
+        }
+      },
+      {
+        "statement": "The staircase is insensitively positioned between the underground car park entrance and caretaker's garage.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7659,
+            0,
+            0.1866
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The staircase is approximated between the southern access edge and adjacent service area."
+        }
+      },
+      {
+        "statement": "Access to the underground car park leads traffic into the area and provokes conflicts.",
+        "tags": [
+          "circulation",
+          "safety",
+          "urban integration"
+        ],
+        "position": {
+          "target": "underground car park access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8361,
+            0.2347,
+            0.1244
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Traffic conflict is anchored to the southern-eastern approach zone where access would enter the campus."
+        }
+      },
+      {
+        "statement": "Too little attention is paid to non-ionizing radiation, and some outdoor areas are within an impermissible distance from the track.",
+        "tags": [
+          "safety",
+          "urban integration"
+        ],
+        "position": {
+          "target": "outdoor areas near the track",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3641,
+            0.7148,
+            0.0622
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The area is placed within the open northern field zone associated with the track edge."
+        }
+      },
+      {
+        "statement": "The ecological balance is ambiguous because the clinker brick facades and concrete structures consume significant gray energy.",
+        "tags": [
+          "sustainability",
+          "facade",
+          "structure"
+        ],
+        "position": {
+          "target": "clinker brick facades and concrete structures",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5283,
+            0.9382,
+            0.5598
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "The long northern facade provides the clearest sampled anchor for the material and structural criticism."
+        }
+      },
+      {
+        "statement": "The building costs are in the upper segment, despite investment costs being in the middle range.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "building costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This comment concerns overall investment level and has no useful spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "layout",
+      "scale",
+      "topography",
+      "open space",
+      "landscape",
+      "daylight",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

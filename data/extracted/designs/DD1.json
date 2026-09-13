@@ -1,0 +1,315 @@
+{
+  "object_description": "compact three-storey pavilion-like solitaire",
+  "geometry_property": [
+    "compact",
+    "three-storey",
+    "pavilion-like",
+    "sculptural",
+    "cantilevered",
+    "layered"
+  ],
+  "design_condition": "Centrally placed within the perimeter, the building divides the site into a northern square-like reception area and a southern partially covered break space that steps into the natural outdoor landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The beautifully structured, compact solitaire brilliantly meets all competition requirements.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact solitaire",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4729,
+            0.4053,
+            0.7143
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central compact pavilion mass is clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The outdoor space is very well defined and can be experienced as a natural extension of the facility.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "natural extension outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.458,
+            0.0793,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Southern partially covered edge opens toward the surrounding outdoor landscape."
+        }
+      },
+      {
+        "statement": "The sculptural body appears very light, transparent and inviting.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "sculptural transparent body",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4729,
+            0.4053,
+            0.7143
+          ],
+          "radius": 0.3108,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Layered, cantilevered perimeter is visible and reads as a light sculptural envelope."
+        }
+      },
+      {
+        "statement": "The four main uses are clearly separated and easily accessible.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "four main uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4729,
+            0.4053,
+            0.7143
+          ],
+          "radius": 0.29,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The compact mass provides a useful building-level anchor for separated uses."
+        }
+      },
+      {
+        "statement": "The close and transparent connection between the school and gymnasium creates a very pleasant feeling of space.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "school and gymnasium connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4729,
+            0.4053,
+            0.7143
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central internal connection is inferred within the visibly compact pavilion."
+        }
+      },
+      {
+        "statement": "The learning areas are well lit and have a very high quality of stay.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "learning areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2179,
+            0.6302,
+            0.7143
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper layered volume provides the plausible anchor for learning areas."
+        }
+      },
+      {
+        "statement": "The structural concept demonstrates an ideal combination of architecture and engineering.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4729,
+            0.4053,
+            0.7143
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Cantilevered layered envelope visibly informs the structural reading."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The schematic design of the surroundings leaves the functional division and atmospheric quality unclear.",
+        "tags": [
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "schematic surroundings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.458,
+            0.0793,
+            0.0714
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Southern outdoor edge is visible but lacks distinguishable landscape programming."
+        }
+      },
+      {
+        "statement": "The multiple required entrances create ambiguities regarding orientation on the site.",
+        "tags": [
+          "circulation",
+          "orientation"
+        ],
+        "position": {
+          "target": "multiple required entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5435,
+            0.9228,
+            0.2857
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Northern perimeter is the most plausible access zone, though entrances are not individually visible."
+        }
+      },
+      {
+        "statement": "The northern first-floor access via the day structure needs to be reconsidered.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "northern first-floor access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5048,
+            0.936,
+            0.3571
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North edge and lower-middle elevation constrain the access location."
+        }
+      },
+      {
+        "statement": "Airborne noise within the individual uses requires particular attention during implementation.",
+        "tags": [
+          "acoustics"
+        ],
+        "position": {
+          "target": "airborne noise between uses",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Acoustic performance has no distinct spatial marker in the sampled exterior."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "daylight",
+      "expression",
+      "structure",
+      "acoustics"
+    ]
+  }
+}

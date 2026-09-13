@@ -1,0 +1,397 @@
+{
+  "object_description": "elongated three-storey volume stepping down to a recessed upper level",
+  "geometry_property": [
+    "elongated",
+    "three-storey",
+    "stepped",
+    "recessed top storey",
+    "layered",
+    "courtyard-centred"
+  ],
+  "design_condition": "The volume fronts the street and steps down toward surrounding buildings, forming a piazza at the topographical edge and mediating between the existing campus buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The alignment and height development elegantly mediate between the existing buildings.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "alignment and height development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.599,
+            0.1522,
+            0.2857
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The square-like piazza interprets the intersecting movement axes with an appropriate urban character.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "square-like piazza",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.86,
+            0.27,
+            0.05
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The open square-like extension is visible at the lower-right end of the footprint and reads as a ground-level zone."
+        }
+      },
+      {
+        "statement": "The piazza becomes a credible prelude to the main entrance of the new central building.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "piazza and main entrance prelude",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.86,
+            0.27,
+            0.05
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The visible edge piazza provides the locatable approach zone; the entrance itself is not distinctly marked."
+        }
+      },
+      {
+        "statement": "The layered spatial structure leads to a harmonious disposition of uses across all three storeys.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "layered spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4872,
+            0.2686,
+            0.4286
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "Street-facing studios and workrooms have the potential to enliven the public space.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "street-facing studios and workrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6706,
+            0.5587,
+            1
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The floor-plan logic meaningfully groups and structures the different usage groups.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "floor-plan logic",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0152,
+            0.7894,
+            0.9286
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "Diagonal spatial relationships overlap productively with the central light and air space.",
+        "tags": [
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "central light and air space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.44,
+            0.53,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A small central rectangular opening is visible in plan and anchors the referenced light-and-air space."
+        }
+      },
+      {
+        "statement": "The layering principle produces a structurally stable system with a sensible degree of flexibility.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "layering principle",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.986,
+            0.242,
+            0.3571
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The facade theme develops an expression that addresses the building's all-round orientation.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "all-round facade theme",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9882,
+            0.2139,
+            0.4286
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The nearly symmetrical circulation area does not provide optimal daylight everywhere, making orientation difficult.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "circulation area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2073,
+            0.5719,
+            1
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The roof area would lend itself to a terrace, but the exclusively administrative upper floor lacks the necessary public uses.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "roof area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.38,
+            0.61,
+            1
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct higher roof footprint is visible over the main volume in plan and stepped elevations."
+        }
+      },
+      {
+        "statement": "The stepped structure, together with the building's length and height, appears problematic in the built context.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "stepped structure, length and height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7067,
+            0.5329,
+            0.6429
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The fine facade grid requires internal wall connections to be intercepted by closed window elements, which is not yet convincing externally.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "fine facade grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated fine facade articulation is clearly visible across the sampled elevation surfaces."
+        }
+      },
+      {
+        "statement": "The proposed tilt mechanism for natural ventilation provides food for discussion.",
+        "tags": [
+          "ventilation"
+        ],
+        "position": {
+          "target": "tilt mechanism for natural ventilation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8971,
+            0.1337,
+            0.6429
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The building costs are in the upper range.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "building costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost assessment has no spatially locatable model feature."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "daylight",
+      "circulation",
+      "height",
+      "flexibility",
+      "facade",
+      "ventilation",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "object_description": "two offset volumes around a spacious courtyard",
+  "geometry_property": [
+    "two-part",
+    "orthogonal",
+    "diagonal",
+    "compact",
+    "five-storey",
+    "pavilion-like",
+    "single-storey plinth"
+  ],
+  "design_condition": "Two differently scaled volumes define a diagonal base and a zoned courtyard, responding to the heterogeneous neighbourhood while the taller building frames the park edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The orthogonal setting responds appropriately to the heterogeneous surrounding development structure.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "orthogonal setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5298,
+            0.7747,
+            0.5827
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Orthogonal volumes are visible, with the taller mass framing the northern edge."
+        }
+      },
+      {
+        "statement": "The compact school building and pavilion relate appropriately in scale to their respective surroundings.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "compact school building and pavilion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2644,
+            0.2795,
+            0.1665
+          ],
+          "radius": 0.3108,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct compact southern pavilion and taller northern volume establish contrasting scales."
+        }
+      },
+      {
+        "statement": "The urban figure creates a spacious, zoned courtyard area.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "spacious zoned courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.506,
+            0.7747,
+            0.0832
+          ],
+          "radius": 0.17,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open central gap between offset volumes is clearly visible in plan and lower elevations."
+        }
+      },
+      {
+        "statement": "The covered roofs create an interesting connection between the two sides of the site.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "covered roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4747,
+            0.7615,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level edges span the two offset sides, suggesting a connecting covered route."
+        }
+      },
+      {
+        "statement": "The school and kindergarten are clearly and simply organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school and kindergarten organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5298,
+            0.7747,
+            0.4994
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two distinguishable volumes support a simple broad organizational reading."
+        }
+      },
+      {
+        "statement": "The public uses can be operated independently.",
+        "tags": [
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "independent public uses",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational independence is not spatially verifiable from the sampled exterior geometry."
+        }
+      },
+      {
+        "statement": "The double gymnasium is optimally organized in operational terms and can be used independently.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "double gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7196,
+            0.7747,
+            0.4162
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Large northern volume provides the most plausible sampled anchor for the gymnasium."
+        }
+      },
+      {
+        "statement": "The deep courtyard guarantees natural lighting for the music school.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "music school courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.506,
+            0.7747,
+            0.333
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard is visible and plausibly serves adjacent interior music-school spaces."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new urban ensemble remains rather imprecise and very self-referential, especially at the transition to the neighbourhood.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "neighbourhood transition",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0313,
+            0.7792,
+            0.4994
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west",
+            "north"
+          ],
+          "rationale": "The outer northern and western edges mark the least articulated neighbourhood transition."
+        }
+      },
+      {
+        "statement": "The large single-storey plinth is seen as a less urban response.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "large single-storey plinth",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2644,
+            0.4634,
+            0.0832
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Low plinth is clearly distinguished beneath the taller volume and southern pavilion."
+        }
+      },
+      {
+        "statement": "The transition to the park seeks neither contrast nor dialogue, and the closed wall weakens this relationship.",
+        "tags": [
+          "urban integration",
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "closed park-facing wall",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9687,
+            0.8198,
+            0.4162
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "A perimeter edge is used as the approximate park-facing wall anchor."
+        }
+      },
+      {
+        "statement": "The open-space concept remains vague and refers too strongly to the inner world of the complex.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "open-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7671,
+            0.7747,
+            0.0832
+          ],
+          "radius": 0.3108,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Open areas are distributed around the offset masses rather than concentrated at one centre."
+        }
+      },
+      {
+        "statement": "The access area is very introverted and has no connection to the outside.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "introverted access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2644,
+            0.1996,
+            0.0832
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Southern-western edge beside the smaller volume is the plausible access-area anchor."
+        }
+      },
+      {
+        "statement": "The floor-plan typology lacks innovation on a pedagogical level.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "pedagogical floor-plan typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5772,
+            0.7747,
+            0.4994
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The broad building organization is spatially anchored to the taller teaching volume."
+        }
+      },
+      {
+        "statement": "The deep courtyard appears randomly placed and contributes little to the spatial quality of the base level.",
+        "tags": [
+          "daylight",
+          "layout",
+          "proportion"
+        ],
+        "position": {
+          "target": "randomly placed deep courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.506,
+            0.7747,
+            0.0832
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central courtyard is directly visible, though its lower-level spatial contribution is not measurable."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "operation",
+      "daylight",
+      "identity"
+    ]
+  }
+}

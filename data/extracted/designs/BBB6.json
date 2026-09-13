@@ -1,0 +1,407 @@
+{
+  "object_description": "long flat building with a raised mezzanine over a gymnasium base",
+  "geometry_property": [
+    "long",
+    "flat",
+    "horizontal",
+    "raised mezzanine",
+    "transparent ground floor",
+    "layered",
+    "partly sunken",
+    "courtyard patio"
+  ],
+  "design_condition": "The volume is positioned on the slope edge, separating the site's levels while using the raised mezzanine, terrace, and patio to reconnect the upper and lower grounds and relate the building to the landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The formal and spatial consistency of the mezzanine as a connecting element convincingly determines the layering of uses and the structural concept.",
+        "tags": [
+          "massing",
+          "layout",
+          "structure"
+        ],
+        "position": {
+          "target": "mezzanine",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6086,
+            0.4739,
+            0.7308
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The raised middle layer is strongly visible across the long horizontal building in every elevation."
+        }
+      },
+      {
+        "statement": "The open-space concept has clear zoning, careful handling of existing qualities, and coherent new elements.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "open-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4598,
+            0.3201,
+            0.2308
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open space is represented by the visible patio-like separation around the partly sunken building."
+        }
+      },
+      {
+        "statement": "The precise positioning and strong horizontal façade accentuation allow the stately existing wing to remain dominant.",
+        "tags": [
+          "urban integration",
+          "facade",
+          "massing"
+        ],
+        "position": {
+          "target": "horizontal façade accentuation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7918,
+            0.5743,
+            0.5769
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated horizontal bands are clearly visible along the long elevations."
+        }
+      },
+      {
+        "statement": "The transparency of the ground and mezzanine floors creates attractive spatial references and transparency toward the landscape.",
+        "tags": [
+          "visibility",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "ground and mezzanine floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7002,
+            0.5241,
+            0.5385
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Layered floor bands and transparent-looking openings are visibly sampled across the main volume."
+        }
+      },
+      {
+        "statement": "The arrangement offers a great deal of flexibility in use through the generous corridor and studio zone.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "corridor and studio zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6391,
+            0.4906,
+            0.6154
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is absent, so the central upper building band provides the approximate zone."
+        }
+      },
+      {
+        "statement": "The entrance hall, terrace, and patio offer a variety of outdoor spaces and usage options.",
+        "tags": [
+          "open space",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance hall, terrace, and patio",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4598,
+            0.3201,
+            0.2308
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "These spaces are approximated in the visible lower-level transition and open area beside the building."
+        }
+      },
+      {
+        "statement": "The sports hall wing and the outdoor square form an attractive spatial and functional context.",
+        "tags": [
+          "urban integration",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "sports hall wing and outdoor square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1377,
+            0.1955,
+            0.1923
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower mass and adjacent open area visibly define a plausible sports-and-square relationship."
+        }
+      },
+      {
+        "statement": "The clear structural system follows the architectural and functional logic and promises efficient load transfer.",
+        "tags": [
+          "structure",
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7002,
+            0.5241,
+            0.6154
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural logic is not separately legible, so it is anchored within the repeated upper building bands."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The main access from the street has not been upgraded, and the street space along the other street is not convincing.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main street access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1375,
+            0.4844,
+            0.2308
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street access is not identifiable, so the lower western perimeter is used as a directional approximation."
+        }
+      },
+      {
+        "statement": "The long building causes the corner to be set back from the forest.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "forest corner",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1908,
+            0.6432,
+            0.5385
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The corner setback is approximated at the long volume's western and northern end."
+        }
+      },
+      {
+        "statement": "The necessary obstacle-free access has received too little consideration.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "obstacle-free access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1377,
+            0.1955,
+            0.1154
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Accessibility infrastructure is absent, so the lower-level approach zone provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "The arrangement does not satisfactorily guarantee the desired primary-level home, and the proposed flexibility is unlikely to be easy to solve because of fire-compartment separation.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "fire safety"
+        ],
+        "position": {
+          "target": "primary-level home",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4962,
+            0.8105,
+            0.6154
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The interior arrangement is not visible; the upper central floor is a plausible location."
+        }
+      },
+      {
+        "statement": "The lower storeys come very close to the protected existing wing and lead to complex excavation support.",
+        "tags": [
+          "urban integration",
+          "topography",
+          "cost"
+        ],
+        "position": {
+          "target": "lower storeys",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6431,
+            0.4205,
+            0.2308
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Lower horizontal layers are clearly visible and lie closest to the adjacent existing-wing relationship."
+        }
+      },
+      {
+        "statement": "The proposal has above-average floor-area and volume figures and therefore suggests above-average total costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "above-average total costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32021,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
+      },
+      {
+        "statement": "The project has large differences in area compared to the spatial program, negatively affecting overall costs.",
+        "tags": [
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "spatial program area differences",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32021,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Program-area and cost judgment has no useful spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "layout",
+      "flexibility",
+      "accessibility",
+      "structure",
+      "cost",
+      "fire safety"
+    ]
+  }
+}

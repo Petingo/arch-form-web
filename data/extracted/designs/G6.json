@@ -1,0 +1,417 @@
+{
+  "object_description": "simple compact building volume set at the terrace edge",
+  "geometry_property": [
+    "compact",
+    "simple",
+    "detached",
+    "terrace-edge",
+    "low-rise",
+    "partly sunken",
+    "courtyard-based"
+  ],
+  "design_condition": "The compact volume occupies the edge of the terrace and defines the prominent slope location, with terraced outdoor areas and a grass playing field creating distance from neighbouring residences.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The simple compact volume clearly defines the prominent location on the slope.",
+        "tags": [
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "simple compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5148,
+            0,
+            0.4475
+          ],
+          "radius": 0.334,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact rectangular mass is visible; terrace-edge placement is approximated toward the front lower side."
+        }
+      },
+      {
+        "statement": "The compact volume is well proportioned in the terrain.",
+        "tags": [
+          "scale",
+          "proportion",
+          "topography"
+        ],
+        "position": {
+          "target": "compact volume in terrain",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2288,
+            0,
+            0.3784
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Envelope proportions are visible across plan and elevations; terrain fit is approximated at the lower terrace side."
+        }
+      },
+      {
+        "statement": "The spacious break area is divided into diverse, child-suitable outdoor areas.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "diverse child-suitable outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1908,
+            1,
+            0.0331
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor break areas are not individually distinguishable, so the estimate uses an exterior edge region."
+        }
+      },
+      {
+        "statement": "The grass playing field creates a pleasant distance from the neighbourhood.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "grass playing field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.7866,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Playing field is not identifiable in the sample; a plausible distant exterior landscape location is assigned."
+        }
+      },
+      {
+        "statement": "The connection to the neighbourhood is good and the routing is plausible.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "connection to the neighbourhood",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.2631,
+            0.0677
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Neighbourhood routing is not explicitly visible; the marker approximates an accessible building perimeter connection."
+        }
+      },
+      {
+        "statement": "The inner courtyard creates a pleasant lighting atmosphere in the access area.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "inner courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5938,
+            0.4852,
+            0.5166
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard opening is clearly visible in plan and produces a distinct void through the volume."
+        }
+      },
+      {
+        "statement": "The compact floor plans organize the primary school clearly over only a few floors.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.286,
+            0,
+            0.3439
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact organization is evident from the tight footprint and limited vertical stack."
+        }
+      },
+      {
+        "statement": "The upper floors develop a naturally lit and adaptable learning landscape.",
+        "tags": [
+          "daylight",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "upper-floor learning landscape",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5845,
+            0.6226,
+            0.8273
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper levels are visible, but learning spaces are not distinguishable; placement samples the upper envelope."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The filling elements do not convincingly improve the overall impression of the facade.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "facade filling elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1716,
+            0,
+            0.5511
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Facade surface is visible, while individual filling elements are not separately identifiable."
+        }
+      },
+      {
+        "statement": "The connection to the terrain is not structurally convincing in all places.",
+        "tags": [
+          "topography",
+          "structure"
+        ],
+        "position": {
+          "target": "terrain connection",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8008,
+            0,
+            0.2058
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Terrace-edge envelope is visible; uncertain structural contact is sampled along the lower perimeter."
+        }
+      },
+      {
+        "statement": "The concrete facade expression is questionable in relation to the visible wooden construction.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "concrete facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7436,
+            0,
+            0.5856
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior facade is visible, but concrete and timber construction cannot be reliably separated in the point cloud."
+        }
+      },
+      {
+        "statement": "The fire-safety arrangement is inadequate because escape routes do not connect directly to protected routes and the exterior.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "protected escape routes and exterior",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4874,
+            0.482
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior fire routes are absent as distinct geometry; the estimate uses an accessible perimeter location."
+        }
+      },
+      {
+        "statement": "The organization of the basement sports hall produces a very uneven lighting situation.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "basement sports hall lighting",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.726,
+            0.1367
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Basement room is not distinguishable internally; a lower-level interior projection is assigned."
+        }
+      },
+      {
+        "statement": "The basement sports hall requires significant rock erosion, which is detrimental economically and environmentally.",
+        "tags": [
+          "topography",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "basement sports hall rock erosion",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7436,
+            0,
+            0.0677
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sports hall and excavation are not directly represented; placement approximates a basement terrain interface."
+        }
+      },
+      {
+        "statement": "The all-weather pitch is somewhat out of place in the landscape.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "all-weather pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.8613,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pitch is not identifiable in the sampled geometry; a peripheral landscape position is assigned."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "daylight",
+      "circulation",
+      "layout",
+      "facade",
+      "expression",
+      "fire safety",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

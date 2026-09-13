@@ -1,0 +1,312 @@
+{
+  "object_description": "stepped school volume with a mineral base",
+  "geometry_property": [
+    "stepped",
+    "terraced",
+    "slope-adapted",
+    "split-level",
+    "banded facade",
+    "large-volume",
+    "courtyard-like outdoor sequence"
+  ],
+  "design_condition": "The building is moved close to the settlement and aligned with the existing school ensemble, continuing the path network down the slope while its staggering creates connected outdoor spaces, a district shortcut, and a large break area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The settlement continues the existing fabric not only through the building masses but also through the path network.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "path network",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0929,
+            0.5887,
+            0.2
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view shows circulation-like linear gaps; elevations constrain them to the lower stepped site sequence."
+        }
+      },
+      {
+        "statement": "The massive volume is vividly structured by gradation to a tolerable scale in the small-scale residential context.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "massive volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7527,
+            0.6249,
+            0.6
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full stepped footprint and graded elevation bands visibly define the building mass."
+        }
+      },
+      {
+        "statement": "The building mass creates clearly structured and optimally usable outdoor spaces with flowing transitions.",
+        "tags": [
+          "open space",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5094,
+            0.2198,
+            0.3
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view reveals separated open sequences within and around the irregular building footprint."
+        }
+      },
+      {
+        "statement": "The slope is cleverly used to articulate a strong mineral base, with light wooden band facades visible on the upper floors.",
+        "tags": [
+          "topography",
+          "massing",
+          "facade"
+        ],
+        "position": {
+          "target": "mineral base and wooden band facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6864,
+            0.1187,
+            0.3
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower elevation bands and contrasting upper strips are clearest along the east and south-facing edges."
+        }
+      },
+      {
+        "statement": "The staggering allows school rooms to be illuminated across the corner and creates a lively but clear middle zone.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "middle zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.598,
+            0.7123,
+            0.55
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central stepped portion is identifiable in plan, with intermediate levels constrained by the elevations."
+        }
+      },
+      {
+        "statement": "The separation of escape routes and open learning areas is particularly convincing.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "safety"
+        ],
+        "position": {
+          "target": "escape routes and open learning areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4394,
+            0.8259,
+            0.45
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior functions are not distinguishable, so the marker uses a plausible west-central circulation zone."
+        }
+      },
+      {
+        "statement": "The wooden element construction on an in-situ concrete base provides a plausible structural solution with stability and earthquake resistance.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "wooden element construction on concrete base",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7527,
+            0.6249,
+            0.5
+          ],
+          "radius": 0.317,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled envelope shows layered lower and upper bands, but construction materials are not directly encoded."
+        }
+      },
+      {
+        "statement": "The proposals for cross ventilation and night cooling are independent and convincing.",
+        "tags": [
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "cross ventilation and night cooling",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an operational environmental-performance judgment without a specific visible geometric anchor."
+        }
+      },
+      {
+        "statement": "The spatial arrangement demonstrates empathy for social interaction between learning units and corresponding spatial flexibility.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "spatial arrangement between learning units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.598,
+            0.7123,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The stepped central arrangement suggests interaction zones, though learning units are not separately visible."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building is too close to the eastern residential building, although this can be remedied by moving it.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "eastern residential building",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9312,
+            0.5139,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The east edge is the stated proximity condition; the neighboring building itself is not separately sampled."
+        }
+      },
+      {
+        "statement": "The multifunctional rooms are less convincing because their proportions are inadequate when coupled to the overall space.",
+        "tags": [
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "multifunctional rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7527,
+            0.6249,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are absent from the exterior sample, so this uses a plausible upper-level central surface location."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "topography",
+      "massing",
+      "scale",
+      "open space",
+      "daylight",
+      "circulation",
+      "structure",
+      "ventilation",
+      "flexibility"
+    ]
+  }
+}

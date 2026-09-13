@@ -1,0 +1,417 @@
+{
+  "object_description": "compact three-winged two-story building",
+  "geometry_property": [
+    "compact",
+    "three-winged",
+    "two-story",
+    "fragmented",
+    "centrally linked",
+    "low-rise"
+  ],
+  "design_condition": "The building occupies the eastern edge of the site to create a connected outdoor space beside the existing residences, while a separated access wall and compact circulation routes organize relations between neighbours, school users, and deliveries.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact footprint combines ecological measures with play, learning, and nature-experience requirements.",
+        "tags": [
+          "massing",
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact footprint and ecological play landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3736,
+            0.5368,
+            0.0714
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact three-wing massing visibly leaves connected exterior pockets around the building."
+        }
+      },
+      {
+        "statement": "Access routes are well separated for neighbourhood and school users.",
+        "tags": [
+          "circulation",
+          "operation",
+          "safety"
+        ],
+        "position": {
+          "target": "separated neighbourhood and school access routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2855,
+            0.5368,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access separation is anchored to the western and southern perimeter approaches."
+        }
+      },
+      {
+        "statement": "The facility is well connected to the existing school buildings.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "connection to existing school buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.574,
+            0.2857
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Existing buildings are not sampled; the western edge is the constrained connection location."
+        }
+      },
+      {
+        "statement": "The transparent center creates attractive visual connections between the dining area and outdoor spaces.",
+        "tags": [
+          "visibility",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "transparent center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5348,
+            0.3927,
+            0.3571
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central link is clearly visible between the three wings and adjacent exterior spaces."
+        }
+      },
+      {
+        "statement": "The internal access areas are based on a high spatial standard.",
+        "tags": [
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "internal access areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4907,
+            0.3927,
+            0.4286
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Circulation is approximated along the central connecting floor zone."
+        }
+      },
+      {
+        "statement": "The structural design allows flexibility for later changes along the facade.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "flexible facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8186,
+            0.6109,
+            0.7143
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Regular eastern facade edges provide the clearest visible anchor for later facade changes."
+        }
+      },
+      {
+        "statement": "The building achieves pleasant indoor climate and atmospheric quality through its architectural formulation.",
+        "tags": [
+          "ventilation",
+          "expression"
+        ],
+        "position": {
+          "target": "indoor climate and atmospheric quality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5127,
+            0.3927,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Atmospheric and climate performance is not directly visible, so the marker covers the whole low-rise envelope."
+        }
+      },
+      {
+        "statement": "The project has great spatial qualities and an attractive outdoor space.",
+        "tags": [
+          "layout",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "spatial qualities and attractive outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2818,
+            0.6598,
+            0.0714
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Visible wing recesses create a connected outdoor region beside the compact building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The exact positioning creates uncertainty because it follows neither the existing school alignment nor the adjacent streets.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "exact building positioning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5216,
+            0.4286
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The building’s eastern-biased footprint is directly visible; surrounding alignments are not sampled."
+        }
+      },
+      {
+        "statement": "The entrance pre-zones are too exposed and should be more clearly separated from the surroundings.",
+        "tags": [
+          "privacy",
+          "accessibility",
+          "open space"
+        ],
+        "position": {
+          "target": "exposed entrance pre-zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2855,
+            0.5368,
+            0.1429
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance zones are approximated along the exposed western-southern perimeter."
+        }
+      },
+      {
+        "statement": "Some access areas are too small, and natural lighting in the central ground-floor zones is insufficient.",
+        "tags": [
+          "circulation",
+          "proportion",
+          "daylight"
+        ],
+        "position": {
+          "target": "small access areas and central ground-floor lighting",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5277,
+            0.5368,
+            0.2143
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central ground-floor connector is visible, while access dimensions remain approximate."
+        }
+      },
+      {
+        "statement": "Autonomous access to the gymnasium outside school hours can only be ensured with great effort.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "autonomous gymnasium access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6583,
+            0.1811,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Gymnasium is not distinguishable; an eastern wing ground-level zone provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "It remains questionable whether the proposed architectural solutions meet functional, technical, and economic requirements.",
+        "tags": [
+          "functionality",
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "functional and technical requirements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5788,
+            0.3927,
+            0.4286
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad functional and technical uncertainty is distributed across the sampled building envelope."
+        }
+      },
+      {
+        "statement": "The project has comparatively high costs, although the target construction costs are met.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "comparatively high costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost performance has no useful spatial referent in the sampled geometry."
+        }
+      },
+      {
+        "statement": "The parking facility puts strain on the root area of existing trees.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "parking facility and existing tree roots",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.1874,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking and tree roots are absent; the eastern site edge is a directional constrained approximation."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "circulation",
+      "layout",
+      "functionality",
+      "open space",
+      "landscape",
+      "flexibility",
+      "daylight",
+      "cost"
+    ]
+  }
+}

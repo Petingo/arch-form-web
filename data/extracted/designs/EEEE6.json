@@ -1,0 +1,405 @@
+{
+  "object_description": "quiet compact three-story volume with recessed long sides and an overhang",
+  "geometry_property": [
+    "compact",
+    "three-story",
+    "elongated",
+    "recessed",
+    "overhanging",
+    "regularly spaced"
+  ],
+  "design_condition": "The volume completes the group around the tower with regular setbacks from neighboring buildings, while its uneven shifts unsettle the street view and leave the space beside the sports hall unresolved.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear concept is evident in both the static structure and the distribution of uses.",
+        "tags": [
+          "structure",
+          "layout"
+        ],
+        "position": {
+          "target": "overall concept and use distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6161,
+            0.8,
+            0.5455
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Compact elongated massing and repeated elevation bands provide the building-scale anchor for concept and uses."
+        }
+      },
+      {
+        "statement": "The upper band of windows illuminates the hall without allowing unwanted views.",
+        "tags": [
+          "daylight",
+          "privacy"
+        ],
+        "position": {
+          "target": "upper band of windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2206,
+            0.8587,
+            0.8636
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-level facade region is constrained by the repeated horizontal bands visible in both long elevations."
+        }
+      },
+      {
+        "statement": "The simple access structure allows flexible use of the floor units.",
+        "tags": [
+          "circulation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "access structure and floor units",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7794,
+            0.1515,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A side access-system location is approximated on the compact perimeter serving the stacked floor volume."
+        }
+      },
+      {
+        "statement": "The atrium and skylight bring daylight into the unexposed central zone.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "central atrium and skylight",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7097,
+            0.675,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Near-central placement follows the recessed inner footprint and the central daylighting claim."
+        }
+      },
+      {
+        "statement": "The supporting structure is carefully constructed, simple, and pragmatically implemented.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1379,
+            0.8078,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Regularly spaced point bands along the perimeter support a broad structural anchor."
+        }
+      },
+      {
+        "statement": "The compact structure is fundamentally aimed at good economic efficiency.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "economic efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic performance is a whole-building judgment without a useful geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The uneven volume shifts make the view of the street appear unsettled.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "uneven volume shifts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6348,
+            0.775,
+            0.5909
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Rotated footprint edges and stepped elevation bands visibly register the uneven massing shifts."
+        }
+      },
+      {
+        "statement": "No statements are made about the design of the surroundings, particularly the space beside the sports hall.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "space beside the sports hall",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8442,
+            0.1913,
+            0.1364
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The adjacent open-space judgment is approximated at the building perimeter because surrounding context is not sampled."
+        }
+      },
+      {
+        "statement": "The chosen facade expression has little to do with the location and surrounding buildings.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "chosen facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1655,
+            0.8248,
+            0.5455
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A representative long facade is anchored from the visible elongated perimeter and elevation bands."
+        }
+      },
+      {
+        "statement": "The round windows do not provide enough connection to the outside for the reading room.",
+        "tags": [
+          "visibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "round windows in the reading room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1103,
+            0.7908,
+            0.5909
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The reading-room facade is not distinguishable, so a plausible long-side surface location is used."
+        }
+      },
+      {
+        "statement": "A possible change of use would severely disrupt the chosen facade appearance.",
+        "tags": [
+          "facade",
+          "flexibility"
+        ],
+        "position": {
+          "target": "facade appearance under changed use",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8345,
+            0.1854,
+            0.5909
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A representative side facade anchors the flexibility concern within the visible compact envelope."
+        }
+      },
+      {
+        "statement": "The lack of an energy and building-technology concept is reflected in undersized technology centers and difficult-to-access shafts.",
+        "tags": [
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "energy and building-technology systems",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.807,
+            0.1684,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Technology centers and shafts are internal and indistinguishable, so they receive a constrained service-side guess."
+        }
+      },
+      {
+        "statement": "The lightweight shell in the archive area increases technical effort and energy requirements.",
+        "tags": [
+          "sustainability",
+          "functionality"
+        ],
+        "position": {
+          "target": "lightweight shell in the archive area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1379,
+            0.8078,
+            0.4545
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The archive area and shell are not identifiable, so the claim is placed near a plausible perimeter surface."
+        }
+      },
+      {
+        "statement": "The large structural spans offset the economic advantage of the compact structure.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "large structural spans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.807,
+            0.1684,
+            0.5
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated compact envelope provides a constrained anchor for the broad span-related structural criticism."
+        }
+      },
+      {
+        "statement": "The promising approach is unfortunately not reflected in the architectural design.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "architectural design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6161,
+            0.8,
+            0.5455
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The overall massing and repeated facade bands provide a direct building-scale anchor for the design judgment."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "facade",
+      "expression",
+      "daylight",
+      "privacy",
+      "flexibility",
+      "structure",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,379 @@
+{
+  "object_description": "simple three-story rectangular volume",
+  "geometry_property": [
+    "simple",
+    "rectangular",
+    "three-story",
+    "compact-footprint",
+    "horizontal-windowed",
+    "symmetrical"
+  ],
+  "design_condition": "The building is precisely placed within the complex’s geometric order, distances itself from the residential area, and organizes access from the center while leaving a large rear side requiring further definition.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The simple volume setting clearly strengthens the campus character.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "simple volume setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1935,
+            0.5363,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact rectangular mass is clearly visible in plan and all elevations."
+        }
+      },
+      {
+        "statement": "The public ground floor and adjacent outdoor areas create an attractive transition to the park.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "public ground floor and adjacent outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4853,
+            0.199,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level transition is anchored along the south/front edge and adjacent exterior."
+        }
+      },
+      {
+        "statement": "The calm volume results from the three-story structure and horizontal windows.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "three-story structure and horizontal windows",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.237,
+            0.5725,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three stacked levels and repeated horizontal window bands are visible in elevations."
+        }
+      },
+      {
+        "statement": "The pragmatic structure is well constructed and allows considerable variability and flexibility.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "pragmatic structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7729,
+            0.4382,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural judgment is anchored to the visible building envelope and repeated floor bands."
+        }
+      },
+      {
+        "statement": "A minimized concrete basement and timber upper floors offer good sustainability potential.",
+        "tags": [
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "minimized concrete basement and timber upper floors",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material sustainability potential is a non-spatial performance judgment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Using a sports field as the center and restricting access to the facility from the inside raises overarching questions.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "sports field as the center",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6002,
+            0.3654,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The stated central organizing area is approximated at ground level within the footprint."
+        }
+      },
+      {
+        "statement": "The large rear side is insufficiently defined and its usability remains unclear.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "large rear side",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6732,
+            0.9258,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Rear is interpreted as the north/back side, where the broad ground-level edge is located."
+        }
+      },
+      {
+        "statement": "The connection to the northern district is deliberately not pursued, producing a dismissive attitude.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "connection to the northern district",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7155,
+            0.9705,
+            0.4286
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern district connection is anchored to the north-facing building edge."
+        }
+      },
+      {
+        "statement": "The desired spacious meeting and resting place is missing beside the existing buildings.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "spacious meeting and resting place",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.324,
+            0.6449,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Missing exterior amenity is approximated beside the building toward the rear side."
+        }
+      },
+      {
+        "statement": "The different facade formulations weaken the conceptual intention of the volume setting.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "different facade formulations",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8816,
+            0.5286,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "top"
+          ],
+          "rationale": "Facade criticism is anchored to the visible east side and its elevation treatment."
+        }
+      },
+      {
+        "statement": "The entrance and light-guided spatial sequence are missing.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "entrance and light-guided spatial sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3983,
+            0.1266,
+            0.2143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance sequence is approximated at the south/front access edge."
+        }
+      },
+      {
+        "statement": "The mirrored ground-floor structure prevents clear addressing and a clear social center.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "mirrored ground-floor structure",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4156,
+            0.6502,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-floor organization is anchored near the central plan area at the lowest level."
+        }
+      },
+      {
+        "statement": "The main access has not been structurally solved for the sprawling campus.",
+        "tags": [
+          "circulation",
+          "structure"
+        ],
+        "position": {
+          "target": "main access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2802,
+            0.1406,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Campus access is approximated along the front approach to the building."
+        }
+      },
+      {
+        "statement": "The constructive elaboration requires checking, particularly for floor spans and beam durability.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "floor spans and beam durability",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8164,
+            0.4743,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "west"
+          ],
+          "rationale": "Structural concern is anchored to the visible repeated floor levels and envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "campus",
+      "open space",
+      "circulation",
+      "layout",
+      "facade",
+      "expression",
+      "daylight",
+      "structure"
+    ]
+  }
+}

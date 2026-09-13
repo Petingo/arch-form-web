@@ -1,0 +1,586 @@
+{
+  "object_description": "compact block with three patios and an outer escape-route layer",
+  "geometry_property": [
+    "compact",
+    "oversized",
+    "three-storey",
+    "patio-perforated",
+    "layered",
+    "stepped with terrain"
+  ],
+  "design_condition": "The complex is concentrated on the western edge of the site, with courts stepped into the sloping terrain and a park-like strip mediating toward the neighbourhood.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "A park-like space with play and recreation facilities mediates between the neighbourhood and the school complex.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "park-like space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2934,
+            0.2284,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "The open-space concept is carefully worked out and demonstrates a good understanding of pupils' needs.",
+        "tags": [
+          "open space"
+        ],
+        "position": {
+          "target": "open-space concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6035,
+            0.6215,
+            1
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The gradation of levels allows ideal connections and accessibility from all sides.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "gradation of levels",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.646,
+            0.9929,
+            1
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "External escape routes create a light and playful outer layer mediating between interior and exterior.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "outer escape-route layer",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.82,
+            0.55,
+            0.52
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The perimeter layer is visible around the compact mass in plan and elevations."
+        }
+      },
+      {
+        "statement": "Three spacious patios bring plenty of daylight to the classroom level.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "three spacious patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.49,
+            0.45,
+            0.55
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Three interior voids are clearly visible across the plan and interrupt the stacked classroom mass."
+        }
+      },
+      {
+        "statement": "The patios and outdoor workspaces form an exciting learning landscape of heated and unheated rooms.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "learning landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.49,
+            0.45,
+            0.48
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The patios and adjacent outdoor workspaces cluster through the central plan."
+        }
+      },
+      {
+        "statement": "The top-lit assembly hall and connecting staircase create an interesting, versatile centre.",
+        "tags": [
+          "daylight",
+          "flexibility"
+        ],
+        "position": {
+          "target": "top-lit assembly hall and connecting staircase",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4965,
+            0.449,
+            0.6429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The visual relationship between the gymnasium and auditorium is an independent, pedagogically valuable idea.",
+        "tags": [
+          "visibility"
+        ],
+        "position": {
+          "target": "gymnasium and auditorium relationship",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2934,
+            0.2284,
+            0.7143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The bipolar centre gives the school a strong, unmistakable identity.",
+        "tags": [
+          "identity"
+        ],
+        "position": {
+          "target": "bipolar centre",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5097,
+            0.4197,
+            0.8571
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The striking jump in height and monumental staircase are not convincing.",
+        "tags": [
+          "scale"
+        ],
+        "position": {
+          "target": "jump in height and monumental staircase",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4068,
+            0.4411,
+            0.5714
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "Expansion of the car and bicycle parking spaces is not shown.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "car and bicycle parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6888,
+            0.2818,
+            0.1429
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "The third gymnasium beneath the all-weather pitch is unrealistically expensive and unsuitable in lighting terms.",
+        "tags": [
+          "cost",
+          "daylight"
+        ],
+        "position": {
+          "target": "third gymnasium beneath the all-weather pitch",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.45,
+            0.0225,
+            0.6429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The light escape layer contrasts irritably with the heavy concrete hall structures.",
+        "tags": [
+          "expression"
+        ],
+        "position": {
+          "target": "light escape layer and heavy concrete hall structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5903,
+            0.6508,
+            0.7857
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "Classrooms and group rooms are furnished stereotypically, so forward-looking learning is neither simulated nor stimulated.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms and group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3017,
+            0.5909,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The centre idea sacrifices natural lighting and ventilation of the gymnasium.",
+        "tags": [
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "centre idea and gymnasium lighting",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4412,
+            0.4523,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "Fully glazed exterior walls are disadvantageous for furnishing classrooms and special rooms.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "fully glazed exterior walls",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3108,
+            0.709,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "Toilet facilities are few, and an outdoor equipment room and teacher teamwork rooms are missing.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "toilet facilities and missing support rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2242,
+            0.838,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "Access to the roofscape is not proposed.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "roofscape access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.55,
+            0.48,
+            0.98
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The roof surface is visible at the upper extent, but no access element is distinguishable."
+        }
+      },
+      {
+        "statement": "Escape routes in the eastern ground-floor area remain unresolved.",
+        "tags": [
+          "fire safety"
+        ],
+        "position": {
+          "target": "eastern ground-floor escape routes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.84,
+            0.45,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The eastern perimeter and lowest elevation constrain the unresolved ground-floor area."
+        }
+      },
+      {
+        "statement": "Some required rooms are missing or too small, and access and technical rooms are potentially undersized.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "required and technical rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3996,
+            0.7153,
+            0.8571
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The described building services would significantly change the architectural expression.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "building services",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3724,
+            0.0526,
+            0.7857
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The very large roof area would probably need greening together with photovoltaics.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "very large roof area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.48,
+            0.98
+          ],
+          "radius": 0.3202,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The roof footprint is clearly visible in plan and forms the upper boundary in elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "daylight",
+      "patios",
+      "learning landscape",
+      "identity",
+      "escape routes",
+      "ventilation",
+      "glazing",
+      "roof",
+      "open space",
+      "cost"
+    ]
+  }
+}

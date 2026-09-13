@@ -1,0 +1,314 @@
+{
+  "object_description": "two simple four-storey volumes enclosing a covered courtyard",
+  "geometry_property": [
+    "paired",
+    "simple",
+    "four-storey",
+    "rectangular",
+    "projecting",
+    "courtyard-forming",
+    "roofed-courtyard"
+  ],
+  "design_condition": "Two volumes are positioned to enclose a neighborhood foyer and create a generous connecting space between the public bridge and the main square, while stacking the sports field above the schoolyard.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two cleverly placed volumes create a generously proportioned connecting space and a neighborhood foyer.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "two connecting volumes and neighborhood foyer",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2132,
+            0.358,
+            0.421
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Paired volumes and the central courtyard are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The urban design is convincingly successful and creates the necessary address.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "urban address",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5276,
+            0,
+            0.3157
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing edge provides the most plausible public address within the paired massing."
+        }
+      },
+      {
+        "statement": "The open arrangement creates an important and usable outdoor space for the entire neighborhood.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "neighborhood outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4782,
+            0.6327,
+            0.0526
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The open central arrangement is clearly legible as a large exterior courtyard."
+        }
+      },
+      {
+        "statement": "The architectural language is precisely chosen and references the site's industrial history through its structural language.",
+        "tags": [
+          "expression",
+          "facade",
+          "identity"
+        ],
+        "position": {
+          "target": "industrial structural facade language",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1555,
+            0.2257,
+            0.5263
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Regular structural elements are visible along the outer elevations, especially at the side edges."
+        }
+      },
+      {
+        "statement": "The visible structural elements create a convincing design whole.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "visible structural elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8527,
+            0.358,
+            0.421
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated facade points produce a coherent structural reading across multiple elevations."
+        }
+      },
+      {
+        "statement": "The project impresses with its coherent urban planning and interesting stacking of outdoor spaces.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "stacked outdoor spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7817,
+            0.7572,
+            0.7368
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Terraced and elevated bands are visible in the elevations around the courtyard-forming volumes."
+        }
+      },
+      {
+        "statement": "The efficient organization is convincing on an economic level.",
+        "tags": [
+          "layout",
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "efficient organization",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic efficiency is a non-spatial judgment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The attractive outdoor space is not optimally lit.",
+        "tags": [
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "poorly lit outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4782,
+            0.6327,
+            0.0526
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central courtyard is the relevant outdoor zone, though lighting quality is not directly represented."
+        }
+      },
+      {
+        "statement": "The arrangement of the stairwells on the façades appears somewhat cramped and sometimes intersects the outdoor access areas.",
+        "tags": [
+          "circulation",
+          "facade",
+          "accessibility"
+        ],
+        "position": {
+          "target": "cramped facade stairwells",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1555,
+            0.2257,
+            0.4737
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade access zones are approximated near the outer corners where elevations show concentrated elements."
+        }
+      },
+      {
+        "statement": "The connections between the outdoor break areas on the upper floors have not yet been convincingly designed.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "upper-floor outdoor break connections",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7817,
+            0.7572,
+            0.7368
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-level connections are assigned to the elevated courtyard-side bands visible in the elevations."
+        }
+      },
+      {
+        "statement": "The connections still appear somewhat forced at times.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "forced connections",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4974,
+            0.358,
+            0.421
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connecting zone is the plausible location for circulation relationships criticized as forced."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "massing",
+      "layout",
+      "circulation",
+      "facade",
+      "expression",
+      "daylight",
+      "cost"
+    ]
+  }
+}

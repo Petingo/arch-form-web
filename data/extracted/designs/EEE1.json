@@ -1,0 +1,256 @@
+{
+  "object_description": "four staggered longitudinal structures within a unified framework",
+  "geometry_property": [
+    "longitudinal",
+    "staggered",
+    "parallel",
+    "L-shaped",
+    "multi-level",
+    "orthogonal",
+    "framework-bound"
+  ],
+  "design_condition": "The buildings follow the slope edge, define an entrance edge toward the street, and enclose a protected sunny outdoor space toward the ravine.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The facility complements and interprets the location with its landscape and urban aspects very independently.",
+        "tags": [
+          "urban integration",
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "landscape and urban setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1982,
+            0.7487,
+            0.15
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Staggered longitudinal volumes visibly follow a diagonal site edge and leave landscape between them."
+        }
+      },
+      {
+        "statement": "A clear edge with covered outdoor space creates a credible address and entrance.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "covered outdoor entrance edge",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1904,
+            0.3806,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The left-side framework edge forms a legible covered threshold along the ensemble perimeter."
+        }
+      },
+      {
+        "statement": "The ensemble defines a protected, well-sunny outdoor space.",
+        "tags": [
+          "open space",
+          "daylight",
+          "landscape"
+        ],
+        "position": {
+          "target": "protected sunny outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6215,
+            0.5991,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A partially enclosed central-to-ravine void is clearly legible between the staggered structures."
+        }
+      },
+      {
+        "statement": "The building volume and grove create a quiet courtyard for playing and spending time outdoors.",
+        "tags": [
+          "open space",
+          "landscape",
+          "privacy"
+        ],
+        "position": {
+          "target": "quiet courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5206,
+            0.6724,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The parallel bars define a protected interior outdoor area at low level."
+        }
+      },
+      {
+        "statement": "Flexible walls allow both separated room zones and one large connected room.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "flexible room zones",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.538,
+            0.4795,
+            0.55
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior partitions are not sampled distinctly; the marker is constrained within the connected framework."
+        }
+      },
+      {
+        "statement": "The spatial logic produces cleverly staged visual connections and fascinating lighting situations.",
+        "tags": [
+          "visibility",
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "staged visual connections and lighting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.538,
+            0.4795,
+            0.55
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated offsets and multiple exposed levels create visibly varied longitudinal views and light conditions."
+        }
+      },
+      {
+        "statement": "The design conserves resources while remaining spatially generous.",
+        "tags": [
+          "sustainability",
+          "layout"
+        ],
+        "position": {
+          "target": "resource-conscious spatial generosity",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource conservation and spatial generosity are evaluative properties without a single geometric anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The summer linden tree, which is worth preserving, cannot be preserved.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "summer linden tree",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8413,
+            0.169,
+            0.05
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The landscape element is absent; an approximate site-edge location is constrained from the open perimeter."
+        }
+      },
+      {
+        "statement": "The line-up of equipment in the kindergarten area seems disturbing and somewhat helpless.",
+        "tags": [
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "kindergarten equipment line-up",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6215,
+            0.5991,
+            0.1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Equipment is not distinguishable; the marker estimates an outdoor kindergarten zone within the open space."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "landscape",
+      "massing",
+      "open space",
+      "circulation",
+      "flexibility",
+      "daylight",
+      "sustainability"
+    ]
+  }
+}

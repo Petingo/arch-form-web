@@ -1,0 +1,354 @@
+{
+  "object_description": "compact square volume with a central roof garden",
+  "geometry_property": [
+    "compact",
+    "square",
+    "large-footprint",
+    "courtyard-centered",
+    "ring-shaped",
+    "appropriate-height",
+    "banded facade"
+  ],
+  "design_condition": "The compact volume fits the existing school complex through its height, redefines the existing break area with a covered entrance, and generates sports and grass-field areas while leaving a questioned residual area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "Despite its large footprint, the appropriate height allows the volume to fit harmoniously into the existing school complex.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.247,
+            0.7434,
+            0.5714
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact footprint and low continuous elevations support harmonious whole-building scale."
+        }
+      },
+      {
+        "statement": "The organization of the room program is clear and functional.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "room program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.247,
+            0.7434,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior program is indistinguishable; anchor approximates the compact building surface."
+        }
+      },
+      {
+        "statement": "The covered entrance encompasses and redefines the existing break area.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "covered entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3719,
+            0.1956,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate low front-facing zone along the courtyard edge."
+        }
+      },
+      {
+        "statement": "The central hanging garden offers smaller students a protected outdoor space.",
+        "tags": [
+          "open space",
+          "privacy"
+        ],
+        "position": {
+          "target": "central hanging garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.659,
+            0.4095,
+            0.8536
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Centered courtyard-like void is clearly visible and elevated."
+        }
+      },
+      {
+        "statement": "The extra-wide inner access ring can be arranged to create varied teaching landscapes.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "inner access ring",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6102,
+            0.3534,
+            0.6429
+          ],
+          "radius": 0.11,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Concentric interior bands are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The ring-shaped canopy expands the pleasant teaching areas with weather-protected outdoor spaces.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "ring-shaped canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6102,
+            0.3534,
+            0.7857
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous upper ring is legible around the central opening."
+        }
+      },
+      {
+        "statement": "The coherent construction is in the spirit of sustainability and creates a pleasantly warm atmosphere.",
+        "tags": [
+          "structure",
+          "sustainability",
+          "expression"
+        ],
+        "position": {
+          "target": "coherent construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction atmosphere and sustainability lack a distinct geometric location."
+        }
+      },
+      {
+        "statement": "The jury praised the rational organization in a simple, compact volume.",
+        "tags": [
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "simple compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.247,
+            0.7434,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Views show a simple compact outer envelope surrounding a central void."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The outdoor places on the lower school floor appear introverted because they lack natural lighting.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "lower school floor outdoor places",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2763,
+            0.3259,
+            0.1429
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower perimeter surfaces are visible, but specific outdoor places are indistinguishable."
+        }
+      },
+      {
+        "statement": "The effort and return of this cost-intensive intervention are questioned for only three clusters.",
+        "tags": [
+          "cost",
+          "functionality"
+        ],
+        "position": {
+          "target": "cost-intensive intervention",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and return are non-spatial judgments."
+        }
+      },
+      {
+        "statement": "The residual area in the northeast is poorly motivated.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "northeast residual area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7768,
+            0.761,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Northeast is constrained by the top-view coordinate frame."
+        }
+      },
+      {
+        "statement": "The design offers rather limited flexibility for future developments in the spatial program.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "future spatial program flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7376,
+            0.2544,
+            0.5
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Future flexibility concerns the overall plan, anchored to an outer region."
+        }
+      },
+      {
+        "statement": "The arrival sequence is strongly influenced by the sports halls and creates confusion about the building’s identity as a school.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "arrival sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.759,
+            0.2706,
+            0.2143
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate low perimeter zone associated with the sports-facing approach."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "open space",
+      "daylight",
+      "flexibility",
+      "cost",
+      "identity"
+    ]
+  }
+}

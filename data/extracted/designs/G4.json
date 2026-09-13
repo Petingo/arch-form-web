@@ -1,0 +1,281 @@
+{
+  "object_description": "low-storey almost square building volume with deep overhang",
+  "geometry_property": [
+    "low-rise",
+    "almost square",
+    "offset",
+    "overhanging",
+    "flat-roofed",
+    "volumetrically cut"
+  ],
+  "design_condition": "The building is set into the slope with terraced outdoor spaces and a stair-based access route linking the school, sports areas, planting garden, meadow, and surrounding neighbourhood, although the terrain connection is less resolved on one side.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The sports areas mediate between the school and residential buildings through a well-connected sequence of terraces and paths.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "terraced sports areas and paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.463,
+            0.0608,
+            0.1512
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sequence is anchored along the lower site edge and building approach."
+        }
+      },
+      {
+        "statement": "The volumetric cuts and offsets create a clear joint between the building volume and the terrain.",
+        "tags": [
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "volumetric cuts and terrain joint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1498,
+            0.0608,
+            0.201
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Visible edge offsets and envelope changes provide a terrain-joint anchor."
+        }
+      },
+      {
+        "statement": "The complex is well connected to the wider neighbourhood beyond its immediate surroundings.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "wider neighbourhood connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9276,
+            0.2111,
+            0.1014
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The broad connection is placed at a perimeter approach zone."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The connection to the topography on the opposite side is not resolved with comparable architectural clarity.",
+        "tags": [
+          "topography",
+          "facade"
+        ],
+        "position": {
+          "target": "opposite-side topography connection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9276,
+            0.7933,
+            0.201
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The unresolved side is represented by an outer building edge away from the primary approach."
+        }
+      },
+      {
+        "statement": "The main entrance is too small for the scale of the overhang, while the services shaft further constricts the foyer.",
+        "tags": [
+          "circulation",
+          "scale",
+          "layout"
+        ],
+        "position": {
+          "target": "main entrance and constricted foyer",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.463,
+            0.0608,
+            0.201
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance and foyer are approximated at the central south-facing access edge."
+        }
+      },
+      {
+        "statement": "The lack of hierarchy in the vertical access makes orientation difficult and produces confusing access to the workrooms.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "vertical access and workroom orientation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2542,
+            0.0608,
+            0.2509
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior access is absent, so the marker is constrained to a representative building zone."
+        }
+      },
+      {
+        "statement": "The shaded skylights may not provide attractive daylight to the sports hall several floors below.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "sports-hall skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9276,
+            0.6962,
+            0.1014
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The skylights are not distinguishable; placement follows a plausible sports-hall roof region."
+        }
+      },
+      {
+        "statement": "The economic targets are significantly exceeded and the sustainability goals are not adhered to.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "economic and sustainability performance",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and sustainability performance are non-spatial judgments."
+        }
+      },
+      {
+        "statement": "It remains unresolved whether this specific typology is suitable for a sloping site.",
+        "tags": [
+          "topography",
+          "massing"
+        ],
+        "position": {
+          "target": "sloping-site typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9276,
+            0.3082,
+            0.2509
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The typological question is anchored to the building mass and its site-facing edge."
+        }
+      },
+      {
+        "statement": "The facade does not convincingly give the primary school the desired presence and identity.",
+        "tags": [
+          "facade",
+          "identity"
+        ],
+        "position": {
+          "target": "primary-school facade identity",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5424,
+            0,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The south facade provides the clearest directional anchor for public presence and identity."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "circulation",
+      "open space",
+      "urban integration",
+      "daylight",
+      "facade",
+      "identity",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

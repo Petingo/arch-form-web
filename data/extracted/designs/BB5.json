@@ -1,0 +1,326 @@
+{
+  "object_description": "terraced hypogean volumes integrated into a retaining-wall landscape",
+  "geometry_property": [
+    "terraced",
+    "hypogean",
+    "partly sunken",
+    "stepped",
+    "retaining-wall structured",
+    "fifth-facade integrated",
+    "linear"
+  ],
+  "design_condition": "The volumes are embedded in the sloping site through terraces and retaining walls, preserving the view between the station and church while organizing the plot into level-separated public sectors.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The hypogean integration of the volumes returns the architecture to the landscape and leaves the perspective free.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "visibility"
+        ],
+        "position": {
+          "target": "hypogean volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4535,
+            0.5425,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Terraced low volumes and retaining-wall integration are clearly visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The drawings suggest an interesting expansion of the public space.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "public space expansion",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0741,
+            0.3543,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open ground-level terraces around the embedded volumes represent expanded public space."
+        }
+      },
+      {
+        "statement": "The project is appreciated for its coherent development.",
+        "tags": [
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "coherent development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4517,
+            0.5107,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped linear massing develops consistently across the sampled building."
+        }
+      },
+      {
+        "statement": "The fifth facade is integrated into the site.",
+        "tags": [
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "fifth facade",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4538,
+            0.5479,
+            0.75
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view visibly records the roofscape integrated with the terraced site."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The east-west direction is not accompanied by pedestrian paths.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "east-west pedestrian paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5354,
+            0.0857,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A longitudinal ground-level site zone approximates the criticized pedestrian connection."
+        }
+      },
+      {
+        "statement": "The entrance lacks definition.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5588,
+            0.0895,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-edge placement approximates an entrance, which is not individually identifiable."
+        }
+      },
+      {
+        "statement": "The south-facing facades offer insufficient opening surface for proper illumination.",
+        "tags": [
+          "facade",
+          "daylight"
+        ],
+        "position": {
+          "target": "south-facing facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4886,
+            0.0779,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South elevation directly shows the stepped facade surfaces and their limited openings."
+        }
+      },
+      {
+        "statement": "The staircase lacks generosity and is insufficiently developed.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4424,
+            0.3519,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A terrace-connecting interior-adjacent position approximates the staircase."
+        }
+      },
+      {
+        "statement": "The organization of the nursery spaces in a row is unconvincing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "nursery spaces in a row",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9754,
+            0.4728,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Linear placement follows the elongated organization, though nursery rooms are not visible."
+        }
+      },
+      {
+        "statement": "The static system is approximate, with problems of load transfer and excessive spans.",
+        "tags": [
+          "structure",
+          "proportion"
+        ],
+        "position": {
+          "target": "static system",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Structural performance has no specific spatial referent in the sampled exterior geometry."
+        }
+      },
+      {
+        "statement": "The chosen design entails high construction costs and performs poorly environmentally because of its penalizing form factor.",
+        "tags": [
+          "cost",
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "construction costs and environmental performance",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and environmental performance are global judgments without useful spatial anchors."
+        }
+      },
+      {
+        "statement": "The volumetry is not sufficiently asserted in the village center, and a plinth would have created a closer dialogue with the historic buildings.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "village-center volumetry and plinth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4517,
+            0.5107,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Whole terraced mass is visible, while village buildings and a plinth are not represented."
+        }
+      }
+    ],
+    "keyword": [
+      "landscape",
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "daylight",
+      "layout",
+      "structure",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

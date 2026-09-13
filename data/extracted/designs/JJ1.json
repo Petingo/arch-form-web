@@ -1,0 +1,200 @@
+{
+  "object_description": "compact square volume with a possible additional floor",
+  "geometry_property": [
+    "square",
+    "compact",
+    "three-story",
+    "extensible",
+    "rotated",
+    "grid-defined"
+  ],
+  "design_condition": "A rotated, set-back volume is placed along the perimeter parallel to the street and tree row, creating well-sunlit outdoor spaces and a clear entrance relationship to the existing school complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project is characterized by clear urban development and sensitive integration into the existing school complex.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "urban development and integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8646,
+            0.4276,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The rotated compact mass and surrounding clearances are visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The simple and interesting cluster organization creates ideal spaces for school operations with a high level of flexibility.",
+        "tags": [
+          "layout",
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "cluster organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8646,
+            0.4276,
+            0.4688
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact grid-defined volume provides the visible anchor for clustered school organization."
+        }
+      },
+      {
+        "statement": "Differentiated and diverse outdoor spaces, including the outdoor terrace, are perceived as added value and an additional experience.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces and outdoor terrace",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8515,
+            0.3781,
+            0.0938
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter clearances and the rotated footprint visibly define outdoor spaces around the volume."
+        }
+      },
+      {
+        "statement": "The delicate design gives the school complex a new contemporary structure with strong identity.",
+        "tags": [
+          "expression",
+          "identity",
+          "facade"
+        ],
+        "position": {
+          "target": "contemporary structure and identity",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5296,
+            0.8868,
+            0.6563
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The consistent grid and crisp square envelope establish the contemporary facade expression."
+        }
+      },
+      {
+        "statement": "The very compact cubature provides an optimized building-envelope ratio and a good basis for sustainability requirements.",
+        "tags": [
+          "massing",
+          "sustainability",
+          "proportion"
+        ],
+        "position": {
+          "target": "optimized building-envelope ratio",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8646,
+            0.4276,
+            0.5313
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact square massing and a regular perimeter support the envelope-ratio assessment."
+        }
+      },
+      {
+        "statement": "The kindergarten benefits from a separate access to its playground, while the classrooms receive light from two sides.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "kindergarten access and classroom daylight",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3111,
+            0.1594,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower-left perimeter approximates access; two-sided daylight remains programmatically inferred."
+        }
+      }
+    ],
+    "negative": [],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "operation",
+      "flexibility",
+      "open space",
+      "landscape",
+      "identity",
+      "daylight",
+      "sustainability"
+    ]
+  }
+}

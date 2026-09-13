@@ -1,0 +1,492 @@
+{
+  "object_description": "single stepped volume descending across the site",
+  "geometry_property": [
+    "single volume",
+    "compact",
+    "stepped",
+    "terraced",
+    "set back",
+    "sectional"
+  ],
+  "design_condition": "A compact building descends with the terrain between the upper and lower streets, creating a large park-like open space, terraces, and a protective wall along the railway edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The astonishingly small volume creates an outdoor space unique in its dimensions.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "small volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5018,
+            0.5853,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact stepped mass is clearly visible in plan and all elevations."
+        }
+      },
+      {
+        "statement": "The concentrated building volume enables an extraordinarily generous amount of open space that can enhance the district.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "generous open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5096,
+            0.4434,
+            0.0625
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large unoccupied ground region surrounds the compact building footprint."
+        }
+      },
+      {
+        "statement": "The storey-high wall protects against train noise, structures the park, and gives the public space a presence toward the tracks.",
+        "tags": [
+          "acoustics",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "storey-high wall",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7959,
+            0.8628,
+            0.4375
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "A long edge condition approximates the protective wall along the tracks."
+        }
+      },
+      {
+        "statement": "The facade design is unobtrusively elegant and gives the building a natural public expression.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4891,
+            0.749,
+            0.625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated stepped facade bands are visible across the elevation set."
+        }
+      },
+      {
+        "statement": "Careful terrain modeling creates an exciting counterpoint to the existing topography and directs views toward the valley slopes.",
+        "tags": [
+          "topography",
+          "landscape",
+          "visibility"
+        ],
+        "position": {
+          "target": "terrain modeling",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4278,
+            0.448,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Terraced ground relationships and stepped building sections are visible throughout the calibrated views."
+        }
+      },
+      {
+        "statement": "The very compact volume has a positive effect on construction costs, energy requirements, and sustainability.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5018,
+            0.5853,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The cost and sustainability judgment derives from the visibly compact overall cubature."
+        }
+      },
+      {
+        "statement": "The entire school is organized through a precisely fitting sectional figure in an incomparably compact, well-placed volume.",
+        "tags": [
+          "layout",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "sectional figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5018,
+            0.5853,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Terraced level changes and stepped profiles establish the sectional organization."
+        }
+      },
+      {
+        "statement": "Setbacks and terraces structure the building and interlink it with the surrounding green spaces.",
+        "tags": [
+          "massing",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "setbacks and terraces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4891,
+            0.749,
+            0.6875
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multiple horizontal setbacks are legible in plan and elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Despite the rhythm of development along the tracks, the impression of a gap in the urban context remains.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "gap in urban context",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.515,
+            0.8628,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The open edge beside the compact mass is the plausible urban-context gap."
+        }
+      },
+      {
+        "statement": "The quality of stay on the various roof terraces is controversially discussed.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "roof terraces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5018,
+            0.5853,
+            0.6875
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stepped upper surfaces identify the roof-terrace zone."
+        }
+      },
+      {
+        "statement": "It remains unclear how the park path crosses the fenced hard space.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "park path and fenced hard space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7142,
+            0.4319,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open perimeter ground is the plausible location for path and hardscape crossing."
+        }
+      },
+      {
+        "statement": "The stepped structure creates convincing interior situations but is not yet functionally fully developed and appears constrained in several areas.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "stepped interior situations",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5018,
+            0.5853,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior development is inferred from the visible stepped sectional envelope."
+        }
+      },
+      {
+        "statement": "Important basement areas are very limited and are illuminated with little or no daylight.",
+        "tags": [
+          "functionality",
+          "daylight"
+        ],
+        "position": {
+          "target": "basement areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5096,
+            0.4434,
+            0.0625
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The lowest sampled bands approximate the limited basement level."
+        }
+      },
+      {
+        "statement": "The slopes in the floor plan appear somewhat random and weaken the sophisticated sectional figure.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "slopes in the floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4751,
+            0.4454,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Diagonal and stepped plan relationships are most evident in the top and elevation projections."
+        }
+      },
+      {
+        "statement": "The numerous stairs seem somewhat artificial because of the narrowness of the access areas.",
+        "tags": [
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "numerous stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4342,
+            0.4477,
+            0.4375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Vertical stepping provides an approximate anchor for stairs within narrow access bands."
+        }
+      },
+      {
+        "statement": "The added value of the proposed gymnasium span remains structurally and architecturally unclear.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "gymnasium span",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6123,
+            0.749,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The larger lateral span is assigned to the stepped side, though no gym volume is identifiable."
+        }
+      },
+      {
+        "statement": "The large open area along the tracks is not convincingly presented as an added value for the site.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "large open area along the tracks",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7613,
+            0.8628,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The broad open edge along the perimeter is the plausible tracks-side site region."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "topography",
+      "urban integration",
+      "facade",
+      "circulation",
+      "functionality",
+      "daylight",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

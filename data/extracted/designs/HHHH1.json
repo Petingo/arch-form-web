@@ -1,0 +1,348 @@
+{
+  "object_description": "three staggered building structures with lean-to roofs",
+  "geometry_property": [
+    "three-part",
+    "staggered",
+    "lean-to-roofed",
+    "rectilinear",
+    "sloping-roofed",
+    "calm facade"
+  ],
+  "design_condition": "Three staggered structures are inserted between existing buildings, following the topography and roof lines while forming a covered forecourt and a new square along the street.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The sophisticated staggering relates to the surrounding ensemble while forming an independent frame.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "staggered building structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5167,
+            0.5323,
+            0.4615
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three staggered rectilinear structures are clearly visible as stepped masses in plan and elevations."
+        }
+      },
+      {
+        "statement": "The protruding and receding facade defines a new, generously covered square.",
+        "tags": [
+          "facade",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "covered square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6955,
+            0.5546,
+            0.0769
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The projecting and receding bars visibly form a covered central forecourt zone."
+        }
+      },
+      {
+        "statement": "The different uses remain clearly visible through the architectural articulation of the building bodies.",
+        "tags": [
+          "massing",
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "articulated building bodies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5167,
+            0.5323,
+            0.4615
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The three separate bodies and their stepped articulation are directly evident across views."
+        }
+      },
+      {
+        "statement": "The long, calm facade closes pleasantly towards the cemetery and leaves the burial ground its dignity.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "privacy"
+        ],
+        "position": {
+          "target": "cemetery-facing calm facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.63,
+            0.6655,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The outer northeastern facade is used as the directional cemetery-facing boundary."
+        }
+      },
+      {
+        "statement": "The clever arrangement and design of the building cubes makes the different uses clearly visible.",
+        "tags": [
+          "massing",
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "building cubes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5167,
+            0.5323,
+            0.4615
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distinct staggered volumes visibly communicate differentiated uses."
+        }
+      },
+      {
+        "statement": "The school area provides flexible rooms of different sizes.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "school area rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3987,
+            0.5212,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Room sizes are internal and indistinguishable; the western school-zone mass is a constrained anchor."
+        }
+      },
+      {
+        "statement": "The wooden construction guarantees a sustainable and ecological construction.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "wooden construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5167,
+            0.5323,
+            0.4615
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Material construction is not identifiable, so the marker covers the building-wide structural system."
+        }
+      },
+      {
+        "statement": "The project integrates the replacement building and halls into the existing ensemble in a way compatible with the townscape.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "replacement building and halls",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5815,
+            0.5619,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The staggered replacement volumes visibly integrate as a coherent ensemble."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The teacher's work area and teacher's room should be arranged next to each other.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "teacher work area and teacher room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.416,
+            0.5583,
+            0.5385
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior staff spaces are not visible; the western middle building provides a plausible constrained anchor."
+        }
+      },
+      {
+        "statement": "The distribution of the toilet facilities across the floors should be optimized because their number is too small and the distances are too long.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "toilet facilities",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.534,
+            0.5694,
+            0.4615
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Toilets are internal and unmarked, so the central vertical circulation zone is used."
+        }
+      },
+      {
+        "statement": "Seating options and furniture with the required banquet tables must be proven, and the hall proportions must be checked.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "proportion"
+        ],
+        "position": {
+          "target": "hall seating and banquet tables",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.716,
+            0.4836,
+            0.3846
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The hall is not identifiable; the larger eastern volume provides the plausible room anchor."
+        }
+      },
+      {
+        "statement": "The costs must be checked and optimized so that the budget targets can be adhered to.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "project costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Budget optimization is a whole-project judgment without a useful spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "layout",
+      "flexibility",
+      "functionality",
+      "sustainability",
+      "circulation",
+      "cost"
+    ]
+  }
+}

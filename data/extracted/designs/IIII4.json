@@ -1,0 +1,425 @@
+{
+  "object_description": "large-scale two-story longitudinal building",
+  "geometry_property": [
+    "large-scale",
+    "two-story",
+    "longitudinal",
+    "large footprint",
+    "covered break area",
+    "central sports hall"
+  ],
+  "design_condition": "The building is inserted between the library and gymnasium, with a large roof and break area connecting the campus to the sports fields, but its footprint and scale relate inadequately to the adjacent housing and heterogeneous school complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The simply designed facades correspond to their scale and the architectural expression of a primary school building.",
+        "tags": [
+          "facade",
+          "expression",
+          "scale"
+        ],
+        "position": {
+          "target": "simply designed facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3618,
+            0.1561,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade simplicity and scale are directly represented by the long elevation surfaces."
+        }
+      },
+      {
+        "statement": "The areas in the building are clearly and generously organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "clearly organized building areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.349,
+            0.5878,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Organization judgment is distributed within the visible longitudinal building mass."
+        }
+      },
+      {
+        "statement": "Carefully proportioned learning clusters create atmospheric school moods.",
+        "tags": [
+          "layout",
+          "proportion",
+          "identity"
+        ],
+        "position": {
+          "target": "learning clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6376,
+            0.467,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Internal room groupings and partitions are visible in the top footprint."
+        }
+      },
+      {
+        "statement": "The outside area is clearly structured and stands out through the generous green space.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "generous green outside area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5988,
+            0.4233,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Green-space judgment is anchored to the open perimeter surrounding the large footprint."
+        }
+      },
+      {
+        "statement": "The permeability from the neighborhood to the school area is guaranteed.",
+        "tags": [
+          "urban integration",
+          "accessibility"
+        ],
+        "position": {
+          "target": "neighborhood permeability",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1906,
+            0.4092,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Access permeability is estimated at the western site edge."
+        }
+      },
+      {
+        "statement": "The positive urban development solution and the central sports hall are exciting project ideas.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "central sports hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6155,
+            0.4422,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central hall anchor follows the prominent middle portion of the longitudinal plan."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large-scale covered break area is oversized for primary school students in height, size and length.",
+        "tags": [
+          "scale",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4878,
+            0.2246,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Covered break area is estimated along the lower roof and frontage zone."
+        }
+      },
+      {
+        "statement": "The skylight zones are useful in the music room and foyer, but they result in disproportionate room heights in classrooms and group rooms.",
+        "tags": [
+          "daylight",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "skylight zones",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5939,
+            0.5876,
+            0.875
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Skylights are not distinguishable, so the estimate uses upper surfaces near central rooms."
+        }
+      },
+      {
+        "statement": "The central sports hall creates considerable organizational problems, long connection routes and unwanted separation into tracts.",
+        "tags": [
+          "operation",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central sports hall connections",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6155,
+            0.4422,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Organizational issue is anchored to the central hall dividing the visible plan."
+        }
+      },
+      {
+        "statement": "The two entrance situations with staircases are not operationally desirable.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "entrance staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1831,
+            0.1734,
+            0.25
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Entrance situations are approximated at the lower end of the building footprint."
+        }
+      },
+      {
+        "statement": "The learning clusters entail long connecting routes from classrooms to the teachers' area.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "long routes to teachers' area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7148,
+            0.5541,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Longitudinal circulation is anchored toward the far end of the visible plan."
+        }
+      },
+      {
+        "statement": "The work area is not integrated enough into the building, and the lower courtyard is not wanted.",
+        "tags": [
+          "layout",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "work area and lower courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3097,
+            0.2465,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Lower courtyard and work-area concern is placed in the lower internal plan region."
+        }
+      },
+      {
+        "statement": "The break space appears spatially and atmospherically undifferentiated and is not very inspiring.",
+        "tags": [
+          "open space",
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "undifferentiated break space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4353,
+            0.2389,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Break-space judgment is anchored to the covered lower frontage zone."
+        }
+      },
+      {
+        "statement": "The playground area is achieved by dividing it, which is rated negatively.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "divided playground area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5768,
+            0.3985,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Playground is estimated in the open site area beside the building."
+        }
+      },
+      {
+        "statement": "High construction and maintenance costs are to be expected.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "construction and maintenance costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
+      },
+      {
+        "statement": "The proposal lacks clarity in its connection to the residential area and in forming a new coherent whole.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "connection to residential area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7679,
+            0.614,
+            0.25
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Urban-coherence concern is anchored to the building’s exposed eastern perimeter."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "layout",
+      "operation",
+      "circulation",
+      "open space",
+      "landscape",
+      "cost"
+    ]
+  }
+}

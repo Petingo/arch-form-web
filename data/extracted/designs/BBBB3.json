@@ -1,0 +1,384 @@
+{
+  "object_description": "slender T-shaped building with a recessed main wing",
+  "geometry_property": [
+    "T-shaped",
+    "slender",
+    "four-storey",
+    "recessed",
+    "horizontal",
+    "glazed",
+    "cantilevered"
+  ],
+  "design_condition": "Set behind the existing hall, the T-shaped volume widens the avenue into a generous entrance square, preserves a second tree row, follows the neighboring building contour, and leaves room for future development opposite.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The T-shaped building creates a generous and address-forming access situation along the avenue.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "T-shaped access situation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4867,
+            0,
+            0.4
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "T-shaped footprint and widened avenue-facing edge are clearly visible in plan."
+        }
+      },
+      {
+        "statement": "The generous entrance situation is very inviting and address-forming.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "entrance situation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5113,
+            0,
+            0.15
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Recessed south-facing main edge provides the likely inviting entrance zone."
+        }
+      },
+      {
+        "statement": "The attractive and flexible circulation system with spacious bright corridors supports orientation.",
+        "tags": [
+          "circulation",
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "bright circulation corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6438,
+            0.5023,
+            0.55
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Corridors are approximated within the slender central spine."
+        }
+      },
+      {
+        "statement": "The wrap-around balconies provide spatial extension and additional lounge areas.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "wrap-around balconies",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6438,
+            0.5023,
+            0.7
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Projecting horizontal bands are visibly distributed around the upper elevations."
+        }
+      },
+      {
+        "statement": "Most user requirements have been implemented very well and naturally.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "user requirements",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment evaluates overall program fulfillment rather than one geometric location."
+        }
+      },
+      {
+        "statement": "The sports hall is well developed and organized, with a separate entrance for external use.",
+        "tags": [
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "sports hall separate entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5113,
+            0,
+            0.1
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower avenue-facing zone is the plausible separate sports entrance location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The recreational quality of the entrance open space is not yet convincing.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "entrance open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5113,
+            0,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Widened south-facing space is clearly visible in the top footprint."
+        }
+      },
+      {
+        "statement": "The proposed row of pines is neither spatially nor atmospherically convincing and contradicts the avenue concept.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "row of pines",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2177,
+            0,
+            0
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Avenue edge is visible, but individual trees are not distinguishable in the point cloud."
+        }
+      },
+      {
+        "statement": "The truck access road is not practicable because it lacks turning facilities.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "truck access road",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8539,
+            0,
+            0.05
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "East-side perimeter provides a plausible access-road anchor."
+        }
+      },
+      {
+        "statement": "The main entrance is not visible enough because of the uniformly continuous façade supports.",
+        "tags": [
+          "visibility",
+          "facade",
+          "circulation"
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5113,
+            0,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South facade is continuous in elevation, with no distinct entrance visible."
+        }
+      },
+      {
+        "statement": "The exclusively south-facing exposure is not balanced and requires permanent sun protection.",
+        "tags": [
+          "daylight",
+          "facade"
+        ],
+        "position": {
+          "target": "south-facing exposure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4867,
+            0,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South elevation directly shows the dominant exposed facade."
+        }
+      },
+      {
+        "statement": "The outer layer of V-shaped girders appears elaborate and superimposed.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "V-shaped girders",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5083,
+            0,
+            0.7
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Outer facade layer is approximated along the south elevation, though girder shapes are unresolved."
+        }
+      },
+      {
+        "statement": "The open-space offices cannot be converted into the desired number of group offices.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "open-space offices",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6438,
+            0.5023,
+            0.6
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper wing zone approximates the office area within the visible T-shaped envelope."
+        }
+      },
+      {
+        "statement": "The large proportion of glazing, balconies, and roofs are cost drivers.",
+        "tags": [
+          "cost",
+          "facade"
+        ],
+        "position": {
+          "target": "glazing, balconies, and roofs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6438,
+            0.512,
+            0.85
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Extensive glazing, projecting balconies, and roof layers are visible across the model."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "circulation",
+      "layout",
+      "open space",
+      "landscape",
+      "facade",
+      "visibility",
+      "daylight",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "object_description": "diamond-shaped solitary building with stepped forecourt",
+  "geometry_property": [
+    "diamond-shaped",
+    "solitary",
+    "compact",
+    "large-scale",
+    "stepped",
+    "triangular forecourt",
+    "courtyard-structured",
+    "multi-storey"
+  ],
+  "design_condition": "The solitary building occupies the southern site, follows the track field, forms a triangular forecourt toward the boulevard, and leaves the northern site as a campus park with connections beneath the viaduct.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building acts convincingly as a space-defining urban element and a large solitary form.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5301,
+            0.5559,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Diamond massing and solitary footprint are visible across the calibrated top and elevation views."
+        }
+      },
+      {
+        "statement": "The compact shape creates a large, well-positioned open space with varied usability.",
+        "tags": [
+          "massing",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "large open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3292,
+            0.2323,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The triangular stepped forecourt is clearly visible along the building’s southern edge."
+        }
+      },
+      {
+        "statement": "The high-quality open-space design provides attractive and versatile urban landscapes.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "urban landscapes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7584,
+            0.7686,
+            0
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern open site is the clearest sampled location for the campus park landscape."
+        }
+      },
+      {
+        "statement": "The clear spatial organization is flexible and independent across the floors.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "independent floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5802,
+            0.5597,
+            0.7
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-level organization is constrained to the stepped multi-storey mass visible in elevations."
+        }
+      },
+      {
+        "statement": "The single-house solution and north-facing central infrastructure areas are operationally convincing.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "north-facing infrastructure areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6248,
+            0.7686,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north-facing band is identifiable directionally, though infrastructure rooms are not separately visible."
+        }
+      },
+      {
+        "statement": "The compact structure promises economical and sustainable construction.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "economical and sustainable construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a performance judgment without a specific spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building lacks options for identifying the individual departments.",
+        "tags": [
+          "identity",
+          "layout"
+        ],
+        "position": {
+          "target": "individual departments",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4464,
+            0.5569,
+            0.7
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior departmental identity is not distinguishable; the central upper mass provides a constrained surface anchor."
+        }
+      },
+      {
+        "statement": "The compact solitaire produces excessive internal density.",
+        "tags": [
+          "massing",
+          "scale",
+          "layout"
+        ],
+        "position": {
+          "target": "internal density",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4464,
+            0.5569,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Density criticism applies to the compact central building mass visible throughout the sampled model."
+        }
+      },
+      {
+        "statement": "The missing entrance on the viaduct side weakens access from public transport.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "entrance on the viaduct side",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7686,
+            1,
+            0.2
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The viaduct-side entrance is constrained to the northern perimeter, where no distinct opening appears."
+        }
+      },
+      {
+        "statement": "The upper floors have narrow internal corridors and limited daylight areas.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "upper-floor corridors and daylight areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.385,
+            0.5993,
+            0.8
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-floor circulation and daylight conditions are not resolved internally, so the upper mass is used."
+        }
+      },
+      {
+        "statement": "Strategic open spaces and the foyer situation for publicly accessed classrooms are not optimally solved.",
+        "tags": [
+          "open space",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "public classroom foyer and strategic open spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3292,
+            0.2323,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The public-facing foyer and adjacent open-space issue are anchored near the southern forecourt."
+        }
+      },
+      {
+        "statement": "The proposed timber-system structural grid is unsuitable in parts of the upper floors.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "upper-floor structural grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6648,
+            0.56,
+            0.8
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The structural grid is not individually visible; the upper-floor structure receives a constrained mass anchor."
+        }
+      },
+      {
+        "statement": "The large glazing still creates a risk of overheating and deep rooms strain daylight conditions.",
+        "tags": [
+          "facade",
+          "daylight",
+          "safety"
+        ],
+        "position": {
+          "target": "large glazing and deep rooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8219,
+            0.4745,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Glazing is not distinguishable, so the exposed east-south envelope anchors overheating and daylight concerns."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "layout",
+      "circulation",
+      "identity",
+      "daylight",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

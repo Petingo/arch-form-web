@@ -1,0 +1,283 @@
+{
+  "object_description": "three separate volumes arranged on a shared mineral podium",
+  "geometry_property": [
+    "three volumes",
+    "separated buildings",
+    "shared podium",
+    "courtyard-forming",
+    "central open space",
+    "contextual continuity"
+  ],
+  "design_condition": "The school and gym define the site's edges on a shared podium, leaving a large protected central courtyard while preserving the perspective toward the church.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The three volumes define a unitary meeting place in the form of a courtyard, a large protected place for students and the community.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "central courtyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3545,
+            0.4637,
+            0.5
+          ],
+          "radius": 0.321,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Separated volumes visibly frame a large central open space across the shared podium."
+        }
+      },
+      {
+        "statement": "The refined, almost filigree architecture is appreciated.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "filigree architecture",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2828,
+            0.7535,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Thin elongated pavilion edges and finely articulated visible surfaces anchor the facade judgment."
+        }
+      },
+      {
+        "statement": "The project is well resolved constructively, with control of the architectural design and construction drawing.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "architectural design and construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3417,
+            0.5154,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Constructive assessment applies broadly to the sampled building composition rather than one identifiable element."
+        }
+      },
+      {
+        "statement": "The compositional clarity of the plans is undoubted.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.676,
+            0.3311,
+            0.5
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Plan clarity is anchored to the larger lower-right volume and its legible separated footprint."
+        }
+      },
+      {
+        "statement": "The possibility of connecting all classrooms via movable walls is appreciated.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "movable walls",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2802,
+            0.7638,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior flexibility is approximated within the classroom pavilion visible as the upper-left elongated volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The jury questions whether the elegant architecture has enough strength to hold the surrounding landscape and urban context.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "surrounding landscape and urban context",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1635,
+            0.3585,
+            0
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Broad contextual concern is placed along the outer southern-western site edge surrounding the volumes."
+        }
+      },
+      {
+        "statement": "The rigor of the organization creates problems of flexibility and organization in parts of the program.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.676,
+            0.3311,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Organizational rigidity is anchored to the larger separated volume and its repeated elevation bands."
+        }
+      },
+      {
+        "statement": "The project limits covered external spaces and their use by users to the maximum.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered external spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3539,
+            0.4592,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space limitation is located in the central gap and podium zone between the buildings."
+        }
+      },
+      {
+        "statement": "There is a lack of walls usable for hanging teaching material.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "walls for hanging teaching material",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2802,
+            0.7638,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior wall shortage is approximated within the classroom pavilion footprint."
+        }
+      },
+      {
+        "statement": "The toilets on the classroom floor are undersized.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "toilets on the classroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2813,
+            0.7716,
+            0.625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classroom-floor service spaces are approximated within the upper-left pavilion at an upper level."
+        }
+      }
+    ],
+    "keyword": [
+      "courtyard",
+      "urban integration",
+      "expression",
+      "facade",
+      "layout",
+      "flexibility",
+      "open space",
+      "functionality"
+    ]
+  }
+}

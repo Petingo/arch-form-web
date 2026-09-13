@@ -1,0 +1,371 @@
+{
+  "object_description": "mainly two-storey L-shaped structure around a landscaped playground",
+  "geometry_property": [
+    "L-shaped",
+    "mainly two-storey",
+    "three-storey",
+    "terraced",
+    "angular",
+    "shed-glazed",
+    "partly sunken"
+  ],
+  "design_condition": "The L-shaped structure frames a landscaped playground at the site corner, creates lateral address and break spaces, and uses terraced topography to connect the school with lower sports facilities, though its extensive underground footprint limits future densification.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The L-shaped structure spans a spacious landscaped playground and creates two lateral address and break spaces.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "L-shaped structure and landscaped playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3412,
+            0.4239,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The L-shaped sampled mass visibly frames an open playground void."
+        }
+      },
+      {
+        "statement": "The cherry grove acts as a hinge between the usable sports and play spaces.",
+        "tags": [
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "cherry grove",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3412,
+            0.4239,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape hinge is approximated within the open inner corner of the L-shaped footprint."
+        }
+      },
+      {
+        "statement": "The terraced topographical edges provide visibility and accessibility to the lower sports facilities.",
+        "tags": [
+          "topography",
+          "visibility",
+          "accessibility"
+        ],
+        "position": {
+          "target": "terraced topographical edges",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1408,
+            0.6134,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower edge zone is anchored along the outer side of the L-shaped mass."
+        }
+      },
+      {
+        "statement": "The school building is simple and clearly organized, with uses arranged by floor.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school building organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6129,
+            0.6191,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Main two-storey building mass is clearly sampled, though internal floor uses are not visible."
+        }
+      },
+      {
+        "statement": "The circulation system thoughtfully connects the floors and cluster units.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "circulation system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5839,
+            0.559,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Circulation is approximated along the central spine of the visible building mass."
+        }
+      },
+      {
+        "statement": "The staircases mediate successfully between intimate cluster scale and the communal first floor.",
+        "tags": [
+          "circulation",
+          "scale",
+          "layout"
+        ],
+        "position": {
+          "target": "staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5839,
+            0.559,
+            0.375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior stairs are not distinguishable, so placement follows the central circulation zone."
+        }
+      },
+      {
+        "statement": "Interior access and checkroom areas consistently receive daylight through openable shed glazing.",
+        "tags": [
+          "daylight",
+          "ventilation",
+          "facade"
+        ],
+        "position": {
+          "target": "interior access and checkroom areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5645,
+            0.519,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior support spaces are approximated near the lower central building surface."
+        }
+      },
+      {
+        "statement": "The design is well thought out and coherent, with great care in its execution.",
+        "tags": [
+          "layout",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "whole design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5839,
+            0.559,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Coherence judgment applies broadly to the visibly compact L-shaped building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "A more generous connection between the different levels would be desirable.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "connection between levels",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6516,
+            0.6991,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Level connection is approximated along the lower outer edge toward sports facilities."
+        }
+      },
+      {
+        "statement": "The extensive underpinning of the outdoor pitches makes future densification practically impossible.",
+        "tags": [
+          "massing",
+          "sustainability",
+          "flexibility"
+        ],
+        "position": {
+          "target": "underpinning of outdoor pitches",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1324,
+            0.6213,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Outdoor pitch area is represented by the low open zone beyond the L-shaped footprint."
+        }
+      },
+      {
+        "statement": "The high underground proportion and excavation volume negatively affect costs and sustainability.",
+        "tags": [
+          "cost",
+          "sustainability",
+          "topography"
+        ],
+        "position": {
+          "target": "underground proportion and excavation volume",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5839,
+            0.559,
+            0.125
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low-level footprint beneath the broad L-shaped building is the relevant spatial anchor."
+        }
+      },
+      {
+        "statement": "The large footprint has a considerable obstructive effect on the flow of cold air.",
+        "tags": [
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "cold-air obstruction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5839,
+            0.559,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The extensive building envelope forms the spatially relevant obstruction."
+        }
+      },
+      {
+        "statement": "The urban setting and lack of spatial generosity within the complex are ultimately not entirely convincing.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "proportion"
+        ],
+        "position": {
+          "target": "urban setting and complex generosity",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3412,
+            0.4239,
+            0.125
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Judgment is anchored to the constrained playground and surrounding open-space relationship."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "topography",
+      "layout",
+      "circulation",
+      "daylight",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

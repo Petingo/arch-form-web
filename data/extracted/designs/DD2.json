@@ -1,0 +1,383 @@
+{
+  "object_description": "elongated longitudinal hall beneath a uniform gabled roof",
+  "geometry_property": [
+    "elongated",
+    "linear",
+    "longitudinal",
+    "gabled-roofed",
+    "single-roofed",
+    "open",
+    "transparent"
+  ],
+  "design_condition": "The long structure follows the street- and river-parallel industrial-hall context, presenting its main face to the stream and turning a largely closed rear toward the street while concentrating outdoor space across the site.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The concise structure can be understood as an open spatial structure directly related to the outside space.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "open spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3412,
+            0.6052,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long open hall and roof interruptions are clearly legible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The volumetric integration of the gymnasium creates a very generous usable area.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4724,
+            0.8006,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The large longitudinal bay is the plausible gymnasium anchor within the hall."
+        }
+      },
+      {
+        "statement": "The long promenade promises a tremendous density of interaction and expresses the school as a collective community.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "long promenade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3412,
+            0.6052,
+            0.4
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated central organization visibly supports a longitudinal promenade."
+        }
+      },
+      {
+        "statement": "The various uses are arranged sensibly and efficiently within the building.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "various uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.35,
+            0.6182,
+            0.5
+          ],
+          "radius": 0.29,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Longitudinal subdivision is visible, though individual uses are not labeled in the point cloud."
+        }
+      },
+      {
+        "statement": "The top floor credibly implements the required division and flexibility for alternative cross-classroom teaching.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "top floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5431,
+            0.6052,
+            1
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The upper roof-level strip is directly visible along the elongated footprint."
+        }
+      },
+      {
+        "statement": "The variability and diversity of present and future forms of teaching and learning are practicably implemented under one roof.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "alternative teaching forms",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5112,
+            0.6886,
+            0.8
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper longitudinal organization provides a useful spatial anchor for flexible teaching."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new alignment affects the scenic quality of the stream area.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "stream area alignment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4663,
+            0.1029,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The long building edge is anchored to one site boundary representing the stream side."
+        }
+      },
+      {
+        "statement": "The quality of the open space along the street can only be compensated for by considering all outdoor areas together.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "street open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5337,
+            0.8918,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The opposite longitudinal edge represents the street-side outdoor space."
+        }
+      },
+      {
+        "statement": "The extreme distinction between the main façade and the street-facing rear comes at the expense of the street side.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main façade and street-facing rear",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5337,
+            0.8918,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The rear-facing longitudinal edge is approximated from the stated street relationship."
+        }
+      },
+      {
+        "statement": "The kindergarten and day structure are directly exposed to lively, noisy sports and break-time operation.",
+        "tags": [
+          "operation",
+          "acoustics"
+        ],
+        "position": {
+          "target": "kindergarten and day structure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.245,
+            0.4619,
+            0.4
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A lower longitudinal segment is used as the plausible kindergarten and day-structure anchor."
+        }
+      },
+      {
+        "statement": "The required quiet and material rooms within the kindergarten are missing.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "quiet and material kindergarten rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.245,
+            0.4619,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Approximate lower-level kindergarten zone is marked because the rooms are not distinguishable."
+        }
+      },
+      {
+        "statement": "The elevated classroom arrangement risks spatial and operational distance from the school grounds and outdoor spaces.",
+        "tags": [
+          "layout",
+          "operation",
+          "open space"
+        ],
+        "position": {
+          "target": "elevated classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7273,
+            0.4915,
+            0.8
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper longitudinal bands visibly sit above the hall and outdoor ground plane."
+        }
+      },
+      {
+        "statement": "The placement of classrooms above the gymnasium is structurally challenging.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "classrooms above gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5029,
+            0.7829,
+            0.8
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper portion of the large longitudinal bay is the plausible classroom-over-gym anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "facade",
+      "layout",
+      "functionality",
+      "operation",
+      "acoustics",
+      "flexibility"
+    ]
+  }
+}

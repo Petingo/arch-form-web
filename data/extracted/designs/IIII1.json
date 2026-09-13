@@ -1,0 +1,329 @@
+{
+  "object_description": "two-story longitudinal wooden building with pronounced skylight band",
+  "geometry_property": [
+    "longitudinal",
+    "elongated",
+    "two-story",
+    "rhythmic",
+    "skylit",
+    "rectilinear"
+  ],
+  "design_condition": "Despite its substantial footprint, the building fits the existing campus, opens paths toward the central green space and surrounding neighbourhood, and organizes the different use areas around this structure.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The long building fits surprisingly well into the overall campus ensemble and creates a convincing connection to the neighbouring quarters.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "long building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3974,
+            0.5804,
+            0.5
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated main mass is clearly visible in plan and across all elevation views."
+        }
+      },
+      {
+        "statement": "Existing and new paths open the central site and connect the school buildings to the surrounding neighbourhood.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "central site paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4774,
+            0.279,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open circulation is assigned to the lower-central site edge around the building footprint."
+        }
+      },
+      {
+        "statement": "The rhythmic facade and pronounced skylight band create a clear architecture.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "rhythmic facade and skylight band",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5755,
+            0.3866,
+            0.6667
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated longitudinal facade lines and the distinct roof band are visible in the renders."
+        }
+      },
+      {
+        "statement": "The skylight construction supplies the building depth with plenty of daylight and supports the room atmosphere and climatic functions.",
+        "tags": [
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "skylight construction",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7652,
+            0.7652,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Separate narrow roof feature is distinctly visible near the northeast end."
+        }
+      },
+      {
+        "statement": "The carefully developed structural system enables significant spatial flexibility for present and future school development.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4056,
+            0.5893,
+            0.5
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural organization is assigned across the clearly sampled longitudinal building volume."
+        }
+      },
+      {
+        "statement": "The tree avenue is a strong identity-creating element that provides a lounge, divides space, and connects the campus to the surrounding quarter.",
+        "tags": [
+          "landscape",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "tree avenue",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2584,
+            0.0388,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape feature is not distinguishable, so it is placed along a plausible southern site edge."
+        }
+      },
+      {
+        "statement": "The different areas of use are optimally positioned and aligned, and the sports hall is convincingly integrated into the overall structure.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "different areas of use and sports hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7736,
+            0.7826,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Program zones are not separated, so the estimate uses the building's northeast end."
+        }
+      },
+      {
+        "statement": "The consistent hybrid timber construction is assessed positively for sustainability and leaves room for moderate production costs.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "hybrid timber construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability and cost assessment has no useful spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The access from the school route is rather narrow.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "school route access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0414,
+            0.1899,
+            0.1667
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access point is not identifiable, so it is approximated at the southwest approach."
+        }
+      },
+      {
+        "statement": "The covered entrance area is architecturally understandable, but its size does not meet school requirements.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered entrance area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0657,
+            0.2166,
+            0.1667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance canopy is not distinguished; placement follows the southwest building approach."
+        }
+      },
+      {
+        "statement": "The alignment of the sports fields gives reason to reconsider the position of the ball catchers.",
+        "tags": [
+          "safety",
+          "layout"
+        ],
+        "position": {
+          "target": "sports fields and ball catchers",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6817,
+            0.5031,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sports-field alignment is absent from the sample and estimated along the eastern site edge."
+        }
+      },
+      {
+        "statement": "No statement is provided about the green roof.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "green roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4991,
+            0.5423,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof surface is visible, but its green treatment is not distinguishable in the point cloud."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "circulation",
+      "massing",
+      "facade",
+      "expression",
+      "daylight",
+      "ventilation",
+      "structure",
+      "flexibility",
+      "landscape"
+    ]
+  }
+}

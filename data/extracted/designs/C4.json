@@ -1,0 +1,367 @@
+{
+  "object_description": "three-layer volume with gently sloping roof forms",
+  "geometry_property": [
+    "three-layered",
+    "parallel",
+    "set-back",
+    "gently sloping",
+    "pitched-roofed",
+    "perforated",
+    "partly underground"
+  ],
+  "design_condition": "Running parallel to the slope and extending the existing gymnasium wing, the building defines a protected park, covered forecourt, and sports-oriented outdoor spaces while forming a barrier to incoming cold air.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building blends into the varied development pattern and establishes a strong spatial relationship with the existing building.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4102,
+            0.649,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated parallel massing is visible across the complete sampled building envelope."
+        }
+      },
+      {
+        "statement": "The clearly defined park and cafeteria create strong potential for a lively neighborhood park.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "park and cafeteria",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3072,
+            0.4776,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open space is approximated beside the elongated building footprint, at low site level."
+        }
+      },
+      {
+        "statement": "The arrangement creates three open spaces with independent character across the school site.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "three open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6035,
+            0.3575,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The top view indicates several separated exterior voids along the building’s length."
+        }
+      },
+      {
+        "statement": "The recessed first floor creates a spacious covered forecourt with attractive park views and zenithal lighting.",
+        "tags": [
+          "open space",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "covered forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4695,
+            0.1983,
+            0.3125
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front-side recessed lower volume is approximated from the open edge and elevation layering."
+        }
+      },
+      {
+        "statement": "The roof form refers coherently to the long, narrow buildings of the surrounding quarter.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "roof form",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5697,
+            0.5779,
+            0.9389
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Long narrow sloping roof geometry is clearly legible in the top and elevation views."
+        }
+      },
+      {
+        "statement": "The volumetric positioning creates two strong and convincing references to the outside space.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "outside-space references",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2416,
+            0.3996,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A representative exterior-space relationship is anchored near one end of the elongated mass."
+        }
+      },
+      {
+        "statement": "The design clearly connects the two outdoor areas and creates a sense of spaciousness.",
+        "tags": [
+          "landscape",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "outdoor-area connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5871,
+            0.338,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central exterior gap plausibly represents the connection between the visible open areas."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The relatively large underground footprint has a negative impact on costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "underground footprint",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4221,
+            0.6141,
+            0.0625
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad low-level footprint is inferred beneath the elongated sampled mass."
+        }
+      },
+      {
+        "statement": "The immediate proximity to the listed school building and the narrow situation between the gymnasiums are questionable.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "proportion"
+        ],
+        "position": {
+          "target": "narrow situation between gymnasiums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8634,
+            0.6664,
+            0.3125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Constrained placement marks a side condition near the building’s upper-right extent."
+        }
+      },
+      {
+        "statement": "The architectural expression of the side façades was discussed critically.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "side façades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2626,
+            0.4734,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Long side elevations are visible as the parallel outer edges of the sampled form."
+        }
+      },
+      {
+        "statement": "The primary structure and static system lose structural clarity in the basement.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "basement structure",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4221,
+            0.6141,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Basement level is constrained to the lowest visible layer beneath the main volume."
+        }
+      },
+      {
+        "statement": "The building acts as a barrier to incoming cold air.",
+        "tags": [
+          "topography",
+          "sustainability"
+        ],
+        "position": {
+          "target": "cold-air barrier",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4102,
+            0.649,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The continuous elongated building envelope is the spatially relevant obstruction."
+        }
+      },
+      {
+        "statement": "The internal organization was not entirely convincing despite the differentiated layout and coherent cluster organization.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4102,
+            0.649,
+            0.4375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior layout is approximated within the central portion of the visible elongated footprint."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "expression",
+      "facade",
+      "daylight",
+      "structure",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

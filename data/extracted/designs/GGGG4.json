@@ -1,0 +1,265 @@
+{
+  "object_description": "large rectangular volume with a lively folding roof and long arcades",
+  "geometry_property": [
+    "rectangular",
+    "elongated",
+    "two-story",
+    "partly sunken",
+    "raised above the square",
+    "folding-roofed",
+    "arcaded"
+  ],
+  "design_condition": "The elongated volume is placed close to the western neighbor and aligned with the old building, while its northern placement opens a large southern outdoor space and uses the existing terrain for basement accommodation.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The lively roof shape gives the building lightness and elegance.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "lively folding roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5745,
+            0.4852,
+            0.9974
+          ],
+          "radius": 0.11,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Roof folds and raised central profile are clearly visible in plan and all elevations."
+        }
+      },
+      {
+        "statement": "The large open space on the south side receives great approval.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "large southern open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5281,
+            0.0489,
+            0.0381
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern perimeter is anchored as the open-space side beside the elongated building."
+        }
+      },
+      {
+        "statement": "The auditorium is very well naturally lit and avoids a basement atmosphere despite its position below ground.",
+        "tags": [
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "naturally lit auditorium below ground",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.806,
+            0.3226,
+            0.1447
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Auditorium is estimated in the lower central volume, consistent with the below-ground statement."
+        }
+      },
+      {
+        "statement": "The arcade provides a protected ground-floor area along the break area.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "ground-floor arcade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4841,
+            0.0652,
+            0.2158
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Long arcaded edge is visible along the south-facing ground-floor perimeter."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The weather-protected connection to the old building is not provided convincingly.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "weather-protected connection to old building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0849,
+            0.442,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Connection is approximated at the west edge beside the aligned neighboring building."
+        }
+      },
+      {
+        "statement": "The access by stairs and a somewhat complicated ramp is problematic.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "stairs and complicated ramp access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2641,
+            0.1468,
+            0.1447
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-west lower edge provides a plausible anchor for the described access sequence."
+        }
+      },
+      {
+        "statement": "The access rooms are difficult to use and do not offer sufficient security because they rely on skylights for daylight.",
+        "tags": [
+          "functionality",
+          "daylight",
+          "safety"
+        ],
+        "position": {
+          "target": "access rooms and skylights",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2641,
+            0.1468,
+            0.1447
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower south-west zone is estimated for access rooms without distinguishable interior markers."
+        }
+      },
+      {
+        "statement": "The load-bearing concrete interior walls leave no room for changes in room sizes.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "load-bearing concrete interior walls",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4832,
+            0.395,
+            0.7487
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior structural walls are not identifiable, so the central building volume is used."
+        }
+      },
+      {
+        "statement": "The balconies and canopies count negatively against compactness.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "balconies and canopies",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4841,
+            0.0652,
+            0.5355
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Projecting elements are most plausibly located along the articulated south facade."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "expression",
+      "open space",
+      "landscape",
+      "daylight",
+      "circulation",
+      "accessibility",
+      "flexibility",
+      "structure",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,387 @@
+{
+  "object_description": "hall wing and two-storey front building forming an edge volume",
+  "geometry_property": [
+    "two-part",
+    "two-storey",
+    "compact",
+    "linear",
+    "edge-forming",
+    "low-rise"
+  ],
+  "design_condition": "The hall volume is placed on the western plot edge to create a kindergarten playground to the east, but its striking massing at the town edge raises questions about volumetric compatibility.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The site setting is convincing.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "site setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7426,
+            0.553,
+            0.125
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Western edge volume and open eastern side clearly establish the site-setting arrangement."
+        }
+      },
+      {
+        "statement": "The gymnasium wing is well organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "gymnasium wing",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2184,
+            0.5991,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Long western wing is distinctly visible in plan and elevations as the organized gymnasium mass."
+        }
+      },
+      {
+        "statement": "The outdoor-space design responds convincingly to the established small-scale structures.",
+        "tags": [
+          "urban integration",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "small-scale outdoor-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8214,
+            0.466,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Open eastern side provides the clearest sampled anchor for the outdoor-space response."
+        }
+      },
+      {
+        "statement": "The outdoor spaces offer high play value for different age groups.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor play spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8232,
+            0.2629,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Play-space judgment is distributed across the open eastern perimeter beside the edge-forming wing."
+        }
+      },
+      {
+        "statement": "The facade has a friendly and atmospheric character.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "friendly facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7515,
+            0.6136,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Facade character is anchored to the visible two-storey front-building elevations."
+        }
+      },
+      {
+        "statement": "The compact volume has a good cost-benefit ratio despite increased facade costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3771,
+            0.7007,
+            0.4375
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact edge-forming mass is directly legible across plan and all calibrated elevations."
+        }
+      },
+      {
+        "statement": "The gymnasium and upper floor are well organized and well lit.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "gymnasium and upper floor",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4668,
+            0.7581,
+            0.6875
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Upper-level organization and lighting are anchored to the elevated front volume above the gymnasium wing."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The compatibility of the volumetrics on the town outskirts is critically questioned.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "town-outskirts volumetrics",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2391,
+            0.6124,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Western edge placement and contrasting two-storey mass provide the stated town-edge compatibility concern."
+        }
+      },
+      {
+        "statement": "The roof shape of the front building appears arbitrary, and the main entrance canopy appears unbalanced.",
+        "tags": [
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "front-building roof shape",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7476,
+            0.8185,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distinct roof geometry is clearly visible at the north-east end of the top view and upper elevations."
+        }
+      },
+      {
+        "statement": "The facade details and roof connections are not sustainable for a wooden structure.",
+        "tags": [
+          "facade",
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "facade details and roof connections",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7722,
+            0.6268,
+            0.75
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Facade and roof-junction critique is anchored to the elevated front-building envelope."
+        }
+      },
+      {
+        "statement": "The entrance and access area are not managed coherently, with unattractive stairs and disharmonious spatial references.",
+        "tags": [
+          "circulation",
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "entrance and access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7929,
+            0.6401,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrance zone is approximated at the front-building edge where access-related geometry would meet the exterior."
+        }
+      },
+      {
+        "statement": "The floor-plan organization lacks a direct connection between the counter room and the hall, which disadvantages sporting events.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "counter room to hall connection",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7111,
+            0.5878,
+            0.25
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior connection is not distinguishable; approximate anchor uses the junction between front building and hall wing."
+        }
+      },
+      {
+        "statement": "The relatively high glass content affects the project economics.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "glass content",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7308,
+            0.6003,
+            0.5625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Glass-content concern is located on the visibly articulated two-storey facade envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "expression",
+      "facade",
+      "layout",
+      "circulation",
+      "functionality",
+      "open space",
+      "daylight",
+      "cost"
+    ]
+  }
+}

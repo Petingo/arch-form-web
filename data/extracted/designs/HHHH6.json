@@ -1,0 +1,286 @@
+{
+  "object_description": "slim three-story building with a perpendicular single-story volume",
+  "geometry_property": [
+    "slim",
+    "elongated",
+    "three-story",
+    "single-story",
+    "perpendicular",
+    "linear",
+    "covered"
+  ],
+  "design_condition": "The long building is placed along the cemetery and a second volume at right angles frames a tree-lined schoolyard, while the extended gymnasium canopy defines bicycle parking and alters the cemetery access hierarchy.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The three volumes define a new tree-lined schoolyard.",
+        "tags": [
+          "massing",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "tree-lined schoolyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6039,
+            0.244,
+            0.0731
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open space lies between the perpendicular volumes, visible as the central gap in top and elevations."
+        }
+      },
+      {
+        "statement": "The long wall creates a clear demarcation from the cemetery.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "long wall",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2845,
+            0.7051,
+            0.5009
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Elongated upper volume forms a clear boundary along the cemetery-facing side."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new location negatively affects the current access hierarchy in the cemetery complex.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "cemetery access hierarchy",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.143,
+            0.7965,
+            0.1444
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Approximate cemetery-edge access location inferred beside the long building."
+        }
+      },
+      {
+        "statement": "The school complex is inexplicably accessible over three floors through narrow vestibules.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "narrow vestibules",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5024,
+            0.5643,
+            0.5009
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation criticism is anchored to the central three-story building mass."
+        }
+      },
+      {
+        "statement": "The arrangement will not have any flexibility in the future.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "future flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6113,
+            0.494,
+            0.5009
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Whole-building flexibility judgment is placed across the principal connected volumes."
+        }
+      },
+      {
+        "statement": "The music school is unexposed in the basement and reached by narrow stairs.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "music school basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3045,
+            0.5014,
+            0.0731
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Basement criticism is anchored below the long volume at the lower sampled building level."
+        }
+      },
+      {
+        "statement": "The layout of the hall allows the required subdivision only with considerable compromises in use.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "hall subdivision",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6518,
+            0.3463,
+            0.1444
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Hall-related layout concern is assigned to the single-story perpendicular volume."
+        }
+      },
+      {
+        "statement": "The community hall entrance is uncovered and does not guarantee the specified height.",
+        "tags": [
+          "circulation",
+          "scale"
+        ],
+        "position": {
+          "target": "community hall entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.908,
+            0.2551,
+            0.1444
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance is approximated at the exposed outer end of the perpendicular hall volume."
+        }
+      },
+      {
+        "statement": "The room next to the stage is difficult to reach in the basement.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "room next to the stage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6638,
+            0.3719,
+            0.0731
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement ancillary-room concern is placed adjacent to the hall volume."
+        }
+      },
+      {
+        "statement": "The project has too many deficiencies in its functional and spatial organization.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "functional and spatial organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.55,
+            0.5336,
+            0.4296
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad organization criticism is distributed over the connected building masses."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "flexibility",
+      "scale"
+    ]
+  }
+}

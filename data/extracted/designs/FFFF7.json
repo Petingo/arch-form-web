@@ -1,0 +1,250 @@
+{
+  "object_description": "compact rectangular hall volume with a slightly sloping gable roof",
+  "geometry_property": [
+    "compact",
+    "rectangular",
+    "single-storey",
+    "slightly sloping",
+    "gable-roofed",
+    "partly sunken"
+  ],
+  "design_condition": "The hall extends the construction area to fit the orthogonal school complex, while slight terrain changes connect varied access levels and create a forecourt, break area, and court sequence.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The separation of work classes and sports activities is relatively possible without special measures.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "separation of work classes and sports activities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6923,
+            0.2514,
+            0.4167
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior functional separation is not distinguishable; estimated across the hall’s sampled central zones."
+        }
+      },
+      {
+        "statement": "The compact building volume provides tightly and clearly organized access areas.",
+        "tags": [
+          "massing",
+          "circulation"
+        ],
+        "position": {
+          "target": "compact building volume and access areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5326,
+            0.1257,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact rectangular mass is visible; access areas are approximated along the south-facing entrance side."
+        }
+      },
+      {
+        "statement": "The polyvalent foyer and gallery meet reasonable expectations in this rural environment.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "polyvalent foyer and gallery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6524,
+            0.22,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior foyer and gallery are unidentifiable; positioned near the hall’s plausible central circulation zone."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The simple rectangular hall is disproportionate to the small-grain surroundings and appears as an oversized giant barn.",
+        "tags": [
+          "scale",
+          "proportion",
+          "massing"
+        ],
+        "position": {
+          "target": "oversized rectangular hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.306,
+            0.7406,
+            0.5833
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete compact rectangular hall and slightly sloping gable roof are clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The western corner violates the program by extending the already expanded construction area.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "western corner",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1794,
+            0.2523,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west",
+            "south"
+          ],
+          "rationale": "Western corner is localized on the left side of the rectangular footprint and adjacent elevations."
+        }
+      },
+      {
+        "statement": "The inline court is hidden from the building, and little concrete design is provided for the breaks and playgrounds.",
+        "tags": [
+          "visibility",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "inline court and break/playground areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4794,
+            0.0838,
+            0
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Exterior court and playgrounds are not distinguishable; estimated immediately south of the sampled hall footprint."
+        }
+      },
+      {
+        "statement": "The exposed aggregate concrete facade and corrugated-iron roof appear cheap and aesthetically unsatisfactory.",
+        "tags": [
+          "facade",
+          "expression",
+          "cost"
+        ],
+        "position": {
+          "target": "exposed aggregate concrete facade and corrugated-iron roof",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7495,
+            0.4516,
+            0.8333
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Facade surfaces and roof form are visible, though material finishes are only weakly represented by points."
+        }
+      },
+      {
+        "statement": "The addition makes only a small contribution to improving the heterogeneous school complex.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "addition to the school complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2129,
+            0.6672,
+            0.5
+          ],
+          "radius": 0.325,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled hall is identifiable as a compact addition, but the heterogeneous surrounding complex is absent."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "circulation",
+      "functionality",
+      "open space",
+      "facade",
+      "expression",
+      "cost"
+    ]
+  }
+}

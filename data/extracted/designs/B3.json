@@ -1,0 +1,444 @@
+{
+  "object_description": "compact cube paired with an accessible bridge and fenced roof square",
+  "geometry_property": [
+    "compact",
+    "cube-like",
+    "symmetric",
+    "three-dimensional",
+    "ground-level",
+    "fenced",
+    "steel-girder"
+  ],
+  "design_condition": "The compact cube closes the public square, while the bridge connects directly to a large open space that remains usable beyond school hours but is dominated by a fenced sports square.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The extremely compact, cube-like structure creates a large open space as a counterpart to the southern square.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "compact cube and southern open space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.528,
+            0,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact rectangular envelope and surrounding openness are clearly shown in plan and elevations."
+        }
+      },
+      {
+        "statement": "The accessible bridge becomes an independent building and forms the wall of the square.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "circulation"
+        ],
+        "position": {
+          "target": "accessible bridge",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4498,
+            1,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The bridge is assigned to the northern edge where the public connection is described."
+        }
+      },
+      {
+        "statement": "The exposed brick parapets echo the character and elegance of familiar industrial buildings.",
+        "tags": [
+          "expression",
+          "facade",
+          "identity"
+        ],
+        "position": {
+          "target": "exposed brick parapets",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.528,
+            0,
+            0.1875
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The south facade is the most relevant visible exterior surface for parapet placement."
+        }
+      },
+      {
+        "statement": "The different uses are neatly stacked horizontally on top of each other.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "stacked uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4647,
+            0.4402,
+            1
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Consistent horizontal bands across elevations support the stacked-use reading."
+        }
+      },
+      {
+        "statement": "The neutral spatial structure ensures flexibility in room sizes and allocations.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "neutral spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.4872,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular repeated structural lines are visible throughout the compact volume."
+        }
+      },
+      {
+        "statement": "The clearly structured building and ground-level sports pitch promise an economical realization.",
+        "tags": [
+          "massing",
+          "layout",
+          "cost"
+        ],
+        "position": {
+          "target": "ground-level sports pitch",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4872,
+            0.0417
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The sports area is constrained to the ground-level open portion of the model."
+        }
+      },
+      {
+        "statement": "The project shows a surprisingly simple, pragmatic and functional concept.",
+        "tags": [
+          "functionality",
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "pragmatic functional concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.345,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment describes overall function rather than a locatable feature."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The open space is not a square in the classic sense because most of it is occupied by the sports square.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "sports square occupying open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4872,
+            0.0417
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central ground-level zone is the plausible location of the dominant sports square."
+        }
+      },
+      {
+        "statement": "The fence is unsatisfactory in terms of urban space, as the sports square is neither a space nor a body.",
+        "tags": [
+          "open space",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "unsatisfactory sports fence",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4647,
+            0.4402,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The fenced sports square is represented at roof level around the compact footprint."
+        }
+      },
+      {
+        "statement": "The appearance blends into the surrounding buildings and is very subordinate as a public building.",
+        "tags": [
+          "identity",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "subordinate public facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.528,
+            0,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The south elevation directly represents the public-facing exterior appearance."
+        }
+      },
+      {
+        "statement": "The public uses are accessed through the school entrance, with no designated use independent of school operations.",
+        "tags": [
+          "operation",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "school entrance access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.528,
+            0,
+            0.0417
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is approximated at the ground-level south edge of the cube."
+        }
+      },
+      {
+        "statement": "The double clusters do not correspond to the favored single clusters.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "double clusters",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.5293,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The paired internal organization is assigned to the building’s two lateral halves."
+        }
+      },
+      {
+        "statement": "The internal circulation areas are scarce and insufficiently naturally lit.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "proportion"
+        ],
+        "position": {
+          "target": "scarce internal circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4872,
+            0.4583
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Internal circulation is approximated near the compact building center."
+        }
+      },
+      {
+        "statement": "There is no sense of collective space.",
+        "tags": [
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "lack of collective space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4872,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The critique concerns the building’s central spatial organization, not an exterior element."
+        }
+      },
+      {
+        "statement": "The exclusive internal access will lead to a cramped stairwell situation when many people arrive.",
+        "tags": [
+          "circulation",
+          "operation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "cramped stairwell access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.528,
+            0,
+            0.2917
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The likely arrival stair is approximated at the public ground-level edge."
+        }
+      },
+      {
+        "statement": "The ensemble is not strong enough to form an important public space in the neighborhood.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "open space"
+        ],
+        "position": {
+          "target": "weak neighborhood public space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.528,
+            0,
+            0.0417
+          ],
+          "radius": 0.345,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern open area is the relevant neighborhood-facing public-space region."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "urban integration",
+      "identity",
+      "expression",
+      "layout",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

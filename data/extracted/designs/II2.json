@@ -1,0 +1,283 @@
+{
+  "object_description": "three-building ensemble around elevated exterior galleries",
+  "geometry_property": [
+    "three-part",
+    "elevated",
+    "gallery-centered",
+    "suspended-courtyard",
+    "detached",
+    "transparent"
+  ],
+  "design_condition": "The ensemble is placed south of the perimeter to extend the linear park, with a separate northern housing volume intended to protect the school from cold winds, while paths and courtyards connect the buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The aerial courtyard system has strong spatial qualities and useful visual framing of the landscape.",
+        "tags": [
+          "open space",
+          "visibility"
+        ],
+        "position": {
+          "target": "aerial courtyard system",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.4161,
+            0.6667
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view shows separated elevated courtyard-like frames, supported by layered elevations."
+        }
+      },
+      {
+        "statement": "The galleries create transparencies that place the different parts in visual relationship.",
+        "tags": [
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "galleries",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5419,
+            0.4131,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal bands and separated masses indicate gallery connections."
+        }
+      },
+      {
+        "statement": "The architectural writing is original and skillful in its constructive expressionism.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "constructive expressionism",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Architectural expression is a whole-design judgment without one exclusive marker."
+        }
+      },
+      {
+        "statement": "The different parts of the program are well organized with spaces of specific character.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "different program parts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.4161,
+            0.4167
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view distinctly separates three program masses with differing levels."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The exposed north-facing galleries create doubts about their use under the local climatic conditions.",
+        "tags": [
+          "sustainability",
+          "functionality"
+        ],
+        "position": {
+          "target": "north-facing galleries",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.379,
+            0.7945,
+            0.6667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North-facing gallery condition is constrained on the northern perimeter and elevated bands."
+        }
+      },
+      {
+        "statement": "The size of the workforce may prevent the galleries from functioning as courtyards, weakening their reason for being.",
+        "tags": [
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "galleries as courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5397,
+            0.4161,
+            0.6667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Anchor follows the elevated central connecting zone."
+        }
+      },
+      {
+        "statement": "The ground-level courtyards are unconvincing in their position and size and disrupt fluid movement between buildings.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "ground-level courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.4161,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Separate ground-level open spaces are visible between masses."
+        }
+      },
+      {
+        "statement": "The residential building's positioning and sizing are ambiguous, and its wind-protection role lacks credibility.",
+        "tags": [
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "residential building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7879,
+            0.8707,
+            0.5833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Separate northern mass is visible in plan and north elevation."
+        }
+      },
+      {
+        "statement": "The park structure has not evolved sufficiently, while the paths appear dictated only by service functions and the planting project lacks substance.",
+        "tags": [
+          "landscape",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "park structure and paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2122,
+            0.2097,
+            0.0833
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sparse landscape geometry supports only a broad exterior-region anchor."
+        }
+      },
+      {
+        "statement": "The bowl at the junction of the main student flows and a major road does not seem appropriate.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "bowl at junction",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7142,
+            0.1768,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Bowl is not identifiable; approximate a low edge zone for converging flows."
+        }
+      }
+    ],
+    "keyword": [
+      "open space",
+      "landscape",
+      "visibility",
+      "expression",
+      "layout",
+      "functionality",
+      "circulation",
+      "urban integration",
+      "sustainability",
+      "safety"
+    ]
+  }
+}

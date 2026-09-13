@@ -1,0 +1,280 @@
+{
+  "object_description": "stepped three-story volume with terraces and veranda layers",
+  "geometry_property": [
+    "stepped",
+    "three-story",
+    "elongated",
+    "top-floor setback",
+    "terraced",
+    "veranda-layered",
+    "interstitial open space"
+  ],
+  "design_condition": "The building is inserted between the existing school buildings to form a new small place, with a covered connection framing the space; its eastern height follows the existing eaves while the western setback responds to smaller neighboring buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The idea of creating a new small place between the two buildings is convincing.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "identity"
+        ],
+        "position": {
+          "target": "new small place between two buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7161,
+            0.3805,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central interstitial space is suggested by stepped massing and open breaks in the elevations."
+        }
+      },
+      {
+        "statement": "The volumetric staggering and resulting terraces and veranda layers give the classrooms a new quality and make a valuable pedagogical contribution.",
+        "tags": [
+          "massing",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "volumetric staggering, terraces, and veranda layers",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7699,
+            0.4879,
+            0.7917
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Setbacks and repeated horizontal layers are clearly visible along the elongated upper volume."
+        }
+      },
+      {
+        "statement": "The directly adjacent outdoor spaces have the potential to become a real green classroom.",
+        "tags": [
+          "landscape",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "green classroom outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2216,
+            0.641,
+            0.0417
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Adjacent outdoor teaching space is placed beside the building’s lower, setback side."
+        }
+      },
+      {
+        "statement": "The filigree facade and veranda layer establish a relationship with the existing school building.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "filigree facade and veranda layer",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4706,
+            0.0403,
+            0.625
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Layered facade and veranda expression are most legible on the long elevation faces."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The design of the light, delicate covered connection remains questionable.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "covered connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5828,
+            0.1139,
+            0.4167
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Covered connection is not separately identifiable; approximate it along the central access-side edge."
+        }
+      },
+      {
+        "statement": "The narrow, elongated auditorium-library combination is assessed critically.",
+        "tags": [
+          "proportion",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "narrow elongated auditorium-library",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3105,
+            0.8187,
+            0.4583
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated building footprint supports a constrained room anchor toward its rear half."
+        }
+      },
+      {
+        "statement": "The daylight provided only by skylights in the basement workroom is insufficient.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "basement workroom skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7458,
+            0.4397,
+            0.0417
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement skylights are not directly resolved; place them near the central lower-floor surface."
+        }
+      },
+      {
+        "statement": "The different staircases create cramped spatial situations and make the corridor zone implausible as an expanded teaching area.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "staircases and corridor zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7161,
+            0.3805,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Internal circulation is unobservable; the central stacked zone is the most plausible approximation."
+        }
+      },
+      {
+        "statement": "The building has the largest floor area and building volume among the projects judged in the final round.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "largest floor area and building volume",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comparative area and volume are whole-building judgments without a unique spatial point."
+        }
+      },
+      {
+        "statement": "The building shell is only average in terms of compactness.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "building shell compactness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Shell compactness is a global performance judgment rather than a localized feature."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "functionality",
+      "circulation",
+      "layout",
+      "daylight",
+      "facade",
+      "cost"
+    ]
+  }
+}

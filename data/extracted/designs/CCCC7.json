@@ -1,0 +1,340 @@
+{
+  "object_description": "tower on a plinth forming a large hierarchical courtyard",
+  "geometry_property": [
+    "tower",
+    "plinth-based",
+    "monumental",
+    "courtyard-forming",
+    "heterogeneous",
+    "large-scale"
+  ],
+  "design_condition": "The tower and plinth establish a radical urban order for future western development, but their scale and the plinth's topographical discontinuity obstruct the flow of public space and create a marked institutional character.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The proposal is deliberate and seeks to establish a new urban order for future western development.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "new urban order",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3198,
+            0.5322,
+            0.5357
+          ],
+          "radius": 0.336,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The legible plinth-and-tower composition visibly establishes a strong overall order."
+        }
+      },
+      {
+        "statement": "The large courtyard is well structured and hierarchical.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "large courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5235,
+            0.5588,
+            0.1071
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A large central void is clearly legible within the surrounding footprint."
+        }
+      },
+      {
+        "statement": "The monumental character of the buildings forming the western front is striking in the image conveyed by the project.",
+        "tags": [
+          "expression",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "western front",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1356,
+            0.4716,
+            0.5357
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west",
+            "south",
+            "north"
+          ],
+          "rationale": "The western edge is constrained as the monumental front described by the jury."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The relationship of the project's scale with the current context is problematic.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "project scale",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.336,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment compares overall project scale with its external context."
+        }
+      },
+      {
+        "statement": "The purpose of the plinth is unclear, and it lacks the advertised qualities of a balcony.",
+        "tags": [
+          "expression",
+          "functionality"
+        ],
+        "position": {
+          "target": "plinth balcony",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5235,
+            0.5588,
+            0.4286
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The broad intermediate plinth level is visible, but balcony qualities are not identifiable."
+        }
+      },
+      {
+        "statement": "The topographical discontinuity created by the plinth obstructs the flow of public space.",
+        "tags": [
+          "topography",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "plinth public-space flow",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5235,
+            0.5588,
+            0.3571
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The courtyard and surrounding plinth visibly define the potentially obstructed public-space zone."
+        }
+      },
+      {
+        "statement": "The interminable circulations and very banal typology persist, while the facade expression has remained frozen.",
+        "tags": [
+          "circulation",
+          "layout",
+          "facade"
+        ],
+        "position": {
+          "target": "circulations and facade expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7885,
+            0.4601,
+            0.4643
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Circulation and facade character are assessed across the elongated institutional envelope."
+        }
+      },
+      {
+        "statement": "The spatial qualities expected of a place to live were not demonstrated; the organization feels spartan and rigid.",
+        "tags": [
+          "functionality",
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "place to live",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7986,
+            0.3954,
+            0.4286
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior residential qualities require an approximate marker within the sampled building mass."
+        }
+      },
+      {
+        "statement": "The buildings read more like a tertiary than a residential complex.",
+        "tags": [
+          "expression",
+          "identity",
+          "functionality"
+        ],
+        "position": {
+          "target": "residential complex expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2002,
+            0.6583,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall massing is visible, while residential versus tertiary identity is interpretive."
+        }
+      },
+      {
+        "statement": "The size and heterogeneity of the volumes penalize the project, beginning with the foundations.",
+        "tags": [
+          "massing",
+          "structure"
+        ],
+        "position": {
+          "target": "heterogeneous volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7448,
+            0.5877,
+            0.5357
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct volume groupings and varied elevation profiles are visible across the project."
+        }
+      },
+      {
+        "statement": "A steel structure for an essentially residential project is hardly economical once the associated stresses are considered.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "steel structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4836,
+            0.6953,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structure is not directly identifiable, so it is anchored within a representative upper mass."
+        }
+      },
+      {
+        "statement": "The project is unsatisfactory from an energy point of view and is the most expensive project.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "energy performance",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy performance is an unlocated whole-project judgment."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "scale",
+      "massing",
+      "topography",
+      "circulation",
+      "expression",
+      "functionality",
+      "structure",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

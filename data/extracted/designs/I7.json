@@ -1,0 +1,261 @@
+{
+  "object_description": "large horizontally layered school volume",
+  "geometry_property": [
+    "large",
+    "elongated",
+    "horizontally layered",
+    "orthogonal",
+    "moderate-height",
+    "greenhouse-like attic"
+  ],
+  "design_condition": "The volume is stretched between the access route and football pitches near the existing school, but creates an unconvincing leftover area and little western distance from the neighbouring building.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The entry fits well into the existing structure through its horizontal stratification and moderate height development.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "entry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2002,
+            0.2332,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long horizontal mass and moderate elevations support the stated scale judgment."
+        }
+      },
+      {
+        "statement": "The school and special rooms are well proportioned, daylit, and accessed through spacious anterooms.",
+        "tags": [
+          "proportion",
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "school and special rooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2543,
+            0.7098,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Rooms are not individually visible; anchor samples the layered central region."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The remaining area between the new building and the street is unconvincing, while the western open space provides little distance from the existing building.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "privacy"
+        ],
+        "position": {
+          "target": "street-side remaining area and western open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2385,
+            0.2861,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Anchor marks a lateral perimeter area; surrounding site is not explicitly modeled."
+        }
+      },
+      {
+        "statement": "The outdoor spaces are represented schematically and do not suggest an overarching design idea.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7245,
+            0.2774,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Anchor marks an exterior edge beside the elongated volume."
+        }
+      },
+      {
+        "statement": "The generous view of the gymnasium from the entrance is questionable and not attractive enough.",
+        "tags": [
+          "visibility",
+          "expression"
+        ],
+        "position": {
+          "target": "gymnasium view from entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1867,
+            0.252,
+            0.4
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate low end-zone relationship; gymnasium and entrance are not separable."
+        }
+      },
+      {
+        "statement": "The internal organization is schematic and complicated, producing functional deficiencies and difficult access to the teacher area.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "internal organization and teacher area access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2906,
+            0.7377,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal circulation is not visible; placement represents the plan-wide issue."
+        }
+      },
+      {
+        "statement": "The gymnasium cloakrooms and showers are inconveniently arranged for operational reasons.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "gymnasium cloakrooms and showers",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8153,
+            0.3472,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Service rooms are not distinguishable; anchor approximates a low end zone."
+        }
+      },
+      {
+        "statement": "The double gymnasium has only indirect natural lighting.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "double gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8586,
+            0.3769,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Gymnasium is not uniquely visible; anchor samples a broad central-height volume."
+        }
+      },
+      {
+        "statement": "The response to summer heat protection does not appear sufficient.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "summer heat protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7275,
+            0.2762,
+            0.8
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Heat protection concerns exposed upper envelope surfaces."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "layout",
+      "functionality",
+      "circulation",
+      "daylight",
+      "operation"
+    ]
+  }
+}

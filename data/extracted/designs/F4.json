@@ -1,0 +1,314 @@
+{
+  "object_description": "compact school volume over an underground gymnasium",
+  "geometry_property": [
+    "compact",
+    "stacked",
+    "partly sunken",
+    "set-back",
+    "low-rise",
+    "roof-bridged"
+  ],
+  "design_condition": "The building is set back between the existing buildings, below their eaves, while the connecting roof spans the gap and creates a covered outdoor area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The ensemble fits naturally into the existing complex through its restrained setback and height development.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "whole ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5266,
+            0.4135,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad building placement reflects the compact, set-back ensemble and restrained height."
+        }
+      },
+      {
+        "statement": "The compact above-ground volume is successful.",
+        "tags": [
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "compact above-ground volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5087,
+            0.4321,
+            0.7
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper compact volume is visible across the top and elevation projections."
+        }
+      },
+      {
+        "statement": "The classroom floor layout is convincing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom floor layout",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5087,
+            0.4321,
+            0.65
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior classroom layout is not distinguishable; placement is constrained to the upper volume."
+        }
+      },
+      {
+        "statement": "The sports area is impressively developed operationally and spatially.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "sports area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5435,
+            0.2982,
+            0.15
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The partly sunken lower zone plausibly corresponds to the underground sports area."
+        }
+      },
+      {
+        "statement": "The light showcases provide transparency, visibility, and spatial references at ground-floor level.",
+        "tags": [
+          "daylight",
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "ground-floor light showcases",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3212,
+            0.263,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level facade placement approximates the light-showcase locations."
+        }
+      },
+      {
+        "statement": "The project is economically and ecologically sound and achieves the desired sustainability standard.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "economic and ecological performance",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost, ecology, and sustainability are performance judgments without a useful spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The massive roof competes with the delicate new building and the calm existing building, creating more separation than connection.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "massive roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.749,
+            0.8365,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The spanning roof is clearly identifiable as the dominant upper bridging element."
+        }
+      },
+      {
+        "statement": "The structurally determined room division appears inflexible, while the staircase is complicated and hidden.",
+        "tags": [
+          "flexibility",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "room division and staircase",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3212,
+            0.263,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior division and circulation are hidden; the marker uses a plausible central lower-volume location."
+        }
+      },
+      {
+        "statement": "The strong distinction between the massive base and delicate superstructure is incomprehensible and weakens the building's presence.",
+        "tags": [
+          "massing",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "massive base and delicate superstructure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5445,
+            0.3949,
+            0.45
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sampled elevations visibly separate a heavier lower base from the upper volume."
+        }
+      },
+      {
+        "statement": "The glass lintel and parapet areas seem out of place in the historical context.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "glass lintel and parapet areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7621,
+            0.3426,
+            0.45
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade areas are approximated along the exposed east-south perimeter."
+        }
+      },
+      {
+        "statement": "The architectural implementation is not entirely convincing despite the project's operational qualities.",
+        "tags": [
+          "expression",
+          "functionality"
+        ],
+        "position": {
+          "target": "architectural implementation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5445,
+            0.3949,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall implementation is anchored to the visible building mass rather than a single element."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "layout",
+      "circulation",
+      "daylight",
+      "visibility",
+      "expression",
+      "flexibility",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

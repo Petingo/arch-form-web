@@ -1,0 +1,357 @@
+{
+  "object_description": "two-part building volume with hall and workroom wings",
+  "geometry_property": [
+    "two-part",
+    "compact",
+    "basemented",
+    "terraced",
+    "glazed"
+  ],
+  "design_condition": "The building follows the visual and access axis, forms a funnel-shaped break area with the existing kindergarten, and its eastern and western massing only partly fits the terrain and site development.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The careful handling of the existing building creates high-quality interior and exterior spaces.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "existing-building setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1465,
+            0.2233,
+            0.1459
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Existing-building relationship is approximated at the south-west portion of the compact two-part footprint."
+        }
+      },
+      {
+        "statement": "The open-space design offers diverse places for movement and retreat that respond carefully to the site.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "open-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5756,
+            0.1572,
+            0.0751
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The top view clearly shows a funnel-shaped external gap between the two angled building parts."
+        }
+      },
+      {
+        "statement": "The floor plans are very convincing and compactly organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6601,
+            0.4836,
+            0.2875
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Overall plan organization is represented by the compact connected two-part mass."
+        }
+      },
+      {
+        "statement": "Access to the halls and orientation within the building are clear and well solved.",
+        "tags": [
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "hall access and orientation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.835,
+            0.6004,
+            0.2167
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Access judgment is anchored along the eastern end of the elongated hall wing."
+        }
+      },
+      {
+        "statement": "The structural grid and high proportion of glass create a convincing and delicate external appearance.",
+        "tags": [
+          "structure",
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "structural grid and glass facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8,
+            0.5771,
+            0.5708
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "External appearance is placed on the long visible east-facing edge of the two-part volume."
+        }
+      },
+      {
+        "statement": "The project is technically and constructively convincing.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "technical and constructive design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4354,
+            0.6846,
+            0.4292
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Broad technical judgment is anchored to the complete sampled building envelope."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central lounge area lacks a direct view of the hall and the viewing direction.",
+        "tags": [
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "central lounge area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6525,
+            0.4785,
+            0.5708
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior lounge is not distinguishable; approximate placement uses the geometric junction between the two wings."
+        }
+      },
+      {
+        "statement": "The outdoor equipment room is poorly located in relation to the hard court and is too small.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "outdoor equipment room",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7989,
+            0.3096,
+            0.0751
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Equipment-room location is approximated along the external eastern side near the hard-court zone."
+        }
+      },
+      {
+        "statement": "The gallery lacks seating options for sporting events with numerous visitors.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "gallery seating",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.835,
+            0.6004,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Gallery is approximated above the eastern hall edge, where elevated facade lines appear in the elevations."
+        }
+      },
+      {
+        "statement": "The equipment rooms lack a direct connection to the hall, and the narrow support grid questions everyday use of bulky equipment.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "structure"
+        ],
+        "position": {
+          "target": "equipment rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.759,
+            0.3557,
+            0.2167
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Support-room concern is anchored near the hall wing perimeter, absent as a distinct exterior feature."
+        }
+      },
+      {
+        "statement": "The settlement and volumetrics, particularly in the east, are not considered compatible with the site.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "eastern settlement and volumetrics",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8525,
+            0.6121,
+            0.2875
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Eastern end of the angled footprint is clearly exposed and provides the stated site-compatibility anchor."
+        }
+      },
+      {
+        "statement": "The lack of a direct connection between the entrance area and the hall is a significant defect.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "entrance area to hall connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2079,
+            0.5327,
+            0.1459
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Entrance-to-hall connection is approximated at the west-side end of the building."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "layout",
+      "functionality",
+      "circulation",
+      "visibility",
+      "structure",
+      "facade",
+      "cost"
+    ]
+  }
+}

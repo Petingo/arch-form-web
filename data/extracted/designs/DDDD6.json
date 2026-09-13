@@ -1,0 +1,386 @@
+{
+  "object_description": "compact five-storey structure with recessed ground floor",
+  "geometry_property": [
+    "compact",
+    "five-storey",
+    "recessed-ground-floor",
+    "horizontal-banded",
+    "ring-organized"
+  ],
+  "design_condition": "The compact building occupies the plot's full depth while remaining restrained at the sides to increase spacing and presents an inviting recessed entrance toward the street.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project is based on a simple and convincing urban design.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "urban design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8596,
+            0.5975,
+            0.5
+          ],
+          "radius": 0.325,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact massing is directly visible; urban-design quality is anchored to the overall envelope."
+        }
+      },
+      {
+        "statement": "The clear internal structure provides an efficient and flexible organization.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "clear internal structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7228,
+            0.6254,
+            0.3063
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Internal organization is approximated near the central ring-like building structure."
+        }
+      },
+      {
+        "statement": "The uniform-depth utility-room arrangement allows a high degree of flexibility of use.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "uniform-depth utility-room arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1036,
+            0.4675,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Utility rooms are assigned to a consistent side band within the compact volume."
+        }
+      },
+      {
+        "statement": "The first floor is inviting and spacious, with the cafeteria and media library well located for outdoor access.",
+        "tags": [
+          "layout",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "first floor, cafeteria, and media library",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2513,
+            0.1921,
+            0.3063
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "First-floor public uses are approximated near the inviting street-facing lower band."
+        }
+      },
+      {
+        "statement": "The load-bearing structure is clearly and simply constructed, while leaving partition walls predominantly non-load-bearing.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "load-bearing structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7228,
+            0.6254,
+            0.3063
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Structural organization is inferred at the central stacked frame."
+        }
+      },
+      {
+        "statement": "The compact volume achieves well-tempered surface ratios and construction costs in the lower segment.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7667,
+            0.7763,
+            0.5553
+          ],
+          "radius": 0.335,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact footprint and restrained five-storey envelope are clearly visible in all calibrated views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The main circulation with the open staircases is not possible from the point of view of fire safety and requires serious modifications.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "main circulation with open staircases",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7228,
+            0.6254,
+            0.3063
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Open-stair circulation is approximated within the central vertical organization."
+        }
+      },
+      {
+        "statement": "The internal circulation is cramped and confusing in places, with limited relationship to the outside and the connecting air space.",
+        "tags": [
+          "circulation",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "internal circulation and connecting air space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7228,
+            0.6254,
+            0.3063
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central air-space and circulation relationship are approximated from the ring-organized envelope."
+        }
+      },
+      {
+        "statement": "The proportions of the large classrooms are not ideal.",
+        "tags": [
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "large classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2249,
+            0.7654,
+            0.6107
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Classrooms are assigned to an upper peripheral region where their proportions remain unidentifiable."
+        }
+      },
+      {
+        "statement": "The architectural expression is somewhat indeterminate for a school building and creates little specific identity.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7768,
+            0.2374,
+            0.5553
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Exterior expression is represented by the visible horizontal-banded façades."
+        }
+      },
+      {
+        "statement": "The interior atmosphere is somewhat cool and more reminiscent of an elegant administrative building.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "interior atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2536,
+            0.7734,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Atmosphere is a building-wide interior judgment, approximated within the sampled envelope."
+        }
+      },
+      {
+        "statement": "The very high proportion of glass and additional solar-control glazing has an impact on costs.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "high proportion of glass and solar-control glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5352,
+            0.1082,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Glazing-related criticism is anchored to the prominent visible façade surfaces."
+        }
+      },
+      {
+        "statement": "The proposed development is not feasible in this form.",
+        "tags": [
+          "functionality",
+          "fire safety"
+        ],
+        "position": {
+          "target": "proposed development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8337,
+            0.6432,
+            0.5
+          ],
+          "radius": 0.335,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Feasibility judgment applies broadly to the complete compact building volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "circulation",
+      "fire safety",
+      "layout",
+      "flexibility",
+      "identity",
+      "expression",
+      "structure",
+      "cost"
+    ]
+  }
+}

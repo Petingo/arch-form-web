@@ -1,0 +1,238 @@
+{
+  "object_description": "fragmented compact school complex of isolated overlapping volumes",
+  "geometry_property": [
+    "fragmented",
+    "compact",
+    "isolated volumes",
+    "non-aligned",
+    "partly buried",
+    "overlapping",
+    "courtyard-centered"
+  ],
+  "design_condition": "The volumes are concentrated away from the road and organized around raised outdoor spaces and a public pedestrian connection.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The intervention respects the typological village structure through isolated, non-aligned volumes.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "isolated, non-aligned volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5616,
+            0.5722,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Separated overlapping volumes with differing alignments are clearly visible in the top and elevation views."
+        }
+      },
+      {
+        "statement": "The composition defines clear access routes and exterior surfaces.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "access routes and exterior surfaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5435,
+            0.5843,
+            0.1875
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The spaces and routes between isolated volumes are visible, while exact access points remain indistinct."
+        }
+      },
+      {
+        "statement": "Its scale avoids the notion of a large school complex.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "overall scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5616,
+            0.5722,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The fragmented low-rise composition is directly legible across the calibrated model views."
+        }
+      },
+      {
+        "statement": "The desired compactness allows for land savings.",
+        "tags": [
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compactness",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5616,
+            0.5722,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The concentrated footprint and overlapping volumes are visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The central circulation is generous, airy, and allows a certain appropriation by users.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5616,
+            0.5722,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central gap between overlapping masses provides the most plausible airy circulation anchor."
+        }
+      },
+      {
+        "statement": "All common functions and main entrances overlook the outdoor spaces.",
+        "tags": [
+          "layout",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "common functions and main entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.54,
+            0.5867,
+            0.25
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior functions and entrances are not distinguished; the central outdoor-facing zone is used."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Fragmentation generates complicated basement circulation without natural light, which is not obvious for the intended age group.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "accessibility"
+        ],
+        "position": {
+          "target": "basement circulation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3357,
+            0.3526,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement circulation is not visible; the lower southwestern volume provides a plausible below-grade anchor."
+        }
+      },
+      {
+        "statement": "The jury questions the location of the service premises and the lack of changing-room space.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "service premises and changing-room space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7741,
+            0.8664,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "These internal programs are absent; the upper eastern volume is used as a constrained service anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "scale",
+      "daylight",
+      "layout",
+      "functionality"
+    ]
+  }
+}

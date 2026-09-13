@@ -1,0 +1,244 @@
+{
+  "object_description": "symmetrical composition of three volumes around a central square",
+  "geometry_property": [
+    "symmetrical",
+    "three-part",
+    "rectilinear",
+    "centralized",
+    "portico-framed",
+    "compact"
+  ],
+  "design_condition": "The multipurpose room, existing gym, and central-body extension are arranged around a strictly symmetrical square connected by a portico.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The solution is characterized by a very rational and logical system.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "rational and logical system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.51,
+            0.5613,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The three-part arrangement and central connector visibly organize the composition."
+        }
+      },
+      {
+        "statement": "The clear and simple distribution of functions is a strength of the proposal.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "distribution of functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5179,
+            0.5728,
+            0.125
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct visible volumes suggest a clearly distributed functional arrangement."
+        }
+      },
+      {
+        "statement": "The symmetrical square and connecting portico create a clear spatial composition.",
+        "tags": [
+          "proportion",
+          "circulation"
+        ],
+        "position": {
+          "target": "symmetrical square and connecting portico",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4862,
+            0.5268,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connector and surrounding volumes visibly frame the composition's square."
+        }
+      },
+      {
+        "statement": "The proposed volume and compactness remain within the average range of the projects.",
+        "tags": [
+          "massing"
+        ],
+        "position": {
+          "target": "proposed volume and compactness",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5575,
+            0.6302,
+            0.125
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact arrangement of the sampled masses supports a broad volumetric assessment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "A good part of the compositional elements is excessively architecturally simplified and schematic.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "simplified compositional elements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5338,
+            0.5958,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The visible rectilinear masses provide the approximate compositional anchor."
+        }
+      },
+      {
+        "statement": "The space program is slightly oversized compared with the requirements, particularly for the new room.",
+        "tags": [
+          "functionality",
+          "proportion"
+        ],
+        "position": {
+          "target": "new room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6873,
+            0.8852,
+            0.125
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The distinct north-east volume is the most plausible sampled anchor for the new room."
+        }
+      },
+      {
+        "statement": "The massive concrete structures have generous, uneconomical dimensions.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "massive concrete structures",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5575,
+            0.6302,
+            0.25
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The larger visible masses provide only an approximate anchor for structural dimensions."
+        }
+      },
+      {
+        "statement": "The proposed surface area is important.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "proposed surface area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5575,
+            0.6302,
+            0.125
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full clustered footprint anchors the judgment about overall surface area."
+        }
+      }
+    ],
+    "keyword": [
+      "layout",
+      "massing",
+      "expression",
+      "functionality",
+      "proportion",
+      "structure",
+      "cost",
+      "circulation"
+    ]
+  }
+}

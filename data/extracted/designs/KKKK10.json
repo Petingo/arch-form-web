@@ -1,0 +1,385 @@
+{
+  "object_description": "three linked gabled volumes arranged along the slope",
+  "geometry_property": [
+    "three volumes",
+    "linear arrangement",
+    "gabled",
+    "slope-facing",
+    "transverse connectors",
+    "settlement-scaled",
+    "linked composition"
+  ],
+  "design_condition": "The volumes follow the slope-facing scale of the neighboring residential area along the development boundary, linking the complex into a whole while assigning uses along the street according to their public character.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise analysis of the location provides the basis for a promising urban-planning strategy.",
+        "tags": [
+          "urban integration",
+          "topography"
+        ],
+        "position": {
+          "target": "location analysis",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4698,
+            0.4557,
+            0
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Urban-planning assessment applies broadly to the linear site arrangement along the slope."
+        }
+      },
+      {
+        "statement": "The row of houses takes up the scale of the adjacent residential area and respects the development boundary.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "row of houses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5065,
+            0.4325,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three linked gabled volumes visibly form a settlement-scaled row along the development boundary."
+        }
+      },
+      {
+        "statement": "All buildings are reached calmly from the street via landscape paths.",
+        "tags": [
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "landscape paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5892,
+            0.2751,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Approach paths are estimated along the open spaces between and around the linked volumes."
+        }
+      },
+      {
+        "statement": "Addressing the clinic independently is correct.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "clinic",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8164,
+            0.2218,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The independently addressed clinic is approximated at the eastern end of the linear composition."
+        }
+      },
+      {
+        "statement": "Dividing the uses into three buildings creates ecologically interesting landscape permeability.",
+        "tags": [
+          "landscape",
+          "sustainability",
+          "open space"
+        ],
+        "position": {
+          "target": "landscape permeability",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5813,
+            0.2271,
+            0
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Permeability judgment is distributed through the open gaps separating the three volumes."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The inclusion of the old villa strains the overall concept, while the school addition strongly confuses the existing building.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "old villa and school addition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.163,
+            0.655,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Existing-building conflict is approximated at the western end of the linked composition."
+        }
+      },
+      {
+        "statement": "The urban-planning approach is promising, but its implementation cannot be achieved volumetrically.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "urban-planning approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5065,
+            0.4325,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Volumetric implementation concern applies across the full three-volume arrangement."
+        }
+      },
+      {
+        "statement": "The actual entrances are not clearly visible from the bus stop and are not accessible for disabled users.",
+        "tags": [
+          "visibility",
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "entrances from the bus stop",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6534,
+            0.1981,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are approximated along the street-facing lower edge of the composition."
+        }
+      },
+      {
+        "statement": "The differentiation of ramps and stairs leads to unnecessary complexity.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "ramps and stairs",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5799,
+            0.2057,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Circulation complexity is estimated within the site approaches between linked volumes."
+        }
+      },
+      {
+        "statement": "The clinic entrances are lightless corridors and do not have the desired spatial qualities.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "clinic entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8048,
+            0.2328,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Clinic entry corridors are approximated within the eastern volume."
+        }
+      },
+      {
+        "statement": "Dividing the intensive care unit over two floors is not operationally conceivable, and direct access from the wards is missing.",
+        "tags": [
+          "operation",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "intensive care unit",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6692,
+            0.2941,
+            0.75
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The unit is not distinguishable; its multi-level concern is anchored within the upper eastern mass."
+        }
+      },
+      {
+        "statement": "The desired separation of adult and children's entrances and cloakrooms in the gym is missing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "adult and children's entrances and cloakrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5799,
+            0.2057,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Gym entry separation is approximated near the public-facing approach edge."
+        }
+      },
+      {
+        "statement": "The underground car-park arrangement creates a complex and long tunnel access route.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "underground car-park access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3767,
+            0.4051,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tunnel access is assigned beneath the street-facing site edge, absent from the exterior sample."
+        }
+      },
+      {
+        "statement": "The station outdoor spaces appear closed off and lack a more direct connection to the landscape.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "station outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5799,
+            0.2057,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor-space enclosure is approximated along the southern landscape edge of the linked development."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "topography",
+      "circulation",
+      "accessibility",
+      "layout",
+      "operation",
+      "landscape",
+      "open space"
+    ]
+  }
+}

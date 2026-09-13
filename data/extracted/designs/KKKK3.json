@@ -1,0 +1,510 @@
+{
+  "object_description": "two low-tiered cubic buildings linked by terraced open space",
+  "geometry_property": [
+    "two cubes",
+    "low-rise",
+    "tiered",
+    "orthogonal",
+    "linear",
+    "slope-following",
+    "terraced"
+  ],
+  "design_condition": "Two low, well-tiered buildings trace the sloping landscape, preserve a generous reserve area, and connect the surrounding streets through a sequence of public terraces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two low, well-tiered cubes skilfully trace the course of the landscape slope.",
+        "tags": [
+          "topography",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "two low, well-tiered cubes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5369,
+            0.4979,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Two distinct stepped masses and tiered elevations visibly follow the elongated sloping arrangement."
+        }
+      },
+      {
+        "statement": "The unpretentious overall system is volumetrically well compatible with the living quarters at the back.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "overall system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5579,
+            0.4408,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Paired low-rise volumes form a restrained linear composition beside the rear context."
+        }
+      },
+      {
+        "statement": "A generous area of land remains as a reserve.",
+        "tags": [
+          "open space",
+          "flexibility",
+          "landscape"
+        ],
+        "position": {
+          "target": "reserve area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2842,
+            0.7406,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground remains around and between the two sampled building footprints."
+        }
+      },
+      {
+        "statement": "The two streets are connected through a public outdoor space as a series of spacious terraces.",
+        "tags": [
+          "open space",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "public outdoor terraces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.518,
+            0.4186,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated gap and stepped relationship suggest a connecting terraced outdoor route."
+        }
+      },
+      {
+        "statement": "The division into two buildings creates clear allocations regarding public and closed areas.",
+        "tags": [
+          "layout",
+          "functionality",
+          "privacy"
+        ],
+        "position": {
+          "target": "division into two buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5579,
+            0.4408,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Two separate footprints visibly establish distinct building allocations."
+        }
+      },
+      {
+        "statement": "The clinic's internal vertical access and basic layout are clearly arranged and compact with short paths.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "clinic internal vertical access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8399,
+            0.2921,
+            0.375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Internal access is not exposed; anchor is constrained within the larger clinic volume."
+        }
+      },
+      {
+        "statement": "The spatial layout shows very good functionality, with generously designed wards and interesting transitions between inside and outside.",
+        "tags": [
+          "functionality",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "wards and inside-outside transitions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.549,
+            0.4041,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Ward interiors are hidden, so placement follows the larger visible building and perimeter."
+        }
+      },
+      {
+        "statement": "The sequence of courtyard, seating area, garden and pergola offers varied uses and different degrees of retreat.",
+        "tags": [
+          "open space",
+          "layout",
+          "privacy"
+        ],
+        "position": {
+          "target": "courtyard, seating area, garden and pergola",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5632,
+            0.4623,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central and interstitial open space is the plausible anchor for varied retreat areas."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The clinic becomes a residential area in terms of architectural expression toward the street, missing the potential for a more public appearance.",
+        "tags": [
+          "expression",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "street architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4511,
+            0.2816,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing edge is approximated along the southern side of the sampled masses."
+        }
+      },
+      {
+        "statement": "The hard facade expression remains questionable in the context of child and adolescent psychiatry.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "hard facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7206,
+            0.091,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Visible orthogonal perimeter edges provide a surface anchor for the facade critique."
+        }
+      },
+      {
+        "statement": "The floor-to-ceiling windows near the street provide little intimacy in the patient rooms.",
+        "tags": [
+          "privacy",
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "floor-to-ceiling windows near the street",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7051,
+            0.0982,
+            0.25
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Windows are unresolved; anchor follows the southern street-facing wall."
+        }
+      },
+      {
+        "statement": "The day clinic and school are inconveniently accessed from the back.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "back access to day clinic and school",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6468,
+            0.5792,
+            0.25
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The back is constrained to the northern side of the larger building footprint."
+        }
+      },
+      {
+        "statement": "The internal vertical circulation system is complicated and not very user-friendly.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal vertical circulation system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.549,
+            0.4041,
+            0.375
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Internal circulation is hidden; anchor is placed within the visible clinic volume."
+        }
+      },
+      {
+        "statement": "Direct access to intensive care from the ward is not possible, requiring monitoring through a large camera system.",
+        "tags": [
+          "circulation",
+          "safety",
+          "operation"
+        ],
+        "position": {
+          "target": "intensive care access from the ward",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8399,
+            0.2921,
+            0.25
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The presumed care interface is approximated inside the larger right-hand building."
+        }
+      },
+      {
+        "statement": "The internal arrangement of the stations remains somewhat unsatisfactory in terms of clarity and flexibility.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal arrangement of stations",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7928,
+            0.4469,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Station layout is not visible; marker covers the larger clinic floor region."
+        }
+      },
+      {
+        "statement": "The project appears a bit cold and uninviting for use as a psychiatric clinic for children and young people.",
+        "tags": [
+          "expression",
+          "identity",
+          "functionality"
+        ],
+        "position": {
+          "target": "project atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The comment concerns overall experiential character rather than a single geometric location."
+        }
+      },
+      {
+        "statement": "The design expression appears very strict and schematic, lacking subtlety and playfulness.",
+        "tags": [
+          "expression",
+          "identity",
+          "layout"
+        ],
+        "position": {
+          "target": "strict schematic design expression",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The critique applies to the overall design language, not one localized model feature."
+        }
+      },
+      {
+        "statement": "The project is average in size, while costs are in the upper range.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building size and cost",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7928,
+            0.4469,
+            0.25
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Size is represented by the visible overall mass; cost remains non-geometric."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "urban integration",
+      "expression",
+      "circulation",
+      "functionality",
+      "open space",
+      "privacy",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

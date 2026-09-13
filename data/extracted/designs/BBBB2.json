@@ -1,0 +1,324 @@
+{
+  "object_description": "compact two-storey volume organized around a central hall",
+  "geometry_property": [
+    "compact",
+    "rectangular",
+    "two-storey",
+    "horizontal",
+    "centralized",
+    "partly sunken",
+    "raised plinth"
+  ],
+  "design_condition": "Precisely positioned along the avenue, the raised rectangular volume forms an organizing element in the heterogeneous surroundings, while the lowered hall and access terrace structure the site edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise positioning and disciplined geometry create a strongly organizing element.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "organizing rectangular volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4983,
+            0.4612,
+            0.5833
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Rectangular volume is clearly visible and consistent across all projections."
+        }
+      },
+      {
+        "statement": "The strict façade concept gives the building strong conciseness and serenity as an independent volume.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "strict facade concept",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5232,
+            0,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevations show a disciplined, repetitive facade expression."
+        }
+      },
+      {
+        "statement": "The raised base acts as an arrival platform and gives the building its own address.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "raised base arrival platform",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4761,
+            0,
+            0.0833
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Raised plinth is visibly distinct along the lower facade."
+        }
+      },
+      {
+        "statement": "The simple two-storey structure is characterized by clarity and conciseness.",
+        "tags": [
+          "massing",
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "simple two-storey structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4983,
+            0.4612,
+            0.5833
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two-storey rectangular massing is clearly legible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The central hall creates an exceptional spatial experience for the surrounding functional areas.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "central hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4983,
+            0.4612,
+            0.5833
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Centralized plan supports a central hall anchor, though the interior is not directly exposed."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central arrangement creates very long and unattractive routes and leaves no natural meeting center.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "long internal routes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4983,
+            0.4612,
+            0.5833
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central arrangement is anchored within the full rectangular floorplate."
+        }
+      },
+      {
+        "statement": "The available room depth produces an overly narrow library and an unfavorably proportioned cafeteria.",
+        "tags": [
+          "functionality",
+          "proportion"
+        ],
+        "position": {
+          "target": "library and cafeteria",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2477,
+            0.5388,
+            0.5833
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "West-central interior zone approximates the criticized room proportions."
+        }
+      },
+      {
+        "statement": "The terrace is the only usable outdoor space and creates conflicts between passage and recreation.",
+        "tags": [
+          "open space",
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "terrace",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4761,
+            0,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lowered edge and raised arrival platform indicate the terrace at the avenue side."
+        }
+      },
+      {
+        "statement": "The daylight supply is intensive, but the rooms lack landscape views and create mutual overlooking.",
+        "tags": [
+          "daylight",
+          "privacy",
+          "visibility"
+        ],
+        "position": {
+          "target": "daylight, landscape views, and overlooking",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5232,
+            0,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated facade openings visibly support daylight but not identifiable landscape views."
+        }
+      },
+      {
+        "statement": "The lighting and shading systems are extremely complicated and costly to maintain.",
+        "tags": [
+          "operation",
+          "cost",
+          "daylight"
+        ],
+        "position": {
+          "target": "lighting and shading systems",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5232,
+            0,
+            0.6667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Facade opening bands provide the nearest visible anchor for lighting and shading."
+        }
+      },
+      {
+        "statement": "The expensive internal fire-resistant glazing and large roof glazing significantly increase costs.",
+        "tags": [
+          "cost",
+          "fire safety"
+        ],
+        "position": {
+          "target": "internal fire-resistant glazing and roof glazing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4983,
+            0.4612,
+            0.9167
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level glazing is approximated from the visible top envelope; internal glazing is not distinguishable."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "identity",
+      "circulation",
+      "layout",
+      "open space",
+      "daylight",
+      "cost"
+    ]
+  }
+}

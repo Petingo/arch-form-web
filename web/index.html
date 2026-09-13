@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arch Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/shell.css?v=1" />
+    <link rel="stylesheet" href="./assets/css/index.css?v=8" />
+    <link rel="stylesheet" href="./assets/css/model-info.css?v=1" />
+    <link rel="stylesheet" href="./assets/css/project.css?v=1" />
+    <link rel="stylesheet" href="./assets/css/model-space.css?v=2" />
+    <link rel="stylesheet" href="./assets/css/analysis.css?v=3" />
+    <!-- the project viewer imports three as a bare specifier -->
+    <script type="importmap">
+      {"imports":{"three":"/arch-form-web/model-latent-analysis/web/vendor/three/build/three.module.js"}}
+    </script>
+  </head>
+  <body>
+    <header class="shell-header">
+      <a class="brand" href="#competitions"><span class="brand-mark"><i></i><i></i><i></i></span><span>ARCH FORM</span></a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#competitions" data-tab="competitions">COMPETITIONS</a>
+        <a href="#model-latent" data-tab="model-latent">MODEL LATENT</a>
+        <a href="#jury-expression" data-tab="jury-expression">JURY EXPRESSION</a>
+      </nav>
+      <span class="header-note" id="shell-note"></span>
+    </header>
+
+    <div id="pane-competitions" class="tab-pane" hidden>
+      <main>
+            <section class="intro">
+              <div class="competition-filter" role="group" aria-label="Filter competitions">
+              </div>
+            </section>
+            <div id="competition-list" class="competition-list" aria-live="polite"></div>
+          </main>
+    </div>
+
+    <div id="pane-model-latent" class="tab-pane" hidden>
+      <section class="explorer-stage">
+              <div id="explorer-loading" class="explorer-loading"><span></span><p>Loading model space</p></div>
+              <iframe id="model-space-frame" title="Interactive Arch Form model space" allow="fullscreen" loading="eager"></iframe>
+              <div id="explorer-error" class="explorer-error" hidden>
+                <strong>Model space could not be loaded.</strong>
+                <span>The bundled latent-space assets are unavailable.</span>
+              </div>
+            </section>
+    </div>
+
+    <div id="pane-project" class="tab-pane" hidden>
+      <div class="project-toolbar">
+        <a class="back-to-list" href="#competitions">&#8592;&nbsp; All competitions</a>
+        <div class="project-picker"><label for="model-select">PROJECT</label><select id="model-select" aria-label="Select project"></select></div>
+      </div>
+      <section class="workspace">
+              <div id="viewer" class="viewer">
+                <div class="viewer-heading">
+                  <!-- identical to the Model Latent panel: same renderer, same styles -->
+                  <div class="model-info-wrapper" id="project-model-info"></div>
+                  <div id="nonspatial-summary" class="nonspatial-summary" hidden><span>NON-SPATIAL CRITIQUE</span><div id="nonspatial-dots" class="nonspatial-dots"></div></div>
+                </div>
+                <div class="legend" aria-label="Annotation legend">
+                  <button class="legend-item active" data-sentiment="positive"><span class="legend-dot positive"></span><span>Positive</span><b id="positive-count">0</b></button>
+                  <button class="legend-item active" data-sentiment="negative"><span class="legend-dot negative"></span><span>Critical</span><b id="negative-count">0</b></button>
+                </div>
+                <div class="view-tools" aria-label="View tools"><button id="reset-view" title="Reset view">⌂</button><button id="toggle-spin" title="Toggle auto rotate">↻</button></div>
+                <div id="loading" class="loading"><span class="loading-ring"></span><span id="loading-label">Loading model</span></div>
+                <div id="tooltip" class="tooltip" hidden></div>
+              </div>
+              <aside class="review-panel">
+                <div class="panel-head"><div><span class="eyebrow">JURY EXPRESSIONS</span><h2>Spatial critique</h2></div><span id="visible-count" class="visible-count">0 / 0</span></div>
+                <div class="filter-row"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="positive">Positive</button><button class="filter" data-filter="negative">Critical</button></div>
+                <div id="annotation-list" class="annotation-list" aria-live="polite"></div>
+              </aside>
+            </section>
+    </div>
+
+    <div id="pane-jury-expression" class="tab-pane" hidden>
+      <main class="analysis-main">
+            <section class="hero">
+              <div>
+                <span class="eyebrow">CROSS-COMPETITION ANALYSIS</span>
+                <h1>What distinguishes<br />higher-ranked designs?</h1>
+              </div>
+              <div class="hero-copy">
+                <p>Jury language is compared at design level across competition ranks. Presence-based metrics prevent longer reports from receiving disproportionate weight.</p>
+                <p class="caution">These are associations in the observed jury reports—not causal rules for winning.</p>
+              </div>
+            </section>
+
+            <section class="metrics" aria-label="Dataset summary">
+              <article><strong>581</strong><span>EXTRACTED DESIGNS</span></article>
+              <article><strong>529</strong><span>RANKED DESIGNS</span></article>
+              <article><strong>97</strong><span>COMPETITIONS</span></article>
+              <article><strong>91</strong><span>WINNER COMPARISONS</span></article>
+              <article><strong>96</strong><span>PAIRWISE GROUPS</span></article>
+            </section>
+
+            <section class="signal-section section-shell">
+              <header class="section-head"><div><span class="eyebrow">HEADLINE RESULT</span><h2>Strongest rank-1 signals</h2></div><p>Higher values mean the tag receives more praise and/or less criticism among winners.</p></header>
+              <div class="chart-controls" data-control="signal"><button data-value="12">TOP 12</button><button class="active" data-value="18">TOP 18</button><button data-value="all">ALL 33</button></div>
+        <div id="signal-list" class="chart" role="img" aria-label="Strongest rank-1 signals chart"><span class="loading-copy">Loading signal data…</span></div>
+            </section>
+
+            <section class="figure-grid">
+              <figure class="figure-card wide"><figcaption><span>01</span><div><h2>Tag prevalence</h2><p>Which themes juries discuss most often, separated by positive and critical language.</p></div><div class="chart-controls" data-control="prevalence"><button class="active" data-value="positive">POSITIVE</button><button data-value="negative">CRITICAL</button></div></figcaption><div id="prevalence-chart" class="chart" role="img" aria-label="Interactive tag prevalence chart"></div></figure>
+              <figure class="figure-card"><figcaption><span>02</span><div><h2>Winner signal</h2><p>Rank-1 prevalence difference with competition-bootstrap confidence intervals.</p></div><div class="chart-controls" data-control="winner"><button class="active" data-value="12">TOP 12</button><button data-value="18">TOP 18</button></div></figcaption><div id="winner-chart" class="chart" role="img" aria-label="Interactive winner signal chart"></div></figure>
+              <figure class="figure-card"><figcaption><span>03</span><div><h2>Within-competition signal</h2><p>Pairwise evidence comparing every unequal-rank pair within the same competition.</p></div><div class="chart-controls" data-control="pairwise"><button class="active" data-value="12">TOP 12</button><button data-value="18">TOP 18</button></div></figcaption><div id="pairwise-chart" class="chart" role="img" aria-label="Interactive pairwise rank chart"></div></figure>
+              <figure class="figure-card wide"><figcaption><span>04</span><div><h2>Attention across rank bands</h2><p>Positive and negative tag prevalence for winners, ranks 2–3, and ranks 4+.</p></div><div class="chart-controls" data-control="heatmap"><button class="active" data-value="both">BOTH</button><button data-value="positive">POSITIVE</button><button data-value="negative">CRITICAL</button></div></figcaption><div id="heatmap-chart" class="chart" role="img" aria-label="Interactive rank profile heatmap"></div></figure>
+              <figure class="figure-card wide"><figcaption><span>05</span><div><h2>Normalized winner emphasis</h2><p>Controls for the number of positive and negative statements in each design report.</p></div><div class="chart-controls" data-control="emphasis"><button class="active" data-value="12">TOP 12</button><button data-value="18">TOP 18</button></div></figcaption><div id="emphasis-chart" class="chart" role="img" aria-label="Interactive normalized emphasis chart"></div></figure>
+            </section>
+
+            <section class="expressions section-shell">
+              <header class="section-head"><div><span class="eyebrow">SOURCE LANGUAGE</span><h2>Representative jury expressions</h2></div><label>TAG<select id="tag-select" aria-label="Filter representative expressions"></select></label></header>
+              <div id="expression-grid" class="expression-grid"><span class="loading-copy">Loading expressions…</span></div>
+            </section>
+
+            <footer class="analysis-footer">
+              <p>Confidence intervals use competition-level bootstrap resampling. Ties are excluded from unequal-rank pairwise comparisons.</p>
+              <div><a href="../jury-text-analysis/results/winner_tag_signal.csv">WINNER SIGNAL CSV</a><a href="../jury-text-analysis/results/pairwise_rank_signal.csv">PAIRWISE CSV</a><a href="../jury-text-analysis/results/rank_profile.csv">RANK PROFILE CSV</a></div>
+            </footer>
+          </main>
+    </div>
+
+    <template id="entry-template">
+          <a class="entry-card">
+            <div class="entry-head"><span class="rank"></span><span class="entry-id"></span><span class="winner-badge">WINNER</span></div>
+            <div class="model-preview">
+              <img alt="" loading="lazy" />
+            </div>
+            <div class="entry-copy"><p></p></div>
+            <div class="entry-stats"><span class="positive-count"></span><span class="negative-count"></span></div>
+          </a>
+        </template>
+    <div id="chart-tooltip" class="chart-tooltip" hidden></div>
+    <script type="module" src="./assets/js/shell.js?v=1"></script>
+  </body>
+</html>

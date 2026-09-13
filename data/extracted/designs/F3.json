@@ -1,0 +1,322 @@
+{
+  "object_description": "staggered school volumes with an underground sports hall and occupied roof",
+  "geometry_property": [
+    "underground",
+    "staggered",
+    "offset",
+    "compact",
+    "above-ground",
+    "roof-terraced"
+  ],
+  "design_condition": "The sports hall is placed underground and the school volume is offset from the existing buildings, preserving generous open spaces while turning the sports-hall roof into a central break area and networking the surrounding spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The underground sports area and offset school extension create a relaxed and attractive urban ensemble.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "underground sports area and offset school extension",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2504,
+            0.3937,
+            0.2953
+          ],
+          "radius": 0.306,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall ensemble is visible, while the underground sports area and extension are not individually distinguishable."
+        }
+      },
+      {
+        "statement": "The centrally located roof break area gives the complex an overarching identity.",
+        "tags": [
+          "identity",
+          "open space"
+        ],
+        "position": {
+          "target": "central roof break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3325,
+            0.3099,
+            0.9629
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central top location is identifiable in plan, but the break area lacks a distinct sampled feature."
+        }
+      },
+      {
+        "statement": "Breaking the block-like figure into individual staggered buildings structures and networks the open spaces diversely.",
+        "tags": [
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "staggered buildings and networked open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1691,
+            0.8121,
+            0.4807
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view shows a non-rectilinear, staggered footprint with surrounding open edges."
+        }
+      },
+      {
+        "statement": "The entrance hall is spatially attractive and can be easily used and furnished.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3599,
+            0.2819,
+            0.3324
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior hall is not distinguishable; location is an approximate lower-level access zone on the sampled surface."
+        }
+      },
+      {
+        "statement": "The ground floor offers the right functions for a lively area between everyday school life and free time.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "ground floor area between school life and free time",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8306,
+            0.1668,
+            0.5178
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level band is constrained by the elevations and placed toward an open perimeter zone."
+        }
+      },
+      {
+        "statement": "The simple basic structure of the school floors is very carefully worked out.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8306,
+            0.1668,
+            0.7033
+          ],
+          "radius": 0.23,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular stacked floor structure is visible in elevations, though school-floor boundaries are not separately marked."
+        }
+      },
+      {
+        "statement": "The extension integrates harmoniously into the existing complex while achieving generous and attractive open spaces.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "extension and surrounding open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7496,
+            0.6088,
+            0.3695
+          ],
+          "radius": 0.29,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Peripheral massing and generous surrounding clear areas are visible in plan and elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large underground volume and overall envelope area cause the target costs to be exceeded.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "underground volume and overall envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7496,
+            0.6088,
+            0.2953
+          ],
+          "radius": 0.306,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall envelope is visible, while the underground volume is inferred from the stated condition."
+        }
+      },
+      {
+        "statement": "Underground buildings are generally judged less sustainable during construction and future renovation or renewal.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "underground buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2504,
+            0.3937,
+            0.184
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Underground construction is not directly separable in the exterior sample; placement marks the lower central volume."
+        }
+      },
+      {
+        "statement": "The compact underground and above-ground volumes and lightweight facade only help improve the sustainability targets.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "compact volumes and lightweight facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8318,
+            0.525,
+            0.5549
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Envelope compactness and facade treatment are broad properties, assigned to a representative exterior edge."
+        }
+      },
+      {
+        "statement": "The proposal may not have enough independence and freshness between the two striking listed buildings.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "space between the two listed buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3325,
+            0.3099,
+            0.4807
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central inter-building space is approximated from the open central area visible in plan."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "identity",
+      "expression",
+      "layout",
+      "functionality",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

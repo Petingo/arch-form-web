@@ -1,0 +1,289 @@
+{
+  "object_description": "three-story orthogonal volume enclosing a central open-space system",
+  "geometry_property": [
+    "orthogonal",
+    "three-story",
+    "compact",
+    "rectilinear",
+    "clustered",
+    "green-enclosed"
+  ],
+  "design_condition": "Set at the northeastern edge of the school grounds in alignment with the existing orthogonal buildings, the extension completes the complex and organizes distinct playgrounds, access areas, and a central break roof.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise urban-development completion preserves the existing context and links old and new naturally.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "urban-development completion",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7942,
+            0.9099,
+            0.4375
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The extension is anchored at the northeastern edge aligned with the existing complex."
+        }
+      },
+      {
+        "statement": "The floor-plan organization and distribution of uses are well structured.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "floor-plan organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9212,
+            0.556,
+            0.4688
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Orthogonal massing and internal open-space organization are legible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The two-sided exposure and surrounding views provide high spatial quality in the classrooms.",
+        "tags": [
+          "daylight",
+          "visibility"
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9212,
+            0.556,
+            0.7188
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper perimeter classroom zones are approximated along the well-exposed eastern and northern edges."
+        }
+      },
+      {
+        "statement": "The separated stair and inner access figure support everyday school life and flexible use.",
+        "tags": [
+          "circulation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "separated stair and inner access figure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3916,
+            0.1456,
+            0.4063
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The circulation figure is placed near the central access band, where the point cloud cannot distinguish interiors."
+        }
+      },
+      {
+        "statement": "The robust cluster units have strong potential for future educational concepts or changes in use.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "cluster units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3771,
+            0.8803,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated orthogonal volume and facade bands visibly support the clustered-unit reading."
+        }
+      },
+      {
+        "statement": "The central break roof divides the open spaces into appropriate, easily playable areas.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "central break roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3916,
+            0.1456,
+            0.7813
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central roof break is approximated within the visible open-space system."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central cloakroom situation on each floor is not operational and is not convincing.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "central cloakroom situation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3916,
+            0.1456,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The repeated central service location is approximated inside the building footprint."
+        }
+      },
+      {
+        "statement": "The elaborate architectural expression remains too isolated from the existing school campus.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0569,
+            0.7164,
+            0.5938
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west",
+            "north"
+          ],
+          "rationale": "Isolation from campus is anchored toward the outer western facade."
+        }
+      },
+      {
+        "statement": "The natural play area away from the building creates an everyday supervision problem during breaks.",
+        "tags": [
+          "open space",
+          "safety"
+        ],
+        "position": {
+          "target": "natural play area away from the building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7958,
+            0.0544,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The remote play area is placed in the southeastern open site zone."
+        }
+      },
+      {
+        "statement": "The building volume is slightly above average and its materialization has high costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "building volume and materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9212,
+            0.556,
+            0.5625
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall volume and extensive facade material are visible across all elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "functionality",
+      "circulation",
+      "flexibility",
+      "daylight",
+      "expression",
+      "open space",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "object_description": "tower-like addition interlocked with existing building volumes",
+  "geometry_property": [
+    "tower-like",
+    "irregular pentagonal",
+    "eight-storey",
+    "interlocking",
+    "vertical",
+    "compact"
+  ],
+  "design_condition": "The new volume occupies the plot edge and continues the adjacent street line, but rises prominently above the surrounding buildings and leaves a narrow, heavily shaded gap beside the existing structures.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The existing buildings are handled correctly and retained without unnecessary expansion or additional basement floors.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "existing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2339,
+            0.6688,
+            0.4812
+          ],
+          "radius": 0.3293,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Existing retained volumes appear as the lower, irregular mass around the compact vertical addition."
+        }
+      },
+      {
+        "statement": "The foyer and two-storey reading room are cleverly arranged and attractively designed.",
+        "tags": [
+          "layout",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "foyer and two-storey reading room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5228,
+            0.2924,
+            0.2591
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior rooms are not distinguishable; anchored near the lower southern portion of the sampled building."
+        }
+      },
+      {
+        "statement": "The sustainability focus and building-technology and fire-protection concepts are essentially viable.",
+        "tags": [
+          "sustainability",
+          "fire safety"
+        ],
+        "position": {
+          "target": "sustainability and building-technology and fire-protection concepts",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates building systems without a specific geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The tall new building appears too dominant in relation to the existing protected building and the urban context.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "tall new building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.913,
+            0.4067,
+            0.8328
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The prominent vertical volume rises above the lower surrounding mass and dominates the sampled elevations."
+        }
+      },
+      {
+        "statement": "The interlocking connection is disproportionate and unresolved in construction and design terms.",
+        "tags": [
+          "massing",
+          "proportion",
+          "structure"
+        ],
+        "position": {
+          "target": "interlocking connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5019,
+            0.468,
+            0.4812
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The connection is located where the diagonal lower volume meets the upright mass."
+        }
+      },
+      {
+        "statement": "The functional links between the different areas, especially administration and the adult library, are not satisfactorily resolved.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "functional links between administration and adult library",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5098,
+            0.4014,
+            0.3886
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Internal links are not visible; the anchor uses the central interface between the sampled volumes."
+        }
+      },
+      {
+        "statement": "The material expression of the façade seems strange in the urban-development context.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "material expression of the facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.913,
+            0.4067,
+            0.5552
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The exterior expression is assigned to the dominant exposed side of the new volume."
+        }
+      },
+      {
+        "statement": "Barrier-free construction is achieved only with restrictions.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "barrier-free construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Accessibility performance has no identifiable spatial marker in the exterior point cloud."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "proportion",
+      "layout",
+      "functionality",
+      "sustainability",
+      "accessibility"
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "object_description": "cube-like multi-story volume on a solid base with open atriums",
+  "geometry_property": [
+    "cube-like",
+    "compact",
+    "multi-story",
+    "elevated",
+    "atrium-centered",
+    "terraced",
+    "grid-based"
+  ],
+  "design_condition": "The compact volume is placed at the northwest edge on a solid base, defining the sports-field boundary while preserving most green space and relating precisely to the neighbouring retirement home.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building fits well into the surrounding area despite appearing five storeys high on the slope.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "topography"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.057,
+            0.7319,
+            0.5313
+          ],
+          "radius": 0.332,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Compact multi-story mass is visibly positioned toward the northwest portion of the sampled model."
+        }
+      },
+      {
+        "statement": "The local planning concept is clarified through a precise definition of the transition to the sports fields.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "transition to the sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9319,
+            0.2942,
+            0.1563
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Approximate site-edge anchor marks the building boundary where the stated sports-field transition occurs."
+        }
+      },
+      {
+        "statement": "The organizational structure is clear and corresponds to the local planning concept.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "organizational structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3542,
+            0.5425,
+            0.405
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Grid-based massing and repeated levels support a distributed anchor within the building organization."
+        }
+      },
+      {
+        "statement": "The central atrium ensures orientation over the entire height of the building.",
+        "tags": [
+          "visibility",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5345,
+            0.5299,
+            0.5313
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central opening is identifiable in plan and aligns vertically through the elevation point patterns."
+        }
+      },
+      {
+        "statement": "The atriums provide additional daylight and can also be used for outdoor work.",
+        "tags": [
+          "daylight",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4825,
+            0.5211,
+            0.625
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Open vertical zones are visible near the center, with elevations indicating their height and daylight exposure."
+        }
+      },
+      {
+        "statement": "The strong structure gives the large building a pleasant sense of scale.",
+        "tags": [
+          "structure",
+          "scale",
+          "proportion"
+        ],
+        "position": {
+          "target": "large building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2226,
+            0.477,
+            0.5625
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Regular structural point grids and repeated floor bands visibly establish scale across the large volume."
+        }
+      },
+      {
+        "statement": "The carefully processed construction and facades meet the architectural and building-physics requirements.",
+        "tags": [
+          "structure",
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7944,
+            0.5739,
+            0.5938
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "Exterior envelope surfaces are visible in elevations, though material processing is not separately distinguishable."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The transition to the access street appears not to have been thought through; direct access to the large break area should be considered.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "transition to the access street",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.286,
+            0.1667,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Unshown street connection is approximated at the lower building perimeter and access-facing base."
+        }
+      },
+      {
+        "statement": "The attractiveness of lighting the bicycle cellar exclusively via skylights can be questioned.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "bicycle cellar skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6504,
+            0.3892,
+            0.0625
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement daylight feature is not distinguishable, so placement is constrained near the sampled base."
+        }
+      },
+      {
+        "statement": "The access system takes up too much space without generating additional quality of stay.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "access system",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2588,
+            0.2339,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Circulation area is approximated along the lower base perimeter where access-related space would connect."
+        }
+      },
+      {
+        "statement": "The open staircase promotes communication but simultaneously impairs the flow of light.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "open staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5865,
+            0.5387,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior stair is not individually resolved but is plausibly anchored beside the central vertical void."
+        }
+      },
+      {
+        "statement": "Poor internal-development efficiency prevents some desired operational connections.",
+        "tags": [
+          "circulation",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal-development efficiency",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7685,
+            0.6975,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Operational connections are internal and unresolved, represented by a distributed mid-height interior anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "layout",
+      "circulation",
+      "daylight",
+      "functionality",
+      "operation",
+      "facade"
+    ]
+  }
+}

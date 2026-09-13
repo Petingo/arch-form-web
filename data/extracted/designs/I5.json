@@ -1,0 +1,367 @@
+{
+  "object_description": "elongated, three-story structure with stacked gymnasium volumes",
+  "geometry_property": [
+    "elongated",
+    "three-story",
+    "setback",
+    "stacked volumes",
+    "volumetrically differentiated",
+    "orthogonal",
+    "low auxiliary volume"
+  ],
+  "design_condition": "The elongated building is set back from the street, closes the opposite edge with stacked gymnasium volumes, extends the existing break area as an access route, and uses trees to soften the orthogonal composition.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The highly differentiated long volume seeks a scale and typological connection to the surrounding residential areas.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "long volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4183,
+            0.4446,
+            0.5829
+          ],
+          "radius": 0.321,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Elongated stacked massing is clearly visible diagonally across the top view and corroborated by elevations."
+        }
+      },
+      {
+        "statement": "The existing break area is continued along the building and serves as the main access.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "existing break area and main access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3743,
+            0.1778,
+            0.0857
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is assigned along the south-side edge of the elongated building at ground level."
+        }
+      },
+      {
+        "statement": "Arranging the cycle elements on the ground floor with a connection to the outside is commendable.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "cycle elements on ground floor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2438,
+            0.3181,
+            0.0857
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-floor cycle functions are placed beside the lower-middle portion with exterior connection."
+        }
+      },
+      {
+        "statement": "The clear internal organization helps with orientation.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "clear internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4318,
+            0.4544,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Organization is anchored to the building’s central longitudinal region, though interiors are not distinguishable."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The setback creates an area privatized by the outdoor kindergarten areas, which is questionable from an urban-planning perspective.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "setback and outdoor kindergarten areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4419,
+            0.2268,
+            0.0857
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The setback is assigned to the open south-side strip between the building and site edge."
+        }
+      },
+      {
+        "statement": "The banal arrangement of the gymnasiums and school building leads to no convincing urban-planning or architectural solution.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "gymnasiums and school building arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6505,
+            0.6129,
+            0.6657
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Stacked gymnasium volumes and the elongated school block are visibly differentiated in massing."
+        }
+      },
+      {
+        "statement": "The low auxiliary volume is barely integrated as an additional volume in the space.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "low auxiliary volume",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7063,
+            0.8269,
+            0.0857
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A detached rectangular low volume appears beyond the building’s upper end in the top view."
+        }
+      },
+      {
+        "statement": "The arrangement and compaction of bicycles, meadow areas, underplanting, fountain troughs, and tree canopy are not understood.",
+        "tags": [
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "bicycles, meadow areas, underplanting, fountain troughs, and tree canopy",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4554,
+            0.2366,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape-related elements are assigned broadly to the open ground surrounding the elongated footprint."
+        }
+      },
+      {
+        "statement": "The length of the central corridor appears unsuitable for children’s needs.",
+        "tags": [
+          "circulation",
+          "scale"
+        ],
+        "position": {
+          "target": "central corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4047,
+            0.4348,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The corridor is approximated along the building’s central longitudinal axis at middle height."
+        }
+      },
+      {
+        "statement": "The central zone on the first floor appears too narrow.",
+        "tags": [
+          "layout",
+          "scale"
+        ],
+        "position": {
+          "target": "central zone on the first floor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4588,
+            0.474,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The first-floor central zone is placed within the middle of the stacked elongated building."
+        }
+      },
+      {
+        "statement": "The dining areas are criticized for their tight dimensions and upper-floor arrangement.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "dining areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5764,
+            0.4724,
+            0.7486
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-floor dining areas are approximated in the elevated middle-to-upper portion of the building."
+        }
+      },
+      {
+        "statement": "The many projections and setbacks make the concrete skeleton structurally and economically complex.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "concrete skeleton projections and setbacks",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5964,
+            0.5738,
+            0.6657
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Stepped projections and differentiated volumes are visible across the building envelope."
+        }
+      },
+      {
+        "statement": "The clear internal organization does not seem to correspond to children’s standards.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "internal organization and children’s standards",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4318,
+            0.4544,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The judgment is anchored to the central internal organization, not a distinguishable exterior element."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "circulation",
+      "open space",
+      "landscape",
+      "scale",
+      "cost"
+    ]
+  }
+}

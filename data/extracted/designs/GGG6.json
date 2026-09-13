@@ -1,0 +1,514 @@
+{
+  "object_description": "rotated, lowered sports-hall volume with shed roofs",
+  "geometry_property": [
+    "rotated",
+    "lowered",
+    "large-footprint",
+    "rectilinear",
+    "shed-roofed",
+    "partly sunken"
+  ],
+  "design_condition": "The hall is rotated to align with surrounding residential and school buildings, lowered to limit its height, and positioned to preserve a clear forecourt while concentrating remaining outdoor uses along the plot boundaries.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The rotation creates an interesting forecourt where the main entrance is clearly visible.",
+        "tags": [
+          "open space",
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "forecourt and main entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8119,
+            0.2026,
+            0.1875
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The rotated footprint forms an identifiable open approach zone along the lower-right forecourt edge."
+        }
+      },
+      {
+        "statement": "The building is cleverly placed and hardly causes any disruption to the neighborhood despite its size.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "building placement",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Neighborhood disruption and placement are evaluated at overall site scale."
+        }
+      },
+      {
+        "statement": "The clear site-planning concept and appropriate architectural design are convincing in some areas.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "site-planning concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3337,
+            0.2557,
+            0.125
+          ],
+          "radius": 0.3202,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The rotated large footprint and boundary-oriented outdoor zones are legible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The functionally designed double sports hall has a calm interior atmosphere with sufficient natural lighting.",
+        "tags": [
+          "functionality",
+          "daylight"
+        ],
+        "position": {
+          "target": "double sports hall interior",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6669,
+            0.749,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central hall zone is approximated within the large sampled volume; interior atmosphere is not directly visible."
+        }
+      },
+      {
+        "statement": "The planned spatial structure allows the desired flexibility in the arrangement of studios and classrooms.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "studios and classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1881,
+            0.781,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Flexible learning spaces are approximated along the side zones of the broad building footprint."
+        }
+      },
+      {
+        "statement": "The proportion of glass can be precisely adapted to orientation, use and individual daylight needs.",
+        "tags": [
+          "facade",
+          "daylight"
+        ],
+        "position": {
+          "target": "glass proportion",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8663,
+            0.5398,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Facade glazing is assigned to the exposed eastern envelope, though glass itself is not separately identifiable."
+        }
+      },
+      {
+        "statement": "The requirements for ecology and sustainability are adequately depicted and described.",
+        "tags": [
+          "sustainability",
+          "expression"
+        ],
+        "position": {
+          "target": "ecology and sustainability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns documented environmental performance rather than a physical model location."
+        }
+      },
+      {
+        "statement": "The fire-protection, escape-route and building-physics requirements are planned in a comprehensible manner.",
+        "tags": [
+          "fire safety",
+          "safety"
+        ],
+        "position": {
+          "target": "fire-protection and escape routes",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Code compliance and escape planning are not spatially identifiable in the exterior point cloud."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The very large footprint comes at the expense of the surrounding areas.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "very large footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7112,
+            0.7025,
+            0.25
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The extensive low building footprint dominates the plan and is corroborated by all elevations."
+        }
+      },
+      {
+        "statement": "The many parking spaces occupy almost the entire central outdoor area.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "central parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.378,
+            0.2092,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking is approximated in the central forecourt zone, without individually visible parking elements."
+        }
+      },
+      {
+        "statement": "The entrances are sometimes narrow and winding.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "narrow and winding entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7884,
+            0.1807,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance access is constrained to the rotated forecourt edge where the approach meets the building."
+        }
+      },
+      {
+        "statement": "There are no shady trees, so the large surface area would heat up significantly in summer.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "shady trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.859,
+            0.2464,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Potential tree planting is assigned to the boundary landscape zone; vegetation is not distinctly sampled."
+        }
+      },
+      {
+        "statement": "The proportion of green space is very low, which is negative ecologically and for the microclimate.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "green space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2894,
+            0.3021,
+            0.0625
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Green-space deficiency concerns the distributed perimeter and residual outdoor areas."
+        }
+      },
+      {
+        "statement": "The lighting of the rooms in the inner layer is judged to be insufficient.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "inner-layer rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7112,
+            0.7025,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The inner layer is approximated near the central mass, though rooms are not separately visible."
+        }
+      },
+      {
+        "statement": "Separate narrow stairs serve both uses regardless of opening times.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "separate narrow stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1646,
+            0.7591,
+            0.3125
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Stair access is approximated along a side circulation zone without distinct stair geometry."
+        }
+      },
+      {
+        "statement": "The point skylights lead to uneven lighting and are disadvantageous for sports activities.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "point skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4564,
+            0.5414,
+            1
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level punctuated features are visible across the sampled shed-roof surfaces."
+        }
+      },
+      {
+        "statement": "The roof construction is judged to be complex and its statics are unresolved at the roof valleys.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "roof valleys",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5731,
+            0.6572,
+            0.9375
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Valley concerns are assigned to the upper roof junctions visible in the stepped elevations."
+        }
+      },
+      {
+        "statement": "The wooden slats are unsuitable because of shadows in the sports hall and concerns about cleaning.",
+        "tags": [
+          "facade",
+          "daylight",
+          "cost"
+        ],
+        "position": {
+          "target": "wooden slats",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8884,
+            0.5166,
+            0.5625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Slatted screening is approximated on the exposed facade; shadows and cleaning are not geometrically represented."
+        }
+      },
+      {
+        "statement": "A clear design concept for the outdoor spaces and user-friendly environmental planning is missing.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor spaces and environmental planning",
+          "spatial_scope": "site",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The criticism addresses the overall site concept rather than one identifiable outdoor feature."
+        }
+      },
+      {
+        "statement": "There is no coherent parking solution because the dual use of central zones is realistic only when parking spaces are closed.",
+        "tags": [
+          "circulation",
+          "operation",
+          "open space"
+        ],
+        "position": {
+          "target": "parking solution",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.378,
+            0.2092,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Dual-use parking is assigned to the central outdoor zone, where its arrangement is not explicitly distinguishable."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "structure",
+      "sustainability",
+      "operation"
+    ]
+  }
+}

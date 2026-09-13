@@ -1,0 +1,492 @@
+{
+  "object_description": "three sculptural volumes defining a shared outdoor space",
+  "geometry_property": [
+    "three volumes",
+    "offset",
+    "edge-forming",
+    "sculptural",
+    "multi-arm",
+    "partly enclosed"
+  ],
+  "design_condition": "Three volumes occupy the site edges, use the terrain offset to differentiate entrances, orient activities toward the park, and enclose playing and natural outdoor spaces while shielding the railway edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The setting of the three volumes leads to an urbanistically self-evident and functionally plausible proposal.",
+        "tags": [
+          "urban integration",
+          "functionality",
+          "massing"
+        ],
+        "position": {
+          "target": "three volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4836,
+            0.6513,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three distinct masses and their shared composition are visible across the top and four elevation views."
+        }
+      },
+      {
+        "statement": "The three buildings form an interesting ensemble with different sculptural shapes.",
+        "tags": [
+          "massing",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "sculptural ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5292,
+            0.6583,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Varied perimeter forms and stepped profiles produce the identifiable sculptural ensemble."
+        }
+      },
+      {
+        "statement": "The arrangement creates a generous, freely usable space with the potential to become a multifunctional schoolyard and neighborhood square.",
+        "tags": [
+          "open space",
+          "functionality",
+          "urban integration"
+        ],
+        "position": {
+          "target": "multifunctional schoolyard and neighborhood square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4834,
+            0.2914,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Open ground-level voids between masses indicate the shared outdoor space."
+        }
+      },
+      {
+        "statement": "The offset terrain is skilfully used to create differentiated entrance areas and outdoor spaces.",
+        "tags": [
+          "topography",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "differentiated entrance areas and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2573,
+            0.2515,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Offset lower edges and separated ground-level voids approximate entrance and outdoor-space locations."
+        }
+      },
+      {
+        "statement": "The organization and architectural design of the school floors are highly valued.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5982,
+            0.6806,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal elevation bands locate the occupied school levels within the masses."
+        }
+      },
+      {
+        "statement": "Actual learning landscapes develop along the meandering facade and the two atriums.",
+        "tags": [
+          "layout",
+          "functionality",
+          "daylight"
+        ],
+        "position": {
+          "target": "meandering facade and two atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6077,
+            0.736,
+            0.5833
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The irregular footprint and internal void patterns are clearest in plan and front-facing elevations."
+        }
+      },
+      {
+        "statement": "The response to railway noise and radiation with a closed double-shell wall is clear and consistent.",
+        "tags": [
+          "acoustics",
+          "safety",
+          "facade"
+        ],
+        "position": {
+          "target": "closed double-shell wall",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8203,
+            0.9121,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "A continuous outer edge provides the approximate protective facade anchor."
+        }
+      },
+      {
+        "statement": "The project offers spacious, easily usable access areas and differentiated classroom arrangements.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "access areas and classroom arrangements",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6136,
+            0.2914,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated bands and separated footprints support an approximate access and classroom location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The completely closed rear facade is perceived as too absolute and somewhat forced.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "completely closed rear facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8203,
+            0.9121,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The continuous rear perimeter edge is visible, though its exact orientation is unspecified."
+        }
+      },
+      {
+        "statement": "The required athletics facilities do not appear to be optimally located.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "athletics facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2573,
+            0.1806,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The lower-left open ground zone is the plausible sampled surface for external athletics."
+        }
+      },
+      {
+        "statement": "The crossing of functions requires elaborate internal routing that is not equally convincing everywhere.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "internal routing",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5952,
+            0.6801,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is not distinguishable; the anchor follows the central connected building region."
+        }
+      },
+      {
+        "statement": "Collisions can occur at the escape and learning balconies between different age groups.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "escape and learning balconies",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6158,
+            0.7011,
+            0.6667
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper perimeter bands provide the closest approximate location for balcony circulation."
+        }
+      },
+      {
+        "statement": "The proposed balconies do not currently work in terms of fire protection.",
+        "tags": [
+          "fire safety",
+          "functionality"
+        ],
+        "position": {
+          "target": "proposed balconies",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6158,
+            0.7011,
+            0.75
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper facade bands are the most plausible sampled surfaces for unidentifiable balconies."
+        }
+      },
+      {
+        "statement": "The required increased fire resistance generates disproportionately high costs.",
+        "tags": [
+          "fire safety",
+          "cost"
+        ],
+        "position": {
+          "target": "increased fire resistance",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5556,
+            0.674,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Fire-resistance requirements are assigned to the overall enclosed building envelope."
+        }
+      },
+      {
+        "statement": "The high spatial quality is accompanied by a poor ratio of effective school-room area to floor area.",
+        "tags": [
+          "functionality",
+          "proportion"
+        ],
+        "position": {
+          "target": "effective school-room area to floor area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5262,
+            0.6579,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The judgment concerns overall building-area efficiency across the sampled volume."
+        }
+      },
+      {
+        "statement": "The very large volume and above-average facade area negatively affect construction costs, energy balance, and sustainability.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "very large volume and facade area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5292,
+            0.6583,
+            0.5833
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed masses and extensive perimeter edges define the criticized building envelope."
+        }
+      },
+      {
+        "statement": "Various major adjustments are necessary to comply with fire regulations.",
+        "tags": [
+          "fire safety"
+        ],
+        "position": {
+          "target": "fire regulations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5556,
+            0.674,
+            0.5833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regulatory adjustments apply broadly to the enclosed building and circulation system."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "functionality",
+      "facade",
+      "fire safety",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

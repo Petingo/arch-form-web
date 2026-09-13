@@ -1,0 +1,329 @@
+{
+  "object_description": "two-story courtyard building volume",
+  "geometry_property": [
+    "courtyard-based",
+    "two-story",
+    "compact",
+    "inward-oriented",
+    "grid-structured",
+    "ring-circulation"
+  ],
+  "design_condition": "The volume closes the open space before the existing school, connects the school forecourts along the main axis, separates pedestrian and vehicular access, and creates a protected elevated courtyard and neighborhood-facing break area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The three use units are cleverly arranged for direct and independent access and operation.",
+        "tags": [
+          "layout",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "three use units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.221,
+            0.2943,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate perimeter zone represents one independently accessed unit within the compact courtyard arrangement."
+        }
+      },
+      {
+        "statement": "The primary structure uses a continuous grid that can be filled differently and adapted later.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "continuous structural grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4948,
+            0.0653,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Regular repeated grid is clearly visible across the plan and south elevation."
+        }
+      },
+      {
+        "statement": "The balanced proportion of wooden elements and clear system separation positively address ecological sustainability.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "wooden elements and clear system separation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ecological sustainability is a non-spatial performance judgment without a unique geometric anchor."
+        }
+      },
+      {
+        "statement": "The access and common areas connect attractively with the gymnasium and protected inner courtyard.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "access and common areas connecting gymnasium and inner courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4938,
+            0.6345,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central courtyard void visibly organizes circulation and adjoining common areas."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The facade design remains rudimentary and schematic, with an architectural expression more reminiscent of an office than a school building.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "rudimentary facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4948,
+            0.0653,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Representative outer facade is anchored on the clearly sampled south-facing envelope."
+        }
+      },
+      {
+        "statement": "The ring-shaped circulation and strict grid lead to a large consumption of traffic space.",
+        "tags": [
+          "circulation",
+          "layout",
+          "cost"
+        ],
+        "position": {
+          "target": "ring-shaped circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4938,
+            0.6345,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The continuous circulation ring is legible around the central courtyard in plan and elevations."
+        }
+      },
+      {
+        "statement": "The large volume and intended construction method are expected to produce the highest overall costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "large volume and intended construction method",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1745,
+            0.0653,
+            0.5
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Broad building massing is represented by a perimeter surface point; cost itself has no separate location."
+        }
+      },
+      {
+        "statement": "The statics remain unresolved in places because access changes between the floors.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "statics at floor access changes",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.694,
+            0.505,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Approximate mid-building location marks the unresolved structural condition associated with inter-floor access."
+        }
+      },
+      {
+        "statement": "The high proportion of glass, low storage mass, and zenithal light raise concerns about summer heat protection.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "summer heat protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.694,
+            0.6345,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper envelope anchors concerns involving glazing, storage mass, and zenithal light."
+        }
+      },
+      {
+        "statement": "The outdoor design lacks the potential of a networked, natural environment for a school.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "networked natural outdoor environment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.107,
+            0.0653,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape is absent from the sample; estimate is placed at the building’s outdoor edge."
+        }
+      },
+      {
+        "statement": "The inward-oriented typology communicates little with the surrounding outside space, and the gymnasium has little daylight.",
+        "tags": [
+          "urban integration",
+          "visibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "outside-facing facade and gymnasium daylight",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2063,
+            0.5019,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Outer envelope represents limited external communication; gym daylight is not separately distinguishable."
+        }
+      },
+      {
+        "statement": "The proposed typology is not convincing as a specific solution for special education schools.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building as a special education school solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2546,
+            0.0653,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The judgment concerns the complete compact courtyard typology, anchored to its visible building envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "courtyard",
+      "circulation",
+      "facade",
+      "flexibility",
+      "cost",
+      "sustainability",
+      "open space",
+      "daylight"
+    ]
+  }
+}

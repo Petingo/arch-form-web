@@ -1,0 +1,418 @@
+{
+  "object_description": "elongated narrow school body with an attached northern gymnasium",
+  "geometry_property": [
+    "elongated",
+    "narrow",
+    "linear",
+    "two-sided",
+    "transparent",
+    "multi-storey",
+    "roof-mounted court"
+  ],
+  "design_condition": "Placed along the road, the long building leaves the stream side available for attractive break and leisure areas, while a tree filter shapes the street edge and an entrance hall establishes a new pedestrian axis through the complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear two-sided approach creates consistent spatial relationships between the street, circulation and break room.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two-sided approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4437,
+            0.552,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Linear two-sided building organization is clearly legible in plan and all elevations."
+        }
+      },
+      {
+        "statement": "The tree row shapes the street-side outdoor space and forms a filter layer.",
+        "tags": [
+          "landscape",
+          "privacy"
+        ],
+        "position": {
+          "target": "tree row",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1317,
+            0.128,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "South-side strip marks the street-edge filter layer adjacent to the elongated body."
+        }
+      },
+      {
+        "statement": "The glazed access area offers beautiful views and promises a high quality of stay.",
+        "tags": [
+          "visibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "glazed access area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4169,
+            0.1498,
+            0.375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-central access zone is approximated from the building’s long street-facing edge."
+        }
+      },
+      {
+        "statement": "The building leaves generous space for attractive break and leisure areas along the stream.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "stream-side break and leisure areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7233,
+            0.9318,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North-side open strip represents the stream-side leisure area left beside the building."
+        }
+      },
+      {
+        "statement": "The ecological design encourages play and experiencing nature.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "ecological play landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2825,
+            0.9078,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North perimeter provides a plausible landscape anchor for play and nature experience."
+        }
+      },
+      {
+        "statement": "The entrance hall takes up an important urban axis and creates a new pedestrian connection.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "entrance hall pedestrian axis",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4256,
+            0.1616,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-central entry anchor follows the stated pedestrian connection through the linear complex."
+        }
+      },
+      {
+        "statement": "The basic layout is simple and consistently implemented, giving the complex a high degree of clarity.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "simple basic layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4351,
+            0.5402,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The narrow, repetitive linear body visibly supports a clear and simple organization."
+        }
+      },
+      {
+        "statement": "The equal classroom orientation provides optimal lighting and equal treatment of all classrooms.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "equal classroom orientation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6682,
+            0.4913,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal bands show consistent classroom alignment along the elongated body."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The east-facing classrooms and recreation rooms may not sufficiently address the unappealing existing building opposite.",
+        "tags": [
+          "urban integration",
+          "visibility"
+        ],
+        "position": {
+          "target": "east-facing classrooms and recreation rooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7636,
+            0.6209,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "East edge of the linear building anchors the criticized classroom and recreation-room frontage."
+        }
+      },
+      {
+        "statement": "The street-side parking location creates an unattractive view from the first-floor classrooms.",
+        "tags": [
+          "landscape",
+          "visibility"
+        ],
+        "position": {
+          "target": "street-side parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1893,
+            0.0242,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side strip approximates the street-edge parking view from upper classrooms."
+        }
+      },
+      {
+        "statement": "The northern kindergarten outdoor space is mostly shaded.",
+        "tags": [
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "northern kindergarten outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2739,
+            0.896,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North-side open area is the constrained location of the kindergarten outdoor space."
+        }
+      },
+      {
+        "statement": "The long corridors offer too little space for learning environments essential to modern lessons.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4351,
+            0.5402,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central longitudinal marker represents corridors running through the narrow building."
+        }
+      },
+      {
+        "statement": "The additional staircase in the entrance hall appears rather decorative because it is not necessary.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "additional staircase in entrance hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4256,
+            0.1616,
+            0.375
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-central entrance anchor approximates the questioned internal staircase."
+        }
+      },
+      {
+        "statement": "Whether natural ventilation is possible with the large west-facing glazed areas is open to question.",
+        "tags": [
+          "ventilation",
+          "facade"
+        ],
+        "position": {
+          "target": "west-facing glazed areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0445,
+            0.5932,
+            0.625
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "West facade of the elongated body is the stated glazed ventilation interface."
+        }
+      },
+      {
+        "statement": "The long corridors are rather unusable for current school lessons and are therefore inefficient.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7116,
+            0.5502,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Another longitudinal anchor captures the repeated corridor condition and its lesson inefficiency."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "landscape",
+      "open space",
+      "layout",
+      "circulation",
+      "daylight",
+      "visibility",
+      "ventilation",
+      "facade",
+      "functionality"
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "object_description": "single-storey addition with a gradated head structure",
+  "geometry_property": [
+    "orthogonal",
+    "terraced",
+    "single-storey addition",
+    "gradated",
+    "high-rise"
+  ],
+  "design_condition": "The building completes the campus square along the southern edge, follows existing terrace levels, and uses topographic adjustment to form a central open space.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The proposal interlocks with the existing structure like a missing fitting piece.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "missing fitting piece",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3548,
+            0.112,
+            0.1548
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern-edge massing is visible; the existing structure and interlock are inferred at the campus-facing connection."
+        }
+      },
+      {
+        "statement": "The vertical settlement is convincing and creates an orthogonal open space as the campus heart.",
+        "tags": [
+          "topography",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "central orthogonal open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6408,
+            0.5274,
+            0.1548
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The top view identifies a central opening, while elevations show its low position within the settled massing."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The combination of spaces is not yet convincing in terms of composition, and the break area is too dispersed for its needs.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3983,
+            0.1304,
+            0.1548
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior break-space distribution is not visible; the estimate uses the lower southern-facing campus zone."
+        }
+      },
+      {
+        "statement": "Access to the adjacent institution from the new campus centre is inadequately formulated and does not seem natural or inviting.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "access to adjacent institution",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4175,
+            0.1386,
+            0.0517
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access route is unmarked, so it is anchored at the likely southern campus-centre threshold."
+        }
+      },
+      {
+        "statement": "The central gesture reduces existing outdoor areas and sacrifices important mature trees, while the new tree groups weaken the intended connection.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "central gesture and tree groups",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5044,
+            0.1754,
+            0.0172
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape elements are absent; the marker covers the central and southern outdoor interface."
+        }
+      },
+      {
+        "statement": "The variety of outdoor-space qualities leads to confusion, and the potential of the roof areas is not developed.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor spaces and roof areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6246,
+            0.6222,
+            0.9828
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Visible roof footprints support an approximate upper eastern placement; outdoor-space qualities remain indistinguishable."
+        }
+      },
+      {
+        "statement": "The basement floor has clear organizational and spatial deficiencies and needs a clearer structure.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "basement floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3305,
+            0.1017,
+            0.0345
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The basement is not exposed, so the estimate follows the low southern-western building surface."
+        }
+      },
+      {
+        "statement": "The gradated head structure is questioned because its sculptural gesture is explained only by apartment sizes and room counts.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "gradated head structure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9437,
+            0.7256,
+            0.8966
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The tall stepped head is clearly differentiated on the eastern side across top and elevation views."
+        }
+      },
+      {
+        "statement": "The facade relief and its proposed cladding are difficult to understand, and the building reads more as solid construction than as the described hybrid system.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "facade relief and cladding",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9437,
+            0.7256,
+            0.6034
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The eastern and northern envelope surfaces are visible, but relief and cladding articulation are not separately resolved."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "topography",
+      "layout",
+      "circulation",
+      "landscape",
+      "massing",
+      "facade",
+      "expression"
+    ]
+  }
+}

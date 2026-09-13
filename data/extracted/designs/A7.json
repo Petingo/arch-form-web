@@ -1,0 +1,428 @@
+{
+  "object_description": "compact multi-storey block with three internal atriums",
+  "geometry_property": [
+    "compact",
+    "rectilinear",
+    "multi-storey",
+    "plinth-based",
+    "atrium-punctured",
+    "deep-plan"
+  ],
+  "design_condition": "The compact block occupies the south-western site area, with a square between existing volumes and split levels separating its upper school spaces from lower sports fields.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact volume and square between the existing volumes establish a clear basic arrangement.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "compact volume and square between existing volumes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2948,
+            0.8715,
+            0.1
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "Locating public uses such as management, media library and assembly hall on the first floor is positive.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "first-floor public uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9437,
+            0.3845,
+            0.15
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's floor reference."
+        }
+      },
+      {
+        "statement": "The level change naturally lights the gymnasiums and enables a side entrance and covered-playground connection.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "gymnasiums and side entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3002,
+            0.0848,
+            0.15
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "The main entrance at the north-east corner is a clever solution.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "north-east main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.82,
+            0.88,
+            0.18
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The northeast perimeter corner is constrained in plan; elevation supplies an approximate low-level entrance position."
+        }
+      },
+      {
+        "statement": "The entrance, foyer and assembly hall have a pleasant and generous overheight.",
+        "tags": [
+          "proportion"
+        ],
+        "position": {
+          "target": "entrance, foyer and assembly hall overheight",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6205,
+            0.6022,
+            0.15
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "The open main staircase connects all floors, with closed staircases resolving escape routes.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "open main staircase and closed staircases",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6061,
+            0.3086,
+            0.8
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The continuous atriums provide views and create additional space.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "continuous atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.49,
+            0.56,
+            0.52
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Several internal voids are directly visible in plan and interrupt the mass through the elevations."
+        }
+      },
+      {
+        "statement": "The authors make productive use of the spaces generated by the structural system.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "spaces generated by structural system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.248,
+            0.855,
+            0.15
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The storey-high offset divides the site unconvincingly in the slightly sloping terrain.",
+        "tags": [
+          "topography"
+        ],
+        "position": {
+          "target": "storey-high offset",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5,
+            0.05,
+            0.36
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "A horizontal level break is evident on the elevations, though the sloping terrain itself is not modeled."
+        }
+      },
+      {
+        "statement": "The lower level has its own scale and structure, with little relationship to the upper level.",
+        "tags": [
+          "massing"
+        ],
+        "position": {
+          "target": "lower level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.05,
+            0.18
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The lower band is visibly distinct beneath the upper mass in both available elevations."
+        }
+      },
+      {
+        "statement": "The rooms along all four facades prevent dialogue between the central zone and outside space.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "rooms along all four facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.484,
+            0.4887,
+            0.75
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "The atriums' dimensions make the light intensity seem rather low, at least on the second floor.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "second-floor atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.49,
+            0.56,
+            0.68
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Atrium openings are visible in plan; the second-floor level is approximated from the elevation stack."
+        }
+      },
+      {
+        "statement": "Overlapping structural concepts lead to spatial constraints.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "overlapping structural concepts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7549,
+            0.7987,
+            0.55
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The apparent flexibility is only partial, and the access zone is particularly problematic for learning landscapes or studios.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "access zone and learning landscapes or studios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5653,
+            0.967,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "The resulting corridors lack spatial quality.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3605,
+            0.6452,
+            0.65
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The strong basic concept of the first level has been obscured and is not convincing overall.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "first-level basic concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3444,
+            0.6983,
+            0.8
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "keyword": [
+      "topography",
+      "entrance",
+      "daylight",
+      "atriums",
+      "flexibility",
+      "circulation",
+      "learning landscape",
+      "structure",
+      "urban integration"
+    ]
+  }
+}

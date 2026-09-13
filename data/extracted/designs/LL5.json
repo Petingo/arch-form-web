@@ -1,0 +1,262 @@
+{
+  "object_description": "single building volume with a central illuminated void",
+  "geometry_property": [
+    "single volume",
+    "parallel placement",
+    "mill-wing arrangement",
+    "central void",
+    "zenithally lit",
+    "irregular vertical rhythm"
+  ],
+  "design_condition": "The building runs parallel to the neighboring block, freeing a small public square while extending the open yard eastward toward the river and along the adjacent parking area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The architectural expression, especially toward the square, is particularly appreciated.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "square-facing facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3795,
+            0.1845,
+            0.5384
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate square-facing edge is assigned to the front perimeter visible in top and south views."
+        }
+      },
+      {
+        "statement": "The proportions between floors and the elegant materialization affirm the building’s presence.",
+        "tags": [
+          "proportion",
+          "expression"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6955,
+            0.0658,
+            0.5384
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Building-scale proportion and material presence are anchored on a visible outer envelope region."
+        }
+      },
+      {
+        "statement": "The arrhythmic vertical structure creates a clear distinction from the surrounding regular architecture.",
+        "tags": [
+          "expression",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "arrhythmic vertical structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6945,
+            0.0557,
+            0.6153
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Irregular vertical facade rhythm is visibly distributed across the elevation point patterns."
+        }
+      },
+      {
+        "statement": "This refined composition gives the school its own identity.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "school identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2741,
+            0.2241,
+            0.6538
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Identity judgment is anchored to the distinct overall building volume and its irregular envelope."
+        }
+      },
+      {
+        "statement": "The restaurant and meeting room facing the square give the building a convincing presence.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "restaurant and meeting room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4146,
+            0.1713,
+            0.2692
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are not distinguishable; placement follows the square-facing lower front edge."
+        }
+      },
+      {
+        "statement": "The classrooms arranged around a naturally lit void establish a coherent spatial system.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "classrooms around central void",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6385,
+            0.7716,
+            0.5384
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central void is visible in top view; surrounding classroom arrangement is inferred around it."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The public square lacks precision because it appears to result from surrounding alignments.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "public square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2513,
+            0.2327,
+            0.0385
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The square is not sampled distinctly; it is placed immediately outside the front building edge."
+        }
+      },
+      {
+        "statement": "Separate gym access introduces partitions that disrupt the regularity of the central system.",
+        "tags": [
+          "layout",
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "separate gym access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9432,
+            0.4545,
+            0.3077
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Gym access is interior and indistinct; an approximate lateral zone is assigned within the sampled volume."
+        }
+      },
+      {
+        "statement": "The overall system appears excessively complicated.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "overall system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7438,
+            0.7321,
+            0.4615
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall complexity is anchored broadly across the visible irregular building system."
+        }
+      }
+    ],
+    "keyword": [
+      "expression",
+      "facade",
+      "proportion",
+      "identity",
+      "massing",
+      "urban integration",
+      "layout",
+      "daylight"
+    ]
+  }
+}

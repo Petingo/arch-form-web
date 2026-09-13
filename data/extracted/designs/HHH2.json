@@ -1,0 +1,343 @@
+{
+  "object_description": "three-building ensemble around a central courtyard",
+  "geometry_property": [
+    "three-part",
+    "offset",
+    "windmill-like",
+    "courtyard-forming",
+    "volumetrically staggered",
+    "raised southern volume"
+  ],
+  "design_condition": "Two new volumes extend the existing building in an offset arrangement, define a central courtyard, preserve adjacent outdoor spaces, and raise the southern building in response to the terrain.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The new volumes are precisely placed and include the existing building worth protecting.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "new volumes and existing building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5594,
+            0.5543,
+            0.5556
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three offset masses and their volumetric relationship are clearly legible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The ensemble has a good scale and site integration within the existing district.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "ensemble scale and site integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6467,
+            0.4455,
+            0.3333
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad ensemble placement and massing provide a plausible site-scale anchor."
+        }
+      },
+      {
+        "statement": "The central courtyard creates exciting diagonal references and views outward.",
+        "tags": [
+          "open space",
+          "visibility"
+        ],
+        "position": {
+          "target": "central courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5679,
+            0.5439,
+            0.0556
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central opening between offset volumes is identifiable in plan and bounded by surrounding elevations."
+        }
+      },
+      {
+        "statement": "The simple access concept connecting all school buildings strengthens the campus character.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "access concept connecting school buildings",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5679,
+            0.5439,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central connector zone is inferred from the arrangement of the three visible buildings."
+        }
+      },
+      {
+        "statement": "The flexible division of the main usable areas is enabled by the rotated core arrangement.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "rotated core arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4581,
+            0.6189,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior cores are not exposed, so the anchor follows the visible rotated massing near the ensemble center."
+        }
+      },
+      {
+        "statement": "The school and group rooms are almost always well lit.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "school and group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7207,
+            0.6852,
+            0.5556
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Interior rooms are unseen; the estimate uses an upper perimeter region of the sampled building masses."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The row of trees unfavorably cuts up the important open space in front of the gymnasium.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "row of trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.167,
+            0.1018,
+            0.0556
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stated foreground open space is approximated along the southern edge of the visible ensemble."
+        }
+      },
+      {
+        "statement": "Side rooms in the central hall reduce spaciousness and make the rooms difficult to find.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "side rooms in central hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5594,
+            0.5543,
+            0.4444
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The interior hall is not distinguishable; placement follows the central void and adjacent building surfaces."
+        }
+      },
+      {
+        "statement": "The main-building access remains outside the new center, contrary to the desired connection.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main-building access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.272,
+            0.7482,
+            0.2778
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The access point is not identifiable, so it is placed at an outer northwestern building edge."
+        }
+      },
+      {
+        "statement": "Some proposed uses cannot be implemented in the existing building or do not meet operational requirements.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "existing building uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2615,
+            0.7614,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Operationally affected spaces are interior; the anchor uses the likely existing northern volume."
+        }
+      },
+      {
+        "statement": "Strict adherence to the existing buildings restricts implementation and future flexibility.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "existing-building constraints",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7689,
+            0.3444,
+            0.4444
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The critique concerns the ensemble-wide relationship between retained and newly arranged masses."
+        }
+      },
+      {
+        "statement": "The development and access situation does not convincingly serve the operation.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "development and access situation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7423,
+            0.3262,
+            0.2778
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Site access is not explicitly marked; the estimate uses the southern outer circulation edge."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "courtyard",
+      "circulation",
+      "open space",
+      "layout",
+      "functionality",
+      "flexibility",
+      "operation"
+    ]
+  }
+}

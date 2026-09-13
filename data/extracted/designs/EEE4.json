@@ -1,0 +1,269 @@
+{
+  "object_description": "slim compact rectangular structure with a small counterpoint volume",
+  "geometry_property": [
+    "slim",
+    "compact",
+    "rectangular",
+    "low-rise",
+    "orthogonal",
+    "grid-based",
+    "modular"
+  ],
+  "design_condition": "The building is placed perpendicular to the existing school at the northwest edge, using the terrain to connect multiple entrances with generous outdoor spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The choice of location, orientation, and size is clear and comprehensible.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "building location and orientation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1393,
+            0.6064,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "A slim orthogonal bar is clearly oriented along one edge with a small counterpoint volume."
+        }
+      },
+      {
+        "statement": "The slim structure generates a generous amount of open space.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "slim structure and open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4433,
+            0.3366,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact bar leaves a broad visible open field around its footprint."
+        }
+      },
+      {
+        "statement": "Different entrances and exits connect the building with the open space through the topography.",
+        "tags": [
+          "circulation",
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "entrances and exits",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1627,
+            0.5857,
+            0.2
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Door locations are not individually resolved; the marker uses the terrain-facing building edge."
+        }
+      },
+      {
+        "statement": "The simple open-space design gives the children plenty of scope.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "open-space design",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7777,
+            0.5303,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sparse site arrangement visibly creates a generous outdoor zone beside the compact mass."
+        }
+      },
+      {
+        "statement": "The compact structure uses resources economically and requires little earth movement.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "compact resource-efficient structure",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource economy is a whole-building judgment without a single spatial marker."
+        }
+      },
+      {
+        "statement": "The flexible construction principle allows the room to be divided as freely as possible.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "flexible construction principle",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility concerns the construction system rather than a distinguishable sampled element."
+        }
+      },
+      {
+        "statement": "The compact mass and low height permit regular illumination.",
+        "tags": [
+          "massing",
+          "daylight"
+        ],
+        "position": {
+          "target": "low compact mass",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1861,
+            0.5649,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The bar remains low and compact across all elevations, supporting regular illumination."
+        }
+      },
+      {
+        "statement": "The structure allows various spatial constellations and can adapt to changing usage requirements.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "adaptable spatial constellations",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Adaptability is a building-wide organizational claim without one visible geometric referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The preliminary test shows that not all dimensions specified in the spatial program are adhered to because the grid dimensions were defined too narrowly.",
+        "tags": [
+          "functionality",
+          "proportion",
+          "layout"
+        ],
+        "position": {
+          "target": "undersized grid dimensions",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Program dimensional compliance is evaluative and has no reliable geometric point anchor."
+        }
+      },
+      {
+        "statement": "The proposed transparency prevents the quiet, rather closed room zones necessary for operation.",
+        "tags": [
+          "facade",
+          "privacy",
+          "operation"
+        ],
+        "position": {
+          "target": "transparent facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1861,
+            0.5649,
+            0.55
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The principal long elevations are visible, but transparency is not separately distinguishable in the point sample."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "topography",
+      "circulation",
+      "sustainability",
+      "flexibility",
+      "daylight",
+      "functionality",
+      "operation"
+    ]
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "object_description": "faceted upright volume with a folded roof",
+  "geometry_property": [
+    "faceted",
+    "upright",
+    "vertically stacked",
+    "folded-roofed",
+    "concentric",
+    "monolithic",
+    "institutional"
+  ],
+  "design_condition": "The main volume marks the site's upper corner, preserves a generous central green space, opens the view toward the village, and initiates a pedestrian route through a public park.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The corner building has the force of a sign and marks the project's institutional role.",
+        "tags": [
+          "massing",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "corner building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7838,
+            0.113,
+            0.5
+          ],
+          "radius": 0.327,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Faceted upright mass occupies a prominent footprint corner and rises clearly in the elevations."
+        }
+      },
+      {
+        "statement": "The folded roof conceals the four-storey program so that only three storeys are visible from around the building.",
+        "tags": [
+          "massing",
+          "scale",
+          "expression"
+        ],
+        "position": {
+          "target": "folded roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5816,
+            0.4768,
+            0.9565
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distinct folded roof profile is visible at the upper edge of the faceted volume."
+        }
+      },
+      {
+        "statement": "The decision to build at the edges preserves a generous green space in the center.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "central green space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3305,
+            0.5213,
+            0.0435
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view shows open space retained within and around the building edges."
+        }
+      },
+      {
+        "statement": "The corner solution fully opens the view from the station toward the village and initiates a pedestrian route through a public park.",
+        "tags": [
+          "visibility",
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "station-to-village view and pedestrian route",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1307,
+            0.2785,
+            0.0435
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A peripheral ground-level site zone represents the stated view corridor and park route."
+        }
+      },
+      {
+        "statement": "The project has good energy and environmental characteristics.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "energy and environmental characteristics",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Performance judgment has no specific spatial referent in the sampled geometry."
+        }
+      },
+      {
+        "statement": "The project can be complied with in terms of fire protection.",
+        "tags": [
+          "fire safety"
+        ],
+        "position": {
+          "target": "fire protection",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Compliance judgment has no identifiable geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The relevance of such a small school on four levels remains questionable.",
+        "tags": [
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "small school on four levels",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5483,
+            0.0753,
+            0.5217
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact upright building and vertically stacked elevation profile are clearly visible."
+        }
+      },
+      {
+        "statement": "The long route to the nursery floor and garden is problematic.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "nursery floor and garden route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7927,
+            0.1144,
+            0.087
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level peripheral placement approximates the route toward the nursery and garden."
+        }
+      },
+      {
+        "statement": "The garden is probably not large enough to accommodate all age groups.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1733,
+            0.3171,
+            0.0217
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "An open ground-level edge zone provides a plausible garden location."
+        }
+      },
+      {
+        "statement": "The nursery has no second outdoor extension for children upstairs.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "second outdoor extension for upstairs children",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2635,
+            0.3989,
+            0.5652
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper-level placement is constrained by the multistorey envelope, though no extension is distinguishable."
+        }
+      },
+      {
+        "statement": "Passing through the central hall disrupts the unity of groups by mixing flows.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3316,
+            0.5265,
+            0.4565
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Near-central placement follows the apparent central opening within the footprint."
+        }
+      },
+      {
+        "statement": "The sanitary facilities are too hidden or too far from the living areas.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "sanitary facilities",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.91,
+            0.4103,
+            0.3478
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A peripheral interior-adjacent location approximates hidden sanitary facilities."
+        }
+      },
+      {
+        "statement": "The project provides little information about its materialization and architectural expression.",
+        "tags": [
+          "expression"
+        ],
+        "position": {
+          "target": "materialization and architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5485,
+            0.7153,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The comment concerns the visible overall envelope, while material details are not sampled."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "identity",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "sustainability",
+      "expression"
+    ]
+  }
+}

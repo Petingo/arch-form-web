@@ -1,0 +1,509 @@
+{
+  "object_description": "compact three-storey building offset from a residential slab",
+  "geometry_property": [
+    "compact",
+    "three-storey",
+    "slightly offset",
+    "rationally structured",
+    "abstractly expressed"
+  ],
+  "design_condition": "The building is offset between contrasting existing urban patterns, preserves the southern site, and organizes a sequence of outdoor spaces around the existing buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact building creates a harmonious composition with the existing buildings.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "compact composition with existing buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8243,
+            0.7129,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The compact offset footprint provides a useful anchor for the overall composition."
+        }
+      },
+      {
+        "statement": "The treatment of the listed building demonstrates a precise interpretation of the existing structure.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "listed building interpretation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1691,
+            0.7767,
+            0.3336
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The existing listed structure is not distinguishable, so placement uses an offset perimeter location."
+        }
+      },
+      {
+        "statement": "The new sequence of outdoor spaces corresponds naturally to the different school uses and their spatial qualities.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "sequence of outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3572,
+            0.5099,
+            0.0839
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The top view reveals a central recessed outdoor sequence and lower-level openings."
+        }
+      },
+      {
+        "statement": "The open entrance hall effectively links the main entrance with the secondary-school playground.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "open entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.445,
+            0.3015,
+            0.1255
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A lower central opening is the most plausible visible entrance-hall anchor."
+        }
+      },
+      {
+        "statement": "Clear spatial organization and a rational building structure enable a precise distribution of uses.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "clear spatial organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8389,
+            0.6782,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular perimeter and repeated elevation bands visibly support an organized building reading."
+        }
+      },
+      {
+        "statement": "The cluster arrangement and movable room dividers provide a flexible learning landscape.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "flexible learning landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3425,
+            0.5447,
+            0.2503
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior flexibility is not visible; the anchor approximates the central occupied zone."
+        }
+      },
+      {
+        "statement": "The distribution of uses across the entire site generally seems sensible and appropriate.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "distribution of uses across site",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8039,
+            0.2109,
+            0.1671
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A distributed lower perimeter point represents the site-wide use arrangement."
+        }
+      },
+      {
+        "statement": "The façade elements and glazing show pleasant proportioning and materialization.",
+        "tags": [
+          "facade",
+          "proportion",
+          "expression"
+        ],
+        "position": {
+          "target": "facade elements and glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9121,
+            0.5045,
+            0.5832
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated facade bands are visible, although individual glazing elements remain unresolved."
+        }
+      },
+      {
+        "statement": "The compact construction volume and thermal mass support the stated sustainability requirements.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "compact construction volume and thermal mass",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1757,
+            0.2848,
+            0.5416
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Dense outer volume and substantial repeated elevations clearly support the massing anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The internal path network is restricted by a problematic bottleneck and peripheral routes.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "internal path bottleneck",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4597,
+            0.2668,
+            0.1671
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower central opening is the plausible surface location for a circulation bottleneck."
+        }
+      },
+      {
+        "statement": "The opportunity to specify the outdoor spaces is missed, and the green-space design remains vague.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "vague green-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4743,
+            0.2321,
+            0.0423
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern exterior space is visible only as an approximate site-edge region."
+        }
+      },
+      {
+        "statement": "The required checkrooms restrict the flexible use of the daylit access areas.",
+        "tags": [
+          "flexibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "required checkrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7354,
+            0.1812,
+            0.1671
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Checkrooms are interior and unresolved, approximated near the lower access zone."
+        }
+      },
+      {
+        "statement": "The day-school and multi-purpose spaces remain schematic, with access and spatial proportions unresolved.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "day-school and multi-purpose spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4011,
+            0.4057,
+            0.2087
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Unresolved lower-level interior uses receive a constrained central approximation."
+        }
+      },
+      {
+        "statement": "The distribution of uses occasionally results in long distances across the site.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "long distances across site",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8039,
+            0.2109,
+            0.0839
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A peripheral site anchor represents the criticized extent of movement across the layout."
+        }
+      },
+      {
+        "statement": "The architectural expression turns away from the existing atmospheric qualities of the complex.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "architectural expression toward existing complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1691,
+            0.7767,
+            0.5832
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The abstract sampled envelope is visible, while atmospheric qualities of existing buildings are absent."
+        }
+      },
+      {
+        "statement": "The window arrangement does not appear sufficiently tested against use or the need for openness.",
+        "tags": [
+          "facade",
+          "visibility"
+        ],
+        "position": {
+          "target": "window arrangement",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8828,
+            0.574,
+            0.6248
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated elevation points locate the windowed facade, though individual openings are not separable."
+        }
+      },
+      {
+        "statement": "The hard access areas leave a cool impression and require further acoustic and functional measures.",
+        "tags": [
+          "acoustics",
+          "functionality"
+        ],
+        "position": {
+          "target": "hard access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.489,
+            0.1974,
+            0.1255
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance-side lower zone is the plausible anchor for acoustic and functional concerns."
+        }
+      },
+      {
+        "statement": "The heat-generation solution does not conclusively answer all questions regarding feasibility.",
+        "tags": [
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "heat-generation solution",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Heating feasibility is operational and not spatially represented by the exterior point cloud."
+        }
+      },
+      {
+        "statement": "The desire for abstraction does not fully meet the requirements of contemporary learning environments.",
+        "tags": [
+          "expression",
+          "functionality"
+        ],
+        "position": {
+          "target": "abstract architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8975,
+            0.5392,
+            0.5832
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The simplified compact envelope visibly supports an overall expression anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "circulation",
+      "open space",
+      "facade",
+      "expression",
+      "flexibility",
+      "daylight",
+      "sustainability"
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "object_description": "continuous volume with a folded roof landscape",
+  "geometry_property": [
+    "continuous",
+    "elongated",
+    "low",
+    "folded-roofed",
+    "stepped",
+    "recessed",
+    "projecting"
+  ],
+  "design_condition": "The volume follows Schulhausstrasse in small projections and recesses, presents a long calm facade toward the cemetery, and creates covered forecourts and a square while integrating with the village scale.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The various uses are interlinked and accommodated in the smallest possible volume.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "interlinked uses in compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4268,
+            0.363,
+            0.4089
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous elongated volume is clearly visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The long, calm façade towards the cemetery is a clear spatial gesture.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "long calm facade towards cemetery",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4875,
+            0.7419,
+            0.5271
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The long, regular northern facade is prominent in the plan and elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The diversity of the space defined along Schulhausstrasse is too extensive and somewhat arbitrary.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "space along Schulhausstrasse",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3648,
+            0.2776,
+            0.3498
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The projecting and recessed street-facing edge is visible along the southern side."
+        }
+      },
+      {
+        "statement": "Accommodating all uses in one continuous volume greatly affects their legibility.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "continuous volume legibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4268,
+            0.363,
+            0.4089
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "One continuous elongated mass visibly contains the full program."
+        }
+      },
+      {
+        "statement": "The school rooms are arranged confusingly along a wide, poorly lit corridor.",
+        "tags": [
+          "layout",
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "school rooms along wide poorly lit corridor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6634,
+            0.6244,
+            0.4089
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The corridor and rooms are not separable; placement follows the building’s elongated middle."
+        }
+      },
+      {
+        "statement": "The stepped façade limits future changes in use.",
+        "tags": [
+          "facade",
+          "flexibility"
+        ],
+        "position": {
+          "target": "stepped facade limiting future changes",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.207,
+            0.2482,
+            0.4089
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Stepped projections are visible along the street-facing facade."
+        }
+      },
+      {
+        "statement": "The low community hall and small tiered classroom arrangement are not satisfactory.",
+        "tags": [
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "low community hall and tiered classroom arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5739,
+            0.2648,
+            0.1724
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low eastern portion provides the plausible community-hall and classroom anchor."
+        }
+      },
+      {
+        "statement": "The insertion of the community hall under the school building causes unfavorable load transfer.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "community hall load transfer",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7713,
+            0.5373,
+            0.2907
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structural concern is assigned where the low hall meets the upper continuous volume."
+        }
+      },
+      {
+        "statement": "The architectural impression of individual areas suffers too much from the optimized volume.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "architectural impression of individual areas",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns overall architectural expression rather than a discrete model location."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "village scale",
+      "facade",
+      "legibility",
+      "layout",
+      "daylight",
+      "flexibility",
+      "structure"
+    ]
+  }
+}

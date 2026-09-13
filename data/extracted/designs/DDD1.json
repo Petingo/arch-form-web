@@ -1,0 +1,382 @@
+{
+  "object_description": "moderate-height hall with staggered roof segments",
+  "geometry_property": [
+    "moderate-height",
+    "tapered flanks",
+    "staggered roof",
+    "three-part roof profile",
+    "two building volumes",
+    "portico-fronted"
+  ],
+  "design_condition": "The replacement hall follows the former alignment and remains subordinate to the school building, enclosing the schoolyard while the cultural building forms a separate courtyard ensemble with neighbouring public buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban positioning of the two new building volumes and the creation of attractive outdoor spaces are convincing.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "two new building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6255,
+            0.4714,
+            0.5
+          ],
+          "radius": 0.302,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Two distinct masses and their courtyard relationship are clearly visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The constructive design and atmospheric materialization promise a high architectural quality.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "constructive design and materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6223,
+            0.4796,
+            0.571
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled envelope and staggered roof profile provide the building-scale architectural anchor."
+        }
+      },
+      {
+        "statement": "The buildings have a simple structure and can be expected to be cost-effective due to their efficiency.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "simple structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4969,
+            0.2162,
+            0.429
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The primary hall volume supplies a representative anchor for the simple structural organization."
+        }
+      },
+      {
+        "statement": "The highly prefabricated timber construction can be assumed to be economical and sustainable.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "prefabricated timber construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6603,
+            0.3383,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Material system is not distinguishable; the eastern sampled volume provides a constrained envelope location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The colonnade should be developed further to strengthen the representative appearance and inviting gesture.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "colonnade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3073,
+            0.0743,
+            0.3581
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely representative frontage is placed along the lower, schoolyard-facing edge of the main volume."
+        }
+      },
+      {
+        "statement": "The natural-stone carpet should be reviewed for rainwater management and heat reduction.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "natural-stone carpet",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4452,
+            0.1775,
+            0.0742
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Hard landscape is assigned to the open ground immediately south of the main building."
+        }
+      },
+      {
+        "statement": "The tree population should be further developed for space creation, shading and habitat promotion.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "tree population",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5831,
+            0.2806,
+            0.0742
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape elements are not distinguishable; a plausible schoolyard edge location is used."
+        }
+      },
+      {
+        "statement": "The kink in the side façades should be cleaned up in coordination with the monopitch roofs.",
+        "tags": [
+          "facade",
+          "proportion"
+        ],
+        "position": {
+          "target": "kink in the side façades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7721,
+            0.551,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Angled side edges and their alignment with the roof breaks are visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The catering-delivery position should be examined to separate pedestrian and vehicle flows.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "catering-delivery position",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6693,
+            0.3451,
+            0.0742
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Delivery access is not marked; the outer eastern service edge is the plausible vehicle interface."
+        }
+      },
+      {
+        "statement": "The stage should be opened more generously to the schoolyard and access from the west should be examined.",
+        "tags": [
+          "layout",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "stage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.583,
+            0.5784,
+            0.3581
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior stage is inferred within the larger primary hall volume facing the schoolyard."
+        }
+      },
+      {
+        "statement": "The adjoining rooms should be optimized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "adjoining rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7816,
+            0.685,
+            0.3581
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Secondary rooms are approximated within the smaller eastern volume."
+        }
+      },
+      {
+        "statement": "The internal access, especially to the stage, should be enlarged for larger groups and changing performers.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal access to the stage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6018,
+            0.5311,
+            0.429
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal circulation is assigned to the connector area between the main hall zones."
+        }
+      },
+      {
+        "statement": "Disabled access to the stage must be ensured.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "disabled access to the stage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4969,
+            0.2162,
+            0.2161
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Accessible stage approach is approximated from the lower schoolyard-facing edge."
+        }
+      },
+      {
+        "statement": "Toilets should be provided in the side-stage area on the first floor.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "toilets in the side-stage area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5815,
+            0.5823,
+            0.7155
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Side-stage toilets are inferred within the upper level of the secondary eastern volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "expression",
+      "landscape",
+      "sustainability",
+      "circulation",
+      "functionality",
+      "accessibility",
+      "cost"
+    ]
+  }
+}

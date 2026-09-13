@@ -1,0 +1,369 @@
+{
+  "object_description": "compact five-storey volume on a terraced substructure",
+  "geometry_property": [
+    "compact",
+    "five-storey",
+    "vertical",
+    "horizontal",
+    "small-footprint",
+    "terraced",
+    "lightweight"
+  ],
+  "design_condition": "Positioned vertically to the slope and set back from the road, the compact volume preserves the listed context, supports air movement across the site, and creates varied terraces and generous usable outdoor spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise positioning blends in with the existing context and achieves particularly good integration.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "precise positioning and context integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3684,
+            0.3175,
+            0.567
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact diamond-like footprint and terraced mass are clearly defined across all calibrated views."
+        }
+      },
+      {
+        "statement": "The small footprint allows optimized and diversely usable outdoor spaces.",
+        "tags": [
+          "massing",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "small footprint and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1593,
+            0.8093,
+            0.0529
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Small central footprint leaves broad perimeter areas visible around the building."
+        }
+      },
+      {
+        "statement": "The easily understandable terracing creates a relaxed spatial entrance situation with potential for varied terrace uses.",
+        "tags": [
+          "landscape",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "terracing and entrance situation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4937,
+            0.221,
+            0.1611
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped lower structure and terraces are visible along the sloping footprint and elevations."
+        }
+      },
+      {
+        "statement": "The upper floors offer a very flexible spatial concept supporting collaborative and individual learning.",
+        "tags": [
+          "flexibility",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "upper floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7394,
+            0.5994,
+            0.8106
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated upper-level bands clearly establish the flexible multi-storey volume."
+        }
+      },
+      {
+        "statement": "The compact layout enables optimum separation of uses and operating units at different times.",
+        "tags": [
+          "layout",
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "separation of uses and operating units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6559,
+            0.6637,
+            0.6211
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Internal zoning is not visible; distributed across upper and terraced portions of the compact mass."
+        }
+      },
+      {
+        "statement": "The suspended canopies shape the architectural expression and provide effective shading without restricting views outward.",
+        "tags": [
+          "expression",
+          "daylight",
+          "visibility"
+        ],
+        "position": {
+          "target": "suspended canopies",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.572,
+            0.1138,
+            0.8376
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Canopies are inferred along upper facade edges where projecting horizontal layers appear."
+        }
+      },
+      {
+        "statement": "The compactness of the visible volume offers generous meeting and recreational areas.",
+        "tags": [
+          "massing",
+          "open space",
+          "identity"
+        ],
+        "position": {
+          "target": "visible volume and meeting areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6977,
+            0.6315,
+            0.0529
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open perimeter around the compact volume provides the strongest meeting and recreation anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The canteen and entrance lack a usable apron because of the sports fields on the central terrace.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "canteen and entrance apron",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5355,
+            0.1889,
+            0.0529
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance apron is not distinguishable; anchored at the lower terrace edge."
+        }
+      },
+      {
+        "statement": "The large contiguous sealed areas have an unfavorable effect on the microclimatic situation.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "large contiguous sealed areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3267,
+            0.3497,
+            0.0258
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Hardscape is not separately sampled; approximate the broad lower site apron."
+        }
+      },
+      {
+        "statement": "The arrangement of uses should be slightly more relaxed and requires further exploration.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "arrangement of uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6977,
+            0.6315,
+            0.6211
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Use arrangement is interior; distributed through the compact terraced envelope."
+        }
+      },
+      {
+        "statement": "The proposed sliding-wall separation does not appear practicable in operation.",
+        "tags": [
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "sliding-wall separation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6977,
+            0.6315,
+            0.6211
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Movable partitions are absent; approximate the upper-floor interior behind the regular facade."
+        }
+      },
+      {
+        "statement": "The food-serving area in connection with the kitchen still needs optimization.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "food-serving area and kitchen",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3684,
+            0.3175,
+            0.107
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Catering spaces are not identifiable; anchored near the lower entrance terrace."
+        }
+      },
+      {
+        "statement": "The austerity of the surrounding design should be given more lightness overall.",
+        "tags": [
+          "landscape",
+          "expression"
+        ],
+        "position": {
+          "target": "surrounding design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8808,
+            0.2581,
+            0.0529
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The criticism concerns the surrounding open site, approximated along the exposed perimeter."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "layout",
+      "functionality",
+      "flexibility",
+      "operation",
+      "expression",
+      "sustainability"
+    ]
+  }
+}

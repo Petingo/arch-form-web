@@ -1,0 +1,506 @@
+{
+  "object_description": "compact three-storey block with a recessed base and central courtyard",
+  "geometry_property": [
+    "compact",
+    "three-storey",
+    "recessed base",
+    "courtyard-centred",
+    "stepped height",
+    "ring-organized"
+  ],
+  "design_condition": "The compact building completes the campus height sequence and forms a new centre, while its recessed base and access routes create a green recreation edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact building completes a natural height staggering and integrates into the built context as a new centre.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "compact building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5415,
+            0.653,
+            1
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The break hall subtly zones the school path between the existing buildings.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "break hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.279,
+            0.4027,
+            0.7831
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "Bundling access traffic creates a green recreation area along the east facade.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "green recreation area along east facade",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7838,
+            0.1101,
+            0.0754
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "The staircase connection from the parking area to the gymnasium level is positive and offers opportunities for outdoor-space design.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "staircase connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0735,
+            0.6197,
+            0.1462
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The main entrance is logically positioned and easy to read.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4588,
+            0.2129,
+            0.1462
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The zenith-lit exhibition space demonstrates an exciting lighting concept for the access courtyard.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "zenith-lit exhibition space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5149,
+            0.681,
+            0.9246
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The room program is basically well solved, with logically grouped units and mostly short distances.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "room program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6893,
+            0.0258,
+            0.7831
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The skeleton structure allows great flexibility for future layouts and changes of use.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "skeleton structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5347,
+            0.1328,
+            0.2169
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The static structures are logically conceived and convincing.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "static structures",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4226,
+            0.9132,
+            0.5708
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The building is well thought out, well developed and makes a good contribution to the task.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.907,
+            0.4017,
+            0.2169
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The school roof is positioned outside the building lines.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "school roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.76,
+            0.78,
+            0.96
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elevated outer roof footprint and stepped upper profile are visible across top and elevation views."
+        }
+      },
+      {
+        "statement": "The recessed base and its required fall protection have potential for improvement.",
+        "tags": [
+          "safety"
+        ],
+        "position": {
+          "target": "recessed base and fall protection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5,
+            0.08,
+            0.12
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The recessed lower perimeter is visible in elevation; fall protection itself is not distinguishable."
+        }
+      },
+      {
+        "statement": "The restrained facade supports horizontality but looks like a conventional office building.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "restrained facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9806,
+            0.324,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "The external architectural expression is somewhat incoherent with the interesting interior.",
+        "tags": [
+          "expression"
+        ],
+        "position": {
+          "target": "external architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7806,
+            0.4005,
+            1
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The entrance, core and atrium create a cramped situation on the first floor.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "entrance, core and atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8007,
+            0.5139,
+            0.2169
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The western offices of the Prorectorate are accessed through a dark corridor zone.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "western Prorectorate offices",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6611,
+            0.5267,
+            0.9246
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The stair landing on the second floor creates a cramped spatial situation.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "second-floor stair landing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.6973,
+            0.5708
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "Room proportions are not ideal in all cases.",
+        "tags": [
+          "proportion"
+        ],
+        "position": {
+          "target": "room proportions",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2855,
+            0.9553,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The south-facing column grid in the parking garage is not consistently aligned with the above-ground system.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "south-facing column grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3853,
+            0.2905,
+            0.7831
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "height staggering",
+      "entrance",
+      "courtyard",
+      "daylight",
+      "flexibility",
+      "circulation",
+      "facade",
+      "parking"
+    ]
+  }
+}

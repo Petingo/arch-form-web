@@ -1,0 +1,432 @@
+{
+  "object_description": "eight-storey orthogonal tower with an expanded base",
+  "geometry_property": [
+    "eight-storey",
+    "orthogonal",
+    "tower-like",
+    "expanded base",
+    "incised",
+    "symmetrical orientation"
+  ],
+  "design_condition": "The tower is placed on the southern edge of the site, with its expanded base mediating the level difference between the school yard and campus square while opening visual connections through the campus.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The orthogonal position complements the existing campus development, allows visual connections and opens the space between buildings.",
+        "tags": [
+          "urban integration",
+          "visibility",
+          "open space"
+        ],
+        "position": {
+          "target": "orthogonal position and open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7712,
+            0.1206,
+            0.1923
+          ],
+          "radius": 0.315,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Tower and expanded base occupy the southern portion, leaving a visible open area toward the campus side."
+        }
+      },
+      {
+        "statement": "The facade expression follows the technically and structurally rigorous character of the campus.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7876,
+            0.1251,
+            0.5769
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Regular orthogonal facade rhythm is clearly visible across the tower elevations."
+        }
+      },
+      {
+        "statement": "The north and south incisions break up the volume and give it elegance and clear orientation.",
+        "tags": [
+          "massing",
+          "expression",
+          "orientation"
+        ],
+        "position": {
+          "target": "north and south incisions",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7306,
+            0.0914,
+            0.6731
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top and elevation views show recessed breaks along the tower’s north-south massing."
+        }
+      },
+      {
+        "statement": "The apartments are cleanly organized at the corners and have optimal lighting.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "corner apartments",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8187,
+            0.1733,
+            0.6731
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior apartments are not exposed, so a corner bay is approximated from the tower envelope."
+        }
+      },
+      {
+        "statement": "The open access core provides a high quality of stay with openings to the north and south.",
+        "tags": [
+          "circulation",
+          "open space",
+          "daylight"
+        ],
+        "position": {
+          "target": "open access core",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7876,
+            0.1251,
+            0.5769
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central tower zone is approximated from the visible envelope and north-south openings."
+        }
+      },
+      {
+        "statement": "The intelligent floor-plan division produces a high level of cost-effectiveness.",
+        "tags": [
+          "layout",
+          "cost"
+        ],
+        "position": {
+          "target": "cost-effectiveness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost-effectiveness is an operational judgment without a useful geometric location."
+        }
+      },
+      {
+        "statement": "The multi-purpose room is spatially separated, prominent and illuminated on three sides.",
+        "tags": [
+          "layout",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "multi-purpose room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7306,
+            0.0914,
+            0.2115
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The separated lower-volume region is used as an approximate anchor for the unexposed multi-purpose room."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The restaurant has an overly deep, insufficiently exposed and insufficiently zoned floor plan.",
+        "tags": [
+          "layout",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "restaurant floor plan",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7712,
+            0.1206,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The restaurant is interior and unidentifiable; the lower tower/base zone provides a constrained approximation."
+        }
+      },
+      {
+        "statement": "Delivery does not work in the outdoor parking area because of the drag curves.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "outdoor parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8502,
+            0.0645,
+            0.0769
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking is approximated beside the expanded southern base at ground level."
+        }
+      },
+      {
+        "statement": "The restaurant should be located in the public place on the square.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "public place on the square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.568,
+            0.088,
+            0.0385
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The square-facing ground zone is approximated immediately south of the expanded base."
+        }
+      },
+      {
+        "statement": "The lobby is somewhat secluded in the apartment entrance area.",
+        "tags": [
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "lobby",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7284,
+            0.0996,
+            0.1154
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The apartment entrance lobby is interior, so its southern ground-level envelope is used as an approximate anchor."
+        }
+      },
+      {
+        "statement": "The ground-floor toilet facilities are too small and lack privacy.",
+        "tags": [
+          "functionality",
+          "privacy"
+        ],
+        "position": {
+          "target": "ground-floor toilet facilities",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7792,
+            0.1228,
+            0.0769
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Unexposed toilets are placed approximately within the ground-floor base."
+        }
+      },
+      {
+        "statement": "The seating steps are so close to existing trees that their preservation is questionable.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "seating steps and existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3433,
+            0.6714,
+            0.0577
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sparse peripheral points suggest a landscape zone away from the tower, used for the tree-step relationship."
+        }
+      },
+      {
+        "statement": "The required embankments in the root area would not allow the existing trees to survive.",
+        "tags": [
+          "topography",
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "embankments in the root area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3433,
+            0.6714,
+            0.0962
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The peripheral landscape region provides a constrained anchor for the stated root-area embankments."
+        }
+      },
+      {
+        "statement": "The base floor continues to shield the square, so the adjacent institution does not act as a direct neighbor.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "base floor shielding the square",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7284,
+            0.0996,
+            0.1538
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The expanded base is visibly concentrated along the southern edge and screens the adjacent square."
+        }
+      },
+      {
+        "statement": "The viewing perimeter is not shown.",
+        "tags": [
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "viewing perimeter",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.407,
+            0.784,
+            0.0769
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The outer peripheral site zone is used as an approximate location for the unshown viewing perimeter."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "facade",
+      "expression",
+      "layout",
+      "functionality",
+      "daylight",
+      "circulation",
+      "landscape",
+      "cost"
+    ]
+  }
+}

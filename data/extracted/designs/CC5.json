@@ -1,0 +1,408 @@
+{
+  "object_description": "single-storey linear wing paired with a large hall volume",
+  "geometry_property": [
+    "single-storey",
+    "longitudinal",
+    "separated",
+    "large-scale",
+    "slope-cutting",
+    "partly elevated"
+  ],
+  "design_condition": "The linear wing frames the landscape edge while the hall is placed at the foot of the slope, concentrating sports uses but disrupting the natural slope and open landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The differentiated formulation of the two functions is conceptually interesting.",
+        "tags": [
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "differentiated two-function massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4607,
+            0.7882,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two separated linear masses visibly distinguish the wing and hall functions."
+        }
+      },
+      {
+        "statement": "The hall is well organized and well lit from two sides.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5022,
+            0.7936,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The larger separated volume is clearly identifiable toward the northern side."
+        }
+      },
+      {
+        "statement": "The access level acts as a filter to the outdoor space and supports attractive festive use.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "access level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4962,
+            0.1403,
+            0.3397
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access level is approximated along the landscape-facing linear wing."
+        }
+      },
+      {
+        "statement": "The classrooms are well proportioned and can be used flexibly.",
+        "tags": [
+          "proportion",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2813,
+            0.1568,
+            0.3397
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classrooms are placed approximately within the visible linear wing."
+        }
+      },
+      {
+        "statement": "The south elevation provides good sunlight into the depth of the classrooms.",
+        "tags": [
+          "daylight",
+          "facade"
+        ],
+        "position": {
+          "target": "south elevation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3508,
+            0.0456,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south-facing edge of the lower linear volume is visible in plan and elevation."
+        }
+      },
+      {
+        "statement": "The outdoor spaces are spacious, well-sunlit and enclosed as islands in the open landscape.",
+        "tags": [
+          "open space",
+          "daylight",
+          "landscape"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4652,
+            0.7818,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open areas are visible between and around the separated building bars."
+        }
+      },
+      {
+        "statement": "The architectural expression of the hall corresponds adequately to the concept.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "hall expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5022,
+            0.7936,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The hall’s elongated volume is visibly identifiable as the relevant architectural expression."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The placement of the very large hall volume at the foot of the slope is particularly unconvincing.",
+        "tags": [
+          "topography",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "hall volume at foot of slope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5022,
+            0.7936,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The large hall occupies the northern bar and is visibly separate from the lower wing."
+        }
+      },
+      {
+        "statement": "The hall's intrusion into the slope and volumetric appearance disrupt the course of the slope in the open landscape.",
+        "tags": [
+          "topography",
+          "landscape",
+          "massing"
+        ],
+        "position": {
+          "target": "hall intrusion into slope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5022,
+            0.7936,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The hall’s distinct mass interrupts the otherwise open gap between linear volumes."
+        }
+      },
+      {
+        "statement": "The organization of the psychomotor area on the upper floor is not possible at this location because of its distance from the classrooms.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "psychomotor area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4911,
+            0.9072,
+            0.8333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-floor area is approximated within the northern hall volume."
+        }
+      },
+      {
+        "statement": "A spatially defined arrival or break area is missing at the school entrance.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "school entrance arrival area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1484,
+            0.1526,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance zone is directionally assigned to the southern end of the lower wing."
+        }
+      },
+      {
+        "statement": "The narrow path connecting the school building and the existing complex is not convincing.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "narrow connecting path",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4652,
+            0.7818,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The connecting route is approximated in the open interval between the two visible masses."
+        }
+      },
+      {
+        "statement": "The new school building lacks communal outdoor spaces as a social meeting point.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "communal outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6827,
+            0.8104,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Potential communal exterior space is assigned to the open landscape beside the bars."
+        }
+      },
+      {
+        "statement": "The project is not compact enough and exceeds the specification in terms of gray energy.",
+        "tags": [
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compactness and gray energy",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates overall compactness and embodied energy without a single spatial anchor."
+        }
+      },
+      {
+        "statement": "The separated complex buildings make the project uneconomical despite the small floor area.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "separated complex buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4607,
+            0.7882,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The two visibly separated building bars support the massing-related criticism."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "landscape",
+      "layout",
+      "daylight",
+      "flexibility",
+      "circulation",
+      "open space",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

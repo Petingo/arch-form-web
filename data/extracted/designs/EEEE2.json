@@ -1,0 +1,419 @@
+{
+  "object_description": "staggered tower with low attached volume",
+  "geometry_property": [
+    "staggered",
+    "tower-like",
+    "six-story",
+    "two-story",
+    "attached",
+    "compact",
+    "flat-roofed"
+  ],
+  "design_condition": "The building remains low toward its neighbours and rises toward the city center, using differentiated heights and orientations to create urban significance while responding discreetly to each street.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The height grading creates a natural and clever connection between use and urban design.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "height grading",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3711,
+            0.5121,
+            0.6522
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Elevations clearly show the tall tower paired with a lower attached volume."
+        }
+      },
+      {
+        "statement": "The archive receives radiance toward the esplanade while the outpatient clinic turns discreetly inward according to its needs.",
+        "tags": [
+          "urban integration",
+          "privacy",
+          "daylight"
+        ],
+        "position": {
+          "target": "archive and outpatient clinic orientations",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.242,
+            0.8623,
+            0.6304
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Differentiated tower and low-body orientations provide approximate use-specific anchors."
+        }
+      },
+      {
+        "statement": "The archive appears attractive and appropriate as the city's collective memory and enriches the street with a successful entrance and reading hall.",
+        "tags": [
+          "identity",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "archive entrance and reading hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3953,
+            0.1819,
+            0.2826
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Public-facing archive functions are approximated at the tower’s southern street edge."
+        }
+      },
+      {
+        "statement": "The vehicle hall's spatial expansion and three atriums provide zenithal light and useful visual contact with the upper floor.",
+        "tags": [
+          "daylight",
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "vehicle hall and three atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4257,
+            0.1411,
+            0.1304
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower volume visibly spans the frontage and provides the most plausible hall anchor."
+        }
+      },
+      {
+        "statement": "The ambulance traffic area enables a conflict-free emergency and reestablishment process with alternatives.",
+        "tags": [
+          "circulation",
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "ambulance traffic area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7976,
+            0.1567,
+            0.0217
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Traffic area is approximated beside the lower volume’s southeastern approach."
+        }
+      },
+      {
+        "statement": "The generous spatial structure ensures a high level of flexibility for current and future uses.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4607,
+            0.5675,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Staggered massing and attached volumes are legible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The prefabricated concrete facade has virtuoso corner solutions and joining details.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "prefabricated concrete facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2367,
+            0.429,
+            0.6304
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "The southern and western envelope surfaces provide direct facade evidence."
+        }
+      },
+      {
+        "statement": "The supporting structure is simple, feasible, and optimally completes the project idea.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4159,
+            0.5398,
+            0.6304
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structure is anchored to the visible tower mass and its lower connection."
+        }
+      },
+      {
+        "statement": "The energy and building technology concept is clearly explained and neatly incorporated into the project.",
+        "tags": [
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "energy and building technology",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6335,
+            0.4198,
+            0.3696
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Building systems are not distinguishable, so placement follows the central envelope."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The quarantine is located unfavorably.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "quarantine",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6959,
+            0.6911,
+            0.2826
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Quarantine is not identifiable; it is approximated within the quieter rear side of the lower volume."
+        }
+      },
+      {
+        "statement": "More spatial quality is desirable in the corridors, especially regarding daylight.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4607,
+            0.5675,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Corridors are interior and indistinct, anchored approximately within the connected mass."
+        }
+      },
+      {
+        "statement": "The staircase sometimes leads to conflicts between different users.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3711,
+            0.5121,
+            0.5435
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Staircase is not visible; the anchor follows the vertical junction between volumes."
+        }
+      },
+      {
+        "statement": "The necessary bracing element in the street facade is missing.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "street facade bracing element",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2367,
+            0.429,
+            0.5435
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Street facade is localized on the southern-western perimeter, while bracing remains unresolved."
+        }
+      },
+      {
+        "statement": "The facade proposal compromises the otherwise good economic efficiency.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "facade proposal",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2367,
+            0.429,
+            0.587
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "The visible street-facing envelope provides the relevant facade anchor."
+        }
+      },
+      {
+        "statement": "The closed lightweight facade inserts do not ideally support the required archive climate stability.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "closed lightweight facade inserts",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6848,
+            0.7061,
+            0.6522
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Lightweight inserts are not distinguishable, approximated on the upper rear facade."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "identity",
+      "expression",
+      "daylight",
+      "circulation",
+      "operation",
+      "flexibility",
+      "structure",
+      "cost"
+    ]
+  }
+}

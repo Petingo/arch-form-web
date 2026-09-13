@@ -1,0 +1,443 @@
+{
+  "object_description": "two new buildings enclosing a school square above an embedded gymnasium",
+  "geometry_property": [
+    "two-part composition",
+    "courtyard-forming",
+    "terraced",
+    "partly sunken",
+    "three-storey",
+    "canopied",
+    "interlocking slabs"
+  ],
+  "design_condition": "Two new buildings frame the existing main building and define upper and lower levels, embedding the gymnasium into the topographical edge while creating a forecourt, schoolyard, and sports fields.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two new buildings clearly define the school square and create a harmonious ensemble.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "two new buildings and school square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4905,
+            0.6579,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two visible masses frame a clear open interval in plan and elevations."
+        }
+      },
+      {
+        "statement": "The gymnasium is effectively embedded using the topographical edge and level difference.",
+        "tags": [
+          "topography",
+          "massing"
+        ],
+        "position": {
+          "target": "embedded gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1769,
+            0.5253,
+            0.1
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low, embedded base is identifiable at the lower-left side of the sampled composition."
+        }
+      },
+      {
+        "statement": "The main entrances are logically located on the central playground.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "main entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4836,
+            0.652,
+            0.1
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are constrained to the central playground edge between the two buildings."
+        }
+      },
+      {
+        "statement": "The auditorium creates a strong vertical spatial relationship and strengthens the school's inner identity.",
+        "tags": [
+          "identity",
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4856,
+            0.668,
+            0.7
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The auditorium is approximated as an upper-volume interior anchor near the central relationship."
+        }
+      },
+      {
+        "statement": "The school clusters offer a variety of possible uses and an impressive spatial experience.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "school clusters",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4905,
+            0.6579,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The two-storey building arrangement is clearly represented in plan and repeated elevation bands."
+        }
+      },
+      {
+        "statement": "The studio zone has high utilization potential.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "studio zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4905,
+            0.6579,
+            0.6
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The studio zone is approximated within the right-hand upper building volume."
+        }
+      },
+      {
+        "statement": "The open-space qualities are complemented by natural play areas, a school garden, and open sports fields.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "natural play areas, school garden, and sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7376,
+            0.1213,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open exterior areas are distributed around the courtyard-forming masses and lower edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The two existing neighboring buildings may not be able to fulfill their new role on the school playground.",
+        "tags": [
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "two existing neighboring buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0738,
+            0.7153,
+            0.6
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The neighboring-building role is approximated outside the main courtyard-forming pair."
+        }
+      },
+      {
+        "statement": "The urban design creates a strong separation between the lower and upper levels, landscape, and courtyard.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "lower and upper levels, landscape, and courtyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4398,
+            0.6339,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The model visibly separates a framed courtyard and distinct horizontal elevation levels."
+        }
+      },
+      {
+        "statement": "The terrace is not sufficiently connected to the central playground for the two spaces to enter into a dialogue.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "terrace and central playground",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4905,
+            0.6579,
+            0.2
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The terrace-playground relationship is anchored in the central open interval between masses."
+        }
+      },
+      {
+        "statement": "The accentuated street space and the parking-lot location in front of the classrooms are not convincing.",
+        "tags": [
+          "urban integration",
+          "accessibility",
+          "layout"
+        ],
+        "position": {
+          "target": "street space and parking lot",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8341,
+            0.2342,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The street-facing outer edge is used as the approximate parking and street-space location."
+        }
+      },
+      {
+        "statement": "The north facade still requires further development.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "north facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4216,
+            0.799,
+            0.6
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The rear boundary and its long elevation are clearly localized at the north side."
+        }
+      },
+      {
+        "statement": "The connection to the equipment rooms and the location of the trainers' changing rooms still need to be rearranged.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "equipment rooms and trainers' changing rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1769,
+            0.5253,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Service and changing functions are approximated in the lower embedded volume."
+        }
+      },
+      {
+        "statement": "The structural concept appears to fail because the large recesses severely restrict the shear flow.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "large recesses",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4659,
+            0.7083,
+            0.6
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Recesses are approximated along the central courtyard-facing building edges."
+        }
+      },
+      {
+        "statement": "The structural solution remains costly, especially because a more ecological lightweight construction method was abandoned.",
+        "tags": [
+          "cost",
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "structural solution",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and construction-method criticism has no uniquely identifiable exterior model marker."
+        }
+      },
+      {
+        "statement": "The ensemble appears rather hermetic, with little invitation to walk through it.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4836,
+            0.652,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full composition appears as a compact, visually enclosing arrangement with limited through-route."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "topography",
+      "circulation",
+      "layout",
+      "functionality",
+      "identity",
+      "facade",
+      "structure"
+    ]
+  }
+}

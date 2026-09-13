@@ -1,0 +1,634 @@
+{
+  "object_description": "two independent staggered volumes on separate levels",
+  "geometry_property": [
+    "two-part",
+    "independent-volumes",
+    "staggered",
+    "slope-adapted",
+    "low-rise",
+    "compact"
+  ],
+  "design_condition": "Two separate volumes are placed along the southern edge of the slope, restoring the valley's topography while creating terraced access spaces and a direct connection to the neighboring school complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The placement and granularity of the two independent volumes are promising.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two independent volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6576,
+            0.3963,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two separated staggered footprints are clearly visible with distinct horizontal bands in elevation."
+        }
+      },
+      {
+        "statement": "Removing the peripheral buildings restores the small valley to its original topography.",
+        "tags": [
+          "topography",
+          "landscape"
+        ],
+        "position": {
+          "target": "restored small valley",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5034,
+            0.2042,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern open gap between volumes represents the restored valley landscape."
+        }
+      },
+      {
+        "statement": "The direct connection to the neighboring school complex is integrated into the access system.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "connection to neighboring school complex",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0351,
+            0.6231,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Connection is approximated at the western edge of the separated volumes."
+        }
+      },
+      {
+        "statement": "The basic-level organization offers an attractive transition from inside to outside through inserted loggias.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "basic-level loggias",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6691,
+            0.0984,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Loggias are estimated along the southern lower edges facing the terraced access spaces."
+        }
+      },
+      {
+        "statement": "The four basic-level areas are well designed.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "four basic-level areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3772,
+            0.249,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basic-level areas are distributed across the lower portions of both independent volumes."
+        }
+      },
+      {
+        "statement": "The compact sports-hall organization is judged functional.",
+        "tags": [
+          "functionality",
+          "massing"
+        ],
+        "position": {
+          "target": "compact sports-hall organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6944,
+            0.3843,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The larger eastern volume most plausibly contains the compact sports-hall organization."
+        }
+      },
+      {
+        "statement": "The chosen construction achieves the grey-energy target and very good daylight conditions.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "daylight conditions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4163,
+            0.6966,
+            0.75
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight potential is assigned broadly across the compact upper envelope."
+        }
+      },
+      {
+        "statement": "System and component separation is basically guaranteed.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "system and component separation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "System separation is a global organizational judgment without a distinct geometric anchor."
+        }
+      },
+      {
+        "statement": "The project allows a certain flexibility of use.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "flexibility of use",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5238,
+            0.4398,
+            0.375
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Use flexibility applies broadly to the two-volume building arrangement."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The height offset between the volumes should be strengthened to reinforce their independence and integration.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "height offset between volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.633,
+            0.4043,
+            0.625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The two volumes’ differing levels are visible as staggered horizontal alignments in plan and elevation."
+        }
+      },
+      {
+        "statement": "The access arrangement is difficult, overcoming a large height difference in a confined space.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "topography"
+        ],
+        "position": {
+          "target": "confined access arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5095,
+            0.1503,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is anchored in the narrow southern terraced zone between the volumes."
+        }
+      },
+      {
+        "statement": "The intermingled entrances and outdoor play areas appear cramped and unattractive.",
+        "tags": [
+          "circulation",
+          "open space",
+          "expression"
+        ],
+        "position": {
+          "target": "intermingled entrances and outdoor play areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5586,
+            0.1343,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern interstitial space is the plausible shared zone for entrances and play areas."
+        }
+      },
+      {
+        "statement": "The sports-hall entrance is modest in size and not very inviting.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "sports-hall entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9031,
+            0.3164,
+            0.125
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance is estimated on the southern lower façade of the larger sports volume."
+        }
+      },
+      {
+        "statement": "The two-storey foyer is confusing and the three-storey staircase has a constricting effect.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "two-storey foyer and three-storey staircase",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7558,
+            0.3643,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Vertical circulation is approximated inside the southern arrival-facing portion of the larger volume."
+        }
+      },
+      {
+        "statement": "Organizing the sports hall over three storeys is spatially disadvantageous.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "three-storey sports hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6821,
+            0.3883,
+            0.625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The larger volume’s stacked elevation bands support a multi-storey hall approximation."
+        }
+      },
+      {
+        "statement": "The psychomotor room is not ideally assigned to the basic level.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "psychomotor room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2568,
+            0.1372,
+            0.125
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Room is estimated within the lower southern portion of the smaller independent volume."
+        }
+      },
+      {
+        "statement": "The topographical concept creates relatively narrow school outdoor spaces and requires railings.",
+        "tags": [
+          "topography",
+          "open space",
+          "safety"
+        ],
+        "position": {
+          "target": "narrow school outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5341,
+            0.1423,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The narrow southern open strips between and beside the volumes are directly evident in plan."
+        }
+      },
+      {
+        "statement": "The quality of the outdoor spaces is too variable despite their visibility from the classrooms.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "variable outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2937,
+            0.1252,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor quality is assigned across the uneven southern landscape strips."
+        }
+      },
+      {
+        "statement": "The redesigned garden does not provide a possible school address.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "circulation"
+        ],
+        "position": {
+          "target": "redesigned garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1709,
+            0.1653,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Garden is approximated in the western landscaped edge outside the smaller volume."
+        }
+      },
+      {
+        "statement": "The all-weather pitch is difficult in the landscape.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "all-weather pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8287,
+            0.0465,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pitch is placed in the southern landscape zone adjacent to the larger volume."
+        }
+      },
+      {
+        "statement": "Large north-facing window areas require significant optimization to meet the primary energy requirements.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "large north-facing window areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4326,
+            0.8848,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "north"
+          ],
+          "rationale": "The long north façade is clearly visible in elevation and contains the referenced window zone."
+        }
+      },
+      {
+        "statement": "The unprotected wooden façade has a reduced service life.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "unprotected wooden façade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8172,
+            0.3444,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Wood façade is anchored to the exposed eastern and northern outer surfaces."
+        }
+      },
+      {
+        "statement": "Dividing the uses into two buildings and using elaborate landscaping reduces economic efficiency.",
+        "tags": [
+          "cost",
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "two buildings and elaborate landscaping",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6576,
+            0.3963,
+            0.125
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Separated masses and intervening landscaped access zones are legible across the plan."
+        }
+      },
+      {
+        "statement": "The project contains too many uncorrectable problem areas despite its promising approach.",
+        "tags": [
+          "functionality",
+          "urban integration"
+        ],
+        "position": {
+          "target": "uncorrectable problem areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5471,
+            0.4322,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad marker represents distributed issues across the separated building arrangement."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "topography",
+      "circulation",
+      "accessibility",
+      "layout",
+      "functionality",
+      "open space",
+      "landscape",
+      "sustainability"
+    ]
+  }
+}

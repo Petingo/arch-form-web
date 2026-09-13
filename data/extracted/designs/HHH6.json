@@ -1,0 +1,312 @@
+{
+  "object_description": "three-legged all-round building volume",
+  "geometry_property": [
+    "three-legged",
+    "all-round",
+    "large footprint",
+    "edge-aligned",
+    "open-cornered",
+    "parapeted",
+    "horizontal"
+  ],
+  "design_condition": "The building follows the property edges and creates open spaces at the corners, but its self-sufficient arrangement weakens campus integration and its tree rows demarcate the site.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The large footprint fits surprisingly naturally into the neighborhood structure.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4514,
+            0.5172,
+            0.4388
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The large three-legged footprint visibly follows the surrounding edge geometry."
+        }
+      },
+      {
+        "statement": "High-quality open spaces are created from which the surrounding district can also benefit.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4514,
+            0.5172,
+            0.0627
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Multiple open corners and internal clearings are directly visible in the top view."
+        }
+      },
+      {
+        "statement": "The well-lit classrooms allow for different forms of learning.",
+        "tags": [
+          "daylight",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "well-lit classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7873,
+            0.5174,
+            0.5617
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Classrooms are internal, so a perimeter learning zone is used as a daylight-constrained anchor."
+        }
+      },
+      {
+        "statement": "The pragmatic, proven construction method has a positive effect on construction costs.",
+        "tags": [
+          "structure",
+          "cost",
+          "functionality"
+        ],
+        "position": {
+          "target": "pragmatic construction method",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4514,
+            0.5172,
+            0.4388
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Construction method is not distinguishable; the marker covers the broad building system."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new building remains largely self-sufficient, despite its three entrances and connecting access routes.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "three entrances and connecting access routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4371,
+            0.1947,
+            0.0627
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The southern open edge provides a plausible anchor for entrances and external connecting routes."
+        }
+      },
+      {
+        "statement": "The separation and equality of the three places is rather undesirable for users.",
+        "tags": [
+          "open space",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "three places",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7727,
+            0.495,
+            0.0627
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Distinct open-corner areas are visible as separated spaces around the three-legged plan."
+        }
+      },
+      {
+        "statement": "The rows of trees demarcate the buildings and contradict the desired campus idea.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "rows of trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7917,
+            0.5242,
+            0.0627
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tree rows are not clearly separable from sampled points, so the outer eastern perimeter is used."
+        }
+      },
+      {
+        "statement": "The facade expression does not seem very specific and evokes commercial buildings from the 1960s, which does not fit the historical townscape.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5376,
+            0.0737,
+            0.5015
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The broad, repetitive horizontal facades are directly visible in the elevation views."
+        }
+      },
+      {
+        "statement": "The internal access rooms remain unclear because their spatial zoning is imprecise and their proportions appear arbitrary.",
+        "tags": [
+          "layout",
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "internal access rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4514,
+            0.5172,
+            0.4388
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior access rooms are not distinguishable; the central building zone provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "An overall facility is not created and the important campus meeting place is missing.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "campus meeting place",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4514,
+            0.5172,
+            0.0627
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central open area is the most plausible location for the missing campus meeting place."
+        }
+      },
+      {
+        "statement": "The demands for a strong identity are not fulfilled coherently enough.",
+        "tags": [
+          "identity",
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "strong building identity",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Identity is an overall architectural judgment without one specific spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "campus",
+      "open space",
+      "urban integration",
+      "facade",
+      "identity",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

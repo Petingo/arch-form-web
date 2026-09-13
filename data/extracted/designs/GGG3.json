@@ -1,0 +1,508 @@
+{
+  "object_description": "compact three-level volume with solid base and transparent upper structure",
+  "geometry_property": [
+    "compact",
+    "three-level",
+    "solid-base",
+    "transparent-upper-volume",
+    "regular-grid",
+    "partly-sunken",
+    "vertically-layered"
+  ],
+  "design_condition": "The volume is arranged to form a central square, free north and west areas for parking, and a southern sports and lounge area, with generous distances to neighboring buildings but potential noise toward the southern boundary.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The placement creates a convincingly harmonious ensemble around a central square with tree islands.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "central square with tree islands",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6003,
+            0.1477,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central open geometry is approximated between the compact layered building bands."
+        }
+      },
+      {
+        "statement": "The two-story height is appropriately integrated into the existing building structure.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "two-story height integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6003,
+            0.1477,
+            0.75
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Layered upper volume and solid base are clearly corroborated across elevations."
+        }
+      },
+      {
+        "statement": "The regular column-and-beam grid produces a calm overall appearance.",
+        "tags": [
+          "structure",
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "regular column-and-beam grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6242,
+            0.1547,
+            0.625
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular horizontal and vertical point rows visibly define the structural grid."
+        }
+      },
+      {
+        "statement": "The southern break area offers varied seating and play options with shaded tree islands.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "southern break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5049,
+            0.1197,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South edge is constrained by the stated break area and visible lower-level surface."
+        }
+      },
+      {
+        "statement": "Water-permeable surfaces support quality of stay, microclimate, and infiltration.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "water-permeable surfaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.138,
+            0.1892,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Permeable treatment is not distinguishable, so a plausible northern-western ground region is used."
+        }
+      },
+      {
+        "statement": "Extensive natural areas demonstrate expertise in near-natural landscape design.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "natural areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1855,
+            0.7926,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Natural landscape is approximated in the stated free northern-western site areas."
+        }
+      },
+      {
+        "statement": "The simple organization accommodates the required uses compactly and arranges them optimally for operation.",
+        "tags": [
+          "layout",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "compact operational organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6481,
+            0.1617,
+            0.4375
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact layered mass supports the organizational judgment, though interior uses are unresolved."
+        }
+      },
+      {
+        "statement": "The outdoor spaces combine design quality, high stay quality, and diverse usability.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6003,
+            0.1477,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern outdoor zone is the clearest stated and spatially constrained external area."
+        }
+      },
+      {
+        "statement": "The economic-efficiency indicators compare well with the other projects.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "economic efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic comparison has no specific geometric anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The southern playground and playing fields are likely to cause noise emissions at the boundary.",
+        "tags": [
+          "acoustics",
+          "urban integration"
+        ],
+        "position": {
+          "target": "southern playground and playing fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5287,
+            0.1267,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern site edge is explicitly assigned to sports and lounge uses."
+        }
+      },
+      {
+        "statement": "Several marked sports uses on the hard surface are unrealistic for physiological reasons.",
+        "tags": [
+          "functionality",
+          "safety"
+        ],
+        "position": {
+          "target": "hard-surface sports uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3617,
+            0.0777,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Hard-surface activity area is approximated within the southern external zone."
+        }
+      },
+      {
+        "statement": "The access from one street is undesirable, while the main access is difficult in terms of clarity and security.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "safety"
+        ],
+        "position": {
+          "target": "street access and main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0658,
+            0.5221,
+            0.25
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "West-side access is approximated from the stated street and site arrangement."
+        }
+      },
+      {
+        "statement": "Most parking spaces are too small and some are difficult to use.",
+        "tags": [
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1616,
+            0.7856,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern-western free area is the stated parking region."
+        }
+      },
+      {
+        "statement": "The exhibition room resembles a shop window and is not practical from an operational perspective.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "exhibition room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0718,
+            0.4944,
+            0.5625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior exhibition room is not visible and is anchored within the lower building volume."
+        }
+      },
+      {
+        "statement": "The routing and vertical access appear random and purely functional, creating no spatial tension.",
+        "tags": [
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "routing and vertical access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0778,
+            0.4667,
+            0.5625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Side circulation is approximated along the visible building edges."
+        }
+      },
+      {
+        "statement": "The side stairwells prevent the upper floor’s spatial potential from being experienced.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "side stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0718,
+            0.4944,
+            0.625
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Vertical side elements are suggested at the lateral ends of the upper volume."
+        }
+      },
+      {
+        "statement": "Complete glazing of the upper facade is ecologically critical.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "upper facade glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7197,
+            0.1827,
+            0.75
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Transparent-looking upper facade bands are clearly visible above the solid base."
+        }
+      },
+      {
+        "statement": "The chosen location and the formulation of routes and vertical access are not very convincing.",
+        "tags": [
+          "urban integration",
+          "circulation"
+        ],
+        "position": {
+          "target": "site location and routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1855,
+            0.7926,
+            0.0625
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern-western site and building edge represent the stated access and location concerns."
+        }
+      },
+      {
+        "statement": "The development of the northern parking spaces is not convincing.",
+        "tags": [
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "northern parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2332,
+            0.8066,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern edge is the explicitly identified parking area."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "open space",
+      "landscape",
+      "circulation",
+      "functionality",
+      "operation",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

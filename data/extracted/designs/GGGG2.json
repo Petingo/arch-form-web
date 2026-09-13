@@ -1,0 +1,497 @@
+{
+  "object_description": "three-story orthogonal rectangular school volume",
+  "geometry_property": [
+    "rectangular",
+    "orthogonal",
+    "three-story",
+    "compact",
+    "flat-roofed",
+    "arcaded"
+  ],
+  "design_condition": "The compact volume is placed orthogonally in a new meadow, leaving substantial open space and framing a shared break area while coming close to a protected tree and lacking a covered link to the existing building.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The small footprint leaves a lot of open space.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "small footprint and open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1643,
+            0.1638,
+            0.3462
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact rectangular mass is visibly separated from surrounding site, leaving broad perimeter openness."
+        }
+      },
+      {
+        "statement": "The main entrance is centrally positioned and open to the common break area.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "central main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.493,
+            0.0447,
+            0.1538
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central south-facing access is approximated on the front facade beside the shared break area."
+        }
+      },
+      {
+        "statement": "The building is airy and light, deliberately setting itself apart from the massive existing structure.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "airy, light building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8487,
+            0.4438,
+            0.5385
+          ],
+          "radius": 0.329,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Low-density orthogonal envelope reads clearly across the building views."
+        }
+      },
+      {
+        "statement": "The central access space groups the shared uses clearly.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "central access space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1908,
+            0.6362,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central opening and circulation zone are suggested by the inner perimeter visible in plan."
+        }
+      },
+      {
+        "statement": "The auditorium can be enlarged through folding walls.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "auditorium folding walls",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4519,
+            0.0596,
+            0.1923
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Auditorium is placed as a plausible south-central interior room near entrance circulation."
+        }
+      },
+      {
+        "statement": "The teachers' room provides a very good overview of activity in the break area.",
+        "tags": [
+          "visibility",
+          "operation"
+        ],
+        "position": {
+          "target": "teachers' room overlooking break area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.493,
+            0.0447,
+            0.7308
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper front zone is used as a plausible overlook toward the south break area."
+        }
+      },
+      {
+        "statement": "The flat roof can be used for energy harvesting.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "flat roof energy-harvesting area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4208,
+            0.5425,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Flat roof plane is clearly visible as the building’s uppermost sampled surface."
+        }
+      },
+      {
+        "statement": "The support system allows most walls to be removed, leaving the wooden supports and enabling expanded or open-plan areas.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "removable support system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1572,
+            0.5635,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural system is approximated within the compact envelope because supports are not individually identifiable."
+        }
+      },
+      {
+        "statement": "The compact building shape and low proportion of circulation space have a positive effect on profitability.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact building shape and circulation efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1908,
+            0.6362,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact mass and regular elevations visibly support a short-circulation interpretation."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The protected tree appears to be very close to the southeast corner of the new facade.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "protected tree near southeast corner",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7141,
+            0.1528,
+            0.1923
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Southeast corner is the stated constrained location adjacent to the sampled building edge."
+        }
+      },
+      {
+        "statement": "A weather-protected connection to the old building is missing.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "weather-protected connection to old building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1068,
+            0.4543,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "A west-side connection is approximated at the building edge, where the neighboring structure is referenced."
+        }
+      },
+      {
+        "statement": "The storage space should probably be placed in the middle zone to provide more direct auditorium access and expand the entrance hall.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "middle storage zone and auditorium access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1908,
+            0.6362,
+            0.3462
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Middle interior zone is estimated near the central access and auditorium area."
+        }
+      },
+      {
+        "statement": "No general event toilets are offered on the main floor.",
+        "tags": [
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "main-floor event toilets",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6973,
+            0.1164,
+            0.1538
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Main-floor south-east interior is used as a plausible service-room anchor."
+        }
+      },
+      {
+        "statement": "The division of workshop, machine room and storage is bad, although it seems possible to improve it.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "workshop, machine room and storage division",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2054,
+            0.1489,
+            0.1923
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A lower side zone is estimated for the grouped workshop and service spaces."
+        }
+      },
+      {
+        "statement": "The sweeping areas are too limited for multiple use.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "limited sweeping areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.493,
+            0.0447,
+            0.1154
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The front edge and compact footprint provide the most plausible limited multi-use area."
+        }
+      },
+      {
+        "statement": "The comparatively large floor areas and building volumes are expensive.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "large floor areas and building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8487,
+            0.4438,
+            0.5385
+          ],
+          "radius": 0.322,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three-story envelope and repeated elevations establish the referenced volume."
+        }
+      },
+      {
+        "statement": "Moving the stairs backwards to gain more entrance-hall and circulation space seems possible but is not included in the project.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "possible relocated stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3287,
+            0.1042,
+            0.3462
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stair location is approximated toward the rear of the entrance circulation zone."
+        }
+      },
+      {
+        "statement": "The specific project does not provide a covered access connection, and these inadequacies add up negatively.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "covered access connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1068,
+            0.4543,
+            0.3462
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The missing connection is anchored at the west-facing building edge."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "flexibility",
+      "visibility",
+      "structure",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

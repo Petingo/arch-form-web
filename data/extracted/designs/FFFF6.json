@@ -1,0 +1,273 @@
+{
+  "object_description": "compact L-shaped single-roofed volume marking the site edge",
+  "geometry_property": [
+    "compact",
+    "L-shaped",
+    "single-roofed",
+    "courtyard-forming",
+    "non-orthogonal",
+    "multi-level",
+    "edge-forming"
+  ],
+  "design_condition": "The compact building approaches the main street to preserve space for break areas, breaks from the existing orthogonal pattern, and marks the settlement edge against the open landscape and hard court.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact volumetrics are convincing.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "compact volumetrics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7238,
+            0.2568,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact rotated footprint and consistent elevations clearly show the overall volumetric composition."
+        }
+      },
+      {
+        "statement": "The interior organization is convincing in terms of functionality.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "interior organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3171,
+            0.7843,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior layout is inferred within the compact envelope from repeated plan divisions and elevation bands."
+        }
+      },
+      {
+        "statement": "The transparent ground floor and spacious gallery create a direct connection from the foyer to the gym.",
+        "tags": [
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "transparent ground floor and spacious gallery",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7443,
+            0.2774,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground-level circulation is approximated along the lower portion of the visible envelope."
+        }
+      },
+      {
+        "statement": "The workrooms are well organized and illuminated on two sides.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "workrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2659,
+            0.7329,
+            0.6
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Workrooms are not individually visible; the marker estimates an upper-side interior zone."
+        }
+      },
+      {
+        "statement": "The compact overall volume and proposed construction suggest rather low construction costs.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "low construction costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
+      },
+      {
+        "statement": "The environmental-design concept is comprehensible and carefully justified.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "environmental-design concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.775,
+            0.3082,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape and open-space implications are estimated along the building’s apparent site edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Breaking with the existing orthogonal development pattern and forcing squares into the terrain seems alien in relation to the landscape.",
+        "tags": [
+          "urban integration",
+          "topography",
+          "massing"
+        ],
+        "position": {
+          "target": "orthogonal development pattern and terrain squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7341,
+            0.2671,
+            0.1
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view shows a rotated, non-orthogonal footprint, while terrain conditions remain only indirectly represented."
+        }
+      },
+      {
+        "statement": "The chosen agricultural building typology is not convincing as an addition to the existing school complex.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "agricultural building typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8261,
+            0.3596,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The typological reading applies broadly to the visible compact envelope, without a distinct identifiable element."
+        }
+      },
+      {
+        "statement": "The kindergarten area is unsatisfactory in terms of views, lighting, and outdoor space.",
+        "tags": [
+          "visibility",
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "kindergarten area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2455,
+            0.7123,
+            0.2
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Kindergarten spaces are not distinguishable; the marker estimates a lower peripheral zone for daylight and outdoor access."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "topography",
+      "layout",
+      "functionality",
+      "circulation",
+      "landscape",
+      "open space",
+      "daylight",
+      "visibility"
+    ]
+  }
+}

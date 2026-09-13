@@ -1,0 +1,382 @@
+{
+  "object_description": "flat two-storey volume with six tent-roof-like ends",
+  "geometry_property": [
+    "flat",
+    "two-storey",
+    "deep",
+    "cube-like",
+    "rhythmic",
+    "tent-roofed",
+    "curved",
+    "compact"
+  ],
+  "design_condition": "The low volume is compatibly placed on the property, preserving a broad green belt and integrating sports, play, and garden areas, although southern connections and tree density require refinement.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two-entrance east-west access clearly organizes the more public uses on both sides.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "east-west access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6741,
+            0.6849,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is approximated through the elongated building’s central horizontal organization."
+        }
+      },
+      {
+        "statement": "The overarching cube with six tent-roof-like ends is striking and creates identity.",
+        "tags": [
+          "massing",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "cube with six tent-roof-like ends",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5245,
+            0.5394,
+            0.8333
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The cube-like envelope and repeated roof-ended bays are clearly visible across the views."
+        }
+      },
+      {
+        "statement": "The one-floor school cluster offers convincing long-term flexibility.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "school cluster",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6741,
+            0.6849,
+            0.3333
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact low cluster is visible as a repeated, flexible building arrangement."
+        }
+      },
+      {
+        "statement": "The ground-floor distribution is well done, with adequately sized foyers serving the central staircases.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "ground-floor foyers",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.416,
+            0.1982,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Foyers and stair service are interior, so the ground-floor front zone is approximated."
+        }
+      },
+      {
+        "statement": "The roof shapes create an appealing atmosphere on the upper floors, particularly for younger students.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "roof shapes",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5669,
+            0.5719,
+            1
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Six repeated roof-like ends are directly visible in plan and upper elevations."
+        }
+      },
+      {
+        "statement": "The room program is adhered to, and construction, operation, and maintenance appear cost-effective.",
+        "tags": [
+          "functionality",
+          "cost",
+          "operation"
+        ],
+        "position": {
+          "target": "room program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7184,
+            0.6461,
+            0.3333
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Program and operational efficiency are associated with the overall sampled building."
+        }
+      },
+      {
+        "statement": "The building structure can be expected to have a good energy balance.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "energy balance",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy performance is a non-local operational judgment without a specific geometric marker."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The play-belt dimensions still need to be revised, and its southern connection should be specified.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "play belt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5193,
+            0.1076,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The play belt and southern connection are approximated along the southern site edge."
+        }
+      },
+      {
+        "statement": "The trees are too densely planted toward the south and the outdoor camp area.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3569,
+            0.25,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Dense southern planting is assigned to the southern outdoor perimeter."
+        }
+      },
+      {
+        "statement": "The detailed treatment of the glass surfaces and upper-floor windows does not match the quality of the roof-crowned concept.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "glass surfaces and upper-floor windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6763,
+            0.0311,
+            0.75
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper façade treatment is anchored to the visible perimeter elevations."
+        }
+      },
+      {
+        "statement": "The very small inner courtyards are insufficient to provide adequate lighting to the interior rooms.",
+        "tags": [
+          "daylight",
+          "open space"
+        ],
+        "position": {
+          "target": "inner courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6883,
+            0.7032,
+            0.4167
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Small courtyard-like openings are visible within the repeated top-view roof and room pattern."
+        }
+      },
+      {
+        "statement": "The rooms with windows should ideally be oriented toward the green space.",
+        "tags": [
+          "layout",
+          "daylight",
+          "landscape"
+        ],
+        "position": {
+          "target": "rooms with windows",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5554,
+            0.8197,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Windowed rooms are interior and are approximated along the green-facing northern side."
+        }
+      },
+      {
+        "statement": "It remains unclear whether a cost-effective, fire-safe view into the gymnasium is possible and whether a generous sightline is educationally appropriate.",
+        "tags": [
+          "visibility",
+          "fire safety",
+          "cost"
+        ],
+        "position": {
+          "target": "gymnasium sightline",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6741,
+            0.6849,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gymnasium is not distinguishable; the sightline is anchored to the central interior zone."
+        }
+      },
+      {
+        "statement": "The sloping roof should support airflow and night cooling only if drafts can be avoided.",
+        "tags": [
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "sloping roof airflow",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7819,
+            0.4417,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ventilation is associated with the visible roof crowns, though airflow is not directly represented."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "identity",
+      "layout",
+      "flexibility",
+      "daylight",
+      "facade",
+      "circulation",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

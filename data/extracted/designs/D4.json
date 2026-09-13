@@ -1,0 +1,314 @@
+{
+  "object_description": "multi-part stepped building ensemble",
+  "geometry_property": [
+    "multi-part",
+    "six-storey",
+    "plinth-based",
+    "transverse wing",
+    "staggered",
+    "open-sided"
+  ],
+  "design_condition": "The building aligns its taller volume toward the park, forms a street-side plinth, and arranges varied outdoor areas between the school elements and surrounding neighbourhood.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban-planning derivation convincingly demonstrates the special position of a public school within the urban fabric.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "urban-planning position",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6998,
+            0.6688,
+            0.05
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The taller building mass and open side are read toward the northern park-facing edge."
+        }
+      },
+      {
+        "statement": "The positioning opens the main side of the school toward the park.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "park-facing main side",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7024,
+            1,
+            0.55
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The open main side is visibly oriented toward the north edge and park-facing elevation."
+        }
+      },
+      {
+        "statement": "The arrangement of the break areas creates good zoning and a variety of possible uses.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "break areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3529,
+            0.2353,
+            0.05
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Multiple low outdoor zones are visibly distributed around the plinth and between building parts."
+        }
+      },
+      {
+        "statement": "The entrance and forecourt are clearly positioned toward the park and high-rise setting.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "park-facing entrance and forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7876,
+            0.6688,
+            0.05
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The entrance and forecourt are placed approximately along the park-facing northern side."
+        }
+      },
+      {
+        "statement": "The internal logic develops naturally from the clear urban setting.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "urban setting logic",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7063,
+            0.6688,
+            0.55
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Stepped volumes, plinth, courtyards, and park-facing massing jointly establish the visible urban logic."
+        }
+      },
+      {
+        "statement": "The efficiently organized floor plan provides spatial diversity through its sequence of courtyards and clusters.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "courtyards and clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5746,
+            0.6688,
+            0.2
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The top view reveals a courtyard-like void and clustered stepped volumes around it."
+        }
+      },
+      {
+        "statement": "The central staircase sculpture effectively links the care areas and clusters.",
+        "tags": [
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "central staircase sculpture",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5746,
+            0.6688,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central connector is approximated at the visible junction between the stepped building clusters."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The retaining wall at the staircase extends the building like an attached plinth and draws the paved square too far into the park.",
+        "tags": [
+          "massing",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "staircase retaining wall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9123,
+            0.4722,
+            0.05
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A linear wall-like extension is visibly attached to the building near the eastern side."
+        }
+      },
+      {
+        "statement": "The southern pocket park is difficult to reach from the school and its function is incomprehensible.",
+        "tags": [
+          "accessibility",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "southern pocket park",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1774,
+            0.2353,
+            0.05
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The southern external zone is represented along the low south-west perimeter outside the plinth."
+        }
+      },
+      {
+        "statement": "The spatial diversity lacks spaciousness.",
+        "tags": [
+          "proportion",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial diversity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5307,
+            0.6688,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The visible stepped arrangement and internal voids identify the judged spatially diverse building region."
+        }
+      },
+      {
+        "statement": "The open staircase across all floors is viewed critically because of acoustic pollution.",
+        "tags": [
+          "acoustics",
+          "circulation"
+        ],
+        "position": {
+          "target": "open staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5746,
+            0.6688,
+            0.6
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The continuous circulation element is approximated at the central vertical connection visible across levels."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "acoustics"
+    ]
+  }
+}

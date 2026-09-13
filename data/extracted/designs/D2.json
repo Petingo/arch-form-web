@@ -1,0 +1,269 @@
+{
+  "object_description": "scaffold-like school volume organized around a flexible floor structure",
+  "geometry_property": [
+    "scaffold-like",
+    "frame-based",
+    "modular",
+    "stepped",
+    "large-footprint",
+    "head-ended"
+  ],
+  "design_condition": "The large footprint retains a front zone toward the street and activates the park-facing head with an outdoor canteen area, while paths toward the park lack the desired spaciousness and scale.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The designers responded cleverly to flexible childcare-room use and organized the classroom floor plan logically without reducing its spatial qualities.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "flexible childcare-room floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5291,
+            0.5569,
+            0.9286
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad frame-like volume anchors the unexposed classroom organization at mid-building level."
+        }
+      },
+      {
+        "statement": "Unobstructed access and the function of the main access to the school were strengthened.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "main access to the school",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5266,
+            0,
+            0.1429
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The front edge toward the street provides the constrained main-access location."
+        }
+      },
+      {
+        "statement": "The park-side activation with an outdoor canteen area is welcomed in principle and was solved more consistently after revision.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "park-side outdoor canteen",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7529,
+            1,
+            0.0714
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The park-facing head is visibly distinct and provides the likely outdoor canteen zone."
+        }
+      },
+      {
+        "statement": "The industrial-scaffolding analogy has proved its worth: the structure can respond to requirements and be converted into an atmospheric, flexible school space.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "expression"
+        ],
+        "position": {
+          "target": "industrial-scaffolding structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5085,
+            0.5707,
+            0.9286
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated frame-like bands and modular massing visibly support the scaffolding analogy."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Because the footprint could not be reduced, some questions about the outdoor space remain only partially answered.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1102,
+            0.7227,
+            0.0714
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The large footprint leaves an adjacent open-space region whose qualities are being questioned."
+        }
+      },
+      {
+        "statement": "Moving the required fenced kindergarten area into the park perimeter was critically questioned.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "fenced kindergarten area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7529,
+            1,
+            0.0714
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The park perimeter is approximated at the active head, without a distinguishable fence."
+        }
+      },
+      {
+        "statement": "The proposed stone-slab paths lack the desired spaciousness and appropriate scale for future development.",
+        "tags": [
+          "circulation",
+          "scale",
+          "open space"
+        ],
+        "position": {
+          "target": "stone-slab paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.636,
+            1,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Park-facing circulation is approximated along the open edge of the building footprint."
+        }
+      },
+      {
+        "statement": "The ornamental wall for facade greening is difficult to evaluate in terms of greening success and maintenance.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "ornamental wall for facade greening",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9872,
+            0.5264,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The wall is not separable, so the marker uses a plausible side-envelope facade location."
+        }
+      },
+      {
+        "statement": "The project suffers in particular from a lack of clarity in dealing with the required open spaces.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "required open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4608,
+            1,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open zones around the large footprint are visible, though their programmatic clarity is not."
+        }
+      }
+    ],
+    "keyword": [
+      "flexibility",
+      "layout",
+      "functionality",
+      "circulation",
+      "accessibility",
+      "open space",
+      "massing",
+      "scale",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

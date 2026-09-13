@@ -1,0 +1,386 @@
+{
+  "object_description": "two bent building volumes with staggered heights",
+  "geometry_property": [
+    "two-part",
+    "bent",
+    "angled",
+    "staggered",
+    "courtyard-forming",
+    "irregular"
+  ],
+  "design_condition": "The two volumes form a courtyard-like address beside the care center and organize public and school outdoor spaces around a park-like green belt, while their height changes require major topographic intervention.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The free geometries give the school a high degree of independence and its own identity as an important neighborhood institution.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "school identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6593,
+            0.45,
+            0.5714
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The bent, independently articulated volumes visibly establish a distinct building identity."
+        }
+      },
+      {
+        "statement": "The courtyard-like ensemble ties in with the existing front area of the care center and forms a clear address.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "courtyard-like address",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5225,
+            0.4841,
+            0.2143
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gap between the two bent volumes forms the visible courtyard-like address."
+        }
+      },
+      {
+        "statement": "An elegantly zoned open space system combines public and school outdoor spaces into a convincing whole.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "open space system",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5026,
+            0.2412,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Public and school outdoor areas are approximated around the visible courtyard-forming volumes."
+        }
+      },
+      {
+        "statement": "The curved path reinforces the atmosphere of the outdoor space while providing logical and direct access to all elements.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "curved path",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5199,
+            0.3888,
+            0
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The path is not separately resolved and is anchored along the central outdoor gap."
+        }
+      },
+      {
+        "statement": "The proposal creates a varied, angled landscape for movement and learning with views and vistas spanning several storeys.",
+        "tags": [
+          "layout",
+          "visibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "angled learning landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3213,
+            0.6905,
+            0.145
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Varied landscape and multi-level movement are approximated beside the staggered volumes."
+        }
+      },
+      {
+        "statement": "The precise fulfillment of the room program and appropriate materialization suggest low construction costs.",
+        "tags": [
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "room program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.643,
+            0.4956,
+            0.4286
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Program and material efficiency are associated with the overall sampled building organization."
+        }
+      },
+      {
+        "statement": "The proposal is adequate in scale from the perspective of primary school children and has high identification potential.",
+        "tags": [
+          "scale",
+          "identity"
+        ],
+        "position": {
+          "target": "primary-school scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2623,
+            0.6122,
+            0.4286
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low, staggered volumes visibly support a child-scaled overall composition."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The all-weather pitch restricts passage through the green space, and its height difference requires a major intervention in the topography.",
+        "tags": [
+          "open space",
+          "topography"
+        ],
+        "position": {
+          "target": "all-weather pitch",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6926,
+            0.2579,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The pitch is not distinguishable and is placed in a plausible open-space area beside the volumes."
+        }
+      },
+      {
+        "statement": "The dense trees should be zoned more differentially into open and closed areas to improve permeability.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "dense trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2319,
+            0.17,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tree density is anchored to the southern outdoor perimeter, though vegetation is absent from the sample."
+        }
+      },
+      {
+        "statement": "The placement of the school garden at the main entrance does not do justice to the context.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "school garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4682,
+            0.1493,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The garden is placed at a plausible southern entrance-side zone."
+        }
+      },
+      {
+        "statement": "The circulation area is tightly dimensioned and can hardly fulfill its additional function as a recreational area.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "circulation area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6349,
+            0.5184,
+            0.4286
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The circulation area is approximated within the central connector between the bent volumes."
+        }
+      },
+      {
+        "statement": "Access to the handicraft and work rooms as well as the sports building is somewhat inferior.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "handicraft, work, and sports access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.872,
+            0.4998,
+            0.2143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Inferior access is anchored to the eastern lower portion of the visible ensemble."
+        }
+      },
+      {
+        "statement": "The compactness and comparatively large façade area leave something to be desired in terms of ecological sustainability.",
+        "tags": [
+          "massing",
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "facade area",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8458,
+            0.5411,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The comparatively extensive façade surfaces are clearly visible on the elevations."
+        }
+      },
+      {
+        "statement": "The geometric deflections in parts of the ensemble sometimes appear arbitrary from the outside.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "geometric deflections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6349,
+            0.5184,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Angled changes in the bent ensemble are directly visible in plan and elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "identity",
+      "urban integration",
+      "open space",
+      "landscape",
+      "topography",
+      "circulation",
+      "layout",
+      "functionality",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

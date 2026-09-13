@@ -1,0 +1,298 @@
+{
+  "object_description": "three-storey lightweight volume over a solid gymnasium base",
+  "geometry_property": [
+    "rectangular",
+    "three-storey",
+    "lightweight upper volume",
+    "solid base",
+    "central atrium",
+    "horizontal bisection",
+    "partly sunken",
+    "green-embanked"
+  ],
+  "design_condition": "The large volume is set into the wooded slope, with its narrow side toward the schoolyard and its long side defining the street, while a wide landscape staircase and planted open spaces connect the two levels.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The placement of the large volume creates a site-specific solution of great spatial quality and clarifies the street conditions.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "large volume and street conditions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5467,
+            0.6739,
+            0.5882
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The large rectangular volume and long street-defining edge are clearly visible across all projections."
+        }
+      },
+      {
+        "statement": "The carefully elaborated open-space concept offers a variety of outdoor spaces and pleasant places to spend time in hotter summers.",
+        "tags": [
+          "open space",
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "open-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3709,
+            0.3246,
+            0.3824
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Multiple planted and open areas visibly surround the large embedded building."
+        }
+      },
+      {
+        "statement": "The clear structural concept, spacious assembly hall, atrium, and material combination result in user-friendly interior spaces with architectural quality.",
+        "tags": [
+          "structure",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "assembly hall, atrium, and material combination",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3586,
+            0.4694,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central atrium is visibly indicated in plan; interior hall and materials are anchored nearby."
+        }
+      },
+      {
+        "statement": "The existing high-quality buildings can accommodate new forms of teaching through proportionate interventions in the fabric.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "existing buildings and new forms of teaching",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0618,
+            0.2054,
+            0.4412
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The intervention is anchored at the lower-side relationship between the main volume and surrounding site."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The upper classroom half appears open and light but has hardly any recognizable reference to the site.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "upper classroom half",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5467,
+            0.6739,
+            0.7941
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The lightweight upper half is clearly separated above the solid base in the elevations."
+        }
+      },
+      {
+        "statement": "The choice of a block with an inner courtyard is hardly understandable on the outskirts of the town.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "block with an inner courtyard",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4541,
+            0.6695,
+            0.5588
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The rectangular perimeter and central opening are visible in plan and corresponding elevations."
+        }
+      },
+      {
+        "statement": "The dining rooms are constricted by the adjoining room layer and are only just sufficiently accessible.",
+        "tags": [
+          "layout",
+          "accessibility"
+        ],
+        "position": {
+          "target": "dining rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6361,
+            0.6755,
+            0.4706
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Dining rooms are approximated within the long upper-volume interior edge."
+        }
+      },
+      {
+        "statement": "The kitchen and childcare area is constricted by the structure.",
+        "tags": [
+          "layout",
+          "functionality",
+          "structure"
+        ],
+        "position": {
+          "target": "kitchen and childcare area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3615,
+            0.665,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The service and childcare zone is approximated along the opposite side of the upper volume."
+        }
+      },
+      {
+        "statement": "The assembly hall only keeps its spatial promise when the folding walls are open; otherwise it changes from open to labyrinthine and from light to dark.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "assembly hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3586,
+            0.4694,
+            0.3824
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The hall is anchored near the solid base and central interior organization, though not externally distinguishable."
+        }
+      },
+      {
+        "statement": "The classroom size and group-room layout do not meet the operational requirements.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "classroom size and group-room layout",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6361,
+            0.6755,
+            0.7941
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The upper classroom floor provides the constrained spatial anchor for the stated planning criticism."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "urban integration",
+      "open space",
+      "landscape",
+      "layout",
+      "functionality",
+      "structure",
+      "flexibility",
+      "daylight"
+    ]
+  }
+}

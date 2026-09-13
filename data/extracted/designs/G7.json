@@ -1,0 +1,368 @@
+{
+  "object_description": "large three-storey building with terraced cascade staircase",
+  "geometry_property": [
+    "large",
+    "three-storey",
+    "terraced",
+    "stepped",
+    "centralized",
+    "stair-linked"
+  ],
+  "design_condition": "The building is gently placed in an existing park-like topography, with sports fields on different levels and a broad stair-and-terrace sequence connecting the entrance to the surrounding path network and residential edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban planning is precise, while the generous access figure and entrance floor create a strong spatial experience.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "entrance floor and access figure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4841,
+            0,
+            0.2006
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front-central lower-level placement reflects the generous entrance approach and access sequence."
+        }
+      },
+      {
+        "statement": "The public, special, and teaching-related uses are coherently combined around the break hall and gymnasium.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "break hall and gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5075,
+            0.4893,
+            0.6497
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central placement approximates the shared organizational zone around the main internal spaces."
+        }
+      },
+      {
+        "statement": "The main access is easy to find from the surrounding neighbourhood via a wide staircase.",
+        "tags": [
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "wide entrance staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4841,
+            0,
+            0.1507
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The front-central stepped access is identifiable in plan and supported by the south elevation."
+        }
+      },
+      {
+        "statement": "The project creates a spacious outdoor area with a staggered sequence of connected spaces.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "connected outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4841,
+            0,
+            0.1008
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front-central terraces and open bands indicate a staggered connected outdoor sequence."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The lack of toilet facilities on the upper classroom floor is a serious deficiency.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "upper classroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.727,
+            0.662,
+            0.8493
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-level classroom area is approximated toward the rear-right portion of the sampled mass."
+        }
+      },
+      {
+        "statement": "The central staircase and peripheral escape stairs make it questionable whether 330 children can use the access area without disruption or benefit from synergies in teaching.",
+        "tags": [
+          "circulation",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "central and escape stairs",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4841,
+            0,
+            0.3004
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Access-area placement captures the central stair and surrounding circulation zone."
+        }
+      },
+      {
+        "statement": "The care rooms grouped around inner courtyards prevent an overview of the floor and make orientation difficult.",
+        "tags": [
+          "layout",
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "care rooms around courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6713,
+            0.5143,
+            0.6497
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Rear-right internal zone approximates courtyard-adjacent care rooms and their orientation problem."
+        }
+      },
+      {
+        "statement": "The structural concept requires additional measures that affect the inner courtyards.",
+        "tags": [
+          "structure",
+          "layout"
+        ],
+        "position": {
+          "target": "inner courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5075,
+            0.4893,
+            0.6497
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central void-like plan region provides the most useful approximation for affected courtyards."
+        }
+      },
+      {
+        "statement": "There is no spatial-structural connection between the floors, and the main spatial gestures find no architectural reflection.",
+        "tags": [
+          "massing",
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "three-floor spatial connection",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2394,
+            0.3125,
+            0.6497
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Lower-left building surface anchors the broad critique of vertical integration and architectural expression."
+        }
+      },
+      {
+        "statement": "The restrained facade creates little identity and does not do justice to the public significance of the building.",
+        "tags": [
+          "facade",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "restrained facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4841,
+            0,
+            0.5499
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Front elevation anchors the facade critique without asserting an unstated directional emphasis."
+        }
+      },
+      {
+        "statement": "The school rooms are partly too small, although the project remains just below the target costs.",
+        "tags": [
+          "functionality",
+          "scale",
+          "cost"
+        ],
+        "position": {
+          "target": "school rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6713,
+            0.322,
+            0.6497
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Right-side classroom zone provides a plausible surface anchor for the room-scale criticism."
+        }
+      },
+      {
+        "statement": "The organization of the entire school use over a single building level is operationally problematic.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "single-level school organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2394,
+            0.3125,
+            0.6497
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distributed building-level anchor represents the operational critique of organizing all school use together."
+        }
+      },
+      {
+        "statement": "The project lacks an idea connecting the three main floors and a corresponding architectural expression.",
+        "tags": [
+          "layout",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "connection between the three main floors",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7713,
+            0.662,
+            0.6497
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Rear-right building surface anchors the broad critique of missing vertical connection and expression."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "circulation",
+      "layout",
+      "functionality",
+      "operation",
+      "open space",
+      "structure",
+      "massing",
+      "facade",
+      "identity"
+    ]
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "object_description": "long, narrow three-story linear building spanning the site",
+  "geometry_property": [
+    "linear",
+    "elongated",
+    "narrow",
+    "three-story",
+    "rectilinear",
+    "atrium-lit"
+  ],
+  "design_condition": "The linear volume spans between two paths and streets, dividing the site into a generous western forecourt and a more hidden eastern stream-side area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear urban-planning attitude precisely positions the building in the terrain and establishes a strong linear setting.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "topography"
+        ],
+        "position": {
+          "target": "linear building setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated rectilinear volume and its site span are clear in all views."
+        }
+      },
+      {
+        "statement": "The project provides a generous western open space as a prelude to the school.",
+        "tags": [
+          "open space",
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "western open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0,
+            0.4943,
+            0.0625
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The western ground-level forecourt is visibly separated from the long building volume."
+        }
+      },
+      {
+        "statement": "The internal access system, with main and secondary stairs, offers a high degree of flexibility of use.",
+        "tags": [
+          "circulation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "internal access system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5051,
+            0.5585,
+            0.5625
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stair locations are suggested by repeated elevation interruptions and the longitudinal plan."
+        }
+      },
+      {
+        "statement": "Clear organization and allocation of uses enable good functionality.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "organization of uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The clear linear mass is visible, while internal use allocation is not directly sampled."
+        }
+      },
+      {
+        "statement": "The foyer forms the spatial backbone of the complex and extends across its entire length.",
+        "tags": [
+          "layout",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "foyer",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5045,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The foyer is anchored along the building’s central longitudinal spine."
+        }
+      },
+      {
+        "statement": "Atriums support orientation and give the dense structure spatial quality.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5051,
+            0.5585,
+            0.5625
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated central interruptions and clustered point patterns indicate atrium locations."
+        }
+      },
+      {
+        "statement": "The second stage complements the respective areas, completes the urban development, and minimizes operational disruption.",
+        "tags": [
+          "flexibility",
+          "urban integration",
+          "operation"
+        ],
+        "position": {
+          "target": "second stage",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7568,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The phased component is not separately identifiable and is placed on a lateral building segment."
+        }
+      },
+      {
+        "statement": "The differentiated spatial formation is integrated into a structure that enables the greatest possible flexibility of use.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "flexible spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The repeated rectilinear structure is visible, though flexibility itself is inferential."
+        }
+      },
+      {
+        "statement": "The project impresses with its differentiated and dense spatial structure with high utility value.",
+        "tags": [
+          "layout",
+          "functionality",
+          "massing"
+        ],
+        "position": {
+          "target": "dense spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The full elongated, densely sampled building volume is directly visible."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The eastern stream-side area is hardly included in the open-space structure.",
+        "tags": [
+          "landscape",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "eastern stream-side area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4978,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The eastern edge is assigned to the less-developed side of the elongated site."
+        }
+      },
+      {
+        "statement": "The large open space lacks layout structure, making its design as an outdoor school space a demanding unresolved task.",
+        "tags": [
+          "open space",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "large open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0,
+            0.4215,
+            0.0625
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The broad western forecourt is clearly visible but lacks sampled internal landscape structure."
+        }
+      },
+      {
+        "statement": "The sequence of playground, break area, and play area does not form a coherent open-space framework.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "playground and break areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.549,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Ground-level western zones are visible, but individual outdoor-use sequences are not distinguishable."
+        }
+      },
+      {
+        "statement": "The prominent underground-car-park entrance cuts through the middle of the playing area.",
+        "tags": [
+          "open space",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "underground-car-park entrance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.4943,
+            0.0625
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The entrance is not identifiable; it is approximated within the central western playing area."
+        }
+      },
+      {
+        "statement": "Extensive embankments are necessary for the playground facing Mühlackerstrasse.",
+        "tags": [
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "playground embankments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.2757,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Terrain intervention is anchored along the western site edge facing the street."
+        }
+      },
+      {
+        "statement": "The strictly linear setting appears very hermetic in the wider context.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "hermetic linear setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0.5324,
+            0.4938
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The long narrow envelope is directly visible and reads as a single continuous setting."
+        }
+      },
+      {
+        "statement": "The main access and district cross-connection are too compressed and lack a stronger connection with the district.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "main access and district cross-connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5045,
+            0,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Access is placed at the southern end of the longitudinal building and site connection."
+        }
+      },
+      {
+        "statement": "The all-weather pitch and auditorium are not optimally connected for all uses.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "all-weather pitch and auditorium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7854,
+            0.5585,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The two uses are interior or site features not separately visible, so a lateral mid-building estimate is used."
+        }
+      },
+      {
+        "statement": "The increased consumption of traffic space diminishes the economic efficiency despite the high compactness.",
+        "tags": [
+          "cost",
+          "circulation",
+          "massing"
+        ],
+        "position": {
+          "target": "traffic space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.2028,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Traffic-area impact is anchored to the western access edge of the site."
+        }
+      },
+      {
+        "statement": "The façade expression does not establish a character specific to school use or the building's district significance.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "school façade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0,
+            0.25
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The long façade surfaces are clearly represented, although school-specific expression is not geometric."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "massing",
+      "flexibility"
+    ]
+  }
+}

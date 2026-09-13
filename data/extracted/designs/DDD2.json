@@ -1,0 +1,374 @@
+{
+  "object_description": "pitched-roof hall behind a retained gymnasium",
+  "geometry_property": [
+    "independent volume",
+    "second-row placement",
+    "overhanging pitched roof",
+    "ground-level hall",
+    "forum-forming ensemble",
+    "open-sided connections"
+  ],
+  "design_condition": "The existing gymnasium is retained while the new hall is placed to its south in the second row, forming a forum-like village square with the existing barn and opening its uses toward the surrounding open spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project integrates the impressive new volume unobtrusively into the existing school complex.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "new volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3361,
+            0.7024,
+            0.5
+          ],
+          "radius": 0.302,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The large pitched-roof hall is clearly separated behind the retained front building."
+        }
+      },
+      {
+        "statement": "The restrained architectural means produce an appropriate overall effect.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "restrained architectural means",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3634,
+            0.7184,
+            0.5622
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The simple rectangular mass and regular roof profile provide the visible architectural anchor."
+        }
+      },
+      {
+        "statement": "The forum-like open space is versatile and can serve as a meeting place with a strong identity.",
+        "tags": [
+          "open space",
+          "identity",
+          "functionality"
+        ],
+        "position": {
+          "target": "forum-like open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4892,
+            0.5095,
+            0.0648
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open gap between the front and rear volumes is legible as a central forum."
+        }
+      },
+      {
+        "statement": "The simple site planning and independent construction strategy avoid costly temporary arrangements during construction.",
+        "tags": [
+          "urban integration",
+          "cost",
+          "operation"
+        ],
+        "position": {
+          "target": "site planning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5198,
+            0.5146,
+            0.0648
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The separated masses and intervening open ground establish the site-planning anchor."
+        }
+      },
+      {
+        "statement": "The building structure is durable and resource-efficient, with an attractive energy concept expected.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3907,
+            0.7345,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The hall envelope and repeated elevation bands support a building-scale structural reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The staircase prevents the intended synergy between the upper multipurpose room and the gallery.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3634,
+            0.7184,
+            0.4378
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal stair is not visible; it is approximated inside the rear hall volume."
+        }
+      },
+      {
+        "statement": "The main stage lacks the side stages or required multipurpose rooms at the same level.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "main stage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3634,
+            0.7184,
+            0.3757
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stage is inferred within the broad ground-level hall footprint."
+        }
+      },
+      {
+        "statement": "The proposed division of gymnasium storage is not feasible and is an unacceptable deficit for daily operation.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "gymnasium storage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7982,
+            0.7622,
+            0.2513
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Storage is approximated along the ancillary eastern edge of the sampled ensemble."
+        }
+      },
+      {
+        "statement": "Access to both halls is not barrier-free.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "access to both halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5198,
+            0.5146,
+            0.127
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The shared access zone is placed in the open connection between the two hall areas."
+        }
+      },
+      {
+        "statement": "The kitchen is unsuitable for catering events in the new ground-floor hall.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "kitchen",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6118,
+            0.53,
+            0.1892
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The kitchen is not identifiable and is approximated near the ground-floor hall service edge."
+        }
+      },
+      {
+        "statement": "The number of parking spaces is clearly too small.",
+        "tags": [
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6797,
+            0.3476,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent from the visible sample; the outer eastern site edge provides a plausible location."
+        }
+      },
+      {
+        "statement": "The all-weather pitch takes up a considerable part of the heavily used playing field.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "all-weather pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0892,
+            0.1763,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Playing-field infrastructure is not distinguishable; a western open-ground area is used."
+        }
+      },
+      {
+        "statement": "The numerous storage areas represent an oversupply that harms the economic viability of the project.",
+        "tags": [
+          "cost",
+          "functionality"
+        ],
+        "position": {
+          "target": "storage areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7923,
+            0.6947,
+            0.3135
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Storage distribution is approximated within the secondary volume and ancillary edge."
+        }
+      },
+      {
+        "statement": "The project does not meet the requirements for day-to-day school operations or for hosting events.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "day-to-day school operations and events",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.302,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This judgment concerns overall operational performance rather than one spatial feature."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "identity",
+      "layout",
+      "circulation",
+      "functionality",
+      "operation",
+      "accessibility",
+      "cost"
+    ]
+  }
+}

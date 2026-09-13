@@ -1,0 +1,319 @@
+{
+  "object_description": "flat expansive symmetrical wing with a folded gable roof",
+  "geometry_property": [
+    "transverse",
+    "slightly projecting",
+    "symmetrical",
+    "flat",
+    "expansive",
+    "set-back upper floor",
+    "folded-roofed"
+  ],
+  "design_condition": "The new wing sits between historic buildings with a respectful gap, extends toward the street to shape differentiated outdoor spaces, and places sports fields, play areas, parking, and delivery around the existing ensemble.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The flat building volume respectfully subordinates itself to the historic buildings and creates a convincing, neighborhood-friendly ensemble.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "flat building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2112,
+            0.6152,
+            0.5
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall low, expansive mass is clearly visible across the top and four elevation views."
+        }
+      },
+      {
+        "statement": "The pleasant distance from the existing buildings enables a flow of outdoor spaces.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "distance between existing buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5437,
+            0.1389,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Existing buildings are absent; the approximate exterior gap is anchored beside the wing."
+        }
+      },
+      {
+        "statement": "The sunken sports hall is extremely atmospheric and illuminated on three sides.",
+        "tags": [
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "sunken sports hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2666,
+            0.6758,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The hall is interior and not distinguishable, so it is approximated at a low central level."
+        }
+      },
+      {
+        "statement": "The clear, concentrated form of the learning landscape is convincing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "learning landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7123,
+            0.3101,
+            0.4375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior learning space is not distinguishable; a concentrated internal zone is approximated."
+        }
+      },
+      {
+        "statement": "The rich lighting concept creates a bright, pleasant studio atmosphere throughout the learning landscape.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "learning landscape lighting",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2745,
+            0.677,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Lighting is not represented directly; the learning zone receives an approximate interior anchor."
+        }
+      },
+      {
+        "statement": "The wooden roof construction makes it possible to achieve ecological goals.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "wooden roof construction",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5068,
+            0.5066,
+            0.9395
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Folded roof geometry is visible, though its wooden material is not distinguishable."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The new building's formal language cannot adequately establish a connection to the historically significant buildings as a whole.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "connection to historic buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7123,
+            0.3101,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The new wing is visible, but historic context and the claimed connection are not represented."
+        }
+      },
+      {
+        "statement": "The proposed new planting obscures the protected composition in an inadmissible way.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "new planting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2651,
+            0.1412,
+            0.0625
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Planting is absent from the sampled geometry; an approximate site-edge location is used."
+        }
+      },
+      {
+        "statement": "The covered entrance area is rather too small for the entire school complex.",
+        "tags": [
+          "circulation",
+          "scale"
+        ],
+        "position": {
+          "target": "covered entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3494,
+            0.2235,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Entrance coverage is not distinguishable; it is approximated at a low building edge."
+        }
+      },
+      {
+        "statement": "The functionally desired two-part cluster structure has not been proven on the classroom floor.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8367,
+            0.7471,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The classroom level is not identifiable internally; a plausible upper occupied region is anchored."
+        }
+      },
+      {
+        "statement": "The project is quite spacious and exceeds the target space program by approximately ten percent.",
+        "tags": [
+          "scale",
+          "cost"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6912,
+            0.2895,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Spaciousness is assessed from the expansive visible footprint and broad elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "expression",
+      "daylight",
+      "layout",
+      "functionality",
+      "structure",
+      "sustainability"
+    ]
+  }
+}

@@ -1,0 +1,472 @@
+{
+  "object_description": "two compact buildings of different heights enclosing a shared courtyard",
+  "geometry_property": [
+    "two-part composition",
+    "compact",
+    "different heights",
+    "courtyard-forming",
+    "partly underground",
+    "deep-plan",
+    "vertically connected"
+  ],
+  "design_condition": "Two buildings are concentrated along Ansermet Square, preserving much of the park, while the underground gymnasium uses the topography to create a gradient toward the natural terrain.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact layout leaves most of the park free and supports pedagogical-functional suitability and flexibility.",
+        "tags": [
+          "massing",
+          "open space",
+          "flexibility"
+        ],
+        "position": {
+          "target": "compact layout and preserved park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5228,
+            0.5095,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two compact masses and substantial surrounding open area are clearly visible across all views."
+        }
+      },
+      {
+        "statement": "The classroom and special-room wing provides very good visual connections between the entrance zone, teachers’ area, foyer and playground.",
+        "tags": [
+          "visibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom and special-room wing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.67,
+            0.7889,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The taller eastern wing is the most plausible classroom and special-room location."
+        }
+      },
+      {
+        "statement": "Clustered classrooms, group rooms and checkrooms encourage varied uses and combinations while complying with fire-safety regulations.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "fire safety"
+        ],
+        "position": {
+          "target": "clustered classrooms and group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.724,
+            0.6201,
+            0.6667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior clusters are not distinguishable; the taller wing provides a useful approximation."
+        }
+      },
+      {
+        "statement": "The vertical light halls create the desired centering and references between floors.",
+        "tags": [
+          "daylight",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "vertical light halls",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.724,
+            0.6201,
+            0.6667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Light halls are interior; the upper portion of the taller wing is used as a surface proxy."
+        }
+      },
+      {
+        "statement": "The building volumes blend well with their surroundings and give the buildings an identity.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "two building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4799,
+            0.493,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The two-part composition and differing heights are directly visible in the calibrated renders."
+        }
+      },
+      {
+        "statement": "The library views, daylight and transparency are exciting.",
+        "tags": [
+          "visibility",
+          "daylight",
+          "facade"
+        ],
+        "position": {
+          "target": "library",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.724,
+            0.6201,
+            0.6667
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Library interior is not identifiable; the prominent taller wing is the likely location."
+        }
+      },
+      {
+        "statement": "The sports facilities are well arranged and their room program is complete and very well organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "sports facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3247,
+            0.2151,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The low-level western portion is used as the likely partly underground sports zone."
+        }
+      },
+      {
+        "statement": "The compactness and limited number of structures provide prerequisites for high cost-effectiveness and low energy consumption.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "cost-effectiveness and low energy consumption",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and energy performance have no useful spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The enclosed outdoor areas cannot convey the desired open-space atmosphere or direct contact with the natural terrain.",
+        "tags": [
+          "open space",
+          "landscape",
+          "topography"
+        ],
+        "position": {
+          "target": "enclosed outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5236,
+            0.4948,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The courtyard and enclosed spaces between the two volumes are clearly visible in plan and low elevations."
+        }
+      },
+      {
+        "statement": "The main entrance lacks the desired significance at its proposed location.",
+        "tags": [
+          "circulation",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6543,
+            0.2154,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The square-facing edge of the taller building provides a directional entrance anchor."
+        }
+      },
+      {
+        "statement": "The proposed alternatives to the planned park routing and elements are not convincing.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "park routing and elements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3238,
+            0.5444,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Park context is represented by the open area around the compact masses, without explicit route geometry."
+        }
+      },
+      {
+        "statement": "The underground gymnasium contributes little to social control of the playground in the evenings and at weekends.",
+        "tags": [
+          "visibility",
+          "safety",
+          "operation"
+        ],
+        "position": {
+          "target": "underground gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2956,
+            0.1945,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The low western mass is consistent with the partly underground gymnasium location."
+        }
+      },
+      {
+        "statement": "The basic level is in the most public area, but its building depth prevents direct connections to associated outdoor spaces.",
+        "tags": [
+          "layout",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "basic level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6834,
+            0.236,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower, square-facing portion of the taller building is used as the public-level anchor."
+        }
+      },
+      {
+        "statement": "In the second stage, the inner courtyard loses much of its quality and daylight.",
+        "tags": [
+          "open space",
+          "daylight"
+        ],
+        "position": {
+          "target": "second-stage inner courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5214,
+            0.5355,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central gap between masses provides the identifiable courtyard anchor."
+        }
+      },
+      {
+        "statement": "Daycare-center room allocation is only partly successful, with complicated access, confined spaces and poorly visible niches.",
+        "tags": [
+          "layout",
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "daycare-center rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6336,
+            0.7632,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Daycare rooms are interior; the taller eastern wing is a constrained surface approximation."
+        }
+      },
+      {
+        "statement": "The intervention in the historic building causes a major loss of substance and is not approvable in this form.",
+        "tags": [
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "historic building intervention",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3119,
+            0.536,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western volume is used as an approximate location for the historic-building intervention."
+        }
+      },
+      {
+        "statement": "The school building over the gymnasium creates high shear stresses requiring correspondingly dimensioned beams.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "school building over gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3231,
+            0.2139,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The stacked low western portion indicates the building-over-gymnasium condition."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "topography",
+      "layout",
+      "daylight",
+      "visibility",
+      "circulation",
+      "cost"
+    ]
+  }
+}

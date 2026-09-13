@@ -1,0 +1,416 @@
+{
+  "object_description": "simple flat two-storey volume enclosing an entrance courtyard",
+  "geometry_property": [
+    "simple",
+    "flat",
+    "two-storey",
+    "compact",
+    "courtyard-centered",
+    "slightly set back",
+    "uniform"
+  ],
+  "design_condition": "Set slightly back from the avenue and fitted between the neighboring halls, the volume creates a clear entrance courtyard but leaves little recreational space between the buildings and relies on multiple level changes for access.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The large open courtyard brings all entrances together clearly and forms the center of the department.",
+        "tags": [
+          "circulation",
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "large open courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4997,
+            0.3813,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central rectangular courtyard is clearly visible in plan, with surrounding entrance circulation at ground level."
+        }
+      },
+      {
+        "statement": "The inviting entrance design and central courtyard provide good lighting and orientation.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "inviting entrance and central courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4997,
+            0.3813,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central courtyard and adjacent ground-level openings provide the most plausible entrance and orientation anchor."
+        }
+      },
+      {
+        "statement": "The individual functional areas are well separated in the building.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "individual functional areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6181,
+            0.3813,
+            0.6
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior separation is not distinguishable; distributed across the compact two-storey envelope."
+        }
+      },
+      {
+        "statement": "The operational organization is well developed.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "operational organization",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational assessment has no specific geometric referent in the sampled exterior model."
+        }
+      },
+      {
+        "statement": "The restrained and simple structure has a quiet appearance.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "restrained and simple structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3691,
+            0.293,
+            0.6
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Uniform compact massing and flat roof are consistently visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The reduced glazing proportion is an advantage for the sustainability standard.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "reduced glazing proportion",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7979,
+            0,
+            0.6
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Sparse facade openings are most legible on the south and east elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building fills the available land between the neighboring halls, leaving little recreational quality between them.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "little recreational quality between neighboring halls",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.508,
+            0
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The building nearly fills its rectangular footprint, leaving narrow residual strips along the sides."
+        }
+      },
+      {
+        "statement": "The different first-floor levels are barely manageable and create unnecessary obstacles for access and deliveries.",
+        "tags": [
+          "accessibility",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "different first-floor levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6181,
+            0.3813,
+            0.6
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Level changes are not explicit, so the upper-floor circulation zone is approximated within the stepped access envelope."
+        }
+      },
+      {
+        "statement": "The entrance to the upper floor is confusing and narrow, while the main staircase is spatially unappealing.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "entrance to upper floor and main staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5093,
+            0.3813,
+            0.6
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper access is interior and indistinguishable; anchored near the central courtyard-facing circulation edge."
+        }
+      },
+      {
+        "statement": "The access and front zones to the lecture and seminar rooms are insufficiently dimensioned.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "access and front zones to lecture and seminar rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.692,
+            0.6
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Room fronts are absent from the sample; approximate them along the upper-level perimeter."
+        }
+      },
+      {
+        "statement": "The cafeteria is too peripheral to serve as a meeting point and departmental center.",
+        "tags": [
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "cafeteria",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.7855,
+            0.1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Cafeteria is not identifiable; peripheral ground-level placement reflects the stated criticism."
+        }
+      },
+      {
+        "statement": "The western exterior space is completely sealed off and degenerates into a residual space.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "western exterior space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.508,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Western residual exterior strip is anchored directly outside the building's west edge."
+        }
+      },
+      {
+        "statement": "The summer heat insulation has not been sufficiently demonstrated.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "summer heat insulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5077,
+            0,
+            0.7
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Thermal performance is unrepresented; constrained to the sun-exposed south envelope."
+        }
+      },
+      {
+        "statement": "The underfloor heating alone is insufficient for the gymnasium temperature regime.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "gymnasium temperature regime",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.835,
+            0.2488,
+            0.1
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Gymnasium is not distinguishable; approximate a ground-level peripheral room."
+        }
+      },
+      {
+        "statement": "Rooms with high internal heat loads are not equipped with additional cooling systems.",
+        "tags": [
+          "functionality",
+          "sustainability"
+        ],
+        "position": {
+          "target": "rooms with high internal heat loads",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.756,
+            0.6
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Cooling systems are unrepresented; anchor the estimate to upper-level occupied perimeter zones."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "accessibility",
+      "layout",
+      "functionality",
+      "operation",
+      "sustainability"
+    ]
+  }
+}

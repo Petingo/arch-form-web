@@ -1,0 +1,323 @@
+{
+  "object_description": "single large four-level volume with a rooftop courtyard",
+  "geometry_property": [
+    "single volume",
+    "large-scale",
+    "four-level",
+    "windmill-organized",
+    "semi-buried element",
+    "rooftop courtyard"
+  ],
+  "design_condition": "The large building matches the neighborhood’s density and future height, forms the eastern corner with the housing buildings, and frees ground space by placing the courtyard on the roof.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The morphology and typology convincingly respond to the high-density neighborhood plan.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "high-density neighborhood morphology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.2014,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Broad building mass is visible across calibrated views; placement samples the southwest envelope."
+        }
+      },
+      {
+        "statement": "The large building forms a coherent whole with the two housing buildings.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "coherent whole with two housing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8101,
+            0.2071,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The eastern building corner is visible, but neighboring housing buildings are absent from the sampled geometry."
+        }
+      },
+      {
+        "statement": "The central atrium provides generous service to all floors.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4885,
+            0.4213,
+            0.8333
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "A distinct central opening is legible in plan and extends through the vertically sampled volume."
+        }
+      },
+      {
+        "statement": "Locating the courtyard on the roof frees ground space and offers good sunshine qualities.",
+        "tags": [
+          "open space",
+          "daylight",
+          "urban integration"
+        ],
+        "position": {
+          "target": "rooftop courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4885,
+            0.4213,
+            0.9667
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The central roof opening is identifiable in plan and constrained to the uppermost sampled level."
+        }
+      },
+      {
+        "statement": "The ground-floor restaurant and extracurricular classes are conveniently located for shared use outside school hours.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "ground-floor restaurant and extracurricular classes",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8346,
+            0.2937,
+            0.0667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior programs are not distinguished; a plausible shared-use location is assigned near the ground-floor envelope."
+        }
+      },
+      {
+        "statement": "Independent access to the gym is successfully provided.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "independent gym access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8959,
+            0.51,
+            0.1333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "An access point is not identifiable, so the marker uses a plausible low-level perimeter entrance location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The square beside the entrance is too small to function as a playground.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "square beside the entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1229,
+            0.2264,
+            0.0333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The entrance is not explicitly marked; the small adjacent ground-level perimeter zone is approximated at the southwest edge."
+        }
+      },
+      {
+        "statement": "The entrance court is too restricted to receive the students waiting for the bell.",
+        "tags": [
+          "open space",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance court",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1229,
+            0.2264,
+            0.0333
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The court is not separable in the point cloud; a constrained ground-level forecourt is placed beside the southwest edge."
+        }
+      },
+      {
+        "statement": "The rooftop courtyard is insufficient in size for the proper functioning of recesses.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "rooftop courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4885,
+            0.4213,
+            0.9667
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The roof-level central opening is visible in plan and located at the top of the sampled four-level volume."
+        }
+      },
+      {
+        "statement": "The peripheral covered areas cannot function suitably as a covered courtyard.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "peripheral covered areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1937,
+            0.8011,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Covered courtyard areas are not individually visible; the estimate samples a peripheral lower-level envelope zone."
+        }
+      },
+      {
+        "statement": "The project’s functional biases degrade school life too much.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "school functional layout",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement expresses an overall functional judgment without a single useful spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "typology",
+      "urban integration",
+      "open space",
+      "daylight",
+      "layout",
+      "functionality",
+      "operation"
+    ]
+  }
+}

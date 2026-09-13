@@ -1,0 +1,449 @@
+{
+  "object_description": "three-storey perimeter block enclosing an open central atrium",
+  "geometry_property": [
+    "perimeter block",
+    "three-storey",
+    "rectilinear",
+    "central atrium",
+    "ring-structured",
+    "open square"
+  ],
+  "design_condition": "The block fills the perimeter, presents three storeys toward the street, and forms an open square between two entrances while maintaining a straight school route.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clearly cut structure and regular facade form an adequate counterpart to the existing buildings.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "regular facade form",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0793,
+            0.6207,
+            0.8125
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "The resulting intermediate space is articulated as an open square linking the school institution.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "open square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.5,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The top view clearly shows the central open square enclosed by the perimeter block."
+        }
+      },
+      {
+        "statement": "The main entrance is logically located and easy to find.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8335,
+            0.4782,
+            0.1875
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The school route remains straight and free of additional obstacles.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "school route",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.238,
+            0.4532,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The spacious, well-proportioned central atrium facilitates orientation and lights the central zone.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.5,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central void is clearly visible in plan and framed by the surrounding three-storey mass."
+        }
+      },
+      {
+        "statement": "The wide bridges form high-quality common areas that can be used in different ways.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "wide bridges",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2443,
+            0.9224,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "The facade construction is pragmatically designed and well thought out structurally and materially.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "facade construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2443,
+            0.9224,
+            0.9375
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "Varied room depths create appropriately deep classrooms and smaller office rooms.",
+        "tags": [
+          "proportion"
+        ],
+        "position": {
+          "target": "classrooms and office rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0635,
+            0.6375,
+            0.4375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The room program and distribution of uses are largely logical.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "room program and distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3649,
+            0.3192,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The restrained landscaping is adapted to the respective needs of the users.",
+        "tags": [
+          "landscape"
+        ],
+        "position": {
+          "target": "landscaping",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3222,
+            0.9919,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "The project demonstrates a high degree of urban-planning and architectural quality.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "urban-planning and architectural quality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3306,
+            0.9994,
+            0.625
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The entrance lacks conciseness and architectural sharpness.",
+        "tags": [
+          "expression"
+        ],
+        "position": {
+          "target": "entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.61,
+            0.6347,
+            0.1875
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The vertical circulation is too understated in both findability and architectural formulation.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "vertical circulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9763,
+            0.3274,
+            0.1875
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The longitudinal corridor walls need review in terms of structure and desirable flexibility of use.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "longitudinal corridor walls",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4897,
+            0.8411,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "Space requirements are not met, particularly in the utility area.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "utility area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2098,
+            0.8916,
+            0.75
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The facade structure without a plinth takes little account of the topographical slope.",
+        "tags": [
+          "topography"
+        ],
+        "position": {
+          "target": "facade structure without a plinth",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5607,
+            0.1126,
+            0.1875
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "The building costs are in the upper range.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "building costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost is a whole-design judgment with no geometric location in the sampled model."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "entrance",
+      "orientation",
+      "daylight",
+      "flexibility",
+      "structure",
+      "topography",
+      "space planning",
+      "economy"
+    ]
+  }
+}

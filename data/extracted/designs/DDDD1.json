@@ -1,0 +1,325 @@
+{
+  "object_description": "compact stepped volume with a three-storey central foyer",
+  "geometry_property": [
+    "compact",
+    "stepped",
+    "rectilinear",
+    "layered",
+    "three-storey atrium",
+    "balanced",
+    "infill"
+  ],
+  "design_condition": "The building fills the site between neighboring structures while maintaining appropriate distances, stepping upward to respond to surrounding heights and a change in terrain.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The grading of the volume responds subtly to the surrounding buildings in terms of height development and to the jump in the terrain.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "topography"
+        ],
+        "position": {
+          "target": "stepped volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6935,
+            0.5092,
+            0.7273
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped upper massing is clearly visible in elevations and the top footprint."
+        }
+      },
+      {
+        "statement": "The central interior space forms a three-storey foyer that gives the school its identity and becomes the heart of the complex.",
+        "tags": [
+          "identity",
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "central foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5019,
+            0.4591,
+            0.5909
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central void and vertically continuous foyer are indicated by the interior opening and elevation patterns."
+        }
+      },
+      {
+        "statement": "The skillful organization of the floor plans results in an interesting sectional solution.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "sectional solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6806,
+            0.3939,
+            0.5909
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Layered floor and roof profiles show the sectional organization across elevations."
+        }
+      },
+      {
+        "statement": "The proposed construction and façade design promise a concise and appropriate appearance in the neighborhood.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "façade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4934,
+            0.0673,
+            0.6136
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The rectilinear façade envelope is directly visible on the sampled elevations."
+        }
+      },
+      {
+        "statement": "The windows, ventilated façade, and choice of materials generally point to a sustainable construction method.",
+        "tags": [
+          "daylight",
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "windows and ventilated façade",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7042,
+            0.1874,
+            0.6136
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Façade openings are visible, but ventilation components and material sustainability are not identifiable."
+        }
+      },
+      {
+        "statement": "The compact volume and restrained façade have a cost-advantageous effect.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2244,
+            0.7697,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact stepped envelope is clearly sampled across all views."
+        }
+      },
+      {
+        "statement": "The design integrates naturally into the existing quarter and could make a new mark on the street.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "street mark",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4934,
+            0.0673,
+            0.6136
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The street-facing edge is localized on the southern façade; neighborhood context is not represented."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The entrance sequence is not ideal in terms of accessibility and dimensions.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "scale"
+        ],
+        "position": {
+          "target": "entrance sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2936,
+            0.0967,
+            0.1364
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Entrance is approximated at the southern lower edge, with accessibility dimensions not distinguishable."
+        }
+      },
+      {
+        "statement": "The distribution of the course-room types across the floors is not optimally mixed.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "course-room distribution",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6935,
+            0.5092,
+            0.5455
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Floors are visible, but course-room types and their distribution are not represented in the exterior sample."
+        }
+      },
+      {
+        "statement": "The concept of learning islands only partially corresponds to the users' expectations.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "learning islands",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5019,
+            0.4591,
+            0.5227
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central interior placement is plausible, though learning islands are not distinguishable in the point cloud."
+        }
+      },
+      {
+        "statement": "The access doors to the toilet vestibules hardly correspond to the status intended by the central light space.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "toilet vestibule doors",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5722,
+            0.4991,
+            0.5
+          ],
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior doors are approximated near the central light space but are not visibly identifiable."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "circulation",
+      "identity",
+      "daylight",
+      "ventilation",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

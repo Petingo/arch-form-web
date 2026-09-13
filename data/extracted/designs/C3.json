@@ -1,0 +1,378 @@
+{
+  "object_description": "elongated solitary building with a striking folded roof",
+  "geometry_property": [
+    "elongated",
+    "solitary",
+    "low-volume",
+    "three-storey",
+    "folded-roofed",
+    "slope-set",
+    "open-ground-floor"
+  ],
+  "design_condition": "The long volume closes the northern edge of the site and schoolyard while using the slope to create distance and a large outdoor space, but its broad footprint obstructs cold-air flow and weakens northern street interaction.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project uses the topography to arrange a low volume that refers to the surrounding settlement scale.",
+        "tags": [
+          "topography",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "low volume and surrounding settlement scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6144,
+            0.4522,
+            0.4167
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long low footprint and modest vertical profile are clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The placement creates the largest possible outdoor space and a transparent first floor integrated with its surroundings.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "largest possible outdoor space and transparent first floor",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1021,
+            0.2666,
+            0
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Large open area lies beside the elongated footprint, while the transparent ground floor fronts it."
+        }
+      },
+      {
+        "statement": "The exposed concrete folding structure creates a strong sense of identity.",
+        "tags": [
+          "identity",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "exposed concrete folding structure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.515,
+            0.5143,
+            0.9167
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct folded roof geometry is strongly visible in top and elevation views."
+        }
+      },
+      {
+        "statement": "The first floor creates a generous, lively space accommodating shared uses and different floor levels.",
+        "tags": [
+          "layout",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "generous lively first floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6358,
+            0.4781,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Open ground-level band spans the elongated building and is clearly visible in elevations."
+        }
+      },
+      {
+        "statement": "The project has a clear and well-structured program.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "clear and well-structured program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6786,
+            0.5298,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Program is not legible internally; distributed across the clearly organized elongated envelope."
+        }
+      },
+      {
+        "statement": "The clear structural design and striking architectural expression will leave lasting memories.",
+        "tags": [
+          "massing",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "clear structural design and architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4918,
+            0.4959,
+            0.8333
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Folded roof and regular elongated structure provide strong, consistent geometric evidence."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The rigid elongated volume creates a long inactive rear side with no interaction with the surroundings.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "inactive rear side",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5999,
+            0.8973,
+            0.5858
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The long northern rear edge is clearly identified as the building's inactive side."
+        }
+      },
+      {
+        "statement": "The playground areas in the gap between the new and existing buildings do not appear attractive.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "playground areas in the gap",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.443,
+            0.2453,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Gap space is visible beside the elongated building, though playground elements are not distinguished."
+        }
+      },
+      {
+        "statement": "The building's position and broad site coverage have a negative impact on downdrafts.",
+        "tags": [
+          "topography",
+          "sustainability"
+        ],
+        "position": {
+          "target": "broad site coverage and downdrafts",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5929,
+            0.4264,
+            0
+          ],
+          "radius": 0.306,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad continuous footprint is clearly visible and supports the site-coverage assignment."
+        }
+      },
+      {
+        "statement": "The topographically designed first floor raises doubts about its functionality for an elementary school.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "topographically designed first floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6358,
+            0.4781,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground-floor band and varying levels are visible along the elongated elevations."
+        }
+      },
+      {
+        "statement": "The sports facilities are problematic in terms of functionality, and access to the checkrooms is difficult.",
+        "tags": [
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "sports facilities and checkrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2734,
+            0.4736,
+            0.0833
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Sports spaces are not identifiable; approximate a ground-level end zone."
+        }
+      },
+      {
+        "statement": "The above-average usable area, oversized cluster floors, and oversized canteen negatively affect overall costs.",
+        "tags": [
+          "cost",
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "oversized cluster floors and canteen",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7247,
+            0.5559,
+            0.5858
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior program sizes are unrepresented; distributed across the upper elongated volume."
+        }
+      },
+      {
+        "statement": "The spaciousness and cost-intensive construction do not completely convince the jury for an elementary school.",
+        "tags": [
+          "scale",
+          "cost",
+          "proportion"
+        ],
+        "position": {
+          "target": "spaciousness and cost-intensive construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.306,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The cost judgment applies globally and has no single useful spatial anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "urban integration",
+      "open space",
+      "identity",
+      "expression",
+      "functionality",
+      "scale",
+      "cost"
+    ]
+  }
+}

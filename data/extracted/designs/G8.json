@@ -1,0 +1,416 @@
+{
+  "object_description": "staggered three-part building with cantilevered overhang and atriums",
+  "geometry_property": [
+    "staggered",
+    "three-part",
+    "hillside-adapted",
+    "cantilevered",
+    "meandering",
+    "atrium-based"
+  ],
+  "design_condition": "The staggered building follows the slope and surrounding development pattern, while varied access routes, ramps, steps, and linked outdoor spaces integrate the complex with the neighbourhood and hillside landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The staggered building structure reacts appropriately to the sloping terrain and fits naturally into the hillside landscape.",
+        "tags": [
+          "massing",
+          "topography",
+          "urban integration"
+        ],
+        "position": {
+          "target": "staggered building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5602,
+            0.3804,
+            0.4643
+          ],
+          "radius": 0.315,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped massing is visible across the footprint and elevations, distributed along the represented hillside-adapted form."
+        }
+      },
+      {
+        "statement": "The diverse accessibility integrates the school complex well into the surrounding neighbourhood.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "neighbourhood access routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2351,
+            0,
+            0.1071
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A lower site-edge anchor represents varied approaches and accessible circulation connecting the complex outward."
+        }
+      },
+      {
+        "statement": "The outdoor spaces are connected by ramps and steps and promise robust use through their natural design.",
+        "tags": [
+          "open space",
+          "landscape",
+          "accessibility"
+        ],
+        "position": {
+          "target": "ramps and steps connecting outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5602,
+            0.2527,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower perimeter spaces and stepped level changes provide the most plausible sampled anchor for connected outdoor circulation."
+        }
+      },
+      {
+        "statement": "The simple and sensible arrangement of uses responds well to the topographical situation.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "arrangement of uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6898,
+            0.2901,
+            0.2857
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distributed three-part footprint supports an approximate functional-layout anchor aligned with the stepped terrain response."
+        }
+      },
+      {
+        "statement": "The spatial connection between the two atrium-containing building parts initially appears attractive.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "connection between atrium-containing building parts",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5602,
+            0.3804,
+            0.4643
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connector region lies between identifiable courtyard-like voids in the top view and linked elevations."
+        }
+      },
+      {
+        "statement": "The interior ribbons create a playful, child-friendly element and a bright, attractive room atmosphere.",
+        "tags": [
+          "expression",
+          "daylight"
+        ],
+        "position": {
+          "target": "interior ribbons",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5602,
+            0.3804,
+            0.5357
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior ribbons are not distinguishable externally; the anchor approximates the central illuminated interior zone."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The access area on the slope is too tight, and the cantilever undermines the division into three building parts and weakens the design idea.",
+        "tags": [
+          "circulation",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "slope access area and cantilever",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2351,
+            0,
+            0.1786
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower slope-edge access and adjacent overhanging mass provide a constrained anchor for this compound criticism."
+        }
+      },
+      {
+        "statement": "The main entrance is difficult to find beneath the overhang and is much too small.",
+        "tags": [
+          "circulation",
+          "visibility",
+          "scale"
+        ],
+        "position": {
+          "target": "main entrance beneath the overhang",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1919,
+            0,
+            0.1071
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low front-edge position beneath the projecting mass approximates the entrance location without a stated orientation."
+        }
+      },
+      {
+        "statement": "Fire-safety glazing of the atriums significantly weakens the quality of the interior concept.",
+        "tags": [
+          "fire safety",
+          "expression"
+        ],
+        "position": {
+          "target": "atrium fire-safety glazing",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5602,
+            0.3804,
+            0.4643
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Atrium-like openings are visible, but glazing is not; the marker is constrained to a central courtyard edge."
+        }
+      },
+      {
+        "statement": "The classroom units do not entirely meet user needs, particularly because the lounges are centrally located.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "classroom units and central lounges",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5602,
+            0.3804,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior planning is unresolved externally; the anchor estimates the central occupied portion of the sampled building."
+        }
+      },
+      {
+        "statement": "The meandering facade bands appear very heavy despite their material treatment.",
+        "tags": [
+          "facade",
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "meandering facade bands",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5145,
+            0.5357
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped perimeter edges and repeated horizontal elevation bands are most legible along the outer eastern side."
+        }
+      },
+      {
+        "statement": "The suitability of the external insulation in the base area is questionable in terms of sustainability.",
+        "tags": [
+          "sustainability",
+          "facade"
+        ],
+        "position": {
+          "target": "external insulation in the base area",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5602,
+            0.2527,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The marker sits on a lower exterior perimeter segment representing the questioned base-area treatment."
+        }
+      },
+      {
+        "statement": "The requirements for economic efficiency and sustainability are only just exceeded.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "economic efficiency and sustainability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates overall performance without a useful spatial referent in the sampled model."
+        }
+      },
+      {
+        "statement": "The projecting corner over the sports hall appears problematic because it cannot be realized as shown and would appear much coarser.",
+        "tags": [
+          "structure",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "projecting corner over the sports hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8967,
+            0.912,
+            0.4286
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The outer upper-right projecting corner is the most plausible visible anchor for the criticized sports-hall overhang."
+        }
+      },
+      {
+        "statement": "The promising potential of the three-building-part composition and two illuminated courtyards is not exploited.",
+        "tags": [
+          "massing",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "three-building-part composition and illuminated courtyards",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5602,
+            0.3804,
+            0.4643
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central voids and connecting massing are visible in plan and elevations, supporting a shared composition anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "circulation",
+      "urban integration",
+      "open space",
+      "layout",
+      "functionality",
+      "facade",
+      "expression",
+      "sustainability"
+    ]
+  }
+}

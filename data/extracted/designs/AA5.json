@@ -1,0 +1,533 @@
+{
+  "object_description": "three-storey campus head building on an integrated recessed base",
+  "geometry_property": [
+    "three-storey",
+    "compact",
+    "recessed base",
+    "cantilevered",
+    "wall-framed",
+    "tapered openings",
+    "deep-plan"
+  ],
+  "design_condition": "Placed between existing campus buildings and the gymnasium, the compact volume preserves surrounding green space, steps into the slope with a base, and forms a generous forecourt beneath its cantilever.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise position between the existing buildings confidently establishes the new building as the campus head.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "campus head",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5713,
+            0.6956,
+            0.6333
+          ],
+          "radius": 0.321,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The recessed base reduces the apparent height from the street and fits well with the neighbouring buildings.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "recessed base",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.5,
+            0.12
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower recessed volume is visible beneath the compact upper mass in elevation and footprint views."
+        }
+      },
+      {
+        "statement": "The compact volume preserves the green space while making a striking appearance as the new main building.",
+        "tags": [
+          "urban integration"
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1498,
+            0.8726,
+            0.9
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The wall bulkheads form a convincing unit with the upper storeys.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "wall bulkheads",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.73,
+            0.6,
+            0.58
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated wall-framed bulkheads are visible along the long building edges and upper storeys."
+        }
+      },
+      {
+        "statement": "The floating cantilever creates a generous prelude to the large rooms in the base.",
+        "tags": [
+          "circulation"
+        ],
+        "position": {
+          "target": "floating cantilever",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.72,
+            0.6,
+            0.78
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Elevations show the upper volume projecting over the recessed lower base."
+        }
+      },
+      {
+        "statement": "The central staircase provides generous vertical access and brings light into the entrance zone.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "central staircase",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0.5025,
+            0.0333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The triangular and trapezoidal cut-outs create a spatially exciting sequence.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "triangular and trapezoidal cut-outs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.72,
+            0.6,
+            0.5
+          ],
+          "radius": 0.11,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Distinctive repeated openings are visible across the long elevations."
+        }
+      },
+      {
+        "statement": "The structural system guarantees long-term flexibility.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4489,
+            0.2853,
+            0.8
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The finely structured glass facade lends the building lightness and elegance.",
+        "tags": [
+          "facade"
+        ],
+        "position": {
+          "target": "glass facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.72,
+            0.6,
+            0.56
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A finely articulated long facade is visible, although glass material is not distinguishable in the point cloud."
+        }
+      },
+      {
+        "statement": "The emblematic appearance is remarkable.",
+        "tags": [
+          "identity"
+        ],
+        "position": {
+          "target": "emblematic appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.558,
+            0.1639,
+            0
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The embankment in front of the artistic-design classrooms has a restrictive effect.",
+        "tags": [
+          "topography"
+        ],
+        "position": {
+          "target": "embankment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2493,
+            0.9165,
+            0.1333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "An exit and external lounge area on the second floor, as well as a connection to the canteen, are missing.",
+        "tags": [
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "second-floor exit, external lounge, and canteen connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5345,
+            0.734,
+            0.5667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The wall-panel system is somewhat rigid and restricts the otherwise long-term flexibility.",
+        "tags": [
+          "flexibility"
+        ],
+        "position": {
+          "target": "wall-panel system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8244,
+            0.435,
+            0.2667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The usable area falls significantly short of the space-allocation plan, with rooms missing or reduced.",
+        "tags": [
+          "functionality"
+        ],
+        "position": {
+          "target": "usable area and missing rooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4195,
+            0.3086,
+            0.2
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "Room proportions and spatial relationships are not convincing in essential parts.",
+        "tags": [
+          "proportion",
+          "layout"
+        ],
+        "position": {
+          "target": "room proportions and spatial relationships",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8675,
+            0.1384,
+            0.3667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "Classrooms on the end facades conflict with the building structure and corridor lighting.",
+        "tags": [
+          "structure",
+          "daylight"
+        ],
+        "position": {
+          "target": "classrooms on end facades",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5,
+            0.98,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The short end facade is identifiable in top view, but classrooms and corridor lighting are not visible."
+        }
+      },
+      {
+        "statement": "The low floor area, volume and costs result from the incomplete spatial program.",
+        "tags": [
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "low floor area, volume, and costs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5914,
+            0.5659,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The break hall lies outside the building envelope.",
+        "tags": [
+          "layout"
+        ],
+        "position": {
+          "target": "break hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7342,
+            0.5287,
+            0.7
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The wall bulkheads with overhangs appear structurally complex.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "wall bulkheads with overhangs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.73,
+            0.6,
+            0.65
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Projecting bulkhead forms and overhangs are visibly repeated along the elevations."
+        }
+      },
+      {
+        "statement": "The parking-garage load transfer does not match the upper slab structure.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "parking-garage load transfer",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1612,
+            0.5786,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "topography",
+      "compactness",
+      "flexibility",
+      "daylight",
+      "circulation",
+      "space planning",
+      "structure",
+      "cost"
+    ]
+  }
+}

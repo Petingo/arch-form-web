@@ -1,0 +1,356 @@
+{
+  "object_description": "two continuous volumes, one horizontal and one vertical",
+  "geometry_property": [
+    "two-part",
+    "continuous",
+    "horizontal",
+    "vertical",
+    "compact",
+    "patio-open",
+    "clustered"
+  ],
+  "design_condition": "The paired volumes connect two existing urban fabrics, reinforce a major campus axis, and clarify outdoor spaces without creating excessive proximity.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project’s contextualization is simple, elegant, and precise, providing a model of urban efficiency.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "contextualization and urban efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long horizontal and vertical volumes visibly establish a compact urban composition."
+        }
+      },
+      {
+        "statement": "The two distinct but continuous parts resolve the territorial and programmatic questions within a unified building.",
+        "tags": [
+          "massing",
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two distinct but continuous parts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevations clearly show connected horizontal and vertical building parts."
+        }
+      },
+      {
+        "statement": "The alternation of density and breathing spaces gives the project temperate spatial modulation.",
+        "tags": [
+          "massing",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "alternation of density and breathing spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4748,
+            0.5225,
+            0.25
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view identifies open intervals between denser bands and occupied volumes."
+        }
+      },
+      {
+        "statement": "Meeting and exchange spaces are regularly distributed, and the floors operate as a family of relatively autonomous clusters.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "meeting and exchange spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3409,
+            0.4604,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regularly distributed internal clusters are approximated within the horizontal volume."
+        }
+      },
+      {
+        "statement": "The structural principles are reasonable and simple, with effective superpositions and good coordination with the architecture.",
+        "tags": [
+          "structure",
+          "massing"
+        ],
+        "position": {
+          "target": "structural principles and superpositions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.65
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Orthogonal stacked point bands visibly support the superposed structural reading."
+        }
+      },
+      {
+        "statement": "The estimated construction cost is exactly within the expected target.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "estimated construction cost",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost target is a non-spatial judgment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Separating laboratories from offices vertically does not promote essential exchanges between researchers and group leaders.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "laboratories and offices vertically separated",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.7
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Vertical separation is anchored to the taller east-side volume across upper and lower levels."
+        }
+      },
+      {
+        "statement": "Practical-work rooms spread over five levels create logistical problems and require additional supervision.",
+        "tags": [
+          "circulation",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "practical-work rooms over five levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multi-level work rooms are approximated within the visibly tall vertical volume."
+        }
+      },
+      {
+        "statement": "Certain user flows, including technical access and deliveries, are problematic.",
+        "tags": [
+          "circulation",
+          "operation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "technical access and deliveries",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.203,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Technical flows are not identifiable; estimate uses a low south-west perimeter zone."
+        }
+      },
+      {
+        "statement": "The double-skin facade is incomprehensible in principle and prohibitive for the expected energy performance.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "double-skin facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4824,
+            0.65
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Facade criticism is anchored to the exposed east edge of the taller volume."
+        }
+      },
+      {
+        "statement": "The compact volumes reduce natural lighting and make non-mechanical ventilation difficult.",
+        "tags": [
+          "daylight",
+          "ventilation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact volumes and natural lighting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.45
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Daylight and ventilation concerns apply across the paired compact massing."
+        }
+      },
+      {
+        "statement": "The fan-coil conditioning is not adapted to an efficient building with high internal loads.",
+        "tags": [
+          "sustainability",
+          "ventilation"
+        ],
+        "position": {
+          "target": "fan-coil conditioning",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7432,
+            0.5218,
+            0.55
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Mechanical conditioning is not visible; placement estimates the taller occupied volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "circulation",
+      "facade",
+      "daylight",
+      "ventilation",
+      "structure",
+      "cost"
+    ]
+  }
+}

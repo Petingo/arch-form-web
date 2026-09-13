@@ -1,0 +1,246 @@
+{
+  "object_description": "simple two-story building with a differentiated roof landscape",
+  "geometry_property": [
+    "two-story",
+    "longitudinal",
+    "axially symmetrical",
+    "large footprint",
+    "differentiated roofscape",
+    "three-dimensional interior form"
+  ],
+  "design_condition": "The building follows the existing school's orientation, closes the western break area, and leaves reduced outdoor areas to the west and south while improving northern access with a covered forecourt.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The differentiated roof shape gives the new building a definite identity and independent presence.",
+        "tags": [
+          "massing",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "differentiated roof shape",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6066,
+            0.459,
+            0.9973
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Varied roof bands and stepped upper form are clearly visible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The differentiated roof landscape is used well, improving daylight and natural ventilation.",
+        "tags": [
+          "massing",
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "roof landscape for daylight and ventilation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5153,
+            0.5606,
+            0.9263
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Roofscape openings and differentiated upper surfaces are directly sampled."
+        }
+      },
+      {
+        "statement": "The spatial divisions retain a high level of identity despite possible changes to the layout.",
+        "tags": [
+          "identity",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial divisions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4959,
+            0.5026,
+            0.7842
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior divisions are approximated along the elongated central building zone."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The covered connection between old and new is neither operationally nor architecturally convincing.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "covered connection between old and new",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.131,
+            0.4342,
+            0.429
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Connection is anchored at the west edge where the adjacent existing building is implied."
+        }
+      },
+      {
+        "statement": "The public pedestrian connection between the buildings remains somewhat undefined.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "public pedestrian connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4947,
+            0.9789,
+            0.0737
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern edge is used because the statement identifies northern access and forecourt conditions."
+        }
+      },
+      {
+        "statement": "The large footprint reduces the remaining outdoor areas to the west and south.",
+        "tags": [
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "western and southern outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.184,
+            0.1179,
+            0.0737
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Reduced outdoor space is anchored along the west and south perimeter of the large footprint."
+        }
+      },
+      {
+        "statement": "The complex statics create structural and technical risks that are difficult to predict financially.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "complex structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4959,
+            0.5026,
+            0.7842
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural complexity is approximated within the central elongated volume, without distinct structural markers."
+        }
+      },
+      {
+        "statement": "The less compact, flat structure has a cost-increasing effect.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "less compact flat structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.81,
+            0.4563,
+            0.571
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long footprint and extended elevations visibly support the compactness criticism."
+        }
+      }
+    ],
+    "keyword": [
+      "identity",
+      "roofscape",
+      "daylight",
+      "ventilation",
+      "flexibility",
+      "circulation",
+      "urban integration",
+      "open space",
+      "structure",
+      "cost"
+    ]
+  }
+}

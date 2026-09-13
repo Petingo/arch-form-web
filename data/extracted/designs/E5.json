@@ -1,0 +1,334 @@
+{
+  "object_description": "square, flat building volume organized around two courtyards",
+  "geometry_property": [
+    "square",
+    "flat",
+    "compact",
+    "tripartite",
+    "two-part",
+    "courtyard-centered"
+  ],
+  "design_condition": "The square, flat structure is placed on Flurstrasse to open a generous outdoor space toward the Bachwiesen sports center and connect the surrounding green areas into a continuous belt.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The classic horizontal tripartite division and structural dichotomy reflected in the façade structure the building well and harmoniously.",
+        "tags": [
+          "massing",
+          "facade",
+          "proportion"
+        ],
+        "position": {
+          "target": "facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5149,
+            0.0099,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular horizontal façade bands and the square envelope are visible in the elevations."
+        }
+      },
+      {
+        "statement": "The cluster units are well functioning and arranged around two covered inner courtyards.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "two covered inner courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.246,
+            0.7327,
+            0.45
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The courtyard-centered organization is inferred within the visible square perimeter."
+        }
+      },
+      {
+        "statement": "The chosen structure provides a very high degree of long-term flexibility.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "long-term flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2081,
+            0.6882,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Flexibility concerns the distributed structural building system across the sampled envelope."
+        }
+      },
+      {
+        "statement": "The outdoor space integrates the school grounds harmoniously and transparently into their surroundings.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2463,
+            0.2359,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The surrounding outdoor integration is approximated along the building’s southern-western site edge."
+        }
+      },
+      {
+        "statement": "The project impresses with its stringent, conceptual approach.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7539,
+            0.2673,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "The conceptual statement addresses the complete compact square building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The placement of certain ancillary rooms along the internal street is incomprehensible.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "ancillary rooms along internal street",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2081,
+            0.6882,
+            0.45
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Internal ancillary-room placement is approximated along the inferred central circulation zone."
+        }
+      },
+      {
+        "statement": "The communal spaces have no direct, ground-floor connection to the outside.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "communal spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6592,
+            0.1559,
+            0.15
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-floor communal access is constrained to a plausible southern building surface."
+        }
+      },
+      {
+        "statement": "The concrete slats are potentially expensive to produce and generate additional unusable room heights.",
+        "tags": [
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "concrete slats",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5149,
+            0.0099,
+            0.7
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Repeated horizontal façade elements are visible across the south elevation."
+        }
+      },
+      {
+        "statement": "The structural feasibility of the connections between the slats and the outer wall remains an open question.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "slat-to-wall connections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5456,
+            0.0223,
+            0.7
+          ],
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The connection detail is not distinguishable, so it is anchored to the visible slatted façade."
+        }
+      },
+      {
+        "statement": "The fragmented situation in the central schoolyard with the double path and stairs has not been resolved.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "central schoolyard paths and stairs",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7539,
+            0.2673,
+            0.05
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The unresolved central yard circulation is placed within the apparent interior courtyard zone."
+        }
+      },
+      {
+        "statement": "The character of the building is perceived as off-putting and too autonomous, raising questions about its expression for an elementary school.",
+        "tags": [
+          "expression",
+          "identity",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7539,
+            0.2673,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Character and autonomy are judgments about the complete visible building mass."
+        }
+      },
+      {
+        "statement": "Access via the ramp is very narrow and contradicts the idea of a school building for small children.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "scale"
+        ],
+        "position": {
+          "target": "ramp access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2239,
+            0.2548,
+            0.1
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is anchored to a plausible low southern-western edge location; the ramp is not separately visible."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "facade",
+      "layout",
+      "functionality",
+      "flexibility",
+      "structure",
+      "cost",
+      "landscape",
+      "urban integration",
+      "circulation"
+    ]
+  }
+}

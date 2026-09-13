@@ -1,0 +1,400 @@
+{
+  "object_description": "long linear building volume with atriums and partly sunken gymnasium",
+  "geometry_property": [
+    "linear",
+    "elongated",
+    "block-like",
+    "partly underground",
+    "polygonal circulation",
+    "meandering",
+    "atrium-centered",
+    "extended vertically"
+  ],
+  "design_condition": "The linear volume follows Ansermet Square and terminates the park, but forms a barrier between adjoining districts and limits access and contact with the park.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear urban-planning approach and the consequences drawn from it in the floor plan are convincing.",
+        "tags": [
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "clear urban-planning approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4184,
+            0.6258,
+            0.4987
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The single elongated block and its consistent elevations are clearly visible in every view."
+        }
+      },
+      {
+        "statement": "The unusual layout offers a high degree of pedagogically valuable rooms and room groups.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "unusual layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3798,
+            0.6001,
+            0.4987
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated mass provides a useful overall layout anchor, though rooms are not individually visible."
+        }
+      },
+      {
+        "statement": "Variable-width circulation creates an interesting sequence of differently sized and shaped spaces.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "variable-width circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4184,
+            0.6258,
+            0.4987
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Circulation is interior; the central portion of the linear volume is the plausible anchor."
+        }
+      },
+      {
+        "statement": "The atriums connect floors and uses and provide structured orientation within the building.",
+        "tags": [
+          "circulation",
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7383,
+            0.4772,
+            0.4987
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Small void-like point clusters in the upper-right top-view region indicate atrium locations."
+        }
+      },
+      {
+        "statement": "The rooms invite individual design by users and promote a wealth of senses.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "individual user design",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3798,
+            0.6001,
+            0.4987
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior room character is not visible; the central building surface provides an approximate anchor."
+        }
+      },
+      {
+        "statement": "The compact and economical volume and the additional-storey extension are cost-effective and sustainable.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact economical volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4184,
+            0.6258,
+            0.4987
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous compact linear envelope is strongly corroborated across all views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The classrooms tend to be too elongated, and the basic level lacks connection to outdoor space.",
+        "tags": [
+          "proportion",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "elongated classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3315,
+            0.5679,
+            0.4987
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classrooms are interior; the west-central segment represents a plausible elongated-room location."
+        }
+      },
+      {
+        "statement": "The linear body acts as a barrier between districts, cuts off access to the park and limits contact between school rooms and outdoor space.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "linear body barrier",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4184,
+            0.6258,
+            0.4987
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The uninterrupted elongated block visibly forms the dominant site barrier."
+        }
+      },
+      {
+        "statement": "The outdoor space on the gymnasium roof detracts from proximity to nature and separates the school from the all-weather playground.",
+        "tags": [
+          "open space",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "gymnasium roof outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2253,
+            0.497,
+            0.8727
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The roof-level area is approximated on the western upper surface of the linear volume."
+        }
+      },
+      {
+        "statement": "The additional primary-school units lack direct outdoor access and must share the space assigned to the first stage.",
+        "tags": [
+          "open space",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "additional primary-school units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8058,
+            0.5223,
+            0.748
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The eastern upper segment is used as a constrained approximation for the added units."
+        }
+      },
+      {
+        "statement": "The sloping floor levels unnecessarily complicate the detailing and appear uneconomical.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "sloping floor levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6184,
+            0.3973,
+            0.374
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Elevation profiles constrain a mid-building floor anchor, but slopes are not directly resolved."
+        }
+      },
+      {
+        "statement": "The daycare-center rooms are not assigned to individual groups, and access to the floors is inadequate.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "daycare-center rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.69,
+            0.445,
+            0.4987
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The daycare interior is absent; the eastern-central surface is a plausible proxy."
+        }
+      },
+      {
+        "statement": "The extension to the historic building is an unnecessary impairment and adds no aesthetic value.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "extension to historic building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8637,
+            0.5609,
+            0.4987
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The terminal eastern portion is used as an approximate extension location."
+        }
+      },
+      {
+        "statement": "The elevator situation is unclear, and the elevator shaft can only be implemented to a limited extent.",
+        "tags": [
+          "circulation",
+          "structure"
+        ],
+        "position": {
+          "target": "elevator shaft",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4184,
+            0.6258,
+            0.4987
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The shaft is interior and unresolved; the central mass provides a constrained anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "circulation",
+      "open space",
+      "landscape",
+      "functionality",
+      "proportion",
+      "cost",
+      "sustainability",
+      "structure"
+    ]
+  }
+}

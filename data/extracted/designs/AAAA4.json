@@ -1,0 +1,463 @@
+{
+  "object_description": "freestanding hall volume beside a slender staggered residential building",
+  "geometry_property": [
+    "freestanding solitaire",
+    "elongated",
+    "staggered",
+    "slender",
+    "compact hall volume",
+    "underground connection",
+    "central square placement",
+    "lowered courtyard"
+  ],
+  "design_condition": "The hall stands centrally in a freely flowing public square while the residential building follows the site edge; a lowered courtyard entrance and seating steps redirect visitors but tighten the spaces between buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The lowered courtyard and seating steps offer a promising approach to the hall entrance and add outdoor use potential.",
+        "tags": [
+          "circulation",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "lowered courtyard and seating steps",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4135,
+            0.2442,
+            0.0625
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lowered courtyard and stepped approach are visible along the southern side of the hall."
+        }
+      },
+      {
+        "statement": "The hall’s central placement and expressive form clearly identify it as a public building with high recognition value.",
+        "tags": [
+          "identity",
+          "expression",
+          "visibility"
+        ],
+        "position": {
+          "target": "central hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7897,
+            0.469,
+            0.5625
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct polygonal hall occupies the eastern-central portion of the sampled complex."
+        }
+      },
+      {
+        "statement": "The hall has a compact overall form, an interesting polygonal event space, a well-proportioned foyer, and functional side extensions.",
+        "tags": [
+          "massing",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact hall form and polygonal event space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7741,
+            0.4951,
+            0.5625
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large polygonal footprint and compact mass are clearly identifiable across plan and elevations."
+        }
+      },
+      {
+        "statement": "The slender residential volume blends well with the existing residential buildings.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "slender residential volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2525,
+            0.5161,
+            0.4375
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Slender staggered residential mass occupies the western side of the model."
+        }
+      },
+      {
+        "statement": "The daytime café is an appropriate, neighborhood-compatible use with strong activation potential for the square.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "daytime café",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.2039,
+            0.125
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Public-facing ground-level use is plausibly anchored near the southern square edge."
+        }
+      },
+      {
+        "statement": "The proposed public square and free-standing building are carefully designed.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "public square and free-standing building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6206,
+            0.3574,
+            0.0625
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Open square surrounds the freestanding hall and separates it from the residential volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Inserting the hall into the courtyard creates cramped situations between the buildings.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "scale"
+        ],
+        "position": {
+          "target": "cramped situations between buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5244,
+            0.4635,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Narrow interstitial space is visible between the western residential mass and eastern hall."
+        }
+      },
+      {
+        "statement": "The purely mineral courtyard and theatrical staging ignore the need for green and recreational space.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "mineral courtyard and theatrical staging",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.2039,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern courtyard zone is identifiable, though material treatment is not represented in points."
+        }
+      },
+      {
+        "statement": "No statements are made about how the existing basement uses are to be handled.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "existing basement uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3377,
+            0.5189,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Below-grade residential-side area is approximated from the building footprint and low elevation."
+        }
+      },
+      {
+        "statement": "The stage shape is formalistic, difficult to use, and acoustically questionable.",
+        "tags": [
+          "functionality",
+          "acoustics",
+          "expression"
+        ],
+        "position": {
+          "target": "stage shape",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7897,
+            0.469,
+            0.4375
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior stage cannot be distinguished; constrained near the hall’s central eastern volume."
+        }
+      },
+      {
+        "statement": "Narrow passages, a lower backstage, inconvenient delivery, missing checkrooms, and restricted food delivery create fundamental functional deficiencies.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "narrow passages and backstage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6362,
+            0.3312,
+            0.3125
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Service and circulation deficiencies are approximated along the hall’s lower southern edge."
+        }
+      },
+      {
+        "statement": "Ground-floor therapy rooms facing the square should be questioned because of views.",
+        "tags": [
+          "privacy",
+          "urban integration"
+        ],
+        "position": {
+          "target": "ground-floor therapy rooms facing the square",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.2039,
+            0.125
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level rooms facing the square are approximated along the southern residential frontage."
+        }
+      },
+      {
+        "statement": "The house entrances contribute little to the formation of an address.",
+        "tags": [
+          "identity",
+          "circulation"
+        ],
+        "position": {
+          "target": "house entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.2039,
+            0.125
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are not individually marked; likely access points face the southern public edge."
+        }
+      },
+      {
+        "statement": "The apartments are well oriented but schematically formulated, with no precise statements on structure or façade effect.",
+        "tags": [
+          "layout",
+          "facade",
+          "structure"
+        ],
+        "position": {
+          "target": "apartments",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4151,
+            0.6468,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Residential volume is visible, while internal apartment planning and facade effects remain unresolved."
+        }
+      },
+      {
+        "statement": "The apartments are very large, expensive, and not in line with the market.",
+        "tags": [
+          "cost",
+          "functionality"
+        ],
+        "position": {
+          "target": "apartments",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4307,
+            0.6206,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large residential mass is visible; market cost and adequacy are not spatially represented."
+        }
+      },
+      {
+        "statement": "Overlapping shell and hall uses require increased coordination for realization.",
+        "tags": [
+          "operation",
+          "structure"
+        ],
+        "position": {
+          "target": "overlapping shell and hall uses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5678,
+            0.4458,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interlocking hall and residential masses indicate shared coordination boundaries."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "circulation",
+      "identity",
+      "functionality",
+      "acoustics",
+      "facade",
+      "cost",
+      "operation"
+    ]
+  }
+}

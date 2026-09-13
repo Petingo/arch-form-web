@@ -1,0 +1,579 @@
+{
+  "object_description": "compact multi-storey volume flanking a new campus square",
+  "geometry_property": [
+    "compact",
+    "orthogonal",
+    "clear geometry",
+    "uniform grid",
+    "multi-storey",
+    "two-storey spaces"
+  ],
+  "design_condition": "The building establishes a new central square between existing institutions, adopts the existing campus levels and architecture, and connects the surrounding pedestrian routes, although the square edge and accessible level changes remain unresolved.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban development creates a new center and convincingly interlinks the new building with the existing buildings.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "new center and building connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4673,
+            0.3119,
+            0.0345
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central open area and adjoining mass suggest the new square linking surrounding campus buildings."
+        }
+      },
+      {
+        "statement": "The large square integrates well with the street axis and fits into the existing campus topography.",
+        "tags": [
+          "urban integration",
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "large square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4,
+            0.2311,
+            0.0345
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view identifies the open forecourt; elevations confirm its ground-level relationship to the stepped building."
+        }
+      },
+      {
+        "statement": "The elegant facade structure adopts the existing design language and strengthens the educational ensemble.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "elegant facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6623,
+            0.2363,
+            0.6207
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular elevated facade grid is clearly visible across the taller volume."
+        }
+      },
+      {
+        "statement": "The clear facade division responds to floor functions and makes the individual uses visible from outside.",
+        "tags": [
+          "facade",
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "clear facade division",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6623,
+            0.2363,
+            0.5172
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Horizontal floor bands and differing lower and upper volumes visibly divide the facade."
+        }
+      },
+      {
+        "statement": "The compact building shape enables a simple and functional floor plan.",
+        "tags": [
+          "massing",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "compact building shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5581,
+            0.5417,
+            0.5172
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Orthogonal compact mass and stepped profile are consistently visible in all calibrated views."
+        }
+      },
+      {
+        "statement": "The clear geometry guarantees flexibility and supports a variety of housing types.",
+        "tags": [
+          "massing",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "clear geometry and structural grid",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5446,
+            0.6231,
+            0.5862
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Uniform point spacing and rectilinear massing support the broad flexibility and layout assessment."
+        }
+      },
+      {
+        "statement": "Regular window placement provides good daylight and views in several directions.",
+        "tags": [
+          "daylight",
+          "visibility"
+        ],
+        "position": {
+          "target": "regular windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7128,
+            0.2582,
+            0.6724
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated window points form clearly regular vertical and horizontal facade fields."
+        }
+      },
+      {
+        "statement": "The calm design with irregularly distributed green islands enables the preservation of valuable existing trees.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "green islands and existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2158,
+            0.1647,
+            0.0172
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Landscape islands are suggested around the low front edge, though individual trees are not distinguishable."
+        }
+      },
+      {
+        "statement": "The continuous grid and rationally sized structural system support economical construction.",
+        "tags": [
+          "structure",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "continuous structural grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5446,
+            0.6231,
+            0.5517
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated point rows visibly indicate a rational structural rhythm through the building mass."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The connection on the institutional side is not convincingly solved, and the proposed ramps are not possible as shown.",
+        "tags": [
+          "accessibility",
+          "circulation",
+          "topography"
+        ],
+        "position": {
+          "target": "institutional-side connection and ramps",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9864,
+            0.464,
+            0.0862
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern building edge is visible, but the specific institutional connection and ramp geometry are unresolved."
+        }
+      },
+      {
+        "statement": "It is questionable whether the square should extend to the facade where adjacent uses have no relation to it.",
+        "tags": [
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "square edge at adjacent facade",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7437,
+            0.2716,
+            0.0517
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate square-to-facade interface is placed along the front of the taller volume."
+        }
+      },
+      {
+        "statement": "The need to fell distinctive existing trees is incomprehensible.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "distinctive existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1366,
+            0.1554,
+            0.0345
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Likely tree-island locations are estimated in the open low-density portion of the site."
+        }
+      },
+      {
+        "statement": "The continued passability of the square is suggested because no turning options are shown.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "passability of the square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4,
+            0.2311,
+            0.0345
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground area is visible, but turning and circulation options are not represented distinctly."
+        }
+      },
+      {
+        "statement": "The trails leading away from the street add little quality of stay while sealing additional green spaces.",
+        "tags": [
+          "circulation",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "trails and sealed green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1502,
+            0.0739,
+            0.0345
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate paths and landscape edge are assigned to the sparse southern site perimeter."
+        }
+      },
+      {
+        "statement": "The building statics do not work consistently from bottom to top because an upper load-bearing wall lacks adequate support.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "upper load-bearing wall support",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5581,
+            0.5417,
+            0.7759
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Upper wall region is visible, but load transfer and support conditions cannot be verified from points."
+        }
+      },
+      {
+        "statement": "The high glass facade wings should open onto the square for summer use.",
+        "tags": [
+          "facade",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "high glass facade wings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7128,
+            0.2582,
+            0.6207
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Tall facade wings are identifiable, while glazing and their relationship to the square remain uncertain."
+        }
+      },
+      {
+        "statement": "A covered outdoor space usable regardless of weather is missing.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5854,
+            0.203,
+            0.1207
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A possible ground-level edge zone is estimated beside the square; no canopy is distinctly sampled."
+        }
+      },
+      {
+        "statement": "The water treatment is unclear and appears as an unwanted depression in the tree islands.",
+        "tags": [
+          "landscape",
+          "expression"
+        ],
+        "position": {
+          "target": "water treatment in tree islands",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2158,
+            0.1647,
+            0.0345
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tree-island depressions may occupy this open landscape area, but water elements are not distinguishable."
+        }
+      },
+      {
+        "statement": "The apartment access through the stairwell and narrow elevator vestibule is too small and will not function optimally.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "apartment access stairwell and elevator vestibule",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6124,
+            0.216,
+            0.3793
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Access is approximated along the lower facade edge; interior stair and vestibule geometry is not visible."
+        }
+      },
+      {
+        "statement": "The internal organization and routing on the upper public floor still require optimization.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "upper public floor organization and routing",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5581,
+            0.5417,
+            0.7931
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper storey is clearly located in the tall block, though internal organization is concealed."
+        }
+      },
+      {
+        "statement": "Audience and operating rooms are not clearly separated.",
+        "tags": [
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "audience and operating rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6623,
+            0.2363,
+            0.7241
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Likely public-service zones are approximated within the tall front-facing volume; room separation is not visible."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "facade",
+      "massing",
+      "layout",
+      "functionality",
+      "circulation",
+      "structure",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

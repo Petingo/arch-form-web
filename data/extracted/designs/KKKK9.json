@@ -1,0 +1,286 @@
+{
+  "object_description": "separate two- and three-story volumes with a U-shaped structure",
+  "geometry_property": [
+    "two-part",
+    "two- and three-story",
+    "linear",
+    "U-shaped",
+    "parallel",
+    "partly sunken",
+    "pavilion-like"
+  ],
+  "design_condition": "The volumes are placed along the northern perimeter and settle into the terrain, leaving no forecourt on the east or west sides and weakening the clinic's address.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The lounge and catering areas are nicely allocated to the outside space.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "lounge and catering areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5979,
+            0.1428,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Exterior-facing lounge and catering zones are approximated along the southern edge of the U-shaped complex."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The separate, self-referential group of buildings does not seek dialogue with the existing building.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "separate group of buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5705,
+            0.6336,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Separated parallel volumes and their weak connection are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The pavilion-like formulation has little force and hardly engages with the topography of the site.",
+        "tags": [
+          "expression",
+          "topography"
+        ],
+        "position": {
+          "target": "pavilion-like formulation and site topography",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5705,
+            0.6336,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Low pavilion masses are visible, while their relationship to terrain is only partly constrained."
+        }
+      },
+      {
+        "statement": "The schoolyard provides an initial address but serves only limited parts of the complex.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "schoolyard address",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5346,
+            0.1715,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The southern open strip is the plausible schoolyard approach, serving only part of the complex."
+        }
+      },
+      {
+        "statement": "The actual main entrance is unattractive and narrow.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5093,
+            0.1829,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely public entry is approximated at the southern edge, where the complex lacks a broad forecourt."
+        }
+      },
+      {
+        "statement": "The vertical access is unattractive, and the corridors on the floors are dark.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "vertical access and dark corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5705,
+            0.6336,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal circulation is anchored within the upper levels of the parallel building volumes."
+        }
+      },
+      {
+        "statement": "Spatial separation is hardly possible, which does not seem suitable for everyday use.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal spatial separation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6203,
+            0.6242,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The separated volumes and central gaps visibly define the complex's spatial organization."
+        }
+      },
+      {
+        "statement": "There is a fundamental lack of internal spatial qualities, especially for such a sensitive clientele.",
+        "tags": [
+          "layout",
+          "privacy"
+        ],
+        "position": {
+          "target": "internal spatial qualities",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6203,
+            0.6242,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior qualities are unrepresented, so the connected U-shaped building region provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "There is no access design that is adequate for use.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "access design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5219,
+            0.1772,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The deficient access is approximated at the limited southern approach to the complex."
+        }
+      },
+      {
+        "statement": "The project is convincing neither in its appearance nor in the spatial arrangement on the floors.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "appearance and floor arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5705,
+            0.6336,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Visible pavilion massing and stacked floor bands support a whole-complex placement."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "urban integration",
+      "expression",
+      "circulation",
+      "daylight",
+      "layout",
+      "functionality"
+    ]
+  }
+}

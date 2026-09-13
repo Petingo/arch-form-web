@@ -1,0 +1,393 @@
+{
+  "object_description": "sculptural main volume paired with a pavilion-like building",
+  "geometry_property": [
+    "sculptural",
+    "offset",
+    "staggered",
+    "pavilion-like",
+    "meandering",
+    "stepped",
+    "courtyard-structured",
+    "monolithic"
+  ],
+  "design_condition": "Two slightly offset buildings are staggered in plan and section to mediate the large scale and terrain jump, create several informal entrances, and form interconnected outdoor spaces around the park and city stream.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The volumetric formulation of the main building is a major quality of the project.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "main building volumetric formulation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5057,
+            0.5033,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central sculptural massing is clearly visible in plan and all elevations."
+        }
+      },
+      {
+        "statement": "The staggered structure interlocks with the surroundings, mitigates the large scale, and handles the terrain jump.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "topography"
+        ],
+        "position": {
+          "target": "staggered structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5602,
+            0.5219,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Offset and stepped building portions are legible across plan and elevation views."
+        }
+      },
+      {
+        "statement": "The flowing ground-floor spatial landscape is attractive and communicative.",
+        "tags": [
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "flowing ground-floor spatial landscape",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5767,
+            0.5864,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground-level circulation and open spatial pattern are approximated from the plan and lower elevations."
+        }
+      },
+      {
+        "statement": "The spatial landscape cleverly nestles into the terrain and gives many rooms ground contact and daylight.",
+        "tags": [
+          "topography",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "terrain-nestled spatial landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3132,
+            0.4126,
+            0.0833
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "A lower-level landscape zone is estimated where stepped plan geometry meets the terrain."
+        }
+      },
+      {
+        "statement": "The main floor is functionally and spatially clear and tidy.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "main floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6907,
+            0.5819,
+            0.1667
+          ],
+          "radius": 0.23,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The principal floor is placed within the broad, organized central-right building footprint."
+        }
+      },
+      {
+        "statement": "The static structure hardly restricts the floor plan, giving above-average flexibility.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "static structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5057,
+            0.5033,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural flexibility is anchored to the central sampled building volume; individual supports are indistinguishable."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The park landscape is sparsely formulated, with unclear quality, atmosphere, design, and accessibility.",
+        "tags": [
+          "landscape",
+          "open space",
+          "accessibility"
+        ],
+        "position": {
+          "target": "park landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.763,
+            0.7867,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The park edge is approximated outside the main footprint where surrounding open-space geometry is sparsely sampled."
+        }
+      },
+      {
+        "statement": "Barrier-free access is not possible or is only possible with detours in several places.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "barrier-free access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7603,
+            0.5219,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Several perimeter circulation approaches are approximated along lower-level edges of the sampled footprint."
+        }
+      },
+      {
+        "statement": "The connection between the two construction areas is not operationally optimal.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "connection between the two construction areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5057,
+            0.5033,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The approximate interface between offset building areas is visible near the plan center."
+        }
+      },
+      {
+        "statement": "The facade expression contradicts the compact, plastically formed volumetrics.",
+        "tags": [
+          "facade",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1924,
+            0.4835,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "west",
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "An exterior side surface is used as a representative facade anchor; detailed expression is not separately identifiable."
+        }
+      },
+      {
+        "statement": "The supporting structure has support problems and ceilings that are too thin acoustically.",
+        "tags": [
+          "structure",
+          "acoustics"
+        ],
+        "position": {
+          "target": "supporting structure and ceilings",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5057,
+            0.5033,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The structural system is anchored to the central sampled volume because supports and ceiling thicknesses are unresolved."
+        }
+      },
+      {
+        "statement": "The upper-floor typology is weakened by dizzying cascade staircases and thin walkways.",
+        "tags": [
+          "circulation",
+          "layout",
+          "safety"
+        ],
+        "position": {
+          "target": "upper-floor typology",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5761,
+            0.5203,
+            0.8333
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-level circulation is placed in the elevated portion of the staggered building mass."
+        }
+      },
+      {
+        "statement": "The exterior appearance does not meet expectations for a university campus.",
+        "tags": [
+          "identity",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "exterior appearance for a university campus",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6901,
+            0.5158,
+            0.5833
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall exterior identity is anchored to the visible building envelope and its campus-facing massing."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "layout",
+      "daylight",
+      "accessibility",
+      "circulation",
+      "facade",
+      "expression",
+      "flexibility",
+      "acoustics"
+    ]
+  }
+}

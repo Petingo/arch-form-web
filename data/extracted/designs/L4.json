@@ -1,0 +1,500 @@
+{
+  "object_description": "double-volume school complex enclosing a central access court",
+  "geometry_property": [
+    "double-volume",
+    "paired",
+    "arched",
+    "three-story",
+    "centralized",
+    "courtyard-forming",
+    "detached"
+  ],
+  "design_condition": "The paired volumes are set near the lake and along a cross-connection axis, forming a contained access area while opening the southwestern park and creating a bottleneck in the wider landscape sequence.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The setting creates a spatially interesting bottleneck within the landscape.",
+        "tags": [
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "landscape bottleneck",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4039,
+            0.5519,
+            0.1575
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central access court narrows between paired volumes, visibly forming a bottleneck in the landscape sequence."
+        }
+      },
+      {
+        "statement": "The project achieves an interesting interplay between lake and park through green edges and a spacious center.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "lake and park green edges",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1109,
+            0.1385,
+            0.0522
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southwestern open edge approximates the park-facing landscape, while the spacious center remains enclosed by the volumes."
+        }
+      },
+      {
+        "statement": "The route links naturally to adjacent paths and opens the park and its edge uses.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "park-edge route",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0888,
+            0.19,
+            0.1049
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southwestern perimeter approximates the route opening toward adjacent paths, park, and edge uses."
+        }
+      },
+      {
+        "statement": "The double volume forms an attractive counterpart to the existing farm.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "double-volume counterpart",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7261,
+            0.4744,
+            0.5261
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Paired, multi-level masses are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The arched center creates a contained access area and promotes flexibility through a spacious staircase.",
+        "tags": [
+          "circulation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "arched center and staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4039,
+            0.5519,
+            0.4208
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central void between the volumes visibly defines a contained access area."
+        }
+      },
+      {
+        "statement": "The rooms are, with a few exceptions, sensibly organized and easy to find.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "room organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.751,
+            0.4892,
+            0.4734
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are not exposed; an interior-adjacent point is constrained within the eastern volume."
+        }
+      },
+      {
+        "statement": "The ground-floor primary classes have short routes from bright classrooms to the playground.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "ground-floor primary classes",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3479,
+            0.063,
+            0.1049
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level classrooms are approximated along the southwestern volume beside the open playground edge."
+        }
+      },
+      {
+        "statement": "The separate outdoor space for the basic levels is protected from the more exposed break areas.",
+        "tags": [
+          "open space",
+          "privacy"
+        ],
+        "position": {
+          "target": "protected basic-level outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3647,
+            0.6392,
+            0.1049
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A sheltered exterior zone is approximated within the central enclosure behind the volumes."
+        }
+      },
+      {
+        "statement": "The connection to the day school is short and well suited for delivering meals.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "day-school connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8506,
+            0.5483,
+            0.2628
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The connection is not distinguishable; the eastern perimeter provides a directional surface approximation."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The settlement requires complete clearance of the valuable area with hedges and trees.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "hedges and trees clearance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0999,
+            0.1642,
+            0.0522
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southwestern site edge approximates the valuable landscaped area described as requiring clearance."
+        }
+      },
+      {
+        "statement": "The peripheral zones and their interaction with ecological compensation areas could be formulated more clearly.",
+        "tags": [
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "peripheral ecological zones",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5928,
+            0.1575,
+            0.0522
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral eastern landscape is used as an approximate location for ecological compensation interfaces."
+        }
+      },
+      {
+        "statement": "It remains unclear how ball catches affect the convincing generous effect of the park and lake.",
+        "tags": [
+          "safety",
+          "open space"
+        ],
+        "position": {
+          "target": "ball catches at park and lake",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0666,
+            0.2415,
+            0.0522
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southwestern open edge approximates the exposed park and lake-side area where ball containment is questioned."
+        }
+      },
+      {
+        "statement": "The formal path and plaza system with small detached buildings is neither atmospherically nor functionally convincing.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "formal paths and plazas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5195,
+            0.3362,
+            0.0522
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central approach area approximates the formal path and plaza system around the building masses."
+        }
+      },
+      {
+        "statement": "A clearer stance toward a characterful shared place or a more generous flow through the park would have benefited the project.",
+        "tags": [
+          "identity",
+          "open space"
+        ],
+        "position": {
+          "target": "shared park place",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4039,
+            0.5519,
+            0.0522
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central court is visibly identifiable as the principal shared spatial hinge between the paired volumes."
+        }
+      },
+      {
+        "statement": "The break area at the all-day school can only be reached by a longer route around the building.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "all-day-school break area route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8755,
+            0.8254,
+            0.1049
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A longer perimeter route is approximated along the eastern and northern building edge."
+        }
+      },
+      {
+        "statement": "Children playing in the protected upper-floor outdoor space cannot be seen from the classroom.",
+        "tags": [
+          "visibility",
+          "safety"
+        ],
+        "position": {
+          "target": "upper-floor outdoor space visibility",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3337,
+            0.686,
+            0.7894
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-level exterior space is approximated on the southwestern volume, where classroom sightlines remain uncertain."
+        }
+      },
+      {
+        "statement": "The external shape and internal spatial atmosphere hardly come together in the presented images.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "external shape and internal atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8755,
+            0.8254,
+            0.5788
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The overall external envelope is visible, while internal atmosphere cannot be directly verified from the sample."
+        }
+      },
+      {
+        "statement": "The façade does not sufficiently clarify the relationship to the existing situation or translate it into today's language.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "facade relationship to existing situation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9502,
+            0.6073,
+            0.5261
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east"
+          ],
+          "rationale": "Eastern exterior facade is clearly visible in elevation, but contextual translation is not represented geometrically."
+        }
+      },
+      {
+        "statement": "The design lacks considerations for building technology.",
+        "tags": [
+          "structure",
+          "operation"
+        ],
+        "position": {
+          "target": "building technology",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Building technology is a whole-design consideration without a useful spatial referent in the sampled exterior geometry."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "landscape",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "urban integration",
+      "expression",
+      "facade",
+      "safety"
+    ]
+  }
+}

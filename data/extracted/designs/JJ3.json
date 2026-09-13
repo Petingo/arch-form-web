@@ -1,0 +1,262 @@
+{
+  "object_description": "compact low-rise volume with a folded roof",
+  "geometry_property": [
+    "compact",
+    "flat",
+    "two-story",
+    "folded-roofed",
+    "rectilinear"
+  ],
+  "design_condition": "Placed north of the existing sports and swimming-pool buildings, the extension establishes northern access, a western arrival and break area, and a protected eastern outdoor space while reconnecting the campus to surrounding neighbourhoods.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The fundamentally coherent urban development and open-space concept integrate well into the existing facility.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "urban development and open-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8763,
+            0.8403,
+            0.125
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The northern extension and surrounding campus spaces are anchored at the upper site edge."
+        }
+      },
+      {
+        "statement": "The light-flooded studio-school idea creates a stimulating atmosphere through two-sided illumination and skylights.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "studio-school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5652,
+            0.5374,
+            0.7917
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central upper volume is used for the studio-school daylight concept."
+        }
+      },
+      {
+        "statement": "The careful architectural processing and stringent constructive design are highly convincing.",
+        "tags": [
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "constructive design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5652,
+            0.5374,
+            0.7917
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact massing and folded roof construction are clearly visible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The building structure allows the required extension to be added horizontally in a straightforward way.",
+        "tags": [
+          "flexibility",
+          "massing"
+        ],
+        "position": {
+          "target": "horizontal extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8924,
+            0.5762,
+            0.4583
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The extension potential is anchored toward the eastern horizontal building end."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The inner access and cloakroom zone is very cramped and difficult to integrate into everyday teaching.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "inner access and cloakroom zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1173,
+            0.2648,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal arrival zone is approximated near the western entry side."
+        }
+      },
+      {
+        "statement": "The urban-planning setting reaches its limits, particularly in connection with the expansion phase.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "expansion phase setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8763,
+            0.8403,
+            0.2917
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Expansion pressure is anchored at the northern and eastern limits of the compact footprint."
+        }
+      },
+      {
+        "statement": "The new connection, tree-row break, stairs, and narrow sidewalk arrival raise questions of presence and scale.",
+        "tags": [
+          "circulation",
+          "landscape",
+          "scale"
+        ],
+        "position": {
+          "target": "new connection, tree-row break, stairs, and sidewalk arrival",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2565,
+            0.5334,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Arrival elements are approximated along the western edge of the extension."
+        }
+      },
+      {
+        "statement": "The transition to the new building appears somewhat sudden.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "transition to the new building",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1014,
+            0.5256,
+            0.3333
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west",
+            "south"
+          ],
+          "rationale": "The abrupt transition is localized at the western receiving facade."
+        }
+      },
+      {
+        "statement": "The spatial program is implemented very tightly in some areas, while the envelope expenditure is well above average.",
+        "tags": [
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "spatial program and envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5652,
+            0.5374,
+            0.7917
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Tight planning and enlarged envelope are assessed across the visible compact building mass."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "daylight",
+      "circulation",
+      "open space",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

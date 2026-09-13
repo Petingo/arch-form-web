@@ -1,0 +1,538 @@
+{
+  "object_description": "three joined irregular hexagonal houses forming a stepped building complex",
+  "geometry_property": [
+    "three houses",
+    "irregular hexagonal",
+    "joined",
+    "different heights",
+    "stepped",
+    "coherent complex",
+    "recessed loggias",
+    "polygonal volumes"
+  ],
+  "design_condition": "The stepped sequence transitions from the scale of the eastern buildings to the adjacent courtyard, preserves two trees, and forms courtyards and forecourts around a closely integrated hall-and-residential complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The height development convincingly leads from the scale of the existing eastern buildings to the adjacent courtyard.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "stepped height development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.722,
+            0.755,
+            0.6111
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three joined volumes visibly step upward toward the eastern side."
+        }
+      },
+      {
+        "statement": "The building opens spaces around the trees worth preserving in a natural way.",
+        "tags": [
+          "landscape",
+          "sustainability",
+          "open space"
+        ],
+        "position": {
+          "target": "spaces around preserved trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4366,
+            0.2248,
+            0.0556
+          ],
+          "radius": 0.19,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Recessed open spaces are visible around the western and central footprint."
+        }
+      },
+      {
+        "statement": "The forecourt and café outdoor area greet pedestrians from the village center and extend to the street.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "forecourt and café outdoor area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0898,
+            0.1636,
+            0.0556
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern-western forecourt edge provides the most plausible pedestrian-facing outdoor zone."
+        }
+      },
+      {
+        "statement": "The well-proportioned entrances guide visitors to the hall while protecting surrounding residences from emissions.",
+        "tags": [
+          "circulation",
+          "proportion",
+          "acoustics"
+        ],
+        "position": {
+          "target": "hall entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6309,
+            0.2312,
+            0.1667
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Likely entrances face the southern edge of the joined hall complex."
+        }
+      },
+      {
+        "statement": "The hall sequence from entrance to foyer to hall is attractive, and the hall is pleasantly proportioned.",
+        "tags": [
+          "layout",
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "hall sequence from entrance to foyer to hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6069,
+            0.2897,
+            0.3889
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior sequence is not distinguishable; approximate placement follows the central hall volume."
+        }
+      },
+      {
+        "statement": "The hall and adjoining rooms are functionally organized correctly, and the storage extension has high utility value.",
+        "tags": [
+          "functionality",
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "hall and adjoining rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6069,
+            0.2897,
+            0.3889
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior organization is absent, so the central eastern complex provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "Accommodating the entire program in a coherent complex achieves high utilization and good economic efficiency.",
+        "tags": [
+          "massing",
+          "cost",
+          "functionality"
+        ],
+        "position": {
+          "target": "coherent complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4038,
+            0.4611,
+            0.5556
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Joined polygonal houses form one continuous stepped building complex."
+        }
+      },
+      {
+        "statement": "The polygonal volumes speak an unconventional architectural language.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "polygonal volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6852,
+            0.7508,
+            0.5556
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Irregular hexagonal volumes are clearly legible in plan and elevation."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The indentations do not correspond to the neighborhood’s green spaces because they provide no views into the spaces behind.",
+        "tags": [
+          "landscape",
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "indentations and neighborhood green spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0682,
+            0.2377,
+            0.0556
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Recessed edges are visible, though their relationship to surrounding green spaces is not directly shown."
+        }
+      },
+      {
+        "statement": "Turning the courtyard into a neighborhood square conflicts with the owners’ concessions and the courtyard’s limited potential.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "courtyard neighborhood square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4366,
+            0.2248,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Courtyard-like open area is approximated along the southern-central side of the complex."
+        }
+      },
+      {
+        "statement": "Delivery via the streetcar crossing is not tolerated by the operator.",
+        "tags": [
+          "operation",
+          "safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "streetcar delivery crossing",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6508,
+            0.1544,
+            0.0556
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street crossing is not represented; approximate delivery approach follows the southern eastern edge."
+        }
+      },
+      {
+        "statement": "The hall, as a public building, could have more charisma.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "public hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6065,
+            0.2897,
+            0.4444
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Hall volume is identifiable within the eastern portion of the connected complex."
+        }
+      },
+      {
+        "statement": "The structural effect of the wooden ribs is unclear.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "wooden ribs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6065,
+            0.2897,
+            0.6111
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Structural ribs are not distinguishable in the point cloud; location follows the hall envelope."
+        }
+      },
+      {
+        "statement": "The stage does not meet the program requirements because it is separated from the auditorium like a peep box.",
+        "tags": [
+          "functionality",
+          "acoustics",
+          "layout"
+        ],
+        "position": {
+          "target": "stage and auditorium separation",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6069,
+            0.2897,
+            0.3333
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior stage relationship is absent; constrained within the eastern hall volume."
+        }
+      },
+      {
+        "statement": "Apartments above the stage are problematic for acoustic reasons.",
+        "tags": [
+          "acoustics",
+          "functionality"
+        ],
+        "position": {
+          "target": "apartments above the stage",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6392,
+            0.4642,
+            0.8333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Upper residential levels above the hall are approximated from the stepped eastern mass."
+        }
+      },
+      {
+        "statement": "Northernly oriented apartments and apartments above rising roofs have poor market prospects and unsatisfactory views.",
+        "tags": [
+          "visibility",
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "northernly oriented apartments",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6397,
+            0.8214,
+            0.6111
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern-facing residential surfaces are constrained along the upper side of the footprint."
+        }
+      },
+      {
+        "statement": "The close interlocking of hall and residential uses makes realization and developer acquisition difficult.",
+        "tags": [
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "close interlocking of hall and residential uses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6065,
+            0.2897,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Joined polygonal masses visibly interlock hall and residential portions."
+        }
+      },
+      {
+        "statement": "The coherent form prevents views and loses an element typical of the district.",
+        "tags": [
+          "visibility",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "coherent form preventing views",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3933,
+            0.4985,
+            0.5556
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous stepped mass limits through-views across the central complex."
+        }
+      },
+      {
+        "statement": "The close integration of hall and shell uses causes more disadvantages than advantages.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "close integration of hall and shell uses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6065,
+            0.2897,
+            0.4444
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Hall and residential envelopes are visibly combined into one tightly integrated system."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "identity",
+      "functionality",
+      "acoustics",
+      "cost"
+    ]
+  }
+}

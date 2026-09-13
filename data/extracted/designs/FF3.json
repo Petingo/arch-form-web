@@ -1,0 +1,371 @@
+{
+  "object_description": "clustered three-level school volume defining linked outdoor spaces",
+  "geometry_property": [
+    "clustered",
+    "freely oriented",
+    "three-level",
+    "permeable",
+    "centralized",
+    "extendable"
+  ],
+  "design_condition": "Freely oriented volumes define a sequence from passage to square, courtyard, and parking, preserving site permeability and views while separating outdoor areas for different age groups.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The morphology, scale, and placement interact convincingly with the rural character of the site.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "rural site integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3483,
+            0.5486,
+            0.3311
+          ],
+          "radius": 0.302,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Clustered volumes and open gaps indicate a distributed building presence within the wider landscape."
+        }
+      },
+      {
+        "statement": "The landscape project achieves a good balance between passage, sharing, and planted spaces.",
+        "tags": [
+          "landscape",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "passage, sharing, and planted spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3189,
+            0.3815,
+            0.0922
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open areas between clustered volumes provide plausible passage and shared landscape zones."
+        }
+      },
+      {
+        "statement": "The location of the buildings and the scale of the exterior spaces are high quality.",
+        "tags": [
+          "massing",
+          "open space",
+          "scale"
+        ],
+        "position": {
+          "target": "exterior spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6749,
+            0.6558,
+            0.0922
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several separated exterior gaps are visible around the clustered building volumes."
+        }
+      },
+      {
+        "statement": "The site remains pleasantly permeable and enhances views of the wider landscape.",
+        "tags": [
+          "open space",
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "permeable site and wider views",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8968,
+            0.683,
+            0.14
+          ],
+          "radius": 0.302,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low-density placement and substantial gaps support a permeable site reading."
+        }
+      },
+      {
+        "statement": "The central distribution space is pleasantly lit, including through a skylight open across all levels.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "central distribution space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3483,
+            0.5486,
+            0.57
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central gap and vertically continuous circulation zone are suggested within the clustered plan."
+        }
+      },
+      {
+        "statement": "The structural system presents great rationality for both vertical and horizontal load transmission.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3409,
+            0.5068,
+            0.4744
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular sampled points across the volumes permit only a broad structural-system anchor."
+        }
+      },
+      {
+        "statement": "The roof reduces the heated volume and creates a thermal buffer zone.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7566,
+            0.696,
+            0.9522
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct upper roof surfaces and sloping roof edges are visible in the top and elevation views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The articulation with the cemetery is insufficient, and the opportunity to improve or share the parking area is missed.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "cemetery and parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2969,
+            0.2562,
+            0.0444
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The named adjacent site interface is not identifiable, so it is anchored at a plausible edge zone."
+        }
+      },
+      {
+        "statement": "The village square and playground areas appear undersized.",
+        "tags": [
+          "open space",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "village square and playground areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3263,
+            0.4233,
+            0.0444
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Exterior zones are visible between volumes, but square and playground boundaries are indistinguishable."
+        }
+      },
+      {
+        "statement": "The proposed extension eliminates the courtyard and greatly reduces sunlight in the schoolyard.",
+        "tags": [
+          "open space",
+          "daylight",
+          "massing"
+        ],
+        "position": {
+          "target": "courtyard and schoolyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6514,
+            0.6689,
+            0.0444
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A central open gap is the plausible courtyard or schoolyard location affected by extension."
+        }
+      },
+      {
+        "statement": "The facade lines would probably lose their fineness when adapted to constructive reality.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "facade lines",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1073,
+            0.5657,
+            0.3789
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior envelope lines are sampled, but the specific fineness criticized is not distinguishable."
+        }
+      },
+      {
+        "statement": "The complicated central circulation overlaps strongly with the rest of the building and complicates the use of wood under fire-safety requirements.",
+        "tags": [
+          "circulation",
+          "layout",
+          "fire safety"
+        ],
+        "position": {
+          "target": "central circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3483,
+            0.5486,
+            0.5222
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central circulation region is inferred from the clustered plan and vertically repeated points."
+        }
+      },
+      {
+        "statement": "The central stairwell cannot be extended to the basement without restrictive accompanying measures.",
+        "tags": [
+          "circulation",
+          "fire safety",
+          "structure"
+        ],
+        "position": {
+          "target": "central stairwell",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3483,
+            0.5486,
+            0.2833
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central vertical circulation anchor is plausible, though the basement connection is not visible."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "daylight",
+      "proportion",
+      "facade",
+      "expression",
+      "structure"
+    ]
+  }
+}

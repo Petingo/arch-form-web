@@ -1,0 +1,383 @@
+{
+  "object_description": "oblong raised volume with attached circulation towers and a roof sports field",
+  "geometry_property": [
+    "oblong",
+    "rectangular",
+    "raised volume",
+    "four-story",
+    "attached towers",
+    "roof-mounted field"
+  ],
+  "design_condition": "The oblong volume is placed centrally and parallel to the neighboring block, defining a mall toward the neighborhood square and a children’s courtyard to the east while remaining independent within the larger urban setting.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building establishes an independent and strong position in relation to the large-scale neighborhood.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2504,
+            0.3128,
+            0.4625
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Oblong raised mass is clearly visible across the calibrated plan and elevation views."
+        }
+      },
+      {
+        "statement": "The proposal offers an original and sensitive reading of the district’s urban potential.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "district urban potential",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8109,
+            0.4761,
+            0.117
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Urban relationship is approximated along the building’s open neighborhood-facing surroundings."
+        }
+      },
+      {
+        "statement": "The two circulation towers reinforce the school’s dialogue with the neighborhood as a public institution.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "two circulation towers",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6129,
+            0.1929,
+            0.7696
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distinct attached tower volumes are visible at the raised bar’s ends and upper elevations."
+        }
+      },
+      {
+        "statement": "The classroom floors form a simple and flexible bar system.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classroom floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4289,
+            0.743,
+            0.5393
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The repeated rectangular bar identifies the classroom-floor system within the raised volume."
+        }
+      },
+      {
+        "statement": "The distribution corridor expands toward the facade, creating generous pockets for activities.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "distribution corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7465,
+            0.5872,
+            0.4625
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is not distinguishable, so it is anchored near the facade-facing side of the bar."
+        }
+      },
+      {
+        "statement": "The outdoor spaces are well proportioned and carefully developed.",
+        "tags": [
+          "open space",
+          "proportion",
+          "landscape"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8524,
+            0.5352,
+            0.2321
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Open space is anchored to the east-side courtyard and adjacent exterior clearings."
+        }
+      },
+      {
+        "statement": "The courtyard and rooftop sports fields reinforce the architectural objectives.",
+        "tags": [
+          "open space",
+          "landscape",
+          "massing"
+        ],
+        "position": {
+          "target": "courtyard and rooftop sports fields",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5505,
+            0.3741,
+            0.8464
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The top view indicates roof activity while the surrounding open court is legible beside the volume."
+        }
+      },
+      {
+        "statement": "The project formulates a strong identity for a contemporary school.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "contemporary school identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5505,
+            0.3741,
+            0.7312
+          ],
+          "radius": 0.314,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall identity is assigned to the distinctive raised bar, towers, and roof feature."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The ground floor contradicts the project’s urban ideas because it lacks public functions and remains unused glazing.",
+        "tags": [
+          "urban integration",
+          "functionality",
+          "facade"
+        ],
+        "position": {
+          "target": "ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2839,
+            0.7348,
+            0.0786
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The lowest visible band of the raised building anchors the criticized ground-floor condition."
+        }
+      },
+      {
+        "statement": "The canteen and extracurricular rooms will struggle to establish the desired relationship with the urban surroundings.",
+        "tags": [
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "canteen and extracurricular rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9431,
+            0.2804,
+            0.2321
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Named interior rooms are absent as distinguishable points, placed near an exterior access edge."
+        }
+      },
+      {
+        "statement": "The main facade overlooking the public square underlines this awkward situation.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main facade overlooking the public square",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.321,
+            0.2781,
+            0.5393
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A long outer edge of the oblong bar represents the square-facing facade at mid-height."
+        }
+      },
+      {
+        "statement": "The covered courtyard’s proportions do not meet the requirements.",
+        "tags": [
+          "open space",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8171,
+            0.5525,
+            0.3473
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The east-side open court is the most plausible sampled location for the covered courtyard."
+        }
+      },
+      {
+        "statement": "The distribution of functions does not consistently follow the project’s basic concept.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "distribution of functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6054,
+            0.6564,
+            0.4625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Functional distribution is represented across the central raised bar rather than a distinguishable exterior element."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "identity",
+      "circulation",
+      "layout",
+      "flexibility",
+      "open space",
+      "facade",
+      "proportion"
+    ]
+  }
+}

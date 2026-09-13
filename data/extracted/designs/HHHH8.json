@@ -1,0 +1,315 @@
+{
+  "object_description": "four-story main building enclosed by a surrounding roof layer",
+  "geometry_property": [
+    "four-story",
+    "enclosed",
+    "roof-layered",
+    "cloister-like",
+    "slightly-sloping-roofed",
+    "integrated",
+    "compact"
+  ],
+  "design_condition": "The design retains the break room at the center, wraps the playground and existing gymnasium with a cloister-like roof layer, and places the four-story main building close to the church and village square.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The design is based sensitively on the existing school system and adapts its ideas to the new task.",
+        "tags": [
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "existing school system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5363,
+            0.5102,
+            0.5535
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Compact main volume and surrounding layer express an integrated school arrangement."
+        }
+      },
+      {
+        "statement": "The various uses are arranged consistently and the organization essentially works.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "various uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5408,
+            0.5071,
+            0.4444
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Organization judgment applies across the compact layered building."
+        }
+      },
+      {
+        "statement": "The spatial program is implemented very efficiently.",
+        "tags": [
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "spatial program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5408,
+            0.5071,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Efficiency comment concerns the complete sampled building arrangement."
+        }
+      },
+      {
+        "statement": "The slightly sloping roofs adopt familiar neighborhood elements and integrate the building well.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "slightly sloping roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2931,
+            0.5633,
+            0.8889
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distinct roof layer is clearly visible surrounding the main building footprint."
+        }
+      },
+      {
+        "statement": "The wooden shingles are appropriate for the location and easy to imagine.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "wooden shingles",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.679,
+            0.1317,
+            0.6111
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Cladding comment is anchored to the visible exterior facade."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The proximity of the four-story main building to the church and village square is problematic.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "four-story main building near church and village square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2219,
+            0.7745,
+            0.6667
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Proximity criticism is placed at the upper-left edge of the compact footprint."
+        }
+      },
+      {
+        "statement": "Adopting the existing topics does not significantly improve the situation and represents a missed opportunity.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "existing topics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5408,
+            0.5071,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Identity criticism applies to the overall building concept."
+        }
+      },
+      {
+        "statement": "The hall foyer is hardly wider than a hallway, making it difficult to use well.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "hall foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.677,
+            0.4354,
+            0.2222
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Foyer concern is approximated near the lower-right hall-related volume."
+        }
+      },
+      {
+        "statement": "The school lacks an entrance area that could function as a meeting place and give it an identity.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "school entrance area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5615,
+            0.1927,
+            0.1667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance is placed on the accessible front edge of the surrounding layer."
+        }
+      },
+      {
+        "statement": "The connection between the parish hall and community hall is not spacious or attractive enough.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "parish hall and community hall connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4722,
+            0.4829,
+            0.2222
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Connection concern is assigned to the central cloister-like circulation zone."
+        }
+      },
+      {
+        "statement": "The interior is organized too efficiently at the expense of spatial and living quality.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "interior organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5408,
+            0.5071,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad interior-quality criticism is distributed across the main building and roof layer."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "layout",
+      "functionality",
+      "massing",
+      "scale",
+      "circulation",
+      "identity",
+      "facade",
+      "expression"
+    ]
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "object_description": "three offset building volumes forming a staggered campus ensemble",
+  "geometry_property": [
+    "three-part composition",
+    "offset",
+    "staggered",
+    "varied proportions",
+    "set back",
+    "overlapping",
+    "courtyard-based",
+    "compact"
+  ],
+  "design_condition": "The staggered volumes mediate between the old-town edge, suburban row, and sloping small-scale neighbourhood through setbacks, a structured stair-and-terrace landscape, and a lowered northern edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The self-confident urban development of three staggered volumes is a convincing idea for a new district edge.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "three staggered volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7041,
+            0.5245,
+            0.3339
+          ],
+          "radius": 0.3327,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top and elevations clearly show three offset masses forming a staggered ensemble."
+        }
+      },
+      {
+        "statement": "The different proportions respond to the specific characters of the surrounding city.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "different proportions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2382,
+            0.5757,
+            0.3671
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sampled volumes visibly vary in footprint, setback, and height."
+        }
+      },
+      {
+        "statement": "The central hall and inner courtyards provide easily lit usable areas and varied usage scenarios.",
+        "tags": [
+          "layout",
+          "daylight",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central hall and inner courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5521,
+            0.4834,
+            0.2011
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central voids and surrounding masses are legible in the top and elevation patterns."
+        }
+      },
+      {
+        "statement": "The clearly structured and compact design is expected to have construction costs in the medium range.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost assessment has no useful geometric location."
+        }
+      },
+      {
+        "statement": "The roof finish can support the desired beacon character of the front building.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "front building roof finish",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3201,
+            0.1109,
+            0.8654
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The front roof surface is approximated along the south-facing portion of the ensemble."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The tightly structured staircase landscape leads to a small entrance area that does not correspond to the intended urban-planning order.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "staircase landscape and entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5111,
+            0.1109,
+            0.035
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance zone is placed at the lowered front edge of the sampled plan."
+        }
+      },
+      {
+        "statement": "The lowering of the building produces unattractive views and affects adjacent usable spaces.",
+        "tags": [
+          "topography",
+          "open space",
+          "visibility"
+        ],
+        "position": {
+          "target": "lowered building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6588,
+            0.7329,
+            0.1346
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern elevation and plan indicate a lower edge toward the back of the site."
+        }
+      },
+      {
+        "statement": "The arcade-like base is not yet resolved and lacks a necessary response to the high street noise.",
+        "tags": [
+          "facade",
+          "acoustics",
+          "expression"
+        ],
+        "position": {
+          "target": "arcade-like base",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4661,
+            0,
+            0.2011
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The base condition is anchored to the sampled south-facing lower facade."
+        }
+      },
+      {
+        "statement": "Large rooms on the ground floor result in individual rooms and functional areas receiving poor or no daylight.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "large ground-floor rooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2985,
+            0.5386,
+            0.035
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level interior rooms are absent; marker follows the visible lower building footprint."
+        }
+      },
+      {
+        "statement": "The vertical access and service areas severely limit flexibility of use across the floor plan.",
+        "tags": [
+          "circulation",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "vertical access and service areas",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6085,
+            0.5245,
+            0.4004
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Internal circulation systems are approximated within the central sampled mass."
+        }
+      },
+      {
+        "statement": "The suitability of the student bar as the roof crown is questioned.",
+        "tags": [
+          "functionality",
+          "identity"
+        ],
+        "position": {
+          "target": "student bar roof crown",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2866,
+            0.3139,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The possible roof-crown program is placed on the front roof surface."
+        }
+      },
+      {
+        "statement": "The uniform facade language equalizes distinctions in the structure and usage arrangements, weakening a specific architectural expression.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "uniform facade language",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7996,
+            0.5245,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Elevation views show repeated facade patterns across the building envelope."
+        }
+      },
+      {
+        "statement": "Significant optimization measures are necessary to achieve the desired sustainability certification standard.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "sustainability certification standard",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Certification performance has no useful geometric location."
+        }
+      },
+      {
+        "statement": "Topographical and operational divisions obscure the initial urban-development idea.",
+        "tags": [
+          "topography",
+          "operation",
+          "massing"
+        ],
+        "position": {
+          "target": "topographical and operational divisions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5521,
+            0.6442,
+            0.2343
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The broad judgment is anchored across the staggered site and its lowered edge."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "topography",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "facade",
+      "expression",
+      "sustainability"
+    ]
+  }
+}

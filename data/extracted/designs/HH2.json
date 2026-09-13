@@ -1,0 +1,290 @@
+{
+  "object_description": "overlapping L-shaped school complex with two wings of differing height",
+  "geometry_property": [
+    "L-shaped",
+    "overlapping",
+    "four-story",
+    "two-winged",
+    "narrowed ends",
+    "courtyard-forming",
+    "canopied"
+  ],
+  "design_condition": "Placed in the northwest corner, the two wings close the village edge, terminate the sports facility, and form a protected courtyard with the neighbouring retirement home opening toward the landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise placement creates a protected courtyard with considerable quality for both user groups.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "protected courtyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.502,
+            0.5739,
+            0.0844
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard-forming void is legible in plan and bounded at ground level by both wings."
+        }
+      },
+      {
+        "statement": "The building’s ends are cleverly narrowed to do justice to the local scale despite its large volume.",
+        "tags": [
+          "scale",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "narrowed wing ends",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1684,
+            0.8269,
+            0.5416
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Tapered ends are visible at the wing extremities, reducing the apparent scale of the complex."
+        }
+      },
+      {
+        "statement": "The careful internal organization and clear operational processes promise a high level of long-term usage value.",
+        "tags": [
+          "layout",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6008,
+            0.6042,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal planning is unshown, so the anchor is constrained to the main sampled building mass."
+        }
+      },
+      {
+        "statement": "The multifunctional zones and autonomously usable areas provide valuable added flexibility.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "operation"
+        ],
+        "position": {
+          "target": "multifunctional zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2363,
+            0.7541,
+            0.4169
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Programmatic zones are not distinguishable; placement follows a plausible wing interior near the courtyard."
+        }
+      },
+      {
+        "statement": "The large room depths are made workable through internal glazing between rooms and access zones.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "internal glazing",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6008,
+            0.6042,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Glazing and room depths are unshown, anchored approximately within the deeper courtyard-facing wing."
+        }
+      },
+      {
+        "statement": "The construction combines regional traditional elements skilfully with contemporary timber construction.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "timber facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3416,
+            0.077,
+            0.5831
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Material identity is not separable, so the marker follows the visible south-facing exterior envelope."
+        }
+      },
+      {
+        "statement": "The structural system, prefabricated ceilings, facades, and canopy meet the building-physics requirements.",
+        "tags": [
+          "structure",
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "canopy and facade system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3775,
+            0.2378,
+            0.2922
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The canopy edge is sampled, while structural and building-physics systems remain inferred from the exterior mass."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The project ultimately fails to meet the local architectural quality because of its height and consistent volumetric generosity.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6448,
+            0.6113,
+            0.5831
+          ],
+          "radius": 0.3403,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four-story height and generous overlapping volumes are evident across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The generous and complex construction generates added value but also costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost criticism has no useful spatial referent in the sampled geometry."
+        }
+      },
+      {
+        "statement": "All details, especially the large cornices and interfaces, must be planned and executed very carefully to ensure long service life.",
+        "tags": [
+          "facade",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "large cornices and interfaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3602,
+            0.0693,
+            0.7909
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Cornice and interface detailing is approximated along the upper visible south facade edge."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "open space",
+      "layout",
+      "functionality",
+      "operation",
+      "facade",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

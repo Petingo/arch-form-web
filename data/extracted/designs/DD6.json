@@ -1,0 +1,240 @@
+{
+  "object_description": "two angled cubic building volumes",
+  "geometry_property": [
+    "two volumes",
+    "angled",
+    "cubic",
+    "three-storey",
+    "partly sunken",
+    "recessed gymnasium"
+  ],
+  "design_condition": "The buildings follow the street and stream at an angle, creating linked open spaces toward the existing school complex and natural area, with paths connecting the site.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two cubes create successful open spaces and a clear reference to the existing school complex.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two cubic building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6565,
+            0.6121,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two distinct angled cubic masses are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The circulation and access to the complex are correctly arranged.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "circulation and access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.489,
+            0.3453,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central connecting zone approximates the access and circulation relationship between volumes."
+        }
+      },
+      {
+        "statement": "The internal layout meets the requirements.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6565,
+            0.6121,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Marker covers the larger visible volume as a proxy for the unshown internal arrangement."
+        }
+      },
+      {
+        "statement": "The lightness of the building volumes and façade corresponds to the flanking buildings and is likely to gain acceptance.",
+        "tags": [
+          "massing",
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "light building volumes and facade",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6565,
+            0.6121,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Visible angled masses and light envelope are represented across the building footprint."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The roof pitch has little overlap with the other outdoor areas, limiting shared use.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "roof pitch",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7979,
+            0.7354,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Upper north-east roof edge approximates the criticized pitch and its outdoor-space overlap."
+        }
+      },
+      {
+        "statement": "Access to the sports hall is narrow and would have to be widened if necessary.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "sports hall access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0717,
+            0.198,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Lowered volume edge provides a constrained anchor for the narrow sports-hall access."
+        }
+      },
+      {
+        "statement": "The day structure is not a single unit because its toilets and kitchen are outside, which is problematic operationally.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "day-structure toilets and kitchen",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3006,
+            0.5684,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Interior support-space location is not visible; marker is constrained near the secondary volume."
+        }
+      },
+      {
+        "statement": "The bonded roofs are alien to the canton, and the shingled wooden façade should be questioned.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "bonded roofs and shingled wooden facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7593,
+            0.7018,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "East and north envelope marker approximates the questioned roof and facade expression."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "open space",
+      "urban integration",
+      "circulation",
+      "layout",
+      "functionality",
+      "operation",
+      "facade"
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "object_description": "compact volume turned against the surrounding geometries",
+  "geometry_property": [
+    "compact",
+    "slightly rotated",
+    "uniform",
+    "symmetric",
+    "horizontal",
+    "banded"
+  ],
+  "design_condition": "The compact building is placed in the south-eastern part of the site and turned slightly from the prevailing geometries to mediate between adjacent urban bodies while preserving a northern green belt.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact structure generates differentiated outdoor spaces for the school and the neighborhood.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1903,
+            0.7843,
+            0.0559
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Compact massing leaves distinct peripheral outdoor regions visible in the top view."
+        }
+      },
+      {
+        "statement": "Its position mediates between the adjacent green and compact urban bodies.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "mediating building position",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4718,
+            0.4705,
+            0.6665
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The slightly rotated compact volume is clearly visible and spatially central to the mediation."
+        }
+      },
+      {
+        "statement": "A comprehensible route ensures that the new school and the green spaces are comprehensively connected to the surrounding area.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "connecting route",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1714,
+            0.4204,
+            0.0559
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The surrounding circulation route is approximated along the building’s western open edge."
+        }
+      },
+      {
+        "statement": "The extra heights create exciting visual links between different uses and floors.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "extra-height links",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4718,
+            0.4705,
+            0.722
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Vertical connections are inferred from the repeated elevated bands and tall massing."
+        }
+      },
+      {
+        "statement": "The architectural expression is kept simple and the compact volume is designed uniformly on all sides.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "uniform compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4718,
+            0.4705,
+            0.6665
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Symmetric horizontal massing and consistent elevations are directly visible across views."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The all-weather area on an embankment makes the zoning between the green belt and the defined school spaces appear too dominant.",
+        "tags": [
+          "topography",
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "all-weather area on embankment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7041,
+            0.7352,
+            0.0559
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The embankment and sports area are not distinguishable, so a northern peripheral site anchor is used."
+        }
+      },
+      {
+        "statement": "The extra heights produce a large volume with a negative impact on construction costs and environmental sustainability.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "extra-height volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4718,
+            0.4705,
+            0.7776
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevations visibly show the enlarged vertical extent above the regular horizontal bands."
+        }
+      },
+      {
+        "statement": "The larger horizontal openings appear too crowded in their proportions.",
+        "tags": [
+          "facade",
+          "proportion"
+        ],
+        "position": {
+          "target": "crowded horizontal openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8705,
+            0.617,
+            0.5555
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Opening proportions are assigned to the visible horizontal facade bands."
+        }
+      },
+      {
+        "statement": "The relationship between the building structure and the terrain and surroundings is not convincing, appearing undifferentiated and arbitrary.",
+        "tags": [
+          "urban integration",
+          "topography",
+          "expression"
+        ],
+        "position": {
+          "target": "building and terrain relationship",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5237,
+            0.15,
+            0.0559
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The critique concerns the building’s interface with the surrounding ground edge."
+        }
+      },
+      {
+        "statement": "The design is unable to compensate for its high land consumption with clear interior added value.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "land consumption",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6825,
+            0.7505,
+            0.0559
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The compact volume’s footprint is directly visible and anchors the land-consumption judgment."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "topography",
+      "circulation",
+      "visibility",
+      "cost",
+      "sustainability",
+      "facade"
+    ]
+  }
+}

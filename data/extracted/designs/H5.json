@@ -1,0 +1,631 @@
+{
+  "object_description": "fine-grained pavilion ensemble linked by a base building",
+  "geometry_property": [
+    "fine-grained",
+    "pavilion-like",
+    "low-rise",
+    "composite",
+    "topographically modeled",
+    "atrium-lit"
+  ],
+  "design_condition": "The loose pavilion ensemble responds to nearby punctiform housing, remains lower than the surrounding residential buildings, and uses the terrain to connect multiple outdoor settings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The differentiated, fine-grained ensemble responds convincingly to the punctiform residential developments nearby.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "fine-grained pavilion ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.5012
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple separated pavilion masses are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The pavilion-like complex anchors itself in the district with a compositionally loose arrangement linked by a base building.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "base-linked pavilion composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.3765
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The loose upper masses and continuous lower base are visible as a composite arrangement."
+        }
+      },
+      {
+        "statement": "The topographic design gives the complex a memorable appearance and allows many different locations and attractive outdoor areas.",
+        "tags": [
+          "topography",
+          "identity",
+          "open space"
+        ],
+        "position": {
+          "target": "topographic outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.2519
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped and distributed ground-level forms connect several outdoor regions."
+        }
+      },
+      {
+        "statement": "The atriums provide a good sense of scale and divide the primary-level plan into well-proportioned, well-lit clusters.",
+        "tags": [
+          "proportion",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.5012
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distinct internal voids and separations between pavilion clusters are visible in the plan."
+        }
+      },
+      {
+        "statement": "The elementary-level rooms have a high level of connection to the outdoor spaces.",
+        "tags": [
+          "layout",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "elementary-level outdoor connections",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.4804,
+            0.2519
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level rooms are adjacent to multiple ground-level open edges in the sampled ensemble."
+        }
+      },
+      {
+        "statement": "The main rooms form a well-functioning unit with cloakroom niches and internal group rooms.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "main rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.4487,
+            0.2519
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are not individually distinguishable; the estimate follows the central base-linked clusters."
+        }
+      },
+      {
+        "statement": "The group rooms can be accessed directly from classrooms or corridors.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.5753,
+            0.3765
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Small internal rooms are approximated near the central circulation and pavilion clusters."
+        }
+      },
+      {
+        "statement": "The circular route allows a variety of routes within the care floors.",
+        "tags": [
+          "circulation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "circular route",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.3765
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The distributed plan suggests connected circulation around central voids, though the route is not explicit."
+        }
+      },
+      {
+        "statement": "The kitchen and delivery areas are optimally located in the base of the care wing.",
+        "tags": [
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "kitchen and delivery areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8207,
+            0.7836,
+            0.1272
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Service functions are placed at a plausible base-building edge near the lower operational level."
+        }
+      },
+      {
+        "statement": "The structural concept is fundamentally efficient and logically formulated.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.5012
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The distinct base and pavilion masses are geometrically evident, while structural efficiency is inferential."
+        }
+      },
+      {
+        "statement": "The project has very good operational-energy and building-ecology values.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "operational-energy and building-ecology values",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This performance judgment has no reliable spatial referent in the sampled geometry."
+        }
+      },
+      {
+        "statement": "The concrete base and wooden pavilion structures form a coherent material concept that strengthens the urban-planning idea.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "structure"
+        ],
+        "position": {
+          "target": "concrete base and wooden pavilions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.5012
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The lower continuous base and differentiated pavilion masses are clearly visible across the model."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The differing formulations of the base weaken the overarching urban-planning idea.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "differing base formulations",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.2519
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The base is visibly segmented and varies beneath the pavilion ensemble."
+        }
+      },
+      {
+        "statement": "The modeled landscape conflicts with the sharp-edged base and produces an unresolved formal relationship.",
+        "tags": [
+          "topography",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "modeled landscape and sharp-edged base",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.2519
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Ground contours and the hard-edged lower construction are both visible at the building perimeter."
+        }
+      },
+      {
+        "statement": "The remaining break areas are small and lack tension, retreats, niches, and shaded spaces.",
+        "tags": [
+          "open space",
+          "landscape",
+          "privacy"
+        ],
+        "position": {
+          "target": "remaining break areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1747,
+            0.7986,
+            0.1335
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Small residual open zones are distributed around the pavilion ensemble at ground level."
+        }
+      },
+      {
+        "statement": "Some materialization proposals raise doubts about the intended image and expression.",
+        "tags": [
+          "expression",
+          "materiality"
+        ],
+        "position": {
+          "target": "materialization proposals",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7206,
+            0.4529,
+            0.5012
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Material proposals are not distinguishable; the estimate is anchored to an exposed pavilion façade."
+        }
+      },
+      {
+        "statement": "Complex fire barriers are required to maintain the proposed open flow toward the main staircase.",
+        "tags": [
+          "fire safety",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "fire barriers",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.5012
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Fire separations are not represented directly and are approximated around the central open-flow zone."
+        }
+      },
+      {
+        "statement": "The elementary-level floor-plan layout is too small, with corridors and light fixtures proportioned too narrowly.",
+        "tags": [
+          "layout",
+          "scale",
+          "daylight"
+        ],
+        "position": {
+          "target": "elementary-level floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.466,
+            0.5437,
+            0.2519
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower plan is visible as a distributed base level, but corridor and fixture dimensions are unresolved."
+        }
+      },
+      {
+        "statement": "An extension would leave too little light in the basement area.",
+        "tags": [
+          "daylight",
+          "flexibility"
+        ],
+        "position": {
+          "target": "basement area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7529,
+            0.6014,
+            0.0025
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The basement is not separately identifiable and is placed beneath a peripheral pavilion cluster."
+        }
+      },
+      {
+        "statement": "Locating the gym ancillary rooms half a story above the hall creates operational disadvantages.",
+        "tags": [
+          "operation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "gym ancillary rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7786,
+            0.4529,
+            0.2519
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ancillary rooms are not distinguishable; the estimate follows a raised zone adjacent to the base."
+        }
+      },
+      {
+        "statement": "Obstacle-free access and delivery are not well solved by the steep, narrow ramp.",
+        "tags": [
+          "accessibility",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "steep narrow ramp",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.4971,
+            0.1295
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The access ramp is not explicit, so it is anchored to a plausible outer ground-level approach."
+        }
+      },
+      {
+        "statement": "The wooden element construction slightly restricts flexibility because of its higher proportion of load-bearing walls.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "wooden element construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7206,
+            0.4529,
+            0.6259
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The pavilion elements are clearly located, although load-bearing wall proportions are not directly visible."
+        }
+      },
+      {
+        "statement": "The complex three-part extension and the division into two building structures detract from the otherwise carefully worked-out project.",
+        "tags": [
+          "massing",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "three-part extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4962,
+            0.5012
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The ensemble visibly divides into multiple building structures connected by a lower base."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "topography",
+      "open space",
+      "layout",
+      "daylight",
+      "circulation",
+      "flexibility"
+    ]
+  }
+}

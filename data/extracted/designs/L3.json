@@ -1,0 +1,455 @@
+{
+  "object_description": "two staggered volumes forming a deep angled schoolhouse",
+  "geometry_property": [
+    "two-part",
+    "staggered",
+    "angled",
+    "deep",
+    "rotated",
+    "layered",
+    "roof-structured"
+  ],
+  "design_condition": "The two-part building is rotated into the gap between neighboring buildings and placed in the rising terrain, but its depth and angle push it far into the park and interrupt public and visual connections.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The integration of the school and its outdoor spaces into the park is successful.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "school and outdoor spaces in park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3094,
+            0.8354,
+            0.0929
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Park-facing outdoor space is approximated along the building’s open south-west surroundings."
+        }
+      },
+      {
+        "statement": "The rotated two-part structure avoids parallel alignment with the retaining wall and adjacent buildings.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "rotated two-part structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4863,
+            0.323,
+            0.5905
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The angled, staggered building footprint and elevations are clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The placement in the gap minimizes visual impairment.",
+        "tags": [
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "gap placement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4863,
+            0.323,
+            0.5452
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The building mass is located centrally within the visible angled footprint, representing its gap placement."
+        }
+      },
+      {
+        "statement": "The staggered arrangement enables clear address formation with coherently placed entrances.",
+        "tags": [
+          "circulation",
+          "massing"
+        ],
+        "position": {
+          "target": "coherently placed entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5011,
+            0.3085,
+            0.1834
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrances are not distinguishable; the east-south lower edge provides a constrained access-area anchor."
+        }
+      },
+      {
+        "statement": "The building placed in the rising topography cleverly separates the different outdoor areas.",
+        "tags": [
+          "topography",
+          "open space"
+        ],
+        "position": {
+          "target": "different outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2193,
+            0.7616,
+            0.1381
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Topography-related outdoor separation is approximated on the lower west side of the staggered footprint."
+        }
+      },
+      {
+        "statement": "The structure allows a high degree of flexibility of use.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "flexibility of use",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility describes overall building use rather than a locatable geometric feature."
+        }
+      },
+      {
+        "statement": "The generously designed access areas provide space for lessons across classes and group work.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "generously designed access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4169,
+            0.2662,
+            0.1834
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access areas are not separately visible; a lower south-west perimeter zone provides the best approximation."
+        }
+      },
+      {
+        "statement": "The building finds an appropriate expression as a school in the park.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "school in the park expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4863,
+            0.323,
+            0.6809
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall visible volume anchors the school’s architectural expression within the park setting."
+        }
+      },
+      {
+        "statement": "The proposal is convincing due to its clarity and consistency.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "clarity and consistency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Clarity and consistency are overall design judgments without a specific spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The school building and playing field force the main paths to be redirected, producing unconvincing parallel connections.",
+        "tags": [
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "redirected main paths and playing field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1293,
+            0.6878,
+            0.0477
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Paths and playing field are not distinguishable; the open west-south site edge is a plausible landscape anchor."
+        }
+      },
+      {
+        "statement": "The small stream may not have enough strength to dialogue with the defining elements of the other landscape areas.",
+        "tags": [
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "small stream",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2193,
+            0.7616,
+            0.0477
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The stream is absent as a distinct feature; a peripheral north-west site location provides a constrained guess."
+        }
+      },
+      {
+        "statement": "The family gardens require clearing valuable trees and occupy a shady replacement area.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "family gardens and replacement area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8261,
+            0.6015,
+            0.0477
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Gardens and trees are not represented distinctly; the east-north open perimeter is used as a site approximation."
+        }
+      },
+      {
+        "statement": "The building pushes far into the center of the park and breaks the power of the public path network.",
+        "tags": [
+          "massing",
+          "circulation"
+        ],
+        "position": {
+          "target": "building in park center",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4863,
+            0.323,
+            0.5905
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The deep angled mass visibly occupies the central portion of the sampled footprint."
+        }
+      },
+      {
+        "statement": "The volume appears somewhat bulky and blocks connecting and visual axes.",
+        "tags": [
+          "massing",
+          "visibility"
+        ],
+        "position": {
+          "target": "bulky volume blocking axes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4863,
+            0.323,
+            0.6357
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated staggered volume and its height are directly evident across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The flow of student traffic disrupts the access area, particularly on the first floor.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "first-floor student traffic",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5066,
+            0.2956,
+            0.3191
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Traffic is not visible; the lower east-south building zone approximates the referenced first-floor access area."
+        }
+      },
+      {
+        "statement": "Fire protection lacks systematic traceability, especially regarding escape routes.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "escape routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4863,
+            0.323,
+            0.3643
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Escape routes are not represented; a lower perimeter anchor approximates likely circulation infrastructure."
+        }
+      },
+      {
+        "statement": "Questions arise regarding the distribution of uses because the all-day school is on the top floor.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "all-day school on top floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5259,
+            0.5032,
+            0.9523
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The top-floor judgment is anchored to the upper portion of the visible staggered building mass."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "landscape",
+      "circulation",
+      "open space",
+      "topography",
+      "flexibility",
+      "expression",
+      "visibility",
+      "fire safety"
+    ]
+  }
+}

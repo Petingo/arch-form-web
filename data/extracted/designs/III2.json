@@ -1,0 +1,455 @@
+{
+  "object_description": "almost square freestanding volume with roof terrace",
+  "geometry_property": [
+    "almost square",
+    "freestanding",
+    "compact",
+    "vertical",
+    "roof-terraced",
+    "transparent"
+  ],
+  "design_condition": "The building is precisely placed at the interface between a floodplain-forest landscape and an existing break area, forming a clearing-centered campus landmark while prioritizing a car-free north–south connection.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise placement of the almost square structure at the interface between forest and break area was convincing.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "forest–break area interface",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.7924,
+            0.0577
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Approximate clearing edge beside the square volume; surrounding landscape is not distinguishable in the sampled cloud."
+        }
+      },
+      {
+        "statement": "The building reads as a freestanding volume with covered forecourts at both entrances.",
+        "tags": [
+          "massing",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "freestanding volume with covered forecourts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3223,
+            0.4359,
+            0.5
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Square freestanding mass and lower entrance projections are legible across the footprint and elevations."
+        }
+      },
+      {
+        "statement": "The simple structural system enables economical spans and flexible division of usable areas.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "cost"
+        ],
+        "position": {
+          "target": "simple structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3388,
+            0.354,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular vertical point bands suggest an ordered structural system, though spans are not directly identifiable."
+        }
+      },
+      {
+        "statement": "The facade gives the building lightness and transparency as the volume dissolves toward the top.",
+        "tags": [
+          "facade",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "transparent upper facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5151,
+            0.0537,
+            0.8269
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper elevations visibly become more open and lightweight toward the roof."
+        }
+      },
+      {
+        "statement": "Reimplanting riparian forest vegetation contributes to natural habitats, biodiversity and climate improvement.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "riparian forest vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.7924,
+            0.0577
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Placed on the surrounding clearing edge; vegetation itself is absent from the exterior point sample."
+        }
+      },
+      {
+        "statement": "The solitary building in a forest clearing creates a new identity for the technology campus.",
+        "tags": [
+          "identity",
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "forest clearing campus landmark",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3887,
+            0.5691,
+            0.2692
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The isolated building mass is visible, while the surrounding clearing is only inferred."
+        }
+      },
+      {
+        "statement": "The square enables a short car-free crossing and gives non-motorized transport priority.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "north–south car-free crossing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4113,
+            0.4568,
+            0.1538
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Anchored along the square’s central north–south axis at ground level."
+        }
+      },
+      {
+        "statement": "The green roof terraces provide habitats and largely retain rainwater.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "green roof terraces",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4875,
+            0.4983,
+            0.9808
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof terrace footprint is visible from above and occupies the building’s uppermost surface."
+        }
+      },
+      {
+        "statement": "The apartments are functionally clever and work perfectly.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "apartments",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6968,
+            0.3579,
+            0.8654
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Interior apartments are not distinguishable; placed as an approximate upper-level building surface anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The fusion of the building with the playground base is architecturally problematic and unresolved in design terms.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "playground base",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4113,
+            0.4568,
+            0.1538
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Anchored at the lower building interface where the named playground base is not separately distinguishable."
+        }
+      },
+      {
+        "statement": "It must be demonstrated whether the proposed lighting measures bring sufficient daylight into the interior.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "interior daylight",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4535,
+            0.0317,
+            0.6923
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight performance concerns interior space; upper facade is the nearest sampled surface."
+        }
+      },
+      {
+        "statement": "The compositional cuts in the concrete core restrict the flexibility offered by the structural system.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "structure"
+        ],
+        "position": {
+          "target": "concrete core",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3223,
+            0.4359,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Placed near the apparent central vertical organization, though the concrete core is not identifiable in the cloud."
+        }
+      },
+      {
+        "statement": "The facade expression of specific rooms contradicts the structural logic.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "specific-room facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5151,
+            0.0537,
+            0.5962
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South facade provides a representative surface for the critique of room-specific expression."
+        }
+      },
+      {
+        "statement": "The plans do not show how deliveries and parking for existing buildings will be handled.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "deliveries and parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.08,
+            0.1417,
+            0.0385
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Placed at a ground-level site edge; delivery and parking arrangements are not represented distinctly."
+        }
+      },
+      {
+        "statement": "It is technically questionable whether the existing divisions can remain unaffected.",
+        "tags": [
+          "structure",
+          "operation"
+        ],
+        "position": {
+          "target": "existing divisions",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7365,
+            0.1287,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Interior divisions are absent; approximate mid-building placement uses the visible envelope as proxy."
+        }
+      },
+      {
+        "statement": "The project lacks depth of development in various areas.",
+        "tags": [
+          "expression",
+          "functionality"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9188,
+            0.5719,
+            0.5577
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad critique applies across the sampled building mass rather than one identifiable feature."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "landscape",
+      "urban integration",
+      "circulation",
+      "sustainability",
+      "structure",
+      "flexibility",
+      "facade",
+      "daylight",
+      "functionality"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "object_description": "two distinct independent volumes forming a compact school campus",
+  "geometry_property": [
+    "separated",
+    "independent",
+    "compact",
+    "low-rise",
+    "clustered",
+    "campus-like"
+  ],
+  "design_condition": "Two independent volumes are positioned apart from the existing building to form a campus arrangement, but the southern volume substantially reduces the site's green leisure area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two distinct volumes cleverly formulate a school campus.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two distinct volumes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.538,
+            0.5897,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The separated south-west and north-east masses visibly establish the campus composition."
+        }
+      },
+      {
+        "statement": "The clear layout creates a precise urban relationship and integrates the existing complex convincingly into its built environment.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "urban relationship and existing complex",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5454,
+            0.5641,
+            0.1667
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The distributed volumes and intervening open space define the broader urban relationship."
+        }
+      },
+      {
+        "statement": "The project strategy is convincing in many respects and shows considerable care in its formulation.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "whole project strategy",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5315,
+            0.5332,
+            0.1667
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall arrangement is represented by the compact cluster and its clear separation."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The southern building takes away much of the green leisure area and prevents outdoor activities without a comparable alternative.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "southern building and green leisure area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1767,
+            0.1495,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The large southern mass occupies the south-west portion where leisure open space would otherwise remain."
+        }
+      },
+      {
+        "statement": "The materialization has high costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "materialization costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent in the sampled model."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "layout",
+      "open space",
+      "functionality",
+      "cost",
+      "expression"
+    ]
+  }
+}

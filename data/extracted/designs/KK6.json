@@ -1,0 +1,342 @@
+{
+  "object_description": "partly sunken pavilion under a subdivided shed roof",
+  "geometry_property": [
+    "partly sunken",
+    "pavilion-like",
+    "shed-roofed",
+    "fragmented roof",
+    "delicate"
+  ],
+  "design_condition": "The building is buried into the slope on one side and appears as a free-standing pavilion on the valley side, with entrances at both levels but few further connections to the surrounding paths and context.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The direct solution answers the spatial program and site with remarkable elegance.",
+        "tags": [
+          "massing",
+          "functionality"
+        ],
+        "position": {
+          "target": "overall building solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5464,
+            0.2318,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Distinctive low pavilion massing is clearly visible across the complete calibrated set."
+        }
+      },
+      {
+        "statement": "The subdivided shed roof helps integrate the building into the small-scale residential context.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "subdivided shed roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6146,
+            0.3485,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated roof subdivisions are visibly distributed along the diagonal pavilion footprint."
+        }
+      },
+      {
+        "statement": "The sectional arrangement creates natural building entrances from both sides.",
+        "tags": [
+          "circulation",
+          "topography"
+        ],
+        "position": {
+          "target": "entrances from both sides",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5041,
+            0.7366,
+            0.1
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two-level entry concept is anchored to opposite long edges and lower elevation bands."
+        }
+      },
+      {
+        "statement": "The boundary between break area and meadow contributes to the formal coherence of the overall project.",
+        "tags": [
+          "open space",
+          "landscape",
+          "massing"
+        ],
+        "position": {
+          "target": "break area and meadow boundary",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7025,
+            0.1264,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open-space boundary is placed along the valley-facing lower edge of the pavilion."
+        }
+      },
+      {
+        "statement": "The disciplined design shows a remarkable ability to abstract and structure the task.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "disciplined design structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4417,
+            0.7788,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Regular roof and elevation subdivisions visibly structure the entire low building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The industrial connotation of the shed roof feels foreign to the place.",
+        "tags": [
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "industrial shed roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3214,
+            0.7207,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The exposed segmented roof is directly visible and anchors the industrial-identity concern."
+        }
+      },
+      {
+        "statement": "The project provides no connection from the station to the village centre or along the riverbank, and the side facades remain inactive.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "facade"
+        ],
+        "position": {
+          "target": "station-to-village and riverbank connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9392,
+            0.1782,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Missing external connections are approximated along the valley-facing riverbank side."
+        }
+      },
+      {
+        "statement": "The secretive metal facade reinforces a self-sufficient and withdrawn attitude.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "secretive metal facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.64,
+            0.1686,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade concern is anchored to the long visible side elevation beneath the roof."
+        }
+      },
+      {
+        "statement": "The dimensions and proportions of the break area are unsuitable for assembling the entire school.",
+        "tags": [
+          "open space",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "break area proportions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7025,
+            0.1264,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Break-area concern is placed along the broad valley-facing open-space edge."
+        }
+      },
+      {
+        "statement": "The restrictive order gives priority to rigidity over flexible playability required by the learning model.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "restrictive order and learning flexibility",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3746,
+            0.3476,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Flexibility concern is approximated within the repeated central interior organization."
+        }
+      },
+      {
+        "statement": "The covered break area in front of the ground-level classrooms distracts learners and adds substantial shading.",
+        "tags": [
+          "daylight",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "covered break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.562,
+            0.2212,
+            0.2
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Shading concern is placed outside ground-level classrooms along the valley-facing edge."
+        }
+      },
+      {
+        "statement": "The roof structure is exposed to tensile forces without making the load transfer apparent.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "roof structure and load transfer",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6519,
+            0.3391,
+            0.9
+          ],
+          "radius": 0.13,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof structure is directly represented by the repeated upper roof bands and subdivisions."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "circulation",
+      "facade",
+      "expression",
+      "open space",
+      "proportion",
+      "flexibility",
+      "daylight",
+      "structure"
+    ]
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "object_description": "three-legged building with unequal wings",
+  "geometry_property": [
+    "three-legged",
+    "asymmetrical",
+    "low-rise",
+    "articulated",
+    "unequal wings",
+    "compact"
+  ],
+  "design_condition": "The unequal wings respond to the surroundings and generate well-proportioned outdoor spaces, with separate pedestrian and vehicle approaches and a hedge mediating the neighbouring residential edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building reacts explicitly to its surroundings and generates very well-proportioned outdoor spaces.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "whole building and outdoor spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5195,
+            0.4705,
+            0.3333
+          ],
+          "radius": 0.319,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Asymmetrical three-legged footprint visibly frames several distinct exterior voids."
+        }
+      },
+      {
+        "statement": "Access is cleverly organized and consistently separates motorized and pedestrian movement.",
+        "tags": [
+          "circulation",
+          "operation",
+          "safety"
+        ],
+        "position": {
+          "target": "separate pedestrian and motorized access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1769,
+            0.1761,
+            0.0833
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is assigned to the south-western ground-level perimeter, where approaches can separate."
+        }
+      },
+      {
+        "statement": "The strong pre-structuring accommodates numerous usage requirements.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "pre-structured layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5195,
+            0.4705,
+            0.3333
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The articulated footprint and repeated elevation bands indicate strong internal pre-structuring."
+        }
+      },
+      {
+        "statement": "The floor plans are organized naturally according to user-friendly principles.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "user-friendly floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4353,
+            0.4705,
+            0.3333
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground and upper floor regions are approximated within the clearly organized wing arrangement."
+        }
+      },
+      {
+        "statement": "The two-story corridor room brings light downward and creates visual connections between levels.",
+        "tags": [
+          "daylight",
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "two-story corridor room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.551,
+            0.6336,
+            0.6667
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central upper-level connector is approximated above the visible central junction."
+        }
+      },
+      {
+        "statement": "The structural system creates great flexibility in the room layout.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "flexible structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6242,
+            0.6576,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Structure is not separately legible; marker uses the broadest regular wing surface."
+        }
+      },
+      {
+        "statement": "The architectural expression is differentiated and reacts subtly to the different uses.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "differentiated architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9483,
+            0.4732,
+            0.5833
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct wing edges and varied elevation profiles visibly differentiate the envelope."
+        }
+      },
+      {
+        "statement": "The building has a pleasant scale, restrained appearance, and an independent identity.",
+        "tags": [
+          "scale",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "pleasant building scale and identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4985,
+            0.4705,
+            0.3333
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall low-rise massing and compact articulated silhouette support the scale assessment."
+        }
+      },
+      {
+        "statement": "The project creates well-proportioned outdoor spaces and attractive everyday spatial compositions.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "everyday outdoor spatial compositions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2564,
+            0.6333,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several visible perimeter recesses and courts provide identifiable outdoor composition zones."
+        }
+      },
+      {
+        "statement": "The assessment of ecological sustainability and energy is positive, and target costs are met.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "ecological sustainability and energy",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability, energy, and cost performance are not spatially localizable in the sampled geometry."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "There is little scope for unplanned appropriation or direct experience of nature.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "unplanned appropriation and nature experience",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7884,
+            0,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The eastern perimeter is used as an approximate outdoor zone lacking identifiable natural features."
+        }
+      },
+      {
+        "statement": "The sealed areas strain biodiversity and prevent ecological connections between outdoor spaces.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "sealed outdoor areas and ecological connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.219,
+            0.1761,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space surfaces are visible, but paving and biodiversity conditions are not distinguishable."
+        }
+      },
+      {
+        "statement": "The central entrance space feels somewhat cramped because of the stairs.",
+        "tags": [
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "central entrance space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5405,
+            0.4705,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central junction is the most plausible entrance zone; stairs are not separately visible."
+        }
+      },
+      {
+        "statement": "The group rooms are not always optimally divided between classrooms, and some corridors are cramped.",
+        "tags": [
+          "layout",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "group rooms and cramped corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4353,
+            0.4705,
+            0.3333
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior subdivision is unresolved, so the marker covers the denser western floor region."
+        }
+      },
+      {
+        "statement": "The neighborhood kitchen's location, lift connection, and U-shaped organization are operationally unsuitable.",
+        "tags": [
+          "operation",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "neighborhood kitchen and lift connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7586,
+            0.3103,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Named service functions are absent; eastern wing ground-level surface provides a constrained approximation."
+        }
+      },
+      {
+        "statement": "The summer heat protection is critically affected by the high proportion of zenithal light.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "summer heat protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6242,
+            0.8272,
+            0.8333
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Zenithal-light concern is anchored near the upper central roof region."
+        }
+      },
+      {
+        "statement": "The lack of ventilation shafts for the kitchen remains a deficiency.",
+        "tags": [
+          "ventilation",
+          "functionality"
+        ],
+        "position": {
+          "target": "kitchen ventilation shafts",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7586,
+            0.3103,
+            0.5833
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Ventilation shafts are not visible; marker is constrained to the likely service wing envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "flexibility",
+      "expression",
+      "sustainability",
+      "operation"
+    ]
+  }
+}

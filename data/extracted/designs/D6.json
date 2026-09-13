@@ -1,0 +1,284 @@
+{
+  "object_description": "four-storey plinth-based building with buried wing",
+  "geometry_property": [
+    "four-storey",
+    "linear",
+    "plinth-based",
+    "transverse",
+    "partly sunken",
+    "incised"
+  ],
+  "design_condition": "The building accompanies the main street while the buried transverse gymnasium creates a low setting toward the planned park and separates public open space from the school grounds.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The composition clearly separates the public open space from the school grounds.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "public open space and school grounds",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5349,
+            0.3957,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The top view clearly separates the open western area from the denser school building mass."
+        }
+      },
+      {
+        "statement": "The building has an appropriate architectural expression, and the timber cladding is not too prominent in this location.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "timber-clad architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7726,
+            1,
+            0.6
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Cladding is not identifiable in point samples; the marker uses the prominent north-facing building façade."
+        }
+      },
+      {
+        "statement": "The two visible entrances provide a clear address from the city.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "two visible entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6714,
+            0,
+            0.1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrance locations are approximated at the lower building edge facing the city-side open approach."
+        }
+      },
+      {
+        "statement": "The two-storey stairwells are well lit, well proportioned, and clearly laid out.",
+        "tags": [
+          "daylight",
+          "proportion",
+          "circulation"
+        ],
+        "position": {
+          "target": "two-storey stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6019,
+            0.3899,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Two narrow vertical circulation features are visibly incised within the main building mass."
+        }
+      },
+      {
+        "statement": "The clearly laid out and efficient system requires only one elevator.",
+        "tags": [
+          "layout",
+          "accessibility"
+        ],
+        "position": {
+          "target": "efficient one-elevator system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6019,
+            0.3899,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The elevator is not distinguishable; the marker approximates the main internal circulation zone."
+        }
+      },
+      {
+        "statement": "The simple system allows for great planning and operational flexibility.",
+        "tags": [
+          "flexibility",
+          "operation"
+        ],
+        "position": {
+          "target": "planning and operational system",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Planning flexibility and operation concern the overall system, without a discrete spatial referent."
+        }
+      },
+      {
+        "statement": "The plausible basic structure can be expected to have medium construction costs.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "basic structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6019,
+            0.3899,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The linear plinth-based structure and transverse wing are legible across the rendered building envelope."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Because the facility occupies the entire perimeter, extending it would require adding a storey to the gymnasium and replacing the kindergarten outdoor space.",
+        "tags": [
+          "massing",
+          "flexibility",
+          "open space"
+        ],
+        "position": {
+          "target": "gymnasium extension and kindergarten outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5349,
+            0.354,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open western site area is the plausible kindergarten outdoor zone affected by future gymnasium expansion."
+        }
+      },
+      {
+        "statement": "The project is well developed but the spatial structure remains too schematic.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6019,
+            0.3899,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The visible linear mass and limited incisions support the critique of a schematic overall structure."
+        }
+      },
+      {
+        "statement": "The canteen and multi-purpose room are not connected to the entrance hall as one coherent spatial unit.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "canteen and multi-purpose room connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6714,
+            0,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are not visible; the estimate uses the lower entrance-side portion of the building."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "massing",
+      "expression",
+      "facade",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "operation",
+      "cost"
+    ]
+  }
+}

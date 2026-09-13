@@ -1,0 +1,350 @@
+{
+  "object_description": "very long comb-like clinic complex under pitched roofs",
+  "geometry_property": [
+    "extremely elongated",
+    "two-storey street presence",
+    "single-storey eastern side",
+    "comb-like",
+    "pitched-roofed",
+    "repetitive",
+    "conglomerate"
+  ],
+  "design_condition": "The complex connects directly to the main street and leans toward the adjacent residential area, but its length, open parking, and weak landscape connection prevent an understandable relationship between new and existing buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The architectural design is coherent and carefully worked out.",
+        "tags": [
+          "expression",
+          "facade",
+          "structure"
+        ],
+        "position": {
+          "target": "whole architectural design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5257,
+            0.443,
+            0.5664
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Comb-like massing, repeated pitched roofs, and layered elevations are consistently visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The organization of the individual clinics around the outdoor space allows one to expect a good living atmosphere.",
+        "tags": [
+          "layout",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "individual clinics around outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4648,
+            0.4897,
+            0.279
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view shows repeated clinic wings arranged around recessed outdoor spaces along the elongated complex."
+        }
+      },
+      {
+        "statement": "The project has good qualities in terms of functionality and living ambience.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "functionality and living ambience",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6841,
+            0.2972,
+            0.4227
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A representative lower-level wing and adjacent open-space notch anchors the stated functional and atmospheric qualities."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The system appears incredibly long, and there is no overarching structure that could make it comprehensible.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "excessively long system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5257,
+            0.443,
+            0.5664
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The footprint forms a visibly elongated chain, while elevations confirm its continuous horizontal extent."
+        }
+      },
+      {
+        "statement": "The intended friendly, soft tone is not recognized in the implementation; the impression is more of a staccato.",
+        "tags": [
+          "expression",
+          "identity",
+          "scale"
+        ],
+        "position": {
+          "target": "staccato implementation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7707,
+            0.2036,
+            0.5664
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated notches, roof pitches, and facade intervals create a visibly segmented rhythm along the wings."
+        }
+      },
+      {
+        "statement": "The direct connection to the street and the open parking spaces reinforce the impression of excessive length.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "street connection and open parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4851,
+            0.4742,
+            0.1353
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing ground edge is the plausible street and parking interface for the long building frontage."
+        }
+      },
+      {
+        "statement": "All functional units are accessed from the street without a clear main access area or route through the facility.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "identity"
+        ],
+        "position": {
+          "target": "main access area or route",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4851,
+            0.4742,
+            0.1353
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-oriented access is approximated along the continuous south-facing lower facade; no distinct entrance is visible."
+        }
+      },
+      {
+        "statement": "The outdoor space is strongly oriented towards the inside, without a generous connection to the landscape.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "outdoor space and landscape connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.597,
+            0.5439,
+            0.279
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Recessed spaces are visible within the comb, but the sample provides no distinguishable generous landscape edge."
+        }
+      },
+      {
+        "statement": "The connection between the park concept and the proposed open-space concept is not clear, and the eastern landscape design is unconvincing.",
+        "tags": [
+          "landscape",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "park and eastern landscape connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8828,
+            0.0651,
+            0.1353
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern terminal and adjacent ground-level edge provide the best constrained anchor for the stated landscape relationship."
+        }
+      },
+      {
+        "statement": "The proposed courtyards appear unsuitable for creating high-quality and diverse open spaces for the individual stations.",
+        "tags": [
+          "open space",
+          "functionality",
+          "privacy"
+        ],
+        "position": {
+          "target": "proposed courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7079,
+            0.445,
+            0.279
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several narrow courtyard-like recesses appear between the repeated clinic wings in the top view."
+        }
+      },
+      {
+        "statement": "The parallel route near the clinic limits the use of outdoor space in the wards.",
+        "tags": [
+          "open space",
+          "functionality",
+          "safety"
+        ],
+        "position": {
+          "target": "parallel route near the clinic",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8087,
+            0.1597,
+            0.1353
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A route is approximated along the south-facing ground edge beside the clinic sequence; it is not separately resolved."
+        }
+      },
+      {
+        "statement": "The project does not achieve its aim of combining new and existing buildings into an understandable overall complex.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "overall complex combining new and existing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3627,
+            0.5639,
+            0.5664
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The full sampled complex reads as one extended repetitive conglomerate, without a clearly legible overarching composition."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "expression",
+      "circulation",
+      "functionality",
+      "open space",
+      "landscape",
+      "living ambience"
+    ]
+  }
+}

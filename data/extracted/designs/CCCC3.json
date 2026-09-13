@@ -1,0 +1,456 @@
+{
+  "object_description": "undulating curvilinear building enclosing a central green space",
+  "geometry_property": [
+    "curvilinear",
+    "undulating",
+    "large-scale",
+    "open-ended",
+    "circumferential",
+    "through-opened",
+    "labyrinthine"
+  ],
+  "design_condition": "An autonomous undulating volume wraps a central green space, but its scale and the sports-hall position obstruct connections to the fragmented surroundings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The central green space is appealing and can be colonized by residents.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "central green space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5464,
+            0.6108,
+            0.3061
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view clearly identifies the central landscaped void within the undulating perimeter."
+        }
+      },
+      {
+        "statement": "Wide openings break the sense of enclosure around the central space.",
+        "tags": [
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "wide through-openings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.749,
+            0.453,
+            0.5374
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large breaks in the curvilinear ring are visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The distinct setting offers a real break in the student day.",
+        "tags": [
+          "identity",
+          "functionality"
+        ],
+        "position": {
+          "target": "distinct student setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.532,
+            0.6141,
+            0.5374
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The autonomous circumferential building and central green space define the setting."
+        }
+      },
+      {
+        "statement": "The autonomous urban form engages with the existing indefiniteness without aggravating it.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "autonomous urban form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3925,
+            0.7065,
+            0.5374
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous undulating volume is consistently visible across all views."
+        }
+      },
+      {
+        "statement": "Foundations, structure, energy and sustainable development have been addressed and dealt with.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "foundations, structure, energy and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates technical and environmental resolution without a specific visible geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The long curvilinear corridors are perceived as oppressive.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "long curvilinear corridors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2161,
+            0.5318,
+            0.4603
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The perimeter shape constrains corridor placement, but interior circulation is not directly sampled."
+        }
+      },
+      {
+        "statement": "The claim that a large structure can do without joints is not demonstrated as plausible.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "large structure without joints",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4819,
+            0.7548,
+            0.5374
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The continuous ring suggests a large structural span, while joints are not visible."
+        }
+      },
+      {
+        "statement": "The façade elements and large through-openings contribute to costs above the financial target.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "facade elements and through-openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8353,
+            0.4622,
+            0.5374
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter openings and facade bands are visibly repeated around the building."
+        }
+      },
+      {
+        "statement": "The scale of the construction is imposing in relation to the existing buildings.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "construction scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.532,
+            0.6141,
+            0.5374
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The large continuous footprint is directly apparent relative to the sampled building bounds."
+        }
+      },
+      {
+        "statement": "The center has closed in on itself and the first floor is not sufficiently permeable.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "closed-in central space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5464,
+            0.6108,
+            0.3832
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central void is visible, with limited perimeter breaks indicating enclosure."
+        }
+      },
+      {
+        "statement": "The sports-hall position creates an unfortunate topography and an obstacle to linking with the commune.",
+        "tags": [
+          "topography",
+          "urban integration"
+        ],
+        "position": {
+          "target": "sports-hall position",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7991,
+            0.3534,
+            0.3832
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A peripheral zone is used because the sports hall is not separately identifiable in the sample."
+        }
+      },
+      {
+        "statement": "The central-corridor typology is poor and uninviting, with a labyrinthine effect from the curved form.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central-corridor typology",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2966,
+            0.5113,
+            0.4603
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Curved perimeter geometry constrains an internal circulation anchor, without exposing corridors."
+        }
+      },
+      {
+        "statement": "The large windows cannot be crossed and isolate parts of the building from one another.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "large windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6278,
+            0.2006,
+            0.6145
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The south-east facade is a plausible window anchor, but glazing is not resolved."
+        }
+      },
+      {
+        "statement": "The jury remains sceptical about the spatial qualities of the student rooms.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "student rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3398,
+            0.811,
+            0.6145
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Rooms are placed along the sampled perimeter, though individual interiors are absent."
+        }
+      },
+      {
+        "statement": "The perspectives, plans and constructive section show discrepancies in the apparent openings and spatial qualities.",
+        "tags": [
+          "expression",
+          "visibility",
+          "structure"
+        ],
+        "position": {
+          "target": "apparent openings and spatial qualities",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.749,
+            0.453,
+            0.5374
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Openings are visible in the point cloud, while representational discrepancies cannot be verified."
+        }
+      },
+      {
+        "statement": "The original idea of students living together is not convincingly translated into intimate, lived-in use value.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "students living together",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5161,
+            0.7295,
+            0.5374
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The communal perimeter form provides a broad anchor, but lived-in organization is not visible."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "structure",
+      "cost"
+    ]
+  }
+}

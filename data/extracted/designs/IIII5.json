@@ -1,0 +1,426 @@
+{
+  "object_description": "central campus building organized around a large atrium",
+  "geometry_property": [
+    "central",
+    "three-story atrium",
+    "open staircase",
+    "curved landscape language",
+    "orthogonal existing grid",
+    "atrium-centered"
+  ],
+  "design_condition": "Placed at the center of the campus, the building develops a spacious green center, forecourt and connected outdoor fields, while its curved landscape language contrasts controversially with the existing orthogonal complex.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The outside area impresses with its spaciousness and flowing environment design, allowing different uses to be flexibly integrated.",
+        "tags": [
+          "open space",
+          "landscape",
+          "flexibility"
+        ],
+        "position": {
+          "target": "spacious flowing outside area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7191,
+            0.3395,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape judgment is anchored to the open site around the central building."
+        }
+      },
+      {
+        "statement": "The permeability of the district is guaranteed without hierarchization of access.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "district permeability",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1383,
+            0.4897,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Permeability is estimated at the western campus edge surrounding the footprint."
+        }
+      },
+      {
+        "statement": "The central atrium develops a rich interior structure with spatial diversity and many perspectives.",
+        "tags": [
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2845,
+            0.671,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Atrium anchor uses the identifiable central interior region of the building."
+        }
+      },
+      {
+        "statement": "The zones in front of the school rooms are very suitable for flexible stays and inclusion in extended lessons.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "zones in front of school rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5568,
+            0.1322,
+            0.4286
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stay zones are placed along the front-facing internal edge of the room ring."
+        }
+      },
+      {
+        "statement": "The wreath of school rooms and intermediate group rooms promises flexible teaching in well-lit areas.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "wreath of school rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.712,
+            0.3247,
+            0.6404
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Room wreath is distributed around the central atrium within the visible mass."
+        }
+      },
+      {
+        "statement": "The draft is a carefully developed and coherent contribution.",
+        "tags": [
+          "massing",
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "coherent building contribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.298,
+            0.6877,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Whole-design judgment is anchored across the central building envelope."
+        }
+      },
+      {
+        "statement": "The project is slightly below the calculated average value of creation costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "creation costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The decentralized arrangement of sports uses critically affects the overview for teachers during physical education lessons.",
+        "tags": [
+          "layout",
+          "visibility",
+          "operation"
+        ],
+        "position": {
+          "target": "decentralized sports uses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7191,
+            0.3395,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sports-use visibility concern is estimated in the peripheral site areas."
+        }
+      },
+      {
+        "statement": "The viewing terrace cannot be fully convincing because breaks and lessons disrupt each other's school operations.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "viewing terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8465,
+            0.4916,
+            0.7857
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Terrace is approximated along the building’s upper perimeter."
+        }
+      },
+      {
+        "statement": "The coexistence of the playground and javelin throw area is not optimal from an operational perspective.",
+        "tags": [
+          "operation",
+          "safety",
+          "layout"
+        ],
+        "position": {
+          "target": "playground and javelin throw area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2453,
+            0.2172,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Conflicting sports and play uses are estimated in the southern open site."
+        }
+      },
+      {
+        "statement": "The curved design language of the surroundings was very controversially discussed against the orthogonal existing structure.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "curved surroundings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7745,
+            0.777,
+            0.1429
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape-language concern is anchored to the site perimeter contrasting the orthogonal footprint."
+        }
+      },
+      {
+        "statement": "A statement for drainage and infiltration of surface water is missing, and green roofs are not shown.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "drainage and green roofs",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.712,
+            0.3247,
+            0.9286
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Unshown environmental systems are estimated on the building roof surface."
+        }
+      },
+      {
+        "statement": "The central staircase was judged insufficiently spacious during peak times.",
+        "tags": [
+          "circulation",
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "central staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2845,
+            0.671,
+            0.4286
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Staircase is approximated at the central atrium circulation zone."
+        }
+      },
+      {
+        "statement": "The open staircase cannot form different lockable areas for third-party use.",
+        "tags": [
+          "operation",
+          "flexibility",
+          "safety"
+        ],
+        "position": {
+          "target": "open staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2845,
+            0.671,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open stair is estimated within the central atrium region."
+        }
+      },
+      {
+        "statement": "The continuous openness of the central hall and the lush, less-zoned access areas limit their utility.",
+        "tags": [
+          "operation",
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central hall and access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2845,
+            0.671,
+            0.4286
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Hall and access concern is anchored to the central interior circulation field."
+        }
+      },
+      {
+        "statement": "The feasibility of the access zones as an expanded learning landscape is questioned.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "expanded learning landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2442,
+            0.6209,
+            0.4286
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Learning-landscape feasibility is estimated among the rooms surrounding the central zone."
+        }
+      }
+    ],
+    "keyword": [
+      "layout",
+      "operation",
+      "circulation",
+      "open space",
+      "landscape",
+      "flexibility",
+      "daylight",
+      "urban integration",
+      "cost"
+    ]
+  }
+}

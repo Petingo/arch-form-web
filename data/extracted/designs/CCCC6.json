@@ -1,0 +1,302 @@
+{
+  "object_description": "fragmented ensemble enclosing a large interior park",
+  "geometry_property": [
+    "fragmented",
+    "U-shaped",
+    "enclosed",
+    "courtyard-forming",
+    "free-form",
+    "multi-volume"
+  ],
+  "design_condition": "The ensemble forms a peripheral urban square and a large interior park, with public programs to the west and most entrances placed along the northern and existing-road edges, closing the site toward its neighbours.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The initial conceptual choices, especially the large complex organized around a park, are of interest.",
+        "tags": [
+          "massing",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "large complex around a park",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3624,
+            0.5467,
+            0.4375
+          ],
+          "radius": 0.336,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Fragmented volumes visibly form a large enclosure around the central open park."
+        }
+      },
+      {
+        "statement": "The central landscaped location with a lake and green spaces that residents can colonize is very appealing.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "central landscaped location with lake and green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3624,
+            0.5467,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central void between the surrounding sampled volumes provides the landscape anchor."
+        }
+      },
+      {
+        "statement": "The flexible, free-form character contrasts with the rigor of the teaching buildings and creates a real break in the student day.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "flexible free-form character",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1925,
+            0.2571,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multiple irregularly angled volumes visibly contrast with the ensemble's more regular edges."
+        }
+      },
+      {
+        "statement": "The project is fundamentally sound, with foundations, structure, energy, and sustainable development well understood.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "foundations and structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6596,
+            0.3376,
+            0.375
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural systems are not separable, so the marker covers a representative building mass."
+        }
+      },
+      {
+        "statement": "The compactness of the buildings and recommended construction methods lead to an economical project.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "economical project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2391,
+            0.6391,
+            0.4375
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Compactness is represented across a plausible peripheral building volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The purpose of the large park is not convincing, because the ground-floor components and entrances do not exploit its relationship with the park.",
+        "tags": [
+          "open space",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "large park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3624,
+            0.5467,
+            0.125
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central open area is visible, though ground-floor relationships are not distinguishable."
+        }
+      },
+      {
+        "statement": "Most entrances are located on the periphery, leaving the park as a place of passage that does not encourage vitality.",
+        "tags": [
+          "circulation",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "peripheral entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5504,
+            0.878,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Northern and edge-facing perimeter bands constrain the likely entrance locations."
+        }
+      },
+      {
+        "statement": "The scale of the two U-shaped elements denies connections with neighbouring urban areas and closes off the site.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "two U-shaped elements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3146,
+            0.2502,
+            0.4375
+          ],
+          "radius": 0.336,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two visibly U-like peripheral masses enclose and separate the central open area."
+        }
+      },
+      {
+        "statement": "The expression of the ensemble fails to convince, appearing more like an administrative complex.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "expression of the ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.737,
+            0.7157,
+            0.5
+          ],
+          "radius": 0.336,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The marker covers the ensemble's visible collection of repeated institutional volumes."
+        }
+      },
+      {
+        "statement": "The vehicle crossover encroaches into the legal distance from the forest and is incompatible with the applicable allocation plan.",
+        "tags": [
+          "safety",
+          "urban integration"
+        ],
+        "position": {
+          "target": "vehicle crossover",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8639,
+            0.7495,
+            0.0625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A perimeter site-edge location approximates the externally described crossover."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "circulation",
+      "functionality",
+      "expression",
+      "identity",
+      "structure",
+      "cost"
+    ]
+  }
+}

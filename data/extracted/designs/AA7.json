@@ -1,0 +1,374 @@
+{
+  "object_description": "low-rise building organized around a generous central atrium",
+  "geometry_property": [
+    "orthogonal",
+    "low-rise",
+    "two-storey upper mass",
+    "atrium-centered",
+    "set-back",
+    "deep-plan",
+    "extended plinth"
+  ],
+  "design_condition": "The building is turned at right angles to the existing campus and set back to form an extended forecourt, while its plinth and atrium increase proximity to neighbouring buildings and create contested outdoor-space relationships.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The restriction to two upper storeys helps the building appear low.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "two upper storeys",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8443,
+            0.2113,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The entrance on the western edge intercepts motorized traffic and relieves through traffic.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "western entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6294,
+            0.7474,
+            0.1531
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The attractive upper-level forecourt links well with the canteen and the rest of the complex.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "upper-level forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2131,
+            0.846,
+            0.7973
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "The inner hall with surrounding galleries and varied spatial layering creates a generous interior space.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "inner hall with surrounding galleries",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.5,
+            0.55
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The top view clearly shows a central elongated atrium void within the surrounding mass."
+        }
+      },
+      {
+        "statement": "The skeleton construction provides a good structure that can flexibly accommodate large and small room requirements over the long term.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "skeleton construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8781,
+            0.2416,
+            0.3513
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's system reference."
+        }
+      },
+      {
+        "statement": "The project is a successful contribution seeking a relationship with the previous buildings through its generous interior space.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "relationship with previous buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4234,
+            0.9669,
+            0.2522
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The generously dimensioned atrium increases the building depth and leads to a critical proximity to the old gymnasium.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "generously dimensioned atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5,
+            0.5,
+            0.55
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central elongated opening is visibly set within the deep surrounding building mass."
+        }
+      },
+      {
+        "statement": "The entrance solution is too prominent next to the main entrance.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "entrance solution",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6422,
+            0.0301,
+            0.1531
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The plinth connection is understandable but too high because of the change in level.",
+        "tags": [
+          "topography",
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "plinth connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.444,
+            0.945,
+            0.1531
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The narrowness beside the gymnasium and artificial terrain excavation are disadvantageous for the intended elementary-school outdoor space.",
+        "tags": [
+          "open space",
+          "topography",
+          "functionality"
+        ],
+        "position": {
+          "target": "elementary-school outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1383,
+            0.5014,
+            0.1531
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's site reference."
+        }
+      },
+      {
+        "statement": "The principal's office and some narrow, long offices and classrooms are not ideally positioned or dimensioned.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "principal's office and narrow offices and classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7117,
+            0.6596,
+            0.2522
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "Some classrooms connected to the atrium are problematic because of the structural column arrangement.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms connected to the atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4299,
+            0.6451,
+            1
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The urban setting with the proposed plinth solution and the external expression is not entirely convincing.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "urban setting and plinth solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4852,
+            0.9011,
+            0.1531
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "topography",
+      "scale",
+      "circulation",
+      "open space",
+      "layout",
+      "functionality",
+      "flexibility",
+      "expression"
+    ]
+  }
+}

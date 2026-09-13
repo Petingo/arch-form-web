@@ -1,0 +1,486 @@
+{
+  "object_description": "built enclosure with emergent volumes around a central square",
+  "geometry_property": [
+    "enclosed",
+    "rectilinear",
+    "four-level",
+    "emergent",
+    "crowned",
+    "landmark-scale",
+    "centralized"
+  ],
+  "design_condition": "A built enclosure defines a new central square, while gateways connect surrounding hubs and emergent volumes use different orientations and views.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The open square structures the central space and enables residents to make it their own.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "central open square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3024,
+            0.3799,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly shows the central void, with surrounding enclosure confirmed by elevations."
+        }
+      },
+      {
+        "statement": "The ambitious urban form creates a powerful response and a new campus landmark.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "whole urban form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1631,
+            0.6407,
+            0.5625
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The four-sided enclosure and emergent upper volumes are visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The built enclosure offers two complementary scales of interpretation within the territory.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "complementary building scales",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7533,
+            0.2634,
+            0.625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed enclosure edges and taller emergent masses indicate distinct territorial and building scales."
+        }
+      },
+      {
+        "statement": "Three major gateways create permeability and fluid relations between the surrounding hubs.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "three major gateways",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2099,
+            0.5531,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Gateway count is not separable, so this approximates a perimeter opening around the central heart."
+        }
+      },
+      {
+        "statement": "Public programs on the ground floor contribute to the vitality and social life of the green heart.",
+        "tags": [
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "ground-floor public programs",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6588,
+            0.2023,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level enclosure edges are visible, but individual public programs are not distinguished."
+        }
+      },
+      {
+        "statement": "The entrances and vertical links are organized around the central heart of the site.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "entrances and vertical links",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3579,
+            0.2761,
+            0.4375
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Circulation is constrained around the central void, though links remain unresolved."
+        }
+      },
+      {
+        "statement": "Different orientations and views are appropriately used for the emergent accommodation volumes.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "emergent accommodation volumes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7581,
+            0.717,
+            0.8125
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views show differently oriented raised volumes around the enclosure."
+        }
+      },
+      {
+        "statement": "Foundations, structure, energy and sustainable development have been well understood and addressed.",
+        "tags": [
+          "structure",
+          "sustainability"
+        ],
+        "position": {
+          "target": "foundations, structure, energy and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates technical and environmental resolution without a specific visible geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The eastbound soft-mobility route marginally deviates from the specifications.",
+        "tags": [
+          "circulation",
+          "regulatory compliance"
+        ],
+        "position": {
+          "target": "eastbound soft-mobility route",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8986,
+            0.3118,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The east edge provides the directional anchor; the route is not separately sampled."
+        }
+      },
+      {
+        "statement": "Seismic stress absorption remains problematic, particularly at the corners.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "corners",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2765,
+            0.212,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Enclosure corners are clearly identifiable in plan and elevations."
+        }
+      },
+      {
+        "statement": "The sliding blinds provide insufficient protection against glare and do not obscure views.",
+        "tags": [
+          "daylight",
+          "privacy"
+        ],
+        "position": {
+          "target": "sliding blinds",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7896,
+            0.1747,
+            0.75
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A directional facade anchor exists, but blinds are not distinguishable."
+        }
+      },
+      {
+        "statement": "The project is economically penalized by its size.",
+        "tags": [
+          "cost",
+          "scale"
+        ],
+        "position": {
+          "target": "project size",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3024,
+            0.3799,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete sampled enclosure supports a whole-building scale judgment."
+        }
+      },
+      {
+        "statement": "The standardized expression and mechanical representation of the system are not convincing.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "standardized system expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7398,
+            0.723,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated rectilinear bands provide evidence for standardized expression."
+        }
+      },
+      {
+        "statement": "The schematic skyline and lack of contrast between enclosure and crowning elements impoverish the composition.",
+        "tags": [
+          "massing",
+          "proportion",
+          "expression"
+        ],
+        "position": {
+          "target": "skyline and crowning elements",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7181,
+            0.7301,
+            0.875
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper volumes and relatively uniform enclosure height are visible in elevations."
+        }
+      },
+      {
+        "statement": "The images do little to illustrate the relationship between the housing units and the central core.",
+        "tags": [
+          "layout",
+          "visibility"
+        ],
+        "position": {
+          "target": "housing units and central core relationship",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2926,
+            0.3984,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central void and surrounding masses are visible, but unit relationships are not explicit."
+        }
+      },
+      {
+        "statement": "The standardized interior and exterior expressions impoverish the developed solution.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "interior and exterior expressions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1574,
+            0.7934,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Exterior repetition is visible; interior expression is approximated from enclosure surfaces."
+        }
+      },
+      {
+        "statement": "The proposed architectural expression does not match the described constructive solution.",
+        "tags": [
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "architectural expression and constructive solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7916,
+            0.2801,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Visible massing provides an anchor, while constructive correspondence is not represented."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "circulation",
+      "layout",
+      "identity",
+      "expression",
+      "structure",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

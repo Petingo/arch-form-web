@@ -1,0 +1,303 @@
+{
+  "object_description": "four differently proportioned building cubes around a central hall",
+  "geometry_property": [
+    "four-part composition",
+    "cubic",
+    "varied proportions",
+    "height-staggered",
+    "compact",
+    "courtyard-based",
+    "centralized",
+    "set back"
+  ],
+  "design_condition": "The cubes respond to adjoining urban structures through differentiated heights and setbacks, framing entrance squares while extending the park-like slope landscape toward the site.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The four differently proportioned cubes respond spatially in a differentiated manner to the adjacent urban structures.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "proportion"
+        ],
+        "position": {
+          "target": "four differently proportioned cubes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8471,
+            0.5567,
+            0.5
+          ],
+          "radius": 0.3327,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top and elevation views clearly show four distinct cubic masses with varied proportions."
+        }
+      },
+      {
+        "statement": "The setbacks create generous entrance squares and a public boulevard-like atmosphere.",
+        "tags": [
+          "open space",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "entrance squares and public boulevard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2121,
+            0.0646,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Setbacks visibly create open entrance areas along the front edge."
+        }
+      },
+      {
+        "statement": "The building heights and placement establish an appropriate scale toward the villa-like neighbourhood and a transition to open development.",
+        "tags": [
+          "scale",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "transition to open development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2291,
+            0.7838,
+            0.2813
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Differing heights and setbacks are visible toward the rear edge of the composition."
+        }
+      },
+      {
+        "statement": "The clear basic structure allows a variety of organizational forms for teaching and research.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "basic structure for teaching and research",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4894,
+            0.5567,
+            0.4063
+          ],
+          "radius": 0.3327,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is unexposed; the marker uses the centralized building mass."
+        }
+      },
+      {
+        "statement": "The height staggering creates high-quality open spaces directly assigned to teaching and work areas.",
+        "tags": [
+          "open space",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "open spaces assigned to teaching and work areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.628,
+            0.5567,
+            0.2813
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Open spaces visibly occupy gaps around the height-staggered cubes."
+        }
+      },
+      {
+        "statement": "The compact building structure is expected to achieve construction costs in the lower range.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost assessment has no useful geometric location."
+        }
+      },
+      {
+        "statement": "The project is convincing in terms of its assessed sustainability.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "sustainability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability assessment has no useful geometric location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The proposed density does not yet convincingly reconcile the public character of the central hall with concentrated learning on the upper floors.",
+        "tags": [
+          "layout",
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "central hall and upper floors",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4855,
+            0.5567,
+            0.6867
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The centralized hall and upper levels are approximated within the visible stacked mass."
+        }
+      },
+      {
+        "statement": "The central hall and upper-floor arrangements are not yet convincing in terms of spatial quality and lighting.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "central hall and upper-floor lighting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4828,
+            0.5567,
+            0.7188
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lighting judgment is interior; placement follows the central upper building region."
+        }
+      },
+      {
+        "statement": "Noise emissions along some streets can only be addressed through mechanical ventilation, which is inadequate for sound insulation.",
+        "tags": [
+          "acoustics",
+          "ventilation"
+        ],
+        "position": {
+          "target": "streetside noise emissions",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2865,
+            0,
+            0.4375
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Street-facing facade is approximated along the front lower edge."
+        }
+      },
+      {
+        "statement": "The facade motif seems too direct and raises doubts about the desired expression of a university.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "facade motif",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8471,
+            0.5567,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Repeated elevation pattern provides direct evidence for the envelope expression."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "layout",
+      "flexibility",
+      "daylight",
+      "cost",
+      "sustainability",
+      "acoustics",
+      "expression"
+    ]
+  }
+}

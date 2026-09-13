@@ -1,0 +1,418 @@
+{
+  "object_description": "long two-storey building over a sunken gymnasium base",
+  "geometry_property": [
+    "long",
+    "two-storey",
+    "partly sunken",
+    "gymnasium base",
+    "single-storey rooftop volume",
+    "horizontal façade",
+    "vertical façade mesh",
+    "linear"
+  ],
+  "design_condition": "The new building borders the schoolyard to the north and is sunk into the slope edge, while a separate rooftop kindergarten volume sits on the fire-station building and planted embankments connect the upper and lower play and sports levels.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The landscaped topographical edge creates learning landscapes in partial shade and an arrival point in front of the gymnasium.",
+        "tags": [
+          "topography",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "landscaped topographical edge",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3348,
+            0.3061,
+            0.1693
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The separated lower mass and adjacent open strip visibly suggest the sloping landscape edge."
+        }
+      },
+      {
+        "statement": "The zig-zag path guarantees a threshold-free connection between the lower and upper levels.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "zig-zag path",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3174,
+            0.3367,
+            0.1693
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The diagonal lower element provides the clearest sampled approximation to the connecting path."
+        }
+      },
+      {
+        "statement": "The low overall height preserves the dominance of the existing wing from the schoolyard.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "overall building height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6608,
+            0.641,
+            0.5827
+          ],
+          "radius": 0.32021,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The long low main volume and distinct rooftop blocks are visible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The sports-floor access and organization are well placed.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "sports-floor access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4046,
+            0.1836,
+            0.1693
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is not individually visible, so the lower sports-base edge supplies the approximate location."
+        }
+      },
+      {
+        "statement": "The careful open-space design ties the two levels together and responds harmoniously to the dimensions of the new building through tree planting.",
+        "tags": [
+          "open space",
+          "landscape",
+          "topography"
+        ],
+        "position": {
+          "target": "open-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3523,
+            0.2755,
+            0.0867
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The visible gap and lower detached form represent the connection between upper and lower outdoor levels."
+        }
+      },
+      {
+        "statement": "The implemented upper-floor clusters work well.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "upper-floor clusters",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6398,
+            0.6384,
+            0.748
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three distinct rooftop or upper-level clusters are clearly visible in the top view and elevations."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The kindergarten playground is likely to create territorial problems because of its proximity to the childcare rooms.",
+        "tags": [
+          "privacy",
+          "open space"
+        ],
+        "position": {
+          "target": "kindergarten playground",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7058,
+            0.8018,
+            0.8282
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The playground is not sampled, so the upper northern side near the rooftop volume provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "The stairs should be more generous for the schoolchildren using the lower level during breaks.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3435,
+            0.2908,
+            0.1693
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stairs are not distinguishable; the lower-level connection zone is the useful approximation."
+        }
+      },
+      {
+        "statement": "The hidden stair and ramp exits do not correspond to the increased importance of the connection to the playing fields.",
+        "tags": [
+          "visibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "hidden stair and ramp exits",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.361,
+            0.2602,
+            0.1693
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Exits are absent as distinct points, so they are placed along the lower connection edge."
+        }
+      },
+      {
+        "statement": "The main access from the street has not been upgraded, and the street space along the other street is not convincing.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main street access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2114,
+            0.3839,
+            0.1693
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street access is not identifiable; the western lower perimeter provides the directional approximation."
+        }
+      },
+      {
+        "statement": "The large form appears imposing from the north and west, reinforced by the vertical façade structure and asphalt parking apron.",
+        "tags": [
+          "scale",
+          "massing",
+          "facade"
+        ],
+        "position": {
+          "target": "north and west large form",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1939,
+            0.9089,
+            0.5827
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The long form is most exposed toward the stated north and west sides in the sampled envelope."
+        }
+      },
+      {
+        "statement": "The room structure for childcare and services is less convincing, and access requires crossing a room-deep vestibule.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "childcare and services room structure",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6608,
+            0.641,
+            0.5827
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Interior room structure is not visible; the upper building zone provides a plausible anchor."
+        }
+      },
+      {
+        "statement": "The façade design is interesting but not very site-specific.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "façade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2408,
+            0.5891,
+            0.5827
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "north",
+            "west",
+            "top"
+          ],
+          "rationale": "The sampled perimeter shows the façade envelope, though not its site-specific design intent."
+        }
+      },
+      {
+        "statement": "The auditorium is too small for the size of the school and does not meet user requirements.",
+        "tags": [
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5605,
+            0.5945,
+            0.3368
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The auditorium is interior and absent, so the lower central building base is used as an approximation."
+        }
+      },
+      {
+        "statement": "The spatial program is not completely fulfilled, and the division between new and existing buildings leaves something to be desired.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6188,
+            0.6358,
+            0.5827
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Program completeness is building-wide; the main sampled volume provides a distributed representative anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "topography",
+      "landscape",
+      "open space",
+      "circulation",
+      "accessibility",
+      "urban integration",
+      "scale",
+      "facade",
+      "functionality"
+    ]
+  }
+}

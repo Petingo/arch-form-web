@@ -1,0 +1,390 @@
+{
+  "object_description": "staggered four-story solitaire with a compact sculptural volume",
+  "geometry_property": [
+    "staggered",
+    "four-story",
+    "vertical",
+    "compact",
+    "rotated",
+    "solitaire",
+    "sculptural"
+  ],
+  "design_condition": "The compact building is carefully rotated and positioned to preserve views from neighboring residences while forming a strong vertical landmark within the park and adapting its accesses to the sloping terrain.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The small footprint allows the park maximum expansion and development.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "park open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3047,
+            0.1977,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level perimeter anchor represents park space surrounding the compact footprint."
+        }
+      },
+      {
+        "statement": "The staggered volumetry creates striking verticality and an attractive contemporary counterpart to the existing farm.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "staggered volumetry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8915,
+            0.6597,
+            0.6842
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Staggered massing and vertical stacking are visible across the footprint and elevations."
+        }
+      },
+      {
+        "statement": "The carefully balanced location and staggered shape preserve a spacious view of the park.",
+        "tags": [
+          "scale",
+          "visibility"
+        ],
+        "position": {
+          "target": "spacious park view",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1991,
+            0.1757,
+            0.4474
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Peripheral mid-height anchor represents the building location relative to preserved open views."
+        }
+      },
+      {
+        "statement": "The all-round orientation is coherently related to the internally sophisticated usage concept.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "all-round orientation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8231,
+            0.2389,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Rotated, articulated footprint supports an approximate orientation anchor on the building envelope."
+        }
+      },
+      {
+        "statement": "The atrium supplies the access area and adjacent open learning areas with zenithal light.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1461,
+            0.5303,
+            0.8947
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Sparse central top-view area suggests a zenithally lit internal void near the upper volume."
+        }
+      },
+      {
+        "statement": "The typology achieves a high degree of flexibility and multiple usability.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility describes overall usability without a specific geometric location."
+        }
+      },
+      {
+        "statement": "The very independent expression is developed impressively from the constructive logic of the wooden construction.",
+        "tags": [
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "wooden constructive expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2037,
+            0.7019,
+            0.6316
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "west"
+          ],
+          "rationale": "Envelope anchor represents the visible building expression; wooden construction is not separately identifiable."
+        }
+      },
+      {
+        "statement": "The tectonic structure creates a strong appearance and an identity-forming magnet in the park.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "tectonic structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8002,
+            0.295,
+            0.5526
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Strong repeated structural pattern and vertical form are visible throughout the sampled building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The location of the multi-purpose room on the upper floor loses valuable synergies with the neighborhood.",
+        "tags": [
+          "operation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "upper-floor multi-purpose room",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8364,
+            0.7752,
+            0.8421
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper-level anchor follows the stated floor constraint on the elevated building envelope."
+        }
+      },
+      {
+        "statement": "The distant connection makes food delivery operationally difficult.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "food delivery connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1928,
+            0.1631,
+            0.2105
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-edge anchor approximates a distant operational connection without a specified direction."
+        }
+      },
+      {
+        "statement": "The excavation on the park side has not yet been completed.",
+        "tags": [
+          "topography",
+          "feasibility"
+        ],
+        "position": {
+          "target": "park-side excavation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3047,
+            0.1977,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground perimeter anchor represents the stated park-side terrain intervention."
+        }
+      },
+      {
+        "statement": "The fire protection inconsistencies have negative consequences for the open access.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "open access fire protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.825,
+            0.1902,
+            0.2632
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low envelope anchor approximates access circulation where fire-protection effects would occur."
+        }
+      },
+      {
+        "statement": "The second staircase is located in a prominent position facing the park.",
+        "tags": [
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "second staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1991,
+            0.1757,
+            0.5526
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Facade-adjacent vertical anchor represents the prominent park-facing stair position."
+        }
+      },
+      {
+        "statement": "The four-story structure on the valley side creates a political risk and raises questions of scale compatibility.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "valley-side four-story structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7676,
+            0.1625,
+            0.5789
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Full-height side-envelope anchor reflects the stated scale concern on the valley-facing side."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "open space",
+      "layout",
+      "circulation",
+      "flexibility",
+      "daylight",
+      "expression",
+      "fire safety"
+    ]
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "object_description": "extensive, low courtyard-ring building",
+  "geometry_property": [
+    "low-rise",
+    "extensive",
+    "ring-shaped",
+    "courtyard-centered",
+    "largely open ground floor",
+    "roof-level sports fields"
+  ],
+  "design_condition": "A low ring mediates between the denser and suburban parts of the site, continues the existing break area into the courtyard, and provides covered passage and open space at ground level.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project offers a subtle integration and harmonious continuation of the existing structure.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1476,
+            0.1874,
+            0.4414
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Extensive courtyard-ring massing is visible in plan and corroborated by all four low-rise elevations."
+        }
+      },
+      {
+        "statement": "The existing break area is convincingly continued into the courtyard.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.551,
+            0.447,
+            0.1062
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central courtyard void is clearly visible; the continued break area is approximated at its covered ground-level edge."
+        }
+      },
+      {
+        "statement": "The largely free ground floor provides spacious covered break areas and free passage.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "free ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3033,
+            0.2445,
+            0.1062
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open ring footprint and low-level elevations support a covered passage and break-area location."
+        }
+      },
+      {
+        "statement": "The spatial program is consistently organized and clearly visible on the outside.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6973,
+            0.3488,
+            0.5531
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The ring’s consistent perimeter organization and repeated elevation bands make the external expression legible."
+        }
+      },
+      {
+        "statement": "The concentration of noisy uses on the ground floor is praised.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "noisy ground-floor uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6879,
+            0.3392,
+            0.1062
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor constraint permits an approximate zone on the sampled ring, though noisy uses are not identifiable."
+        }
+      },
+      {
+        "statement": "The neutral building typology allows rescheduling without structural changes.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "neutral building typology",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility and rescheduling describe the building’s operational logic without a distinct geometric anchor."
+        }
+      },
+      {
+        "statement": "The rational design should enable the economic efficiency of a conventional construction method.",
+        "tags": [
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "conventional construction method",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic construction efficiency is a non-spatial judgment about method and cost."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The spatial qualities of the cycles and clusters are not entirely convincing, while the extensive footprint produces very long traffic routes.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "cycles and clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8841,
+            0.7678,
+            0.1062
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long circulation is inferred along the extensive ring; cycles and clusters are not separately distinguishable."
+        }
+      },
+      {
+        "statement": "The size and exposed location of the roof sports fields raise concerns about disruption to future residential development.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "roof sports fields",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8732,
+            0.7921,
+            1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Roof-level placement and exposed extent are constrained by the visible upper perimeter and elevation bands."
+        }
+      },
+      {
+        "statement": "There is insufficient concrete information about vegetation and the treatment of existing and proposed tree groups.",
+        "tags": [
+          "landscape"
+        ],
+        "position": {
+          "target": "vegetation and tree groups",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2925,
+            0.6367,
+            0.1062
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Landscape elements are absent from the sample, so a low-confidence site-edge surface estimate is used."
+        }
+      },
+      {
+        "statement": "The kindergarten outdoor area is small and located far from the relevant classrooms.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "kindergarten outdoor area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6879,
+            0.3392,
+            0.1062
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level perimeter placement is approximate because classrooms and the kindergarten yard are not distinguishable."
+        }
+      },
+      {
+        "statement": "The concept reaches its limits when it comes to freely disposing cycles and clusters.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "cycles and clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3888,
+            0.7155,
+            0.1062
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A ring-edge zone represents the constrained location of cycle and cluster disposition concerns."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "circulation",
+      "open space",
+      "landscape",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,505 @@
+{
+  "object_description": "three-level parallel sports-hall volume",
+  "geometry_property": [
+    "parallel",
+    "slightly overlapping",
+    "three-level",
+    "rectilinear",
+    "partly sunken",
+    "patio-defined"
+  ],
+  "design_condition": "The building is set parallel to and slightly overlapping the existing hall, pulled away from the southern and eastern boundaries to create usable outdoor space and a more tolerable transition to neighboring properties.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "Moving the building away from the boundaries creates usable outdoor spaces and a well-tolerated integration into the existing development.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "usable outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8029,
+            0.115,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open space is concentrated along the southern and eastern building edges, visible in plan and lower elevations."
+        }
+      },
+      {
+        "statement": "The transition between the neighbors' private environment and public use has been successful.",
+        "tags": [
+          "urban integration",
+          "privacy"
+        ],
+        "position": {
+          "target": "transition between private and public environments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8947,
+            0.5083,
+            0.25
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The approximate transition zone follows the exposed eastern edge between building mass and neighboring context."
+        }
+      },
+      {
+        "statement": "The large forecourt offers a high quality of stay and allows a wide variety of uses and events.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "large forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4675,
+            0.0444,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A broad open forecourt is legible along the southern side of the rectilinear volume."
+        }
+      },
+      {
+        "statement": "The strict surrounding facade grid is distinctive.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "surrounding facade grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8947,
+            0.5083,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated aligned point rows clearly define the exterior facade grid on multiple elevations."
+        }
+      },
+      {
+        "statement": "Separating vehicle and pedestrian access clarifies the situation.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "vehicle and pedestrian access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.719,
+            0.0974,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is anchored approximately at the southern forecourt edge, where external circulation meets the building."
+        }
+      },
+      {
+        "statement": "The selection of native trees, tall perennials and seeds is successful from both a design and ecological perspective.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "native trees and tall perennials",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8867,
+            0.1327,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape planting is approximated along the open eastern site margin; individual vegetation is not distinguishable."
+        }
+      },
+      {
+        "statement": "The structuralist organization creates a very clear spatial division with patios and spaces in between.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "patios and spaces in between",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4649,
+            0.6193,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several internal breaks and patio-like voids visibly organize the parallel building strips."
+        }
+      },
+      {
+        "statement": "Playing with spatial sequences creates interesting situations.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "spatial sequences",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5418,
+            0.3813,
+            0.5625
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Sequential passages and alternating open intervals are readable through the layered plan arrangement."
+        }
+      },
+      {
+        "statement": "The material meets the client's requirements and the economic indicators are average.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "building material",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5487,
+            0.637,
+            0.5625
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Material performance is assigned broadly to the visible building envelope; economic judgment has no precise location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Playing fields and lounge areas along the border cause certain noise emissions.",
+        "tags": [
+          "acoustics",
+          "urban integration"
+        ],
+        "position": {
+          "target": "playing fields and lounge areas along the border",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8867,
+            0.1327,
+            0.0625
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Border activity is approximated along the southern and eastern open-space edge."
+        }
+      },
+      {
+        "statement": "Abolishing the existing parking spaces unreasonably worsens access to the existing sports hall in terms of safety and clarity.",
+        "tags": [
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "existing parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9368,
+            0.3676,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking impact is assigned to the forecourt-side external zone, without distinct parking geometry."
+        }
+      },
+      {
+        "statement": "The pavement at the main entrance and bicycle parking spaces is unsuitable functionally and in terms of maintenance.",
+        "tags": [
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "main entrance and bicycle parking",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6771,
+            0.0885,
+            0.0625
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance-related hardscape is approximated at the southern approach edge."
+        }
+      },
+      {
+        "statement": "The access around the northwest corner is narrow and confusing.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "northwest corner access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.118,
+            0.8675,
+            0.1875
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The northwest perimeter corner is directly constrained by plan position and the north elevation."
+        }
+      },
+      {
+        "statement": "The corridors in front of the cloakrooms are too small for school operations.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "corridors in front of the cloakrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1264,
+            0.415,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior corridor space is approximated within the lower-middle building strip, absent as a distinct exterior feature."
+        }
+      },
+      {
+        "statement": "The connection to the existing sports hall is unsuitable because the aisles are too narrow for larger sports equipment.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "connection to the existing sports hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0421,
+            0.6964,
+            0.3125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The likely connection is placed at the overlapping northwestern side of the sampled mass."
+        }
+      },
+      {
+        "statement": "The static system with storey-high wooden Vierendeel beams is assessed as unfeasible.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "wooden Vierendeel beams",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8832,
+            0.5465,
+            0.5625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Structural beams are approximated on the exposed facade grid where repeated elevation rows are visible."
+        }
+      },
+      {
+        "statement": "Playing with spatial sequences comes at the expense of flexibility.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "spatial sequences",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The flexibility criticism concerns the building's overall organizational strategy rather than one identifiable location."
+        }
+      },
+      {
+        "statement": "The operational organization in the sports sector would have to be greatly optimized.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "sports sector operational organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5837,
+            0.3901,
+            0.5625
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Operations are assigned broadly to the central sports-hall zone, with no separate operational geometry."
+        }
+      },
+      {
+        "statement": "The main deficiencies lie in the proposed supporting structure and the final details presented.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "supporting structure and final details",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5487,
+            0.637,
+            0.5625
+          ],
+          "radius": 0.3202,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The criticism applies broadly to the sampled structural envelope and unresolved detailing."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "open space",
+      "circulation",
+      "safety",
+      "functionality",
+      "flexibility",
+      "structure",
+      "cost",
+      "expression"
+    ]
+  }
+}

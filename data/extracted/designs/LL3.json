@@ -1,0 +1,328 @@
+{
+  "object_description": "compact five-storey square volume around a central void",
+  "geometry_property": [
+    "compact",
+    "square",
+    "five-storey",
+    "central-voided",
+    "vertical",
+    "sawtooth-roofed",
+    "monolithic"
+  ],
+  "design_condition": "The compact volume is aligned with the Route des Acacias to complete the large urban composition, freeing a substantial central playground and public square while pivoting toward the courtyard.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The location frees a large surface for a school playground and public space, creating a new neighborhood-scale centrality.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "school playground and public space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9244,
+            0.4429,
+            0.0435
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open ground is approximated beside the compact volume, using the top footprint and low-level elevations."
+        }
+      },
+      {
+        "statement": "The building and surrounding blocks define an open place whose objects dialogue without enclosing it.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "open place",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9244,
+            0.4429,
+            0.0435
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The open urban area is placed adjacent to the building mass, where the sampled footprint leaves space."
+        }
+      },
+      {
+        "statement": "The building is cleverly positioned to pivot toward the courtyard and affirm its institutional vocation.",
+        "tags": [
+          "massing",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "courtyard-facing building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4287,
+            0.5964,
+            0.7391
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central courtyard and surrounding volume are identifiable in plan and corresponding elevations."
+        }
+      },
+      {
+        "statement": "The open courtyard, covered courtyard and main access create a clear sequence.",
+        "tags": [
+          "circulation",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "open courtyard, covered courtyard and main access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3808,
+            0.1207,
+            0.1087
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The sequence is anchored toward the lower courtyard edge and entrance side of the sampled footprint."
+        }
+      },
+      {
+        "statement": "The square plan organizes the entire program around a central void.",
+        "tags": [
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "central void",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4287,
+            0.5964,
+            0.7391
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A central opening organizes the square plan and remains legible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The organization of the program by strata is clearly expressed on the facade through varying frame rhythms.",
+        "tags": [
+          "layout",
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "facade frame rhythms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.942,
+            0.5075,
+            0.6304
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated vertical frame rhythms are clearly sampled along the east-facing elevation at multiple levels."
+        }
+      },
+      {
+        "statement": "The project provides a clear and well-founded response in implementation, program organization, facade treatment and external image.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "facade"
+        ],
+        "position": {
+          "target": "whole building response",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4098,
+            0.5272,
+            0.7391
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad assessment is anchored to the complete compact volume and its visible envelope."
+        }
+      },
+      {
+        "statement": "The sawtooth roof gives the school an iconic, radical and playful presence.",
+        "tags": [
+          "expression",
+          "identity",
+          "massing"
+        ],
+        "position": {
+          "target": "sawtooth roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3592,
+            0.7506,
+            1
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The roof edge and repeated upper profile identify the sawtooth feature at the northern roof area."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The compact vertical design produces a certain monumentality in the main facade and central void.",
+        "tags": [
+          "scale",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "main facade and central void",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4415,
+            0.1019,
+            0.587
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Monumentality is assigned to the prominent lower-facing facade and adjacent void edge."
+        }
+      },
+      {
+        "statement": "The circulation spaces between the classrooms are oversized and insufficiently developed for children.",
+        "tags": [
+          "circulation",
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "circulation spaces between classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4287,
+            0.5964,
+            0.7391
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is not directly sampled, so it is approximated within the classroom-bearing central mass."
+        }
+      },
+      {
+        "statement": "The administrative rooms placed between two technical areas are an unfortunate consequence of the rigid framework.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "administrative rooms between technical areas",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9231,
+            0.4383,
+            0.4565
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The internal room arrangement is inferred within the east-central volume between visible structural bands."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "layout",
+      "facade",
+      "expression",
+      "identity",
+      "scale",
+      "functionality"
+    ]
+  }
+}

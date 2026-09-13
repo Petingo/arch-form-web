@@ -1,0 +1,418 @@
+{
+  "object_description": "flat school volume with a continuous passage and accessible roof",
+  "geometry_property": [
+    "low-rise",
+    "flat",
+    "rectangular",
+    "plot-filling",
+    "roof-accessible",
+    "passage-forming",
+    "attic-volume"
+  ],
+  "design_condition": "The plot-filling volume concludes the public square to the north and remains low against taller neighbors, while concentrating the outdoor sports and break areas on the roof and connecting the bridge through a central passage.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear urban planning approach gives the public square a spatial conclusion.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "public square conclusion",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4649,
+            1,
+            0.1429
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Plot-filling northern edge plausibly forms the square’s spatial conclusion."
+        }
+      },
+      {
+        "statement": "The low school building distinguishes itself from the much taller surrounding buildings and reveals its public character.",
+        "tags": [
+          "scale",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "low school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3241,
+            0.5193,
+            0.5714
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Low rectangular volume is clearly visible across all elevations and the top view."
+        }
+      },
+      {
+        "statement": "Residents can reach the roof without entering the interior of the school building.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "operation"
+        ],
+        "position": {
+          "target": "roof access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5338,
+            0.2802,
+            0.9286
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Accessible roof is visible, but the external access route is not distinguishable."
+        }
+      },
+      {
+        "statement": "The lively interplay of light and shadow makes the façade appear attractive.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "façade light and shadow",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5286,
+            0,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South elevation provides the clearest sampled façade surface for light-shadow expression."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The kindergarten attic does not appear to belong to the building and could seem like a later addition.",
+        "tags": [
+          "massing",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "kindergarten attic",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5338,
+            0.2802,
+            0.9286
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Attic volume is constrained to the roof level, though no distinct kindergarten enclosure is identifiable."
+        }
+      },
+      {
+        "statement": "The central access divides the building into two halves and limits operational flexibility.",
+        "tags": [
+          "circulation",
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3241,
+            0.5193,
+            0.5714
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central passage is suggested by the symmetric divided organization in top and elevation views."
+        }
+      },
+      {
+        "statement": "The roof area is not necessarily available to local residents outside school hours because the passage can be closed.",
+        "tags": [
+          "operation",
+          "open space",
+          "accessibility"
+        ],
+        "position": {
+          "target": "roof area outside school hours",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3073,
+            0.2802,
+            1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof zone is visible, while closure and neighborhood availability are operational constraints."
+        }
+      },
+      {
+        "statement": "The special education school cannot be separated from the normal school clusters.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "special education school clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6979,
+            0.5612,
+            0.2154
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior clusters are not distinguishable; placement is an approximate upper-surface anchor."
+        }
+      },
+      {
+        "statement": "The group rooms are too narrow and the front zones are too large.",
+        "tags": [
+          "proportion",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "group rooms and front zones",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3241,
+            0.5428,
+            0.5714
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Room proportions are interior judgments, anchored approximately within the left building half."
+        }
+      },
+      {
+        "statement": "The load-bearing interior walls contradict the intention of adapting the building to changing needs.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "load-bearing interior walls",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3241,
+            0.5193,
+            0.5714
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior structure is unseen; marker is constrained to the building’s central surface region."
+        }
+      },
+      {
+        "statement": "Access to the gymnasium outside school hours has not been resolved.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "gymnasium access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7552,
+            0.4667,
+            0.2154
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Gymnasium is not identifiable, so access is placed approximately in the right-side volume."
+        }
+      },
+      {
+        "statement": "The kindergarten layout is not ideal, with rooms too narrow and corridors too large.",
+        "tags": [
+          "layout",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "kindergarten layout",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2448,
+            0.5612,
+            0.2154
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior kindergarten arrangement is not visible; left-side lower volume provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "The project offers too large an access area and requires higher investment costs.",
+        "tags": [
+          "circulation",
+          "cost"
+        ],
+        "position": {
+          "target": "access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5286,
+            0.4667,
+            0.2154
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Access zone is inferred around the central passage and adjacent building surface."
+        }
+      },
+      {
+        "statement": "The photovoltaic system and infiltration issue are not adequately discussed.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "photovoltaic system and infiltration",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5338,
+            0.2802,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Roof system is not individually resolved; infiltration is not visible and remains a constrained site-system anchor."
+        }
+      },
+      {
+        "statement": "There are reservations about the organization of the school program and economic efficiency.",
+        "tags": [
+          "layout",
+          "functionality",
+          "cost"
+        ],
+        "position": {
+          "target": "school program organization",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns overall program organization and economic efficiency rather than a specific location."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "identity",
+      "circulation",
+      "operation",
+      "flexibility",
+      "layout",
+      "functionality",
+      "proportion",
+      "cost"
+    ]
+  }
+}

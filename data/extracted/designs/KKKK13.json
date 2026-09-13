@@ -1,0 +1,440 @@
+{
+  "object_description": "linear clinic complex on a raised parking plateau",
+  "geometry_property": [
+    "linear",
+    "raised",
+    "plateau-based",
+    "two-tiered",
+    "low-rise",
+    "solitary",
+    "orthogonal"
+  ],
+  "design_condition": "The raised plateau creates a self-contained complex directly connected to the main street, but it does not sufficiently engage with the surrounding landscape or form an understandable overall system with the existing buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "A unique, coherent world is created on the mineral belvedere.",
+        "tags": [
+          "identity",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "mineral belvedere",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5066,
+            0.4359,
+            0.1
+          ],
+          "radius": 0.305,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Raised, orthogonal footprint and low horizontal elevations indicate a coherent plateau-based site."
+        }
+      },
+      {
+        "statement": "The architectural expression and materialization are coherent and create a homely atmosphere.",
+        "tags": [
+          "expression",
+          "facade",
+          "identity"
+        ],
+        "position": {
+          "target": "architectural expression and materialization",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.759,
+            0.3948,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Long, consistent building edges and repeated elevation bands provide a façade-level expression anchor."
+        }
+      },
+      {
+        "statement": "The development concept is operationally sound, with the school and sports hall as independent functional units.",
+        "tags": [
+          "operation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school and sports hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6531,
+            0.5541,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated top footprint and separated massing suggest multiple independent functional units."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The project is more related to the object itself and less concerned with the location.",
+        "tags": [
+          "urban integration",
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6531,
+            0.5541,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact linear complex is clearly bounded, supporting a whole-building location for the object-focused criticism."
+        }
+      },
+      {
+        "statement": "What is missing is a committed engagement with the landscape and a coherent transition into the large landscape area.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "transition into the large landscape area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8366,
+            0.5475,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The outer north-east building edge provides the most plausible sampled boundary toward surrounding landscape."
+        }
+      },
+      {
+        "statement": "The limited open space between the clinic and the street is not enough.",
+        "tags": [
+          "open space",
+          "landscape",
+          "scale"
+        ],
+        "position": {
+          "target": "open space between the clinic and the street",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6308,
+            0.1756,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A narrow strip along the south/front edge represents the constrained street-facing open-space zone."
+        }
+      },
+      {
+        "statement": "The open spaces created in the building are trapped and do not seem suitable for an appropriate stay.",
+        "tags": [
+          "open space",
+          "functionality",
+          "privacy"
+        ],
+        "position": {
+          "target": "open spaces created in the building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5066,
+            0.4359,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central portion of the elongated footprint is the most plausible location for enclosed internal open spaces."
+        }
+      },
+      {
+        "statement": "The direct connection to the street leaves it little breathing space as an access road to the district.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "access road to the district",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6257,
+            0.1916,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south/front perimeter directly meets the represented building edge and is the likely street access interface."
+        }
+      },
+      {
+        "statement": "The transition from the assigned outdoor spaces to the landscape area is difficult.",
+        "tags": [
+          "landscape",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "transition from assigned outdoor spaces to landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8492,
+            0.5439,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern outer edge offers a plausible sampled location for difficult outdoor-to-landscape transitions."
+        }
+      },
+      {
+        "statement": "The middle access corridor leaves little scope to create a homely ambience.",
+        "tags": [
+          "circulation",
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "middle access corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5066,
+            0.4359,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The middle of the linear plan is the best constrained anchor for an internal access corridor."
+        }
+      },
+      {
+        "statement": "The architectural expression and spatial atmosphere appear questionable for a child and adolescent psychiatric clinic.",
+        "tags": [
+          "expression",
+          "identity",
+          "functionality"
+        ],
+        "position": {
+          "target": "architectural expression and spatial atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6531,
+            0.5541,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The broad criticism concerns the low-rise building mass and its repeated, schematic exterior bands."
+        }
+      },
+      {
+        "statement": "The facade expression is hard in the context of child and adolescent psychiatry.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.878,
+            0.4266,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "west",
+            "top"
+          ],
+          "rationale": "A longitudinal side façade is visible across the elevations and provides a representative expression anchor."
+        }
+      },
+      {
+        "statement": "The patient-room windows provide little intimacy near the street.",
+        "tags": [
+          "privacy",
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "patient-room windows near the street",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6308,
+            0.1756,
+            0.7
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south/front façade at upper wall level is the constrained location nearest the street."
+        }
+      },
+      {
+        "statement": "The internal vertical circulation system is complicated and not very user-friendly.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "internal vertical circulation system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5066,
+            0.4359,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal circulation is not distinguishable, so the central building surface provides a constrained approximation."
+        }
+      },
+      {
+        "statement": "The design expression remains strict and schematic, lacking subtlety and playfulness.",
+        "tags": [
+          "expression",
+          "identity",
+          "scale"
+        ],
+        "position": {
+          "target": "design expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.311,
+            0.5568,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The broad judgment is anchored to a representative portion of the strict, orthogonal building envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "landscape",
+      "open space",
+      "expression",
+      "circulation",
+      "privacy",
+      "functionality",
+      "identity"
+    ]
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "object_description": "two rounded, staggered-height buildings forming an interlocking ensemble",
+  "geometry_property": [
+    "paired volumes",
+    "rounded corners",
+    "staggered heights",
+    "interlocking",
+    "rectangular volumes",
+    "three- and four-storey",
+    "sloping public square",
+    "open on four sides"
+  ],
+  "design_condition": "The precisely positioned volumes define the transition to the village center, follow the surrounding terrain, and create a publicly accessible square and ensemble with neighboring buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise urban planning and appropriate scale create a strong contribution to social participation.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "open space"
+        ],
+        "position": {
+          "target": "urban planning and scale",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5593,
+            0.485,
+            0.1672
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Overall paired massing and ground relationship are visible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The residential building is beautifully proportioned and fits typologically with the buildings along the street.",
+        "tags": [
+          "proportion",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "residential building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2155,
+            0.6362,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "One rounded staggered-height volume is used as the residential-building anchor."
+        }
+      },
+      {
+        "statement": "The hall’s simple, precisely designed appearance and outward-facing openings create a dialogue with public space.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "hall openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6927,
+            0.4264,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Outward-facing openings are approximated along the hall’s visible outer envelope."
+        }
+      },
+      {
+        "statement": "The functionality of the hall, delivery stage, backstage, instrument room, and separation of users is given.",
+        "tags": [
+          "functionality",
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "hall delivery stage, backstage and instrument room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7372,
+            0.5371,
+            0.2781
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Back-of-house rooms are not distinguishable, anchored within the hall volume."
+        }
+      },
+      {
+        "statement": "The simple orientation and equivalent entrances create strong potential for identity.",
+        "tags": [
+          "circulation",
+          "identity",
+          "visibility"
+        ],
+        "position": {
+          "target": "equivalent entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.448,
+            0.2081,
+            0.1117
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are approximated along the publicly facing lower edge of the ensemble."
+        }
+      },
+      {
+        "statement": "The simple structure and hybrid construction allow economical construction and reasonable operating and maintenance costs.",
+        "tags": [
+          "structure",
+          "cost",
+          "operation"
+        ],
+        "position": {
+          "target": "hybrid construction",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction economy and operating-cost judgment has no useful spatial referent."
+        }
+      },
+      {
+        "statement": "The project balances social participation, appropriate scale, energy standards, and renewable raw materials.",
+        "tags": [
+          "sustainability",
+          "scale",
+          "open space"
+        ],
+        "position": {
+          "target": "energy standards and renewable raw materials",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability judgment concerns the overall project without a specific spatial marker."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The interpretation of the site as a continuous public space must be critically questioned.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "continuous public space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5593,
+            0.485,
+            0.0562
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground between the two volumes represents the questioned continuous public-space concept."
+        }
+      },
+      {
+        "statement": "The concept lacks a differentiated formulation of the various connections to the surroundings.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "connections to surroundings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1779,
+            0.5633,
+            0.1117
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral edges are distributed as approximate connection zones around the ensemble."
+        }
+      },
+      {
+        "statement": "The courtyard pergola does not take existing infrastructure or the quality of stay outside events sufficiently into account.",
+        "tags": [
+          "landscape",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "courtyard pergola",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5765,
+            0.6656,
+            0.1117
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pergola is not distinguishable, anchored in the likely courtyard area between volumes."
+        }
+      },
+      {
+        "statement": "The bicycle parking spaces are not feasible because of the existing staircase.",
+        "tags": [
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "bicycle parking spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2719,
+            0.1935,
+            0.0562
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent from the sample, estimated near the access edge and staircase zone."
+        }
+      },
+      {
+        "statement": "The foyer and hall are neither atmospherically nor constructively convincing and show a multi-purpose hall rather than a space dedicated to art and culture.",
+        "tags": [
+          "expression",
+          "structure",
+          "acoustics"
+        ],
+        "position": {
+          "target": "foyer and hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7149,
+            0.4817,
+            0.2781
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior atmosphere and construction are not visible, anchored within the larger hall mass."
+        }
+      },
+      {
+        "statement": "The kitchen location is controversial, the storage extension is unconvincing, and the route to the visitors’ toilets is awkward and unclear.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "kitchen, storage extension and visitors' toilets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7483,
+            0.5648,
+            0.2227
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Service rooms are unrepresented, placed approximately along the hall’s secondary edge."
+        }
+      },
+      {
+        "statement": "Only two-thirds of the permitted use is utilized, so economic efficiency is unlikely to be outstanding.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "permitted use",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Utilization and economic-efficiency judgment lacks a useful geometric location."
+        }
+      },
+      {
+        "statement": "The economical use of land resources is rated below average.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "land resources",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5593,
+            0.485,
+            0.0562
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Land-use judgment refers to the full occupied site and its paired building footprint."
+        }
+      },
+      {
+        "statement": "The identity-creating power of the hall still needs to be clarified and strengthened, especially inside.",
+        "tags": [
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "hall identity inside",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7149,
+            0.4817,
+            0.3336
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior identity is not represented, anchored within the hall’s central interior zone."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "scale",
+      "open space",
+      "functionality",
+      "identity",
+      "proportion",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

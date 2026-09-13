@@ -1,0 +1,524 @@
+{
+  "object_description": "massive three-story complex with folded roof, large glazing, and central hall",
+  "geometry_property": [
+    "three-story",
+    "massive",
+    "folded-roofed",
+    "glazed",
+    "centralized",
+    "terraced"
+  ],
+  "design_condition": "The centrally positioned complex establishes a public presence while the stream landscape and peripheral sports areas form a green framework around it.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The central position and idiosyncratic design successfully manifest the complex as a public building with a central function.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "central public building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4932,
+            0.5335,
+            0.6875
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Centralized mass and distinctive folded roof are visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "Despite the large footprint, the project creates different attractive open-space qualities and usable peripheral areas.",
+        "tags": [
+          "open space",
+          "landscape",
+          "massing"
+        ],
+        "position": {
+          "target": "peripheral open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0616,
+            0.6256,
+            0.0625
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Large mass leaves usable peripheral areas around the building footprint."
+        }
+      },
+      {
+        "statement": "The gymnasium is well organized and has immediacy and presence within the school.",
+        "tags": [
+          "layout",
+          "functionality",
+          "identity"
+        ],
+        "position": {
+          "target": "gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5071,
+            0.2121,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Gymnasium is not individually resolved; central lower volume provides the approximate anchor."
+        }
+      },
+      {
+        "statement": "The care units are well organized and have their own protected outdoor space.",
+        "tags": [
+          "layout",
+          "functionality",
+          "privacy"
+        ],
+        "position": {
+          "target": "care units and protected outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0616,
+            0.716,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior care units are unseen; assign them beside a quieter peripheral outdoor edge."
+        }
+      },
+      {
+        "statement": "The school can be experienced as a whole through its high level of transparency.",
+        "tags": [
+          "visibility",
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "transparent school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5071,
+            0.2121,
+            0.5625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Extensive repeated glazing and open facade patterns support a building-wide transparency anchor."
+        }
+      },
+      {
+        "statement": "The side skylights provide good lighting conditions and serve as an iconographic symbol of the building's use.",
+        "tags": [
+          "daylight",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "side skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2802,
+            0.5184,
+            0.8125
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated upper side openings are visible along the folded roof edges."
+        }
+      },
+      {
+        "statement": "The school building is space-efficient, achieves good building-cost performance, and can meet the stated ecological standard.",
+        "tags": [
+          "cost",
+          "sustainability",
+          "functionality"
+        ],
+        "position": {
+          "target": "space-efficient school building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost, efficiency, and ecological performance are global judgments without a spatial marker."
+        }
+      },
+      {
+        "statement": "The individual units are harmoniously solved and form a coherent whole in the central entrance hall.",
+        "tags": [
+          "layout",
+          "expression",
+          "circulation"
+        ],
+        "position": {
+          "target": "individual units and central entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7563,
+            0.5055,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central hall is suggested by the organized symmetry and concentrated openings in the elevations."
+        }
+      },
+      {
+        "statement": "The primary level has great charm as a small world in itself.",
+        "tags": [
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "primary level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7563,
+            0.5632,
+            0.3117
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Ground-level band is clearly visible around the complex perimeter."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The tree-lined break area has the right concept but remains somewhat stiff in its design.",
+        "tags": [
+          "landscape",
+          "open space",
+          "expression"
+        ],
+        "position": {
+          "target": "tree-lined break area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8833,
+            0.7051,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Trees are absent; approximate the break area along the peripheral eastern ground zone."
+        }
+      },
+      {
+        "statement": "The tree selection is contradictory, and the cut lime trees and columnar poplars appear forced or unnecessary.",
+        "tags": [
+          "landscape",
+          "expression"
+        ],
+        "position": {
+          "target": "tree selection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8714,
+            0.5157,
+            0.0625
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Landscape planting is not represented; use a peripheral open-space anchor."
+        }
+      },
+      {
+        "statement": "The open space at Mühlackerstrasse still seems somewhat unfinished.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "open space at Mühlackerstrasse",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.503,
+            0.0674,
+            0.0625
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-side open space is anchored along the south-facing perimeter."
+        }
+      },
+      {
+        "statement": "The massive folded-roof complex appears exaggerated and hybrid in its typology and expression.",
+        "tags": [
+          "massing",
+          "scale",
+          "expression"
+        ],
+        "position": {
+          "target": "massive folded-roof complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4932,
+            0.5335,
+            0.9375
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Large folded roof and massive stepped envelope are directly legible in every view."
+        }
+      },
+      {
+        "statement": "The caretaker's workshop is incomprehensibly placed in the most public location.",
+        "tags": [
+          "layout",
+          "urban integration",
+          "privacy"
+        ],
+        "position": {
+          "target": "caretaker's workshop",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.503,
+            0.0674,
+            0.1875
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Workshop is not distinguishable; public south edge provides the constrained location."
+        }
+      },
+      {
+        "statement": "Fire-protection measures are necessary for the entrance hall to become genuinely lively and furnished.",
+        "tags": [
+          "safety",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance hall fire protection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7563,
+            0.5055,
+            0.375
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Entrance hall is approximated at the central circulation concentration; fire measures are not visible."
+        }
+      },
+      {
+        "statement": "Load-bearing room partitions disadvantage spatial flexibility for future school operations.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "load-bearing room partitions",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4932,
+            0.5636,
+            0.6875
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Internal partitions are absent from the exterior sample; central stacked volume is representative."
+        }
+      },
+      {
+        "statement": "The escape routes from the attic are too long according to the fire police.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "attic escape routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6641,
+            0.6082,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Escape routes are unrepresented; approximate them within the upper folded-roof zone."
+        }
+      },
+      {
+        "statement": "The expansion proposal is structurally and operationally demanding because of the complex roof adaptation.",
+        "tags": [
+          "structure",
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "complex roof adaptation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6641,
+            0.4877,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Folded roof geometry is directly visible and concentrated along the upper envelope."
+        }
+      },
+      {
+        "statement": "The primary level's clear separation from the school prevents future educational developments toward greater connection.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "primary level separation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7563,
+            0.5933,
+            0.3117
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-floor organization is visible only as an exterior band, supporting a constrained floor anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "identity",
+      "urban integration",
+      "open space",
+      "landscape",
+      "expression",
+      "layout",
+      "flexibility",
+      "fire safety"
+    ]
+  }
+}

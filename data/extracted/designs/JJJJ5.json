@@ -1,0 +1,318 @@
+{
+  "object_description": "staggered building volume with six courtyards",
+  "geometry_property": [
+    "staggered",
+    "stepped",
+    "height-graduated",
+    "courtyard-based",
+    "elongated",
+    "partly set back"
+  ],
+  "design_condition": "A street-parallel low section follows the existing building line, while the stepped volume rises toward the site interior and forms an arrival space beside the protected neighbouring facility and courtyards opening toward the landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The graduated volumetrics give the large building lightness and contextual appropriateness.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "graduated volumetrics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6137,
+            0.7049,
+            0.834
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stepped massing is visible across the elongated footprint, rising toward the interior."
+        }
+      },
+      {
+        "statement": "The project has a clear structure and a good hierarchy of spatial units.",
+        "tags": [
+          "layout",
+          "massing",
+          "circulation"
+        ],
+        "position": {
+          "target": "spatial units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4816,
+            0.6399,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyard divisions and repeated bands establish a legible hierarchy across the building."
+        }
+      },
+      {
+        "statement": "The central vertical accesses make the internal structure particularly legible.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "central vertical accesses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4845,
+            0.3602,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central access locations are approximated from the organized plan and vertically layered elevation pattern."
+        }
+      },
+      {
+        "statement": "The differentiated expression between the hall and office parts produces a good overall effect.",
+        "tags": [
+          "expression",
+          "identity",
+          "proportion"
+        ],
+        "position": {
+          "target": "hall and office parts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7235,
+            0.6704,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Differentiated blocks are approximated within the stepped, courtyard-based building organization."
+        }
+      },
+      {
+        "statement": "The open-space concept successfully combines green roofs, planted courtyards, tree sequences, and rainwater retention.",
+        "tags": [
+          "open space",
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "green roofs and planted courtyards",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.689,
+            0.2827,
+            0.9167
+          ],
+          "radius": 0.302,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple courtyard voids and roof-level surfaces are visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The construction approach is consistently coordinated with the building's volumetrics and supports flexibility.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "massing"
+        ],
+        "position": {
+          "target": "construction approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2867,
+            0.6399,
+            0.5833
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Construction coordination is anchored to a representative stepped building segment."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The arrival area is somewhat limited in spaciousness, especially along the street.",
+        "tags": [
+          "circulation",
+          "open space",
+          "scale"
+        ],
+        "position": {
+          "target": "arrival area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4932,
+            0.1529,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The arrival zone is placed along the constrained south street edge."
+        }
+      },
+      {
+        "statement": "The office areas, particularly in the wide middle section, have unfavorable lighting conditions.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "wide middle office section",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4816,
+            0.6399,
+            0.5833
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The wide middle band is localized centrally within the visible elongated plan."
+        }
+      },
+      {
+        "statement": "The access areas were incorrectly counted as usable area, reducing the required number of workstations.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4845,
+            0.3602,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior access areas are approximated at the central circulation zone."
+        }
+      },
+      {
+        "statement": "The small-scale office structure raises questions, especially where rooms face rather small courtyards.",
+        "tags": [
+          "layout",
+          "proportion",
+          "daylight"
+        ],
+        "position": {
+          "target": "small-scale office structure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7428,
+            0.6399,
+            0.5833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Office rooms are approximated within a courtyard-facing perimeter segment."
+        }
+      },
+      {
+        "statement": "It remains uncertain whether the intermediate staging options are convincing in urban-development terms.",
+        "tags": [
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "intermediate staging options",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7044,
+            0.1529,
+            0.3333
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Staging is anchored to a plausible street-edge development area."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "layout",
+      "circulation",
+      "daylight",
+      "open space",
+      "landscape",
+      "flexibility",
+      "functionality"
+    ]
+  }
+}

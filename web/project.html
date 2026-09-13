@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arch Form — Project</title>
+    <!-- The project view is now a pane of the single-page shell, so opening a
+         project no longer reloads the page and tears down the Model Latent
+         viewer. This page is kept so existing ?project= links keep working. -->
+    <link rel="canonical" href="./#project/A1" />
+    <script>
+      var id = new URLSearchParams(location.search).get("project");
+      location.replace("./#project/" + encodeURIComponent(id || "A1"));
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="./#project/A1">Arch Form</a>&hellip;</p>
+  </body>
+</html>

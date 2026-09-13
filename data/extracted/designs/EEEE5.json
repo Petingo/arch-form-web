@@ -1,0 +1,390 @@
+{
+  "object_description": "two rising volumes connected by a low pergola-like building part",
+  "geometry_property": [
+    "two-part",
+    "vertically differentiated",
+    "five-story",
+    "low connecting volume",
+    "parallel",
+    "grid-like"
+  ],
+  "design_condition": "The two volumes occupy a street corner, follow the lines of neighboring buildings, sit close to the garage, and leave an unclear relationship to the sports hall.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "Organizing the two uses in two functionally independent building parts seems plausible.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "two functionally independent building parts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2809,
+            0.508,
+            0.5882
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two distinct rising masses are clearly visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The two parts are well structured, with entrances and vertical access consistently separated.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "separated entrances and vertical access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3601,
+            0.2369,
+            0.1765
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Separated access is approximated at one visible end of the two-part arrangement."
+        }
+      },
+      {
+        "statement": "The reestablishment process is practical.",
+        "tags": [
+          "operation"
+        ],
+        "position": {
+          "target": "reestablishment process",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational process judgment has no useful spatial referent in the point cloud."
+        }
+      },
+      {
+        "statement": "The support structure is fundamentally efficient and cost-effective.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "support structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3186,
+            0.5309,
+            0.5882
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Visible parallel masses and connecting low volume provide the structural anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The distance from the sports hall remains unclear in urban-planning terms.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "distance from the sports hall",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7246,
+            0.6514,
+            0.4118
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Sports hall is absent; the rearward building edge approximates the questioned relationship."
+        }
+      },
+      {
+        "statement": "The closed ground floor along the street hardly meets the demands of publicity in urban space.",
+        "tags": [
+          "urban integration",
+          "visibility"
+        ],
+        "position": {
+          "target": "closed ground floor along the street",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5138,
+            0.0338,
+            0.1471
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Closed lower frontage is visible along the street-facing edge."
+        }
+      },
+      {
+        "statement": "The pergola-like continuation at the roof appears fragile and does not do justice to the facade theme.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "pergola-like roof continuation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7223,
+            0.4397,
+            0.9412
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Low roof connector and continuation are visible between the taller masses."
+        }
+      },
+      {
+        "statement": "The delivery arrangement suggests a disruption because it shares the narrow entrance and exit.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "shared narrow delivery entrance and exit",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3345,
+            0.2707,
+            0.1471
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Delivery access is approximated at the front corner of the low connecting zone."
+        }
+      },
+      {
+        "statement": "The deep vehicle hall is not planned to receive the hoped-for lighting.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "deep vehicle hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3601,
+            0.2369,
+            0.2059
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower deep volume is visible beneath the taller block."
+        }
+      },
+      {
+        "statement": "The rooms above the entrance are not considered useful for the intended use.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "rooms above the entrance",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3857,
+            0.203,
+            0.5588
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Rooms are not distinguishable; the stacked entrance-side volume provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "The roof terrace does not impress in relation to the adjacent rooms.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "roof terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7601,
+            0.4626,
+            0.9706
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Roof-level open area is anchored beside the taller rearward volume."
+        }
+      },
+      {
+        "statement": "The ribbed ceilings have an unclear load-bearing direction and leave the structural logic questionable.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "ribbed ceilings",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3186,
+            0.5309,
+            0.6176
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Ceilings are not directly visible; the middle stacked floor provides a constrained location."
+        }
+      },
+      {
+        "statement": "Sound insulation and fire resistance would still have to be proven.",
+        "tags": [
+          "acoustics",
+          "fire safety"
+        ],
+        "position": {
+          "target": "sound insulation and fire resistance",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4319,
+            0.5998,
+            0.5588
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Building-wide performance systems are assigned to the visible overall envelope."
+        }
+      },
+      {
+        "statement": "The unclear supporting structures leave no clear statement about economic efficiency.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "unclear supporting structures",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3186,
+            0.5309,
+            0.5882
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The two-part massing and connector visibly define the structural region under discussion."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "facade",
+      "expression",
+      "circulation",
+      "daylight",
+      "structure",
+      "cost",
+      "fire safety"
+    ]
+  }
+}

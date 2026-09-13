@@ -1,0 +1,399 @@
+{
+  "object_description": "linear two-story school volume with a loggia-like park frontage",
+  "geometry_property": [
+    "linear",
+    "two-story",
+    "elongated",
+    "compact",
+    "loggia-fronted",
+    "gently gable-roofed",
+    "terrain-stepped"
+  ],
+  "design_condition": "The building is placed at the park edge as a linear body, with terrain modulation and a lowered northern development preserving panoramic views while creating varied public and protected outdoor spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The park creates an atmospherically varied and easily usable neighborhood open space.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "neighborhood open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4052,
+            0.2278,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open park-edge zone is approximated along the southern side of the elongated school volume."
+        }
+      },
+      {
+        "statement": "The clear, pleasantly restrained design brings the park, stream, school and existing farm together into a convincing whole.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "park, stream, school and existing farm",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4365,
+            0.2561,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The surrounding landscape relationship is anchored outside the building's southern park frontage."
+        }
+      },
+      {
+        "statement": "The outward-facing access gives the school a strong public message as a meeting place.",
+        "tags": [
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "outward-facing access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4034,
+            0.2262,
+            0.41
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The long public-facing edge is visible along the park-facing side of the linear volume."
+        }
+      },
+      {
+        "statement": "The sectional solution preserves the panoramic view of the park.",
+        "tags": [
+          "topography",
+          "visibility"
+        ],
+        "position": {
+          "target": "panoramic park view",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4129,
+            0.2857,
+            0.5833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The park-facing upper edge provides the plausible viewpoint anchor for preserved views."
+        }
+      },
+      {
+        "statement": "The location and accessibility of the multi-purpose room and sports changing rooms enable external use without disrupting school operations.",
+        "tags": [
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "multi-purpose room and sports changing rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.544,
+            0.3534,
+            0.41
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "External-use rooms are approximated near the park-facing end of the elongated school."
+        }
+      },
+      {
+        "statement": "The stringency of the internal organization affects the clarity of the external expression.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4346,
+            0.5748,
+            0.41
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The linear building mass anchors the internal organization, which is not directly resolved."
+        }
+      },
+      {
+        "statement": "The serial timber construction logic creates a robust appearance appropriate to the location and school level.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "serial timber construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4346,
+            0.5748,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated longitudinal facade lines and stacked levels support a robust serial construction reading."
+        }
+      },
+      {
+        "statement": "The proposal promises very good economic and ecological values through flexibility and compactness.",
+        "tags": [
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "economic and ecological values",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement evaluates performance rather than a specific spatial location."
+        }
+      },
+      {
+        "statement": "The project impresses with surprising simplicity, directness and robustness.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "project simplicity and robustness",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4346,
+            0.5748,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The simple elongated mass and consistent levels provide a whole-building anchor."
+        }
+      },
+      {
+        "statement": "Its expansion in the flow direction of the park creates a strong identity.",
+        "tags": [
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "expansion in park flow direction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6066,
+            0.41,
+            0.41
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The linear footprint visibly extends diagonally along the park-edge direction."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The many path connections on the access street are not convincing.",
+        "tags": [
+          "circulation",
+          "landscape"
+        ],
+        "position": {
+          "target": "path connections on access street",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4052,
+            0.2278,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Street connections are approximated along the park-facing southern access edge."
+        }
+      },
+      {
+        "statement": "The gently sloping gable roof is not yet convincing as a fifth facade.",
+        "tags": [
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "gently sloping gable roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4967,
+            0.4962,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated roof outline is clearly visible above the two-story linear volume."
+        }
+      },
+      {
+        "statement": "The arrangement requires greater attention to the use of daylight.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "daylight arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4346,
+            0.5748,
+            0.5833
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight is internal, so the building envelope provides a constrained placement."
+        }
+      },
+      {
+        "statement": "The highly installed ventilation concept would have to be re-examined together with the sponsor.",
+        "tags": [
+          "ventilation",
+          "operation"
+        ],
+        "position": {
+          "target": "ventilation concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4346,
+            0.5748,
+            0.41
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The ventilation system is not visible; it is approximated within the building envelope."
+        }
+      },
+      {
+        "statement": "The investment costs are slightly above the target construction costs for the school sector.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "investment costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement concerns project cost without a spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "open space",
+      "landscape",
+      "urban integration",
+      "massing",
+      "identity",
+      "expression",
+      "flexibility",
+      "daylight",
+      "ventilation",
+      "cost"
+    ]
+  }
+}

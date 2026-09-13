@@ -1,0 +1,752 @@
+{
+  "object_description": "two staggered low-rise volumes on a shared plinth",
+  "geometry_property": [
+    "two-part",
+    "staggered",
+    "low-rise",
+    "compact",
+    "plinth-based",
+    "slope-adapted"
+  ],
+  "design_condition": "The compact volumes are placed at the edge of the slope below the neighboring school complex, freeing the small valley, restoring its topography, and creating a defined arrival courtyard with open landscape beyond.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The historic courtyard and clearly defined entrance create an appropriate and dignified arrival point.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "identity"
+        ],
+        "position": {
+          "target": "historic courtyard and entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2432,
+            0.2345,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-west courtyard edge and principal arrival zone are constrained by the open space between staggered volumes."
+        }
+      },
+      {
+        "statement": "Concentrating the required uses in a compact edge volume keeps the small valley free and makes its original topography perceptible again.",
+        "tags": [
+          "massing",
+          "topography",
+          "landscape"
+        ],
+        "position": {
+          "target": "compact edge volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2259,
+            0.2404,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact massing occupies the western valley edge while leaving the central valley visibly open."
+        }
+      },
+      {
+        "statement": "The two-unit organization on a plinth clearly expresses the two main functions.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "two-unit organization on plinth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7152,
+            0.6309,
+            0.5833
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two staggered units and their shared low plinth are legible across plan and elevations."
+        }
+      },
+      {
+        "statement": "The entrance square opens toward the landscape and preserves views from the neighboring school complex.",
+        "tags": [
+          "open space",
+          "visibility",
+          "urban integration"
+        ],
+        "position": {
+          "target": "entrance square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5895,
+            0.1147,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern open zone beside the volumes provides the most plausible landscape-facing entrance square."
+        }
+      },
+      {
+        "statement": "The building is cleverly integrated into the diverse neighborhood through its changing scale.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "proportion"
+        ],
+        "position": {
+          "target": "changing-scale neighborhood integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8636,
+            0.7244,
+            0.4167
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Distributed low-rise edges suggest changing scale around the staggered building footprint."
+        }
+      },
+      {
+        "statement": "The spacious gallery-like foyer is an attractive entrance for everyday operations and larger events.",
+        "tags": [
+          "circulation",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "gallery-like foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2605,
+            0.2285,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Foyer is approximated at the southern arrival-facing end of the western volume."
+        }
+      },
+      {
+        "statement": "The hall-level connection and adjoining-room organization are well designed.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "hall-level connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4578,
+            0.548,
+            0.5833
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Connection is placed between the staggered volumes at their overlapping middle zone."
+        }
+      },
+      {
+        "statement": "The hall interior is harmonious for both exercise and events.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "hall interior",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.777,
+            0.7544,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Hall is approximated within the larger eastern volume, away from the arrival edge."
+        }
+      },
+      {
+        "statement": "The surrounding skylight band attractively stages the connection to the outside.",
+        "tags": [
+          "daylight",
+          "expression"
+        ],
+        "position": {
+          "target": "surrounding skylight band",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7218,
+            0.6945,
+            0.9167
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Skylight band is assigned to the upper perimeter of the larger visible volume."
+        }
+      },
+      {
+        "statement": "The four basic-level areas are well organized in their basic layout.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "four basic-level areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2432,
+            0.2345,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basic-level organization is located across the accessible lower portions of the two volumes."
+        }
+      },
+      {
+        "statement": "The open entrance foyer allows sufficient movement in cold weather.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "open entrance foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2086,
+            0.2464,
+            0.0833
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open foyer is approximated immediately inside the southern approach."
+        }
+      },
+      {
+        "statement": "The psychomotor room is ideally arranged between the two functional areas and accessible from both.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "psychomotor room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.399,
+            0.1805,
+            0.0833
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central placement between the two visible masses reflects the stated shared accessibility."
+        }
+      },
+      {
+        "statement": "The building's location and orientation are compatible with the landscape.",
+        "tags": [
+          "landscape",
+          "topography"
+        ],
+        "position": {
+          "target": "landscape-compatible location and orientation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4546,
+            0.5162,
+            0.5833
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated staggered footprint follows the apparent slope and preserves open valley edges."
+        }
+      },
+      {
+        "statement": "The entrance and break area creates a beautiful, communicative space oriented toward the landscape.",
+        "tags": [
+          "open space",
+          "landscape",
+          "identity"
+        ],
+        "position": {
+          "target": "entrance and break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5548,
+            0.1266,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern inter-volume space is the most plausible communicative landscape-oriented entrance and break area."
+        }
+      },
+      {
+        "statement": "The compact project provides good daylight conditions and potential for flexible use.",
+        "tags": [
+          "daylight",
+          "flexibility"
+        ],
+        "position": {
+          "target": "compact project daylight and flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.712,
+            0.5991,
+            0.6667
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight-related potential is assigned broadly to the compact upper building envelope."
+        }
+      },
+      {
+        "statement": "The façade construction is insensitive to weathering and has a long life expectancy.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "façade construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9837,
+            0.5149,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Exterior construction is anchored to the exposed eastern and northern perimeter surfaces."
+        }
+      },
+      {
+        "statement": "System and component separation is basically fulfilled.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "system and component separation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This judgment concerns building systems globally, without a distinct geometric location."
+        }
+      },
+      {
+        "statement": "The clear approach has great potential for further functional development and a distinctive emotional place.",
+        "tags": [
+          "functionality",
+          "identity",
+          "flexibility"
+        ],
+        "position": {
+          "target": "clear approach",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2432,
+            0.2345,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approach is placed along the southern-western access edge leading toward the courtyard."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The proposed courtyard measures are not entirely convincing and deserved more in-depth examination.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "courtyard measures",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5375,
+            0.1326,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The narrow open zone between the staggered volumes is the likely courtyard under review."
+        }
+      },
+      {
+        "statement": "The narrow path connecting the new building to the historic grounds is not yet convincing.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "path to historic grounds",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1047,
+            0.2824,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A connecting path is approximated along the western edge between building and open valley."
+        }
+      },
+      {
+        "statement": "The hall level has no direct view of the landscape.",
+        "tags": [
+          "visibility",
+          "landscape"
+        ],
+        "position": {
+          "target": "hall-level landscape view",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.725,
+            0.7263,
+            0.5833
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Hall-level location is estimated inside the eastern volume, with no identifiable exterior opening."
+        }
+      },
+      {
+        "statement": "The direct connection and simultaneous separation from the basic level still need to be specified functionally.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "basic-level connection and separation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3644,
+            0.1925,
+            0.0833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central overlap between volumes is the plausible location for connection and separation."
+        }
+      },
+      {
+        "statement": "Dividing the basic level into two storeys leaves the upper storey without direct outdoor space.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "upper basic-level storey",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4448,
+            0.4208,
+            0.75
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper storey is assigned above the western basic-level volume, where outdoor access is least evident."
+        }
+      },
+      {
+        "statement": "The essential direct view from the upper classrooms to the playgrounds is missing.",
+        "tags": [
+          "visibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "upper classroom playground view",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.74,
+            0.7672,
+            0.75
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Classroom zone is approximated on the upper northern side facing the open landscape."
+        }
+      },
+      {
+        "statement": "The first-floor checkroom is too small and does not yet work.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "first-floor checkroom",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6728,
+            0.2175,
+            0.6667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Checkroom is estimated near the first-floor southern circulation edge."
+        }
+      },
+      {
+        "statement": "The all-weather pitch is unfavorably positioned in the grass play area and reduces its use.",
+        "tags": [
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "all-weather pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9511,
+            0.197,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pitch is placed in the southern open landscape zone beyond the building footprint."
+        }
+      },
+      {
+        "statement": "Large window areas, including substantial north-facing areas, cause increased heat losses.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "large window areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4481,
+            0.8682,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "north"
+          ],
+          "rationale": "North-facing façade is constrained to the long northern perimeter visible in elevation."
+        }
+      },
+      {
+        "statement": "The project slightly exceeds the grey-energy target.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "grey-energy target",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Grey-energy performance is non-spatial and cannot be assigned to a model location."
+        }
+      },
+      {
+        "statement": "The large floor area and building volume require optimization for economic efficiency.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "floor area and building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7152,
+            0.6309,
+            0.5833
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The broad marker covers the combined staggered massing whose area and volume require optimization."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "landscape",
+      "topography",
+      "massing",
+      "circulation",
+      "layout",
+      "functionality",
+      "visibility",
+      "daylight",
+      "flexibility"
+    ]
+  }
+}

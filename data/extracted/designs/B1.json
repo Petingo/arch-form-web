@@ -1,0 +1,360 @@
+{
+  "object_description": "slender rectangular cube crowned by a roof pergola",
+  "geometry_property": [
+    "elongated",
+    "slender",
+    "compact",
+    "rectangular",
+    "three-storey",
+    "roof-pergola",
+    "shallow-depth"
+  ],
+  "design_condition": "The narrow volume is placed along the building line, creating an alley on one side and a spacious tree-lined playground on the other, with an orchard forming the public approach.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact, elegant-looking building has a pleasant slenderness and generates plenty of open space.",
+        "tags": [
+          "massing",
+          "proportion",
+          "open space"
+        ],
+        "position": {
+          "target": "compact slender building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4687,
+            0.3112,
+            0.6364
+          ],
+          "radius": 0.3421,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated rectangular mass is clearly visible across top and elevation views."
+        }
+      },
+      {
+        "statement": "The publicly usable orchard creates a recognizable, identity-creating prelude.",
+        "tags": [
+          "identity",
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "public orchard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2013,
+            0.0733,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Public approach landscape is assigned to the open southern area beyond the compact mass."
+        }
+      },
+      {
+        "statement": "The roof terrace is an unmistakable and indispensable element of the slender building structure.",
+        "tags": [
+          "massing",
+          "expression",
+          "open space"
+        ],
+        "position": {
+          "target": "roof terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4814,
+            0.5272,
+            0.7727
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Roof-level feature is placed on the upper footprint of the slender volume."
+        }
+      },
+      {
+        "statement": "The building organization impresses with a natural-looking, cleverly developed pragmatism.",
+        "tags": [
+          "layout",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "building organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4687,
+            0.3112,
+            0.6364
+          ],
+          "radius": 0.3421,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pragmatic organization is anchored within the elongated building envelope."
+        }
+      },
+      {
+        "statement": "All uses are directly accessible and can be separated and used individually.",
+        "tags": [
+          "layout",
+          "operation",
+          "flexibility"
+        ],
+        "position": {
+          "target": "separated entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.497,
+            0,
+            0.1818
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Independent access is approximated along the south-facing exterior edge."
+        }
+      },
+      {
+        "statement": "The cluster organization fits naturally into the narrow structure.",
+        "tags": [
+          "layout",
+          "functionality",
+          "massing"
+        ],
+        "position": {
+          "target": "cluster organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4814,
+            0.5272,
+            0.6364
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Clustered uses are assigned within the narrow central building volume."
+        }
+      },
+      {
+        "statement": "High rooms, generous glazing and shallow depth allow well-lit rooms with a high quality of stay.",
+        "tags": [
+          "daylight",
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "well-lit shallow rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5091,
+            0.0071,
+            0.6364
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Shallow rooms are anchored at the south-facing envelope and upper occupied levels."
+        }
+      },
+      {
+        "statement": "The compact cube and simple building services result in an energy-efficient building.",
+        "tags": [
+          "massing",
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "compact cube and simple building services",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3421,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy efficiency is a whole-building performance judgment without a spatial marker."
+        }
+      },
+      {
+        "statement": "The modular structure offers great flexibility if usage requirements change.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "modular structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4687,
+            0.3112,
+            0.6364
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Modularity is approximated through the building’s elongated structural volume."
+        }
+      },
+      {
+        "statement": "The simple form creates outdoor spaces of outstanding quality and integrates firmly into the new urban fabric.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8113,
+            0.4865,
+            0
+          ],
+          "radius": 0.3421,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor quality is assigned to the open side surrounding the narrow building footprint."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The external expression should differentiate itself more strongly from the surrounding buildings.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "external expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.497,
+            0,
+            0.5455
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Exterior expression is anchored on the visible south facade."
+        }
+      },
+      {
+        "statement": "The east staircase cylinder is above the building line and is therefore not possible.",
+        "tags": [
+          "urban integration",
+          "operation",
+          "massing"
+        ],
+        "position": {
+          "target": "east staircase cylinder",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8007,
+            0.8699,
+            0.6818
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "An east-side projecting vertical feature is visible beyond the main building line."
+        }
+      },
+      {
+        "statement": "The sequence of entrances and garlands is ambivalent.",
+        "tags": [
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "sequence of entrances and garlands",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.497,
+            0,
+            0.1818
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The stated sequence is approximated along the south-facing access edge."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "identity",
+      "layout",
+      "daylight",
+      "flexibility",
+      "sustainability",
+      "facade"
+    ]
+  }
+}

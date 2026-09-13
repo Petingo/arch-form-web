@@ -1,0 +1,319 @@
+{
+  "object_description": "two new buildings forming a shared courtyard",
+  "geometry_property": [
+    "two-part",
+    "courtyard-forming",
+    "horizontally staggered",
+    "large-grained",
+    "concrete-based",
+    "wood-framed"
+  ],
+  "design_condition": "Two new buildings and the existing gymnasium form a break area connected to the village square by an east-west route, but the cemetery edge, restricted cross-site relationship, and building scale make the setting unacceptable.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two new buildings create a well-sized break area and a new important east-west connection.",
+        "tags": [
+          "open space",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "break area and east-west connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.401,
+            0.3546,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The shared open zone between the two masses is clearly visible in plan."
+        }
+      },
+      {
+        "statement": "The horizontal staggering of the different areas is architecturally very well formulated.",
+        "tags": [
+          "massing",
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "horizontal staggering of areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7528,
+            0.4832,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Horizontally offset building parts are distinct in the top view and elevations."
+        }
+      },
+      {
+        "statement": "Attractive multi-story rooms connect the uses and allow for exciting visual connections.",
+        "tags": [
+          "layout",
+          "visibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "multi-story rooms and visual connections",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7476,
+            0.417,
+            0.4375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The connecting spatial zone is approximated between the staggered building parts."
+        }
+      },
+      {
+        "statement": "The spacious foyer is appropriate for the hall and beautifully designed.",
+        "tags": [
+          "layout",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "spacious foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.686,
+            0.481,
+            0.1875
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The foyer is assigned to the lower portion of the larger right-hand building."
+        }
+      },
+      {
+        "statement": "The design of the buildings with a concrete base and wooden structure above is architecturally well thought out and integrates the buildings in context.",
+        "tags": [
+          "structure",
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "concrete base and wooden structure above",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7528,
+            0.4832,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The visible facade envelope anchors the described base-and-upper-structure composition."
+        }
+      },
+      {
+        "statement": "The project is sensitive and designed to a high architectural standard, with strong spatial qualities and organization of the spatial program.",
+        "tags": [
+          "expression",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "overall spatial qualities and program organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7003,
+            0.4217,
+            0.3125
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The two-part organization and shared courtyard are legible across the sampled model."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The proposed situation is considered inappropriate from a local planning perspective.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "local planning situation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.401,
+            0.3546,
+            0.0625
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The planning judgment is anchored broadly to the complete site arrangement."
+        }
+      },
+      {
+        "statement": "The proximity of the break area to the cemetery is criticized and its demarcation remains unresolved.",
+        "tags": [
+          "open space",
+          "privacy",
+          "urban integration"
+        ],
+        "position": {
+          "target": "break area near cemetery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3586,
+            0.8386,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The break area is placed toward the northern cemetery-facing edge."
+        }
+      },
+      {
+        "statement": "The placement along the street would massively restrict the important relationship between the two school buildings.",
+        "tags": [
+          "urban integration",
+          "visibility",
+          "massing"
+        ],
+        "position": {
+          "target": "street placement restricting school relationship",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2094,
+            0.0984,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The street-facing edge is used to approximate the obstructing building placement."
+        }
+      },
+      {
+        "statement": "The granularity and size of the school building construction are controversially discussed.",
+        "tags": [
+          "scale",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "granularity and size of school construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7412,
+            0.4577,
+            0.375
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The large-grained massing is visible in the two building volumes and their separation."
+        }
+      },
+      {
+        "statement": "The lying community hall is unconvincing because of its poor proportions.",
+        "tags": [
+          "proportion",
+          "functionality"
+        ],
+        "position": {
+          "target": "lying community hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6629,
+            0.4299,
+            0.1875
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low horizontal hall is approximated within the lower right-hand volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "circulation",
+      "layout",
+      "visibility",
+      "scale",
+      "proportion",
+      "facade"
+    ]
+  }
+}

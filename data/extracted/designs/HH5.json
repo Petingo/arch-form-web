@@ -1,0 +1,396 @@
+{
+  "object_description": "elongated staggered school building organized around central atriums",
+  "geometry_property": [
+    "elongated",
+    "staggered",
+    "stepped",
+    "atrium-centered",
+    "compact",
+    "grid-based",
+    "multi-level"
+  ],
+  "design_condition": "The elongated building follows the road and sloping terrain through repeated staggering, reducing its perceived scale while creating open space for the neighbouring retirement home and connecting two vertically offset entrances.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The multiple staggering breaks down the large building to a scale compatible with the location.",
+        "tags": [
+          "massing",
+          "scale",
+          "proportion"
+        ],
+        "position": {
+          "target": "staggered building massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0327,
+            0.6031,
+            0.5357
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated offsets are visible in plan and elevations across the elongated building."
+        }
+      },
+      {
+        "statement": "The staggering enables a pleasantly natural response to the curved road and slightly sloping topography.",
+        "tags": [
+          "topography",
+          "urban integration"
+        ],
+        "position": {
+          "target": "road and sloping topography response",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7936,
+            0.134,
+            0.3214
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Building edges follow a longitudinal curve and show stepped level changes toward the site perimeter."
+        }
+      },
+      {
+        "statement": "The two generously covered entrances are clearly connected vertically despite following the slope.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "two covered entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5015,
+            0.0978,
+            0.2143
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Southern edge and vertical elevation changes provide the strongest approximation for the paired entrances."
+        }
+      },
+      {
+        "statement": "The windmill-like basic disposition is interesting and viable on very different levels.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "windmill-like disposition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5431,
+            0.1197,
+            0.5714
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Staggered wings and multiple levels suggest a distributed central disposition."
+        }
+      },
+      {
+        "statement": "The classrooms and group rooms are well proportioned and well lit.",
+        "tags": [
+          "proportion",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms and group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2035,
+            0.858,
+            0.5357
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior rooms are not distinguished, so the estimate uses a representative upper building zone."
+        }
+      },
+      {
+        "statement": "The compact arrangement enables short, direct routes and diverse use synergies.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact arrangement and short routes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4521,
+            0.8657,
+            0.4643
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The dense elongated footprint supports a representative anchor within the compact circulation network."
+        }
+      },
+      {
+        "statement": "The carefully designed common area around the atrium expresses the class-cluster idea attractively.",
+        "tags": [
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "common area around atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4521,
+            0.8657,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central open areas are legible in plan and surrounded by denser point clusters in elevations."
+        }
+      },
+      {
+        "statement": "The project is carefully processed and impresses with its stringent attitude.",
+        "tags": [
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement evaluates overall processing and design attitude without a specific spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Compared with the neighbouring retirement home, the building’s staggering appears rather random and is less convincing.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "staggering relative to retirement home",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9341,
+            0.6633,
+            0.5357
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The sampled model shows staggering, but the neighbouring retirement home is not represented for direct comparison."
+        }
+      },
+      {
+        "statement": "The scattered break roofs appear schematic and insufficiently controlled.",
+        "tags": [
+          "open space",
+          "landscape",
+          "expression"
+        ],
+        "position": {
+          "target": "scattered break roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7221,
+            0.3973,
+            0.9643
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Scattered upper-level projections provide an approximate roof-region anchor, without distinct roof labels."
+        }
+      },
+      {
+        "statement": "The bicycle shelter’s functionality and spatial consistency require further checking.",
+        "tags": [
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "bicycle shelter",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0325,
+            0.1789,
+            0.1071
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The shelter is not distinguishable, so it is approximated near the low southern building edge."
+        }
+      },
+      {
+        "statement": "In places, the floor-plan structure is too tight, and the auditorium, lunch table, and day-care spaces do not meet the required sizes and allocations.",
+        "tags": [
+          "layout",
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "auditorium, lunch table, and day-care spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9517,
+            0.5283,
+            0.4643
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior allocations are absent from the sample; the estimate marks a representative mid-building zone."
+        }
+      },
+      {
+        "statement": "The desirability of floor-to-ceiling windows for normal school operations may be questioned.",
+        "tags": [
+          "facade",
+          "functionality"
+        ],
+        "position": {
+          "target": "floor-to-ceiling windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9626,
+            0.4448,
+            0.5357
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "A vertical facade band is visible, though glazing proportions are not individually distinguishable."
+        }
+      },
+      {
+        "statement": "The small cornice projections provide little weather protection, while exposed facade areas require intensive maintenance.",
+        "tags": [
+          "facade",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "cornice projections and exposed facade areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7936,
+            0.134,
+            0.7143
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped facade edges and upper projections provide a representative exposed-envelope anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "topography",
+      "urban integration",
+      "layout",
+      "circulation",
+      "daylight",
+      "functionality",
+      "facade",
+      "cost"
+    ]
+  }
+}

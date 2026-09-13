@@ -1,0 +1,382 @@
+{
+  "object_description": "four compact building volumes of varying heights along a slope",
+  "geometry_property": [
+    "four-part",
+    "compact",
+    "varied-height",
+    "slope-following",
+    "parallel",
+    "windmill-planned"
+  ],
+  "design_condition": "Four volumes are distributed along the slope, shifting from the existing geometry toward parallel alignment and creating permeability across the site.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The diversification of building blocks with different heights is interesting and unique.",
+        "tags": [
+          "massing",
+          "scale",
+          "identity"
+        ],
+        "position": {
+          "target": "building blocks with different heights",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6567,
+            0.4574,
+            0.6429
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Four separated footprints and visibly varied elevation heights are clear."
+        }
+      },
+      {
+        "statement": "The windmill arrangement produces flexibility in use and well-lit corridors.",
+        "tags": [
+          "flexibility",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "windmill arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5246,
+            0.433,
+            0.3571
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Top view clearly shows four offset volumes around permeable interstitial space."
+        }
+      },
+      {
+        "statement": "The floor plans are compact and space-saving.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5415,
+            0.4287,
+            0.3571
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact elongated footprints are visible across the four-volume composition."
+        }
+      },
+      {
+        "statement": "Continuing the forest and park vegetation creates permeability across the site.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "forest and park vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5074,
+            0.4331,
+            0.0714
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Vegetation is not explicit; open gaps provide a constrained site anchor."
+        }
+      },
+      {
+        "statement": "The facade cladding is appropriate to the setting.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "facade cladding",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7114,
+            0.1076,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Material is not identifiable; marker follows the visible southern facade edge."
+        }
+      },
+      {
+        "statement": "The roof areas and shared viewing terrace are welcomed.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "roof areas and shared viewing terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6501,
+            0.4314,
+            0.6429
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper surfaces and stepped roof levels are visible, though terrace is indistinct."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The combination of the school and day clinic is unfavorable.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "school and day clinic",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6649,
+            0.4902,
+            0.3571
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Program identities are hidden; marker covers adjacent central volumes."
+        }
+      },
+      {
+        "statement": "The buried, dark access areas and stairs are unconvincing.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "accessibility"
+        ],
+        "position": {
+          "target": "buried access areas and stairs",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5576,
+            0.4193,
+            0.2143
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Subgrade access is not visible; anchor follows lower volume edges."
+        }
+      },
+      {
+        "statement": "Curtain separation at the seam between intensive care and the wards is unsuitable for everyday operation.",
+        "tags": [
+          "privacy",
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "intensive care and ward seam",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5415,
+            0.4287,
+            0.3571
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The seam is not identifiable; central placement reflects the mass junction."
+        }
+      },
+      {
+        "statement": "The four-level underground car park extending beyond the buildings is economically unjustified.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "four-level underground car park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5074,
+            0.4331,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Underground structure is absent; marker is constrained beneath the footprint."
+        }
+      },
+      {
+        "statement": "The station outdoor areas remain schematic, with particularly cramped spaces for children and intensive care.",
+        "tags": [
+          "open space",
+          "functionality",
+          "scale"
+        ],
+        "position": {
+          "target": "station outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4905,
+            0.4289,
+            0.1429
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open areas are visible, but individual station gardens are indistinguishable."
+        }
+      },
+      {
+        "statement": "The compact arrangement comes at the expense of spacious and differentiated station outdoor areas.",
+        "tags": [
+          "open space",
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "differentiated station outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6649,
+            0.4902,
+            0.1429
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Critique concerns interstitial open space distributed among compact volumes."
+        }
+      },
+      {
+        "statement": "The two-story space is inadequate for the task, especially at the lower level.",
+        "tags": [
+          "scale",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "two-story space",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6649,
+            0.4902,
+            0.2857
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Lower and middle elevation bands provide the best available anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "flexibility",
+      "daylight",
+      "landscape",
+      "open space",
+      "functionality",
+      "operation",
+      "cost"
+    ]
+  }
+}

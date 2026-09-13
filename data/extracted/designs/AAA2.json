@@ -1,0 +1,372 @@
+{
+  "object_description": "three related building volumes arranged around a raised schoolyard",
+  "geometry_property": [
+    "three-part composition",
+    "similar expression",
+    "multi-storey",
+    "single-storey",
+    "partly sunken",
+    "externally framed",
+    "courtyard-oriented"
+  ],
+  "design_condition": "The three volumes are set around a slightly raised schoolyard, protecting entrances from through traffic and mediating between public spaces, housing and park facilities.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The visible timber construction gives the complex a strong identity and maximizes interior flexibility.",
+        "tags": [
+          "identity",
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "visible timber construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8508,
+            0.5258,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Exterior construction is assigned to the visible perimeter of the three-part complex."
+        }
+      },
+      {
+        "statement": "The layout is simple and generally appropriate, with an optimal ratio of usable space to circulation area.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "simple layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4358,
+            0.6812,
+            0.5
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three clear volumes and their straightforward arrangement are visible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The gymnasium has views of the outside space on all four sides.",
+        "tags": [
+          "visibility",
+          "open space"
+        ],
+        "position": {
+          "target": "gymnasium views",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8871,
+            0.1778,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The eastern low-level mass is used as the likely gymnasium anchor."
+        }
+      },
+      {
+        "statement": "The location of the gymnasium is ideal, with a connection to the football pitch and direct access for clubs.",
+        "tags": [
+          "urban integration",
+          "accessibility",
+          "operation"
+        ],
+        "position": {
+          "target": "gymnasium and football pitch connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8849,
+            0.1993,
+            0.2
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gymnasium is approximated beside the eastern edge, where external access would occur."
+        }
+      },
+      {
+        "statement": "The daycare center has a good allocation of rooms to care groups, spacious anterooms and centrally accessible sanitary facilities.",
+        "tags": [
+          "layout",
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "daycare center",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2672,
+            0.8033,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The western building is a plausible daycare location within the three-volume composition."
+        }
+      },
+      {
+        "statement": "The modular structural system creates a compact and well-organized facility with a space-saving floor plan.",
+        "tags": [
+          "structure",
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "modular structural system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4922,
+            0.7025,
+            0.6
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated parallel bands across elevations support a regular modular structural reading."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The basic-level side rooms are tubular and insufficiently lit.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "basic-level side rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2457,
+            0.7851,
+            0.2
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Side rooms are not distinguishable; the west-side lower level provides a constrained approximation."
+        }
+      },
+      {
+        "statement": "The ceiling treatment hides the ceiling beams and considerably reduces their pedagogical-functional and acoustic value.",
+        "tags": [
+          "expression",
+          "acoustics",
+          "functionality"
+        ],
+        "position": {
+          "target": "ceiling beams",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5148,
+            0.711,
+            0.8
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Ceiling structure is interior; the upper portion of the central mass is used as a surface proxy."
+        }
+      },
+      {
+        "statement": "Not all basic-level units have their own directly assigned outdoor space.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "assigned outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6615,
+            0.3262,
+            0.2
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The raised-yard arrangement is visible, though individual unit assignments are not."
+        }
+      },
+      {
+        "statement": "The daycare center contains trapped rooms, and access to the upper floor seems inadequate.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "daycare trapped rooms and upper-floor access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2672,
+            0.8033,
+            0.7
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The likely daycare volume is approximated on the western taller mass."
+        }
+      },
+      {
+        "statement": "The external timber connections are exposed to weather and will require extensive maintenance.",
+        "tags": [
+          "structure",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "external timber connections",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6051,
+            0.7452,
+            0.7
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Connections are assigned to the exposed outer envelope, without distinguishable connection details."
+        }
+      },
+      {
+        "statement": "The structural system entails high construction costs and complex penetrations through the glass façade.",
+        "tags": [
+          "structure",
+          "cost",
+          "facade"
+        ],
+        "position": {
+          "target": "glass façade penetrations",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8508,
+            0.5258,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The eastern perimeter is an approximate façade anchor; glazing penetrations are not resolved."
+        }
+      },
+      {
+        "statement": "The outdoor sports facilities are only hinted at.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor sports facilities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8938,
+            0.1133,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Sports facilities are not explicit, so an adjacent eastern ground-level site location is estimated."
+        }
+      }
+    ],
+    "keyword": [
+      "identity",
+      "flexibility",
+      "layout",
+      "circulation",
+      "daylight",
+      "open space",
+      "structure",
+      "acoustics",
+      "cost",
+      "maintenance"
+    ]
+  }
+}

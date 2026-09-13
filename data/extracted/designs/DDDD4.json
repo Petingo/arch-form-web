@@ -1,0 +1,269 @@
+{
+  "object_description": "staggered multi-height building volume",
+  "geometry_property": [
+    "staggered",
+    "multi-height",
+    "eight-storey",
+    "sectional",
+    "closed-parapet-banded"
+  ],
+  "design_condition": "The building continues the hospital site's urban structure at the slope foot, varying its heights toward neighboring buildings while fitting a cramped plot with limited ground-level open space and elevated terraces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precise urban design and building form blend well with the heterogeneous building environment while retaining the hospital site's development structure.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "urban design and building form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7656,
+            0.4882,
+            0.6111
+          ],
+          "radius": 0.323,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Staggered massing is visible across all views; urban-context compatibility is approximated on the building envelope."
+        }
+      },
+      {
+        "statement": "The central, identity-creating school hall is a promising response to the cramped urban situation.",
+        "tags": [
+          "identity",
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "central school hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5129,
+            0.5035,
+            0.4815
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central location is approximated from the top view and mid-height envelope."
+        }
+      },
+      {
+        "statement": "The functional structure and two elevated outdoor terraces compensate convincingly for the lack of surrounding open space.",
+        "tags": [
+          "functionality",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "two elevated outdoor terraces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7044,
+            0.603,
+            0.6852
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Stepped upper massing and recessed ledges visibly indicate elevated terrace zones."
+        }
+      },
+      {
+        "statement": "The careful consideration and consistent implementation of statics and system separation suggest an economical and sustainable solution.",
+        "tags": [
+          "structure",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "economical and sustainable solution",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This judgment concerns structure, economy, and sustainability without a specific spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The individual building sections remain too unbalanced in relation to the overall structure.",
+        "tags": [
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "individual building sections",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1399,
+            0.3157,
+            0.463
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The multi-height sections are visible, with imbalance assigned to the lower western massing transition."
+        }
+      },
+      {
+        "statement": "The basement access area lacks a generous spatial connection that could also bring light into the unattractive zone.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "basement access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1705,
+            0.2583,
+            0.0741
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Basement-level placement is constrained to a low western-front surface region."
+        }
+      },
+      {
+        "statement": "The mezzanine lacks a more spacious connection to the shared school hall and terrace area.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "mezzanine",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5129,
+            0.5035,
+            0.4815
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The mezzanine is approximated centrally within the lower elevated volume."
+        }
+      },
+      {
+        "statement": "The administration layout does not create a communicative working environment or connect internal access with the shared outdoor space.",
+        "tags": [
+          "layout",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "administration layout",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7386,
+            0.2608,
+            0.3148
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior administration is assigned to an approximate lower eastern-front zone."
+        }
+      },
+      {
+        "statement": "The very large floor area and largest façade area produce unfavorable surface ratios, placing construction costs at the upper end.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "large floor area and largest façade area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4278,
+            0.6633,
+            0.6111
+          ],
+          "radius": 0.335,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Broad footprint and extensive façades are directly evident in the complete point-cloud views."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "layout",
+      "identity",
+      "daylight",
+      "circulation",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

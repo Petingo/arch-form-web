@@ -1,0 +1,341 @@
+{
+  "object_description": "interlocking school and sports volumes linked by a covered area",
+  "geometry_property": [
+    "interlocking",
+    "two-part",
+    "angled",
+    "connected",
+    "courtyard-forming",
+    "atrium-centered"
+  ],
+  "design_condition": "The interlocking volumes continue the neighboring care center's structure and define a sequence of squares through the complex, while a wide green belt remains open around the school.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The interlocking placement continues the volumetric structure of the neighboring care center and defines spatially precise outdoor spaces.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "interlocking volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4971,
+            0.5137,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two angled, interlocking volumes are clearly visible in the top and elevation views."
+        }
+      },
+      {
+        "statement": "The sequence of squares serves as a route through the middle of the complex and anchors it in the neighborhood.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "sequence of squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4684,
+            0.3465,
+            0.0625
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor route spaces are approximated through the central gap and surrounding open areas."
+        }
+      },
+      {
+        "statement": "The school building impresses with its rational organization and versatile access areas.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3654,
+            0.5516,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Access zones are approximated along the lower-facing edges of the connected volumes."
+        }
+      },
+      {
+        "statement": "The atrium holds all parts of the organism together and ensures easy orientation within the building.",
+        "tags": [
+          "layout",
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4971,
+            0.5137,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central interlocking gap supports a constrained atrium anchor, though interior space is not explicit."
+        }
+      },
+      {
+        "statement": "The non-load-bearing partition walls ensure maximum flexibility for future adaptations.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "partition walls",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4339,
+            0.5096,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior partitions are not visible; the central building zone provides a constrained system anchor."
+        }
+      },
+      {
+        "statement": "Size, space efficiency and a simple load-bearing structure mean that relatively low construction costs can be expected.",
+        "tags": [
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "simple load-bearing structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4971,
+            0.5137,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The regular two-volume envelope supports an approximate structural anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The canopy connecting the two volumes at an angle calls the tectonic logic of the façades into question.",
+        "tags": [
+          "structure",
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "angled connecting canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4971,
+            0.5137,
+            0.3125
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connector is suggested by the interlocking geometry but not separately resolved."
+        }
+      },
+      {
+        "statement": "The dense tree planting should be more differentiated to ensure permeability to the open storage area.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "dense tree planting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2284,
+            0.6357,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are absent from the sample; a perimeter open-storage edge is used as an approximate anchor."
+        }
+      },
+      {
+        "statement": "The access and bicycle stands have an obscuring effect, disrupting the entrance situation and the schoolyard.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "entrance and bicycle stands",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3412,
+            0.2152,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Specific access fixtures are not visible; the lower-facing schoolyard edge provides a constrained location."
+        }
+      },
+      {
+        "statement": "The connection to the existing building remains unresolved, with clearly visible edges to the terrain.",
+        "tags": [
+          "urban integration",
+          "topography"
+        ],
+        "position": {
+          "target": "existing-building connection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7621,
+            0.4118,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The neighboring connection is not represented; an outer edge is used for the directional interface."
+        }
+      },
+      {
+        "statement": "The atrium's spaciousness and atmosphere are more reminiscent of a technical college than an elementary school.",
+        "tags": [
+          "scale",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "atrium scale and atmosphere",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4971,
+            0.5137,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The same central gap anchors the atrium-scale criticism, without direct interior visibility."
+        }
+      },
+      {
+        "statement": "The façade's expression does not seem appropriate to its use.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "inappropriate facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7259,
+            0.434,
+            0.5625
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The exposed facade treatment is directly visible on the calibrated elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "flexibility",
+      "structure",
+      "cost",
+      "expression"
+    ]
+  }
+}

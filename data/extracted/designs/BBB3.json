@@ -1,0 +1,474 @@
+{
+  "object_description": "parallel classroom wing with stepped volumes linking two site levels",
+  "geometry_property": [
+    "parallel",
+    "stepped",
+    "terraced",
+    "level-bridging",
+    "linear",
+    "courtyard-forming",
+    "spacious"
+  ],
+  "design_condition": "A classroom wing parallel to the street forms a respectful lateral edge, connects the upper and lower levels, and creates an esplanade and sequence of open spaces between the existing buildings and the surrounding landscape.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The placement creates an esplanade with a view of the expansive landscape.",
+        "tags": [
+          "open space",
+          "visibility",
+          "landscape"
+        ],
+        "position": {
+          "target": "esplanade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4325,
+            0.5015,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The broad open strip beside the parallel wing is clearly visible in plan."
+        }
+      },
+      {
+        "statement": "The staircase-like classroom arrangement creates a natural transition to the lower-level uses.",
+        "tags": [
+          "massing",
+          "topography",
+          "layout"
+        ],
+        "position": {
+          "target": "staircase-like classroom arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5621,
+            0.6762,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped massing and changing levels are visible along the principal classroom wing."
+        }
+      },
+      {
+        "statement": "The classroom wing oscillates interestingly between building structure and designed landscape, giving the complex surprising spaciousness.",
+        "tags": [
+          "massing",
+          "landscape",
+          "scale"
+        ],
+        "position": {
+          "target": "classroom wing and designed landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5249,
+            0.7253,
+            0.4
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The linear wing visibly alternates with open landscape, producing a spacious edge condition."
+        }
+      },
+      {
+        "statement": "The outdoor spaces provide break areas, outdoor classrooms, and a grandstand for varied activities.",
+        "tags": [
+          "open space",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "break areas, outdoor classrooms, and grandstand",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5279,
+            0.5275,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor activity spaces are anchored in the open zone between the wing and surrounding volumes."
+        }
+      },
+      {
+        "statement": "The open-space design impresses with clear zoning and differentiation in close dialogue with the school rooms.",
+        "tags": [
+          "landscape",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "open-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4597,
+            0.5089,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct open zones are visible around the linear building and connecting level changes."
+        }
+      },
+      {
+        "statement": "The various paths and shortcuts create a high degree of permeability.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "various paths and shortcuts",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3916,
+            0.4903,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The circulation anchor follows the open-space sequence alongside and across the wing."
+        }
+      },
+      {
+        "statement": "The positioning of the new building volumes is very harmonious and respectful toward the existing buildings.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "new building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5621,
+            0.6762,
+            0.4
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The parallel stepped volumes are clearly separated and respectfully positioned in the model."
+        }
+      },
+      {
+        "statement": "The design naturally connects the different levels and gives the complex vision and spaciousness.",
+        "tags": [
+          "topography",
+          "visibility",
+          "scale"
+        ],
+        "position": {
+          "target": "different levels",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5477,
+            0.6953,
+            0.3
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Elevation views show the wing bridging visibly different horizontal levels."
+        }
+      },
+      {
+        "statement": "The project generates its identity from the location.",
+        "tags": [
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "complex identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5559,
+            0.6844,
+            0.4
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The distinctive parallel, stepped placement provides the model anchor for location-derived identity."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The rows of trees on the upper level and the street space are not convincing.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "rows of trees and street space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3946,
+            0.8972,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The upper street-facing edge is used to approximate the criticized trees and street space."
+        }
+      },
+      {
+        "statement": "The division of the childcare rooms over three storeys is not convincing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "childcare rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7288,
+            0.599,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Childcare rooms are approximated within the upper portion of the stepped building."
+        }
+      },
+      {
+        "statement": "Long, narrow, and dark corridors connect the rooms, while the small studio zones degenerate into work niches.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "long narrow corridors and studio zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5869,
+            0.6435,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is placed along the elongated classroom wing, where its narrowness is implied."
+        }
+      },
+      {
+        "statement": "The outdoor play areas directly in front of the classrooms are not ideal.",
+        "tags": [
+          "layout",
+          "functionality",
+          "privacy"
+        ],
+        "position": {
+          "target": "outdoor play areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6232,
+            0.5536,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Play areas are approximated directly along the classroom-facing open edge."
+        }
+      },
+      {
+        "statement": "The classroom organization considerably restricts usability, and flexibility between rooms, group rooms, and studio areas is impaired.",
+        "tags": [
+          "functionality",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "classroom organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5869,
+            0.6435,
+            0.4
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The classroom organization is anchored to the principal stepped wing."
+        }
+      },
+      {
+        "statement": "The spatial and architectural relationship between the childcare building and classroom wing remains unclear.",
+        "tags": [
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "childcare building and classroom wing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7424,
+            0.6027,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The relationship is approximated between the visible linear wing and adjacent volume."
+        }
+      },
+      {
+        "statement": "The exclusive north orientation of the classrooms is viewed critically because the canopy further reduces incoming light.",
+        "tags": [
+          "daylight",
+          "orientation",
+          "facade"
+        ],
+        "position": {
+          "target": "north-oriented classrooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6437,
+            0.9702,
+            0.4
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north-facing edge of the classroom wing is constrained by the stated orientation."
+        }
+      },
+      {
+        "statement": "The chosen spacing of the gymnasium ceiling beams seems too large, and the bracing concept is not clearly shown.",
+        "tags": [
+          "structure",
+          "proportion"
+        ],
+        "position": {
+          "target": "gymnasium ceiling beams",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2425,
+            0.2086,
+            0.1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gymnasium is approximated in the low embedded volume; beams are not individually distinguishable."
+        }
+      }
+    ],
+    "keyword": [
+      "topography",
+      "massing",
+      "landscape",
+      "open space",
+      "circulation",
+      "layout",
+      "functionality",
+      "flexibility",
+      "daylight",
+      "structure"
+    ]
+  }
+}

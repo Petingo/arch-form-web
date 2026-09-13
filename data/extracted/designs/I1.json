@@ -1,0 +1,403 @@
+{
+  "object_description": "large horizontally positioned three-story building volume",
+  "geometry_property": [
+    "large",
+    "horizontal",
+    "three-story",
+    "compact",
+    "offset",
+    "half-sunken",
+    "grid-based"
+  ],
+  "design_condition": "The building occupies the northeast corner of the plot, creating a generous outdoor space between existing buildings and the new volume, with the gymnasium half-sunken and school-specific outdoor spaces distributed on upper floors.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The proposed spatial figure allows great flexibility and creates interesting educational possibilities.",
+        "tags": [
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "spatial figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5745,
+            0.3931,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact offset figure and multiple levels are clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The open and very flexible learning landscape has an additional surprising spatial quality through its two-story outdoor areas.",
+        "tags": [
+          "layout",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "learning landscape and two-story outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6223,
+            0.4087,
+            0.7093
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-floor outdoor voids are visible as interruptions within the building footprint."
+        }
+      },
+      {
+        "statement": "All uses are arranged sensibly and are well lit despite the depth of the building.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "all uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6011,
+            0.4138,
+            0.6
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Whole-building organization and lighting judgment is placed across the deep volume."
+        }
+      },
+      {
+        "statement": "The surrounding escape balconies allow completely free use of the spacious inner halls.",
+        "tags": [
+          "flexibility",
+          "safety"
+        ],
+        "position": {
+          "target": "escape balconies",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5473,
+            0.2243,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Balcony bands are represented along the visible exterior perimeter."
+        }
+      },
+      {
+        "statement": "The regular support grid allows great flexibility.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "regular support grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5745,
+            0.3931,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural comment is anchored across the regularized building envelope."
+        }
+      },
+      {
+        "statement": "The sophisticated overall complex is impressive and its spatial and architectural workmanship is exemplary.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "overall complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5745,
+            0.3931,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall workmanship judgment concerns the complete visible building complex."
+        }
+      },
+      {
+        "statement": "The clarity of the setting and moderate height development allow a relaxed coexistence of existing and new buildings.",
+        "tags": [
+          "urban integration",
+          "scale"
+        ],
+        "position": {
+          "target": "existing and new buildings coexistence",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2768,
+            0.7291,
+            0.3
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Site relationship is placed beside the northeast building volume and adjacent outdoor space."
+        }
+      },
+      {
+        "statement": "The architectural expression appropriately combines the new building with the existing buildings and forms a harmonious contemporary complex.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5473,
+            0.2243,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Expression comment is anchored to the coherent perimeter facades."
+        }
+      },
+      {
+        "statement": "The ensemble has the potential to become identity-forming with high educational added value.",
+        "tags": [
+          "identity",
+          "functionality"
+        ],
+        "position": {
+          "target": "identity-forming ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5745,
+            0.3931,
+            0.6
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Identity judgment applies to the complete educational ensemble."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The inner corner situations are critically discussed regarding daylight.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "inner corner situations",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6411,
+            0.4449,
+            0.6
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Recessed corners are identifiable where the offset upper volumes meet."
+        }
+      },
+      {
+        "statement": "The position and dimension of the buvette seem too important in the overall context.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "buvette",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2651,
+            0.6049,
+            0.4
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Small service element is approximated within the lower central building zone."
+        }
+      },
+      {
+        "statement": "The large building form creates some unusable remaining areas.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "large building form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6411,
+            0.4449,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Remaining-area criticism concerns the broad compact building footprint."
+        }
+      },
+      {
+        "statement": "The spaciousness of the break area is diminished by the many play and sports facilities.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4946,
+            0.3309,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Break-area concern is anchored to the central interior-facing portion of the complex."
+        }
+      },
+      {
+        "statement": "An overarching, clearly legible open-space concept with adequate information about vegetation is missing.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "open-space concept and vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3021,
+            0.2681,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape criticism is assigned to the generous outdoor space beside the northeast building."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "flexibility",
+      "learning landscape",
+      "daylight",
+      "open space",
+      "landscape",
+      "structure",
+      "urban integration",
+      "scale",
+      "identity"
+    ]
+  }
+}

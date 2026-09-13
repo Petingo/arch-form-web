@@ -1,0 +1,326 @@
+{
+  "object_description": "flat angular solitary volume between existing school buildings",
+  "geometry_property": [
+    "flat",
+    "angular",
+    "solitary",
+    "set-back",
+    "large-footprint",
+    "partly sunken",
+    "compact"
+  ],
+  "design_condition": "The volume is placed between the existing buildings and slightly set back to form a forecourt, but it divides the formerly continuous outdoor space and weakens the site's external clarity.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building's height fits well into the existing situation and the setback creates an appropriate forecourt.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "open space"
+        ],
+        "position": {
+          "target": "forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5142,
+            0.0863,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The set-back volume leaves a visible open forecourt along its south-facing approach."
+        }
+      },
+      {
+        "statement": "The forecourt forms the functional and spatial focus of the complex.",
+        "tags": [
+          "circulation",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.1007,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The angular footprint visibly establishes a concentrated open space at its southern front."
+        }
+      },
+      {
+        "statement": "The classroom floor has great potential in its layout, including an interesting learning landscape and a light-filled atrium.",
+        "tags": [
+          "layout",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "classroom floor and atrium",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7237,
+            0.6895,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central plan region provides the most plausible surface anchor for the classroom layout and atrium."
+        }
+      },
+      {
+        "statement": "The underground sports hall is compact and functionally connected to the existing building.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "massing"
+        ],
+        "position": {
+          "target": "underground sports hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5909,
+            0.1295,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower-level anchor is placed near the compact volume's south-side connection zone."
+        }
+      },
+      {
+        "statement": "The project's compactness meets the target costs and suggests economical realization.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost performance and economical realization apply to the project as a whole."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The placement divides the contiguous outdoor space, while the additional ball court weakens the external clarity of the facility.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "layout"
+        ],
+        "position": {
+          "target": "contiguous outdoor space and ball court",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2518,
+            0.0911,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The south-west exterior edge is the plausible sampled surface anchor for disrupted outdoor space."
+        }
+      },
+      {
+        "statement": "The uniform facade does not engage in a sufficiently differentiated dialogue with the historic buildings.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "uniform facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1456,
+            0.5713,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled envelope shows a consistently repetitive facade treatment around the angular volume."
+        }
+      },
+      {
+        "statement": "The spatial and structural logic of the entrance hall is unsatisfactory.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5397,
+            0.1007,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance hall is approximated at the forecourt-facing front edge, where access is most plausible."
+        }
+      },
+      {
+        "statement": "The communication corridors are too narrow and lack spatial intention.",
+        "tags": [
+          "circulation",
+          "proportion",
+          "layout"
+        ],
+        "position": {
+          "target": "communication corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7593,
+            0.6481,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central plan band is the plausible surface location for the unshown internal circulation network."
+        }
+      },
+      {
+        "statement": "Some additional usable areas are clearly underprovided compared with the requirements.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "additional usable areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7593,
+            0.6481,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "A distributed upper-east building region represents the underprovided usable-area capacity."
+        }
+      },
+      {
+        "statement": "The requirements of ecological sustainability were barely adhered to.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "ecological sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability adherence is a non-spatial project-wide judgment."
+        }
+      },
+      {
+        "statement": "The presence of the sports hall and its connection to the school building are the project's weak points.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "sports hall connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5909,
+            0.1295,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower south-side connection zone is the plausible anchor for the sports hall weakness."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "layout",
+      "circulation",
+      "facade",
+      "expression",
+      "functionality",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "object_description": "autonomous building volume organized around peripheral passageways",
+  "geometry_property": [
+    "autonomous",
+    "north-south oriented",
+    "platform-based",
+    "centrally dense",
+    "peripheral circulation bands"
+  ],
+  "design_condition": "The volume maintains the existing landscaped continuity while anticipating a future north-south axis and denser network of buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project forcefully develops a flexible and scalable architecture from the specificities of academic space.",
+        "tags": [
+          "flexibility",
+          "massing",
+          "layout"
+        ],
+        "position": {
+          "target": "flexible and scalable architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6657,
+            0.4319,
+            0.7519
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Dense central mass and continuous peripheral bands support a building-scale flexibility judgment."
+        }
+      },
+      {
+        "statement": "Peripheral circulation and informal meeting spaces support exchange, stimulation, and collective learning.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "peripheral circulation and informal meeting spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6657,
+            0.4319,
+            0.7519
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly shows circulation bands surrounding the dense central area."
+        }
+      },
+      {
+        "statement": "The project anticipates future territorial development while remaining effective as an autonomous object.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "flexibility"
+        ],
+        "position": {
+          "target": "future territorial development and autonomous object",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9496,
+            0.5152,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed envelope and concentrated center indicate an autonomous object with territorial expansion capacity."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The proximity of research spaces and practical-work spaces is questionable.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "research and practical-work spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2845,
+            0.5245,
+            0.7519
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior program adjacency is not distinguishable; placement estimates a central working zone."
+        }
+      },
+      {
+        "statement": "The transparency and visibility of the laboratories must be clarified and modulated according to use and operation.",
+        "tags": [
+          "visibility",
+          "operation",
+          "privacy"
+        ],
+        "position": {
+          "target": "laboratory transparency and visibility",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4134,
+            0.0219,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Laboratories are not identifiable; estimate uses a south-west peripheral zone."
+        }
+      },
+      {
+        "statement": "The delivery-access principle, technical premises, and storage provision require clarification or improvement.",
+        "tags": [
+          "operation",
+          "functionality",
+          "accessibility"
+        ],
+        "position": {
+          "target": "delivery access, technical premises, and storage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9496,
+            0.1628,
+            0.1875
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Operational spaces are absent; approximate low-level east-south perimeter access."
+        }
+      },
+      {
+        "statement": "The mechanized glass skin is undesirable in terms of operation, maintenance, and safety.",
+        "tags": [
+          "facade",
+          "operation",
+          "safety"
+        ],
+        "position": {
+          "target": "mechanized glass skin",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9496,
+            0.5152,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "The critique concerns the building envelope, anchored to the visible east facade."
+        }
+      },
+      {
+        "statement": "Light penetration toward study and research areas raises questions despite well-lit and naturally ventilated passageways.",
+        "tags": [
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "light penetration toward study and research areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2845,
+            0.5245,
+            0.7519
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "west"
+          ],
+          "rationale": "Interior daylight performance is unresolved; estimate places affected areas beside peripheral passageways."
+        }
+      },
+      {
+        "statement": "The spans are too large, and the high cost of the passageways calls for optimization.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "large spans and passageway cost",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6657,
+            0.4319,
+            0.7519
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad structural criticism is anchored across the passageway network and central volume."
+        }
+      }
+    ],
+    "keyword": [
+      "flexibility",
+      "circulation",
+      "layout",
+      "functionality",
+      "visibility",
+      "facade",
+      "daylight",
+      "ventilation",
+      "structure",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "object_description": "long, wide volume with stepped height",
+  "geometry_property": [
+    "elongated",
+    "wide",
+    "bulky",
+    "stepped",
+    "three-story school wing",
+    "single-story end volume",
+    "regularly gridded"
+  ],
+  "design_condition": "The volume is placed alongside the street to divide the plot into assigned outdoor areas and access zones, provide noise protection, and transition from the school complex toward the residential area.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building is cleverly placed and divides the property into long outdoor spaces with clearly assigned functions.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "building and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1916,
+            0.4574,
+            0.3629
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Long building footprint visibly organizes the site into parallel outdoor areas; specific assigned functions are not distinguishable."
+        }
+      },
+      {
+        "statement": "The well-proportioned height gradation reflects the internal organization very nicely.",
+        "tags": [
+          "massing",
+          "proportion",
+          "layout"
+        ],
+        "position": {
+          "target": "height gradation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7659,
+            0.2951,
+            0.5714
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "South elevation clearly shows taller multi-story mass transitioning to a lower end volume."
+        }
+      },
+      {
+        "statement": "The entrance hall forms an important and attractive multifunctional hub with independent access to the school and gymnasium.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4562,
+            0,
+            0.2143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance function is not identifiable, so the marker is constrained to the likely south-facing access zone."
+        }
+      },
+      {
+        "statement": "The spacious staircase is well lit, attractively located, and serves as orientation for children.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "accessibility"
+        ],
+        "position": {
+          "target": "spacious staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4323,
+            0,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The staircase is not distinguishable externally; placement uses a central south-facing circulation zone."
+        }
+      },
+      {
+        "statement": "The delivery area and right of way are well separated for operational reasons.",
+        "tags": [
+          "operation",
+          "circulation",
+          "safety"
+        ],
+        "position": {
+          "target": "delivery area and right of way",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.1864,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Operational access is approximated along the separated eastern end of the elongated site edge."
+        }
+      },
+      {
+        "statement": "The contribution has a very simple and intelligent organization and creates outdoor spaces with versatile references.",
+        "tags": [
+          "layout",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7659,
+            0.6383,
+            0.3629
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "The long footprint and adjacent open strips are visible, while versatile references remain non-specific."
+        }
+      },
+      {
+        "statement": "The target construction costs are adhered to.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "target construction costs",
+          "spatial_scope": "site",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost adherence is a non-spatial judgment without a model location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building appears somewhat bulky because of its dimensions.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1916,
+            0.5126,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The elongated, wide envelope and stepped massing are directly visible across the calibrated views."
+        }
+      },
+      {
+        "statement": "The separated open space is subject to great usage pressure, while the roof gardens fail to convince.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "separated open space and roof gardens",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5809,
+            0.5878,
+            0.8571
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open-space separation is visible, but roof gardens are not individually distinguishable in the sampled geometry."
+        }
+      },
+      {
+        "statement": "The geographical and topographical separation has a divisive rather than inclusive effect on learning, play, and nature.",
+        "tags": [
+          "topography",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "geographical and topographical separation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2449,
+            0,
+            0.1429
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The marker represents a plausible separated site edge; terrain distinctions are not directly modeled."
+        }
+      },
+      {
+        "statement": "The indicated railing does not answer the safety questions raised by elevated outdoor spaces for children with varied disabilities.",
+        "tags": [
+          "safety",
+          "accessibility"
+        ],
+        "position": {
+          "target": "railing at elevated outdoor spaces",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7659,
+            0,
+            0.6371
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A railing is not identifiable, so placement follows the likely south-facing elevated outdoor edge."
+        }
+      },
+      {
+        "statement": "The regular facade grid and powerful floor-to-ceiling glazing recall modern office buildings and do not correspond to the desired school scale.",
+        "tags": [
+          "facade",
+          "expression",
+          "scale"
+        ],
+        "position": {
+          "target": "regular facade grid and floor-to-ceiling glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5809,
+            0,
+            0.5714
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular horizontal and vertical point rows visibly define the long glazed facade surfaces."
+        }
+      },
+      {
+        "statement": "The classrooms are difficult to furnish or zone for individually supervised small-group lessons.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3442,
+            0,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classroom interiors are absent; the marker approximates a room along the school wing facade."
+        }
+      },
+      {
+        "statement": "The high proportion of glass and low storage mass make the energy and building-envelope concept unconvincing.",
+        "tags": [
+          "sustainability",
+          "facade"
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5809,
+            0.0452,
+            0.6429
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Glazing concentration is visible on the envelope, while storage mass and energy performance are not."
+        }
+      },
+      {
+        "statement": "The technology concept leaves essential questions unanswered, creating doubts about achieving the required energy standard.",
+        "tags": [
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1916,
+            0.5126,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The system is not represented distinctly; the marker is a distributed approximation within the main volume."
+        }
+      },
+      {
+        "statement": "The circulation zones can produce very long paths to the toilets.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "circulation zones to toilets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7659,
+            0.069,
+            0.4286
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is not visible; the estimate follows the elongated south-facing circulation route."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "layout",
+      "open space",
+      "landscape",
+      "circulation",
+      "safety",
+      "facade",
+      "functionality",
+      "sustainability"
+    ]
+  }
+}

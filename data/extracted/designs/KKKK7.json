@@ -1,0 +1,370 @@
+{
+  "object_description": "two deep pavilion volumes on basement plinths",
+  "geometry_property": [
+    "two-part",
+    "pavilion-like",
+    "deep",
+    "two-story",
+    "basement-set",
+    "compact",
+    "plinth-based"
+  ],
+  "design_condition": "Two compact pavilions are placed along a newly defined promenade and integrated into the natural slope, while their depth and adjacent development create spatial narrowness.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two buildings have high architectural quality and beautifully structured, attractive facades.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "two building facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6459,
+            0.2436,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct pavilion edges and repeated facade lines are visible across the top and elevation views."
+        }
+      },
+      {
+        "statement": "The pavilions are compact and organized with short paths.",
+        "tags": [
+          "massing",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact pavilions and short paths",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6537,
+            0.2774,
+            0.375
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two compact footprints and their narrow separation are clearly identifiable in the top view."
+        }
+      },
+      {
+        "statement": "The school and sports building is well structured.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school and sports building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6537,
+            0.2774,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The larger pavilion provides the plausible anchor for the combined school and sports volume."
+        }
+      },
+      {
+        "statement": "The underground car park is solved efficiently.",
+        "tags": [
+          "cost",
+          "operation"
+        ],
+        "position": {
+          "target": "underground car park",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2761,
+            0.7358,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A subsurface parking area is approximated beneath the separate upper-left pavilion footprint."
+        }
+      },
+      {
+        "statement": "The building structure promises a well-structured scale.",
+        "tags": [
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "building structure and scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6537,
+            0.2774,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall pavilion proportions and repeated level lines support a whole-building scale anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The great depth of the pavilions creates an undesirable spatial narrowness.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "deep pavilions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6537,
+            0.2774,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated pavilion footprints visibly produce substantial depth and narrow intervening space."
+        }
+      },
+      {
+        "statement": "The address formation through the secondary path system remains difficult to understand.",
+        "tags": [
+          "circulation",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "secondary path system",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5113,
+            0.1998,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The access relationship is approximated along the open southern edge between pavilion masses."
+        }
+      },
+      {
+        "statement": "The clinic is largely separated from the park surroundings, limiting its open spaces and terraces.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "clinic and park surroundings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7394,
+            0.0855,
+            0.125
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space limitation is anchored immediately south of the larger pavilion footprint."
+        }
+      },
+      {
+        "statement": "The balconies in front of patient rooms could create operational conflicts and are therefore unthinkable.",
+        "tags": [
+          "operation",
+          "safety",
+          "privacy"
+        ],
+        "position": {
+          "target": "balconies at patient rooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8188,
+            0.2284,
+            0.625
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Patient-room balconies are not distinct, so the upper facade of the larger pavilion is used."
+        }
+      },
+      {
+        "statement": "The clinic's long access area is unattractive and divides the building into two parts.",
+        "tags": [
+          "circulation",
+          "layout",
+          "expression"
+        ],
+        "position": {
+          "target": "long access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6537,
+            0.2774,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The long internal division is approximated along the larger pavilion's longitudinal axis."
+        }
+      },
+      {
+        "statement": "The overall spatial effect is too introverted, with outside spaces that are too limited.",
+        "tags": [
+          "open space",
+          "visibility",
+          "layout"
+        ],
+        "position": {
+          "target": "outside spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4999,
+            0.2055,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Limited exterior space is represented in the narrow open zone south of the pavilions."
+        }
+      },
+      {
+        "statement": "The individual stations remain spatially confusing, making operation considerably more difficult.",
+        "tags": [
+          "layout",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "individual stations",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6614,
+            0.311,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Station layout is not resolved externally; the larger pavilion interior is a constrained approximation."
+        }
+      },
+      {
+        "statement": "The building structure conflicts somewhat with a calm spatial effect.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "building structure and calm spatial effect",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6537,
+            0.2774,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The two-part massing and deep footprint provide the visible whole-building anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "circulation",
+      "open space",
+      "landscape",
+      "operation",
+      "layout",
+      "expression"
+    ]
+  }
+}

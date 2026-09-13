@@ -1,0 +1,284 @@
+{
+  "object_description": "bent multi-storey building complex forming an urban front",
+  "geometry_property": [
+    "bent",
+    "multi-storey",
+    "complex",
+    "setback",
+    "arcaded",
+    "roofed",
+    "large-volume"
+  ],
+  "design_condition": "The new complex occupies the convergence of two urban fabrics, defines street edges, bends toward the public square, and uses a setback to moderate its scale in the historic surroundings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The new volume makes a significant urban-development contribution, defines clear street boundaries, and strongly connects to the public square.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "new volume and street boundaries",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.441,
+            0.916,
+            0.5667
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The bent large-volume footprint and continuous elevations visibly define an urban front."
+        }
+      },
+      {
+        "statement": "The bent façade acts as an invitation to public space and restores an urban front.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "bent facade and public space",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5239,
+            0.9246,
+            0.4833
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad northern bend forms the visible edge facing the open side of the plan."
+        }
+      },
+      {
+        "statement": "The setback softens the building’s scale and approaches the small-scale proportions and heights of the historic fabric.",
+        "tags": [
+          "scale",
+          "proportion",
+          "urban integration"
+        ],
+        "position": {
+          "target": "setback",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8415,
+            0.6807,
+            0.7167
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The stepped eastern side visibly recedes within the bent footprint and tall elevations."
+        }
+      },
+      {
+        "statement": "The new spacious areas can react flexibly to changing uses.",
+        "tags": [
+          "flexibility",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "spacious areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1357,
+            0.505,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior flexibility is unshown; the anchor occupies a broad central zone within the sampled complex."
+        }
+      },
+      {
+        "statement": "The operational concept is interesting and would work.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "operational concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational performance is assessed globally without a specific geometric referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central access core is obscured by the differing heights between the existing and new buildings.",
+        "tags": [
+          "circulation",
+          "layout",
+          "massing"
+        ],
+        "position": {
+          "target": "central access core",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7357,
+            0.3555,
+            0.5667
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central bend suggests the access interface, though no core is explicitly distinguishable."
+        }
+      },
+      {
+        "statement": "The interface between the buildings is unconvincing because the new volume rises substantially above the existing eaves.",
+        "tags": [
+          "massing",
+          "proportion",
+          "urban integration"
+        ],
+        "position": {
+          "target": "interface between existing and new buildings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.359,
+            0.7223,
+            0.9667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The interface is approximated along the upper-left junction of the bent sampled masses."
+        }
+      },
+      {
+        "statement": "The intervention is not sufficiently sensitive to the protected old building and isolates its central staircase from natural light and new relationships.",
+        "tags": [
+          "urban integration",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "protected old building and central staircase",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2172,
+            0.3444,
+            0.4833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Existing fabric and staircase are not distinguishable; the marker uses the western lower mass."
+        }
+      },
+      {
+        "statement": "The height development is hardly compatible with the urban context and the market-square setting.",
+        "tags": [
+          "scale",
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "height development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8536,
+            0.4855,
+            0.7833
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Dense elevations clearly show substantial multi-storey height across the bent complex."
+        }
+      },
+      {
+        "statement": "The expected construction costs are significantly above average.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost is a non-spatial judgment without a model location."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "proportion",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

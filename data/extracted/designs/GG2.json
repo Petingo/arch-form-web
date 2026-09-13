@@ -1,0 +1,247 @@
+{
+  "object_description": "two articulated volumes with a low teaching wing and compact research block",
+  "geometry_property": [
+    "two-part",
+    "articulated",
+    "low-rise",
+    "compact",
+    "partly buried",
+    "patio-open"
+  ],
+  "design_condition": "The two volumes attach to surrounding buildings and metropolitan routes, forming connected low squares while limiting excavation through partially buried basements.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project resolves a complex built context with remarkable mastery, authority, and formal economy.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "complex built context",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.623,
+            0.4913,
+            0.5292
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two compact volumes visibly negotiate a broad surrounding context."
+        }
+      },
+      {
+        "statement": "The composition in two articulated volumes synthesizes the program and the site with great precision.",
+        "tags": [
+          "massing",
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two articulated volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.623,
+            0.4913,
+            0.5292
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevations clearly distinguish the low wing from the compact research block."
+        }
+      },
+      {
+        "statement": "The airy plan places spaces for meetings at the intersection of research and teaching.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "meeting spaces at research-teaching intersection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4905,
+            0.5405,
+            0.3527
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The connector between articulated volumes is the plausible meeting-space intersection."
+        }
+      },
+      {
+        "statement": "The patios provide satisfactory daylight and natural ventilation in the lower volume.",
+        "tags": [
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "patios in lower volume",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2232,
+            0.5405,
+            0.1762
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view shows patio-like openings in the low volume, with elevations confirming the lower level."
+        }
+      },
+      {
+        "statement": "The construction is economical and the structural spans are reasonable.",
+        "tags": [
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "economical construction and reasonable spans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5514,
+            0.5405,
+            0.5292
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural and economic assessment is anchored across the compact two-volume configuration."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "Corridors in the compact research volume lack natural lighting.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "corridors in compact research volume",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.623,
+            0.4913,
+            0.5292
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The compact research block is visible on the east side; corridors are inferred internally."
+        }
+      },
+      {
+        "statement": "The excessively glazed facades and active slabs limit possibilities of reconversion.",
+        "tags": [
+          "facade",
+          "flexibility"
+        ],
+        "position": {
+          "target": "excessively glazed facades and active slabs",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.623,
+            0.1903,
+            0.5292
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Envelope criticism is anchored to the compact block’s visible east-south exterior."
+        }
+      },
+      {
+        "statement": "Some requested areas do not appear on the plans despite slightly excessive floor areas.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "requested areas absent from plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3043,
+            0.5405,
+            0.2939
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Missing program cannot be seen; estimate is placed within the lower teaching volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "functionality",
+      "daylight",
+      "ventilation",
+      "facade",
+      "flexibility",
+      "structure",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,437 @@
+{
+  "object_description": "compact symmetrical school volume with glazed façades and atriums",
+  "geometry_property": [
+    "compact",
+    "symmetrical",
+    "large-volume",
+    "glazed",
+    "atrium-lit",
+    "corner-positioned"
+  ],
+  "design_condition": "The compact replacement building is placed at the north-eastern edge facing the demolished structure, preserving the existing outdoor spaces and views while creating a new address along the access path.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The clear presence along the access path creates a new address for the school.",
+        "tags": [
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "new address along access path",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8257,
+            0.8179,
+            0.1006
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Northeastern building edge provides the most plausible visible address beside the access approach."
+        }
+      },
+      {
+        "statement": "The concentration on a new building at the north-eastern end of the perimeter is correct.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "north-eastern building concentration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8257,
+            0.8179,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view clearly shows a compact mass concentrated toward the northeastern perimeter."
+        }
+      },
+      {
+        "statement": "The symmetrical floor plan and arrangement of the two stairwells are good organizationally and for earthquake safety.",
+        "tags": [
+          "layout",
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "symmetrical floor plan and two stairwells",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5902,
+            0.2102,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Symmetric outer footprint is visible, while stairwell locations require an interior approximation."
+        }
+      },
+      {
+        "statement": "The division into public uses on the first floor and classrooms on the other floors is logical.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "public first floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1452,
+            0.2344,
+            0.1006
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower building band anchors the first-floor use at the visible front portion of the volume."
+        }
+      },
+      {
+        "statement": "The contemporary floor plans largely meet the formulated requirements.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "classrooms on upper floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8693,
+            0.7354,
+            0.6997
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper elevation bands provide a plausible distributed anchor for classroom floors."
+        }
+      },
+      {
+        "statement": "The interventions in the listed pavilion buildings are limited to the bare essentials.",
+        "tags": [
+          "urban integration",
+          "cost"
+        ],
+        "position": {
+          "target": "contemporary floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.277,
+            0.709,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled building supports a broad internal-organization judgment without exposing plan details."
+        }
+      },
+      {
+        "statement": "The new building impresses with its compact construction volume and simple insulation perimeter.",
+        "tags": [
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "listed pavilion interventions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2523,
+            0.6928,
+            0.1006
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Existing pavilions are not distinguishable, so the estimate uses an offset site-edge location."
+        }
+      },
+      {
+        "statement": "The proposal has construction costs in the medium range because of the compact building and selective interventions.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "compact construction volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7137,
+            0.291,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Dense rectangular elevations and a simple perimeter visibly establish the compact volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large volume continues to obstruct views of the forest, leaving the status quo unchanged.",
+        "tags": [
+          "visibility",
+          "massing"
+        ],
+        "position": {
+          "target": "forest views obstructed by large volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8402,
+            0.7904,
+            0.5998
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The substantial upper mass is clearly visible across all elevation views and occupies a broad site footprint."
+        }
+      },
+      {
+        "statement": "The entrance corner is obstructed rather than furnished, and the closed rear façade harms the courtyard quality.",
+        "tags": [
+          "circulation",
+          "open space",
+          "facade"
+        ],
+        "position": {
+          "target": "entrance corner and rear facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7631,
+            0.3233,
+            0.2005
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "An approximate corner and courtyard-facing edge are anchored on the visible perimeter."
+        }
+      },
+      {
+        "statement": "The connection between the new building and the elementary school playground should be critically questioned.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "connection to elementary school playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2178,
+            0.0969,
+            0.1006
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern front edge is the plausible interface for an exterior playground connection."
+        }
+      },
+      {
+        "statement": "The glazed façades are perceived as a foreign body in the existing school complex.",
+        "tags": [
+          "facade",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "glazed facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9855,
+            0.5154,
+            0.5499
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "west",
+            "south",
+            "north"
+          ],
+          "rationale": "Continuous sampled perimeter surfaces support an approximate facade anchor, though glazing is not individually resolved."
+        }
+      },
+      {
+        "statement": "The day-school opening to the south could be more generous for the intended use.",
+        "tags": [
+          "facade",
+          "functionality"
+        ],
+        "position": {
+          "target": "south day-school opening",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5161,
+            0.1617,
+            0.3502
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing elevation constrains the opening to the lower front facade."
+        }
+      },
+      {
+        "statement": "Without additional glass and shading measures, the risk of overheating remains.",
+        "tags": [
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "glass and shading measures",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5902,
+            0.2102,
+            0.6997
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south facade is the most plausible exposed surface for overheating-related glazing concerns."
+        }
+      },
+      {
+        "statement": "The building-technology concept appears rather complex in relation to future district heating and its shortened life cycle.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "building-technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Technology complexity and heating compatibility are not spatially represented in the exterior point cloud."
+        }
+      },
+      {
+        "statement": "The formal response to the existing building fails to recognize its qualities and necessities.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "formal response to existing building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1452,
+            0.2344,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The visible isolated mass supports a broad formal comparison, without representing the existing building."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "visibility",
+      "circulation",
+      "facade",
+      "expression",
+      "layout",
+      "functionality",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

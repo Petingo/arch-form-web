@@ -1,0 +1,395 @@
+{
+  "object_description": "floating two-storey volume on a recessed glazed plinth",
+  "geometry_property": [
+    "rectangular",
+    "two-storey",
+    "floating",
+    "recessed",
+    "glazed plinth",
+    "uniform",
+    "courtyard-perforated"
+  ],
+  "design_condition": "The longitudinal volume follows the avenue, remains detached from the neighboring hall, and uses a recessed glazed base, inner courtyards, and a regular upper structure to integrate into the surrounding buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The simple and clear volume has a calm, natural appearance.",
+        "tags": [
+          "massing",
+          "expression",
+          "proportion"
+        ],
+        "position": {
+          "target": "simple clear volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4992,
+            0.558,
+            0.5556
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Calm rectangular massing is clearly legible in every calibrated view."
+        }
+      },
+      {
+        "statement": "The recessed glazed plinth and projecting upper structure integrate the building equally into the existing structures.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "recessed glazed plinth and projecting upper structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4719,
+            0.028,
+            0.2778
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevations visibly show a recessed base beneath the projecting upper volume."
+        }
+      },
+      {
+        "statement": "The courtyards allow the inner areas to open outward and be naturally lit and ventilated.",
+        "tags": [
+          "daylight",
+          "ventilation",
+          "layout"
+        ],
+        "position": {
+          "target": "courtyards",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4992,
+            0.558,
+            0.5556
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple internal voids are clearly visible in the top view and reflected in elevations."
+        }
+      },
+      {
+        "statement": "The strengthening of the avenues is an important contribution to the discussion of their significance.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "avenues",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4719,
+            0.028,
+            0.0556
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The avenue-facing southern edge is the visible urban landscape anchor."
+        }
+      },
+      {
+        "statement": "The building achieves an unagitated independence and serenity in its heterogeneous surroundings.",
+        "tags": [
+          "identity",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "independent building in heterogeneous surroundings",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns overall contextual identity rather than a single location."
+        }
+      },
+      {
+        "statement": "The library is well and generously accommodated.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "library",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2593,
+            0.5188,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "West-central interior zone provides a plausible library anchor within the regular volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The circumferential visitors' gallery is unnecessary, obstructs play, and is interrupted by escape stairs.",
+        "tags": [
+          "functionality",
+          "safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "circumferential visitors' gallery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4992,
+            0.558,
+            0.5556
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Perimeter circulation is approximated around the visible courtyard-perforated plan."
+        }
+      },
+      {
+        "statement": "The window-opening system permits only minimal opening and insufficient ventilation.",
+        "tags": [
+          "ventilation",
+          "facade"
+        ],
+        "position": {
+          "target": "window-opening system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4832,
+            0,
+            0.6111
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular facade openings are visible, while their opening extent is not distinguishable."
+        }
+      },
+      {
+        "statement": "The huge chaussured areas offer no quality of stay and restrict disabled access.",
+        "tags": [
+          "open space",
+          "accessibility"
+        ],
+        "position": {
+          "target": "chaussured areas and disabled access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2303,
+            0.028,
+            0.0556
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side hardscape is approximated adjacent to the recessed plinth."
+        }
+      },
+      {
+        "statement": "The extra-wide corridors and atriums create restrictive constraints and very long routes.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "corridors and atriums",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4992,
+            0.558,
+            0.5556
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central voids and circulation are approximated from the perforated top plan."
+        }
+      },
+      {
+        "statement": "The horizontal separation prevents other uses from benefiting spatially from the generous central volume.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "central volume",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4992,
+            0.558,
+            0.5556
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central opening and surrounding mass are clearly identifiable in plan and elevations."
+        }
+      },
+      {
+        "statement": "The proposed parking arrangement creates a considerable accident risk during reversing maneuvers.",
+        "tags": [
+          "safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.794,
+            0.028,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-east perimeter is used as a plausible parking and reversing zone."
+        }
+      },
+      {
+        "statement": "The large volumetry, inadequate division of functions, and lack of a natural central recreation area do not convince.",
+        "tags": [
+          "massing",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "large volumetry and recreation area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4992,
+            0.558,
+            0.5556
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall volume is visible; the recreation-area deficiency is approximated centrally."
+        }
+      },
+      {
+        "statement": "The chosen façade design is expected to have above-average costs.",
+        "tags": [
+          "cost",
+          "facade"
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4832,
+            0,
+            0.6111
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular facade system is clearly visible across the elevations."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "expression",
+      "layout",
+      "circulation",
+      "functionality",
+      "open space",
+      "daylight",
+      "ventilation",
+      "cost"
+    ]
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "object_description": "compact stacked sports volume with overlapping halls and staggered roof",
+  "geometry_property": [
+    "compact",
+    "stacked",
+    "overlapping",
+    "parallel",
+    "staggered-roofed",
+    "small-footprint",
+    "three-nave"
+  ],
+  "design_condition": "The small volume is placed behind the existing tree row along the driveway, aligned parallel to the existing hall, and set at a respectful distance from the neighborhood, while producing a south-facing forecourt and large sealed parking areas.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The minimal intervention and small footprint preserve a respectful relationship with the existing situation and neighborhood.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "whole building and neighborhood relationship",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1911,
+            0.1785,
+            0.5
+          ],
+          "radius": 0.3202,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Compact footprint and parallel stacked mass are visible beside a defined south forecourt."
+        }
+      },
+      {
+        "statement": "The staggered roof creates a volumetric relationship with the existing sports hall.",
+        "tags": [
+          "massing",
+          "proportion"
+        ],
+        "position": {
+          "target": "staggered roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5629,
+            0.7,
+            0.9583
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Staggered upper roof lines are clearly visible in top and elevation views."
+        }
+      },
+      {
+        "statement": "The open central nave, lit by skylight strips, has highly valued spatial qualities and flexible potential.",
+        "tags": [
+          "layout",
+          "daylight",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central nave",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6121,
+            0.5304,
+            0.7917
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central longitudinal volume is inferred between the parallel visible hall bands."
+        }
+      },
+      {
+        "statement": "The supporting structure is stringent, carefully designed, and sensibly placed to avoid use restrictions.",
+        "tags": [
+          "structure",
+          "functionality"
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3865,
+            0.4803,
+            0.7917
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated structural point rows are visible across the elevations."
+        }
+      },
+      {
+        "statement": "The project achieves good economic viability through a deep floor area and small building volume.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "economic viability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic judgment has no specific geometric anchor."
+        }
+      },
+      {
+        "statement": "The facade expression is appropriately balanced between restraint and independence.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5022,
+            0.0511,
+            0.5417
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South elevation provides the clearest sampled facade surface for the overall expression."
+        }
+      },
+      {
+        "statement": "The very low glazing proportion results in low maintenance and repair costs.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "low-glazing facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6978,
+            0.0937,
+            0.5417
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Sparse facade point bands visibly support a low-glazing interpretation."
+        }
+      },
+      {
+        "statement": "The extra-high studio with display storage provides an interesting addition to the other school rooms.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "extra-high studio with display storage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5727,
+            0.6661,
+            0.7917
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper-level room is not distinguishable internally, so it is anchored within the taller rear volume."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The extensive homogeneous sealed areas offer little apparent quality of stay.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "sealed parking areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8544,
+            0.1278,
+            0.0417
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side forecourt and adjacent low surface region provide the likely sealed-area anchor."
+        }
+      },
+      {
+        "statement": "The green spaces are too small in the overall context, with insufficient biodiversity and height variation.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1911,
+            0.1785,
+            0.0417
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Small peripheral landscape areas are approximated along the south-west site edge."
+        }
+      },
+      {
+        "statement": "The entrance and external escape staircase are spatially and functionally too modest, with the latter insufficiently dimensioned.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "safety"
+        ],
+        "position": {
+          "target": "entrance and external escape staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2206,
+            0.0768,
+            0.3333
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing access edge is visible, but individual entrance and stair elements are unresolved."
+        }
+      },
+      {
+        "statement": "The open spatial effect of the central nave conflicts with its possible use as storage or a project room.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "central nave storage or project room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6121,
+            0.5304,
+            0.7917
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The same central longitudinal volume anchors the conflicting use assessment."
+        }
+      },
+      {
+        "statement": "Decentralized access produces sometimes long and complicated routes.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "decentralized access routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1125,
+            0.4499,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple visible hall bands suggest distributed circulation, without identifiable interior routes."
+        }
+      },
+      {
+        "statement": "The sports facilities are functional but not very inviting, and athletes must walk around the equipment room to reach the hall.",
+        "tags": [
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "sports facilities and equipment-room route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8919,
+            0.5407,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Hall zone is located within the elongated lower mass; equipment-room routing is not visible."
+        }
+      },
+      {
+        "statement": "The arrangement of staff preparation rooms and cloakrooms is operationally unsatisfactory.",
+        "tags": [
+          "operation",
+          "layout"
+        ],
+        "position": {
+          "target": "staff preparation rooms and cloakrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1518,
+            0.3142,
+            0.2917
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Support spaces are approximated along the lower side of the sampled building mass."
+        }
+      },
+      {
+        "statement": "Large spans create concentrated loads and comparatively complex foundations.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "large-span structure and foundations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1322,
+            0.382,
+            0.2917
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad repeated spans are visible, while foundations remain below the sampled geometry."
+        }
+      },
+      {
+        "statement": "The main entrance lacks seating and shade and does not support its important social meeting function.",
+        "tags": [
+          "circulation",
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "main entrance meeting area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2305,
+            0.0429,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South forecourt edge is the plausible anchor for the entrance social area."
+        }
+      },
+      {
+        "statement": "The exterior design remains schematic and lacks sensitivity in dealing with the neighborhood.",
+        "tags": [
+          "landscape",
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "exterior design and neighborhood interface",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1911,
+            0.1785,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Peripheral south-west site edge represents the unresolved landscape and neighborhood interface."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "scale",
+      "layout",
+      "circulation",
+      "functionality",
+      "structure",
+      "facade",
+      "landscape",
+      "cost"
+    ]
+  }
+}

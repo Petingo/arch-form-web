@@ -1,0 +1,367 @@
+{
+  "object_description": "three coordinated volumes around a central square",
+  "geometry_property": [
+    "multi-volume",
+    "elongated",
+    "compact",
+    "centrally organized",
+    "road-oriented",
+    "garden-oriented"
+  ],
+  "design_condition": "Three volumes are arranged around a central square, with the gym shielding outdoor play areas from the road and the school turned toward the garden and football field.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The multiple volumes convincingly resolve the program, accesses, and external public spaces.",
+        "tags": [
+          "massing",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "multiple volumes and external public spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4565,
+            0.5801,
+            0.125
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Three visible masses organize distinct open areas around a central square."
+        }
+      },
+      {
+        "statement": "The system creates a protected place within the site and avoids a direct relationship between the new school and the football field.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "protected place within the site",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4565,
+            0.5801,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central open space is visibly enclosed by the separated volumes."
+        }
+      },
+      {
+        "statement": "The sober and controlled language is proportionate to the task and helps insert the complex into its historical context.",
+        "tags": [
+          "expression",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "sober controlled architectural language",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4635,
+            0.3047,
+            0.375
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact orthogonal masses and repeated bands support the proportional insertion reading."
+        }
+      },
+      {
+        "statement": "The glass fronts and their exposure are well controlled.",
+        "tags": [
+          "facade",
+          "daylight"
+        ],
+        "position": {
+          "target": "glass fronts",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8184,
+            0.4354,
+            0.5032
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Likely exposed façade edges are approximated along the externally oriented mass boundaries."
+        }
+      },
+      {
+        "statement": "The structural concept is correct.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4678,
+            0.5342,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular horizontal and vertical organization provides indirect structural evidence."
+        }
+      },
+      {
+        "statement": "The modular and elementary structure provides a useful typological system, with generous transition spaces calibrated to the school’s scale.",
+        "tags": [
+          "functionality",
+          "layout",
+          "scale"
+        ],
+        "position": {
+          "target": "transition spaces and modular classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4635,
+            0.3047,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central gaps between classroom-like bars plausibly represent generous transition spaces."
+        }
+      },
+      {
+        "statement": "The separation of functions and the communicating, modular classrooms are appreciated.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "separation of functions and communicating classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4776,
+            0.2575,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated parallel classroom bars visibly separate and connect programmatic zones."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The composition lacks precision and tension, while the outdoor public places remain disconnected and autonomous.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "outdoor public places",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.861,
+            0.2627,
+            0.125
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Peripheral open areas appear separated from the central composition."
+        }
+      },
+      {
+        "statement": "The central reference point may limit the relationships that each building establishes with external spaces.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "central reference point",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4565,
+            0.5801,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central square is clearly visible and anchors the critique of external relationships."
+        }
+      },
+      {
+        "statement": "Closing the gym toward the road is perhaps exaggerated, making it excessively austere and unsuitable for its public function.",
+        "tags": [
+          "expression",
+          "urban integration",
+          "functionality"
+        ],
+        "position": {
+          "target": "gym toward the road",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8249,
+            0.4536,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The exposed outer edge of the likely gym volume provides the road-facing façade anchor."
+        }
+      },
+      {
+        "statement": "The gym roof could possibly be simplified.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "gym roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4313,
+            0.6822,
+            0.875
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distinct upper rectangular volume provides a visible roof footprint."
+        }
+      },
+      {
+        "statement": "The tunnel connecting the classrooms and gym is impractical.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "tunnel connecting classrooms and gym",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4565,
+            0.5801,
+            0.25
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate tunnel location lies between the classroom bars and separated gym mass."
+        }
+      },
+      {
+        "statement": "A single staircase to the ground floor could create problems for all children.",
+        "tags": [
+          "circulation",
+          "accessibility",
+          "safety"
+        ],
+        "position": {
+          "target": "single staircase to ground floor",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2817,
+            0.2798,
+            0.125
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stair location is approximated at the lower access edge of the school bars."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "expression",
+      "facade",
+      "circulation",
+      "functionality",
+      "structure",
+      "cost"
+    ]
+  }
+}

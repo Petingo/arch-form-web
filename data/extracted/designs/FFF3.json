@@ -1,0 +1,436 @@
+{
+  "object_description": "mighty square urban building with arcades, passages, and a roof garden",
+  "geometry_property": [
+    "square",
+    "compact",
+    "solitary",
+    "massive",
+    "arcaded",
+    "cross-shaped passage",
+    "atrium-containing",
+    "roof-gardened"
+  ],
+  "design_condition": "The square solitaire is precisely positioned between the surrounding urban structures, generating an arcade, an old-town square, and a greener arena-like space while retaining the existing church.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The square building is coherently and precisely placed in the urban space.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "square building in urban space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0072,
+            0.1657,
+            0.4992
+          ],
+          "radius": 0.305,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Square massing is visible; urban surroundings constrain the anchor toward the building’s southwest exterior."
+        }
+      },
+      {
+        "statement": "The church remains standing and is naturally integrated beside the main building.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "church beside main building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0072,
+            0.5146,
+            0.4279
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The retained church is not distinguishable; anchored approximately along the building’s western side."
+        }
+      },
+      {
+        "statement": "The outdoor spaces respond precisely to the surrounding streets, old town, and villa gardens.",
+        "tags": [
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "outdoor spaces around streets and gardens",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9928,
+            0.7791,
+            0.1189
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Outdoor context is not separately sampled; northeastern perimeter provides a plausible site-space anchor."
+        }
+      },
+      {
+        "statement": "Despite the building's size and presence, the open spaces appear appropriate and positively urban.",
+        "tags": [
+          "scale",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "urban open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5134,
+            0.074,
+            0.1426
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Perimeter openings and low-level exterior structure are visible along the southern urban edge."
+        }
+      },
+      {
+        "statement": "The interior develops a differentiated sequence of main rooms with guaranteed natural lighting.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "sequence of main rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5012,
+            0.4876,
+            0.4992
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior room sequence is not directly visible; the central-west building zone offers a constrained approximation."
+        }
+      },
+      {
+        "statement": "The auditorium and large teaching rooms implement flexibility and desired spatial relationships very well.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "auditorium and large teaching rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6849,
+            0.5491,
+            0.4517
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Named teaching spaces are indistinguishable; anchored in the central-east sampled building zone."
+        }
+      },
+      {
+        "statement": "Upper-floor spatial references support interdisciplinary exchange and spontaneous encounters.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "upper-floor interdisciplinary spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7464,
+            0.4056,
+            0.737
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper level is constrained by elevation height and placed on the eastern upper building mass."
+        }
+      },
+      {
+        "statement": "The compact volume, efficient technology, and night cooling promise a solid contribution to sustainability.",
+        "tags": [
+          "massing",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact sustainable building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1947,
+            0.0041,
+            0.523
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact square volume is clearly corroborated across top and elevation views; technology performance remains inferred."
+        }
+      },
+      {
+        "statement": "The project has good prerequisites for successful sustainability certification.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "sustainability certification prerequisites",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Certification readiness is an overall performance judgment without a useful spatial referent."
+        }
+      },
+      {
+        "statement": "The expected construction costs remain within specifications.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost compliance is non-spatial and therefore represented without a model location."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "It remains uncertain whether the cross-shaped passage would be accepted and used by the public.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "cross-shaped public passage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5012,
+            0.4876,
+            0.1902
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central cross-shaped void and low-level passage alignments are visible in the top and elevation renders."
+        }
+      },
+      {
+        "statement": "Staged topography severely limits barrier-free permeability.",
+        "tags": [
+          "topography",
+          "accessibility"
+        ],
+        "position": {
+          "target": "barrier-free permeability",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2955,
+            0.074,
+            0.0713
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Staged topography is not explicit; the ground-level southern perimeter is a constrained accessibility anchor."
+        }
+      },
+      {
+        "statement": "The roof areas occupied by photovoltaic systems conflict with the extensive green roofs.",
+        "tags": [
+          "sustainability",
+          "open space"
+        ],
+        "position": {
+          "target": "photovoltaic roof areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7536,
+            0.5549,
+            0.737
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Roof surface is visible from above, but photovoltaic and green-roof systems are not individually distinguishable."
+        }
+      },
+      {
+        "statement": "The urban and architectural language remains too historical for the university's future-oriented self-image.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "historical architectural language",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7212,
+            0.0072,
+            0.5468
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Architectural expression is assigned to the visible southern facade; historical character cannot be isolated geometrically."
+        }
+      },
+      {
+        "statement": "The cleanup stage impaired the differentiation between use and circulation areas, creating unclear spatial structure and fire-protection problems.",
+        "tags": [
+          "layout",
+          "circulation",
+          "fire safety"
+        ],
+        "position": {
+          "target": "unclear use and circulation structure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5012,
+            0.4876,
+            0.2377
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior use, circulation, and fire-protection distinctions are absent; the central passage zone is the closest anchor."
+        }
+      },
+      {
+        "statement": "The architecture and spatial structure are highly specific, contradicting the idea of flexibility.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "specific spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5012,
+            0.4876,
+            0.4992
+          ],
+          "radius": 0.305,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Distinctive square massing, central voids, and passage geometry visibly support a specific overall spatial structure."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "topography",
+      "accessibility",
+      "layout",
+      "flexibility",
+      "expression",
+      "sustainability"
+    ]
+  }
+}

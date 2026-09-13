@@ -1,0 +1,322 @@
+{
+  "object_description": "compact solitary building with projecting side wings",
+  "geometry_property": [
+    "compact",
+    "solitary",
+    "curved",
+    "recessed",
+    "projecting wings",
+    "courtyard-structured",
+    "partly underground",
+    "rational grid"
+  ],
+  "design_condition": "The compact building occupies the southern site, follows the curved track field with lateral recesses, and frames a central boulevard and elevated open space between the campus and residential neighbourhood.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The well-proportioned building figure fits harmoniously into its surroundings.",
+        "tags": [
+          "massing",
+          "proportion",
+          "urban integration"
+        ],
+        "position": {
+          "target": "well-proportioned building figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.511,
+            0.228,
+            0.5
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact building mass is clearly visible across the calibrated plan and elevations."
+        }
+      },
+      {
+        "statement": "The concentration in a single building creates a generous open space in an elevated position.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "elevated open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4868,
+            0.5531,
+            0.8333
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central open zone is approximated above the building’s lower massing."
+        }
+      },
+      {
+        "statement": "The rational grid allows flexible use and future spatial adjustments.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "rational grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5979,
+            0.3879,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated orthogonal point alignments visibly establish a regular structural and planning grid."
+        }
+      },
+      {
+        "statement": "The compact building makes a valuable contribution as a standalone project and through its expansion vision.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "standalone project and expansion vision",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3518,
+            0.2649,
+            0.5
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The solitary compact figure is directly visible; future expansion is not separately represented."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The potential of the open-space setting is not represented in a truly convincing design.",
+        "tags": [
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "open-space setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5979,
+            0.4466,
+            0.75
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open setting is approximated around the central building mass and elevated upper zone."
+        }
+      },
+      {
+        "statement": "The arrangement, materialization, and vegetation information contribute little to atmosphere and diverse usability.",
+        "tags": [
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "arrangement, materialization, and vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2054,
+            0.111,
+            0.0833
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Landscape-related information is not distinguishable, so the estimate uses a peripheral ground-level surface."
+        }
+      },
+      {
+        "statement": "The proposed boulevard sequence has little impact without future extension buildings.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "proposed boulevard sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5125,
+            0.7791,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central longitudinal open zone is used as the approximate boulevard alignment."
+        }
+      },
+      {
+        "statement": "Many classrooms have unfavorable room shapes based on acoustic criteria.",
+        "tags": [
+          "layout",
+          "acoustics"
+        ],
+        "position": {
+          "target": "classrooms with unfavorable room shapes",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5979,
+            0.4466,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior classrooms are absent; a plausible upper-side building surface anchors the room-shape criticism."
+        }
+      },
+      {
+        "statement": "The facade evokes an administrative building rather than a university.",
+        "tags": [
+          "facade",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5003,
+            0,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "A representative outer facade surface is approximated along the front building edge."
+        }
+      },
+      {
+        "statement": "The shading with fabric roller blinds is not optimal and may increase overheating risk.",
+        "tags": [
+          "facade",
+          "daylight",
+          "safety"
+        ],
+        "position": {
+          "target": "fabric roller blinds",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6595,
+            0,
+            0.5833
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Blinds are not identifiable; the marker uses a plausible upper facade surface."
+        }
+      },
+      {
+        "statement": "The foyers without daylight are not very attractive for visitors.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "foyers without daylight",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.511,
+            0.228,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior foyers are not visible; a constrained lower-front interior proxy is placed within the building footprint."
+        }
+      }
+    ],
+    "keyword": [
+      "compactness",
+      "massing",
+      "open space",
+      "landscape",
+      "flexibility",
+      "facade",
+      "identity",
+      "daylight",
+      "acoustics"
+    ]
+  }
+}

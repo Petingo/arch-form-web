@@ -1,0 +1,340 @@
+{
+  "object_description": "three interlocking volumes stepped from six to four storeys",
+  "geometry_property": [
+    "interlocking",
+    "three-part",
+    "stepped",
+    "six-storey",
+    "five-storey",
+    "four-storey",
+    "curved"
+  ],
+  "design_condition": "The ensemble distributes the program among the existing buildings, perimeter basement levels, and a lower new pavilion on the square, preserving the existing building’s presence and enclosing a publicly accessible courtyard.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The ensemble fits well into the scale of the urban-development context.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "urban-development context",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4736,
+            0.5156,
+            0.6176
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped interlocking bodies visibly moderate their combined scale across the sampled mass."
+        }
+      },
+      {
+        "statement": "The three interlinked bodies form a skilfully designed and harmonious group.",
+        "tags": [
+          "massing",
+          "proportion",
+          "expression"
+        ],
+        "position": {
+          "target": "three interlinked bodies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4736,
+            0.5156,
+            0.6765
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top plan and stepped elevations clearly show three overlapping volumes."
+        }
+      },
+      {
+        "statement": "The new building achieves a reserved yet self-confident appearance on the public square.",
+        "tags": [
+          "expression",
+          "identity",
+          "urban integration"
+        ],
+        "position": {
+          "target": "new building on the public square",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7838,
+            0.1374,
+            0.2941
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower eastern/southern portion reads as the reserved pavilion-facing public-square edge."
+        }
+      },
+      {
+        "statement": "The intertwined bodies enclose a publicly accessible courtyard with pleasant proportions and an intimate character.",
+        "tags": [
+          "open space",
+          "proportion",
+          "urban integration"
+        ],
+        "position": {
+          "target": "publicly accessible courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4988,
+            0.4499,
+            0.4118
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The interlocking plan leaves a recognizable central open gap between the sampled bodies."
+        }
+      },
+      {
+        "statement": "The project shows great care and meets contemporary monument-preservation requirements.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "monument-preservation requirements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1018,
+            0.676,
+            0.5882
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Preservation relates to the retained northern-western edge, though historic elements are not distinguishable."
+        }
+      },
+      {
+        "statement": "The structure, building technology, fire protection, and sustainability concepts provide a solid basis.",
+        "tags": [
+          "structure",
+          "fire safety",
+          "sustainability"
+        ],
+        "position": {
+          "target": "structure, building technology, fire protection, and sustainability concepts",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "These systems are evaluated globally without identifiable geometric markers."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The additional façade floors would benefit from cautious differentiation to clarify the sequence of historical periods.",
+        "tags": [
+          "facade",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "additional facade floors",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8097,
+            0.533,
+            0.7941
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped facade bands are most apparent along the taller eastern and southern elevations."
+        }
+      },
+      {
+        "statement": "The horizontal distribution level fulfils its role only to a limited extent, and the path connections are complicated and unclear.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "horizontal distribution level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4736,
+            0.5156,
+            0.5294
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The middle horizontal break is clearly visible across multiple stepped elevations."
+        }
+      },
+      {
+        "statement": "The event, exhibition, and media rooms depend entirely on artificial light.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "event, exhibition, and media rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5701,
+            0.4303,
+            0.2059
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior uses are unshown; the marker samples the lower eastern volume."
+        }
+      },
+      {
+        "statement": "The separation between children’s and adult libraries should be clearer to prevent noise nuisance.",
+        "tags": [
+          "acoustics",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "children's and adult libraries",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.356,
+            0.4901,
+            0.4118
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Separate library zones are not visible; the anchor uses the central interlocking region."
+        }
+      },
+      {
+        "statement": "Delivery works only to a limited extent, while administration requires long employee routes.",
+        "tags": [
+          "operation",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "delivery and administration routes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9581,
+            0.5408,
+            0.3529
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Service and administration are not identifiable; the eastern perimeter is the plausible access-side anchor."
+        }
+      },
+      {
+        "statement": "Barrier-free objectives are achieved only partially.",
+        "tags": [
+          "accessibility"
+        ],
+        "position": {
+          "target": "barrier-free objectives",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Accessibility performance has no specific visible geometric referent."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "proportion",
+      "circulation",
+      "daylight",
+      "functionality",
+      "acoustics",
+      "accessibility"
+    ]
+  }
+}

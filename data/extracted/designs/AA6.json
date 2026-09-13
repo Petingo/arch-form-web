@@ -1,0 +1,449 @@
+{
+  "object_description": "elongated flat two-storey building with a strong vertical façade rhythm",
+  "geometry_property": [
+    "elongated",
+    "flat",
+    "low-rise",
+    "two-storey",
+    "full-footprint",
+    "courtyard-cut",
+    "overhanging",
+    "lamellar"
+  ],
+  "design_condition": "The building occupies nearly the entire above-ground plot along the street, leaving minimal surrounding space; a path cut into the adjacent terrain exposes rooms but divides the break hall from the elementary playground and concentrates traffic at the entrance square.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The elongated flat structure adopts the neighbouring building's eaves height and has a restrained two-storey appearance toward the street.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "elongated flat two-storey structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5169,
+            0.7555,
+            0.375
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The generous entrance provides precise access and makes it easy for everyone to find.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "generous entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3082,
+            0.4335,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The project makes full use of the available floor space while retaining the advantage of a two-storey arrangement.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "available floor space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7062,
+            0.2169,
+            0.75
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The entrance hall and outdoor space in front of it could become a valued recreational area.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor space in front of entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.72,
+            0.37,
+            0.02
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The top view shows a distinct rectangular cut/open zone within the elongated footprint."
+        }
+      },
+      {
+        "statement": "The project has interesting qualities in terms of urban planning and architecture.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "urban planning and architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1488,
+            0.6002,
+            0.375
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The cut in the school path detracts from the otherwise confident handling of the topography and severely separates the break hall from the playground.",
+        "tags": [
+          "topography",
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "cut in the school path",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.72,
+            0.37,
+            0.02
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A distinct rectangular interruption is visible in the building footprint from above."
+        }
+      },
+      {
+        "statement": "Traffic from the underground parking entrance partially impairs the entrance square as a place to spend time.",
+        "tags": [
+          "circulation",
+          "open space",
+          "safety"
+        ],
+        "position": {
+          "target": "underground parking entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6551,
+            0.611,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "The spiral staircase obstructs the hall and restricts its use.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "spiral staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8266,
+            0.0911,
+            0.625
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's element reference."
+        }
+      },
+      {
+        "statement": "Some horizontal circulation areas are sparsely supplied with natural light.",
+        "tags": [
+          "daylight",
+          "circulation"
+        ],
+        "position": {
+          "target": "horizontal circulation areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5207,
+            0.2112,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "The structural starting position is unfavorable and results in high construction costs.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "structural starting position",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6364,
+            0.3906,
+            1
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "The elaborate façade construction and formally forced expression have questionable added value.",
+        "tags": [
+          "facade",
+          "expression",
+          "cost"
+        ],
+        "position": {
+          "target": "elaborate façade construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.62,
+            0.2786,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's facade reference."
+        }
+      },
+      {
+        "statement": "The architectural expression appears somewhat alien in its context.",
+        "tags": [
+          "urban integration",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "architectural expression in context",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5382,
+            0.7332,
+            1
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      },
+      {
+        "statement": "Some rooms are too small for the spatial program, leaving hardly any room for manoeuvre.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "small rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9314,
+            0.322,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The combination of dining, smoking and bicycle access areas is not convincing.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "dining, smoking and bicycle access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9884,
+            0.2342,
+            0.875
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's zone reference."
+        }
+      },
+      {
+        "statement": "Some meeting rooms have little daylight, and almost square classrooms are difficult to use.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "meeting rooms and classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2372,
+            0.9655,
+            0
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's room reference."
+        }
+      },
+      {
+        "statement": "The form factor and building construction relativize the small-volume advantages and produce mediocre cost efficiency.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "form factor and building construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7524,
+            0.2577,
+            1
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated on the sampled model surface from the critique's building reference."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "topography",
+      "circulation",
+      "open space",
+      "daylight",
+      "functionality",
+      "structure",
+      "cost",
+      "expression"
+    ]
+  }
+}

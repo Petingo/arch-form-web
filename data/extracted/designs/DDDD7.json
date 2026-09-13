@@ -1,0 +1,334 @@
+{
+  "object_description": "square compact five-storey volume with recessed ground floor",
+  "geometry_property": [
+    "square",
+    "compact",
+    "five-storey",
+    "recessed-ground-floor",
+    "parapeted-upper-floor",
+    "atrium-centered"
+  ],
+  "design_condition": "The compact volume is precisely positioned along the surrounding building lines, set back from the nearby high-rise, and uses an introverted courtyard while maintaining a deliberate relationship to the street and site boundaries.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project fits the existing situation in terms of urban planning and volume.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "urban planning and volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2125,
+            0.2669,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Square compact volume and recessed base are visible; contextual fit is anchored to the overall building."
+        }
+      },
+      {
+        "statement": "The homely common-room design and interior structuring result in good interior quality and an identity-creating character.",
+        "tags": [
+          "identity",
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "common-room design and interior structuring",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4766,
+            0.5056,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central placement reflects the courtyard-centered organization while interior rooms remain indistinguishable."
+        }
+      },
+      {
+        "statement": "The arrangement of administration and large classrooms on the first floor, with further classrooms above, is practical and functional.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "administration and large classrooms on the first floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7159,
+            0.2506,
+            0.3
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "First-floor program is approximated in the lower elevated band above the recessed ground floor."
+        }
+      },
+      {
+        "statement": "The core-supported slab structure allows the required flexibility in the school and administrative areas.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "core-supported slab structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4766,
+            0.5056,
+            0.55
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Core-supported structure is approximated at the central vertical organization."
+        }
+      },
+      {
+        "statement": "Delivery and access to the bicycle cellar via the eastern courtyard work well.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "eastern courtyard delivery and bicycle-cellar access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9348,
+            0.4841,
+            0.075
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Eastern courtyard edge and low-level access are localized from the top and east elevation."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The inner courtyard is totally introverted and has no references to the outside via the façade.",
+        "tags": [
+          "open space",
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "inner courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4766,
+            0.5056,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The courtyard-centered void is identifiable near the middle of the square footprint."
+        }
+      },
+      {
+        "statement": "Natural lighting on the lower floors is restricted by the narrowing terraces.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "lower floors and narrowing terraces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7093,
+            0.4571,
+            0.225
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Recessed lower bands and terrace setbacks are visible around the building perimeter."
+        }
+      },
+      {
+        "statement": "Locating the cafeteria, media library, and activity room on the attic floor creates long access routes to public-intensive uses.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "attic-floor cafeteria, media library, and activity room",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6585,
+            0.41,
+            0.925
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Attic-floor uses are anchored to the clearly visible upper parapeted volume."
+        }
+      },
+      {
+        "statement": "The basement laboratories' natural lighting may be impaired by the future hospital building's height development.",
+        "tags": [
+          "daylight",
+          "urban integration"
+        ],
+        "position": {
+          "target": "basement laboratories",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.159,
+            0.723,
+            0.05
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Basement laboratories are approximated at a low rear-side location beneath the building."
+        }
+      },
+      {
+        "statement": "Some façade and roof constructions and interior glazing are complex, placing construction costs in the upper segment.",
+        "tags": [
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "façade and roof constructions and interior glazing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7261,
+            0.2564,
+            0.9
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Parapeted roof, façade bands, and glazed exterior surfaces are visible in plan and elevations."
+        }
+      },
+      {
+        "statement": "The introverted building and attic-floor arrangement only partially meet the school's objectives.",
+        "tags": [
+          "functionality",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "introverted building and attic-floor arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5496,
+            0.5467,
+            0.8
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Whole-building criticism is anchored to the courtyard-centered mass and elevated attic volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "facade",
+      "daylight",
+      "circulation",
+      "functionality",
+      "identity",
+      "flexibility",
+      "cost"
+    ]
+  }
+}

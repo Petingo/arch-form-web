@@ -1,0 +1,345 @@
+{
+  "object_description": "two separate volumes of unequal scale on stepped platforms",
+  "geometry_property": [
+    "separate",
+    "unequal",
+    "topography-adapted",
+    "stepped",
+    "half-level",
+    "extendable"
+  ],
+  "design_condition": "Two delicately arranged volumes follow the site's topography through platforms at different levels, preserving views and creating a high plateau and a low plateau linked by a sequence of public spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The scale and delicate arrangement preserve views and allow the complex to become one with the surrounding buildings.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "visibility"
+        ],
+        "position": {
+          "target": "whole complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.457,
+            0.5906,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two unequal volumes and their delicate spacing are visible across the calibrated top and elevation views."
+        }
+      },
+      {
+        "statement": "The integration into the existing topography through platforms at different levels is remarkable.",
+        "tags": [
+          "topography",
+          "massing"
+        ],
+        "position": {
+          "target": "high and low platforms",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6801,
+            0.7017,
+            0.8333
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct stepped horizontal levels and unequal platform elevations are visible in plan and all elevations."
+        }
+      },
+      {
+        "statement": "The sequence of public spaces provides a precise and sensitive connection between the different accesses.",
+        "tags": [
+          "circulation",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "sequence of public spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4402,
+            0.5284,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central gap between volumes reads as a connecting sequence of lower public spaces."
+        }
+      },
+      {
+        "statement": "The varied places and outdoor elements encourage different modes of appropriation over time.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "varied places and outdoor elements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.39,
+            0.3417,
+            0.2222
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open areas around the lower volume provide a plausible anchor for varied outdoor appropriation."
+        }
+      },
+      {
+        "statement": "The collaboration between architecture and landscape architecture is highly appreciated.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "architecture and landscape collaboration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8815,
+            0.2177,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape integration is assigned to the open perimeter adjoining the larger stepped volume."
+        }
+      },
+      {
+        "statement": "The classroom storage solution allows flexibility in arranging the rooms.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "classroom storage solution",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8395,
+            0.7849,
+            0.4444
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior storage is not distinguishable, so it is constrained to the larger classroom volume."
+        }
+      },
+      {
+        "statement": "The solutions are simple and coherent, with sustainable materials, low-tech installations, and low topographical impact.",
+        "tags": [
+          "sustainability",
+          "topography",
+          "functionality"
+        ],
+        "position": {
+          "target": "sustainable materials and low-tech installations",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement primarily concerns material, installation, and sustainability performance without a specific location."
+        }
+      },
+      {
+        "statement": "The structural system presents great rationality, particularly in the recovery of vertical loads.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8395,
+            0.7849,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled volumes show overall load-bearing massing, but vertical load paths are not individually identifiable."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The half-levels slightly complicate the structure.",
+        "tags": [
+          "structure",
+          "layout"
+        ],
+        "position": {
+          "target": "half-levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4486,
+            0.5595,
+            0.4444
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped platforms and repeated elevation changes visibly locate the half-level condition."
+        }
+      },
+      {
+        "statement": "The roof valley requires special attention, and the absence of eaves exposes the facade to severe weather stress.",
+        "tags": [
+          "structure",
+          "facade",
+          "safety"
+        ],
+        "position": {
+          "target": "roof valley and exposed facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7017,
+            0.6124,
+            0.8889
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper roof geometry and sloping perimeter are visible around the larger volume."
+        }
+      },
+      {
+        "statement": "The thermal inertia of the classrooms must be checked to avoid summer overheating.",
+        "tags": [
+          "sustainability",
+          "daylight",
+          "ventilation"
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.785,
+            0.8279,
+            0.5556
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom interiors are absent from the sample, so the concern is anchored within the larger volume."
+        }
+      },
+      {
+        "statement": "The stairwell and its extension through the covered courtyards require careful development for fire protection.",
+        "tags": [
+          "fire safety",
+          "structure"
+        ],
+        "position": {
+          "target": "stairwell and covered courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4235,
+            0.4662,
+            0.3333
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connecting zone plausibly contains the stair and covered-courtyard sequence, though neither is distinguishable."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "topography",
+      "massing",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "flexibility",
+      "sustainability",
+      "structure"
+    ]
+  }
+}

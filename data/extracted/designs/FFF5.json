@@ -1,0 +1,294 @@
+{
+  "object_description": "small urban quarter formed by six varied building volumes",
+  "geometry_property": [
+    "fragmented",
+    "six-part composition",
+    "varied forms",
+    "small-scale",
+    "courtyard-based",
+    "glazed",
+    "linear",
+    "public-space-oriented"
+  ],
+  "design_condition": "The fragmented volumes mediate between contrasting urban contexts and the slope through connected squares, transverse alleys, a diagonal stair, tree planting, and a highly sealed northern edge.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The courageous division into small units and public spaces creates a veritable small quarter with intelligent geometry and urban finesse.",
+        "tags": [
+          "massing",
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "small units and public spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4762,
+            0.4508,
+            0.25
+          ],
+          "radius": 0.327,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view shows six fragmented volumes organized around interconnected open spaces."
+        }
+      },
+      {
+        "statement": "The corner square forms an effective hinge between the old town and the campus complex.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "corner square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1463,
+            0.2762,
+            0.0417
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Corner open space is approximated at the outer hinge of the fragmented plan."
+        }
+      },
+      {
+        "statement": "The connected squares and transverse alleys add high-quality public urban open spaces.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "landscape"
+        ],
+        "position": {
+          "target": "connected squares and transverse alleys",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4762,
+            0.4508,
+            0.0417
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view visibly locates linked gaps and passage-like spaces between the volumes."
+        }
+      },
+      {
+        "statement": "The uniform small city within the city ensures the necessary presence through finely nuanced variations.",
+        "tags": [
+          "massing",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "small city within the city",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6093,
+            0.6381,
+            0.375
+          ],
+          "radius": 0.3327,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distributed building masses and varied heights support a broad ensemble anchor."
+        }
+      },
+      {
+        "statement": "The robust, unpretentious support system and large glazing suggest practicality and transparency.",
+        "tags": [
+          "structure",
+          "functionality",
+          "facade"
+        ],
+        "position": {
+          "target": "large glazing and support system",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7917,
+            0.1745,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "A representative exposed facade surface anchors the glazing and structural reading."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The organization of research and teaching is inadequately defined, and flexibility and adaptability lack architectural concreteness.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "research and teaching organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3892,
+            0.5524,
+            0.2917
+          ],
+          "radius": 0.3327,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is not exposed; placement uses the central sampled building region."
+        }
+      },
+      {
+        "statement": "The fragmentation creates extensive circulation space, higher costs, energy losses, and severely limited operational flexibility.",
+        "tags": [
+          "circulation",
+          "cost",
+          "flexibility"
+        ],
+        "position": {
+          "target": "extensive circulation space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3892,
+            0.5524,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Circulation is approximated across the visible gaps separating the fragmented volumes."
+        }
+      },
+      {
+        "statement": "The separation of departments risks isolating them and requires people to cross the street for interaction.",
+        "tags": [
+          "operation",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "separation of departments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2135,
+            0.4508,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Separate sampled masses provide a surface proxy for departmental isolation."
+        }
+      },
+      {
+        "statement": "The basement solves logistical problems but not necessarily interpersonal communication.",
+        "tags": [
+          "operation",
+          "circulation"
+        ],
+        "position": {
+          "target": "basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4762,
+            0.4508,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The basement is below the exterior sample; the marker follows the central ground footprint."
+        }
+      },
+      {
+        "statement": "Heavily occupied roof areas conflict with and impair extensive green roofs.",
+        "tags": [
+          "sustainability",
+          "landscape"
+        ],
+        "position": {
+          "target": "occupied roof areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6093,
+            0.6381,
+            1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view shows roof surfaces distributed across the fragmented building ensemble."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "flexibility",
+      "operation",
+      "cost",
+      "sustainability",
+      "identity"
+    ]
+  }
+}

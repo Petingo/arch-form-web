@@ -1,0 +1,512 @@
+{
+  "object_description": "three offset volumes of varied sizes",
+  "geometry_property": [
+    "three volumes",
+    "offset",
+    "varied scale",
+    "ensemble",
+    "base-and-tower",
+    "open arrangement"
+  ],
+  "design_condition": "Three offset buildings occupy the site depth, open the complex toward the public street, frame differentiated outdoor spaces, and preserve views between the taller volumes.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The positioning of the buildings creates different outdoor spaces.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "different outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5113,
+            0.5434,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three separated footprints visibly create multiple open ground-level spaces."
+        }
+      },
+      {
+        "statement": "The opening toward the public street underlines the public character of the area.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "opening toward the public street",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4885,
+            0.2468,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open lower edge provides the approximate street-facing entrance region."
+        }
+      },
+      {
+        "statement": "The surrounding facade grid and identical materials emphasize the ensemble character.",
+        "tags": [
+          "facade",
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "surrounding facade grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7088,
+            0.5434,
+            0.5714
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Dense repeated elevation points clearly show a consistent facade-grid treatment."
+        }
+      },
+      {
+        "statement": "The two high volumes are spatially offset and allow for views.",
+        "tags": [
+          "massing",
+          "visibility"
+        ],
+        "position": {
+          "target": "two high volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5765,
+            0.7064,
+            0.7857
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two taller rectangular masses are clearly separated and offset in plan and elevation."
+        }
+      },
+      {
+        "statement": "The flexible hard surface is open to the neighborhood street and has potential to become a square.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "flexibility"
+        ],
+        "position": {
+          "target": "flexible hard surface",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4885,
+            0.2468,
+            0.0714
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The broad open ground zone at the lower edge is the likely neighborhood-facing hard surface."
+        }
+      },
+      {
+        "statement": "The classroom units can be opened to one another, which is welcomed by the teaching staff.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classroom units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7088,
+            0.5434,
+            0.5714
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior classrooms are not distinguishable; the anchor follows the main occupied volume."
+        }
+      },
+      {
+        "statement": "The common lounge areas and adaptable room structures allow changes in usage.",
+        "tags": [
+          "layout",
+          "flexibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "common lounge areas and adaptable room structures",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5966,
+            0.5348,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Interior organization is unidentifiable; the marker follows the central occupied region."
+        }
+      },
+      {
+        "statement": "The atriums allow good use of daylight, and the project is economical.",
+        "tags": [
+          "daylight",
+          "cost"
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5966,
+            0.5348,
+            0.5714
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central gaps between visible masses provide the closest approximation for atrium positions."
+        }
+      },
+      {
+        "statement": "The proposal has very good qualities in urban planning, granularity, and scale.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "urban planning, granularity, and scale",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5966,
+            0.4973,
+            0.4286
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The judgment concerns the overall three-volume arrangement and site-scale relationships."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The opportunity to differentiate the central space through the height jump and park wall remains unused.",
+        "tags": [
+          "massing",
+          "open space"
+        ],
+        "position": {
+          "target": "central space and park wall",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5113,
+            0.5434,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central ground void and adjacent perimeter edge are visible, though the height jump is indistinct."
+        }
+      },
+      {
+        "statement": "The outdoor space of the after-school care center is unfortunately located in the access area.",
+        "tags": [
+          "layout",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "after-school care outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4392,
+            0.2468,
+            0.0714
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access-facing ground zone is the plausible approximate location for outdoor care."
+        }
+      },
+      {
+        "statement": "Strong spatial separation makes the playground poorly permeable and not flexibly usable, while no actual park is offered.",
+        "tags": [
+          "open space",
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "playground and park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5607,
+            0.5434,
+            0.0714
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open spaces are visible, but playground permeability and park provision are indistinguishable."
+        }
+      },
+      {
+        "statement": "Independent operation of the after-school care center and kindergarten is not possible.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "after-school care center and kindergarten operation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2238,
+            0.1535,
+            0.4286
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Programmatic separation is not visible; the marker uses the smaller offset volume approximately."
+        }
+      },
+      {
+        "statement": "The access area is only usable to a limited extent because sanitary areas are also located there.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4392,
+            0.2468,
+            0.2143
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The street-facing lower zone approximates the access area, though sanitary placement is hidden."
+        }
+      },
+      {
+        "statement": "The secondary school building is less clearly accessible and structured because of the integration of sports areas.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "secondary school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7088,
+            0.5434,
+            0.5714
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The larger taller volume is the plausible sampled anchor for the secondary school."
+        }
+      },
+      {
+        "statement": "A separate access for the sports areas and swimming pool would be desirable.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "sports areas and swimming pool access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6841,
+            0.5434,
+            0.2857
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sports and pool functions are not identifiable; the marker uses the larger building edge."
+        }
+      },
+      {
+        "statement": "The triple gymnasium is characterized by very long corridors.",
+        "tags": [
+          "circulation",
+          "proportion"
+        ],
+        "position": {
+          "target": "triple gymnasium corridors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6101,
+            0.5434,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Corridors are interior and unrepresented; the anchor follows the likely larger occupied volume."
+        }
+      },
+      {
+        "statement": "The internal organization raises questions regarding access and fire protection.",
+        "tags": [
+          "circulation",
+          "fire safety"
+        ],
+        "position": {
+          "target": "internal organization and fire protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5966,
+            0.5348,
+            0.5714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Internal access and fire-protection organization cannot be distinguished in the exterior point cloud."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "scale",
+      "circulation",
+      "layout",
+      "functionality",
+      "operation",
+      "flexibility",
+      "fire safety"
+    ]
+  }
+}

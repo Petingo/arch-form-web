@@ -1,0 +1,296 @@
+{
+  "object_description": "rectangular volume with helical upper levels around planted patios",
+  "geometry_property": [
+    "rectangular",
+    "compact volume",
+    "two upper levels",
+    "helical arrangement",
+    "central staircase",
+    "planted patios"
+  ],
+  "design_condition": "The rectangular volume occupies a corner of the site, clearly defining a public square and a northeast courtyard that opens toward the river through the gap between neighboring buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project clearly and simply preserves a public square and a courtyard space.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "public square and courtyard space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7441,
+            0.759,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Top view shows patio voids and an open northeast edge; the public square is approximated adjacent to the sampled building surface."
+        }
+      },
+      {
+        "statement": "The ground-floor uses are intelligently arranged in relation to adjacent public spaces.",
+        "tags": [
+          "layout",
+          "urban integration"
+        ],
+        "position": {
+          "target": "ground-floor uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.26,
+            0.2386,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level bands are visible in elevation, with horizontal placement constrained toward the lower-left public-space edge."
+        }
+      },
+      {
+        "statement": "Entrances on three sides ensure correct functioning.",
+        "tags": [
+          "circulation",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrances on three sides",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2043,
+            0.2608,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter geometry supports multiple side access zones, though individual entrance elements are not distinguishable."
+        }
+      },
+      {
+        "statement": "The two upper levels form a small school understandable to children and adapted to their scale.",
+        "tags": [
+          "scale",
+          "layout",
+          "identity"
+        ],
+        "position": {
+          "target": "two upper levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7308,
+            0.3779,
+            0.75
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated upper-level bands are visible across elevations and wrap around the compact upper mass."
+        }
+      },
+      {
+        "statement": "The volume and clear organization of the program provide simple and effective answers.",
+        "tags": [
+          "massing",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6177,
+            0.3824,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Orthographic views clearly show the rectangular volume, stacked levels, and organized overall massing."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The covered courtyard is redundant beside the galleries at the entrances and restaurant.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "covered courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4223,
+            0.4953,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A central patio-like void is visible in top view, while its covered condition is not distinguishable."
+        }
+      },
+      {
+        "statement": "The hall is somewhat narrow and relates indirectly to the courtyard.",
+        "tags": [
+          "circulation",
+          "layout",
+          "proportion"
+        ],
+        "position": {
+          "target": "hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4303,
+            0.5337,
+            0.4375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The hall is interior and unmarked; its location is approximated beside the central courtyard void."
+        }
+      },
+      {
+        "statement": "The quality and relevance of the planted patios in relation to the interior spaces are questioned.",
+        "tags": [
+          "open space",
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "planted patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5061,
+            0.6571,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Two interior patio openings are identifiable in top view and constrained to the ground-level central zone."
+        }
+      },
+      {
+        "statement": "The exterior arrangements receive only summary treatment.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "exterior arrangements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7325,
+            0.111,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Exterior landscape is not separately sampled, so the annotation is placed on an adjacent perimeter region."
+        }
+      },
+      {
+        "statement": "The facades and interior spaces somewhat lack character.",
+        "tags": [
+          "facade",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "facades and interior spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7067,
+            0.3209,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Facades are visible across elevations; interior-space character is approximated within the adjacent building envelope."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "layout",
+      "circulation",
+      "scale",
+      "facade",
+      "expression",
+      "identity"
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+  "object_description": "stately deep three-story volume with a permeable ground floor and broad overhang",
+  "geometry_property": [
+    "three-story",
+    "stately",
+    "deep",
+    "permeable ground floor",
+    "overhanging",
+    "compact"
+  ],
+  "design_condition": "The new volume replaces the old gymnasium between historic buildings, pushes close to their boundary lines, preserves the sports fields through shared northern access, and organizes the outdoor spaces around a porous ground floor.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The permeable ground floor and generous overhang create exciting spatial impressions.",
+        "tags": [
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "permeable ground floor and generous overhang",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4135,
+            0.4028,
+            0.1956
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central footprint and open lower elevations visibly establish the porous base and broad projecting upper volume."
+        }
+      },
+      {
+        "statement": "The shared access to parking and delivery is clever and pragmatic.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "shared access to parking and delivery",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3092,
+            0.8766,
+            0.0296
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern perimeter is the plausible shared access edge, constrained by the stated sports-field access."
+        }
+      },
+      {
+        "statement": "The sectional solution creates a flowing spatial relationship between the entrance hall, lounge, and existing wing.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "entrance hall, lounge, and existing wing relationship",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3707,
+            0.1916,
+            0.3893
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior sectional relationship is approximated near the front-central surface of the sampled volume."
+        }
+      },
+      {
+        "statement": "The forum becomes an identity-forming unique space for the entire school complex.",
+        "tags": [
+          "identity",
+          "layout"
+        ],
+        "position": {
+          "target": "forum",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4135,
+            0.4028,
+            0.1956
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The forum is assigned to the identifiable central organizational area within the compact footprint."
+        }
+      },
+      {
+        "statement": "The prefabricated skeleton creates great flexibility in the spatial structure.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "prefabricated skeleton",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8419,
+            0.2621,
+            0.5553
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Regular sampled point spacing supports a distributed structural-system anchor across the building."
+        }
+      },
+      {
+        "statement": "The compact cluster and studio character create a diverse learning atmosphere that promotes community.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "compact cluster and studio character",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.722,
+            0.7047,
+            0.5553
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Broad central-upper mass represents the compact learning cluster and studio atmosphere."
+        }
+      },
+      {
+        "statement": "The proposal has structural clarity, flexible utility, and high atmospheric qualities.",
+        "tags": [
+          "structure",
+          "flexibility",
+          "expression"
+        ],
+        "position": {
+          "target": "structural clarity, flexible utility, and atmospheric qualities",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8101,
+            0.2311,
+            0.583
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distributed building-level qualities are represented on a broad visible upper-side region."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The deep volume and unfavorable placement of the escape stairs make the spaces between the buildings feel little more than access and lounge areas.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "deep volume and spaces between buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.278,
+            0.2874,
+            0.251
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "An outer interstitial corner represents the criticized spaces between the deep volume and neighboring buildings."
+        }
+      },
+      {
+        "statement": "The support system is exaggerated and affects the small spaces.",
+        "tags": [
+          "structure",
+          "proportion"
+        ],
+        "position": {
+          "target": "exaggerated support system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4135,
+            0.4028,
+            0.1956
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Regular structural points are visible through the central mass, where support scale affects smaller spaces."
+        }
+      },
+      {
+        "statement": "The winding access system with numerous narrow staircases makes orientation difficult.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "winding access system with narrow staircases",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2471,
+            0.3193,
+            0.4723
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal circulation is approximated along the front-central sampled surface; individual staircases are indistinguishable."
+        }
+      },
+      {
+        "statement": "Whether the powerful solitaire can connect the two historic buildings and strengthen the ensemble was controversially discussed.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "powerful solitaire connecting historic buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6293,
+            0.8005,
+            0.6107
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The isolated compact volume is represented broadly toward the rear edge of the sampled building mass."
+        }
+      },
+      {
+        "statement": "The project exceeds the expected target costs.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "expected target costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost performance has no useful geometric referent."
+        }
+      },
+      {
+        "statement": "The ecological requirements can only just about be achieved according to current estimates.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "ecological requirements",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ecological compliance is a non-spatial performance judgment."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "circulation",
+      "layout",
+      "identity",
+      "structure",
+      "flexibility",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

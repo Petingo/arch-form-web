@@ -1,0 +1,317 @@
+{
+  "object_description": "long, three-story building volume",
+  "geometry_property": [
+    "elongated",
+    "three-story",
+    "deep",
+    "recessed base",
+    "regular facade",
+    "staggered"
+  ],
+  "design_condition": "The volume occupies the plot edge, addresses the street, aligns with the existing gymnasium, and shapes differentiated covered and landscaped outdoor spaces around the building.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban-planning setting calmly and precisely clarifies the building’s integration into the city body.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "identity"
+        ],
+        "position": {
+          "target": "building integration into the city body",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5388,
+            0.6473,
+            0.6
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated building mass is visible; urban integration is approximated along its central plot-edge surface."
+        }
+      },
+      {
+        "statement": "The offset ground-floor uses articulate different covered outdoor spaces toward the street and courtyard.",
+        "tags": [
+          "layout",
+          "open space"
+        ],
+        "position": {
+          "target": "offset ground-floor covered outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3947,
+            0.247,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level offset is approximated along the street-facing end and adjacent exterior edge."
+        }
+      },
+      {
+        "statement": "Freely divisible spatial layers offer great spatial flexibility for the classrooms.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "classroom spatial layers",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5587,
+            0.6646,
+            0.6
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classrooms are interior, so the layered upper-middle building volume provides the constrained anchor."
+        }
+      },
+      {
+        "statement": "The corner arrangement enables interesting lighting options across the building corners.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "building corners",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1086,
+            0.109,
+            0.6
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "A distinct lower corner is clearly located in plan and checked against the adjoining elevations."
+        }
+      },
+      {
+        "statement": "The regular facade structure blends the new building with the existing building.",
+        "tags": [
+          "facade",
+          "urban integration"
+        ],
+        "position": {
+          "target": "regular facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.894,
+            0.624,
+            0.6
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated horizontal facade bands are visible on the long elevation and align with the elongated plan."
+        }
+      },
+      {
+        "statement": "The differentiated open spaces are sensitively readable and enhanced in three dimensions.",
+        "tags": [
+          "open space",
+          "landscape",
+          "topography"
+        ],
+        "position": {
+          "target": "differentiated open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3272,
+            0.1341,
+            0.1
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Open-space differentiation is approximated immediately outside the building’s lower street-side edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The entry fails to develop sufficient spatial potential from its urban-development quality.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "entry",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3172,
+            0.1254,
+            0.1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The statement implies a street-facing entry; its precise opening is not distinguishable in the sample."
+        }
+      },
+      {
+        "statement": "The different functions are difficult to integrate into a directed and coherent overall structure.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "coherent overall structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7746,
+            0.52,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Functional integration applies broadly across the elongated building volume, without a separately visible interior structure."
+        }
+      },
+      {
+        "statement": "The hall-like ground-floor plans and classic three-tier layout do not form a precise whole, while the entrances seem random.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "ground-floor plans and entrances",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6281,
+            0.3963,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The critique concerns the whole ground-floor organization; entrances are not individually identifiable."
+        }
+      },
+      {
+        "statement": "The inner hall on the top floor lacks structure and adequate lighting.",
+        "tags": [
+          "layout",
+          "daylight"
+        ],
+        "position": {
+          "target": "inner hall on the top floor",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5783,
+            0.5332,
+            0.9
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The interior hall is absent from exterior points; the top-floor central volume supplies a constrained surface guess."
+        }
+      },
+      {
+        "statement": "The proposed materiality appears somewhat harsh in combination with the terrazzo floors.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "facade materiality",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.688,
+            0.7773,
+            0.6
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "Material character is not encoded, so the long visible facade provides the nearest constrained anchor."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "layout",
+      "flexibility",
+      "open space",
+      "daylight",
+      "circulation",
+      "expression"
+    ]
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "object_description": "two compact buildings with band-like facades interwoven into the campus",
+  "geometry_property": [
+    "paired volumes",
+    "compact",
+    "interwoven",
+    "two- and three-story",
+    "band-facaded",
+    "rectilinear"
+  ],
+  "design_condition": "The two additions are woven into the existing campus, orient their entrances toward a central public space, and structure a sequence of differentiated outdoor areas.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The two new buildings enhance the campus character and are skilfully interwoven with the existing buildings.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "two new buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5384,
+            0.5631,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Paired compact volumes are clearly visible and corroborated across the top and elevation views."
+        }
+      },
+      {
+        "statement": "The entrances are ideally oriented toward the central public space.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "central public space entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5628,
+            0.5726,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central gap between the two volumes provides the most plausible entrance orientation."
+        }
+      },
+      {
+        "statement": "The outdoor surfaces are harmoniously distributed and well proportioned, creating different spatial atmospheres.",
+        "tags": [
+          "open space",
+          "proportion"
+        ],
+        "position": {
+          "target": "outdoor surfaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4645,
+            0.4528,
+            0
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open areas are distributed around and between the two visible building footprints."
+        }
+      },
+      {
+        "statement": "The two-story hall is a surprising architectural added value, while the cascading stairs provide good orientation and visual connections across the floors.",
+        "tags": [
+          "expression",
+          "circulation",
+          "visibility"
+        ],
+        "position": {
+          "target": "two-story hall and cascading stairs",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3967,
+            0.3643,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The larger southwest volume contains the most plausible hall and stair zone, though interiors are indistinguishable."
+        }
+      },
+      {
+        "statement": "Light is an important element of guidance and also serves the hall, while multiple use independent of school operations is recognizable.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3967,
+            0.3643,
+            0.75
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The hall is approximated within the upper portion of the larger visible volume."
+        }
+      },
+      {
+        "statement": "The gymnasium organization is practical and naturally and attractively arranged, with clear routes to the cloakrooms and logically placed equipment rooms.",
+        "tags": [
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "gymnasium organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7031,
+            0.7083,
+            0.2422
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The smaller northeast volume is used as a constrained approximation for the gymnasium."
+        }
+      },
+      {
+        "statement": "The band-like facade design is appropriate, robust, and in phase.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "band-like facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5455,
+            0.5731,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal facade bands are directly visible in the elevation views."
+        }
+      },
+      {
+        "statement": "The structural and operational strategy suggests an ecologically high-quality facility, with costs slightly below the calculated target average.",
+        "tags": [
+          "sustainability",
+          "cost"
+        ],
+        "position": {
+          "target": "structural and operational strategy",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability and cost assessment has no useful spatial referent."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The locations of the kindergartens and gymnasium are doubtful because of excessive mixing with the existing uses.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "kindergartens and gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5628,
+            0.5726,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The critique concerns program mixing across the paired building masses."
+        }
+      },
+      {
+        "statement": "The entrances from the surrounding streets are somewhat poor, one ends in front of the playground, and a southern access to the sports facility is missing.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "surrounding-street entrances and southern sports access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3521,
+            0.2262,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The missing access is anchored to the southern edge and surrounding approach zone."
+        }
+      },
+      {
+        "statement": "The required areas for the sports field and playground are not reached.",
+        "tags": [
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "sports field and playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8076,
+            0.5509,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Required open-space uses are approximated in the exterior area beyond the building footprints."
+        }
+      },
+      {
+        "statement": "The nature-experience room and school garden are valuable, but their distance limits their usefulness for school operations.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "nature-experience room and school garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7874,
+            0.512,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The distant outdoor-program relationship is approximated at the remote southern-east site edge."
+        }
+      },
+      {
+        "statement": "The claim about permeable surfaces is not supported by the plans.",
+        "tags": [
+          "sustainability"
+        ],
+        "position": {
+          "target": "permeable surfaces",
+          "spatial_scope": "site",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The sustainability claim is not tied to a locatable modeled feature."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "circulation",
+      "open space",
+      "layout",
+      "functionality",
+      "daylight",
+      "visibility",
+      "facade",
+      "sustainability"
+    ]
+  }
+}

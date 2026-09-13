@@ -1,0 +1,464 @@
+{
+  "object_description": "single windmill-like building volume",
+  "geometry_property": [
+    "windmill-like",
+    "offset",
+    "asymmetric",
+    "compactly concentrated",
+    "multi-level",
+    "broad footprint"
+  ],
+  "design_condition": "The offset single volume is carefully placed to connect with the district, minimize terrain movement, open future scope along the street, and form varied outdoor spaces around it.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building is cleverly placed, successfully connecting to the district while requiring little terrain movement.",
+        "tags": [
+          "urban integration",
+          "topography"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7131,
+            0.2902,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact asymmetric volume is clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "Concentrating the program in one building opens up scope for future generations along the street.",
+        "tags": [
+          "urban integration",
+          "flexibility",
+          "open space"
+        ],
+        "position": {
+          "target": "street-side future scope",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6308,
+            0.058,
+            0.0585
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Street-related open scope is approximated along the building’s southern edge."
+        }
+      },
+      {
+        "statement": "The pushed-out main usable spaces create a good address supported by the proposed path network.",
+        "tags": [
+          "expression",
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "main usable spaces and path network",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7958,
+            0.3793,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Pushed-out perimeter zones and circulation approach are approximated on the eastern building projection."
+        }
+      },
+      {
+        "statement": "The kaleidoscope of outdoor spaces offers manageable open space for every kindergarten group.",
+        "tags": [
+          "open space",
+          "landscape",
+          "layout"
+        ],
+        "position": {
+          "target": "kindergarten outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1255,
+            0.6225,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view shows multiple articulated outdoor pockets around the irregular footprint."
+        }
+      },
+      {
+        "statement": "The architectural expression is appropriate to the task, recognizable as a public building, and playfully articulated.",
+        "tags": [
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7337,
+            0.3125,
+            0.5552
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The recognizable windmill-like mass and playful articulation are visible throughout the model."
+        }
+      },
+      {
+        "statement": "The structural concept and resulting clear facade structure are convincing.",
+        "tags": [
+          "structure",
+          "facade"
+        ],
+        "position": {
+          "target": "clear facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3054,
+            0.2193,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Facade structure is anchored to the visible southern and western perimeter surfaces."
+        }
+      },
+      {
+        "statement": "All main useful rooms are well lit.",
+        "tags": [
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "main useful rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7958,
+            0.3793,
+            0.7208
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper perimeter zones provide the closest exterior proxy for the referenced rooms."
+        }
+      },
+      {
+        "statement": "The modular structure guarantees great flexibility for future use.",
+        "tags": [
+          "flexibility",
+          "structure"
+        ],
+        "position": {
+          "target": "modular structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5392,
+            0.8599,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "north",
+            "south"
+          ],
+          "rationale": "Regularly distributed sampled points support an approximate structural system anchor."
+        }
+      },
+      {
+        "statement": "The intelligent room arrangement avoids a basement, reducing excavation and vertical traffic while lowering cost and simplifying operations.",
+        "tags": [
+          "layout",
+          "cost",
+          "operation"
+        ],
+        "position": {
+          "target": "room arrangement and circulation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2114,
+            0.2976,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior arrangement is inferred from the compact multi-level envelope and broad footprint."
+        }
+      },
+      {
+        "statement": "The development on both levels optimally separates the kindergarten and day care.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "kindergarten and day care levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8164,
+            0.4015,
+            0.7208
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Two-level development is represented on the upper portion of the sampled volume."
+        }
+      },
+      {
+        "statement": "Opening onto the large playground makes the building an integral part of the existing school complex.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "large playground connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1221,
+            0.7484,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Playground connection is approximated in the open area beside the western footprint."
+        }
+      },
+      {
+        "statement": "The covered entrance zones enable continuous internal operations.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "covered entrance zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7098,
+            0.1678,
+            0.2241
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance zones are approximated at the southeastern projecting edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The building has a relatively large footprint.",
+        "tags": [
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "large footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6662,
+            0.3333,
+            0.2241
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top and elevations clearly show the building’s broad ground coverage."
+        }
+      },
+      {
+        "statement": "The centrally located service core generates dark and unattractive internal traffic areas.",
+        "tags": [
+          "circulation",
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "central service core",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7131,
+            0.2902,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central core is not distinct, so it is placed near the corroborated footprint center."
+        }
+      },
+      {
+        "statement": "The proposal requires a special use plan or exception because it falls below the regular clearance.",
+        "tags": [
+          "urban integration",
+          "safety"
+        ],
+        "position": {
+          "target": "regular clearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8991,
+            0.4906,
+            0.4448
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Clearance issue is approximated along the building’s exposed eastern edge."
+        }
+      },
+      {
+        "statement": "The outdoor space around the building is rather small because of the large footprint.",
+        "tags": [
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "outdoor space around building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1255,
+            0.6225,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view reveals the limited residual open space surrounding the broad footprint."
+        }
+      },
+      {
+        "statement": "The assigned kindergarten gardens offer few diverse play opportunities for day-care children.",
+        "tags": [
+          "landscape",
+          "functionality",
+          "open space"
+        ],
+        "position": {
+          "target": "kindergarten gardens",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.684,
+            0.7391,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Gardens are approximated in the open area adjacent to the northeastern side."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "topography",
+      "open space",
+      "circulation",
+      "daylight",
+      "flexibility",
+      "structure",
+      "cost",
+      "operation"
+    ]
+  }
+}

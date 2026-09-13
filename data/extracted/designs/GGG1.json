@@ -1,0 +1,410 @@
+{
+  "object_description": "moderately scaled two-story glazed volume with sunken sports halls",
+  "geometry_property": [
+    "two-story",
+    "flat-roofed",
+    "moderate-height",
+    "glazed",
+    "partly sunken",
+    "compact",
+    "regular"
+  ],
+  "design_condition": "The volume adopts the existing sports hall’s orientation, keeps a moderate height toward the neighborhood, separates pedestrian and vehicle movement with a green strip, and concentrates parking to the south.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The building is coherently placed in relation to the existing sports hall and its neighborhood.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "scale"
+        ],
+        "position": {
+          "target": "building in relation to existing sports hall and neighborhood",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0877,
+            0.3204,
+            0.5556
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad compact volume is visible; neighborhood relationship constrains the overall placement rather than a distinct element."
+        }
+      },
+      {
+        "statement": "Separating pedestrian and driving traffic improves student safety and access to the existing hall.",
+        "tags": [
+          "circulation",
+          "safety",
+          "accessibility"
+        ],
+        "position": {
+          "target": "pedestrian and driving traffic separation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7652,
+            0.1847,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side access and edge conditions provide the strongest approximation for separated vehicle and pedestrian movement."
+        }
+      },
+      {
+        "statement": "The forecourt, seating arenas, green areas, and shaded northern spaces create extensive outdoor areas with high stay quality.",
+        "tags": [
+          "open space",
+          "landscape",
+          "circulation"
+        ],
+        "position": {
+          "target": "forecourt, seating arenas, green areas, and shaded northern spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6628,
+            0.9472,
+            0.0556
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern perimeter and surrounding footprint suggest the outdoor stay areas, though landscape elements are not individually distinguishable."
+        }
+      },
+      {
+        "statement": "The floor-plan typology is practical and offers potential for a stimulating, flexible learning landscape.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "flexible learning landscape floor-plan typology",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2266,
+            0.8153,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior layout is not exposed; the marker estimates a useful occupied zone within the compact sampled volume."
+        }
+      },
+      {
+        "statement": "Three-sided lighting largely meets the requirement for optimal daylight use in the sports halls.",
+        "tags": [
+          "daylight"
+        ],
+        "position": {
+          "target": "three-sided lighting in sports halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9489,
+            0.5284,
+            0.2778
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Sports-hall lighting is approximated along the upper portions of the visible hall enclosure and side elevations."
+        }
+      },
+      {
+        "statement": "The indicators for profitability are below the average of the projects examined in depth.",
+        "tags": [
+          "cost"
+        ],
+        "position": {
+          "target": "profitability indicators",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Profitability is an unlocated performance judgment without a useful geometric referent."
+        }
+      },
+      {
+        "statement": "Native trees and wild perennials create ecologically valuable biodiverse green spaces.",
+        "tags": [
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "native trees and wild perennial green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1976,
+            0.8065,
+            0.0556
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The marker uses a plausible northern site edge for biodiverse planting described in the statement."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The central parking lot could create conflicts with the neighborhood.",
+        "tags": [
+          "urban integration",
+          "safety"
+        ],
+        "position": {
+          "target": "central parking lot",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6779,
+            0.1584,
+            0.0556
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stated central parking conflict is anchored to the middle of the visible compact site footprint."
+        }
+      },
+      {
+        "statement": "Using gravel grass simultaneously as a sports field and parking lane is impractical and lacks durability.",
+        "tags": [
+          "functionality",
+          "safety",
+          "cost"
+        ],
+        "position": {
+          "target": "gravel grass sports field and parking lane",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8233,
+            0.2023,
+            0.0556
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A south-eastern ground zone provides a plausible surface estimate for the combined sports and parking use."
+        }
+      },
+      {
+        "statement": "The southern outdoor space appears hard and cleared out near the neighboring houses.",
+        "tags": [
+          "open space",
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "southern outdoor space near neighboring houses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5907,
+            0.132,
+            0.0556
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern boundary is directly constrained by the statement and visible footprint edge."
+        }
+      },
+      {
+        "statement": "The two separate equipment rooms do not correspond to the competition requirements.",
+        "tags": [
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "two separate equipment rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9489,
+            0.5284,
+            0.2778
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Equipment rooms are interior and indistinguishable; the marker estimates an occupied side zone on the sampled volume."
+        }
+      },
+      {
+        "statement": "The connection between the halls collides with the existing external ramp.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "connection between halls and existing external ramp",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5616,
+            0.1232,
+            0.1667
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central connector region is the most plausible anchor for the stated circulation collision."
+        }
+      },
+      {
+        "statement": "The dimensions of the timber rod elements appear clearly too slim.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "timber rod elements",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9635,
+            0.4584,
+            0.5556
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated narrow horizontal facade elements are visible in elevation, but material identity is not distinguishable."
+        }
+      },
+      {
+        "statement": "The proposed underfloor heating does not meet the client’s specifications.",
+        "tags": [
+          "sustainability",
+          "functionality"
+        ],
+        "position": {
+          "target": "underfloor heating",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1023,
+            0.2503,
+            0.1111
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The heating system is not visible; its marker is constrained to a plausible lower occupied floor zone."
+        }
+      },
+      {
+        "statement": "The excessive proportion of glazing raises questions about summer heat, glare protection, and ecology.",
+        "tags": [
+          "facade",
+          "sustainability",
+          "daylight"
+        ],
+        "position": {
+          "target": "excessive glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9635,
+            0.4584,
+            0.5556
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The east-facing envelope is a visible facade surface; glazing performance concerns are not separately identifiable."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "scale",
+      "circulation",
+      "safety",
+      "landscape",
+      "daylight",
+      "structure",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

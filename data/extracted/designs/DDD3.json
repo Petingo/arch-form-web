@@ -1,0 +1,391 @@
+{
+  "object_description": "paired hall buildings with a longitudinal cultural building",
+  "geometry_property": [
+    "paired buildings",
+    "set-back",
+    "longitudinal",
+    "two-storey",
+    "single-storey annexes",
+    "canopy-framed",
+    "raised stage"
+  ],
+  "design_condition": "The hall buildings are set back from the street and close to the school, while the cultural building closes the grounds toward the church and is consequently decoupled from the school spaces.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The new multi-purpose hall blends naturally into its surroundings and gives the ensemble an appealing identity.",
+        "tags": [
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "new multi-purpose hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4016,
+            0.6768,
+            0.5
+          ],
+          "radius": 0.302,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The principal hall is clearly visible as the large central rectangular volume."
+        }
+      },
+      {
+        "statement": "The building expression is friendly and inviting, conveying lightness in contrast with the existing school building.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "building expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4823,
+            0.7182,
+            0.5714
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Long glazed elevations and lighter annex edges provide the visible expression reference."
+        }
+      },
+      {
+        "statement": "The organization and distribution of functions are coherent and ensure short distances.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "organization and distribution of functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4622,
+            0.7079,
+            0.4286
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior functions are not separated in the sample; the central hall mass is a useful anchor."
+        }
+      },
+      {
+        "statement": "Several access points create a high degree of permeability and links to the surrounding area.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "access points",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5038,
+            0.7292,
+            0.3561
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple access points are approximated along the hall perimeter and schoolyard-facing edges."
+        }
+      },
+      {
+        "statement": "The project is efficient and, despite the high proportion of glass, leads to relatively low construction costs.",
+        "tags": [
+          "cost",
+          "structure"
+        ],
+        "position": {
+          "target": "project construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.302,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The cost judgment is overall and has no dependable single spatial referent."
+        }
+      },
+      {
+        "statement": "The stage areas open onto the schoolyard, allowing the outdoor space to be used from the stage.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "stage areas",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6226,
+            0.2725,
+            0.4286
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stage-related openings are plausibly located along the lower schoolyard-facing annex edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The placement and orientation of the cultural social space are neither operationally nor spatially convincing.",
+        "tags": [
+          "urban integration",
+          "layout",
+          "operation"
+        ],
+        "position": {
+          "target": "cultural social space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7361,
+            0.8222,
+            0.3571
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The cultural building is approximated in the upper longitudinal volume, separated from the central hall."
+        }
+      },
+      {
+        "statement": "The proposed solar shading may allow overheating in strong sun and wind and may impair the desired transparent appearance.",
+        "tags": [
+          "facade",
+          "functionality",
+          "expression"
+        ],
+        "position": {
+          "target": "solar shading",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5428,
+            0.7493,
+            0.6429
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Shading concerns are assigned to the exposed upper façade of the longitudinal building."
+        }
+      },
+      {
+        "statement": "The transparent foyer-to-hall partition can cause mutual interference during multipurpose uses and evening events.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "foyer-to-hall partition",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.442,
+            0.6975,
+            0.4286
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The partition is not visible; it is inferred at the central interface within the main hall."
+        }
+      },
+      {
+        "statement": "Direct access from the underground garage for evening sports activities is not planned.",
+        "tags": [
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "underground garage access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2568,
+            0.1922,
+            0.0714
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The garage is absent below the sample; access is approximated at the lower site edge."
+        }
+      },
+      {
+        "statement": "The underground garage is clearly but inefficiently organized.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "underground garage",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2459,
+            0.2112,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Below-grade garage organization is not visible and is assigned to the lower building footprint."
+        }
+      },
+      {
+        "statement": "The ramp and bicycle shelter cut through the generous open space and appear somewhat bulky.",
+        "tags": [
+          "open space",
+          "massing"
+        ],
+        "position": {
+          "target": "ramp and bicycle shelter",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.833,
+            0.2519,
+            0.0714
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Site elements are not distinguishable; the eastern open-space edge is a plausible constrained location."
+        }
+      },
+      {
+        "statement": "It is incomprehensible that the existing copper beech will not be preserved.",
+        "tags": [
+          "landscape"
+        ],
+        "position": {
+          "target": "existing copper beech",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4039,
+            0.6779,
+            0.0714
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The tree is not represented distinctly; the central open-space anchor follows the courtyard geometry."
+        }
+      },
+      {
+        "statement": "The connection of the square to the cultural building appears abrupt and imprecise.",
+        "tags": [
+          "open space",
+          "urban integration"
+        ],
+        "position": {
+          "target": "square connection to cultural building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6056,
+            0.7815,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The upper edge of the central open space meets the longitudinal cultural volume visibly in plan."
+        }
+      },
+      {
+        "statement": "The chosen building expression and the dialog between old and new are not entirely convincing.",
+        "tags": [
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "dialog between old and new",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.302,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This comparative architectural judgment concerns the ensemble rather than one locatable element."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "expression",
+      "facade",
+      "layout",
+      "functionality",
+      "operation",
+      "circulation",
+      "open space",
+      "landscape",
+      "cost"
+    ]
+  }
+}

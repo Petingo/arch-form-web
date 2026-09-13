@@ -1,0 +1,254 @@
+{
+  "object_description": "relatively flat two-story rectangular volume",
+  "geometry_property": [
+    "low-rise",
+    "two-story",
+    "rectangular",
+    "distinctive roof form"
+  ],
+  "design_condition": "The building follows the street line, creating a southern rectangular outdoor area while its eastern passage connection and northern classroom alignment sit uneasily with the surrounding routes and neighbourhood street.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The special and ancillary rooms are functionally well organized on the lower floor.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "special and ancillary rooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3469,
+            0.8309,
+            0.25
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower-floor program is approximated toward one end of the rectangular footprint."
+        }
+      },
+      {
+        "statement": "The separate hall entrance connects the building well with the adjacent residential area.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "separate hall entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8101,
+            0.5083,
+            0.1667
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Entrance is constrained to the eastern side passage connection."
+        }
+      },
+      {
+        "statement": "The carefully developed middle zone gives the class clusters a distinctive architectural character.",
+        "tags": [
+          "massing",
+          "identity",
+          "layout"
+        ],
+        "position": {
+          "target": "middle zone and class clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6248,
+            0.6374,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central longitudinal zone is legible within the rectangular roof and elevation bands."
+        }
+      },
+      {
+        "statement": "The skylight provides zenithal daylight to the central zone and adjacent classrooms.",
+        "tags": [
+          "daylight",
+          "layout"
+        ],
+        "position": {
+          "target": "central skylight",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5353,
+            0.5042,
+            0.9167
+          ],
+          "radius": 0.07,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distinctive central roof opening is visible in the top view and associated with upper level."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The centrally placed niches are too far from the classrooms to be fully operational.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "centrally placed niches",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6094,
+            0.6481,
+            0.3333
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Niches are approximated in the central interior portion of the footprint."
+        }
+      },
+      {
+        "statement": "The flexibility of the middle-zone group rooms is questionable because of fire-protection constraints and the lack of escape routes.",
+        "tags": [
+          "flexibility",
+          "fire safety"
+        ],
+        "position": {
+          "target": "middle-zone group rooms and escape routes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6403,
+            0.6266,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Fire-safety concern is anchored to the central middle-zone volume."
+        }
+      },
+      {
+        "statement": "The northern classroom alignment with the neighbourhood street is problematic, and the outdoor design does not respond to it.",
+        "tags": [
+          "urban integration",
+          "open space"
+        ],
+        "position": {
+          "target": "northern classroom alignment and outdoor design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4241,
+            0.7771,
+            0.1667
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern edge of the rectangular building is used as the street-facing alignment."
+        }
+      },
+      {
+        "statement": "The construction and materialization remain too vague.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "construction and materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6407,
+            0.1722,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Building-wide construction concern is anchored to the visible envelope and floor bands."
+        }
+      },
+      {
+        "statement": "The generous pre-zones are of limited use and cannot be furnished freely for fire-safety reasons.",
+        "tags": [
+          "functionality",
+          "fire safety"
+        ],
+        "position": {
+          "target": "generous pre-zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2697,
+            0.8846,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pre-zone concern is approximated along a perimeter circulation edge."
+        }
+      }
+    ],
+    "keyword": [
+      "layout",
+      "functionality",
+      "circulation",
+      "fire safety",
+      "daylight",
+      "urban integration",
+      "open space",
+      "flexibility",
+      "expression"
+    ]
+  }
+}

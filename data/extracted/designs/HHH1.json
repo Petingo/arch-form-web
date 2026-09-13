@@ -1,0 +1,311 @@
+{
+  "object_description": "three-story linear building volume",
+  "geometry_property": [
+    "linear",
+    "elongated",
+    "three-story",
+    "reduced-height",
+    "pavilion-like",
+    "courtyard-forming"
+  ],
+  "design_condition": "The building runs parallel to the playground, creates a central green courtyard with the existing buildings, maintains distance from nearby villas, and turns active spaces inward while quieter spaces face outward.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The precisely placed buildings and open spaces create a convincing landscape-park concept.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "landscape"
+        ],
+        "position": {
+          "target": "landscape-park concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5819,
+            0.3511,
+            0.0625
+          ],
+          "radius": 0.339,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central building-and-courtyard arrangement supports a broad landscape-park reading."
+        }
+      },
+      {
+        "statement": "The forecourt provides a natural transition and a generous common meeting place.",
+        "tags": [
+          "circulation",
+          "open space"
+        ],
+        "position": {
+          "target": "forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2538,
+            0.0946,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front-side ground zone approximates the forecourt and its transition into shared circulation."
+        }
+      },
+      {
+        "statement": "The appropriate footprint and volume fit best into the historically valuable townscape.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "massing"
+        ],
+        "position": {
+          "target": "building footprint and volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.794,
+            0.4214,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated three-story mass is clearly legible across plan and elevation views."
+        }
+      },
+      {
+        "statement": "The practical and robust floor-plan typology has potential to provide a good learning environment.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "learning environment",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2346,
+            0.6016,
+            0.5
+          ],
+          "radius": 0.339,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior learning spaces are not distinguishable; placement uses a plausible mid-building surface anchor."
+        }
+      },
+      {
+        "statement": "Zenithal light naturally supports movement through the building.",
+        "tags": [
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "zenithal light circulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6988,
+            0.3469,
+            0.9375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level central placement approximates daylight entering the elongated building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The outward-facing open spaces appear undefined and are rarely used.",
+        "tags": [
+          "open space",
+          "functionality"
+        ],
+        "position": {
+          "target": "outward-facing open spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2538,
+            0.0946,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South/front perimeter ground zone represents the outward-facing open-space condition."
+        }
+      },
+      {
+        "statement": "The bicycle-parking areas are not convincing in design, and the delivery location obscures the access and spatial situation.",
+        "tags": [
+          "open space",
+          "circulation"
+        ],
+        "position": {
+          "target": "bicycle parking and delivery location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8238,
+            0.4447,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front-edge access zone provides the closest surface approximation for parking and deliveries."
+        }
+      },
+      {
+        "statement": "The row of trees cuts up the generous open space in front of the gymnasium.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "row of trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5629,
+            0.3362,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Trees are not individually sampled; front gymnasium-side open space is approximated."
+        }
+      },
+      {
+        "statement": "The internal organization is sometimes too tight, leaving too little space for school operations.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "school operations organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2537,
+            0.6165,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior organization is unresolved, so a mid-building surface anchor represents operational constraints."
+        }
+      },
+      {
+        "statement": "The collection rooms are hermetic, making the corridor zones narrow and too scarce.",
+        "tags": [
+          "layout",
+          "circulation"
+        ],
+        "position": {
+          "target": "collection rooms and corridor zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7559,
+            0.3916,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Named interior rooms are not visible; placement approximates a longitudinal interior zone."
+        }
+      },
+      {
+        "statement": "The complex construction and varied material atmospheres raise cost concerns and weaken the intended restraint.",
+        "tags": [
+          "cost",
+          "expression"
+        ],
+        "position": {
+          "target": "complex construction and varied material atmospheres",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and expressive restraint concern the design globally without a specific geometric location."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "open space",
+      "landscape",
+      "circulation",
+      "layout",
+      "functionality",
+      "daylight",
+      "cost",
+      "expression"
+    ]
+  }
+}

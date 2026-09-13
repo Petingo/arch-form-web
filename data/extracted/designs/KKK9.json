@@ -1,0 +1,291 @@
+{
+  "object_description": "articulated land-retaining building mass linking school and gym",
+  "geometry_property": [
+    "articulated",
+    "land-retaining",
+    "connected composition",
+    "monumental west frontage",
+    "compact intervention",
+    "portico-linked"
+  ],
+  "design_condition": "The articulated building contains the northern terrain, connects to the surrounding fabric, and together with the existing school forms a protected place continuous with the fields.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The project builds a protected place in continuity with the free space of the fields.",
+        "tags": [
+          "urban integration",
+          "open space",
+          "landscape"
+        ],
+        "position": {
+          "target": "protected place",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6065,
+            0.5683,
+            0.0878
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Articulated perimeter mass visibly encloses a protected open area continuous with the fields."
+        }
+      },
+      {
+        "statement": "The attempt to redefine the existing school garden, including the warehouse, is appreciated.",
+        "tags": [
+          "landscape",
+          "urban integration"
+        ],
+        "position": {
+          "target": "existing school garden and warehouse",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1507,
+            0.6311,
+            0.0878
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Garden and warehouse context is approximated beside the compact western portion of the composition."
+        }
+      },
+      {
+        "statement": "The structure is correct, with a clear division between reinforced concrete and wood and between reinforced concrete and prefabricated slabs.",
+        "tags": [
+          "structure"
+        ],
+        "position": {
+          "target": "reinforced concrete and wood structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6113,
+            0.5497,
+            0.5439
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Material division is assigned to the visibly continuous articulated building envelope."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The giant order on the west front is excessive for a context that does not require such monumentality.",
+        "tags": [
+          "scale",
+          "expression",
+          "urban integration"
+        ],
+        "position": {
+          "target": "giant order on the west front",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0479,
+            0.6174,
+            0.5439
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The west-facing frontage is identifiable along the left edge of the articulated mass."
+        }
+      },
+      {
+        "statement": "The giant order appears inconsistent with the proposed architectural layout.",
+        "tags": [
+          "expression",
+          "layout"
+        ],
+        "position": {
+          "target": "giant order",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0736,
+            0.6208,
+            0.5439
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The criticized monumental element is anchored to the same western frontage and adjacent layout."
+        }
+      },
+      {
+        "statement": "The construction-in-stages idea is unconvincing and uncertain.",
+        "tags": [
+          "flexibility",
+          "massing"
+        ],
+        "position": {
+          "target": "construction-in-stages idea",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5971,
+            0.6053,
+            0.5439
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Phasing concern applies across the connected composition rather than a distinguishable component."
+        }
+      },
+      {
+        "statement": "The system is cumbersome at various levels and the quality of the distribution is very dubious.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6018,
+            0.5868,
+            0.5439
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distribution criticism is located broadly within the linked building mass."
+        }
+      },
+      {
+        "statement": "The overall system is messy and unconvincing from both typological and constructional points of view.",
+        "tags": [
+          "layout",
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "overall system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6018,
+            0.5868,
+            0.5439
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Typological and constructional concerns apply to the entire articulated composition."
+        }
+      },
+      {
+        "statement": "It is not functional that classrooms cannot become communicating spaces and that toilets are far from some classrooms.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "classrooms and toilets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6633,
+            0.3462,
+            0.5439
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior classroom and toilet relationships are approximated within the long eastern building zone."
+        }
+      },
+      {
+        "statement": "The forced passage in front of some classrooms to reach the gym is not appreciated.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "passage in front of classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6396,
+            0.4387,
+            0.5439
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Forced circulation is estimated along the eastern linear portion leading toward the gym."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "expression",
+      "urban integration",
+      "layout",
+      "circulation",
+      "functionality",
+      "flexibility",
+      "structure"
+    ]
+  }
+}

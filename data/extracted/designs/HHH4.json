@@ -1,0 +1,352 @@
+{
+  "object_description": "two joined compact building volumes",
+  "geometry_property": [
+    "two-part",
+    "joined",
+    "compact",
+    "small-scale",
+    "grid-based",
+    "courtyard-completing"
+  ],
+  "design_condition": "The additional building completes the existing complex with two joined volumes, preserves the established outdoor spaces, and links old and new buildings through squares and access routes.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The extremely simple and plausible strategy preserves the existing buildings and adapts them with minimal intervention.",
+        "tags": [
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "existing and new building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5531,
+            0.6392,
+            0.4384
+          ],
+          "radius": 0.319,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two compact joined masses and their preserved spacing are clearly visible across the plan and elevations."
+        }
+      },
+      {
+        "statement": "The two joined volumes respond to the garden-city district and its small grain.",
+        "tags": [
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "two joined volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5531,
+            0.6392,
+            0.5006
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The paired compact volumes visibly match the district’s small-grain massing."
+        }
+      },
+      {
+        "statement": "Squares and access routes connect old and new buildings and strengthen the campus character.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "squares and access routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4292,
+            0.5607,
+            0.0648
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open spaces and connecting paths are legible between and around the two sampled masses."
+        }
+      },
+      {
+        "statement": "The robust building-grid system creates spacious connected access areas for meeting and learning.",
+        "tags": [
+          "layout",
+          "flexibility"
+        ],
+        "position": {
+          "target": "building-grid system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4715,
+            0.5935,
+            0.4384
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular sampled point rows support a building-wide grid and connected access interpretation."
+        }
+      },
+      {
+        "statement": "The distribution of uses between the old and new buildings is appropriate, with a plausible entrance floor.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "entrance floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3149,
+            0.3087,
+            0.127
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower level of the smaller volume is used as a plausible entrance-floor anchor."
+        }
+      },
+      {
+        "statement": "The chosen construction meets sustainability requirements and permits easy system separation.",
+        "tags": [
+          "sustainability",
+          "flexibility"
+        ],
+        "position": {
+          "target": "construction and system separation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6876,
+            0.7247,
+            0.4384
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Construction is not distinguishable, so the marker covers the joined building system."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The access area is confusing because the actual school entrance is elsewhere.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "school entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2516,
+            0.2594,
+            0.0648
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The criticized access area is approximated at the smaller volume’s apparent southern approach."
+        }
+      },
+      {
+        "statement": "The green borders reduce the spaciousness of the main access route and meeting place.",
+        "tags": [
+          "landscape",
+          "open space"
+        ],
+        "position": {
+          "target": "green borders",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1882,
+            0.2102,
+            0.0648
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral dotted landscape strips are visible south and southwest of the building masses."
+        }
+      },
+      {
+        "statement": "A less stringent design would be conceivable for the main walking and connecting paths.",
+        "tags": [
+          "landscape",
+          "circulation"
+        ],
+        "position": {
+          "target": "main walking and connecting paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4094,
+            0.3457,
+            0.0648
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open circulation corridor between sampled volumes provides the path-related anchor."
+        }
+      },
+      {
+        "statement": "The inclination of the bricks and resulting plasticity are critically questioned.",
+        "tags": [
+          "facade",
+          "expression"
+        ],
+        "position": {
+          "target": "inclined brick facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7656,
+            0.7448,
+            0.5006
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Brick inclination is not identifiable, so the marker uses the exposed outer facade region."
+        }
+      },
+      {
+        "statement": "Retaining the existing building typology leaves peripheral access as the main focus.",
+        "tags": [
+          "circulation",
+          "layout"
+        ],
+        "position": {
+          "target": "peripheral access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8905,
+            0.6983,
+            0.0648
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral circulation is approximated along the outer edge of the larger northeast volume."
+        }
+      },
+      {
+        "statement": "The communication between the new and existing buildings may not ultimately strengthen the overall system.",
+        "tags": [
+          "urban integration",
+          "expression"
+        ],
+        "position": {
+          "target": "communication between new and existing buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4504,
+            0.5771,
+            0.1893
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central gap and narrow connection zone visibly organize the relationship between the masses."
+        }
+      },
+      {
+        "statement": "The project is slightly above average in floor area and expected investment costs.",
+        "tags": [
+          "cost",
+          "massing"
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Floor area and investment cost are whole-project judgments without a useful spatial referent."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "urban integration",
+      "scale",
+      "circulation",
+      "open space",
+      "landscape",
+      "layout",
+      "flexibility",
+      "facade",
+      "cost"
+    ]
+  }
+}

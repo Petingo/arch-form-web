@@ -1,0 +1,287 @@
+{
+  "object_description": "long three-story building with notched upper floors and gabled ends",
+  "geometry_property": [
+    "elongated",
+    "three-story",
+    "notched",
+    "gabled",
+    "compact",
+    "roof-folded"
+  ],
+  "design_condition": "The building follows the neighbouring buildings’ orientation and scale, minimally alters the terrain, and creates a school square toward the landscape and village alongside a garden square by the retirement home.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The chosen position is fundamentally plausible and does not disturb the striking lime tree hill.",
+        "tags": [
+          "urban integration",
+          "landscape",
+          "topography"
+        ],
+        "position": {
+          "target": "lime tree hill",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2452,
+            0,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The hill is absent from the sampled exterior; a low south-west site anchor approximates its landscape relationship."
+        }
+      },
+      {
+        "statement": "The entrances are convincing, with covered vestibules differentiated according to their importance.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "entrances and covered vestibules",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5228,
+            0,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing edge provides the most plausible sampled surface for differentiated principal access points."
+        }
+      },
+      {
+        "statement": "The staggered room groups create a learning landscape that almost ideally implements the desired pedagogical concept.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "staggered room groups",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.875,
+            0.6842,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view visibly shows repeated staggered groups and notches through the building’s central length."
+        }
+      },
+      {
+        "statement": "The planned lighting creates landmarks that support clear navigation through the diverse spatial structure.",
+        "tags": [
+          "daylight",
+          "visibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "lighting landmarks",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5125,
+            0.3784,
+            0.95
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Lighting devices are not identifiable, so the upper central mass supplies a constrained landmark anchor."
+        }
+      },
+      {
+        "statement": "The building envelope coherently reflects the construction method and internal organization.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4968,
+            0.6216,
+            0.95
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated envelope, notches, and gabled ends are legible across top and elevation views."
+        }
+      },
+      {
+        "statement": "The compact building is likely to be economical to build and operate and meets contemporary ecological objectives.",
+        "tags": [
+          "massing",
+          "cost",
+          "sustainability"
+        ],
+        "position": {
+          "target": "compact building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.345,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economy, operation, and ecological performance are global judgments without a single spatial referent."
+        }
+      },
+      {
+        "statement": "The clear structures and rich composition create a unique spatial experience contributing to an unmistakable identity.",
+        "tags": [
+          "layout",
+          "identity",
+          "expression"
+        ],
+        "position": {
+          "target": "clear structures and rich composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5015,
+            1,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled building expresses identity through elongated massing and varied notched composition."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "It is not initially apparent why the new building is not positioned at right angles to the sports facilities and surrounding buildings.",
+        "tags": [
+          "urban integration",
+          "orientation"
+        ],
+        "position": {
+          "target": "building orientation to sports facilities and surrounding buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4878,
+            0,
+            0.35
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The model establishes a strong east-west axis, while neighboring facilities are absent; the south site edge anchors it."
+        }
+      },
+      {
+        "statement": "The organization of the meeting rooms does not always meet users’ needs, although simple internal optimization appears possible.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "meeting rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.875,
+            0.6842,
+            0.45
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Meeting rooms are not distinguishable; the eastern central room-group area provides a plausible estimate."
+        }
+      },
+      {
+        "statement": "The music room’s location between two school rooms is assessed critically.",
+        "tags": [
+          "layout",
+          "acoustics"
+        ],
+        "position": {
+          "target": "music room between two school rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.875,
+            0.6842,
+            0.45
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The specific music room is absent, so the central staggered room band constrains its approximate location."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "topography",
+      "layout",
+      "daylight",
+      "circulation",
+      "facade",
+      "identity",
+      "cost",
+      "sustainability"
+    ]
+  }
+}

@@ -1,0 +1,524 @@
+{
+  "object_description": "compact four-story administrative volume",
+  "geometry_property": [
+    "compact",
+    "four-story",
+    "rectilinear",
+    "neutral",
+    "simple",
+    "large-span",
+    "flat-roofed"
+  ],
+  "design_condition": "The compact four-story volume neutrally completes the existing ensemble, while its corner organization and oversized spacing create strong visibility toward the surrounding streets.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The compact and neutral volume unpretentiously supplements and completes the existing ensemble.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "compact neutral volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.277,
+            0.3132,
+            0.5278
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact rectilinear four-story mass is clearly visible in every calibrated view."
+        }
+      },
+      {
+        "statement": "The vehicle hall has high urban presence and visibility from all sides.",
+        "tags": [
+          "urban integration",
+          "visibility",
+          "identity"
+        ],
+        "position": {
+          "target": "vehicle hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3295,
+            0.2417,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower portion of the four-story volume provides the visible vehicle-hall anchor."
+        }
+      },
+      {
+        "statement": "The clear functional separation maintains confidentiality and avoids conflicts between the two uses.",
+        "tags": [
+          "layout",
+          "privacy",
+          "functionality"
+        ],
+        "position": {
+          "target": "functional separation between two uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1872,
+            0.4358,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Uses are interior and indistinguishable; a lateral zone is used as a constrained approximation."
+        }
+      },
+      {
+        "statement": "The clear concept leaves possibilities open for fundamental and future changes of use.",
+        "tags": [
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "future changes of use",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.779,
+            0.6191,
+            0.5556
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Flexible change-of-use judgment applies to the complete large-span building volume."
+        }
+      },
+      {
+        "statement": "The organization is characterized by quick and direct connections, and the floor plan is efficient and well organized.",
+        "tags": [
+          "circulation",
+          "functionality",
+          "layout"
+        ],
+        "position": {
+          "target": "quick direct connections",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3256,
+            0.247,
+            0.4444
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Circulation is anchored near a visible corner and vertical access edge."
+        }
+      },
+      {
+        "statement": "The staircase, anteroom, and two-story reading room form a beautiful spatial sequence expressed externally.",
+        "tags": [
+          "circulation",
+          "expression",
+          "daylight"
+        ],
+        "position": {
+          "target": "staircase, anteroom, and two-story reading room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.549,
+            0.5214,
+            0.9462
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior sequence is not separable; the upper central volume provides a constrained anchor."
+        }
+      },
+      {
+        "statement": "Large spans enable a flexible and changeable spatial structure.",
+        "tags": [
+          "structure",
+          "flexibility"
+        ],
+        "position": {
+          "target": "large-span structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7191,
+            0.7008,
+            0.5278
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Large-span character is visible through the broad uninterrupted rectilinear envelope."
+        }
+      },
+      {
+        "statement": "The energy concept is well thought out and presented in detail.",
+        "tags": [
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comment evaluates the concept and documentation rather than a locatable model feature."
+        }
+      },
+      {
+        "statement": "The rational ribbed-ceiling spans are simple and cost-effective after structural defects are addressed.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "ribbed-ceiling spans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.779,
+            0.6191,
+            0.5556
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ceilings are not directly visible; the central upper floor supplies a constrained anchor."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The high visibility of the outpatient clinic, particularly from the main street, is critically assessed despite privacy protection.",
+        "tags": [
+          "visibility",
+          "privacy"
+        ],
+        "position": {
+          "target": "outpatient clinic visibility",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4867,
+            0.0273,
+            0.5556
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Main-street visibility is assigned to the front facade of the compact volume."
+        }
+      },
+      {
+        "statement": "The comparatively small foyer gives the archive a modest address, only partially improving the street.",
+        "tags": [
+          "circulation",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "archive foyer",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3295,
+            0.2417,
+            0.1389
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Foyer is not distinguishable; a plausible front corner entrance anchor is used."
+        }
+      },
+      {
+        "statement": "The efficient plan leaves no room for special room sequences or openings on the first floor.",
+        "tags": [
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "first-floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7604,
+            0.6445,
+            0.3889
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "First floor is located within the lower-middle band of the stacked volume."
+        }
+      },
+      {
+        "statement": "The architectural language lacks inspiring delicacy and finesse.",
+        "tags": [
+          "expression",
+          "facade"
+        ],
+        "position": {
+          "target": "architectural language",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7349,
+            0.149,
+            0.5556
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade expression is anchored to the clearly visible external envelope."
+        }
+      },
+      {
+        "statement": "The detailing requires attention, precision, and control to convey elegance and credibility.",
+        "tags": [
+          "facade",
+          "expression",
+          "structure"
+        ],
+        "position": {
+          "target": "facade detailing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7349,
+            0.149,
+            0.6667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Detailing concern is placed on the exposed front-side facade."
+        }
+      },
+      {
+        "statement": "The energy technology has no recognizable spatially relevant implementation and may significantly influence the ribbed ceilings.",
+        "tags": [
+          "sustainability",
+          "structure"
+        ],
+        "position": {
+          "target": "energy technology implementation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comment explicitly concerns absence of spatially recognizable energy implementation."
+        }
+      },
+      {
+        "statement": "The support spacing is clearly too large and the basement construction is problematic and uneconomical under water pressure.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "support spacing and basement construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2696,
+            0.3234,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Basement and supports are not separable; the lowest visible building band is used."
+        }
+      },
+      {
+        "statement": "The considerable floor areas and attractive facade areas negatively affect profitability.",
+        "tags": [
+          "scale",
+          "facade",
+          "cost"
+        ],
+        "position": {
+          "target": "floor areas and facade areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8389,
+            0.5375,
+            0.5833
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large floor and facade areas correspond to the complete compact building envelope."
+        }
+      },
+      {
+        "statement": "The very high proportion of glass in the facade is critical for the targeted building standard.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "high proportion of facade glass",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4867,
+            0.0273,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Glass proportion is anchored to the visible front facade."
+        }
+      },
+      {
+        "statement": "The design of the ground floor and its high visibility remain problematic, together with unfinished constructive development.",
+        "tags": [
+          "layout",
+          "visibility",
+          "structure"
+        ],
+        "position": {
+          "target": "ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5915,
+            0.059,
+            0.1111
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground floor occupies the lowest visible band around the building perimeter."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "visibility",
+      "privacy",
+      "layout",
+      "functionality",
+      "circulation",
+      "expression",
+      "structure",
+      "sustainability"
+    ]
+  }
+}

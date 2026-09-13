@@ -1,0 +1,513 @@
+{
+  "object_description": "large plinth supporting three polygonal volumes of different heights",
+  "geometry_property": [
+    "large plinth",
+    "three volumes",
+    "polygonal",
+    "different heights",
+    "stacked",
+    "cubic",
+    "extensive footprint",
+    "low hall volume"
+  ],
+  "design_condition": "The broad plinth occupies most of the planning perimeter, preserves existing trees and green pockets, and organizes paths, forecourts, and separated entrances around the buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The three structures have differentiated volumes and a scale appropriate to the neighborhood.",
+        "tags": [
+          "massing",
+          "scale",
+          "urban integration"
+        ],
+        "position": {
+          "target": "three differentiated structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6431,
+            0.5444,
+            0.6111
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three polygonal volumes with distinct heights are clearly visible above the broad plinth."
+        }
+      },
+      {
+        "statement": "Retaining the existing green pockets and trees enables sensibly designed paths to the hall.",
+        "tags": [
+          "landscape",
+          "circulation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "green pockets and trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1227,
+            0.2544,
+            0.0556
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open pockets around the plinth are visible, though individual trees are not sampled distinctly."
+        }
+      },
+      {
+        "statement": "The routing and clear separation of hall, apartment, and commercial entrances are functional.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "separated hall, apartment, and commercial entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.588,
+            0.1716,
+            0.1111
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Multiple ground-level access zones are distributed along the southern plinth edge."
+        }
+      },
+      {
+        "statement": "The pentagonal hall is convincing in form, functionality, and visitor access.",
+        "tags": [
+          "expression",
+          "functionality",
+          "circulation"
+        ],
+        "position": {
+          "target": "pentagonal hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7415,
+            0.5255,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct larger polygonal volume occupies the eastern side of the complex."
+        }
+      },
+      {
+        "statement": "Adjustable ceiling elements support variable hall use by regulating zenithal light.",
+        "tags": [
+          "flexibility",
+          "daylight",
+          "functionality"
+        ],
+        "position": {
+          "target": "adjustable ceiling elements",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7415,
+            0.5255,
+            0.7778
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Ceiling elements are interior and unidentifiable; location is constrained to the hall’s upper volume."
+        }
+      },
+      {
+        "statement": "The construction meets a wide range of user requirements and is subtly and beautifully designed.",
+        "tags": [
+          "functionality",
+          "expression",
+          "flexibility"
+        ],
+        "position": {
+          "target": "entire program in coherent complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5701,
+            0.4909,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large connected plinth and stacked volumes visibly consolidate the program."
+        }
+      },
+      {
+        "statement": "The commercial space is well positioned and can be used in a variety of ways.",
+        "tags": [
+          "layout",
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "commercial space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1415,
+            0.1768,
+            0.1111
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Commercial frontage is approximated near the accessible western-southern plinth edge."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The large plinth is out of scale with the neighborhood and appears too massive for the location.",
+        "tags": [
+          "scale",
+          "massing",
+          "urban integration"
+        ],
+        "position": {
+          "target": "large plinth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6306,
+            0.4618,
+            0.1111
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad low plinth dominates nearly the full footprint beneath the three volumes."
+        }
+      },
+      {
+        "statement": "The quality and significance of the public square at the street junction are not comprehensible.",
+        "tags": [
+          "open space",
+          "urban integration",
+          "identity"
+        ],
+        "position": {
+          "target": "public square at the street junction",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1509,
+            0.138,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Junction square is not distinguishable; approximate open space lies beyond the western-southern edge."
+        }
+      },
+      {
+        "statement": "The passageway may be impaired by a tunnel effect.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "passageway",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6063,
+            0.296,
+            0.1111
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A narrow gap through the plinth is visible between the principal volumes."
+        }
+      },
+      {
+        "statement": "Wheelchair access along the courtyard façade does not function as shown because an existing staircase narrows the space.",
+        "tags": [
+          "accessibility",
+          "circulation"
+        ],
+        "position": {
+          "target": "wheelchair access along courtyard façade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3839,
+            0.0469,
+            0.1111
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Courtyard-facing circulation is approximated along the southern plinth frontage."
+        }
+      },
+      {
+        "statement": "The exterior cubic appearance and the unrecognizable interior shape of the hall are not entirely convincing together.",
+        "tags": [
+          "expression",
+          "massing"
+        ],
+        "position": {
+          "target": "exterior cubic appearance and hall interior shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7415,
+            0.5255,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Exterior hall volume is visible, but its interior shape is not represented in the exterior sample."
+        }
+      },
+      {
+        "statement": "The kitchen is too far from the hall and service circulation intersects toilet users’ routes.",
+        "tags": [
+          "layout",
+          "circulation",
+          "operation"
+        ],
+        "position": {
+          "target": "kitchen and service circulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6949,
+            0.3806,
+            0.1111
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Service relationship is interior; approximate kitchen location follows the hall’s rear service side."
+        }
+      },
+      {
+        "statement": "Only about half of the side storage can be used as an auditorium extension.",
+        "tags": [
+          "functionality",
+          "flexibility"
+        ],
+        "position": {
+          "target": "side storage",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6998,
+            0.3957,
+            0.1704
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Storage is not separately visible; constrained near the hall’s service edge."
+        }
+      },
+      {
+        "statement": "Some apartments depend on a greened flat roof or have unattractive views, reducing their appeal.",
+        "tags": [
+          "landscape",
+          "visibility",
+          "functionality"
+        ],
+        "position": {
+          "target": "apartments with greened flat roof",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4005,
+            0.6535,
+            0.7222
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Flat upper residential surfaces are visible on the western and central volumes."
+        }
+      },
+      {
+        "statement": "The stair access is incorrect and reduces the size of an apartment.",
+        "tags": [
+          "circulation",
+          "layout",
+          "functionality"
+        ],
+        "position": {
+          "target": "stair access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3947,
+            0.4576,
+            0.3333
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Stair is not distinguishable; approximate access lies within the western residential volume."
+        }
+      },
+      {
+        "statement": "The overlap between hall and apartment uses is likely to make finding a developer difficult.",
+        "tags": [
+          "operation",
+          "cost"
+        ],
+        "position": {
+          "target": "overlap between hall and apartment uses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6114,
+            0.4691,
+            0.4444
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Adjacent stacked volumes visibly create shared boundaries between hall and residential uses."
+        }
+      },
+      {
+        "statement": "The outdoor-space design and possible uses could be improved.",
+        "tags": [
+          "open space",
+          "landscape",
+          "functionality"
+        ],
+        "position": {
+          "target": "outdoor-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1321,
+            0.2156,
+            0.0556
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior pockets and circulation spaces surround the plinth but lack detailed landscape representation."
+        }
+      }
+    ],
+    "keyword": [
+      "massing",
+      "scale",
+      "urban integration",
+      "landscape",
+      "circulation",
+      "accessibility",
+      "expression",
+      "flexibility",
+      "functionality",
+      "cost"
+    ]
+  }
+}

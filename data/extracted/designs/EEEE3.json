@@ -1,0 +1,503 @@
+{
+  "object_description": "long bridge-like volume over a vehicle hall",
+  "geometry_property": [
+    "linear",
+    "bridge-like",
+    "one- to two-story base",
+    "closed upper floor",
+    "full-length",
+    "compact",
+    "long-span"
+  ],
+  "design_condition": "The full-length volume extends to the rear of the sports hall and spans the property between lateral access cores, forming a tightly integrated ensemble with a closed street-facing end.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The uses are arranged to create an attractive address with a two-story window front along the street.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "visibility"
+        ],
+        "position": {
+          "target": "two-story window front along the street",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4114,
+            0.2532,
+            0.6429
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing facade is approximated along the front edge of the long upper volume."
+        }
+      },
+      {
+        "statement": "The logical and consistent implementation appropriately complements the ensemble as a modern industrial building.",
+        "tags": [
+          "urban integration",
+          "expression",
+          "identity"
+        ],
+        "position": {
+          "target": "modern industrial building ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6914,
+            0.6251,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall compact bridge-like building mass is clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The three useful floors are laterally accessed through two entrances and can therefore be flexibly divided.",
+        "tags": [
+          "circulation",
+          "flexibility",
+          "layout"
+        ],
+        "position": {
+          "target": "three useful floors with two entrances",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8196,
+            0.1217,
+            0.4286
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Access and floor organization are anchored to the visible lateral ends and stacked volume."
+        }
+      },
+      {
+        "statement": "The entrance's proximity to the park, where most visitors arrive, is particularly appreciated.",
+        "tags": [
+          "circulation",
+          "urban integration"
+        ],
+        "position": {
+          "target": "entrance near the park",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.36,
+            0.3184,
+            0.2143
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance is placed at a plausible front-side building end; the park itself is not modeled."
+        }
+      },
+      {
+        "statement": "Placing all ambulance vehicles next to one another allows selection of the appropriate vehicle as required.",
+        "tags": [
+          "operation",
+          "functionality"
+        ],
+        "position": {
+          "target": "ambulance vehicle arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.45,
+            0.2043,
+            0.1429
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Vehicle hall zone is approximated beneath the long upper bridge volume."
+        }
+      },
+      {
+        "statement": "The structural concept is clear at first glance and gives the project a decisive influence.",
+        "tags": [
+          "structure",
+          "expression"
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7043,
+            0.6088,
+            0.5714
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Long-span massing and continuous upper box provide the visible structural anchor."
+        }
+      },
+      {
+        "statement": "The compact project is relatively small and nevertheless very cost-effective.",
+        "tags": [
+          "massing",
+          "cost"
+        ],
+        "position": {
+          "target": "compact project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6786,
+            0.6414,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact overall mass is visible and bounded in every calibrated view."
+        }
+      },
+      {
+        "statement": "The simple concept offers good functional processes and attractive openness corresponding to the public character of the archive.",
+        "tags": [
+          "functionality",
+          "circulation",
+          "expression"
+        ],
+        "position": {
+          "target": "public archive openness",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.54,
+            0.0902,
+            0.4286
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Openness is anchored to the street-facing lower frontage of the building."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The interpretation of the protected volumes and the resulting extension are questioned in urban-planning terms.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "protected volumes and resulting extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6914,
+            0.6251,
+            0.5714
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Extension concern is assigned to the rearward end of the elongated building mass."
+        }
+      },
+      {
+        "statement": "The building conglomeration is unfamiliar to the area and creates interior disadvantages because of the tight room heights.",
+        "tags": [
+          "urban integration",
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "building conglomeration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6657,
+            0.6577,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete joined massing is directly represented throughout the point-cloud renders."
+        }
+      },
+      {
+        "statement": "Conversion of storage rooms into offices would only be possible with skylights or atriums.",
+        "tags": [
+          "flexibility",
+          "daylight"
+        ],
+        "position": {
+          "target": "storage rooms converted into offices",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6657,
+            0.6577,
+            0.7143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Interior rooms are not distinguishable, so the upper rear volume supplies a constrained surface anchor."
+        }
+      },
+      {
+        "statement": "The limited work area behind the vehicles is a disadvantage of the side-by-side parking arrangement.",
+        "tags": [
+          "functionality",
+          "operation"
+        ],
+        "position": {
+          "target": "limited work area behind vehicles",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5014,
+            0.1391,
+            0.1429
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Work area is approximated within the lower vehicle-hall zone behind the long frontage."
+        }
+      },
+      {
+        "statement": "The upper load-bearing box is structurally very challenging and lacks sufficient support.",
+        "tags": [
+          "structure",
+          "safety"
+        ],
+        "position": {
+          "target": "upper load-bearing box",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6529,
+            0.674,
+            0.7857
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elevated closed box is a distinct visible component above the lower hall."
+        }
+      },
+      {
+        "statement": "The additional supports required under the middle wall would significantly obscure the ground floor and mezzanine.",
+        "tags": [
+          "structure",
+          "daylight",
+          "visibility"
+        ],
+        "position": {
+          "target": "middle wall supports",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3214,
+            0.3673,
+            0.3571
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Supports are not individually visible; the central lower interface provides an approximate anchor."
+        }
+      },
+      {
+        "statement": "The energy and building technology concept is not explained.",
+        "tags": [
+          "sustainability",
+          "operation"
+        ],
+        "position": {
+          "target": "energy and building technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comment concerns unexplained building technology without a useful spatial referent."
+        }
+      },
+      {
+        "statement": "The decentralized technology centers are not ideal for maintenance and upkeep.",
+        "tags": [
+          "operation",
+          "sustainability"
+        ],
+        "position": {
+          "target": "decentralized technology centers",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.18,
+            0.5467,
+            0.2857
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Technology centers are not visible; a lateral service-core location is used as a constrained guess."
+        }
+      },
+      {
+        "statement": "The high proportion of glass on the ground floor and mezzanine is critical for the energy balance.",
+        "tags": [
+          "facade",
+          "sustainability"
+        ],
+        "position": {
+          "target": "high proportion of ground-floor and mezzanine glass",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.54,
+            0.0902,
+            0.2857
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Glazing concern is placed on the visible street-facing lower facade."
+        }
+      },
+      {
+        "statement": "The strength of the structural proposal is also its weakness because of doubts about space, room heights, and the static feat.",
+        "tags": [
+          "structure",
+          "scale",
+          "functionality"
+        ],
+        "position": {
+          "target": "structural proposal",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6786,
+            0.6414,
+            0.6429
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The structural feat is represented by the complete elevated long-span volume."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "expression",
+      "circulation",
+      "functionality",
+      "flexibility",
+      "structure",
+      "daylight",
+      "sustainability",
+      "cost"
+    ]
+  }
+}

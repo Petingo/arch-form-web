@@ -1,0 +1,367 @@
+{
+  "object_description": "very elongated low bar volume with a northern projecting wing",
+  "geometry_property": [
+    "elongated",
+    "low-rise",
+    "linear",
+    "bar-shaped",
+    "rectangular",
+    "projecting wing",
+    "partly basement-supported"
+  ],
+  "design_condition": "The volume is placed parallel to the church at the village edge, enclosing a long courtyard while defining a new public centre and relating to the valley, roads, views, and neighbouring buildings.",
+  "jury_expression": {
+    "positive": [
+      {
+        "statement": "The urban approach is clear, sober, readable, and rational.",
+        "tags": [
+          "urban integration",
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "urban approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5902,
+            0.6111,
+            0.4286
+          ],
+          "radius": 0.302,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The clear elongated bar and projecting wing establish a legible overall urban figure."
+        }
+      },
+      {
+        "statement": "The elongated low volume strengthens the village centre by creating a strong boundary.",
+        "tags": [
+          "urban integration",
+          "massing"
+        ],
+        "position": {
+          "target": "elongated low volume boundary",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4391,
+            0.3586,
+            0.3571
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "A continuous low linear bar is clearly visible across all calibrated views."
+        }
+      },
+      {
+        "statement": "The extra-curricular wing acts as an attractor within the public space and can serve broader communal activities.",
+        "tags": [
+          "open space",
+          "functionality",
+          "identity"
+        ],
+        "position": {
+          "target": "extra-curricular wing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6644,
+            0.8633,
+            0.4286
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The distinct projecting wing is clearly identifiable at the northern end of the bar."
+        }
+      },
+      {
+        "statement": "The simple structural assembly provides rational transmission of vertical and horizontal loads.",
+        "tags": [
+          "structure",
+          "cost"
+        ],
+        "position": {
+          "target": "structural assembly",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4391,
+            0.3586,
+            0.3571
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated linear sampling suggests a regular assembly, without exposing structural members directly."
+        }
+      },
+      {
+        "statement": "The roof geometry creates a thermal buffer zone during overheating.",
+        "tags": [
+          "sustainability",
+          "massing"
+        ],
+        "position": {
+          "target": "roof geometry",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5402,
+            0.4705,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The roof footprint and low-rise upper profile are clearly visible."
+        }
+      }
+    ],
+    "negative": [
+      {
+        "statement": "The extensions complicate the volume and diminish its initial plastic force.",
+        "tags": [
+          "massing",
+          "expression"
+        ],
+        "position": {
+          "target": "extensions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7006,
+            0.8329,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The projecting northern wing visibly complicates the otherwise continuous bar volume."
+        }
+      },
+      {
+        "statement": "The courtyard will be shaded and exposed to wind, while southern visual connections are lost.",
+        "tags": [
+          "open space",
+          "topography",
+          "visibility"
+        ],
+        "position": {
+          "target": "courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4373,
+            0.3597,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The courtyard is approximated within the long bar footprint; shade and wind are not directly visible."
+        }
+      },
+      {
+        "statement": "The form does not adequately resolve the site's public-space, route, view, and sunshine constraints.",
+        "tags": [
+          "urban integration",
+          "circulation",
+          "daylight"
+        ],
+        "position": {
+          "target": "public-space, route, view, and sunshine constraints",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.362,
+            0.4089,
+            0.0714
+          ],
+          "radius": 0.302,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The building edge and adjacent open zone are visible, but individual site constraints are not separable."
+        }
+      },
+      {
+        "statement": "The courtyard lacks permeable and planted surfaces, weakening its spatial and landscape quality.",
+        "tags": [
+          "open space",
+          "landscape",
+          "sustainability"
+        ],
+        "position": {
+          "target": "courtyard surfaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4373,
+            0.3597,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The internal open-space location is inferred from the bar organization; planting and permeability are unrepresented."
+        }
+      },
+      {
+        "statement": "Access from the parking area to the building is not convincing.",
+        "tags": [
+          "circulation",
+          "accessibility"
+        ],
+        "position": {
+          "target": "parking access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2867,
+            0.4581,
+            0.0714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A plausible edge arrival zone is anchored beside the bar, without a distinguishable parking connection."
+        }
+      },
+      {
+        "statement": "The topographical relationship between the different levels remains unresolved, giving the landscape project a two-dimensional character.",
+        "tags": [
+          "topography",
+          "landscape"
+        ],
+        "position": {
+          "target": "different landscape levels",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.811,
+            0.7236,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The sampled model shows a largely planar low volume, so level relationships remain approximate."
+        }
+      },
+      {
+        "statement": "The games area is undersized and the water mirror would be better placed on the village square.",
+        "tags": [
+          "open space",
+          "layout"
+        ],
+        "position": {
+          "target": "games area and water mirror",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3808,
+            0.3966,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open space is visible beside the bar, but games and water features are not distinguishable."
+        }
+      },
+      {
+        "statement": "An additional vertical escape route is required for fire protection.",
+        "tags": [
+          "fire safety",
+          "circulation"
+        ],
+        "position": {
+          "target": "vertical escape route",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8126,
+            0.7301,
+            0.4286
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "A possible secondary vertical route is anchored near the projecting wing, though no stair is visible."
+        }
+      }
+    ],
+    "keyword": [
+      "urban integration",
+      "massing",
+      "open space",
+      "landscape",
+      "topography",
+      "circulation",
+      "daylight",
+      "expression",
+      "structure",
+      "fire safety"
+    ]
+  }
+}
