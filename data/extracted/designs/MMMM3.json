@@ -17,63 +17,227 @@
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "rhythmic arrangement of point buildings and trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5503,
+            0.5059,
+            0.4545
+          ],
+          "radius": 0.301,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four repeated building forms and tree clusters create a visible diagonal site rhythm across the sampled model."
+        }
       },
       {
         "statement": "The requirements for trains and buses are well managed in principle.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "trains and buses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4199,
+            0.2685,
+            0.2273
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Transit functions are not distinguishable internally; the marker approximates the lower southern building interface."
+        }
       },
       {
         "statement": "The access to the parking garage is very well done.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "parking garage access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6186,
+            0.4263,
+            0.2273
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Access is not identifiable, so the marker approximates a ground-level edge zone on the sampled site."
+        }
       },
       {
         "statement": "The trees are placed well and divide the street space effectively.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "trees dividing the street space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2858,
+            0.3189,
+            0.2273
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Tree-like point clusters are visible among the repeated building footprints, especially in the lower-left site area."
+        }
       },
       {
         "statement": "The trees also have enough space according to the cut solution.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "tree space according to the cut solution",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6981,
+            0.6803,
+            0.2273
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Separated point clusters visibly retain open space between the upper building masses."
+        }
       },
       {
         "statement": "The apartments have plenty of daylight and good views.",
         "tags": [
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "apartments with daylight and views",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6981,
+            0.6803,
+            0.7273
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Apartments are interior and indistinguishable; the marker uses an upper perimeter surface of a northern volume."
+        }
       },
       {
         "statement": "The apartment floor plans are attractive from a market perspective.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "apartment floor plans",
+          "spatial_scope": "room",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Market attractiveness is a non-spatial judgment about apartment planning."
+        }
       },
       {
         "statement": "The expression and materialization correspond to and strengthen the project idea.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "facade expression and materialization",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3658,
+            0.5531,
+            0.6364
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "A representative exposed facade surface is selected on the upper-left portion of the sampled building arrangement."
+        }
       },
       {
         "statement": "The detailed project offers conclusive suggestions in floor-plan layout and access issues.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "floor-plan layout and access issues",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5918,
+            0.4356,
+            0.3182
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior layouts are absent; the marker approximates a central lower building region associated with access."
+        }
       }
     ],
     "negative": [
@@ -82,56 +246,208 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "settlement boundaries and building count",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5503,
+            0.5059,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full four-volume footprint and its open gaps are clearly visible across the calibrated views."
+        }
       },
       {
         "statement": "The random arrangement of serving areas and rooms has no spatial potential.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "serving areas and rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2618,
+            0.4706,
+            0.2727
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior serving areas are not distinguishable; the marker approximates a lower-left building zone."
+        }
       },
       {
         "statement": "The underground parking is poorly implemented and the bicycle parking quality is unconvincing.",
         "tags": [
           "functionality",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "underground parking and bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1522,
+            0.1763,
+            0.0909
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Below-grade parking and bicycle facilities are absent; the marker uses a plausible ground-edge access location."
+        }
       },
       {
         "statement": "The residential primacy means the proposal contains too much settlement and too little station.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "residential primacy and station presence",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6966,
+            0.4882,
+            0.3182
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Program balance is not visible; the marker denotes a representative lower portion of the building ensemble."
+        }
       },
       {
         "statement": "The buildings have limited scope for future development because of their hard bone.",
         "tags": [
           "flexibility",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "future development and hard bone",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3917,
+            0.5737,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Rigid detached massing is visible, while future structural flexibility cannot be directly distinguished."
+        }
       },
       {
         "statement": "The ground-floor entrance serves the overall system rather than the specific requirement.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4459,
+            0.2891,
+            0.2273
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance geometry is not identifiable; the marker approximates a southern ground-floor interface."
+        }
       },
       {
         "statement": "The commercial areas are strongly determined by the concept of individual buildings.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "commercial areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7956,
+            0.7634,
+            0.2273
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Commercial rooms are not visible; the marker approximates a lower zone within an eastern volume."
+        }
       },
       {
         "statement": "The copper facade would probably have to be replaced for ecological reasons.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "copper facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3917,
+            0.5737,
+            0.6818
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The facade surface is visible, but copper material and ecological implications are not represented in the point cloud."
+        }
       },
       {
         "statement": "The radical body-and-tree concept does not do justice to the diverse requirements of the task and space.",
@@ -139,14 +455,54 @@
           "massing",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "body-and-tree concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5499,
+            0.5212,
+            0.4091
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated point-built bodies and intervening tree-like clusters visibly define the overall spatial concept."
+        }
       },
       {
         "statement": "The ground-floor uses suffer from the concept of individual volumes.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5918,
+            0.4356,
+            0.2273
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor massing is visible, but individual uses are not distinguishable within the sampled volumes."
+        }
       }
     ],
     "keyword": [

@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "basic idea and street presence",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6898,
+            0.4433,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long central linear mass visibly balances elongated site presence and separation."
+        }
       },
       {
         "statement": "The result is a distinctive building complex with great flexibility and high spatial value.",
@@ -26,7 +47,28 @@
           "identity",
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "distinctive building complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6996,
+            0.4618,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Varied attached volumes and layered elevations clearly distinguish the complex."
+        }
       },
       {
         "statement": "The green curtain creates a valuable room expansion, a green filter, and a unique and inspiring atmosphere.",
@@ -34,7 +76,26 @@
           "open space",
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "green curtain",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2637,
+            0.4767,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Green facade filter is not distinguishable; approximate placement uses the long outer edge."
+        }
       },
       {
         "statement": "The sequence of outdoor spaces and squares creates a good variety of possible uses.",
@@ -42,7 +103,24 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sequence of outdoor spaces and squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.819,
+            0.1807,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open spaces are distributed along the elongated building and its attached volumes."
+        }
       }
     ],
     "negative": [
@@ -51,35 +129,118 @@
         "tags": [
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "elongated corridor zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7016,
+            0.5124,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Long internal circulation is approximated along the central axis of the linear building."
+        }
       },
       {
         "statement": "The auditorium ceiling height appears too low.",
         "tags": [
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "auditorium ceiling",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.651,
+            0.2162,
+            0.2857
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Auditorium is not identifiable; approximate lower-middle placement reflects the stated low ceiling."
+        }
       },
       {
         "statement": "The music rooms in the basement are not convincing because of the auditorium's lack of playability.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "basement music rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6947,
+            0.4721,
+            0.0714
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Basement rooms are approximated at the lower building level; individual rooms are not distinguishable."
+        }
       },
       {
         "statement": "There is no spatial interaction between the individual levels.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "interaction between levels",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns relationships among levels rather than one spatial feature."
+        }
       },
       {
         "statement": "The landscape concept lacks a certain hierarchy.",
         "tags": [
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "landscape hierarchy",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7426,
+            0.7528,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape is assigned to open site areas around the elongated building."
+        }
       }
     ],
     "keyword": [

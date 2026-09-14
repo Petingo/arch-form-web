@@ -16,21 +16,70 @@
           "open space",
           "circulation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "tree-lined gravel entrance square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3708,
+            0.6692,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Upper separated slab and adjacent open margin approximate the entrance square."
+        }
       },
       {
         "statement": "The portico supports the entrance square and can accommodate various events.",
         "tags": [
           "open space",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "portico at the entrance square",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3933,
+            0.6301,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Narrow articulated strip beside lower volume reads as the entrance-supporting portico."
+        }
       },
       {
         "statement": "The search for construction solutions aimed at containing costs is appreciated.",
         "tags": [
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "cost-containment construction solutions",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost containment is a global construction judgment."
+        }
       }
     ],
     "negative": [
@@ -39,35 +88,126 @@
         "tags": [
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "external spaces between volumes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.541,
+            0.5691,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Multiple open gaps between separated volumes are clearly visible."
+        }
       },
       {
         "statement": "The lower-level space between the two buildings has no clear function.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "lower-level space between the two buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4989,
+            0.3497,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower gap is constrained between masses, but its program is not visible."
+        }
       },
       {
         "statement": "The organization and functionality of the first-stage internal spaces are unconvincing, particularly because the routes are complex and problematic.",
         "tags": [
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "first-stage internal spaces and routes",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3444,
+            0.343,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior routes are hidden; lower footprint provides an approximate first-stage anchor."
+        }
       },
       {
         "statement": "The division of the buildings into the two stages, especially the underground part, is not precise.",
         "tags": [
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two-stage division and underground part",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5229,
+            0.4955,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Separated volumes suggest staging, while underground extent is not distinguishable."
+        }
       },
       {
         "statement": "The cost-oriented construction solutions do not achieve the desired architectural quality.",
         "tags": [
           "cost",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "cost-oriented construction solutions and architectural quality",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Combines global cost and expression evaluation without one spatial referent."
+        }
       }
     ],
     "keyword": [

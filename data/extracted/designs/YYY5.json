@@ -15,27 +15,98 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "nursery-crèche-UAPE and common premises",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5138,
+            0.6032,
+            0.1667
+          ],
+          "radius": 0.3077,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Four linked bodies and their single-storey arrangement are clearly legible in the footprint."
+        }
       },
       {
         "statement": "The central reception and distribution hall organizes the four entities clearly.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central reception and distribution hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5092,
+            0.6128,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The crossing center is identifiable where the four bodies meet."
+        }
       },
       {
         "statement": "The service volume is pivotally positioned between the entrances and close to the entities it serves.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "service volume",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4368,
+            0.3088,
+            0.1667
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Service placement is estimated between the southwestern approach and adjacent linked entities."
+        }
       },
       {
         "statement": "The sizing of the living spaces is relevant.",
         "tags": [
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "living spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1617,
+            0.5579,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Living areas are distributed within the peripheral arms of the cross-like plan."
+        }
       },
       {
         "statement": "The central distribution can be extended and is adequate to the functions and premises it connects.",
@@ -43,39 +114,147 @@
           "circulation",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central distribution",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5335,
+            0.6032,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central circulation is visible at the intersection and remains extendable within the plan."
+        }
       },
       {
         "statement": "Overhead lighting initially provides sufficient natural light to the central distribution.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "overhead lighting",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5092,
+            0.6032,
+            0.8226
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lighting is not directly resolved; marker follows the central hall at roof level."
+        }
       },
       {
         "statement": "The crossing and bayonet arrangement of the living spaces is skillful and lively.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "crossing and bayonet arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5092,
+            0.6253,
+            0.1667
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The articulated four-part crossing and offset arms are directly visible in plan."
+        }
       },
       {
         "statement": "The supporting-system layout ensures good gravity-load descent and correct spans.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "supporting-system layout",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5866,
+            0.6071,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Structural assessment is anchored to the repeated low-rise building spans."
+        }
       },
       {
         "statement": "The wall arrangement ensures good overall seismic behavior.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "wall arrangement",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1682,
+            0.4993,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Seismic behavior is assigned to the visible perimeter and partitioned wall system."
+        }
       },
       {
         "statement": "The project meets fire-assurance requirements.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "fire-assurance requirements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7475,
+            0.668,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Fire judgment applies broadly to the complete single-storey building."
+        }
       }
     ],
     "negative": [
@@ -84,42 +263,149 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "exterior spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1942,
+            0.2496,
+            0
+          ],
+          "radius": 0.3077,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The southwestern and northern exterior spaces are visibly separated around the extroverted volume."
+        }
       },
       {
         "statement": "The UAPE's northeastern external extension is poorly defined.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "northeastern external extension",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8659,
+            0.668,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The northeastern edge is visibly open and weakly defined beside the main footprint."
+        }
       },
       {
         "statement": "The peripheral premises are poorly suited to the theme and the proposed arrangement.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "peripheral premises",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.07,
+            0.7756,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral rooms are located within the outer arms of the linked-body plan."
+        }
       },
       {
         "statement": "The architectural expression provides a rational environment for children rather than a specifically child-oriented one.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "child-oriented architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5092,
+            0.7257,
+            0.1667
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Expression judgment is anchored to the overall low, neutral envelope."
+        }
       },
       {
         "statement": "The basement and heavy structure on weak soil require consolidation work, significantly increasing the initial or final cost.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "basement and heavy structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.492,
+            0.3062,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Substructure is not visible; estimate lies beneath the eastern-central building mass."
+        }
       },
       {
         "statement": "Deep foundations are probably necessary for the single-storey building and obligatory for an extension.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "deep foundations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8243,
+            0.4633,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Foundation concern is assigned beneath the eastern edge of the single-storey footprint."
+        }
       }
     ],
     "keyword": [

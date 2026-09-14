@@ -17,14 +17,54 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "four-volume layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5146,
+            0.5479,
+            0.4286
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four offset volumes are clearly separated around a shared central base."
+        }
       },
       {
         "statement": "The differentiated levels take advantage of the slope and make the landscape more permeable.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "differentiated levels and permeable landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5671,
+            0.4326,
+            0.2857
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped masses and open landscape are approximated across the sloping site."
+        }
       },
       {
         "statement": "The four distinct buildings bring a domestic scale to the different units.",
@@ -32,7 +72,26 @@
           "scale",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "four distinct buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8047,
+            0.6442,
+            0.5714
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "One representative offset volume anchors the clearly visible domestic-scale building group."
+        }
       },
       {
         "statement": "The living units are organized on a human scale and are considered interesting.",
@@ -40,21 +99,74 @@
           "scale",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "living units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3577,
+            0.5972,
+            0.4286
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior units are not distinguishable, so the placement uses a plausible upper building zone."
+        }
       },
       {
         "statement": "The green rooms extending into the building's heart form large landscaped areas with fruit trees.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green rooms and landscaped heart",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4756,
+            0.4718,
+            0.2857
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central gap between offset volumes provides the strongest visible approximation of the landscaped heart."
+        }
       },
       {
         "statement": "The northern relationship with the park and castle is of high quality.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "northern relationship with park and castle",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6168,
+            0.8091,
+            0.3571
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern building edge anchors the stated park and castle relationship."
+        }
       },
       {
         "statement": "The project offers quality relaxation, walking and meeting areas.",
@@ -62,7 +174,25 @@
           "open space",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "relaxation, walking and meeting areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.607,
+            0.7804,
+            0.2143
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Open areas near the northern side are the most plausible locations for outdoor social activity."
+        }
       }
     ],
     "negative": [
@@ -72,14 +202,50 @@
           "massing",
           "topography",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "retaining wall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.696,
+            0.1168,
+            0.1429
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower plot edge and base termination provide a constrained retaining-wall location."
+        }
       },
       {
         "statement": "The southern parking position is problematic in use.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "southern parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.696,
+            0.1168,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A southern exterior zone is used for the criticized parking position."
+        }
       },
       {
         "statement": "The entrance square faces the parking lot, raising doubts about its quality and appropriation potential.",
@@ -87,7 +253,25 @@
           "circulation",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "entrance square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7064,
+            0.1688,
+            0.2143
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance square is approximated beside the southern parking edge."
+        }
       },
       {
         "statement": "The four bodies and linear distribution become somewhat rigid and repetitive.",
@@ -95,7 +279,28 @@
           "layout",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "rigid repetitive four-body distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5313,
+            0.5577,
+            0.4286
+          ],
+          "radius": 0.308,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated offset bodies and their linear arrangement are visible across the whole massing."
+        }
       },
       {
         "statement": "The distribution space is unrelated to collective spaces, making its use unclear.",
@@ -103,7 +308,25 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "distribution space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4623,
+            0.5643,
+            0.4286
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "An internal central zone is used for the indistinguishable distribution space."
+        }
       },
       {
         "statement": "The proportions of the semi-private spaces raise doubts about their quality and functioning.",
@@ -111,7 +334,25 @@
           "proportion",
           "functionality",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "semi-private spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2377,
+            0.5528,
+            0.4286
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The semi-private spaces are interior and approximated within a representative occupied volume."
+        }
       },
       {
         "statement": "The administrative spaces lack a relationship with the entrance and conflict with the principle of supporting the elderly.",
@@ -119,7 +360,25 @@
           "layout",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "administrative spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3699,
+            0.198,
+            0.4286
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Administrative functions are approximated near the southern entrance-facing portion."
+        }
       },
       {
         "statement": "The relationship between the different bodies remains poorly developed and is necessary for the use of the institution.",
@@ -127,7 +386,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "relationships between different bodies",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4895,
+            0.4675,
+            0.4286
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central interstitial zone represents connections between the four visible bodies."
+        }
       },
       {
         "statement": "The massive base and separation from the fields are inappropriate to the historic site.",
@@ -135,7 +413,26 @@
           "massing",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "massive base",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5671,
+            0.4326,
+            0.1429
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The common base is visibly continuous beneath the offset volumes."
+        }
       },
       {
         "statement": "The outdoor car park detracts from the general atmosphere and views of the adjacent fields.",
@@ -143,21 +440,61 @@
           "landscape",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor car park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7012,
+            0.1428,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern-east exterior edge is used for the criticized outdoor parking area."
+        }
       },
       {
         "statement": "The natural ventilation strategy is ineffective and does not guarantee thermal comfort without technical cooling.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "natural ventilation strategy",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an overall environmental-performance judgment without a distinct geometric marker."
+        }
       },
       {
         "statement": "The estimated overall cost is in the upper average, particularly because of the extensive facades and their composition.",
         "tags": [
           "cost",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "overall cost",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost is a non-spatial project-wide judgment."
+        }
       }
     ],
     "keyword": [

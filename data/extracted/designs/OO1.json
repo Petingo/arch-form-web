@@ -15,7 +15,26 @@
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing buildings and outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2052,
+            0.3111,
+            0.0833
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Overall sampled footprint anchors the school ensemble and its southern outdoor transition."
+        }
       },
       {
         "statement": "The precise setting clarifies the southern area and creates a new ensemble.",
@@ -23,14 +42,51 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "southern area and new ensemble",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7144,
+            0.1017,
+            0.5
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern edge of the aligned footprint anchors the clarified area and ensemble."
+        }
       },
       {
         "statement": "The high-quality spatial references create a dialogue between inside and outside and between the existing and new buildings.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "inside-outside and existing-new dialogue",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5026,
+            0.4012,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central footprint location approximates the spatial interface between interior and surrounding open areas."
+        }
       },
       {
         "statement": "The clear structure and organization promise well-functioning and interesting school operations.",
@@ -38,7 +94,27 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "clear school structure and organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6886,
+            0.4012,
+            0.5
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Linear, three-part sampled massing anchors the organizational and operational reading."
+        }
       },
       {
         "statement": "The basic levels have directly adjacent, spacious gardens separated from the primary school playground.",
@@ -46,14 +122,51 @@
           "open space",
           "landscape",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "adjacent gardens and primary school playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2052,
+            0.3111,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level southern-western edge provides the closest sampled anchor for gardens and playground separation."
+        }
       },
       {
         "statement": "The day school allows children's different activities to be spatially separated.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "spatially separated children’s activities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7144,
+            0.7316,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Separated footprint portions provide an approximate anchor for differentiated school activity zones."
+        }
       }
     ],
     "negative": [
@@ -63,7 +176,25 @@
           "facade",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "muddy masonry facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7144,
+            0.0235,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing sampled envelope anchors the contextual facade-material criticism."
+        }
       },
       {
         "statement": "The projections, setbacks, passage, and raised roof increase insulation costs and negatively affect the energy balance.",
@@ -71,13 +202,51 @@
           "massing",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "projections, setbacks, passage, and raised roof",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8423,
+            0.8745,
+            0.9167
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Distinct stepped and raised upper massing is visible across top and elevation projections."
+        }
       },
       {
         "statement": "The primary requirements for the building envelope are barely met.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7144,
+            0.1799,
+            0.5
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sampled exterior boundary provides a broad anchor for the envelope-performance criticism."
+        }
       }
     ],
     "keyword": [

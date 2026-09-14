@@ -18,7 +18,28 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole school volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5447,
+            0.4184,
+            0.5833
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact three-story massing is clearly visible across the top and four elevation views."
+        }
       },
       {
         "statement": "The inner courtyards and air spaces structure the volume and create an atmospheric learning environment.",
@@ -26,7 +47,28 @@
           "massing",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "inner courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5027,
+            0.4184,
+            0.5833
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central voids and punctures are identifiable in the top view and reflected in elevations."
+        }
       },
       {
         "statement": "The balconies and courtyards allow lessons to be extended outdoors.",
@@ -34,7 +76,28 @@
           "open space",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "balconies and courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5027,
+            0.4184,
+            0.6667
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-level openings and courtyard edges indicate outdoor teaching extensions around the central volume."
+        }
       },
       {
         "statement": "The sports halls are well lit, and their visibility enriches the relationship between the building and the outside space.",
@@ -42,7 +105,26 @@
           "daylight",
           "visibility",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sports halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7437,
+            0.3405,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A lower southeastern zone provides a plausible surface anchor for the indistinguishable sports halls."
+        }
       },
       {
         "statement": "The idea of a large school bringing together all age groups in a strong spatial structure is easy to understand.",
@@ -50,7 +132,28 @@
           "massing",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "whole school spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.399,
+            0.6639,
+            0.5833
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete modular, courtyard-punctured building structure is visible across all calibrated views."
+        }
       }
     ],
     "negative": [
@@ -60,7 +163,26 @@
           "massing",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green belt and existing tree line",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9857,
+            0.1542,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The southeastern footprint edge is visible, but surrounding vegetation is not sampled distinctly."
+        }
       },
       {
         "statement": "The strong direction of the inner street is not understood, and the multifunctional foyer loses spaciousness through its division into sections.",
@@ -68,21 +190,77 @@
           "circulation",
           "layout",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "inner street and multifunctional foyer",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5025,
+            0.37,
+            0.3333
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central circulation and foyer are interior, so placement follows the visible central building zone."
+        }
       },
       {
         "statement": "The platform widths at the central staircases are sometimes very narrow.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "central staircase platforms",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5027,
+            0.4184,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central stair platforms are not distinguishable, but the statement constrains them to the middle circulation zone."
+        }
       },
       {
         "statement": "Lighting classrooms only via an inner courtyard is not conceivable for rooms used for permanent residence.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classrooms facing inner courtyard",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4124,
+            0.5823,
+            0.6667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior classrooms are absent as distinct points; the anchor follows a courtyard-facing upper-level surface."
+        }
       },
       {
         "statement": "The spatial proximity of the schools and the limited outdoor space may not meet the needs of all users.",
@@ -90,7 +268,26 @@
           "layout",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "limited outdoor space between schools",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8277,
+            0.3405,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The southeastern building edge provides the closest sampled anchor for constrained outdoor space."
+        }
       }
     ],
     "keyword": [

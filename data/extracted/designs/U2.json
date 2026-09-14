@@ -17,7 +17,28 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "differentiated situation proposal",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5316,
+            0.5547,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct gym, school bar, and pentagonal volume visibly form a differentiated ensemble."
+        }
       },
       {
         "statement": "The gym roof creates an appropriate scale toward the sports field and references the town hall architecture.",
@@ -25,7 +46,26 @@
           "scale",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "gym roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.326,
+            0.3685,
+            0.6111
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The lower western gym mass has a distinct roof profile toward the open field."
+        }
       },
       {
         "statement": "The sports field with its street-side grandstand acts as a unifying outdoor element.",
@@ -33,7 +73,26 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sports field and grandstand",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6777,
+            0.1859,
+            0.0556
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The south-side open edge is the plausible sports-field and grandstand zone."
+        }
       },
       {
         "statement": "The organization of the gym is well thought out, with versatile use and naturally lit access spaces.",
@@ -41,7 +100,26 @@
           "functionality",
           "flexibility",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "gym organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2956,
+            0.367,
+            0.2222
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The low western volume is used as the gym and naturally lit access anchor."
+        }
       },
       {
         "statement": "The proposed school structure promises flexible and therefore sustainable use.",
@@ -49,20 +127,69 @@
           "flexibility",
           "sustainability",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "school structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5212,
+            0.76,
+            0.6667
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated four-story bar visibly provides the primary school structure."
+        }
       },
       {
         "statement": "The location of the new buildings integrates the town hall and the existing small building into an ensemble with connections beyond the perimeter.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "ensemble with connections beyond the perimeter",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5286,
+            0.6133,
+            0.3333
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The building cluster and perimeter connections are represented around the central ensemble."
+        }
       },
       {
         "statement": "The project is economically viable overall.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "economic viability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic judgment has no useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -72,7 +199,25 @@
           "topography",
           "circulation",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor gym and external ramp",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2956,
+            0.367,
+            0.1111
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The low south-west edge represents the constrained gym and ramp condition."
+        }
       },
       {
         "statement": "Public use of the outdoor spaces is possible only to a limited extent because they are mostly reserved for school operations.",
@@ -80,7 +225,25 @@
           "open space",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces reserved for school operations",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6748,
+            0.2446,
+            0.0556
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side open areas around the sports complex represent restricted public use."
+        }
       },
       {
         "statement": "The outsourced auditorium is less suitable for day-to-day school operations because it is decoupled from the school.",
@@ -88,14 +251,51 @@
           "operation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outsourced auditorium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6703,
+            0.3326,
+            0.2778
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The detached eastern extension is used as an approximate auditorium location."
+        }
       },
       {
         "statement": "The planned expansion would impair school operations and must be taken into account.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "planned expansion",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7813,
+            0.5716,
+            0.7222
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Future expansion is not identified; the eastern upper perimeter provides a constrained anchor."
+        }
       },
       {
         "statement": "Locating all parking spaces in the basement is disadvantageous for sustainability and construction costs.",
@@ -103,7 +303,25 @@
           "sustainability",
           "cost",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "basement parking",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5376,
+            0.4373,
+            0.0556
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Basement parking is below the visible ensemble and approximated beneath the central footprint."
+        }
       },
       {
         "statement": "The entire area is occupied, leaving little scope for development.",
@@ -111,7 +329,26 @@
           "open space",
           "flexibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "entire occupied area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.842,
+            0.5745,
+            0.0556
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The distributed masses occupy most of the sampled site, especially toward the eastern edge."
+        }
       },
       {
         "statement": "The classrooms are divided into four parts, losing the spatial proximity and diversity expected of a sustainable school.",
@@ -119,7 +356,26 @@
           "layout",
           "functionality",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "four-part classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5197,
+            0.7893,
+            0.6667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom subdivision is approximated within the elongated upper school bar."
+        }
       }
     ],
     "keyword": [

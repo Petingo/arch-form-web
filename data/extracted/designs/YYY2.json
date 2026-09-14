@@ -17,7 +17,24 @@
         "tags": [
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4007,
+            0.5076,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The broad western open area is visibly generated beside the compact eastern building."
+        }
       },
       {
         "statement": "The cuts in the form give the outdoor spaces adequate proportions at neighborhood scale.",
@@ -25,21 +42,73 @@
           "open space",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces at neighborhood scale",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2513,
+            0.1228,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Cuts in the footprint visibly divide the western and southern exterior zones."
+        }
       },
       {
         "statement": "The building logically organizes three accesses as exterior extensions of the hall space.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "three accesses as exterior extensions of the hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5404,
+            0.5013,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central hall is identifiable, while individual access points are only approximately localized."
+        }
       },
       {
         "statement": "The distribution of the different groups of premises is coherent.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "distribution of different groups of premises",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5404,
+            0.5431,
+            0.375
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The articulated footprint and central hall provide a useful building-wide organization anchor."
+        }
       },
       {
         "statement": "The jury appreciated the architectural design, layout and general organization.",
@@ -47,20 +116,69 @@
           "expression",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "architectural design, layout and general organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5404,
+            0.5013,
+            0.5
+          ],
+          "radius": 0.348,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall judgment is anchored to the compact articulated building mass."
+        }
       },
       {
         "statement": "The supporting system provides good gravity-load descent and adequate seismic behavior.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "supporting system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9195,
+            0.6368,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The structural system is not individually visible; the eastern building mass provides a constrained anchor."
+        }
       },
       {
         "statement": "The project meets fire quality assurance requirements.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "fire quality assurance",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Fire compliance has no distinct exterior point-cloud marker."
+        }
       }
     ],
     "negative": [
@@ -70,14 +188,49 @@
           "proportion",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "exterior extensions and fences",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2073,
+            0.1228,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Long projecting edges visibly shape the western and southern exterior areas."
+        }
       },
       {
         "statement": "The organizational plan loses clarity in the southern part where staff rooms extend the L-shaped plan.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "southern staff-room extension",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.716,
+            0,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern extension is visibly represented along the lower edge of the plan."
+        }
       },
       {
         "statement": "The central gap is difficult to perceive and the jury has difficulty recognizing the theme of the world of childhood.",
@@ -85,7 +238,24 @@
           "identity",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central gap and identity",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5404,
+            0.5013,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central gap is visibly small and enclosed within the surrounding mass."
+        }
       },
       {
         "statement": "The central patio appears poorly sized, despite being necessary as a source of light.",
@@ -93,7 +263,24 @@
           "daylight",
           "proportion",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "central patio",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5404,
+            0.5222,
+            0
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A small central opening is clearly visible within the compact building footprint."
+        }
       },
       {
         "statement": "The future expansion raises questions about the central location and reduced dimension of vertical circulation.",
@@ -101,7 +288,24 @@
           "flexibility",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "future expansion and vertical circulation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5404,
+            0.5013,
+            0.375
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Vertical circulation is not distinguishable; the central hall is the constrained likely location."
+        }
       },
       {
         "statement": "The project fails to convince with its identity inside and outside.",
@@ -109,7 +313,27 @@
           "identity",
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "project identity inside and outside",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5404,
+            0.5222,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The criticism concerns the overall compact envelope and its exterior expression."
+        }
       },
       {
         "statement": "The heavy reinforced-concrete roof slab may require deep foundations on the poor-bearing-capacity soils.",
@@ -117,20 +341,74 @@
           "structure",
           "topography",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "reinforced-concrete roof slab",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5404,
+            0.5431,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Roof material is not identifiable, so the eastern roof surface is used as an approximate anchor."
+        }
       },
       {
         "statement": "A lightweight wooden roof would have better complemented the earthen walls and biosourced materials.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "lightweight wooden roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4007,
+            0.5495,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The proposed roof material is absent visually; a western roof surface supplies a constrained location."
+        }
       },
       {
         "statement": "The project gives no indication of the planned extension.",
         "tags": [
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "planned extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9192,
+            0.6574,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "No extension is visible; the eastern perimeter is a plausible future-growth location."
+        }
       }
     ],
     "keyword": [

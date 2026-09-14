@@ -17,14 +17,48 @@
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "interior spatial organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7406,
+            0.4801,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior organization is approximated within the triangular plan; internal subdivisions are not distinguishable in the exterior point cloud."
+        }
       },
       {
         "statement": "The streets, alleys, squares and small squares create an attractive interior world.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "streets, alleys, squares and small squares",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7278,
+            0.4544,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The interior-world elements are placed in the central triangular plan, though individual streets and squares are not visible."
+        }
       }
     ],
     "negative": [
@@ -33,34 +67,125 @@
         "tags": [
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "roads and houses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6894,
+            0.3773,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Circulation and housing are approximated because the sampled exterior does not distinguish internal roads or houses."
+        }
       },
       {
         "statement": "The triangular shape makes it difficult to inscribe the program, with oblique encounters questioning the formal premise.",
         "tags": [
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "triangular shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7663,
+            0.5315,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The triangular footprint is clearly visible in plan and its thin profile is corroborated by all elevations."
+        }
       },
       {
         "statement": "The triangular shape does not convince in its integration into the site or its capacity to accommodate the program.",
         "tags": [
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "integration into the site",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7791,
+            0.5572,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The project mass is visible, but surrounding site relationships are absent; the anchor uses the triangle’s central footprint."
+        }
       },
       {
         "statement": "The project does not take sustainable-development principles into account.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sustainable-development principles",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a global sustainability judgment without a specific geometric referent."
+        }
       },
       {
         "statement": "The volume is larger than average and has a very high form factor.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7535,
+            0.5058,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad triangular volume is directly visible in plan, while elevations confirm its very thin profile."
+        }
       },
       {
         "statement": "Embodied energy consumption would be very high because of the non-compact project, heavily glazed facades and glass-and-steel roof.",
@@ -68,7 +193,18 @@
           "sustainability",
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "embodied energy consumption",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Embodied energy is a performance judgment, even though glazing, compactness and roof construction are cited as causes."
+        }
       }
     ],
     "keyword": [

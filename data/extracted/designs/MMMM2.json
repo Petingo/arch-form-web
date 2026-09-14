@@ -17,49 +17,196 @@
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6848,
+            0.5927,
+            0.3638
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view shows the longitudinal building and tower forming a varied-scale sequence."
+        }
       },
       {
         "statement": "The cubic reduction gives the heterogeneous context a calming effect.",
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "cubic reduction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4362,
+            0.3682,
+            0.5457
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed across the visible cubic building mass addressing heterogeneous surroundings."
+        }
       },
       {
         "statement": "The longitudinal structure creates a new center in a harmonious way.",
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "longitudinal structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3303,
+            0.2726,
+            0.4998
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated primary structure is clearly identifiable as the central building element."
+        }
       },
       {
         "statement": "The open ground-floor hall takes on the functions of the public transport hub.",
         "tags": [
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "open ground-floor hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2667,
+            0.2757,
+            0.0909
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Open lower-level geometry is visible beneath the longitudinal building."
+        }
       },
       {
         "statement": "Splitting the program into two buildings is strategically clever because they offer different qualities.",
         "tags": [
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6976,
+            0.6238,
+            0.4998
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly separates the long building from the smaller tower-like volume."
+        }
       },
       {
         "statement": "The column grid allows the open office floor to be used freely and flexibly.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "open office floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3602,
+            0.2718,
+            0.5912
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior office use is unmarked; placement follows the upper longitudinal building surface."
+        }
       },
       {
         "statement": "The apartments have partly double-storey airspaces and a consistent vision of the Reuss loop.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "apartments with double-storey airspaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2952,
+            0.421,
+            0.5912
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior apartments are not distinguishable, so the upper residential surface is used."
+        }
       }
     ],
     "negative": [
@@ -68,63 +215,236 @@
         "tags": [
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "open-space and traffic aspects",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4154,
+            0.3562,
+            0.0909
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground-level space between visible masses represents the underdeveloped open-space and traffic zone."
+        }
       },
       {
         "statement": "The pedestrian ramp system, a key element of the transport hub, is missing.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian ramp system",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5294,
+            0.4524,
+            0.1819
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The transport-hub edge is approximated at ground level where no ramp geometry is distinguishable."
+        }
       },
       {
         "statement": "The underground-car-park dimensions are too small.",
         "tags": [
           "scale",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "underground-car-park dimensions",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2666,
+            0.2181,
+            0.0455
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Below-grade parking is absent from the sample; a plausible lower building footprint is used."
+        }
       },
       {
         "statement": "The exit toward Zürcherstrasse is likely to create potential for conflict.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "exit toward Zürcherstrasse",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2186,
+            0.1717,
+            0.1819
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The street-facing lower edge of the longitudinal building provides the constrained exit location."
+        }
       },
       {
         "statement": "The traffic hub and separate platform roof feel hard and insufficiently harmonious.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "traffic hub and separate platform roof",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5605,
+            0.4805,
+            0.2274
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The hub-related ground zone and adjacent raised volume are approximated between the two masses."
+        }
       },
       {
         "statement": "The green open space with bicycle shelters was not developed.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "green open space with bicycle shelters",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1734,
+            0.1339,
+            0.0455
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Unbuilt ground beside the longitudinal structure is used for the undeveloped landscape area."
+        }
       },
       {
         "statement": "The arcade's attractiveness is questionable because access conditions are cramped.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "arcade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2808,
+            0.2279,
+            0.1819
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely access edge is placed along the lower street-facing side of the long building."
+        }
       },
       {
         "statement": "The tower's closed appearance toward Zürcherstrasse is not adequate.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "tower's closed appearance toward Zürcherstrasse",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8475,
+            0.7204,
+            0.6366
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct tower footprint and its lower-facing facade are clearly visible in plan and elevations."
+        }
       },
       {
         "statement": "The serial building structures create a somewhat harsh industrial expression without sufficient public appeal.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "serial building structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2718,
+            0.3721,
+            0.5002
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated longitudinal and towered forms visibly establish the serial industrial expression."
+        }
       }
     ],
     "keyword": [

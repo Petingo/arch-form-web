@@ -17,7 +17,26 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "five-building campus ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1822,
+            0.2231,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Perimeter buildings and varied heights are visible around the central square in plan and elevations."
+        }
       },
       {
         "statement": "The passage and central internal square support the campus idea and create high-quality additional open space.",
@@ -25,28 +44,101 @@
           "open space",
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central internal square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5022,
+            0.4871,
+            0.0556
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open central court is clearly legible between the surrounding building masses in the top view."
+        }
       },
       {
         "statement": "The individual buildings and their assigned uses are organized and structured in a comprehensible manner.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "individual buildings and assigned uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8327,
+            0.1669,
+            0.4444
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct building blocks are identifiable, while internal use assignments are not visible."
+        }
       },
       {
         "statement": "The supporting structure has a very high proportion of wood and is carefully processed.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "wood supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7511,
+            0.7675,
+            0.5556
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The structural system is not distinguishable, so the marker uses an upper perimeter building surface."
+        }
       },
       {
         "statement": "The facade is carefully and precisely crafted.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9907,
+            0.3898,
+            0.5556
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "top"
+          ],
+          "rationale": "A visible outer facade edge is selected on the east side of the perimeter ensemble."
+        }
       }
     ],
     "negative": [
@@ -56,21 +148,73 @@
           "flexibility",
           "layout",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "deep floor plans and wide supports",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7866,
+            0.1789,
+            0.3889
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Deep interior planning and supports are not directly visible; the marker references a broad perimeter floor region."
+        }
       },
       {
         "statement": "The assignment of faculties to individual buildings is not completely convincing operationally and does not promote cross-disciplinary work.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "assignment of faculties to individual buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3256,
+            0.77,
+            0.4444
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Separate building volumes are visible, but faculty allocation and operational relationships are internal."
+        }
       },
       {
         "statement": "It is very doubtful whether the underground transport network works geometrically and it will likely require more space.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "underground transport network",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5022,
+            0.1382,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The underground network is absent from the sample; the marker follows the front access edge."
+        }
       },
       {
         "statement": "The facade appears more like an office or administrative building than a technical university.",
@@ -78,14 +222,49 @@
           "facade",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "office or administrative facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9571,
+            0.711,
+            0.5556
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "top"
+          ],
+          "rationale": "The criticism concerns external identity, anchored to a clearly visible outer facade."
+        }
       },
       {
         "statement": "After the second stage, the open space loses some of its generosity and power.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "open space after the second stage",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7716,
+            0.4883,
+            0.0556
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The later-stage open-space condition is anchored to the visible court and adjoining internal alleys."
+        }
       }
     ],
     "keyword": [

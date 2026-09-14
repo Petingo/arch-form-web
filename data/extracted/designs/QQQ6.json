@@ -19,7 +19,27 @@
           "massing",
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "compact western disposition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2107,
+            0.4729,
+            0.5357
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The dominant mass is visibly concentrated on the western side of the model."
+        }
       },
       {
         "statement": "The new school building establishes a clear volumetric focus and strengthens the connection to the district.",
@@ -27,7 +47,27 @@
           "massing",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "new school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2365,
+            0.4729,
+            0.6071
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "A tall western volume clearly provides the ensemble’s volumetric focus."
+        }
       },
       {
         "statement": "The topographical conditions generate differentiated outdoor spaces and organize access to the different user groups.",
@@ -35,7 +75,25 @@
           "topography",
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4217,
+            0.3581,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open areas and edges around the concentrated masses suggest differentiated outdoor zones."
+        }
       },
       {
         "statement": "The address square provides an arrival point that can also accommodate events.",
@@ -43,7 +101,25 @@
           "circulation",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "address square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4413,
+            0.2003,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A lower southern approach zone is the most plausible arrival square."
+        }
       },
       {
         "statement": "The compact organization supports the educational concept of the small school within the larger school.",
@@ -51,7 +127,26 @@
           "massing",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "small school within larger school",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1849,
+            0.4729,
+            0.5357
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The dominant volume’s repeated stacked bands support an internal smaller-school grouping approximation."
+        }
       },
       {
         "statement": "The separate gymnasium and auditorium arrangement provides independence for larger events, clubs and neighbourhood use.",
@@ -59,14 +154,51 @@
           "layout",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "separate gymnasium and auditorium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8846,
+            0.6246,
+            0.1429
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A distinct smaller eastern volume is clearly separated from the dominant western school."
+        }
       },
       {
         "statement": "The facade design makes a high-quality impression and conveys a certain openness.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2262,
+            0,
+            0.6071
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Large repeated facade bands and openings are visible on the main school elevations."
+        }
       }
     ],
     "negative": [
@@ -76,14 +208,49 @@
           "open space",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "surrounding open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4413,
+            0.3508,
+            0.0357
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The compact footprint leaves visibly limited interstitial space around the buildings."
+        }
       },
       {
         "statement": "The prominent outside-stair transitions are neither adequate nor practical for people with disabilities.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "outside-stair transitions",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1705,
+            0.1457,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A southern access edge is approximated, but exterior stairs are not distinctly resolved."
+        }
       },
       {
         "statement": "The access areas are generously sized but uninspiring, functioning more as corridors than lounges.",
@@ -91,7 +258,25 @@
           "layout",
           "expression",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2107,
+            0.4729,
+            0.4286
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior access zones are approximated within the tall school volume."
+        }
       },
       {
         "statement": "The childcare rooms are only vertically connected through the general staircase, restricting flexibility of use.",
@@ -99,7 +284,25 @@
           "circulation",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "childcare rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2623,
+            0.4729,
+            0.3214
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Childcare rooms are approximated inside the main volume; their vertical connection is not visible."
+        }
       },
       {
         "statement": "The potential for networking public uses with the outdoor space and district is not exploited.",
@@ -107,7 +310,25 @@
           "urban integration",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "public uses and outdoor space connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4413,
+            0.3508,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central gap between school and eastern volume is the likely public-outdoor interface."
+        }
       },
       {
         "statement": "The gymnasium entrance is difficult to read because of its lateral placement beneath the massive school volume and the adjacent outside staircase.",
@@ -115,7 +336,25 @@
           "circulation",
           "visibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "gymnasium entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4413,
+            0.2304,
+            0.1071
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The eastern volume’s southern-lateral edge provides a constrained entrance location."
+        }
       },
       {
         "statement": "The overall appearance is not considered adequate for a primary school in relation to the impressive size of the new building.",
@@ -123,7 +362,27 @@
           "expression",
           "scale",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "overall primary-school appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2623,
+            0.4729,
+            0.6071
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The tall dominant school mass is clearly visible and supports the scale and identity critique."
+        }
       }
     ],
     "keyword": [

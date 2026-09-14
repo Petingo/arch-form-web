@@ -21,7 +21,7 @@ frame.addEventListener("load", () => {
       const theme = doc.createElement("link");
       theme.id = "arch-form-embedded-theme";
       theme.rel = "stylesheet";
-      theme.href = "/arch-form-web/web/assets/css/model-space-legacy.css?v=1";
+      theme.href = "/arch-form-web/web/assets/css/model-space-legacy.css?v=20260914";
       theme.addEventListener("load", finishLoading, { once: true });
       doc.head.append(theme);
       window.setTimeout(finishLoading, 1000);

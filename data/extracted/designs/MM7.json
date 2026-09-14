@@ -18,21 +18,75 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sports and play areas toward the green corridor",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9588,
+            0.5044,
+            0.0711
+          ],
+          "radius": 0.312,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Eastern open landscape is placed beyond the elongated base, consistent with the stated green-corridor direction."
+        }
       },
       {
         "statement": "The mezzanine floor allows daylight to reach the sports facilities below.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "mezzanine floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5171,
+            0.5294,
+            0.5685
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central raised volume provides an approximate mezzanine anchor above the lower sports-level zone."
+        }
       },
       {
         "statement": "The organization of the schools works well, and the clusters are convincingly designed.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3404,
+            0.5294,
+            0.4975
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Cluster organization is interior and indistinct, so it is approximated within the western-central building zone."
+        }
       },
       {
         "statement": "Light-flooded, spacious staircases connect the school floors vertically and are impressive spatially.",
@@ -40,7 +94,26 @@
           "circulation",
           "daylight",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "light-flooded staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5171,
+            0.5294,
+            0.4975
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Paired central vertical traces in the top view identify the stair and connection zone."
+        }
       },
       {
         "statement": "The project impresses with its high compactness and space efficiency, with a positive effect on profitability.",
@@ -48,7 +121,26 @@
           "massing",
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole building compactness and space efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5171,
+            0.5294,
+            0.4264
+          ],
+          "radius": 0.312,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated perimeter base and two raised volumes provide a visible whole-building compactness anchor."
+        }
       },
       {
         "statement": "The school appears flooded with light and inviting.",
@@ -56,7 +148,26 @@
           "daylight",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "light-filled and inviting school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6938,
+            0.5294,
+            0.4975
+          ],
+          "radius": 0.312,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The broad identity judgment is anchored to the visible building envelope and its upper volumes."
+        }
       }
     ],
     "negative": [
@@ -65,7 +176,27 @@
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "transverse upper volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3186,
+            0.2786,
+            0.7107
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Raised transverse masses are clearly legible as separate upper components across the elevations and top view."
+        }
       },
       {
         "statement": "The intentions behind the open-space character and the arbitrary placement of tree volumes remain unclear.",
@@ -73,7 +204,24 @@
           "landscape",
           "open space",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "tree volumes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8714,
+            0.6636,
+            0.0711
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tree volumes are not distinguishable, so the estimate is placed in the open landscape beyond the building."
+        }
       },
       {
         "statement": "The building is positioned too close to the adjacent path, dissolving the frame of trees.",
@@ -81,7 +229,25 @@
           "urban integration",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "adjacent path",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0412,
+            0.4992,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The path is absent from the sample; its proximity is approximated along the building’s western edge."
+        }
       },
       {
         "statement": "The mezzanine prevents crossing the building at ground level and creates a hurdle for students with limited mobility.",
@@ -89,7 +255,26 @@
           "circulation",
           "accessibility",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ground-level crossing through the building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5613,
+            0.5294,
+            0.5685
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The mezzanine-level central zone is used to represent the obstructed crossing condition."
+        }
       },
       {
         "statement": "The cramped stair and access situation on the mezzanine cannot match the quality of the upper floors.",
@@ -97,7 +282,26 @@
           "circulation",
           "layout",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "mezzanine stair and access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4894,
+            0.5294,
+            0.6396
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central vertical traces suggest the approximate mezzanine access location, though cramped access is not distinguishable."
+        }
       },
       {
         "statement": "The many roof areas are not used as additional outdoor space or for urban-climatic and ecological purposes.",
@@ -105,7 +309,26 @@
           "open space",
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "roof areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4751,
+            0.2896,
+            0.9927
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple upper footprints are visible from above and terminate at distinct roof-level elevations."
+        }
       },
       {
         "statement": "The proposal cannot fulfill its promise of being a light-filled, open, inviting and inclusive school.",
@@ -113,7 +336,26 @@
           "daylight",
           "accessibility",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "light-filled, open, inviting and inclusive school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7379,
+            0.5294,
+            0.4975
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The broad critique is anchored across the sampled building envelope rather than a single identifiable feature."
+        }
       }
     ],
     "keyword": [

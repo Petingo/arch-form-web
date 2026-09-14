@@ -18,35 +18,129 @@
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "pavilion architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4977,
+            0.5575,
+            0.5
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Long elevated hall visibly resolves into pavilion-like segments beneath a light roof."
+        }
       },
       {
         "statement": "The folded roof landscape offers a carefully developed way to complement the existing system.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "folded roof landscape",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5139,
+            0.5714,
+            1
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Roof profile and repeated folded segments are most clearly visible along the upper elevations and top footprint."
+        }
       },
       {
         "statement": "The internal division creates spatial order and clarity.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal division",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4809,
+            0.5554,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Repeated pavilion segmentation suggests internal order, but room divisions are not directly visible."
+        }
       },
       {
         "statement": "Accessibility is logically provided in both longitudinal and transverse directions.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "longitudinal and transverse accessibility",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4977,
+            0.5575,
+            0.3333
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated plan supports directional circulation inference, though routes are not individually visible."
+        }
       },
       {
         "statement": "The wooden construction has comparatively low embodied energy.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "wooden construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5074,
+            0.3468,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Elevated structural envelope is visible, but wood material is not identifiable from points alone."
+        }
       }
     ],
     "negative": [
@@ -56,7 +150,26 @@
           "open space",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "floating floor plate",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4809,
+            0.5554,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevations clearly show the raised horizontal base plate separated above ground."
+        }
       },
       {
         "statement": "The building’s surface extent gives no emphasis to settlement and open space.",
@@ -64,7 +177,25 @@
           "massing",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "surface extent and open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8519,
+            0.2894,
+            0.1667
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Broad elongated footprint is evident, supporting an edge anchor for its impact on surrounding open space."
+        }
       },
       {
         "statement": "The large footprint cannot meet tree-protection requirements, and the meadow is not preserved.",
@@ -72,14 +203,50 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "large footprint and meadow",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.375,
+            0.2973,
+            0
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The extensive linear footprint constrains a site-edge placement, while meadow and trees are not modeled."
+        }
       },
       {
         "statement": "Raising the base plate prevents direct accessibility and requires ramps and stairs.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "raised base plate",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5146,
+            0.5596,
+            0.3333
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Raised base is unmistakable in elevations, with a visible gap below the floor plate."
+        }
       },
       {
         "statement": "The close-meshed beam grid appears over-orchestrated beside the calm existing buildings.",
@@ -87,7 +254,26 @@
           "structure",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "close-meshed beam grid",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3153,
+            0.5861,
+            0.8333
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Dense repeated roof or beam lines are visible along the elongated upper structure."
+        }
       },
       {
         "statement": "The excessive plan depth is disadvantageous for use despite the skylights.",
@@ -95,14 +281,49 @@
           "layout",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "excessive plan depth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5146,
+            0.5596,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Top view and east elevation establish the broad, deep linear building envelope."
+        }
       },
       {
         "statement": "The room-program arrangement is not very convincing from the user’s perspective.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "room-program arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5704,
+            0.3518,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Program is interior; a distributed mid-building zone provides a constrained plan anchor."
+        }
       },
       {
         "statement": "The auditorium has an unfavorable geometry, a stage on the long side and a foyer that is too small.",
@@ -110,7 +331,25 @@
           "layout",
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "auditorium geometry",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7285,
+            0.5021,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Auditorium is not separable, so it is approximated within one pavilion segment."
+        }
       },
       {
         "statement": "The flexible organization of the daily structures raises questions about usability, acoustics and accessibility.",
@@ -118,7 +357,26 @@
           "functionality",
           "acoustics",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "daily structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3565,
+            0.5022,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Flexible daily organization concerns the overall pavilion sequence rather than a visible element."
+        }
       },
       {
         "statement": "The single-storey pavilion construction has higher construction and operating energy than more compact volumes.",
@@ -126,7 +384,27 @@
           "massing",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "single-storey pavilion construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4641,
+            0.5532,
+            0.5
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Long, low pavilion mass and raised single-storey profile are directly visible across views."
+        }
       }
     ],
     "keyword": [

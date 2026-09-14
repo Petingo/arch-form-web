@@ -16,7 +16,27 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "streets and squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.237,
+            0.4805,
+            0.0667
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Street and square relationships are approximated around the elongated urban volume."
+        }
       },
       {
         "statement": "The complementary gardens offer varied uses, atmospheres, and differentiated environments for flora and fauna.",
@@ -24,7 +44,26 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "complementary gardens",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3727,
+            0.3612,
+            0.0333
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Gardens are not separately identifiable; the south-west open edge is a plausible anchor."
+        }
       },
       {
         "statement": "The parking volume is tempered by its association with a built frontage and its roof gardens contribute to socialization and biodiversity.",
@@ -32,7 +71,26 @@
           "urban integration",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "parking volume and roof gardens",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7644,
+            0.4482,
+            0.9333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Roof condition is visible, but parking and planted roof functions are not distinguishable."
+        }
       },
       {
         "statement": "The housing volumes allow varied forms of housing and can be divided into complementary operations or programs.",
@@ -40,28 +98,97 @@
           "flexibility",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "housing volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8355,
+            0.2978,
+            0.5667
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Multiple adjoining volumes are visible along the east-south urban edge."
+        }
       },
       {
         "statement": "The distribution of the program enables efficient and adaptable phasing.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "program phasing",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Phasing is an operational judgment without a unique geometric location."
+        }
       },
       {
         "statement": "The school delicately asserts itself in the urban composition and its ground-floor overhangs reinforce its presence.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "school ground-floor overhangs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.237,
+            0.4805,
+            0.1
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level projection is approximated along the visible school volume edge."
+        }
       },
       {
         "statement": "The structural system offers a certain adaptability of the plan over time.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "structural system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2804,
+            0.495,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structure is not exposed; marker represents the central portion of the elongated building."
+        }
       },
       {
         "statement": "The classroom orientation toward the quiet side is adapted to the work and comfort of schoolchildren.",
@@ -69,7 +196,27 @@
           "orientation",
           "functionality",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "classroom orientation toward quiet side",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6998,
+            0.4947,
+            0.6333
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Quiet-side orientation is unspecified; upper east-side classroom zone provides a distributed approximation."
+        }
       }
     ],
     "negative": [
@@ -78,7 +225,27 @@
         "tags": [
           "urban integration",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "municipal master planning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1195,
+            0.7284,
+            0.0667
+          ],
+          "radius": 0.314,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Master-planning fit concerns the broader site around the visible elongated building."
+        }
       },
       {
         "statement": "The division of the green spaces does not create a true public park at the desired local scale.",
@@ -86,14 +253,53 @@
           "open space",
           "scale",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6833,
+            0.6865,
+            0.0333
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Divided open-space edges are approximated around the north-east side."
+        }
       },
       {
         "statement": "The school’s location is imprecise in relation to routes crossing the block and the clearances it generates.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "school location, routes and clearances",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6319,
+            0.5931,
+            0.4333
+          ],
+          "radius": 0.314,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The school’s elongated location is visible, while crossing routes and clearances are not."
+        }
       },
       {
         "statement": "The school struggles to convince as a generous reference space for the establishment.",
@@ -101,21 +307,78 @@
           "scale",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "generous reference space for the establishment",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6093,
+            0.626,
+            0.4333
+          ],
+          "radius": 0.314,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall school mass is visible, but generosity of its reference space is not geometrically measurable."
+        }
       },
       {
         "statement": "The isolation of one class from the others on each level is problematic in practice.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "isolated class on each level",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7224,
+            0.4619,
+            0.6667
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior class separation is absent from the sample; an upper east-side zone is used."
+        }
       },
       {
         "statement": "The covered courtyards are hardly suitable for their main destination.",
         "tags": [
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "covered courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4632,
+            0.2299,
+            0.0667
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level open-space condition is approximated beside the front portion of the volume."
+        }
       }
     ],
     "keyword": [

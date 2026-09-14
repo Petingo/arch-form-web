@@ -18,42 +18,154 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "dynamic street spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2382,
+            0.5543,
+            0.0423
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Perimeter around the dominant trapezoid provides the plausible street-space anchor."
+        }
       },
       {
         "statement": "The first stage is cleverly designed so that neighbouring buildings can be preserved temporarily.",
         "tags": [
           "phasing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "first stage and neighbouring buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3463,
+            0.2595,
+            0.0859
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southwestern perimeter reserve is the most plausible temporary neighboring-building area."
+        }
       },
       {
         "statement": "Access to all uses via the courtyard and foyer is functionally well solved.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard and foyer access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4875,
+            0.4436,
+            0.26
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard void is visibly positioned within the surrounding building mass."
+        }
       },
       {
         "statement": "The internal access is clearly arranged through the foyer and flanking access towers.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "foyer and flanking access towers",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5065,
+            0.6103,
+            0.5212
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central access zone and repeated vertical side elements are approximated from courtyard geometry."
+        }
       },
       {
         "statement": "The campus hall is functionally optimal and can be flexibly adapted to user requirements.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "campus hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7086,
+            0.4331,
+            0.3906
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Large internal volume is approximated beside the central courtyard."
+        }
       },
       {
         "statement": "The regular grid does justice to the wooden construction and enables efficient manufacture of the ceiling system.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "regular grid and ceiling system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7654,
+            0.4331,
+            0.6518
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Dense repeated facade grid visibly supports the regular construction logic."
+        }
       },
       {
         "statement": "The building shell is pleasantly proportioned, and the screen gives the large volume a pleasant vertical structure.",
@@ -61,7 +173,26 @@
           "proportion",
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "building shell and screen",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8579,
+            0.4331,
+            0.6518
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Perimeter screen and vertically structured shell are clearly visible on the outer faces."
+        }
       }
     ],
     "negative": [
@@ -71,28 +202,101 @@
           "urban integration",
           "open space",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "public space and urban dominance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4752,
+            0.8357,
+            0.5212
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Large trapezoidal mass occupies most of the visible site and perimeter."
+        }
       },
       {
         "statement": "The design of the open spaces, inner courtyards and street spaces has not yet been exhausted.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "open spaces, inner courtyards and street spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4875,
+            0.4436,
+            0.1294
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard and narrow perimeter voids are visible but spatially underdeveloped."
+        }
       },
       {
         "statement": "The public space inside the complex is shaded and offers few qualities.",
         "tags": [
           "open space",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "public space inside the complex",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4875,
+            0.4436,
+            0.2165
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central interior void is the most plausible shaded public-space location."
+        }
       },
       {
         "statement": "The functionality for the school is highly doubted.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "school functionality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7086,
+            0.4331,
+            0.4341
+          ],
+          "radius": 0.331,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Broad functional judgment is anchored to the dominant internal building volume."
+        }
       },
       {
         "statement": "The natural lighting of the offices and lounges is reduced, and the clear view down is likely to be unpleasant for library users.",
@@ -100,14 +304,51 @@
           "daylight",
           "privacy",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "offices and lounges",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.7187,
+            0.6082
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper perimeter zone approximates offices and lounges behind the screen."
+        }
       },
       {
         "statement": "The corridors sometimes appear longer than average and have hardly any spatial qualities.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5065,
+            0.6757,
+            0.4341
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Internal circulation is approximated along the courtyard-facing perimeter."
+        }
       },
       {
         "statement": "The floor-to-ceiling glazing could restrict workplaces directly on the building shell.",
@@ -115,7 +356,25 @@
           "facade",
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "floor-to-ceiling glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8579,
+            0.2371,
+            0.5647
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Outer eastern facade is the constrained anchor for glazing and adjacent workplaces."
+        }
       },
       {
         "statement": "The large-scale volume and screen appear too closed and somewhat alien in the urban space.",
@@ -123,7 +382,26 @@
           "expression",
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "large-scale volume and screen",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8579,
+            0.4331,
+            0.6953
+          ],
+          "radius": 0.331,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Dominant screened envelope is directly visible across the elevations."
+        }
       }
     ],
     "keyword": [

@@ -16,49 +16,180 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "maximum open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4612,
+            0.3582,
+            0
+          ],
+          "radius": 0.3006,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The top view shows detached volumes leaving substantial open ground around them."
+        }
       },
       {
         "statement": "The northern building’s development layout is interestingly derived from the topography.",
         "tags": [
           "topography",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "northern building development layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6541,
+            0.8548,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "A distinct northern mass follows the irregular topographic arrangement visible in plan."
+        }
       },
       {
         "statement": "The hard court is convincingly framed by the edge of the slope.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "hard court",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.59,
+            0.8709,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The court is not explicitly distinguishable, so a plausible open ground zone is anchored near the slope edge."
+        }
       },
       {
         "statement": "The kindergarten building is convincingly organized, with organizational advantages from its connected entrances.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3011,
+            0.2626,
+            0.4
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The detached lower building volume is clearly identifiable in plan and elevations."
+        }
       },
       {
         "statement": "The teaching and group rooms are well proportioned and sufficiently lit.",
         "tags": [
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "teaching and group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.308,
+            0.2609,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are unseen; the marker follows the kindergarten building footprint."
+        }
       },
       {
         "statement": "The covered outdoor spaces provide additional spatial quality.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "covered outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2931,
+            0.382,
+            0.2
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Covered exterior areas are approximated adjacent to the lower building edge."
+        }
       },
       {
         "statement": "The setting directly on the district street allows extensive free outdoor play space.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "free outdoor play space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1637,
+            0.4327,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The plan visibly preserves broad open ground beside the detached volumes."
+        }
       }
     ],
     "negative": [
@@ -67,35 +198,126 @@
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces and parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.787,
+            0.2766,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is not identifiable; a peripheral open area represents the criticized site arrangement."
+        }
       },
       {
         "statement": "The buildings form a loose unity and lack spatial cohesion across the complex.",
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "loose unity across the complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4612,
+            0.3582,
+            0.4
+          ],
+          "radius": 0.3006,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Separated low-rise masses and large gaps visibly produce a loose overall composition."
+        }
       },
       {
         "statement": "The decentralized arrangement of classrooms and play areas is controversial.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "decentralized classrooms and play areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2485,
+            0.4115,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open site and detached volumes support a distributed arrangement, though rooms are internal."
+        }
       },
       {
         "statement": "The functional distribution has deficiencies, including missing office provision.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "missing office provision",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6607,
+            0.8531,
+            0.3
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Office space is absent from the sample; a plausible upper building zone is used."
+        }
       },
       {
         "statement": "The route from the kindergarten rooms through the cloakrooms to the outdoor play area is somewhat complicated.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "route from kindergarten rooms to outdoor play area",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2931,
+            0.382,
+            0.1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal route is not visible; the marker connects the lower building edge to adjacent open space."
+        }
       },
       {
         "statement": "The buildings have little in common in appearance, resulting in a lack of overall spatial and functional idea.",
@@ -103,7 +325,27 @@
           "expression",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "overall appearance and spatial idea",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4753,
+            0.3546,
+            0.4
+          ],
+          "radius": 0.3006,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The two detached volumes visibly differ in placement and apparent form, weakening overall cohesion."
+        }
       }
     ],
     "keyword": [

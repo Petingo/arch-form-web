@@ -17,7 +17,26 @@
           "structure",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "structural framework",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5446,
+            0.4787,
+            0.5419
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural organization is internal, so the offset building mass provides a constrained anchor."
+        }
       },
       {
         "statement": "The offsets between the volumes allow views and clearances to the outside.",
@@ -25,21 +44,79 @@
           "massing",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "offsets between volumes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5734,
+            0.5086,
+            0.5909
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated offsets and stepped clearances are clearly visible along the elongated footprint."
+        }
       },
       {
         "statement": "The quality of the spaces offered to creative manual activity classes is appreciated.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "creative manual activity spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3085,
+            0.5457,
+            0.5444
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Classroom uses are internal and indistinguishable; the western building section is a plausible anchor."
+        }
       },
       {
         "statement": "The architecture offers a strong and poetic character.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "poetic architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7133,
+            0.3804,
+            0.6364
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Character applies to the overall fragmented, roofed composition."
+        }
       }
     ],
     "negative": [
@@ -48,35 +125,130 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "natural landscape interruption",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7064,
+            0.6022,
+            0
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated footprint marks the building’s principal impact on the surrounding site."
+        }
       },
       {
         "statement": "There is a conflict between the main entrance and the ramp of the gymnastics hall.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "main entrance and gymnastics ramp",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2595,
+            0.2209,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The specific conflict is not distinguishable; a ground-level end-zone anchor represents circulation overlap."
+        }
       },
       {
         "statement": "The nursery school layout deserves to be less dispersed, and the two classes should be at the same level.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "nursery school layout",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.262,
+            0.7451,
+            0.3636
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Nursery rooms and levels are internal; the anchor approximates one offset school section."
+        }
       },
       {
         "statement": "Some storage rooms are missing, and the size of certain rooms is not respected.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "storage rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7783,
+            0.4838,
+            0.3636
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Storage is absent as a distinguishable exterior feature and is placed within a plausible building section."
+        }
       },
       {
         "statement": "Separating the school from the different playgrounds is not very functional.",
         "tags": [
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "school and playground separation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1265,
+            0.4585,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The criticism concerns the interface between the elongated building and adjacent outdoor clearances."
+        }
       },
       {
         "statement": "The proliferation of roof-façade connections raises doubts about maintenance and the economics of the project.",
@@ -84,14 +256,53 @@
           "facade",
           "cost",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "roof-façade connections",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5539,
+            0.3144,
+            0.9545
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple roof edges and façade junctions are directly visible along the fragmented envelope."
+        }
       },
       {
         "statement": "The ratio between the envelope and the surfaces is not optimal.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "envelope-to-surface ratio",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7205,
+            0.3167,
+            0.5455
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The comparison concerns the visible overall envelope and its distributed floorplate."
+        }
       }
     ],
     "keyword": [

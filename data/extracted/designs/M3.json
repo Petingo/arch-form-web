@@ -17,35 +17,131 @@
           "urban integration",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "new building and flowing landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.437,
+            0.6828,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated diagonal addition is clearly visible and aligned with the open landscape around it."
+        }
       },
       {
         "statement": "The interventions in the existing substance are limited to a minimum and integrate into the protected building structure.",
         "tags": [
           "urban integration",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "existing protected building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.893,
+            0.8784,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Existing-structure interventions are approximated toward the northeastern end of the addition."
+        }
       },
       {
         "statement": "The simple, axially symmetrical floor plans offer good flexibility and appropriation options.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "axially symmetrical floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.437,
+            0.6828,
+            0.5357
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The narrow regular volume provides the visible anchor for the described floor-plan organization."
+        }
       },
       {
         "statement": "Combining the day and all-day school in one building has interesting operational advantages.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "combined school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.437,
+            0.6828,
+            0.4643
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Operational advantages are assigned to the single visible addition rather than a separate locatable system."
+        }
       },
       {
         "statement": "The structure and floor plans are clean and efficient.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "clean structure and floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7643,
+            0.5092,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The regular upper-middle portion of the addition best represents its efficient organization."
+        }
       }
     ],
     "negative": [
@@ -54,21 +150,74 @@
         "tags": [
           "urban integration",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "obscured existing complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.893,
+            0.8784,
+            0.5357
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The visibility concern is anchored at the northeastern end facing the implied existing complex."
+        }
       },
       {
         "statement": "Clusters with more than two classes can only be formed to a limited extent.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "large class clusters",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4079,
+            0.6553,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Cluster formation is a floor-plan issue assigned to the central portion of the narrow addition."
+        }
       },
       {
         "statement": "The stairwell offers hardly any spatial qualities and does not meet fire-protection requirements.",
         "tags": [
           "circulation",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "stairwell",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4662,
+            0.7104,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stairwell is not distinguishable, so it is approximated within the central circulation zone."
+        }
       },
       {
         "statement": "The underground gymnasium has insufficient natural lighting and negative static and economic effects.",
@@ -76,14 +225,52 @@
           "daylight",
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "underground gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.62,
+            0.3728,
+            0.0714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The underground room is placed beneath the central footprint at the lowest sampled level."
+        }
       },
       {
         "statement": "The small window proportion calls achievement of the energy requirements into question.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "small window proportion",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8808,
+            0.6195,
+            0.5357
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Window proportions are unresolved in the point cloud; the upper eastern facade is a constrained anchor."
+        }
       }
     ],
     "keyword": [

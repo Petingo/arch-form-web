@@ -19,7 +19,28 @@
           "urban integration",
           "proportion",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "well-proportioned volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0,
+            0.4849,
+            0.5
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Outer volume is clearly visible as a compact, regular two-story perimeter across all calibrated views."
+        }
       },
       {
         "statement": "The surrounding open spaces are redefined clearly, with a pleasant green space in front of the building and a courtyard formed by the existing buildings.",
@@ -27,7 +48,26 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "surrounding open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5871,
+            0.2988,
+            0.0625
+          ],
+          "radius": 0.345,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view identifies the eastern courtyard-like opening and southern foreground as the relevant open-space region."
+        }
       },
       {
         "statement": "The entrances are easy to find and readily accessible for operational processes.",
@@ -35,14 +75,53 @@
           "circulation",
           "visibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.2057,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrances are assigned to the lower eastern edge, consistent with the stated eastern traffic routes."
+        }
       },
       {
         "statement": "The building expression provides appropriate livability without the harshness of a prison.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.7425,
+            0.5625
+          ],
+          "radius": 0.345,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The architectural expression applies to the visible two-story envelope and banded facade treatment."
+        }
       },
       {
         "statement": "The clearly structured floor plan implements complex usage processes and security requirements optimally.",
@@ -50,7 +129,26 @@
           "layout",
           "functionality",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "clearly structured floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3808,
+            0.5193,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The internal plan is not directly resolved, so the marker is constrained to the sampled mid-level region."
+        }
       },
       {
         "statement": "Naturally lit corridors and vertically connected outdoor spaces create spaciousness and differentiated movement areas.",
@@ -58,7 +156,26 @@
           "daylight",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "naturally lit corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5927,
+            0.5172,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Corridors are interior and indistinct; the marker uses the central courtyard-adjacent zone and middle height."
+        }
       },
       {
         "statement": "The project fully meets requirements for operation and security through a carefully developed spatial structure.",
@@ -66,7 +183,28 @@
           "operation",
           "safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8065,
+            0.7012,
+            0.5
+          ],
+          "radius": 0.345,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Operational and security structure is treated as a whole-building judgment on the compact visible envelope."
+        }
       }
     ],
     "negative": [
@@ -75,21 +213,79 @@
         "tags": [
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.2486,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Public visibility concern is assigned to the lower eastern approach facade mentioned by the design condition."
+        }
       },
       {
         "statement": "The playing field is rather tight and its limited clear height may require an exchange of uses between floors.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "playing field",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5927,
+            0.3373,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The playing field is not distinguishable, so it is approximated within the visible open courtyard region."
+        }
       },
       {
         "statement": "The building volume and construction costs are on the higher side in comparison.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "building volume and construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3808,
+            0.691,
+            0.5
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Volume is directly represented by the compact two-story envelope; cost has no separate geometric location."
+        }
       },
       {
         "statement": "Areas, volumes and building standards need revision to optimize costs.",
@@ -97,14 +293,54 @@
           "cost",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "areas, volumes and building standards",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8346,
+            0.5055,
+            0.375
+          ],
+          "radius": 0.345,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Areas and volumes correspond to the visible building envelope; standards are evaluated globally."
+        }
       },
       {
         "statement": "The span of the ground-floor walking yard needs to be revised.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor walking yard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5323,
+            0.2988,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The yard is assigned to the low eastern-southern open-space edge visible in the top and adjacent elevations."
+        }
       },
       {
         "statement": "The roof design and solar systems must account for supervision from neighbouring buildings.",
@@ -112,14 +348,54 @@
           "visibility",
           "urban integration",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "roof design and solar systems",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3808,
+            0.5099,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Roof systems are anchored at the upper building surface; neighbouring supervision constrains the judgment."
+        }
       },
       {
         "statement": "The height of the vehicle-lock gate must be adjusted to the required clearance.",
         "tags": [
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "vehicle-lock gate",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.1628,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The gate is approximated at the lower eastern vehicle-access edge identified by the site condition."
+        }
       }
     ],
     "keyword": [

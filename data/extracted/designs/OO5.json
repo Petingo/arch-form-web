@@ -18,7 +18,28 @@
           "proportion",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "building proportions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6248,
+            0.358,
+            0.5833
+          ],
+          "radius": 0.315,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Layered stepped massing is visible across the top and elevation views."
+        }
       },
       {
         "statement": "It enters into dialogue with the existing buildings without losing its independence or disrupting the desired ensemble.",
@@ -26,7 +47,26 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5571,
+            0.0718,
+            0.415
+          ],
+          "radius": 0.315,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The independent building volume is visible, while dialogue with existing buildings is not represented."
+        }
       },
       {
         "statement": "The design towards the schoolyard is good and sensitively developed.",
@@ -34,7 +74,25 @@
           "facade",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard-facing design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5457,
+            0,
+            0.415
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern edge is used as the schoolyard-facing facade according to the stated site condition."
+        }
       },
       {
         "statement": "The primary-school and textile-design rooms are spatially well organized and benefit from the spacious terrace.",
@@ -42,7 +100,25 @@
           "layout",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "primary-school and textile-design rooms with spacious terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.575,
+            0.0718,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are not distinguishable; the approximate southern lower-volume zone anchors the terrace-related judgment."
+        }
       }
     ],
     "negative": [
@@ -51,7 +127,25 @@
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "south sun-protection slats",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6083,
+            0,
+            0.5833
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south elevation provides directional facade evidence, though individual slats are not separable."
+        }
       },
       {
         "statement": "The nested building envelope is relatively extensive, burdening the grey-energy balance and only barely meeting the stated requirements.",
@@ -59,7 +153,28 @@
           "sustainability",
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "nested building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.662,
+            0,
+            0.5833
+          ],
+          "radius": 0.315,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Nested stepped layers are visible in the footprint and all elevations; energy burden itself is non-spatial."
+        }
       },
       {
         "statement": "The rigid geometric concept of the themed gardens raises questions about its appropriateness.",
@@ -67,7 +182,25 @@
           "landscape",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "themed gardens",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.207,
+            0.15,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gardens are absent from the sampled envelope; the southern ground edge provides the closest site anchor."
+        }
       },
       {
         "statement": "The new north-south axis appears very dominant, while the bicycle-parking arrangement is incomprehensible.",
@@ -75,7 +208,24 @@
           "circulation",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "north-south axis and bicycle-parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5036,
+            0.5226,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The access-axis critique is anchored to the central plan alignment; bicycle parking is not separately visible."
+        }
       },
       {
         "statement": "The strict design of the school garden does not seem child-friendly.",
@@ -83,21 +233,75 @@
           "landscape",
           "functionality",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "school garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2428,
+            0.15,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The garden is not directly represented; a southern ground-level site position follows the stated green-space condition."
+        }
       },
       {
         "statement": "The desired division into different day-school areas is only unclearly visible.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "different day-school areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7182,
+            0.0718,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior zoning is indistinguishable, so the lower southern volume provides a constrained approximate anchor."
+        }
       },
       {
         "statement": "The access situation for the underground technical-design rooms is unclear.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "access to underground technical-design rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7182,
+            0.0718,
+            0.0833
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Underground access is not visible; the low southern edge offers a plausible constrained entry location."
+        }
       },
       {
         "statement": "The decision not to orient entrances towards the schoolyard is surprising, while the south facade is unwelcoming and undifferentiated.",
@@ -105,7 +309,25 @@
           "circulation",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard entrances and south facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5993,
+            0,
+            0.415
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south facade is clearly located, while entrance orientation remains unresolved in the sampled geometry."
+        }
       }
     ],
     "keyword": [

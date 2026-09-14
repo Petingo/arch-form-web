@@ -17,7 +17,28 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "three-building arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7867,
+            0.5416,
+            0.4292
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three offset cuboid volumes and their open-space relationships are clearly visible."
+        }
       },
       {
         "statement": "The facility is clearly organized and offers good orientation through multiple entrances and a consistent spatial structure.",
@@ -25,7 +46,26 @@
           "layout",
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "multiple entrances and spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4976,
+            0.2219,
+            0.4292
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Organization and access are approximated across the connected building arrangement."
+        }
       },
       {
         "statement": "The vine-covered cafeteria terrace promises to become an identity-creating place for the complex and the district.",
@@ -33,7 +73,24 @@
           "identity",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "cafeteria terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5458,
+            0.2219,
+            0.1462
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The terrace is assigned to a low open-space edge adjacent to the building volumes."
+        }
       },
       {
         "statement": "The revised open-space arrangement convincingly extends the green corridor and connects to the wider neighbourhood structure.",
@@ -41,20 +98,67 @@
           "landscape",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green corridor",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2019,
+            0.5244,
+            0.1462
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The generous linear open area is anchored along the less occupied side of the plot."
+        }
       },
       {
         "statement": "The revised structural concept reduces the proportion of CO2-intensive building materials.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "revised structural concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7867,
+            0.5972,
+            0.4292
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Structural revision applies across the visible building ensemble."
+        }
       },
       {
         "statement": "The economic indicators suggest that the target costs will be adhered to.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "target costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Purely economic judgment without a useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -63,21 +167,74 @@
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "high point",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2019,
+            0.5244,
+            0.9246
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The tallest offset volume is localized at the upper end of the ensemble."
+        }
       },
       {
         "statement": "The dead-straight avenues seem strange within the organically developed landscape.",
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "dead-straight avenues",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2707,
+            0.4386,
+            0.0754
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Linear circulation routes are approximated through the open ground plane."
+        }
       },
       {
         "statement": "Existing routes and new connecting axes unnecessarily double the circulation network.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "circulation network",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2707,
+            0.4927,
+            0.3585
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Existing and new routes are represented as a broad connected site-building system."
+        }
       },
       {
         "statement": "The delivery route through the playground is unacceptable, and the open underground-car-park entrance is incomprehensible.",
@@ -85,21 +242,76 @@
           "operation",
           "safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "delivery route and underground-car-park entrance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2707,
+            0.3274,
+            0.0754
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The service and parking access is approximated at a low peripheral ground zone."
+        }
       },
       {
         "statement": "The sports entrances facing away from the street are difficult for external visitors to find.",
         "tags": [
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sports entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7867,
+            0.486,
+            0.2877
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "External sports access is assigned to a lateral facade zone."
+        }
       },
       {
         "statement": "Many classrooms receive insufficient daylight because of minimal floor heights and low window lintels.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4734,
+            0.7916,
+            0.4292
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight criticism is placed across upper classroom zones within the cuboid volumes."
+        }
       },
       {
         "statement": "The primary school’s main stairs are extremely awkward and create spatial-structural conflicts.",
@@ -107,27 +319,93 @@
           "circulation",
           "structure",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "primary school’s main stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2019,
+            0.5244,
+            0.5708
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The main stair is approximated inside the left-hand school volume."
+        }
       },
       {
         "statement": "A more spacious internal connection to the sports area is desirable instead of minimal corridors.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "internal connection to sports area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7867,
+            0.486,
+            0.4292
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The sports connection is placed near the lateral end of the building sequence."
+        }
       },
       {
         "statement": "The photovoltaic provision remains far from achieving the desired solar-power contribution.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "photovoltaic provision",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Pure sustainability judgment without a useful spatial referent."
+        }
       },
       {
         "statement": "The hybrid structural system remains puzzling, particularly around the sports halls.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "hybrid structural system around sports halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7867,
+            0.5416,
+            0.2877
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Structural uncertainty is localized approximately around the sports-hall end."
+        }
       },
       {
         "statement": "The revised break area does not yet fulfil its role as an arrival and retreat space.",
@@ -135,7 +413,24 @@
           "open space",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "revised break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2707,
+            0.3259,
+            0.1462
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Arrival and retreat space is approximated in a low peripheral open zone."
+        }
       },
       {
         "statement": "The hesitantly approached photovoltaic strategy and proposed facade material require further checking.",
@@ -143,7 +438,26 @@
           "sustainability",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "photovoltaic strategy and facade material",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6019,
+            0.7916,
+            0.4292
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "Envelope criticism is assigned to an upper building surface where roof and facade meet."
+        }
       }
     ],
     "keyword": [

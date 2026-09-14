@@ -18,21 +18,83 @@
         "tags": [
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "compact volume and height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0312,
+            0.5121,
+            0.5
+          ],
+          "radius": 0.312,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter massing is visible in plan and elevations, with vertical extent confirming the compact building volume."
+        }
       },
       {
         "statement": "The common square organizes the entrances to the new building and the hospital.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "common square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.554,
+            0.1016,
+            0.0773
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central open square is legible in the top view and bounded by surrounding sampled building edges."
+        }
       },
       {
         "statement": "The large atrium and sequence of stairs create a generous yet intimate space.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "large atrium and stairs",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4471,
+            0.334,
+            0.5961
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central void is visible in plan, while internal vertical patterns support a stacked atrium and stair sequence."
+        }
       },
       {
         "statement": "The project is precise and coherent in its location, organization, and materialization.",
@@ -40,21 +102,83 @@
           "urban integration",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "location, organization, and materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0312,
+            0.8654,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed envelope points represent coherent placement and organization; materialization is not distinctly sampled."
+        }
       },
       {
         "statement": "It offers moments of generosity and surprising spatial qualities at its heart.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "spatial qualities at its heart",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4471,
+            0.334,
+            0.6153
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The identifiable central atrium provides the model anchor for the project’s spatial heart."
+        }
       },
       {
         "statement": "The compact building and partially opaque facades provide a sober and rational sustainable-development strategy.",
         "tags": [
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact building and partially opaque facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0312,
+            0.2766,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Outer wall bands are visible, though opacity and sustainability strategy require inference from facade sampling."
+        }
       }
     ],
     "negative": [
@@ -63,49 +187,180 @@
         "tags": [
           "flexibility",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "expansion potential",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9715,
+            0.7545,
+            0.3463
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A broad peripheral site anchor represents constrained reserve around the compact northern building."
+        }
       },
       {
         "statement": "The removal of approximately 115 parking spaces is not compensated within the project.",
         "tags": [
           "functionality",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "removed parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1524,
+            0.047,
+            0.0581
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "South-west ground-level reserve is used as an approximate site location; parking is not distinctly represented."
+        }
       },
       {
         "statement": "The building and square require the reorganization of current logistics flows.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "logistics flows",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9715,
+            0.519,
+            0.1926
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Building-square interface provides the best approximate anchor for circulation and logistics reorganization."
+        }
       },
       {
         "statement": "The densification strategy creates problems of coexistence with a hospital that will constantly evolve.",
         "tags": [
           "urban integration",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "coexistence with hospital",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9715,
+            0.7545,
+            0.5
+          ],
+          "radius": 0.312,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Peripheral upper-right site region approximates adjacency between the proposal and evolving hospital functions."
+        }
       },
       {
         "statement": "The nursery benefits only from an outdoor space limited by the roads.",
         "tags": [
           "open space",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "nursery outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1524,
+            0.047,
+            0.0197
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "South-side ground-level reserve approximates the road-limited nursery exterior."
+        }
       },
       {
         "statement": "The planted facade containers require special attention to maintenance throughout the seasons.",
         "tags": [
           "facade",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "planted facade containers",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0312,
+            0.5121,
+            0.5961
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter facade surface is visible, but individual planting containers are not separable in the sample."
+        }
       },
       {
         "statement": "The installation of blinds seems necessary despite the facade elements' solar-protection advantage.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "blinds and facade solar protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6824,
+            0.4991,
+            0.5961
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper facade surface anchors the comment; blinds and solar-control elements are not individually distinguishable."
+        }
       }
     ],
     "keyword": [

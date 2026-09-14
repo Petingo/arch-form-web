@@ -18,14 +18,50 @@
           "urban integration",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "northern landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4494,
+            0.7372,
+            0
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern open landscape is assigned beyond the three offset masses, opposite the motorway-side building spine."
+        }
       },
       {
         "statement": "The pedestrian connection convincingly anticipates integration into future site development.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "rear pedestrian connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6653,
+            0.8179,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Rear circulation is approximated along the northern edge behind the offset building elements."
+        }
       },
       {
         "statement": "The three building types are well proportioned and lie naturally and quietly in the landscape.",
@@ -33,42 +69,152 @@
           "proportion",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "three building types",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6468,
+            0.5128,
+            0.5
+          ],
+          "radius": 0.325,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top and elevation views show three distinct, parallel, offset building masses at related levels."
+        }
       },
       {
         "statement": "The functional building arrangement is simple and pragmatic.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "functional building arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5604,
+            0.4489,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The overall arrangement is anchored across the visible linear composition and its separated functional volumes."
+        }
       },
       {
         "statement": "The internal organization is functional and practical for the processes.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5748,
+            0.4595,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is not directly visible, so it is constrained to the central building surface."
+        }
       },
       {
         "statement": "The workplace placement responds to motorway noise and creates good lighting conditions.",
         "tags": [
           "acoustics",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "workplace placement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4088,
+            0.2343,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Workplaces are approximated on the motorway-facing south side at a middle occupied level."
+        }
       },
       {
         "statement": "The structural proposal largely does justice to the principles of building over ruins.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "structural proposal",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5253,
+            0.451,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Structure is assigned to the visible building footprint and lower sampled mass, consistent with building-over-ruins judgment."
+        }
       },
       {
         "statement": "The project impresses with its attitude toward the location and clear urban setting.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "urban setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8329,
+            0.5977,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The location judgment is anchored to the building spine’s site edge and its broader urban-facing setting."
+        }
       }
     ],
     "negative": [
@@ -77,28 +223,103 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "spatial and functional relationships",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5964,
+            0.4755,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The marker spans the three separated masses whose connections and functional distinctions are being judged."
+        }
       },
       {
         "statement": "If only the first stage is realized, the volume stands somewhat randomly in the landscape.",
         "tags": [
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "first-stage volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1225,
+            0.4204,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A first-stage condition is approximated at the western isolated volume within the linear composition."
+        }
       },
       {
         "statement": "The chosen architectural concept and facade cladding are not convincing for the task.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "facade cladding",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7333,
+            0.5767,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Facade criticism is anchored to the exposed outer surfaces of the eastern building element."
+        }
       },
       {
         "statement": "The high originality of the urban-planning concept is not continued in architecture appropriate to the task.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "architecture appropriate to the task",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6324,
+            0.5021,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Architectural expression is assessed across the visible building composition rather than one isolated element."
+        }
       }
     ],
     "keyword": [

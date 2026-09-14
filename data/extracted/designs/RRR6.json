@@ -15,35 +15,134 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "site composition",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2519,
+            0.3896,
+            0.2
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The western school and detached bank hall visibly establish a clear two-part site composition."
+        }
       },
       {
         "statement": "The geometrically clearly defined courtyard space is considered to be of high quality.",
         "tags": [
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "courtyard space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2467,
+            0.4036,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A central open area is visibly framed by the separated simple volumes."
+        }
       },
       {
         "statement": "The single-storey structure allows individual access to the classrooms.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "classroom access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2362,
+            0.4318,
+            0.3
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The western elongated school footprint supports repeated individual access points, though doors are not distinct."
+        }
       },
       {
         "statement": "The compact multi-purpose room is clearly designed.",
         "tags": [
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.771,
+            0.221,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The detached compact volume is clearly identifiable as a separate hall-like mass."
+        }
       },
       {
         "statement": "The school building's architectural expression seems very appropriate for the location.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "school building expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2236,
+            0.4306,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The western school volume has a clearly legible simple envelope across the calibrated views."
+        }
       }
     ],
     "negative": [
@@ -52,49 +151,175 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "therapy rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2309,
+            0.4458,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior rooms are absent; the western school footprint is the appropriate constrained anchor."
+        }
       },
       {
         "statement": "The arrangement of the toilets directly at the classroom entrances should be reconsidered.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "toilets at classroom entrances",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2414,
+            0.4177,
+            0.3
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The toilet arrangement is not visible and is approximated along the classroom access edge."
+        }
       },
       {
         "statement": "The foyer of the multi-purpose room is too small.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7717,
+            0.2141,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The foyer is not distinguishable; the lower access edge of the detached hall is used."
+        }
       },
       {
         "statement": "The schematic and mostly closed facade design of the building by the lake does not do the location justice.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building by the lake facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7844,
+            0.2259,
+            0.4
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The detached hall provides the likely lake-side building envelope, though facade openness is not sampled."
+        }
       },
       {
         "statement": "The surrounding design, especially the schoolyard, appears schematic and too mineral.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2519,
+            0.3896,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The broad central hard-surfaced void between the two volumes is visibly the schoolyard region."
+        }
       },
       {
         "statement": "The topographical height difference in the playground was not adequately taken into account.",
         "tags": [
           "topography",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "playground height difference",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2414,
+            0.4177,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Topography is not represented; the central playground zone is a useful constrained surface estimate."
+        }
       },
       {
         "statement": "The design has weaknesses in its architectural expression and operational aspects.",
         "tags": [
           "expression",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression and operational aspects",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2519,
+            0.3896,
+            0.3
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The school mass is visible, while operational shortcomings cannot be localized beyond its building envelope."
+        }
       }
     ],
     "keyword": [

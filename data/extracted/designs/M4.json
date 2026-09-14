@@ -17,7 +17,24 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "site analysis",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5193,
+            0.0766,
+            0.0278
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The conceptual site relationship is approximated in the open southern zone around the independent volume."
+        }
       },
       {
         "statement": "The existing construction period and delicate facade expression are preserved with care.",
@@ -25,7 +42,25 @@
           "urban integration",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "existing delicate facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2156,
+            0.7516,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The existing facade is not separately identifiable, so the northern perimeter provides a constrained anchor."
+        }
       },
       {
         "statement": "The learning landscape and flexible classroom divisions are pedagogically valuable.",
@@ -33,21 +68,71 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "learning landscape and classroom divisions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3548,
+            0.7436,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The layered interior-facing zone is used as a constrained anchor for learning-space organization."
+        }
       },
       {
         "statement": "The open ground floor is inviting and the spatial layers are well connected.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "open ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1168,
+            0.4812,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central void and lower elevation bands visibly support an open, connected ground-floor anchor."
+        }
       },
       {
         "statement": "The project achieves effective summer heat protection and night cooling.",
         "tags": [
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "summer heat protection and night cooling",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The performance judgment has no uniquely locatable geometric referent in the sampled model."
+        }
       }
     ],
     "negative": [
@@ -57,35 +142,121 @@
           "scale",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "large building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5489,
+            0.6137,
+            0.6667
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The large square mass is clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The outdoor-space design disregards the garden-monument qualities and fragments the generous lawn.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "fragmented generous lawn",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.106,
+            0.251,
+            0.0278
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The lawn criticism is assigned to the southwestern open-space region surrounding the building."
+        }
       },
       {
         "statement": "The large atrium is acoustically unsuitable for school use by this age group.",
         "tags": [
           "acoustics",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "large atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5417,
+            0.4601,
+            0.6667
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central atrium is visibly distinguished by the surrounding perimeter and layered elevation pattern."
+        }
       },
       {
         "statement": "The interventions in the existing structure and surfaces are far too massive.",
         "tags": [
           "urban integration",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "massive existing-structure interventions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2156,
+            0.7516,
+            0.4433
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Existing interventions are approximated along the northern edge where the surrounding complex would connect."
+        }
       },
       {
         "statement": "The building has poor economic characteristics and is the most expensive new building.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "poor economic characteristics",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The cost comparison is an overall performance judgment without a useful spatial referent."
+        }
       }
     ],
     "keyword": [

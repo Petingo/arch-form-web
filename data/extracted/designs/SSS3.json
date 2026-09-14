@@ -18,35 +18,132 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "simple building massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3799,
+            0.3413,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact recessed mass occupies the southwest portion of the sampled site."
+        }
       },
       {
         "statement": "The listed forecourt is respected and preserved, while the terrain difference is overcome by a restrained staircase.",
         "tags": [
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "forecourt and restrained staircase",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5699,
+            0.1463,
+            0.1905
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front-edge placement represents the preserved forecourt and level transition at the southern approach."
+        }
       },
       {
         "statement": "The rooms are correctly arranged and well sized for the desired sports operation.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4274,
+            0.2925,
+            0.2619
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior arrangement is unexposed, so the rooms are approximated within the lower building volume."
+        }
       },
       {
         "statement": "The space-efficient implementation of the required program is operationally robust and achieves very good construction economics.",
         "tags": [
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "space-efficient program implementation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3799,
+            0.3413,
+            0.3571
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact, recessed envelope provides the most useful exterior anchor for program efficiency."
+        }
       },
       {
         "statement": "The resource-saving timber construction with horizontal facade formwork is rated as sustainable.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "horizontal facade formwork",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5699,
+            0.1463,
+            0.5238
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular horizontal bands are visible across the sampled elevations, especially along the southern facade."
+        }
       }
     ],
     "negative": [
@@ -55,21 +152,76 @@
         "tags": [
           "topography",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "trough-like excavation for window band",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5699,
+            0.1463,
+            0.3095
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern lower edge and recessed band provide the strongest constrained location for the excavation."
+        }
       },
       {
         "statement": "The building conveys a closed and forbidding expression that is inappropriate for its exposed setting.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "closed building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5224,
+            0.195,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The restrained solid envelope and street-facing southern edge anchor the perceived forbidding expression."
+        }
       },
       {
         "statement": "The open technical area on the roof is clearly visible from higher ground and is not convincing as a fifth facade.",
         "tags": [
           "facade",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "open technical roof area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7687,
+            0.2376,
+            0.9757
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A distinct upper roof region is most plausibly located toward the eastern side of the visible footprint."
+        }
       },
       {
         "statement": "The access areas lack space and a designated stay or arrival area, while a single access would simplify access control.",
@@ -77,28 +229,100 @@
           "circulation",
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "access and arrival area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6174,
+            0.0975,
+            0.119
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern frontage is the constrained approach zone for access, arrival, and circulation limitations."
+        }
       },
       {
         "statement": "The sports hall can only be illuminated through roof skylights, and the multifunctional rooms have too little daylight.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports hall daylight",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6023,
+            0.3742,
+            0.7857
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The enclosed upper-middle building region approximates the unexposed sports hall and daylight concern."
+        }
       },
       {
         "statement": "The outdoor arrangement of the ventilation units is not optimal and makes maintenance and upkeep complex.",
         "tags": [
           "ventilation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "outdoor ventilation units",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7687,
+            0.2376,
+            0.9524
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ventilation equipment is not distinguishable, so it is anchored to the exposed roof technical zone."
+        }
       },
       {
         "statement": "The missing photovoltaic system must be supplemented for the energy standard to be achieved.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "photovoltaic system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3324,
+            0.39,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The missing roof system is assigned to a plausible roof surface within the compact footprint."
+        }
       },
       {
         "statement": "The compactness leads to limited and unattractive access areas and leaves the location, program, and architectural potential insufficiently developed.",
@@ -106,7 +330,27 @@
           "massing",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "whole building and access areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3799,
+            0.3413,
+            0.4524
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Southwestern building placement and its southern approach represent the broad compactness criticism."
+        }
       }
     ],
     "keyword": [

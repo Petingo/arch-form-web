@@ -19,35 +19,128 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "flowing landscape space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0963,
+            0.205,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open areas surround the circular building and remain visibly unoccupied in the top view."
+        }
       },
       {
         "statement": "The protective circle is architecturally and structurally clearly articulated.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "protective circle",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4971,
+            0.9635,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous circular perimeter is clearly visible in plan and repeated across elevations."
+        }
       },
       {
         "statement": "The calm, reserved building avoids monumentality despite its circular shape.",
         "tags": [
           "expression",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "calm, reserved building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5004,
+            0.9686,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The low, horizontally restrained circular envelope is visible across all calibrated views."
+        }
       },
       {
         "statement": "The geometrical relationship between periphery and content leads to good operational processes.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "periphery and content",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4829,
+            0.9682,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The ring perimeter visibly organizes an open central content area."
+        }
       },
       {
         "statement": "The central depot enables the shortest possible routes to the excavated objects.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central depot",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3384,
+            0.1955,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central void suggests the approximate depot location within the surrounding radial ring."
+        }
       },
       {
         "statement": "The canopy creates a transition between inside and outside and an adaptable work zone.",
@@ -55,14 +148,56 @@
           "open space",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7671,
+            0.718,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "An orthogonal appendage is visibly attached near the circular perimeter."
+        }
       },
       {
         "statement": "The circular form creates a relaxed yet attractive spatial experience.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "circular form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4796,
+            0.9631,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The circular massing dominates the plan and remains legible in every elevation."
+        }
       },
       {
         "statement": "The project’s architectural, functional, and economic approach is convincing.",
@@ -70,7 +205,28 @@
           "expression",
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7557,
+            0.7312,
+            0.5
+          ],
+          "radius": 0.335,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The ensemble combines the circular building with a separate orthogonal covered structure."
+        }
       },
       {
         "statement": "The unexpected interplay of classic typologies and construction methods creates an ensemble with independent identity.",
@@ -78,7 +234,28 @@
           "identity",
           "expression",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "architectural ensemble",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7778,
+            0.7041,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Contrasting circular and orthogonal forms are visibly read together as a distinct ensemble."
+        }
       }
     ],
     "negative": [
@@ -87,21 +264,75 @@
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "depot distances and traffic routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7909,
+            0.7069,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The separated perimeter arrangement implies movement between the central depot and outer access zones."
+        }
       },
       {
         "statement": "The need to import the earth somewhat diminishes the coherence of the concept.",
         "tags": [
           "sustainability",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "imported earth",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1658,
+            0.1789,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Earthwork is not identifiable, so the estimate is assigned to the surrounding landscape surface."
+        }
       },
       {
         "statement": "The proposed horizontal bracing in the rammed-earth wall is problematic because of differing creep behavior.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "horizontal bracing in rammed-earth wall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5147,
+            0.9633,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Wall bracing is not distinguishable, but the circular wall envelope provides a constrained anchor."
+        }
       }
     ],
     "keyword": [

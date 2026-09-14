@@ -17,7 +17,27 @@
           "massing",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "two new volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4501,
+            0.7002,
+            0.5556
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Paired volumes and stepped elevations are clearly visible across the calibrated top and elevation views."
+        }
       },
       {
         "statement": "The arrangement creates differentiated and meaningful outdoor spaces with high quality of stay.",
@@ -25,7 +45,26 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5018,
+            0.5489,
+            0.1111
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The top view clearly shows distinct open areas formed between and around the two volumes."
+        }
       },
       {
         "statement": "The school square is well connected to the neighborhood and school use and is suitable for larger events.",
@@ -33,14 +72,51 @@
           "circulation",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "school square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5145,
+            0.5625,
+            0.1111
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A central low-level open zone is plausibly assigned as the school square."
+        }
       },
       {
         "statement": "The low building provides very good orientation for small children.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "low building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7701,
+            0.2584,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The larger low mass is identifiable in plan and its lower profile is visible in elevation."
+        }
       },
       {
         "statement": "The basic-level arrangement with direct stairs and assigned atria is attractive and guarantees direct access to outdoor space.",
@@ -48,7 +124,26 @@
           "layout",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "basic-level arrangement with stairs and atria",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7828,
+            0.272,
+            0.0556
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior stairs and atria are not distinguishable, so the ground-level mass provides the anchor."
+        }
       },
       {
         "statement": "The access and escape-route concept allows flexible use and supports a wide variety of teaching concepts.",
@@ -56,7 +151,26 @@
           "flexibility",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "access and escape-route concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8208,
+            0.3128,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The circulation system is interior, approximated along the accessible lower building perimeter."
+        }
       },
       {
         "statement": "The continuous central room can be ideally used for larger projects and different forms of learning.",
@@ -64,7 +178,26 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "continuous central room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5271,
+            0.5761,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The interior room is absent from the surface sample and is estimated within the central mass."
+        }
       },
       {
         "statement": "The pleasant proportions and plausible facade treatment are convincing.",
@@ -72,7 +205,25 @@
           "proportion",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8081,
+            0.2992,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior proportions and repetitive facade surfaces are visible in the elevation renders."
+        }
       },
       {
         "statement": "The design responds appropriately and cleverly to the location and complex task.",
@@ -80,7 +231,27 @@
           "urban integration",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "whole design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5525,
+            0.6033,
+            0.3333
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The overall paired, low-rise composition is represented across all calibrated views."
+        }
       }
     ],
     "negative": [
@@ -90,28 +261,102 @@
           "topography",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "bicycle and container parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1723,
+            0.1952,
+            0.0556
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking is not distinguishable; a low-level access-edge location is estimated on the sampled site surface."
+        }
       },
       {
         "statement": "The colonnade has good recreational qualities but could be a little wider.",
         "tags": [
           "open space",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "colonnade",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7799,
+            0.5934,
+            0.2222
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The colonnaded edge is suggested by repeated elevation points along the larger volume."
+        }
       },
       {
         "statement": "The day-school arrangement is schematic and needs revision to accommodate different age groups.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day-school arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7574,
+            0.2448,
+            0.3333
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The internal age-group arrangement is unrepresented, anchored within the larger school volume."
+        }
       },
       {
         "statement": "The entrance qualities are not convincing because of the somewhat hidden, narrow stairs.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "hidden narrow stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5927,
+            0.068,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stairs are not separately visible; the estimate places an entrance element near the lower access edge."
+        }
       },
       {
         "statement": "The floor is too densely organized, while the number of students requires more space to move around.",
@@ -119,14 +364,52 @@
           "layout",
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "densely organized floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7321,
+            0.2176,
+            0.1111
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The criticized internal floor organization is approximated at the densely occupied lower level."
+        }
       },
       {
         "statement": "A more central location for the school management would improve accessibility for external visitors.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "school management",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5018,
+            0.5489,
+            0.3333
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Management is interior and absent from the sample, estimated near the central accessible building area."
+        }
       },
       {
         "statement": "The facades remain too neutral and fall short of the qualities of the floor plans.",
@@ -134,7 +417,25 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7447,
+            0.2312,
+            0.3333
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The exterior envelope is visible in elevation, while neutrality concerns its broad facade treatment."
+        }
       },
       {
         "statement": "The buildings need more sophistication and a targeted use of exceptions at entrances and corners.",
@@ -142,21 +443,70 @@
           "expression",
           "identity",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "entrances and corners",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7828,
+            0.272,
+            0.3333
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Building corners and perimeter transitions are identifiable in plan and elevations."
+        }
       },
       {
         "statement": "The primary school has rather dark sections of space toward the middle zone.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "middle zone of the primary school",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4764,
+            0.5217,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The interior middle zone is not visible; its position is estimated within the central school mass."
+        }
       },
       {
         "statement": "The skeleton building is rather complex in terms of gray energy and greenhouse gas emissions.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "skeleton building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This concerns whole-building environmental performance rather than a useful spatial location."
+        }
       }
     ],
     "keyword": [

@@ -17,7 +17,27 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "public outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6182,
+            0.4159,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Open space is inferred around the clearly separated building masses and central connection."
+        }
       },
       {
         "statement": "The central break area cleverly combines the needs of the primary school and day school while connecting the school buildings and gymnasium.",
@@ -25,7 +45,24 @@
           "layout",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "central break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6101,
+            0.4033,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central gap between offset blocks is the clearest visible break and connector zone."
+        }
       },
       {
         "statement": "The split-level organization subtly anchors the school in the site and creates unusual visual qualities.",
@@ -33,7 +70,27 @@
           "topography",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "split-level organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7803,
+            0.6682,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Offset masses and multiple horizontal elevation bands visibly indicate stepped organization."
+        }
       },
       {
         "statement": "The central hall and multifunctional music hall create a well-considered gesture toward the neighborhood.",
@@ -41,7 +98,25 @@
           "identity",
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central hall and multifunctional music hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3485,
+            0.5929,
+            0.7
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Named interior halls are not distinguishable; the central connector provides the most useful anchor."
+        }
       },
       {
         "statement": "The project handles the different ground-floor heights sensitively and creates a desired gradation in the publicity of outdoor spaces.",
@@ -49,7 +124,26 @@
           "topography",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8034,
+            0.249,
+            0.2
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped lower bands support an approximate outdoor sequence beside the offset masses."
+        }
       },
       {
         "statement": "The two school buildings are precisely thought out and promise a well-functioning overall system.",
@@ -57,7 +151,27 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "two school buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1731,
+            0.8337,
+            0.7
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two distinct offset rectangular volumes are unmistakable in plan and elevations."
+        }
       },
       {
         "statement": "The project performs well in energy efficiency through moderate spans, linear load transfer and coherent technical planning.",
@@ -65,13 +179,44 @@
           "sustainability",
           "structure",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "energy-efficient structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7934,
+            0.6645,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural performance is global, but the compact building masses provide a representative anchor."
+        }
       },
       {
         "statement": "The construction costs fall within the middle range.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost-range judgment has no useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -80,7 +225,25 @@
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "ramps",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4772,
+            0.1966,
+            0.2
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ramps are not distinguishable; the lower front approach is the plausible access anchor."
+        }
       },
       {
         "statement": "The spatial richness and innovation of the primary-school section are not carried through to the core school and group-room typology.",
@@ -88,49 +251,181 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "core school and group-room typology",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7722,
+            0.6556,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior typology is not visible, so the larger offset block is used as a constrained proxy."
+        }
       },
       {
         "statement": "The open central area creates a very large space that is sensitive in terms of acoustics.",
         "tags": [
           "acoustics",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "open central area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6263,
+            0.4285,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The substantial gap between masses is clearly visible and anchors the acoustic concern."
+        }
       },
       {
         "statement": "The longitudinal classroom arrangement does not create flexible spaces for different forms of collaboration.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "longitudinal classroom arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1812,
+            0.8463,
+            0.7
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Classroom arrangement is interior; the long upper-left block provides a directional proxy."
+        }
       },
       {
         "statement": "The basic-level building remains one-sided, and the quality of the upper-floor classrooms is not equally convincing.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basic-level building",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7872,
+            0.2238,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level concern is anchored to the lower offset building and lowest elevation bands."
+        }
       },
       {
         "statement": "The central toilet arrangement is unconvincing and storage options for school supplies are missing.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central toilet arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.602,
+            0.3907,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Toilets and storage are interior; the central connection is the least speculative anchor."
+        }
       },
       {
         "statement": "The caretaker's apartment appears unattractive because of its central, exposed location.",
         "tags": [
           "privacy",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "caretaker's apartment",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6344,
+            0.4411,
+            0.5
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The apartment is not identifiable; its stated central exposure constrains the connector area."
+        }
       },
       {
         "statement": "The complex roof landscape results in rather poor compactness.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "complex roof landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2795,
+            0.7666,
+            1
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple distinct upper profiles and stepped horizontal bands visibly indicate complex roofs."
+        }
       },
       {
         "statement": "The project does not fully fulfill its promise as a typological contribution to contemporary teaching.",
@@ -138,7 +433,27 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "typological contribution to teaching",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8076,
+            0.6573,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The whole arrangement is spatially relevant, represented by the offset building system."
+        }
       }
     ],
     "keyword": [

@@ -16,42 +16,156 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "surrounding open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.5163,
+            0.0654
+          ],
+          "radius": 0.327,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open space is represented around the compact building, especially along its western edge."
+        }
       },
       {
         "statement": "Tree planting in front of the patient rooms creates added value for the rest of the hospital area.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "tree planting in front of patient rooms",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.2078,
+            0.0654
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "West and southern foreground space provides the most plausible landscape anchor."
+        }
       },
       {
         "statement": "The pedestrian access and driveway allow a short and direct connection to the clinic area.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian access and driveway",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5137,
+            0.0548,
+            0.0654
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern access is constrained to the building’s front edge and ground level."
+        }
       },
       {
         "statement": "The separation of the areas is clear.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "separation of areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5137,
+            0.5286,
+            0.5327
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view visibly separates perimeter rooms, circulation, and enclosed courtyards."
+        }
       },
       {
         "statement": "The orientation of the patient rooms offers a high quality of living and prevents views of adjacent living quarters.",
         "tags": [
           "privacy",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "patient-room orientation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8803,
+            0.5286,
+            0.6662
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Patient rooms are approximated along the outer perimeter, away from adjacent internal views."
+        }
       },
       {
         "statement": "The therapy areas are easily accessible via the central transfer area and relatively directly from the entrance.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "central transfer area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5137,
+            0.5286,
+            0.4659
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central circulation zone is identifiable between the two internally carved courtyards."
+        }
       }
     ],
     "negative": [
@@ -61,7 +175,26 @@
           "daylight",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "two walking yards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7391,
+            0.5286,
+            0.5995
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two distinct internal voids are visible in the top view and enclosed in elevation."
+        }
       },
       {
         "statement": "The walking yard on the ground floor has no openings despite being located on the outside facade.",
@@ -69,21 +202,70 @@
           "visibility",
           "facade",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor walking yard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7678,
+            0.1606,
+            0.0654
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower courtyard is visible at ground level and remains enclosed by the exterior volume."
+        }
       },
       {
         "statement": "Cleaning the large glass surfaces would be rather complex.",
         "tags": [
           "operation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large glass surfaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9508,
+            0.5286,
+            0.5327
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Large glazed surfaces are assigned to the visible outer facade perimeter."
+        }
       },
       {
         "statement": "Overall, the design remains somewhat schematic.",
         "tags": [
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "schematic design",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a broad design-expression judgment without a single spatially useful anchor."
+        }
       },
       {
         "statement": "The external appearance with the glass elements seems over-instrumented for a forensic clinic and integrates poorly into the existing buildings.",
@@ -91,7 +273,28 @@
           "expression",
           "urban integration",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "external appearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8803,
+            0.5286,
+            0.5327
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The comment concerns the building’s overall visible envelope and facade expression."
+        }
       }
     ],
     "keyword": [

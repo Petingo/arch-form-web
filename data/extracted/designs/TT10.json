@@ -18,35 +18,134 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4989,
+            0.5013,
+            0.5
+          ],
+          "radius": 0.3412,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Paired comb-like volumes visibly form a compact, connected ensemble across all elevations and the top view."
+        }
       },
       {
         "statement": "The reserved solution allows a structured and clear division of the room program.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "structured room-program division",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3526,
+            0.2504,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The western comb volume provides a plausible anchor for the clearly subdivided program."
+        }
       },
       {
         "statement": "The arrangement allows all work and teaching units to receive daylight.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "work and teaching units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6539,
+            0.656,
+            0.5993
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated occupied bays across the comb wings support a distributed daylight-related placement."
+        }
       },
       {
         "statement": "The central connection provides essential links and short routes through the complex.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4989,
+            0.5013,
+            0.4504
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central linking wing is visibly positioned between the two larger comb-like volumes."
+        }
       },
       {
         "statement": "The architectural expression meets the expectations for this type of building.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5013,
+            0.1074,
+            0.5496
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south-facing envelope provides the clearest sampled surface for the overall architectural expression."
+        }
       },
       {
         "statement": "The placement and increased height could give the multifunctional hall identification and singularity.",
@@ -54,13 +153,51 @@
           "identity",
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "multifunctional hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7409,
+            0.1542,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A larger peripheral volume is used as the plausible anchor for the hall and its increased height."
+        }
       },
       {
         "statement": "The structural concept appears to have been well managed.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7547,
+            0.7526,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular repeated bays provide limited exterior evidence for the structural organization."
+        }
       }
     ],
     "negative": [
@@ -69,14 +206,50 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "street squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.255,
+            0.1582,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The western access-side open area is the plausible sampled anchor for the street-square critique."
+        }
       },
       {
         "statement": "The entrance is somewhat hidden behind the multifunctional hall.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5867,
+            0.0839,
+            0.103
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is approximated on the south edge behind the larger hall mass."
+        }
       },
       {
         "statement": "The courtyards are too deep and narrow to support the desired living areas.",
@@ -84,14 +257,54 @@
           "open space",
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "deep narrow courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5304,
+            0.5013,
+            0.5496
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Several elongated voids are clearly visible between the comb fingers in the top view and elevations."
+        }
       },
       {
         "statement": "The reserved volume does not fully establish the independent character expected of the campus.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "independent campus character",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.255,
+            0.7629,
+            0.5496
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The reserved northern volume is used as a plausible surface anchor for the campus identity critique."
+        }
       },
       {
         "statement": "The quality of access and meeting spaces between teaching areas is not convincing overall.",
@@ -99,21 +312,76 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "access and meeting spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.507,
+            0.3445,
+            0.4504
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central linking zone plausibly contains the access and meeting spaces between teaching areas."
+        }
       },
       {
         "statement": "The vertical beam arrangement makes flexible use of the spaces difficult.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "vertical beam arrangement",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7622,
+            0.5018,
+            0.5993
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Regular vertical bay repetition on the eastern mass supports a tentative structural anchor."
+        }
       },
       {
         "statement": "The underground connection to the adjacent parking is not yet convincing.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "underground parking connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2677,
+            0.0839,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The western access edge is the closest sampled surface for the stated underground parking link."
+        }
       },
       {
         "statement": "The proposed extension connected by first-floor walkways is insufficient.",
@@ -121,7 +389,26 @@
           "urban integration",
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "first-floor walkways",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6342,
+            0.5018,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The central-to-eastern connection zone is a constrained anchor for the proposed extension walkways."
+        }
       },
       {
         "statement": "The simple spatial structure lacks spatial experiences and does not fully exploit its potential.",
@@ -129,7 +416,28 @@
           "layout",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "simple spatial structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5373,
+            0.5472,
+            0.5
+          ],
+          "radius": 0.3412,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The point cloud clearly shows a repetitive comb organization with limited variation in spatial massing."
+        }
       }
     ],
     "keyword": [

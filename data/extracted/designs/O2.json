@@ -18,7 +18,27 @@
           "scale",
           "proportion",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "differentiated scale and compositional balance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2406,
+            0.742,
+            0.4167
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Broad marker spans the stepped masses that mediate between existing complex and park."
+        }
       },
       {
         "statement": "The open-air school concept creates a wide range of teaching possibilities and gives the place a characteristic identity.",
@@ -26,7 +46,27 @@
           "functionality",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "open-air school concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5498,
+            0.5523,
+            0.3333
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Placed across the terraced building and its repeated open edge conditions."
+        }
       },
       {
         "statement": "The concise building structure provides high practical value in the transition from outside to inside.",
@@ -34,14 +74,52 @@
           "layout",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "transition from outside to inside",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.284,
+            0.3172,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Visible stepped perimeter and veranda-like edges identify an exterior-interior transition zone."
+        }
       },
       {
         "statement": "The free-standing pavilion offers great benefit to the district as a continuation of the ensemble.",
         "tags": [
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "free-standing pavilion",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7454,
+            0.7533,
+            0.25
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Detached upper-right pavilion is clearly separated from the main staggered structure."
+        }
       },
       {
         "statement": "Space, structure, light, rhythm, and proportion grow together in a joyful interplay.",
@@ -49,14 +127,53 @@
           "structure",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "space, structure, light, rhythm, and proportion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5635,
+            0.5383,
+            0.5
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad marker covers the repeated terraced massing and vertically varied elevations."
+        }
       },
       {
         "statement": "The partial basement appropriately responds to the unfavorable subsoil and high groundwater level.",
         "tags": [
           "topography",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "partial basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2413,
+            0.2051,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower southern portion is assigned as the likely partly sunken level."
+        }
       },
       {
         "statement": "The interaction of classrooms, open-air rooms, and covered zones provides varied learning and work spaces.",
@@ -64,20 +181,77 @@
           "layout",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "classrooms, open-air rooms, and covered zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6646,
+            0.5152,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Placed along the stepped middle zone where solid and open bands alternate."
+        }
       },
       {
         "statement": "The day school can be ideally divided into zones for younger and older children.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "younger and older children zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2426,
+            0.747,
+            0.25
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distributed toward one end of the elongated ensemble as a plausible age-group division."
+        }
       },
       {
         "statement": "The use of wood in the construction and the green roof enables achievement of the ECO standard.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "wood construction and green roof",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5988,
+            0.622,
+            0.9167
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof marker follows the distinct upper-right mass visible in the top and elevation views."
+        }
       }
     ],
     "negative": [
@@ -87,56 +261,201 @@
           "scale",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "fragmentary model and expansive open volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5498,
+            0.5523,
+            0.4167
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad marker covers the fragmented terraced composition and its large intervening gaps."
+        }
       },
       {
         "statement": "The generous spatial offer sometimes comes at the expense of rooms that are too small.",
         "tags": [
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "rooms that are too small",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.27,
+            0.2808,
+            0.3333
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated within a smaller stepped wing rather than the broad central volume."
+        }
       },
       {
         "statement": "The close interconnection of the spatial offerings leads to a somewhat confusing access situation.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "confusing access situation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5537,
+            0.5483,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central interconnection of staggered wings is the most plausible access conflict zone."
+        }
       },
       {
         "statement": "The location of the day school somewhat limits the overview of the area.",
         "tags": [
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "day school location",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8005,
+            0.6972,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Assigned to the peripheral upper-right zone where oversight of the broader site is limited."
+        }
       },
       {
         "statement": "Balconies and terraces reduce daylight and limit passive solar use in winter.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "balconies and terraces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5805,
+            0.6806,
+            0.6667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper stepped edges indicate the likely balcony and terrace zones affecting facade exposure."
+        }
       },
       {
         "statement": "A consistent installation and building technology concept is not apparent, and access is not guaranteed throughout.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "installation and building technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5635,
+            0.5383,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Building-wide systems are estimated through the central mass because no components are distinguishable."
+        }
       },
       {
         "statement": "The effort required to achieve the energy standard across the project is great.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "energy standard effort",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy-standard effort and cost are non-spatial judgments."
+        }
       },
       {
         "statement": "The large external floor areas result in comparatively high construction and maintenance costs.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large external floor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3798,
+            0.2232,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Placed across the lower exterior bands surrounding the fragmented building."
+        }
       }
     ],
     "keyword": [

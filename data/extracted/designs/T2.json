@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole building massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.252,
+            0.7037,
+            0.5357
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Low compact mass is distributed toward the north-west portion of the contextual envelope."
+        }
       },
       {
         "statement": "The new shared courtyard forms an attractive counterpart to the primary schoolyard.",
@@ -26,35 +46,128 @@
           "open space",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "shared courtyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5961,
+            0.581,
+            0.2143
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view identifies a central courtyard-like opening within the cell-shaped footprint."
+        }
       },
       {
         "statement": "The flowing green space is transformed into a diversely structured environmental design.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "flowing green space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2123,
+            0.2762,
+            0.0357
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Green-space assignment follows the landscaped exterior around the compact building."
+        }
       },
       {
         "statement": "The weather-protected entrances are combined inside to form an open hall with a clear vertical organization.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "weather-protected entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5949,
+            0.6017,
+            0.2143
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Entrance hall is approximated at the central ground-floor organization point."
+        }
       },
       {
         "statement": "The open ground-floor meeting area can be divided when necessary.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor meeting area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3154,
+            0.5858,
+            0.2143
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open meeting zone is assigned to a plausible ground-floor region beside the courtyard."
+        }
       },
       {
         "statement": "The cell structure is cleverly used for the school clusters.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "school clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3152,
+            0.5889,
+            0.4643
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Cellular cluster organization is approximated within the north-west building mass."
+        }
       },
       {
         "statement": "The classic room layout can be converted into integrated group-room units or open learning landscapes.",
@@ -62,7 +175,25 @@
           "flexibility",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "integrated group-room units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6753,
+            0.6479,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior learning units are estimated within the opposite perimeter cell zone."
+        }
       },
       {
         "statement": "The contribution offers a convincing solution for school operations through its spacious ground floor, flexible clusters and roof library.",
@@ -70,7 +201,26 @@
           "operation",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "roof library",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7041,
+            0.7242,
+            0.8214
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Roof-level use is anchored to the visibly recessed upper mass."
+        }
       },
       {
         "statement": "The facades create a beautiful play of light depending on the sunlight.",
@@ -78,7 +228,26 @@
           "facade",
           "daylight",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4185,
+            0.1349,
+            0.6071
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevation views clearly show the repetitive facade field and changing tonal pattern."
+        }
       }
     ],
     "negative": [
@@ -87,28 +256,102 @@
         "tags": [
           "acoustics",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "open meeting area acoustics",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3152,
+            0.5889,
+            0.2143
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Acoustic concern is attached to the approximated divisible ground-floor meeting zone."
+        }
       },
       {
         "statement": "Rooms with light on three sides are judged difficult to furnish.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "rooms with light on three sides",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8618,
+            0.4396,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Rooms are estimated along an exposed outer corner of the sampled building."
+        }
       },
       {
         "statement": "More attention should be paid to structural wood protection.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "structural wood protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1867,
+            0.26,
+            0.6071
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Protection concern is assigned to a representative exposed facade surface."
+        }
       },
       {
         "statement": "The large floor areas and building volumes mean that high construction costs can be expected.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large floor areas and building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7691,
+            0.7355,
+            0.5357
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Cost concern applies to the visibly extensive compact building volume."
+        }
       }
     ],
     "keyword": [

@@ -16,35 +16,122 @@
           "urban integration",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban setting and landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.279,
+            0.1544,
+            0.3333
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing building edge and surrounding sampled mass provide a constrained proxy for urban and landscape relationships."
+        }
       },
       {
         "statement": "The facade appears calm, inviting, and exciting at the same time.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4262,
+            0.0316,
+            0.6111
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped facade is clearly visible along the front elevation and corroborated by the top footprint."
+        }
       },
       {
         "statement": "The entrance zone and movement zones are spacious and well proportioned.",
         "tags": [
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "entrance and movement zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4445,
+            0.0791,
+            0.2222
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front lower edge offers a constrained anchor for the entrance and adjacent circulation zone."
+        }
       },
       {
         "statement": "The day school is well structured and offers varied opportunities for different activities and age groups.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.667,
+            0.5226,
+            0.5556
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Distributed staggered volume provides a broad proxy for school organization and varied activity areas."
+        }
       },
       {
         "statement": "The building technology and installation concept are clearly structured and well documented.",
         "tags": [
           "structure",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "building technology and installation concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Technical documentation is a non-spatial judgment without a reliable exterior model anchor."
+        }
       }
     ],
     "negative": [
@@ -53,62 +140,215 @@
         "tags": [
           "acoustics",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "busy-street windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.618,
+            0.0412,
+            0.6111
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front edge provides the likely street-facing facade location for windows affected by traffic noise."
+        }
       },
       {
         "statement": "The corridors cannot be furnished for fire safety reasons.",
         "tags": [
           "circulation",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0956,
+            0.4639,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior corridors are absent, so a mid-volume surface point approximates their likely location."
+        }
       },
       {
         "statement": "Orientation within the rooms seems difficult.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6418,
+            0.5472,
+            0.5556
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Room interiors are not distinguishable; the eastern upper volume provides a constrained proxy."
+        }
       },
       {
         "statement": "The corridors largely lack natural light, and the basement design rooms have limited lighting.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "corridors and basement design rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.563,
+            0.6244,
+            0.0556
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower sampled volume constrains the basement issue, while corridors remain an approximate interior proxy."
+        }
       },
       {
         "statement": "The entrance area is rather small considering the number of children.",
         "tags": [
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4445,
+            0.0791,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front lower edge is the most plausible sampled anchor for the undersized entrance area."
+        }
       },
       {
         "statement": "The arrangement of parking spaces between the two playgrounds is incomprehensible and difficult to correct.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "parking between playgrounds",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1026,
+            0.4945,
+            0.1111
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Site elements are not separately visible; a western lower footprint point provides a distributed proxy."
+        }
       },
       {
         "statement": "The organization is not convincing, and reservations remain regarding internal functional connections.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "internal functional connections",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7424,
+            0.4486,
+            0.4444
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Interior connections are unrepresented, so the staggered building volume supplies a broad constrained anchor."
+        }
       },
       {
         "statement": "The insulation thicknesses still need optimization to achieve the required energy standard.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "insulation thicknesses",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy-standard optimization is a non-locatable technical judgment."
+        }
       },
       {
         "statement": "The relatively large floor area results in comparatively high construction costs.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large floor area",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The cost criticism is fundamentally economic and has no useful single spatial referent."
+        }
       }
     ],
     "keyword": [

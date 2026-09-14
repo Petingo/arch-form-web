@@ -17,49 +17,190 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "new building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.68,
+            0.7526,
+            0.5
+          ],
+          "radius": 0.3365,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Prominent polygonal workshop volume is clearly identifiable as the independent new building."
+        }
       },
       {
         "statement": "The clear gap between the buildings makes the campus appear wider and more open.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "clear gap between buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2887,
+            0.4296,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view clearly shows a separating gap between the polygonal volume and its surrounding base."
+        }
       },
       {
         "statement": "The polygonal volumetry shows astonishing precision, skilfully avoids building lines, and achieves well-proportioned building lengths.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "polygonal volumetry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6696,
+            0.7565,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Angular footprint and proportioned elongated edges are directly visible across the calibrated views."
+        }
       },
       {
         "statement": "The base building is cleverly placed in the topography and connects the different campus levels at the center.",
         "tags": [
           "topography",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "base building at campus center",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3593,
+            0.3122,
+            0.1297
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower stepped geometry is distinguishable beneath the volume and provides the approximate base location."
+        }
       },
       {
         "statement": "Common uses at this interface generate the greatest publicity across the campus.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "common-use interface",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2951,
+            0.4189,
+            0.3766
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The interface is anchored to the visible central separation between the stepped base and workshop volume."
+        }
       },
       {
         "statement": "The informal gaming opportunities are well located.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "informal gaming opportunities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3528,
+            0.3228,
+            0.1297
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "An approximate open ground-level zone is assigned beside the polygonal building footprint."
+        }
       },
       {
         "statement": "The urban-planning concept and sophisticated distribution of uses create a system of high local architectural quality.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8055,
+            0.3294,
+            0.2532
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The distributed marker represents the visible building-base relationship across the sampled site form."
+        }
       }
     ],
     "negative": [
@@ -69,7 +210,26 @@
           "open space",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "formal terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3849,
+            0.2694,
+            0.1297
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower stepped perimeter provides the nearest visible approximation of the terrace."
+        }
       },
       {
         "statement": "The tree and design concept appears weak and random, and the poor ratio between hard and green spaces is hardly conducive to biodiversity.",
@@ -77,7 +237,24 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "tree and green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3657,
+            0.3015,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Vegetation is not distinguishable, so the marker estimates an adjacent ground-level landscape area."
+        }
       },
       {
         "statement": "The workshop layout calls efficient organization into question, significantly undercuts the required spatial program, and creates difficult lighting conditions in some zones.",
@@ -85,42 +262,157 @@
           "functionality",
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "workshop layout",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7217,
+            0.7371,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior organization is absent, anchored approximately within the visible workshop volume."
+        }
       },
       {
         "statement": "The inner support structure appears inflexible and sometimes obstructive at the edges.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "inner support structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7321,
+            0.7332,
+            0.3766
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The internal structure is not visible, so its location is constrained near the volume edge."
+        }
       },
       {
         "statement": "The effectiveness of the massive facade as active sun protection is highly questionable.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "massive facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.13,
+            0.5697,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The outer polygonal perimeter supplies an approximate facade anchor; sun-protection performance is not visually identifiable."
+        }
       },
       {
         "statement": "The monumentality and gravity of the expression do not indicate the technical and didactic content of the institution.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "monumental expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6904,
+            0.7487,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The prominent elongated polygonal mass is directly visible and anchors the overall architectural expression."
+        }
       },
       {
         "statement": "The programmatic omissions require space-intensive adjustments in delivery and building services.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "delivery and building services",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7176,
+            0.2515,
+            0.1297
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Service functions are not visible; the marker approximates the lower base area where adjustments would occur."
+        }
       },
       {
         "statement": "The escape routes would require additional access cores.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "additional access cores",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9199,
+            0.5347,
+            0.3766
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Escape cores are absent, estimated along the building perimeter as potential access locations."
+        }
       }
     ],
     "keyword": [

@@ -16,7 +16,28 @@
           "massing",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "terraced complex and internal access axis",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6537,
+            0.5917,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevations show the elongated terraced mass and continuous internal longitudinal organization."
+        }
       },
       {
         "statement": "The actual units are elaborate, find synergies, offer different types of play and are well lit without wasting circulation space.",
@@ -24,14 +45,52 @@
           "layout",
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "units and play areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3224,
+            0.3998,
+            0.5769
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior units are not exposed, so the placement follows the distributed terraced volume and daylight-facing edges."
+        }
       },
       {
         "statement": "The floor plans are tidy, clearly structured and well and functionally organized.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7363,
+            0.4736,
+            0.4615
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The organized floor-plan judgment is anchored to a representative middle segment of the visible linear building."
+        }
       },
       {
         "statement": "The base floor reacts adequately to the falling street and supports the three units.",
@@ -39,14 +98,44 @@
           "topography",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "base floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4576,
+            0.2067,
+            0.1154
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Lower elevation bands and terraced footprint visibly establish the building’s stepped base along the slope."
+        }
       },
       {
         "statement": "The economical footprint is comparatively efficient.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "economical footprint",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement evaluates efficiency and cost without a uniquely spatial feature."
+        }
       }
     ],
     "negative": [
@@ -55,21 +144,77 @@
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "access from through traffic",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3749,
+            0.3248,
+            0.1923
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely access condition is anchored near the southern approach and lower edge of the elongated volume."
+        }
       },
       {
         "statement": "The opposing small buildings create a difficult spatial situation, and the northern buildings are too close to the linden tree.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "northern buildings and linden tree",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5297,
+            0.7689,
+            0.1154
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern edge is the only stated location; the tree and opposing buildings are not separately visible."
+        }
       },
       {
         "statement": "The design of the southern tip is not convincing and unnecessarily restricts the outdoor space.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "southern tip",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3956,
+            0.2953,
+            0.2692
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated footprint has a clearly identifiable southern terminal end in plan and elevations."
+        }
       },
       {
         "statement": "The allocation of the outdoor areas is comparatively rigid and does not allow smooth transitions.",
@@ -77,14 +222,52 @@
           "landscape",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3542,
+            0.3543,
+            0.0769
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view reveals outdoor margins and separated bands around the rigid terraced footprint."
+        }
       },
       {
         "statement": "The inner axis merges with care circulation areas and makes delivery to the units more difficult.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "inner axis and care circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6743,
+            0.5622,
+            0.3846
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The internal axis is approximated along the building’s longitudinal center, though circulation is not directly exposed."
+        }
       },
       {
         "statement": "A homely, child-friendly atmosphere is not achieved, and the type remains too closely related to the schoolhouse.",
@@ -92,35 +275,137 @@
           "expression",
           "identity",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "child-friendly atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6954,
+            0.5664,
+            0.5385
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Atmosphere and schoolhouse identity are non-geometric, anchored only to the visible whole-building expression."
+        }
       },
       {
         "statement": "The groups are difficult to manage because they are spread over two floors.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "groups across two floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3017,
+            0.4293,
+            0.5769
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The two-floor concern is located in the vertically layered middle portion of the sampled mass."
+        }
       },
       {
         "statement": "The additive principle cannot convincingly resolve the beginning and the end of the building.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "beginning and end of the building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.695,
+            0.5327,
+            0.4231
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Both terminal conditions are visible in the elongated plan, represented by the building’s central longitudinal region."
+        }
       },
       {
         "statement": "The building cannot be developed into the postulated sculpture.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "postulated sculpture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6743,
+            0.5622,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The critique concerns the overall terraced massing, so it is anchored to a representative visible building region."
+        }
       },
       {
         "statement": "The facades remain trapped at the level of unity and only partially break through the isolation.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7781,
+            0.4483,
+            0.5385
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The outer longitudinal facade edge is clearly visible in plan and side elevations."
+        }
       }
     ],
     "keyword": [

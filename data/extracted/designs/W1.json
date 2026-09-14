@@ -17,62 +17,230 @@
           "urban integration",
           "open space",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "spacious forecourts",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2387,
+            0.2706,
+            0.02
+          ],
+          "radius": 0.319,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Peripheral ground-level anchor approximates the forecourt relationship around the compact building."
+        }
       },
       {
         "statement": "The two entrances form a striking cross-street access axis to the campus.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "two entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4633,
+            0.099,
+            0.04
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level access-axis anchor is placed along the building’s southern approach."
+        }
       },
       {
         "statement": "The atrium and access cascade create generous lounge and learning areas while bringing daylight deep into the building.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.797,
+            0.3206,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central void is clearly legible in the top view and remains vertically articulated in elevations."
+        }
       },
       {
         "statement": "The use ring is separated from the static measures so that the areas can be divided flexibly.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "use ring",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8765,
+            0.4161,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Perimeter ring is visible around the central atrium in plan and elevations."
+        }
       },
       {
         "statement": "The well-proportioned classrooms can easily be divided into group rooms.",
         "tags": [
           "proportion",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8765,
+            0.4161,
+            0.58
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "A plausible upper-level perimeter location represents classrooms within the ring organization."
+        }
       },
       {
         "statement": "The compact building follows a strict, repetitive logic, so an economical solution can be assumed.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2322,
+            0.2599,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact repetitive massing is consistently visible across plan and all four elevations."
+        }
       },
       {
         "statement": "The project convincingly implements the demands for resource efficiency and low operating costs.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "resource efficiency and low operating costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates performance rather than a uniquely locatable architectural feature."
+        }
       },
       {
         "statement": "The use of daylight in all rooms is excellent.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "all rooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1513,
+            0.6409,
+            0.62
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed upper and middle building anchor represents daylight access across the ring."
+        }
       },
       {
         "statement": "The open-space design impresses with surprising diversity and carefully interweaves with the architecture.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "open-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7146,
+            0.2338,
+            0.02
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Peripheral ground-level anchor indicates open space interwoven around the building footprint."
+        }
       }
     ],
     "negative": [
@@ -80,28 +248,108 @@
         "statement": "The equipment rooms under the sloping skylight are structurally very complex.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "equipment rooms under the sloping skylight",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6834,
+            0.4172,
+            0.94
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Upper central anchor follows the visible sloping roof profile above the atrium."
+        }
       },
       {
         "statement": "The dimensions and dominance of the bus shelter and double-decker bicycle parking are not yet completely convincing.",
         "tags": [
           "scale",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "bus shelter and double-decker bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2387,
+            0.2706,
+            0.04
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level peripheral anchor approximates external campus equipment absent from the sampled cloud."
+        }
       },
       {
         "statement": "Delivery has only a waiting area, so material must be transported out of the weather, and there is no planning statement about disposal.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "delivery waiting area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.772,
+            0.3084,
+            0.04
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Peripheral ground-level anchor represents a plausible servicing area outside the building envelope."
+        }
       },
       {
         "statement": "Access to the roof area remains unclear despite the planned photovoltaic system.",
         "tags": [
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "roof area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6834,
+            0.4172,
+            0.98
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct upper roof profile and footprint are visible in plan and elevations."
+        }
       }
     ],
     "keyword": [

@@ -1,4 +1,4 @@
-import { showModelInfo } from "./model-info.js";
+import { showModelInfo } from "./model-info.js?v=20260914";
 import * as THREE from "three";
 import { OrbitControls } from "/arch-form-web/model-latent-analysis/web/src/3rdparty/three/addons/controls/OrbitControls.js";
 import { Rhino3dmLoader } from "/arch-form-web/model-latent-analysis/web/src/3rdparty/three/addons/loaders/3DMLoader.js";

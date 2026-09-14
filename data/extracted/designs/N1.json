@@ -19,7 +19,28 @@
           "urban integration",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5045,
+            1,
+            0.5554
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact rectangular volume is visible across calibrated views; placement represents its urban scale and proportions."
+        }
       },
       {
         "statement": "The compact footprint creates a generous and logically structured outdoor space.",
@@ -27,7 +48,26 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "western outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1032,
+            0.4165,
+            0.0753
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Western edge and low-level open-space condition are approximated from the top and elevation distributions."
+        }
       },
       {
         "statement": "The simple typology offers clear orientation, high flexibility and spatial, functional and visual permeability.",
@@ -35,21 +75,74 @@
           "layout",
           "flexibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "simple typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5554,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior organization is not distinguishable; a representative building-surface anchor captures the clear compact typology."
+        }
       },
       {
         "statement": "The operational requirements are coherently implemented in the architectural space.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "operational requirements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4165,
+            0.4077
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Operational spaces are not individually visible, so the judgment is anchored to a representative building region."
+        }
       },
       {
         "statement": "The compactness and clear typology produce very good cost indicators.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "cost indicators",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost performance is a non-spatial judgment without a useful model location."
+        }
       },
       {
         "statement": "The energy goals are implemented in a self-evident way through compactness, insulation, solar gains and building technology.",
@@ -57,7 +150,28 @@
           "sustainability",
           "massing",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "energy goals",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.7089,
+            0.7955
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact envelope and roof-level solar relationship provide a broad building anchor for the energy judgment."
+        }
       }
     ],
     "negative": [
@@ -66,14 +180,54 @@
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement lighting",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4024,
+            0.0568
+          ],
+          "radius": 0.23,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Basement condition is constrained to the lowest sampled level, though no distinct interior basement room is visible."
+        }
       },
       {
         "statement": "The facade has a rather restless and somewhat random-looking expression.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4165,
+            0.5554
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "No specific facade is named; a representative exterior elevation anchor captures the expressed envelope."
+        }
       },
       {
         "statement": "The access side to the street is unsatisfactory and needs to be fundamentally revised.",
@@ -81,7 +235,25 @@
           "facade",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "access side to the street",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7349,
+            0,
+            0.1861
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing access is approximated along the front lower facade, with no distinct entrance visible in the sample."
+        }
       }
     ],
     "keyword": [

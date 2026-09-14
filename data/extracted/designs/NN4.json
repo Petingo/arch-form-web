@@ -16,42 +16,157 @@
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "connecting green belt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9837,
+            0.1805,
+            0
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Southeastern building edge provides a constrained anchor for the campus green-belt relationship."
+        }
       },
       {
         "statement": "The school building is clearly oriented toward the school yard and forms clear outdoor spaces.",
         "tags": [
           "orientation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "school yard and outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5954,
+            0.3608,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "East-facing edge and adjacent central open area constrain the school-yard orientation."
+        }
       },
       {
         "statement": "The two-story organization responds to the desired child-friendly scale.",
         "tags": [
           "scale",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two-story organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2663,
+            0.6503,
+            0.625
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Long bar and repeated elevation levels visibly establish the building’s two-story organization."
+        }
       },
       {
         "statement": "The material choice underlines the ensemble of the two primary-school buildings.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ensemble of two primary-school buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5937,
+            0.3197,
+            0.375
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The anchor lies between the elongated school bar and southeastern gymnasium mass."
+        }
       },
       {
         "statement": "The school and gymnasium are developed as a well-thought-out proposal.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school and gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5937,
+            0.2559,
+            0.375
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top and elevations distinguish the long school bar from the southeastern gymnasium."
+        }
       },
       {
         "statement": "The jury particularly appreciated the urban-development concept and the attempt to organize the school on two floors.",
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "urban-development concept and two floors",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2663,
+            0.6715,
+            0.75
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The distributed long bar and upper elevation band represent the cited urban and two-floor strategy."
+        }
       }
     ],
     "negative": [
@@ -60,70 +175,243 @@
         "tags": [
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "available area and connecting building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7812,
+            0.3608,
+            0.375
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Southeastern building extent provides a constrained anchor for the area and retained-connection criticism."
+        }
       },
       {
         "statement": "The required school lawn area is missing.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "school lawn area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5658,
+            0.3608,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The east-facing open area is the most plausible sampled location for the missing school lawn."
+        }
       },
       {
         "statement": "The building's length and external spaces provide little identity for a primary school.",
         "tags": [
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "building length and external spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2663,
+            0.5865,
+            0.375
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The elongated bar and its surrounding voids are directly legible across plan and elevations."
+        }
       },
       {
         "statement": "The extensive corridor system has no entrance hall for welcoming, exhibitions, or similar activities.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "corridor system and entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2663,
+            0.5653,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is not distinguishable; the central bar surface provides a constrained approximation."
+        }
       },
       {
         "statement": "The foyer is accessible only during school hours, limiting extracurricular operation.",
         "tags": [
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5954,
+            0.3608,
+            0.375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The east-facing approach is the most plausible exterior anchor for the unidentifiable foyer."
+        }
       },
       {
         "statement": "Separating the school building and gymnasium completely is not considered beneficial for a primary school.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school building and gymnasium separation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5937,
+            0.2772,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct masses and their interface are visible in the top and elevation views."
+        }
       },
       {
         "statement": "The upper-floor horizontal connections are guaranteed only through the toilet facilities, leaving the implementation of different pedagogical concepts uncertain.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor horizontal connections",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2663,
+            0.629,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper elevation bands constrain the location, but internal connections and toilets are not distinguishable."
+        }
       },
       {
         "statement": "The justification for underfloor heating and individual room regulation is missing.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "underfloor heating and room regulation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This concerns building services and operational justification without a useful visible spatial referent."
+        }
       },
       {
         "statement": "The natural ventilation concept indicated by the diagram is not adequately implemented or explained.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "natural ventilation concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ventilation implementation is a building-wide performance issue not represented by the sampled surfaces."
+        }
       },
       {
         "statement": "The specialist planner's contribution does not meet the requirements of a holistic overall concept.",
         "tags": [
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "holistic overall concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2663,
+            0.6928,
+            0.375
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "A broad anchor on the elongated school mass represents the overall-concept criticism."
+        }
       }
     ],
     "keyword": [

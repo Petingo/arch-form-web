@@ -16,35 +16,138 @@
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "indoor and outdoor spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5416,
+            0.5107,
+            0.4
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Organic arms visibly create distinct central and peripheral spatial zones."
+        }
       },
       {
         "statement": "The unusual design stimulates discussion about the appropriate school building.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "unusual design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5416,
+            0.5107,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The sprawling cornerless figure is clearly identifiable across all calibrated views."
+        }
       },
       {
         "statement": "The classrooms are pleasant and easy to use despite the supports.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.151,
+            0.5036,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A peripheral arm provides the most plausible sampled location for classrooms."
+        }
       },
       {
         "statement": "The project is an interesting and independent solution approach.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "independent solution approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5667,
+            0.603,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The decentralized free-form building is directly visible as an independent overall figure."
+        }
       },
       {
         "statement": "The project is fascinating as a sophisticated functional and technical solution.",
         "tags": [
           "functionality",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "functional and technical solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5445,
+            0.4916,
+            0.4
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Overall geometry supports a building-scale architectural and technical assessment."
+        }
       }
     ],
     "negative": [
@@ -53,62 +156,226 @@
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "connections",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5416,
+            0.5301,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central junction visibly connects the sprawling arms."
+        }
       },
       {
         "statement": "Decentralized access means that students and teachers sometimes have to travel very long distances.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "decentralized access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3716,
+            0.5724,
+            0.3
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Separated arms visibly imply long travel distances between decentralized destinations."
+        }
       },
       {
         "statement": "The uniform facade grid may lead to monotony and self-referentiality.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "uniform facade grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7741,
+            0.7902,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The outer north-east arm is used as a plausible facade surface anchor."
+        }
       },
       {
         "statement": "The entrances are not clearly visible from the outside.",
         "tags": [
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2511,
+            0.1256,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "A south-west perimeter location is constrained by the statement but no entrance is distinguishable."
+        }
       },
       {
         "statement": "The semi-public tavern would severely disrupt the school's fragile operations.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "semi-public tavern",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7502,
+            0.3313,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The east-south arm provides a plausible semi-public zone on the sampled surface."
+        }
       },
       {
         "statement": "The attic is a leftover space whose school-compatible use is uncertain.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "attic",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5416,
+            0.5107,
+            0.6
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The single-storey sample offers no distinct attic; a high-level building anchor is used."
+        }
       },
       {
         "statement": "Access for emergency services, deliveries and agricultural equipment is only possible to a limited extent.",
         "tags": [
           "accessibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "emergency access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2461,
+            0.0873,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "A south-west perimeter point represents constrained external access around the building."
+        }
       },
       {
         "statement": "The outdoor-space project remains schematic despite its urban-development potential.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-space project",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5196,
+            0.1875,
+            0.1
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern open area around the organic footprint is the most plausible site anchor."
+        }
       },
       {
         "statement": "The solution approach is also expensive.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "solution approach",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The criticism concerns overall expense without a useful geometric location."
+        }
       }
     ],
     "keyword": [

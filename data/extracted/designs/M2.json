@@ -17,7 +17,25 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "existing open-space structure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8158,
+            0.4845,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The broader open-space relationship is approximated along the eastern edge beside the main volume."
+        }
       },
       {
         "statement": "The compact, clear floor plan offers varied spatial qualities and good orientation.",
@@ -25,7 +43,26 @@
           "layout",
           "circulation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "compact floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4653,
+            0.3929,
+            0.0744
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The main diamond footprint provides the constrained horizontal anchor for the floor-plan judgment."
+        }
       },
       {
         "statement": "The simple structure can flexibly adapt to educational and organizational developments.",
@@ -33,14 +70,53 @@
           "flexibility",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "flexible simple structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4746,
+            0.4075,
+            0.5372
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The primary compact volume is the visible structural anchor for adaptation."
+        }
       },
       {
         "statement": "The construction with prefabricated elements is coherent and economical.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "prefabricated construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.484,
+            0.422,
+            0.5372
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Prefabrication is associated with the clearly sampled main building volume."
+        }
       }
     ],
     "negative": [
@@ -49,14 +125,49 @@
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "public path overlap",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8409,
+            0.436,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The path conflict is approximated beside the separate eastern linear footprint."
+        }
       },
       {
         "statement": "The intervention in the protected existing buildings is excessive in two places.",
         "tags": [
           "urban integration",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "protected existing buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7906,
+            0.533,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Intervention locations are approximated toward the eastern and northeastern site edge."
+        }
       },
       {
         "statement": "The exterior design remains vague and imprecise.",
@@ -64,21 +175,78 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "vague exterior design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4933,
+            0.4366,
+            0.5372
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The facade criticism is anchored on the visible elevations of the main sloping-roofed volume."
+        }
       },
       {
         "statement": "The high basement proportion and extensive intervention burden the gray-energy balance.",
         "tags": [
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "high basement proportion",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4746,
+            0.4075,
+            0.0744
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The lower portion of the main volume is used as a constrained basement anchor."
+        }
       },
       {
         "statement": "Night cooling will be ineffective despite the openable windows.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "openable windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.484,
+            0.422,
+            0.6143
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Windows are not individually distinguishable, so the upper facade provides the best constrained location."
+        }
       }
     ],
     "keyword": [

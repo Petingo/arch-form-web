@@ -18,49 +18,183 @@
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrance square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9871,
+            0.7669,
+            0.1
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Northeastern perimeter location is constrained by the park-facing edge and entrance-square statement."
+        }
       },
       {
         "statement": "The generous interior street offers interesting educational opportunities.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "interior street",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.377,
+            0.4955,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central longitudinal zone matches the slab’s internal circulation and educational street reading."
+        }
       },
       {
         "statement": "The shallow patios provide attractive daylight to classrooms while preserving sufficient privacy.",
         "tags": [
           "daylight",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "shallow patios",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.377,
+            0.4616,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two recessed patio voids are visibly embedded within the slab footprint."
+        }
       },
       {
         "statement": "The flexible slab-and-column structure supports varied appropriation of the platforms.",
         "tags": [
           "flexibility",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "slab-and-column structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.623,
+            0.338,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A representative interior structural bay is anchored within the repetitive horizontal building mass."
+        }
       },
       {
         "statement": "The architectural language gives the school strength and character.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural language",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5015,
+            0.017,
+            0.5
+          ],
+          "radius": 0.316,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Whole-building expression is represented on the visible south-facing envelope."
+        }
       },
       {
         "statement": "The broad horizontal lines help conceal the large scale of the building.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "broad horizontal lines",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.553,
+            0.017,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal elevation bands visibly organize and reduce the slab’s apparent scale."
+        }
       },
       {
         "statement": "The project presents an open and welcoming image toward a changing neighborhood.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "welcoming neighborhood image",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7375,
+            0.7634,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Northeastern edge is used as the likely neighborhood-facing public address."
+        }
       }
     ],
     "negative": [
@@ -69,40 +203,145 @@
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "corner clearances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9871,
+            0.9364,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The northeast corner visibly terminates a large floor plate with limited exterior clearance."
+        }
       },
       {
         "statement": "Variations in scale would be desirable to provide more intimate spaces.",
         "tags": [
           "scale",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "intimate spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7409,
+            0.5646,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A representative broad interior zone expresses the criticized uniform scale."
+        }
       },
       {
         "statement": "Accessibility for people with reduced mobility is not guaranteed for the aula stage.",
         "tags": [
           "accessibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "aula stage",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6581,
+            0.4998,
+            0.2
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The likely aula zone is approximated beside the larger internal void on the right half."
+        }
       },
       {
         "statement": "Additional premises are missing.",
         "tags": [
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "additional premises",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Missing premises is a programmatic judgment without a reliable geometric referent."
+        }
       },
       {
         "statement": "The structural challenges concern absorbing loads above the gymnasiums and aula.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "loads above gymnasiums and aula",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.623,
+            0.5075,
+            0.8
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper region above the right-side internal program zone approximates the stated structural load concern."
+        }
       },
       {
         "statement": "The sports areas interrupt the strong link between Cours Roger-Bonvin and the Ferme-Asile.",
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sports-area connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5015,
+            0.017,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern building edge marks the approximate interruption of the course-to-Ferme-Asile connection."
+        }
       }
     ],
     "keyword": [

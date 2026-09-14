@@ -18,54 +18,200 @@
         "tags": [
           "urban integration",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "northern parcel distance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4638,
+            0.8127,
+            0.1765
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The preserved northern setback is represented along the far side beyond the elongated building."
+        }
       },
       {
         "statement": "The volumetrically differentiated appearance is consistent with the school's function.",
         "tags": [
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "volumetrically differentiated appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6261,
+            0.451,
+            0.6765
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three-part massing and distinct sloped roof profiles are clearly visible across the calibrated views."
+        }
       },
       {
         "statement": "All units have ground-level access, with clearly separated entrances and functional organization.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground-level entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1566,
+            0.4969,
+            0.1471
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Separated access points are approximated along the lower perimeter of the three-part base."
+        }
       },
       {
         "statement": "The stair connections between the two uses are plausibly solved.",
         "tags": [
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "stair connections between uses",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3762,
+            0.3096,
+            0.3529
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Inter-level circulation is placed near the central junction between the building portions."
+        }
       },
       {
         "statement": "The two-story base levels are illuminated on both sides and can be used throughout.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two-story base levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6749,
+            0.6328,
+            0.2941
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The lower two-level base is visible as the dense, repeated portion beneath the roofed volumes."
+        }
       },
       {
         "statement": "The floor plan offers exciting spatial experiences and enables work on separate levels.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "separate levels",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7532,
+            0.566,
+            0.4412
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated plan supports a distributed anchor across distinct programmatic levels."
+        }
       },
       {
         "statement": "The supporting structure largely follows an economical principle.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "economical supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6749,
+            0.6328,
+            0.4118
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural economy is approximated across the regular repeated bands of the visible building volume."
+        }
       },
       {
         "statement": "The expected construction costs are in the lower range of the shortlisted projects.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "lower-range construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a project-wide cost comparison without a spatial referent."
+        }
       }
     ],
     "negative": [
@@ -74,91 +220,337 @@
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "overlying body and independent roof structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4403,
+            0.4176,
+            0.7059
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The layered body and multiple roof profiles are directly visible in plan and elevations."
+        }
       },
       {
         "statement": "The wooden facade seems strange in the neighborhood.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "wooden facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2196,
+            0.4432,
+            0.5294
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The facade concern is anchored to a plausible exposed longitudinal exterior face."
+        }
       },
       {
         "statement": "The sunken, narrow outdoor space is not attractive.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "sunken narrow outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4698,
+            0.2298,
+            0.0882
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A narrow lowered external strip is approximated along the southern perimeter."
+        }
       },
       {
         "statement": "The day school is concentrated on a limited and unsatisfactory outdoor space.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day-school outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6491,
+            0.1949,
+            0.1176
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The limited outdoor area is placed beside the southern side of the elongated program volume."
+        }
       },
       {
         "statement": "The stair connections are probably too steep.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "steep stair connections",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3762,
+            0.3096,
+            0.3235
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stairs are approximated at the central vertical circulation junction between levels."
+        }
       },
       {
         "statement": "The acoustic separation of the main room from the gallery is questionable.",
         "tags": [
           "acoustics",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "main room and gallery",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6749,
+            0.6328,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior acoustic separation is anchored within the central part of the visible building footprint."
+        }
       },
       {
         "statement": "The roof terrace is difficult to see from the main room.",
         "tags": [
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "roof terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6138,
+            0.5388,
+            0.8529
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The roof-level visibility concern is placed on the upper portion of the elongated roof assembly."
+        }
       },
       {
         "statement": "People with walking difficulties have the longest route to the entrance level, and the elevator is far away.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "entrance level and elevator",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1958,
+            0.4635,
+            0.1471
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Accessibility routing is approximated from the southern approach to the lower entrance level."
+        }
       },
       {
         "statement": "The connection between the southern and northern garden rooms is insufficient.",
         "tags": [
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "southern and northern garden rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6204,
+            0.6792,
+            0.0882
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The garden-room connection is represented across the two external sides of the lowered base."
+        }
       },
       {
         "statement": "The potential of the sunniest outdoor area is not exploited and its design is left undefined.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "sunniest outdoor area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6491,
+            0.1949,
+            0.0882
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "An underdefined external area is approximated along the open southern edge."
+        }
       },
       {
         "statement": "The mixed construction volume implies higher gray energy, while the energy and building-technology concept is unclear.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "mixed construction volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6749,
+            0.6328,
+            0.4706
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The construction-energy concern applies to the full visible mixed-height building volume."
+        }
       },
       {
         "statement": "Some day-school rooms receive insufficient daylight and the sun protection is inadequate.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "day-school rooms and sun protection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7924,
+            0.5326,
+            0.5588
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight-sensitive rooms are approximated within the elevated school volume."
+        }
       },
       {
         "statement": "The permissible building depth is exceeded in the basement.",
         "tags": [
           "regulatory compliance",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "basement building depth",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3915,
+            0.2966,
+            0.0882
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The depth concern is anchored to the visible footprint of the lowered basement level."
+        }
       }
     ],
     "keyword": [

@@ -19,34 +19,124 @@
           "facade",
           "visibility",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "transparent facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1753,
+            0.8245,
+            0.4446
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Northwest-facing public edge is constrained by the stated opening direction and visible perimeter."
+        }
       },
       {
         "statement": "The tree population is preserved and sensitively supplemented where the existing terrain remains unchanged.",
         "tags": [
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "preserved tree population",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8219,
+            0.173,
+            0.0291
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Protected garden is approximated along the opposite low perimeter; trees are not distinguishable in the sample."
+        }
       },
       {
         "statement": "The proposal meets the requirements of the desired sports operation.",
         "tags": [
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports operation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8069,
+            0.4406,
+            0.1676
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Operational performance applies broadly to the low sports-building volume."
+        }
       },
       {
         "statement": "The direct arrangement of equipment and technical rooms in the sports halls demonstrates a consistent and logical structure.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports halls equipment and technical rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7739,
+            0.4745,
+            0.1122
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior sports-support arrangement is approximated within the sampled building footprint."
+        }
       },
       {
         "statement": "The cross-laminated timber ceilings are a sensible choice because they are easy to dismantle and reusable.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "cross-laminated timber ceilings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2236,
+            0.5418,
+            0.8878
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Ceilings are interior and unidentifiable, so placement is constrained near the upper building surface."
+        }
       }
     ],
     "negative": [
@@ -55,21 +145,78 @@
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "street-oriented building edge",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1753,
+            0.8245,
+            0.1122
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Northwest public edge is the stated urban-facing orientation, opposed to the protected outdoor space."
+        }
       },
       {
         "statement": "The two entrances obscure the formation of a clear address.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "two entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2434,
+            0.8904,
+            0.0568
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Entrances are constrained to the northwest public edge but are not individually distinguishable."
+        }
       },
       {
         "statement": "The building is set too low and extends into the listed garden, making its handling of the terrain and existing buildings critical.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "low building extending into listed garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8219,
+            0.173,
+            0.0845
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low mass and garden encroachment are approximated along the opposite lower perimeter."
+        }
       },
       {
         "statement": "The high traffic areas are rated negatively, and the complex surrounding access area produces interior spaces without natural daylight and ventilation.",
@@ -77,21 +224,76 @@
           "circulation",
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "high-traffic access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2094,
+            0.8574,
+            0.1122
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Access-related interior space is constrained near the public-facing entry edge."
+        }
       },
       {
         "statement": "Only one access would make operational access control easier for the various users.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "single access point",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2434,
+            0.8904,
+            0.0845
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Operational access is approximated at the northwest entry edge; no doorway is resolved."
+        }
       },
       {
         "statement": "The spatial proportions of the multifunctional rooms are not ideal for their users.",
         "tags": [
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "multifunctional rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4879,
+            0.2705,
+            0.1122
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior room proportions are unobservable and approximated within the central building footprint."
+        }
       },
       {
         "statement": "The beams penetrating the building envelope are questionable in a temporary building because of their complexity, sustainability, and economy.",
@@ -99,14 +301,51 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "beams penetrating building envelope",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8069,
+            0.4406,
+            0.4169
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "top"
+          ],
+          "rationale": "Envelope penetrations are not distinguishable, so the east perimeter provides a constrained anchor."
+        }
       },
       {
         "statement": "The fire-protection measures required by the structural system appear questionable and require extensive cladding of the access zone.",
         "tags": [
           "fire safety",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "fire-protection cladding at access zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2094,
+            0.8574,
+            0.3061
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "west",
+            "top"
+          ],
+          "rationale": "Access-zone cladding is approximated at the northwest circulation edge."
+        }
       },
       {
         "statement": "The building is not very space efficient, has high resource use, and cannot achieve the required energy standard in its current form.",
@@ -114,14 +353,54 @@
           "functionality",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole building resource and energy efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.587,
+            0.1687,
+            0.3061
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Efficiency criticism applies to the complete sampled building volume rather than one feature."
+        }
       },
       {
         "statement": "The large-format glazing causes significant summer heat input, while the absence of photovoltaic panels is a further weakness.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "large-format glazing and photovoltaic panels",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2094,
+            0.8574,
+            0.7216
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Glazing is constrained to the northwest opening edge; photovoltaic absence is not directly represented."
+        }
       }
     ],
     "keyword": [

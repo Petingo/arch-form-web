@@ -17,21 +17,79 @@
         "tags": [
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two volumes around patios",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4894,
+            0.409,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two offset masses visibly frame central patio voids."
+        }
       },
       {
         "statement": "Organizing all elderly psychiatry rooms on a single floor convincingly reflects the Foundation’s demands.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "elderly psychiatry rooms on one floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3217,
+            0.648,
+            0.3
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The single-level program is anchored to a representative lower occupied band."
+        }
       },
       {
         "statement": "The extended garden wall creates a visual link between the castle complex and the new construction.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "extended garden wall",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4417,
+            0.8135,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern edge provides the plausible garden-wall link between old and new construction."
+        }
       },
       {
         "statement": "The garden is accessible to almost all residents, with rooms oriented toward their surroundings.",
@@ -39,27 +97,93 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "garden accessible to residents",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4894,
+            0.409,
+            0.3
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central patio space is clearly enclosed by the two visible volumes."
+        }
       },
       {
         "statement": "The southern common areas benefit from very good sunshine and beautiful perspectives.",
         "tags": [
           "daylight",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "southern common areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5383,
+            0.0825,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern-facing building frontage anchors the common areas and their perspectives."
+        }
       },
       {
         "statement": "The architectural design preserves the valuable trees of the existing park.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "valuable existing park trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2079,
+            0.9858,
+            0.2
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Trees are not sampled distinctly; the northern park edge is the constrained landscape location."
+        }
       },
       {
         "statement": "The estimated overall cost is in the lower average of the compared projects.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "overall cost",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost is a non-spatial project-wide judgment."
+        }
       }
     ],
     "negative": [
@@ -68,14 +192,50 @@
         "tags": [
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "semi-buried ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6521,
+            0.3525,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The low band of the extensive footprint approximates the semi-buried ground floor."
+        }
       },
       {
         "statement": "The indirect entrance and insufficiently generous hall are not convincing.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "indirect entrance and hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7143,
+            0.2828,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A southern approach zone is used for the indistinguishable entrance and hall."
+        }
       },
       {
         "statement": "The two elevators raise doubts because visitor and logistics flows are not separated.",
@@ -83,35 +243,126 @@
           "operation",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two elevators",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6316,
+            0.5511,
+            0.3
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The elevators are interior and placed approximately near the central circulation zone."
+        }
       },
       {
         "statement": "The jury does not understand the separation glazing between the two living units.",
         "tags": [
           "layout",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "separation glazing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4894,
+            0.409,
+            0.4
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central inter-volume boundary is the most plausible location for separation glazing."
+        }
       },
       {
         "statement": "The large footprint produces exterior spaces that are too constructed in character.",
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "large constructed exterior spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6316,
+            0.5511,
+            0.2
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad two-volume footprint visibly dominates the available exterior space."
+        }
       },
       {
         "statement": "The selective connections through the park require deeper reflection on uses.",
         "tags": [
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "selective park connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4175,
+            0.8149,
+            0.2
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern park edge anchors the criticized selective connections."
+        }
       },
       {
         "statement": "The extensive glazing makes little use of passive solar strategies and contributes to the project’s poor energy rating.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "extensive glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6364,
+            0.1242,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A southern facade location represents glazing and its passive-solar exposure."
+        }
       }
     ],
     "keyword": [

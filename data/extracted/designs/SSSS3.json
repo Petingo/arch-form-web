@@ -18,7 +18,28 @@
           "identity",
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "rounded overall shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5489,
+            0.483,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Large rounded footprint and low pavilion volume are strongly visible in every calibrated view."
+        }
       },
       {
         "statement": "The representative entrance square provides good addressing and enters into dialogue with the neighbourhood.",
@@ -26,7 +47,25 @@
           "urban integration",
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "representative entrance square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1314,
+            0.1603,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance forecourt is plausibly located at the open south-west approach."
+        }
       },
       {
         "statement": "The delicate wooden facade and surrounding canopy create an inviting external appearance.",
@@ -34,49 +73,161 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "wooden facade and surrounding canopy",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5007,
+            0.0353,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Broad canopy and perimeter envelope are clearly visible along the south edge."
+        }
       },
       {
         "statement": "Exciting connections emerge between inside and outside.",
         "tags": [
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "inside-outside connections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7117,
+            0.4004,
+            0.375
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Connection is inferred at the side opening toward the surrounding open space."
+        }
       },
       {
         "statement": "The indoor pool is attractively designed and coherently organized on one floor.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "indoor pool",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.571,
+            0.5891,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior pool cannot be separated, so it is placed within the broad central footprint."
+        }
       },
       {
         "statement": "Operation and separation of processes are guaranteed in the ice-rink cloakroom area.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "ice-rink cloakroom area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0501,
+            0.4996,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Cloakroom zone is inferred within the left-central interior."
+        }
       },
       {
         "statement": "The building is carefully embedded into the terrain, ensuring a small excavation volume.",
         "tags": [
           "topography",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "terrain embedding",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5563,
+            0.4457,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Low repeated elevations and terrain-following mass visibly support shallow embedding."
+        }
       },
       {
         "statement": "The materialization is resource-saving and carefully worked out.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "resource-saving materialization",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource-saving judgment applies broadly without a distinct geometric anchor."
+        }
       },
       {
         "statement": "The compact arrangement makes the project one of the cheaper shortlisted proposals.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "compact arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Compactness and cost concern the whole proposal rather than one location."
+        }
       }
     ],
     "negative": [
@@ -86,7 +237,28 @@
           "scale",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "new building scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5513,
+            0.4945,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Large free-form footprint and volume are directly visible across all views."
+        }
       },
       {
         "statement": "The building sits on the edge rather than in the park, while the narrow gap pressures the outdoor pool.",
@@ -94,14 +266,49 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "narrow gap around outdoor pool",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9144,
+            0.5027,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Residual narrow open space is approximated along the east side of the footprint."
+        }
       },
       {
         "statement": "The parking situation along the street appears less inviting.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "street parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1359,
+            0.1415,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-side parking is approximated near the south-west entrance edge."
+        }
       },
       {
         "statement": "The gridded wooden construction leaves implementation questions and appears arbitrary in relation to the free form.",
@@ -109,14 +316,52 @@
           "structure",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "gridded wooden construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5488,
+            0.4639,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Structural grid is not separable, so the central envelope provides an approximate anchor."
+        }
       },
       {
         "statement": "The transitions from the construction to the facade are uncontrolled.",
         "tags": [
           "facade",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "construction-to-facade transitions",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8522,
+            0.4903,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Transition concern is assigned to the curved eastern perimeter where envelope changes are visible."
+        }
       },
       {
         "statement": "The cloakroom area is dominated by long, unattractive dark corridors.",
@@ -124,42 +369,141 @@
           "circulation",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "dark cloakroom corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0547,
+            0.4808,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior corridors are not visible and are approximated in the left-central mass."
+        }
       },
       {
         "statement": "Additional paths create striking topographical cuts that do not sufficiently respect the historical concept.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "additional paths and topographical cuts",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1133,
+            0.2357,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "External cuts are approximated around the south-west approach and park edge."
+        }
       },
       {
         "statement": "The high degree of sealing conflicts with the landscape intentions.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sealed landscape area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5007,
+            0.0353,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Large building footprint visibly occupies much of the park-edge site."
+        }
       },
       {
         "statement": "The staged approach is not convincing.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "staged approach",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Phasing criticism is operational and has no useful spatial referent."
+        }
       },
       {
         "statement": "The impressive spans cause unnecessary structural effort.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "impressive spans",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5552,
+            0.5134,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Spans are inferred across the broad unobstructed pavilion volume."
+        }
       },
       {
         "statement": "The large glazed areas may produce difficult-to-control temperature curves.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "large glazed areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.647,
+            0.0287,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Potential glazing is assigned to the south-facing envelope, though glazing is not distinguishable."
+        }
       },
       {
         "statement": "The project is too space-intensive and ultimately weakens the identity of the outdoor pool.",
@@ -167,7 +511,24 @@
           "massing",
           "identity",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor pool identity",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8719,
+            0.5849,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pool-facing open space is approximated along the compressed eastern side."
+        }
       }
     ],
     "keyword": [

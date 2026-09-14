@@ -17,49 +17,178 @@
           "urban integration",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "district scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5789,
+            0.5913,
+            0.4167
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The low staggered three-storey form is clearly visible across all calibrated views."
+        }
       },
       {
         "statement": "The project integrates into the existing building structure while clearly distinguishing the house as a public building.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "existing building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5592,
+            0.6125,
+            0.4167
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Parallel alignment and staggered parts visibly organize the building mass."
+        }
       },
       {
         "statement": "The floor plan is well structured for operation and allows diverse, permeable, and flexible use.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6034,
+            0.5706,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior planning is approximated within the multi-part footprint."
+        }
       },
       {
         "statement": "The outdoor rooms are child-friendly, with varied play areas and plants for all seasons.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor rooms",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8075,
+            0.2047,
+            0.0417
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Staggered building edges visibly create varied external pockets around the footprint."
+        }
       },
       {
         "statement": "The direct access from the neighboring street is viewed positively and should be integrated further into operation.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "neighboring street access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1267,
+            0.555,
+            0.0417
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Street access is placed at the western edge of the aligned building."
+        }
       },
       {
         "statement": "The clear structure and construction grid offer good conditions for simple and economical construction.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5789,
+            0.5913,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The sampled repetitive structure supports an approximate central grid anchor."
+        }
       },
       {
         "statement": "The sustainable construction concept meets the requirements in an exemplary manner.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "sustainable construction concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.332,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability is a whole-design judgment without a specific spatial referent."
+        }
       }
     ],
     "negative": [
@@ -69,49 +198,182 @@
           "facade",
           "expression",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.813,
+            0.4761,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The long, repetitive facade surfaces are directly visible in the elevations."
+        }
       },
       {
         "statement": "The westward extension slightly exceeds the permitted maximum length.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "westward extension",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.096,
+            0.4842,
+            0.2917
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The projecting western end is identifiable at the left side of the top footprint."
+        }
       },
       {
         "statement": "The orientation deviates from the surrounding residential buildings and is irritating.",
         "tags": [
           "urban integration",
           "orientation"
-        ]
+        ],
+        "position": {
+          "target": "orientation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6034,
+            0.5706,
+            0.4167
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Overall building alignment and its deviation are assessed from the footprint and elevations."
+        }
       },
       {
         "statement": "The street access is too small for waiting children and should be made more spacious.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "street access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1478,
+            0.5101,
+            0.0417
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The access point is approximated at the western street-facing edge."
+        }
       },
       {
         "statement": "The openness of the upper-floor gallery has not been fully resolved in fire-safety terms.",
         "tags": [
           "fire safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor gallery",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4366,
+            0.7395,
+            0.7083
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "Upper circulation is approximated along the northern side of the staggered volume."
+        }
       },
       {
         "statement": "The outdoor space is not always visible from the classrooms and the play areas may be too small for the planned number of children.",
         "tags": [
           "visibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8267,
+            0.231,
+            0.0417
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "External play areas are distributed among the staggered perimeter pockets."
+        }
       },
       {
         "statement": "The container and bicycle parking can only be implemented with an exceptional permit.",
         "tags": [
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "container and bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7714,
+            0.5113,
+            0.0417
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Ancillary parking is approximated at the peripheral northeast site edge."
+        }
       }
     ],
     "keyword": [

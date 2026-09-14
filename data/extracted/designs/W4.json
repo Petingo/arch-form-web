@@ -17,49 +17,169 @@
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "building height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5075,
+            0.582,
+            0.9756
+          ],
+          "radius": 0.319,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The stepped six-storey volume is clearly visible across all elevations and fits the surrounding scale."
+        }
       },
       {
         "statement": "The raised forecourt effectively stands out from the street.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "raised forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3349,
+            0.2673,
+            0.0723
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open area immediately south of the mass plausibly forms the raised street-facing forecourt."
+        }
       },
       {
         "statement": "The rooms appear to be of high quality and appropriate for use.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "rooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1565,
+            0.6822,
+            0.5605
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Interior rooms are not individually visible; the marker follows the broad occupied floor region."
+        }
       },
       {
         "statement": "The skylights give the deep building a certain permeability and lightness.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5639,
+            0.5367,
+            0.9756
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Roof-level interruptions and stepped roof bands provide the best available skylight evidence."
+        }
       },
       {
         "statement": "The building shell is convincingly constructed in energy terms.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "building shell",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8825,
+            0.5084,
+            0.5827
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "The continuous envelope is clearly represented on the elevations."
+        }
       },
       {
         "statement": "The fine grid takes away the heaviness of the large volume.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "fine grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7003,
+            0.0383,
+            0.5605
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Dense repeated facade points visibly establish the fine front-elevation grid."
+        }
       },
       {
         "statement": "The project implements sustainability requirements well in construction and operation.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "sustainability requirements",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.328,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns construction and operation performance rather than a specific geometric location."
+        }
       }
     ],
     "negative": [
@@ -68,49 +188,168 @@
         "tags": [
           "facade",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sports hall access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5581,
+            0.0925,
+            0.1699
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access is not distinguishable, so it is anchored to the prominent main facade."
+        }
       },
       {
         "statement": "The exterior is schematic and minimalist, without special qualities.",
         "tags": [
           "expression",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "exterior",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7269,
+            0.0772,
+            0.5605
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The large regular envelope is directly visible, supporting an exterior-expression assessment."
+        }
       },
       {
         "statement": "There is no significant dialogue between ground-floor uses and the open space.",
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor uses and open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7313,
+            0.0837,
+            0.0723
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south edge and adjacent open zone represent the ground-floor relationship to exterior space."
+        }
       },
       {
         "statement": "The outdoor seating on the shady and drafty side is doubtful in quality.",
         "tags": [
           "open space",
           "comfort"
-        ]
+        ],
+        "position": {
+          "target": "outdoor seating",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9487,
+            0.5108,
+            0.0479
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Seating is not visible; the marker uses the likely shaded side square along the building edge."
+        }
       },
       {
         "statement": "The proposed stairwell closure and escape route are not plausible.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "stairwell closure and escape route",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1286,
+            0.4423,
+            0.5117
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The circulation system is interior, with only a tentative vertical-envelope anchor possible."
+        }
       },
       {
         "statement": "The supporting structure has significant deficits that could have spatial consequences.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Structural deficits are not spatially localizable from the exterior point cloud."
+        }
       },
       {
         "statement": "A more identifying face for the vocational school would be desirable.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "vocational school identity",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.538,
+            0.1096,
+            0.5361
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The front facade is the relevant visible surface for a more identifying architectural face."
+        }
       }
     ],
     "keyword": [

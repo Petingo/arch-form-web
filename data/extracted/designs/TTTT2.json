@@ -16,63 +16,234 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "linear five-story volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4653,
+            0.4799,
+            0.8915
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated five-story mass is clearly visible, extending along the site with repeated horizontal floor bands."
+        }
       },
       {
         "statement": "The compact design generates a small footprint and generous open spaces on all sides.",
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "compact footprint and open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5164,
+            0.0048,
+            0.1111
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Narrow elongated footprint leaves substantial open area around the sampled building perimeter."
+        }
       },
       {
         "statement": "The campus concept creates an exciting structural dialogue among the three volumes.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "three volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8728,
+            0.4087,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Overall massing is visible, while separate campus volumes are not distinctly isolated in the exterior sample."
+        }
       },
       {
         "statement": "The spacious hall, gallery-like mezzanine, and central classroom hall provide differentiated horizontal connections.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "spacious hall and central classroom hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4656,
+            0.522,
+            0.8915
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior connection zones are approximated within the central portion of the elongated sampled volume."
+        }
       },
       {
         "statement": "The punctual core insertions develop a good internal scale.",
         "tags": [
           "layout",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "punctual core insertions",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8677,
+            0.3856,
+            0.5
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated internal interruptions suggest central access cores distributed through the linear building."
+        }
       },
       {
         "statement": "A rational and disciplined construction grid enables a high level of flexibility.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "construction grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8779,
+            0.4318,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular repeated point rows across elevations indicate a disciplined serial structural grid."
+        }
       },
       {
         "statement": "The simple structure and serially used elements suggest high cost-effectiveness.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "simple serial structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8626,
+            0.3625,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated construction elements are visible throughout the building envelope."
+        }
       },
       {
         "statement": "Routes and path connections are generally convincing.",
         "tags": [
           "circulation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "routes and path connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.275,
+            0.0092,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Approach and landscape routes are approximated along the building’s open southern surroundings."
+        }
       },
       {
         "statement": "The greater opening of classrooms to the central zone develops a good cross-relationship.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "central zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.883,
+            0.4549,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central classroom relationship is approximated within the middle of the sampled linear plan."
+        }
       }
     ],
     "negative": [
@@ -82,70 +253,243 @@
           "massing",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "bridge-like ground-floor construction",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8728,
+            0.4087,
+            0.0556
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Lower-level separation and bridge-like continuity are visible in the elevation point bands."
+        }
       },
       {
         "statement": "The passage widths between the classroom wall and the air space appear too small.",
         "tags": [
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "passage widths",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1143,
+            0.5359,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Passage locations are approximated beside the long classroom-facing edges."
+        }
       },
       {
         "statement": "The positioning of the kitchen, serving kitchen, and cafeteria on different levels is called into question.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "kitchen and cafeteria levels",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8728,
+            0.4087,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Service and cafeteria spaces are not distinguishable; approximate mid-lower interior placement is used."
+        }
       },
       {
         "statement": "The side entrances do not provide enough address on the street side and should be easier to recognize.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "side entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1041,
+            0.4897,
+            0.1111
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Side access is assigned to the west-facing long edge near ground level."
+        }
       },
       {
         "statement": "The outdoor-space concept provides too few paved areas for differentiated stays, festivals, and events.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.827,
+            0.2008,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground around the footprint is visible, especially along the eastern side."
+        }
       },
       {
         "statement": "The ambitious outdoor-space concept may be too detour-focused, complicated, and maintenance-intensive for its task.",
         "tags": [
           "landscape",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1652,
+            0.7669,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Distributed open areas around the long footprint provide the landscape anchor."
+        }
       },
       {
         "statement": "The revised cores narrow the passageways and reduce flexibility and spaciousness.",
         "tags": [
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "revised cores",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8728,
+            0.4087,
+            0.5556
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated core-like interruptions appear within the building’s central structure."
+        }
       },
       {
         "statement": "The additional similar cores reduce good orientation inside.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "similar cores",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4963,
+            0.6749,
+            0.8915
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple repeated internal elements are distributed along the elongated plan."
+        }
       },
       {
         "statement": "The auditorium-related room group and the mezzanine media library lack convincing organization and vertical connection.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "auditorium room group and mezzanine media library",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5164,
+            0.0048,
+            0.6111
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Specialized interior rooms are approximated in the lower-central portion of the volume."
+        }
       },
       {
         "statement": "The demonstrated flexibility appears more like an illusion and is not convincing in everyday use or detail.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "everyday flexibility",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns operational performance of flexibility rather than a specific model location."
+        }
       },
       {
         "statement": "The revised facade seems bulky and obscures the internal logic and constructive idea.",
@@ -153,14 +497,51 @@
           "facade",
           "expression",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "revised facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1143,
+            0.5359,
+            0.5556
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "west"
+          ],
+          "rationale": "Bulky repeated facade bands are clearly visible along the long exterior elevations."
+        }
       },
       {
         "statement": "The outdoor-space criticisms were not addressed, and the bridge still appears somewhat artificial.",
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "bridge and outdoor-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5164,
+            0.0048,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level bridge-like edge and adjacent open space are approximated at the southern end."
+        }
       }
     ],
     "keyword": [

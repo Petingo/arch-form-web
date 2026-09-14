@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "pavilion-style implementation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6749,
+            0.7692,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multiple detached pavilion-like volumes are clearly arranged along the northern perimeter."
+        }
       },
       {
         "statement": "The spatial organization fragments the built volume into medium-sized forms that evoke collective housing and a form of urbanity.",
@@ -26,42 +47,153 @@
           "massing",
           "scale",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "medium-sized forms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6417,
+            0.631,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view clearly shows fragmented medium-scale masses rather than one continuous block."
+        }
       },
       {
         "statement": "The arrangement offers great flexibility for future development and numerous phasing options.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "future development",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8044,
+            0.8156,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral arrangement leaves plausible expansion and phasing zones along the northern edge."
+        }
       },
       {
         "statement": "The six divisions can house prisoners over time and establish a form of progression toward release.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "six divisions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5276,
+            0.546,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated pavilion sequence is distributed along the longitudinal central arrangement."
+        }
       },
       {
         "statement": "The treatment of the facades integrates privacy requirements in relation to neighbours and walking spaces.",
         "tags": [
           "facade",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7547,
+            0.9169,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Outer pavilion edges visibly define privacy boundaries beside walks and neighbours."
+        }
       },
       {
         "statement": "The stepped aggregation generates sub-spaces for sports and walks.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "sports and walks",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.524,
+            0.5455,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyard and interstitial spaces are visibly generated between the stepped pavilions."
+        }
       },
       {
         "statement": "The delivery strategy is handled with great mastery and efficiency.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "delivery strategy",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3494,
+            0.4547,
+            0.25
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Operational delivery is approximated along the lower-left approach and internal circulation edge."
+        }
       }
     ],
     "negative": [
@@ -70,28 +202,101 @@
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "longitudinal connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5814,
+            0.5168,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The diagonal longitudinal sequence is visible, while its connecting spine remains indistinct."
+        }
       },
       {
         "statement": "Sections of the facade remain entirely blind.",
         "tags": [
           "facade",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "blind facade sections",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7928,
+            0.9044,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Solid outer pavilion edges are visibly present along the northern perimeter."
+        }
       },
       {
         "statement": "The wall enclosure partly destroys the potential continuity of the landscape toward the distance.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "wall enclosure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5665,
+            0.881,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern boundary enclosure is the visible edge limiting continuity toward the distance."
+        }
       },
       {
         "statement": "The courtyard landscape variations are potentially interesting but remain embryonic and require particular attention.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "courtyard landscape variations",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.553,
+            0.5524,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central interstitial courtyards are visible but their landscape differentiation is not resolved."
+        }
       }
     ],
     "keyword": [

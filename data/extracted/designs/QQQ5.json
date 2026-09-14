@@ -18,7 +18,24 @@
           "topography",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "artificial turf field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1134,
+            0.7541,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The field is approximated in a peripheral open area; turf itself is absent from the point cloud."
+        }
       },
       {
         "statement": "The project creates gentle, well-proportioned transitions into the adjacent neighbourhood structures.",
@@ -26,7 +43,24 @@
           "urban integration",
           "proportion",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "adjacent neighbourhood transitions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6538,
+            0.7515,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outer edges of the distributed ensemble provide constrained transition zones toward adjacent structures."
+        }
       },
       {
         "statement": "The arrangement of the existing and new school buildings creates a strong centre for the five small schools.",
@@ -34,7 +68,26 @@
           "massing",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "central school centre",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5489,
+            0.3915,
+            0.2
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several volumes visibly frame a central open core."
+        }
       },
       {
         "statement": "The combination of children’s classes, childcare and the library is operationally optimal and enables useful synergies.",
@@ -42,7 +95,25 @@
           "functionality",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "children’s classes, childcare and library",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1233,
+            0.3564,
+            0.4075
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The program cluster is approximated within the smaller western and central volumes."
+        }
       },
       {
         "statement": "The southern kindergarten location provides abundant sunlight and a generous connection to the natural outdoor space.",
@@ -50,7 +121,25 @@
           "daylight",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "southern kindergarten",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1233,
+            0.0994,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A smaller low volume along the southern edge is used as the kindergarten approximation."
+        }
       },
       {
         "statement": "The complex can be reached from all directions, making its open spaces a neighbourhood meeting point.",
@@ -58,7 +147,25 @@
           "accessibility",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "neighbourhood meeting point",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.6096,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central-to-northern open space is the most plausible shared meeting area."
+        }
       },
       {
         "statement": "The level relationship between the playground and auditorium entrance creates an exciting reading of the topography.",
@@ -66,7 +173,25 @@
           "topography",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "playground and auditorium entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6899,
+            0.2033,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A lower access zone between the central and southern masses approximates the level relationship."
+        }
       }
     ],
     "negative": [
@@ -76,7 +201,24 @@
           "landscape",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green and park space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6538,
+            0.7729,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The inter-complex open zone is approximated without visible vegetation or park elements."
+        }
       },
       {
         "statement": "The open-space concept appears additive and lacks a grand, coherent gesture.",
@@ -84,7 +226,24 @@
           "open space",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "open-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.5882,
+            0.1
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The distributed spaces around the central core are visible but lack a single dominant gesture."
+        }
       },
       {
         "statement": "The ensemble appears fragmented, without a focal point, clear orientation or the desired spaciousness in the outdoor spaces.",
@@ -92,7 +251,26 @@
           "massing",
           "identity",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "ensemble orientation and focal point",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.557,
+            0.3915,
+            0.4
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple separated volumes visibly produce a fragmented overall composition."
+        }
       },
       {
         "statement": "Accesses to the gymnasium and childcare are unclear and likely to become bottlenecks in everyday use.",
@@ -100,7 +278,25 @@
           "circulation",
           "functionality",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "gymnasium and childcare accesses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6899,
+            0.2461,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Likely access points are approximated near the lower edges of the larger volumes."
+        }
       },
       {
         "statement": "The access zones are tight for the number of students using each floor, and the lift access via the toilets is unusable.",
@@ -108,7 +304,25 @@
           "circulation",
           "functionality",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "access zones and lift route",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5097,
+            0.2811,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is approximated within the central volume; lift and toilet routing are not visible."
+        }
       },
       {
         "statement": "The heterogeneous materialization is insufficiently justified and initially ecologically insensitive.",
@@ -116,7 +330,26 @@
           "expression",
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "heterogeneous materialization",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6701,
+            0.3915,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Contrasting facade tones and volume treatments are visibly distributed across the ensemble."
+        }
       },
       {
         "statement": "The urban-planning and architectural-constructive development lacks the necessary persuasiveness.",
@@ -124,7 +357,27 @@
           "urban integration",
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning and architectural-constructive development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5651,
+            0.3915,
+            0.4
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The full fragmented ensemble is visible and supports a broad assessment of its urban and architectural development."
+        }
       }
     ],
     "keyword": [

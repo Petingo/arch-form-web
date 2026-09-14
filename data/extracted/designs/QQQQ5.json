@@ -16,14 +16,56 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "separated areas and short routes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6422,
+            0.5047,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact two-storey layout and internal circulation are inferred across the visible building footprint."
+        }
       },
       {
         "statement": "The patient rooms on the upper floor offer a high quality of living.",
         "tags": [
           "layout",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor patient rooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5771,
+            0.7548,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-level rooms are approximated within the north-central upper-storey surface region."
+        }
       },
       {
         "statement": "The light-flooded inner courtyard creates a high interior quality through different views.",
@@ -31,14 +73,56 @@
           "daylight",
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "light-flooded inner courtyard",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5049,
+            0.7548,
+            0.5625
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The north-central courtyard void is clearly outlined in top view and bounded by elevated surrounding masses."
+        }
       },
       {
         "statement": "The courtyards meet different uses and needs.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4257,
+            0.5047,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multiple internal courtyard openings are visible as separated carved zones in the footprint."
+        }
       },
       {
         "statement": "The clinker facades are simple, clearly formulated, and carefully detailed.",
@@ -46,14 +130,55 @@
           "facade",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "clinker facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.5166,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Exterior facade surfaces are visible around the compact rectangular envelope; clinker finish is not materialized."
+        }
       },
       {
         "statement": "The building grid would allow easy conversion into an office building, supporting sustainability.",
         "tags": [
           "flexibility",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6345,
+            0.6624,
+            0.5625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The regular compact volume provides a broad approximate anchor for the referenced conversion grid."
+        }
       }
     ],
     "negative": [
@@ -62,7 +187,28 @@
         "tags": [
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "narrow angled windows in patient rooms",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2885,
+            0.7548,
+            0.75
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Small openings are visible along upper-storey edges, with angled-window character suggested by the renders."
+        }
       },
       {
         "statement": "The intensive walking area located directly above the main entrance is problematic.",
@@ -70,21 +216,82 @@
           "layout",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "walking area above main entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5001,
+            0.1571,
+            0.75
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The upper-level zone directly over the south/front entry edge is constrained by level and facade position."
+        }
       },
       {
         "statement": "The exclusive use of clinker contrasts with the existing buildings.",
         "tags": [
           "urban integration",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "clinker facade against existing buildings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5138,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The building perimeter provides a facade anchor, while surrounding existing buildings are absent from the sampled model."
+        }
       },
       {
         "statement": "The materialization makes the building seem strange in the ensemble.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "building ensemble materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6482,
+            0.4583,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Materialization concerns the whole compact volume within the ensemble; context is not represented in the point cloud."
+        }
       },
       {
         "statement": "The volumetrics and detailing of the facade create a relatively strong prison character.",
@@ -92,7 +299,28 @@
           "massing",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "prison-like volumetrics and facade detailing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4978,
+            0.5047,
+            0.5625
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact enclosed mass and repetitive perimeter openings support a whole-building volumetric anchor."
+        }
       }
     ],
     "keyword": [

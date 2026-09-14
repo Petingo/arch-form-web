@@ -17,7 +17,26 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "administrative and collective uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6429,
+            0.7171,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The separated upper ring and lower mass suggest distinct organizational zones."
+        }
       },
       {
         "statement": "The courtyard ring provides high-quality workspaces around a central open space.",
@@ -25,7 +44,27 @@
           "layout",
           "open space",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "courtyard ring",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7805,
+            0.7958,
+            0.8333
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The upper-right ring and its central opening are clearly visible in plan and elevations."
+        }
       },
       {
         "statement": "The connection with the terrain, access possibilities, and variety of reception areas are of high quality and allow flexible use.",
@@ -33,7 +72,26 @@
           "topography",
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "terrain, accesses, and reception areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2912,
+            0.149,
+            0.1667
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower perimeter geometry provides the most plausible terrain and arrival anchor."
+        }
       },
       {
         "statement": "The proportions, facade language, and unified material give the building a strong identity.",
@@ -41,14 +99,52 @@
           "proportion",
           "facade",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "unified facade and material identity",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8221,
+            0.5916,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated envelope bands visibly establish a unified facade language."
+        }
       },
       {
         "statement": "The structural concept transfers loads rationally and elegantly to the foundations.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "structural load path",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6429,
+            0.5916,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stacked horizontal bands support a whole-building structural reading."
+        }
       },
       {
         "statement": "Balconies make facade maintenance simple without requiring special access equipment.",
@@ -56,14 +152,50 @@
           "facade",
           "operation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "balconies",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7841,
+            0.609,
+            0.6667
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Small projecting bands are visible along the upper southern facade."
+        }
       },
       {
         "statement": "Natural lighting is well studied on the upper floors and in the auditorium.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor and auditorium daylight",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7686,
+            0.7779,
+            0.8333
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper courtyard ring is the clearest sampled region for upper-floor daylight."
+        }
       }
     ],
     "negative": [
@@ -72,14 +204,50 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "office and meeting partition",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2796,
+            0.6301,
+            0.6667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A separated peripheral zone is used as an approximate internal-organization anchor."
+        }
       },
       {
         "statement": "The reception spaces and entrance are not sufficiently representative of the building's event-oriented character.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "reception spaces and entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.163,
+            0.046,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower southern perimeter is the plausible public entrance surface."
+        }
       },
       {
         "statement": "The basement meeting spaces raise reservations about flexibility and natural light.",
@@ -87,35 +255,111 @@
           "flexibility",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement meeting spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2451,
+            0.1954,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The low perimeter mass anchors the basement-level meeting-space concern."
+        }
       },
       {
         "statement": "The large glazing makes natural ventilation difficult to manage and potentially problematic in operation.",
         "tags": [
           "ventilation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "large glazing and natural ventilation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8221,
+            0.5916,
+            0.8416
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper glazed-looking facade bands provide the available ventilation anchor."
+        }
       },
       {
         "statement": "A concept for electric lighting is missing.",
         "tags": [
           "daylight",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "electric lighting concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The missing lighting concept has no distinct geometric representation."
+        }
       },
       {
         "statement": "The large concrete mass and extensive glazing weaken the construction-ecology assessment through embodied energy.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "concrete mass and extensive glazing",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Embodied-energy assessment applies to the whole building envelope and material strategy."
+        }
       },
       {
         "statement": "A structural singularity at the ground-floor seminar room should be optimized.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor seminar-room structure",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2912,
+            0.1712,
+            0.1667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "A lower southern zone provides an approximate anchor for the seminar-room singularity."
+        }
       }
     ],
     "keyword": [

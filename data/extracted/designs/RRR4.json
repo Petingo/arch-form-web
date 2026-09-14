@@ -16,28 +16,102 @@
         "tags": [
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-space project",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5078,
+            0.4937,
+            0.1006
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The long footprint and surrounding open areas visibly organize a broad site composition."
+        }
       },
       {
         "statement": "The intention to create a site-specific landscape developed from the stream-delta morphology is appreciated.",
         "tags": [
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "stream-delta landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.228,
+            0.7036,
+            0.1006
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape morphology is not directly sampled; the western open side is a plausible constrained anchor."
+        }
       },
       {
         "statement": "The tree population is carefully supplemented with new plantings that refer to the stream delta.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "new tree plantings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8235,
+            0.1166,
+            0.1006
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Plantings are not distinguishable, so the eastern landscape edge provides an approximate location."
+        }
       },
       {
         "statement": "The two-level access opens repeatedly into spacious meeting areas in front of the school rooms.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "meeting areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.499,
+            0.5105,
+            0.2005
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior access and rooms are not distinguishable; the central perimeter is the plausible meeting-zone anchor."
+        }
       }
     ],
     "negative": [
@@ -47,28 +121,99 @@
           "urban integration",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "division of the landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.499,
+            0.5105,
+            0.1006
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The elongated building visibly cuts across the site and separates areas on both sides."
+        }
       },
       {
         "statement": "The ramps are bottlenecks whose operational suitability is difficult to assess.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "ramps",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5078,
+            0.4937,
+            0.2005
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ramps are not individually visible; the building access edge provides a constrained central anchor."
+        }
       },
       {
         "statement": "The architectural expression does not do justice to the sensitive setting and historic building structure.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5401,
+            0.0302,
+            0.4003
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The long exposed facade is clearly represented, though historic context is not visible in the sample."
+        }
       },
       {
         "statement": "The intended landscape theme is not successfully implemented beyond the level of the trees.",
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "landscape theme",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7159,
+            0.7137,
+            0.1006
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Only the broad open site is visible; the eastern perimeter approximates the criticized landscape treatment."
+        }
       },
       {
         "statement": "The oversized, surface-heavy square, promenade, and curved paths appear functional and lack spatial reference to the surrounding architecture.",
@@ -76,14 +221,48 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "square, promenade, and curved paths",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2819,
+            0.2863,
+            0.1006
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Specific surfaces are not distinguishable; the southwestern open area is a plausible public-space anchor."
+        }
       },
       {
         "statement": "The historic main building is not sufficiently integrated into the design of the square.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "historic main building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7071,
+            0.7305,
+            0.2005
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The referenced existing building is not identifiable; the northeastern edge is a directional approximation."
+        }
       },
       {
         "statement": "The length of the new house divides the landscape and prevents a flowing, coherent landscape.",
@@ -91,14 +270,54 @@
           "massing",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "new house",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5078,
+            0.4937,
+            0.3004
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated continuous footprint visibly dominates and divides the sampled landscape."
+        }
       },
       {
         "statement": "There are doubts about the suitability of the concept from an operational perspective.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "operational concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.499,
+            0.5105,
+            0.3004
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The continuous building mass is visible, but operational suitability cannot be localized geometrically."
+        }
       }
     ],
     "keyword": [

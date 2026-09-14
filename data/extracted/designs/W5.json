@@ -17,63 +17,219 @@
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "street statement",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5502,
+            0.0825,
+            0.5526
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stepped front-facing mass clearly establishes the building’s street presence."
+        }
       },
       {
         "statement": "The large forecourt forms the heart of the campus and creates a clear address.",
         "tags": [
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "large forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3198,
+            0.2659,
+            0.1847
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southwest-facing open area is the most plausible location for the campus forecourt and address."
+        }
       },
       {
         "statement": "The setbacks create an appropriate transition to the small-scale residential surroundings.",
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "setbacks",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.672,
+            0.5899,
+            0.6593
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Stepped upper massing is clearly visible and transitions toward the smaller-scale edge."
+        }
       },
       {
         "statement": "The side entrances provide an optimal connection to the surrounding area.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "side entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9628,
+            0.5076,
+            0.211
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Side access is not separately identifiable, so it is anchored to a lateral facade."
+        }
       },
       {
         "statement": "The entrance hall forms an inviting start to the route through the building.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5042,
+            0.1192,
+            0.1847
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely entrance hall is placed at the front-center transition into the building."
+        }
       },
       {
         "statement": "The clerestory brings daylight and creates visual connections to the sports area.",
         "tags": [
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "clerestory",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5531,
+            0.5333,
+            0.8153
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A distinct clerestory is not separable, so the marker follows the upper central mass."
+        }
       },
       {
         "statement": "The classrooms are well proportioned and clearly arranged.",
         "tags": [
           "proportion",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1355,
+            0.4126,
+            0.5788
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Classrooms are inferred within the repeated upper floor bands visible in elevation."
+        }
       },
       {
         "statement": "The project implements the spatial program in an extremely space-efficient and resource-saving manner.",
         "tags": [
           "functionality",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "space-efficient program",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The assessment concerns overall program efficiency and resource use, not one geometric feature."
+        }
       },
       {
         "statement": "The facade design ties the upper floors together and closes the building at the top.",
         "tags": [
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6842,
+            0.0581,
+            0.789
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper facade bands visibly tie the stepped floors together and terminate the building."
+        }
       }
     ],
     "negative": [
@@ -82,56 +238,197 @@
         "tags": [
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "roof terraces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5837,
+            0.509,
+            0.9467
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Stepped roof zones are visible in plan and represent the likely classroom-associated terraces."
+        }
       },
       {
         "statement": "The tower-like staircase does not seem energetically resolved with the glass blocks.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "tower-like staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2228,
+            0.8223,
+            0.8679
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The raised tower-like volume is distinguishable near the stepped upper portion of the plan."
+        }
       },
       {
         "statement": "The complex static system significantly limits flexibility for later changes of use.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "static system",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility limitations from structure cannot be localized in the sampled exterior geometry."
+        }
       },
       {
         "statement": "The permissible building dimensions are clearly exceeded.",
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "building dimensions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5281,
+            0.5532,
+            0.7102
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The complete stepped envelope supports a broad assessment of overall building dimensions."
+        }
       },
       {
         "statement": "Some spatial geometries appear to have only limited use for school operations.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "spatial geometries",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8199,
+            0.2419,
+            0.6051
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Potentially awkward spaces are not identifiable, so the marker indicates a plausible stepped edge zone."
+        }
       },
       {
         "statement": "The stepped form produces unfavorable compactness and a comparatively high heating requirement is expected.",
         "tags": [
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "stepped form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6574,
+            0.57,
+            0.6593
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The stepped building profile is clearly visible across plan and elevations."
+        }
       },
       {
         "statement": "The terrace windows are likely to provide little comfort in the cold season.",
         "tags": [
           "comfort",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "terrace windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6377,
+            0.6162,
+            0.6593
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "Windows are not individually distinguishable, so the marker follows the upper terrace facade."
+        }
       },
       {
         "statement": "The open space is too reserved and does not exploit the potential of the forecourt as an attractive entrance.",
         "tags": [
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "forecourt entrance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3198,
+            0.2659,
+            0.211
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southwest forecourt is visible as the principal open approach but appears spatially reserved."
+        }
       }
     ],
     "keyword": [

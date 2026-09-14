@@ -17,7 +17,27 @@
           "urban integration",
           "circulation",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "existing break area and heterogeneous ensemble",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2036,
+            0.1733,
+            0.3
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact corner-positioned volume is visibly distinct and its broader ensemble connection is only approximately localized."
+        }
       },
       {
         "statement": "The spacious covered forecourt solves the corner entrance situation in a plausible and simple way.",
@@ -25,7 +45,26 @@
           "circulation",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "covered forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0981,
+            0.204,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The corner edge and adjacent open margin provide the most plausible forecourt anchor."
+        }
       },
       {
         "statement": "The clear structure provides an optimal distribution of space and a good atmosphere on entry.",
@@ -33,7 +72,27 @@
           "layout",
           "functionality",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "clear structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3909,
+            0.5328,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The regular compact envelope and repeated elevation bands visibly support a clear structural organization."
+        }
       },
       {
         "statement": "The atriums form the heart of the building and create a pleasant and liberating learning atmosphere.",
@@ -41,7 +100,25 @@
           "layout",
           "open space",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6185,
+            0.4927,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Two internal rectangular voids are clearly visible in the top view as central atrium features."
+        }
       },
       {
         "statement": "The arrangement of classrooms with group rooms in between enables maximum flexibility of use.",
@@ -49,7 +126,25 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classrooms with group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6686,
+            0.5259,
+            0.6
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal classroom and group-room sequencing is not visible, so the eastern interior edge is approximated."
+        }
       },
       {
         "statement": "The parapet elements ensure appropriate and true-to-scale proportioning of the overall volume.",
@@ -57,14 +152,44 @@
           "proportion",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "parapet elements",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6302,
+            0.5371,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The roofline and upper perimeter are visible in the elevations, supporting an upper-volume parapet anchor."
+        }
       },
       {
         "statement": "The project has good economic viability and meets the basic sustainability requirements.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "economic viability and sustainability requirements",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic and sustainability judgments have no useful spatial referent in the sampled geometry."
+        }
       }
     ],
     "negative": [
@@ -74,20 +199,78 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "two-story volume and minimal outdoor areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6243,
+            0.5149,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact low-rise footprint and limited visible peripheral margin are directly apparent across the views."
+        }
       },
       {
         "statement": "The covered connection to the existing buildings is not convincing and hardly strengthens the access situation.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "covered connection to existing buildings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1825,
+            0.1794,
+            0.3
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The connection is not distinguishable, so the approximate corner-side edge is used."
+        }
       },
       {
         "statement": "The required accessibility for disabled people is not clear from the plans.",
         "tags": [
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "accessibility for disabled people",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1192,
+            0.1979,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Accessibility elements are absent from the sample; the likely entrance edge provides a constrained anchor."
+        }
       },
       {
         "statement": "The schematic treatment of the surrounding area does not demonstrate the possible usage qualities of the outdoor spaces.",
@@ -95,7 +278,24 @@
           "landscape",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "surrounding area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8595,
+            0.2253,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral landscape is not represented, so the sparse corner-side exterior margin is approximated."
+        }
       },
       {
         "statement": "The spatial connection of the basement workrooms, the lift, and the kindergarten and day-school layout are not convincing.",
@@ -103,7 +303,25 @@
           "layout",
           "accessibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement workrooms, lift, kindergarten and day-school layout",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5952,
+            0.4038,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "These internal and below-grade functions are not visible; a lower central building anchor is used."
+        }
       }
     ],
     "keyword": [

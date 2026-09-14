@@ -17,7 +17,28 @@
           "urban integration",
           "massing",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "staggered building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4503,
+            0.5767,
+            0.5541
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Staggered masses and varied heights are clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The spatial expansion creates a well-proportioned sequence of squares that connects lower and upper levels.",
@@ -25,49 +46,177 @@
           "open space",
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "sequence of squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3721,
+            0.373,
+            0.1081
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open intervals between volumes read as connected ground-level squares in the top view."
+        }
       },
       {
         "statement": "The typological separation of the buildings leads to a clear allocation of functions.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "separated building functions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2929,
+            0.6307,
+            0.4426
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Three distinct connected volumes provide a plausible geometric anchor for separated functions."
+        }
       },
       {
         "statement": "Despite the considerable depth of the building, the sectional solution allows all rooms to be adequately naturally lit.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "deep-plan rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7645,
+            0.239,
+            0.5541
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior rooms are unsampled; the marker is constrained to an exterior portion of the deep plan."
+        }
       },
       {
         "statement": "Separating the public wing from the workshop halls prevents noise and other emissions from spreading into public spaces.",
         "tags": [
           "acoustics",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "public wing and workshop halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7109,
+            0.548,
+            0.4426
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior program separation is not distinguishable, so the anchor uses a plausible lateral building zone."
+        }
       },
       {
         "statement": "The large spans enable very flexible room design on the upper floors.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "upper floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7063,
+            0.489,
+            0.777
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated elevated horizontal levels are visible, though structural spans are not individually identifiable."
+        }
       },
       {
         "statement": "The construction concepts suggest economical and sustainable execution.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "construction concepts",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economy and sustainability describe construction performance without a useful spatial referent."
+        }
       },
       {
         "statement": "The project has an architectural expression that is pleasantly appropriate to the task and location.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.47,
+            0.57,
+            0.5541
+          ],
+          "radius": 0.3252,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The whole building composition and stepped profile provide the relevant expression anchor."
+        }
       }
     ],
     "negative": [
@@ -76,35 +225,117 @@
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "main-street demarcations",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4999,
+            0.0675,
+            0.5541
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The building edge facing the front of the sampled footprint anchors the street-facing demarcation."
+        }
       },
       {
         "statement": "The proposed steps place an unpleasant strain on the entrance situation and historic courtyard.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrance and historic courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5249,
+            0.0589,
+            0.1081
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance steps and courtyard are not distinct, so the marker uses a plausible ground-level frontage zone."
+        }
       },
       {
         "statement": "The design in the western area remains rudimentary, with no design discussion in the historic context.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "western area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0743,
+            0.4778,
+            0.3311
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western portion of the staggered footprint is directly constrained by the top and west views."
+        }
       },
       {
         "statement": "The tree species composition must necessarily be limited to native plants.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "native tree planting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0908,
+            0.7462,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are absent from the sampled cloud; the marker estimates a peripheral landscape surface."
+        }
       },
       {
         "statement": "The simple fire-protection approach does not meet the regulations in all respects.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "fire-protection approach",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Fire compliance is a building-wide system judgment without a specific geometric location."
+        }
       }
     ],
     "keyword": [

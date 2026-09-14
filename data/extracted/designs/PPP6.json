@@ -17,7 +17,28 @@
           "open space",
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "open spaces at different levels",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.269,
+            0.2279,
+            0.1304
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Southern footprint and surrounding sampled surfaces support approximate tiered outdoor-space locations."
+        }
       },
       {
         "statement": "The three outdoor spaces are differentiated and easily usable, with sunny and shady areas.",
@@ -25,14 +46,52 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8716,
+            0.3412,
+            0.1304
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct perimeter zones are approximated around the compact polygonal footprint."
+        }
       },
       {
         "statement": "The kindergarten retains its external qualities and view through the clever positioning of the new building.",
         "tags": [
           "urban integration",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten views and external qualities",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5157,
+            0.8686,
+            0.3043
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "Northward upper perimeter represents the retained external relationship and view direction."
+        }
       },
       {
         "statement": "The central-cloakroom organization is efficient and logical, with high functionality and good visual relationships.",
@@ -40,14 +99,54 @@
           "layout",
           "functionality",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "central cloakroom organization",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2183,
+            0.6578,
+            0.2826
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central placement follows the compact plan, though interior organization is not directly resolved."
+        }
       },
       {
         "statement": "The organically composed form responds to the special use and contrasts attractively with the orthogonal context.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "organically composed form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2183,
+            0.6578,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Organic polygonal massing is clearly visible across the plan and all elevations."
+        }
       },
       {
         "statement": "The care rooms offer varied usage scenarios, beautiful proportions, and good lighting.",
@@ -55,14 +154,52 @@
           "flexibility",
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "care rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8799,
+            0.442,
+            0.3043
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "A plausible side-zone surface anchor represents rooms absent from the exterior point cloud."
+        }
       },
       {
         "statement": "The kitchen and sanitary facilities are well thought out and ideally arranged.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kitchen and sanitary facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2183,
+            0.6578,
+            0.2391
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A distributed internal-zone estimate is placed on the western-central sampled surface."
+        }
       }
     ],
     "negative": [
@@ -71,34 +208,126 @@
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ramp near existing kindergarten",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5157,
+            0.8686,
+            0.1304
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern edge approximates the constrained relationship to the adjacent existing kindergarten."
+        }
       },
       {
         "statement": "The access from Gotthelfstrasse is spacious but somewhat complex.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "Gotthelfstrasse access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4614,
+            0.0014,
+            0.1087
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern perimeter provides the most plausible access anchor within the stated southern-tip placement."
+        }
       },
       {
         "statement": "Moisture carried through the cloakrooms can reach all areas in wet weather.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "cloakrooms and wet-weather circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4614,
+            0.0014,
+            0.1739
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entry-side lower surface approximates the cloakroom transition zone."
+        }
       },
       {
         "statement": "The lower cloakrooms receive little daylight and may require artificial light all day.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "lower cloakrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1906,
+            0.3259,
+            0.087
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low-level western-central placement reflects the stated lower cloakroom condition."
+        }
       },
       {
         "statement": "The multi-purpose room is significantly smaller than the required area.",
         "tags": [
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9294,
+            0.7123,
+            0.2391
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "A plausible peripheral room anchor is used because the interior room is not distinguishable."
+        }
       },
       {
         "statement": "The dark vertical facade differs too much from the structural context.",
@@ -106,14 +335,54 @@
           "facade",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "dark vertical facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.93,
+            0.493,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west",
+            "south",
+            "north"
+          ],
+          "rationale": "The east perimeter represents a visible vertical envelope surface without a stated facade direction."
+        }
       },
       {
         "statement": "The open attached staircase raises questions about performance in winter weather with snow and ice.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "open attached staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5157,
+            0.8686,
+            0.5217
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "Upper central protruding surface offers a constrained approximation for the attached stair."
+        }
       }
     ],
     "keyword": [

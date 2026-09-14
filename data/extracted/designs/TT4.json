@@ -17,7 +17,27 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "prevailing context",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2395,
+            0.2404,
+            0.1923
+          ],
+          "radius": 0.3412,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact central block and attached vertical volume visibly form a context-responsive ensemble."
+        }
       },
       {
         "statement": "The high-rise serves as a landmark and is adequately integrated into the urban development situation.",
@@ -25,7 +45,28 @@
           "identity",
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "high-rise landmark",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.858,
+            0.7344,
+            0.8269
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The tall attached mass is clearly distinguished from the lower central building across the elevations."
+        }
       },
       {
         "statement": "The head building is a strong identity-creating element and interactive interface between the public and the university.",
@@ -33,7 +74,28 @@
           "identity",
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "head building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2395,
+            0.5129,
+            0.1923
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The lower central block is visibly separate from the attached high-rise and anchors the ensemble."
+        }
       },
       {
         "statement": "The factory halls become a very communicative think tank.",
@@ -41,21 +103,78 @@
           "layout",
           "functionality",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "factory halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2395,
+            0.2101,
+            0.1731
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower horizontal volume provides the closest sampled anchor for the factory-hall zone."
+        }
       },
       {
         "statement": "The proposed operating concept is plausible and has many good ideas.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "operating concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2395,
+            0.422,
+            0.1923
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central building footprint is used as a broad constrained anchor for the operational concept."
+        }
       },
       {
         "statement": "The architectural expression is strong and corresponds to a technical, innovative institution.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.741,
+            0.5577
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "The east-facing elevation clearly shows the strong technical expression of the multi-volume ensemble."
+        }
       }
     ],
     "negative": [
@@ -65,7 +184,27 @@
           "identity",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "identity-creating uses in the high-rise",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.858,
+            0.7344,
+            0.7885
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The upper portion of the distinct high-rise is clearly visible as the criticized identity-use location."
+        }
       }
     ],
     "keyword": [

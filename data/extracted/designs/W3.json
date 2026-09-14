@@ -17,42 +17,150 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "forecourt and lateral outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2853,
+            0.1804,
+            0.1154
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open areas surround the compact central mass, with the forecourt plausibly located along the south-facing approach."
+        }
       },
       {
         "statement": "The four outdoor areas take on specific tasks and are designed accordingly.",
         "tags": [
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "four outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7318,
+            0.2526,
+            0.0385
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The sampled plan shows several lateral and front open zones around the compact building."
+        }
       },
       {
         "statement": "The open-space design is well thought out, developed, and optimally tailored to the modest space available.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "open-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1659,
+            0.2796,
+            0.0385
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A distributed site-edge marker represents the developed open-space region around the limited footprint."
+        }
       },
       {
         "statement": "The central access zone allows both the main address and a side entrance, while the catering and multi-purpose areas connect well to the attractive outdoor space.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central access zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4459,
+            0.0637,
+            0.1346
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central south-side zone is the most plausible location for the main address and side access."
+        }
       },
       {
         "statement": "The classrooms are well lit and flexibly divisible because their long sides face the facade.",
         "tags": [
           "daylight",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0554,
+            0.4637,
+            0.5577
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Classroom locations are inferred along the facade-facing floor bands visible in the elevations."
+        }
       },
       {
         "statement": "The spacious lounges and roof terraces offer a high-quality connection to the outdoors on each floor.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "lounges and roof terraces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7094,
+            0.7037,
+            0.9423
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-level terrace and setback patterns are visible near the roof perimeter and across repeated elevations."
+        }
       },
       {
         "statement": "The loggias and structural hierarchy cleverly overplay the building's large scale and make the main entrance legible.",
@@ -60,14 +168,50 @@
           "scale",
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "loggias and main entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.503,
+            0.0198,
+            0.4808
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Repeated recessed facade bands and the likely south entrance establish the marker on the front elevation."
+        }
       },
       {
         "statement": "The additional connection to the sports hall ensures its operation outside school hours.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports hall connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9042,
+            0.4788,
+            0.1923
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The external connection is not distinguishable, so it is anchored to a plausible lateral building edge."
+        }
       }
     ],
     "negative": [
@@ -76,42 +220,148 @@
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "outdoor retreat and staying areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8268,
+            0.7233,
+            0.0385
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A peripheral open-space marker represents the allegedly underprovided retreat area."
+        }
       },
       {
         "statement": "The intermediate-climate rooms risk becoming too cold or too warm and therefore uncomfortable.",
         "tags": [
           "comfort",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "intermediate-climate rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8605,
+            0.4214,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The rooms are interior and unidentifiable, so the marker uses a plausible side-envelope location."
+        }
       },
       {
         "statement": "The spiral staircase is far too small for the number of students and provides poor vertical orientation in a zone with hardly any daylight.",
         "tags": [
           "circulation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "spiral staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7376,
+            0.2509,
+            0.3654
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The staircase is not separately visible; its location is constrained to a likely access-side vertical zone."
+        }
       },
       {
         "statement": "The classroom floor heights are relatively low as a result of the seven-story structure.",
         "tags": [
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classroom floor heights",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1867,
+            0.6359,
+            0.4808
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated closely spaced elevation bands support the critique of relatively low classroom levels."
+        }
       },
       {
         "statement": "The location of individual large trees above the sports hall is probably not entirely plausible.",
         "tags": [
           "landscape",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "large trees above sports hall",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8268,
+            0.7233,
+            0.0577
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are absent from the point cloud; the marker indicates the plausible landscape zone above the hall."
+        }
       },
       {
         "statement": "The sports hall has no natural lighting.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.863,
+            0.4247,
+            0.0769
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The hall is not distinguishable internally, so it is placed in a plausible lower lateral zone."
+        }
       }
     ],
     "keyword": [

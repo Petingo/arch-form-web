@@ -18,7 +18,26 @@
           "urban integration",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "basic site disposition",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4811,
+            0.0907,
+            0.3342
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated building footprint and clear edge condition are visible across plan and elevations."
+        }
       },
       {
         "statement": "The central entrance, coherent internal route, and basic basin arrangement are clearly designed.",
@@ -26,7 +45,25 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central entrance and internal route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2568,
+            0.572,
+            0.2237
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A central interruption and route through the long volume are legible in the top view."
+        }
       },
       {
         "statement": "The division into a massive base and a light wooden roof is obvious and sustainable.",
@@ -34,7 +71,27 @@
           "massing",
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "massive base and light wooden roof",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5707,
+            0.5418,
+            0.7211
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The solid lower band and lighter sloping upper structure are clearly differentiated in elevations."
+        }
       },
       {
         "statement": "Beneath the fine wooden trusses, a spatially open but atmospherically intimate bathing landscape is presented.",
@@ -42,14 +99,51 @@
           "structure",
           "expression",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "wooden trusses and bathing landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4595,
+            0.5949,
+            0.6658
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Trusses and interior atmosphere are only indirectly represented within the upper volume."
+        }
       },
       {
         "statement": "The structural sun protection of the canopy avoids the need for additional sun protection.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "structural sun protection canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5238,
+            0.6332,
+            0.7211
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The canopy is not individually separable, so it is anchored to the upper roof structure."
+        }
       }
     ],
     "negative": [
@@ -58,7 +152,25 @@
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance depth",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5116,
+            0.0883,
+            0.2237
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is approximated at the front central penetration of the long building."
+        }
       },
       {
         "statement": "The ticket zone is not yet convincing, and the theory room lacks daylight and is difficult to reach from the bathing level.",
@@ -66,42 +178,150 @@
           "functionality",
           "daylight",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "ticket zone and theory room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.42,
+            0.0955,
+            0.2789
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "These internal rooms are not distinguishable and are placed near the entrance-side lower volume."
+        }
       },
       {
         "statement": "The outdoor-pool cloakrooms are not yet optimally organized.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-pool cloakrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7607,
+            0.3444,
+            0.1131
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The outdoor-pool support area is approximated along one end of the ground-level building zone."
+        }
       },
       {
         "statement": "The lifeguard lacks a two-sided overview, while the splash pad and multipurpose pool are too small.",
         "tags": [
           "visibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "lifeguard, splash pad and multipurpose pool",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8087,
+            0.4972,
+            0.2237
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal pool functions are not separable; the marker uses the central bathing area."
+        }
       },
       {
         "statement": "The two opposing slide exits are dangerously arranged.",
         "tags": [
           "safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "opposing slide exits",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3191,
+            0.7707,
+            0.2237
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Slide exits are not identifiable, so the marker is placed in the central pool circulation zone."
+        }
       },
       {
         "statement": "The central lift location irritates movement in the pool area, and the bathroom floor is under-equipped with a single toilet.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central lift and bathroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2568,
+            0.572,
+            0.2789
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The criticism concerns internal central circulation and amenities within the main lower floor."
+        }
       },
       {
         "statement": "The serving area causes high flows of people between the restaurant tables.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "serving area and restaurant tables",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2712,
+            0.6179,
+            0.1131
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Restaurant and serving functions are internal; the marker uses a side zone within the lower volume."
+        }
       }
     ],
     "keyword": [

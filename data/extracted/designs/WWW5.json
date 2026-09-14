@@ -18,7 +18,26 @@
           "urban integration",
           "landscape",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "building and agricultural landscape edge",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.686,
+            0.7315,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The elongated building edge is anchored toward a plausible landscape-facing side."
+        }
       },
       {
         "statement": "The rational plan offers diverse appropriable spaces and well-managed flows.",
@@ -26,7 +45,28 @@
           "layout",
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "rational plan and appropriable spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6704,
+            0.5385,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The legible elongated perimeter and open center support a broad plan assessment."
+        }
       },
       {
         "statement": "Generous and varied covered spaces create a strong identity around the planted central space.",
@@ -34,14 +74,54 @@
           "open space",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "covered spaces around planted central space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4022,
+            0.6162,
+            0.2
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Covered perimeter bands visibly frame the planted central opening."
+        }
       },
       {
         "statement": "Ground clearance provides attractive views toward the agricultural landscape.",
         "tags": [
           "visibility",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "ground clearance views",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6111,
+            0.8103,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Low-level openings are approximated along the outward-facing upper-right edge."
+        }
       },
       {
         "statement": "The central space extends school life outdoors and brings civic life into the school.",
@@ -49,7 +129,28 @@
           "open space",
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4022,
+            0.6162,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view clearly shows a large central void organizing exterior school and civic life."
+        }
       },
       {
         "statement": "The plan clearly separates school activities from public activities.",
@@ -57,7 +158,26 @@
           "layout",
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "separation between school and public activities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7611,
+            0.1748,
+            0.2
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Public-school separation is approximated between southern perimeter and courtyard zones."
+        }
       },
       {
         "statement": "Upper-level distribution spaces are well sized and benefit from natural light and exterior openings.",
@@ -65,14 +185,52 @@
           "circulation",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "upper-level distribution spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6697,
+            0.7487,
+            0.7
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper-level bands are visibly repeated and naturally open along the perimeter."
+        }
       },
       {
         "statement": "The documentation center is well positioned and spatially organized.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "documentation center",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1695,
+            0.7574,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The room is not individually legible, so it is placed within a plausible peripheral zone."
+        }
       },
       {
         "statement": "The courtyard is sheltered from traffic noise and supports ventilation and natural light.",
@@ -80,7 +238,28 @@
           "acoustics",
           "ventilation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "sheltered courtyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3848,
+            0.6,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The enclosed central void is directly visible and supports the courtyard assessment."
+        }
       },
       {
         "statement": "The energy concept, mobility strategy, and green roof are coherent.",
@@ -88,7 +267,26 @@
           "sustainability",
           "operation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "energy, mobility, and green-roof systems",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7024,
+            0.7143,
+            0.9
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Roof and mobility-related systems are distributed across the visible upper envelope and site edge."
+        }
       }
     ],
     "negative": [
@@ -98,7 +296,27 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "plot boundaries and public-space clearance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9182,
+            0.4874,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "The building footprint visibly approaches its outer model boundaries."
+        }
       },
       {
         "statement": "The ground clearance could be increased to improve permeability and ecological continuity.",
@@ -106,7 +324,26 @@
           "landscape",
           "sustainability",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "ground clearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5995,
+            0.8224,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Clearance is assessed along the low outward-facing perimeter edge."
+        }
       },
       {
         "statement": "Public entrances from the courtyard are undersized, poorly visible, and uncomfortable.",
@@ -114,7 +351,25 @@
           "circulation",
           "accessibility",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "public courtyard entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5307,
+            0.2184,
+            0.1
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Courtyard access is approximated at the southern inner edge where entrances would connect public space."
+        }
       },
       {
         "statement": "The ground floor and upper levels lack a convincing connection and appear to belong to different projects.",
@@ -122,7 +377,27 @@
           "layout",
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor and upper-level connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6541,
+            0.5557,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Distinct horizontal bands make the vertical and ground-level relationship assessable."
+        }
       },
       {
         "statement": "The separation between public access and school premises is not convincingly controlled.",
@@ -130,7 +405,26 @@
           "operation",
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "public-school access separation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7437,
+            0.1587,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Access control is approximated in the southern public-facing portion of the perimeter."
+        }
       },
       {
         "statement": "The west-side clearance is oversized and poorly exploited by the program.",
@@ -138,14 +432,51 @@
           "layout",
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "west-side clearance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1169,
+            0.4961,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western exterior margin is visibly identifiable beside the elongated building."
+        }
       },
       {
         "statement": "Some corridors receive too little natural light.",
         "tags": [
           "daylight",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "poorly lit corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2907,
+            0.6734,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Corridors are approximated within the deeper upper perimeter band."
+        }
       },
       {
         "statement": "Parking divides the synergy between functions and exterior spaces.",
@@ -153,14 +484,51 @@
           "urban integration",
           "operation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "parking areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2851,
+            0.2959,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Parking is approximated in the exterior southern-western site margin."
+        }
       },
       {
         "statement": "Bicycle parking should be distributed according to the site's accessibility options.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1691,
+            0.5446,
+            0
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Bicycle parking is placed approximately within an accessible outer site edge."
+        }
       },
       {
         "statement": "The running track conflicts with the layout concept and the sports fields are visually dominant.",
@@ -168,7 +536,26 @@
           "layout",
           "visibility",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "running track and sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7959,
+            0.2072,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sports elements are approximated in the southern exterior area beyond the building ring."
+        }
       },
       {
         "statement": "The exterior design creates residual areas and is excessively minimalist.",
@@ -176,7 +563,26 @@
           "open space",
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "residual exterior areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2099,
+            0.795,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Residual exterior margins are visible around the elongated perimeter footprint."
+        }
       },
       {
         "statement": "The relationship with the agricultural fields and ecological aspects is insufficiently addressed.",
@@ -184,7 +590,26 @@
           "landscape",
           "sustainability",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "agricultural fields and ecological relationship",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6111,
+            0.8103,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The agricultural relationship is approximated beyond the landscape-facing outer edge."
+        }
       },
       {
         "statement": "The documentation center's extremely slender organization creates operational problems.",
@@ -192,7 +617,26 @@
           "functionality",
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "documentation center organization",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1521,
+            0.7413,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The slender room is not distinguishable, so its operational assessment uses a peripheral anchor."
+        }
       },
       {
         "statement": "The facade treatment is less simple and light than in the earlier proposal.",
@@ -200,7 +644,26 @@
           "facade",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8988,
+            0.5078,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The exterior envelope is directly represented along the exposed perimeter."
+        }
       },
       {
         "statement": "Excavation volumes are significant and material, thermal-inertia, and overheating information is lacking.",
@@ -208,14 +671,51 @@
           "cost",
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "excavation volumes and thermal envelope",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3341,
+            0.2443,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Excavation is approximated beneath the low southern portion; thermal effects concern the broad envelope."
+        }
       },
       {
         "statement": "The southwest facade is highly exposed to road noise.",
         "tags": [
           "acoustics",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "southwest facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2945,
+            0.2859,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "The southwest corner is directly localized using the south and west elevations."
+        }
       }
     ],
     "keyword": [

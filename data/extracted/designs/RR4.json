@@ -18,14 +18,52 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "volume and outdoor spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8564,
+            0.3887,
+            0.5588
+          ],
+          "radius": 0.311,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Large courtyard-centered mass and surrounding outdoor spaces are visible across plan and elevations."
+        }
       },
       {
         "statement": "The differentiated public and campus entrances are plausible.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "public and campus entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2596,
+            0.1471,
+            0.118
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance locations are constrained to the road-facing southern perimeter, though individual doors are not distinguishable."
+        }
       },
       {
         "statement": "The inner courtyard offers exciting visual connections and spatial experiences.",
@@ -33,27 +71,97 @@
           "layout",
           "visibility",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "inner courtyard",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8564,
+            0.3887,
+            0.4412
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central courtyard void is clearly legible in the top view and enclosed by the surrounding elevations."
+        }
       },
       {
         "statement": "The upper-floor plans are clearly organized along the corridor bordering the inner courtyard.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor courtyard corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8564,
+            0.3887,
+            0.7057
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-level circulation is approximated along the courtyard-facing perimeter at upper elevation."
+        }
       },
       {
         "statement": "The solid support structure is clearly designed and consistently supported on aligned supports and cores.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "aligned supports and cores",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8564,
+            0.3887,
+            0.3531
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated aligned structural traces are visible through the elevations."
+        }
       },
       {
         "statement": "Summer heat protection can be easily achieved, and the CO₂-controlled ventilation is state of the art.",
         "tags": [
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "CO₂-controlled ventilation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ventilation performance is not spatially represented by the exterior point cloud."
+        }
       }
     ],
     "negative": [
@@ -63,7 +171,27 @@
           "landscape",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "fragmented terraced setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0739,
+            0.7512,
+            0.1473
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Fragmented massing and stepped perimeter are visible across the site-scale footprint."
+        }
       },
       {
         "statement": "The auditorium has more the character of a foyer or open hall and is limited by its height and balconies.",
@@ -71,21 +199,77 @@
           "functionality",
           "proportion",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8564,
+            0.3887,
+            0.4118
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior auditorium is approximated within the central volume at the stated height."
+        }
       },
       {
         "statement": "Dividing the lunch table into two areas is not optimal for operation.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "lunch table",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2596,
+            0.1471,
+            0.1473
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal dining area is estimated within the lower southern portion of the volume."
+        }
       },
       {
         "statement": "The ground-floor corridors cannot do justice to the expected spaciousness.",
         "tags": [
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1105,
+            0.4709,
+            0.1473
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Ground-level circulation is approximated along the lower perimeter surrounding the courtyard."
+        }
       },
       {
         "statement": "The permeable structure is too demanding in operation with multiple uses and parallel occupancy.",
@@ -93,14 +277,54 @@
           "operation",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "permeable structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8737,
+            0.4442,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Fragmented, permeable building envelope is visible throughout the sampled model."
+        }
       },
       {
         "statement": "The large projections into the courtyard require optimization for storage of the surrounding wall panels.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard wall projections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8564,
+            0.3887,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Large projections appear around the courtyard perimeter in plan and elevations."
+        }
       },
       {
         "statement": "The large volume, sophisticated structure, and solid construction imply a rather high expenditure of resources.",
@@ -108,7 +332,27 @@
           "cost",
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large volume and solid construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8392,
+            0.3332,
+            0.5
+          ],
+          "radius": 0.311,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Resource-intensive judgment refers to the building’s visible overall mass and construction."
+        }
       }
     ],
     "keyword": [

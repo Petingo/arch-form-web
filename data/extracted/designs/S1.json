@@ -16,48 +16,167 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "compact building in surrounding context",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.466,
+            0.4699,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact rectangular footprint and consistent four-storey elevations are clearly visible across all views."
+        }
       },
       {
         "statement": "The compact access via Mola is very interesting and well structured.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "compact access via Mola",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2616,
+            0.1953,
+            0.1
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Mola is not represented; the lower-left perimeter is used as a constrained access-facing anchor."
+        }
       },
       {
         "statement": "The ground floor brilliantly resolves the height constraints of a four-storey building through differentiated and convincing spatial events.",
         "tags": [
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground floor spatial events",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4789,
+            0.2126,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The lowest elevation band is clearly sampled, while differentiated ground-floor events remain only partially legible."
+        }
       },
       {
         "statement": "The classroom plans develop the space program coherently, modularly, and flexibly.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2767,
+            0.741,
+            0.6
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Classrooms are interior and not distinguishable; an upper-floor peripheral zone provides a plausible anchor."
+        }
       },
       {
         "statement": "The project is the most convincing in developing the client's concept of new school teaching.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "new school teaching concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7185,
+            0.5665,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The educational concept applies broadly, anchored to the visible upper building mass rather than a specific room."
+        }
       },
       {
         "statement": "The construction method has good potential for containing costs and construction times.",
         "tags": [
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "construction method",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and construction-time potential are whole-project judgments not spatially represented in the point cloud."
+        }
       },
       {
         "statement": "The project presents the best potential for possible certification in the field.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "certification potential",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Certification potential is an unlocated sustainability judgment."
+        }
       }
     ],
     "negative": [
@@ -66,7 +185,25 @@
         "tags": [
           "accessibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7254,
+            0.2724,
+            0.05
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Bicycle parking is absent from the sample; the southern peripheral site zone is a constrained approximation."
+        }
       }
     ],
     "keyword": [

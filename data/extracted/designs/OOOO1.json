@@ -17,7 +17,27 @@
           "urban integration",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "L-shaped figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6234,
+            0.6928,
+            0.5625
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distinct L-shaped footprint and tiered massing are clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The building constellation welcomes users and encompasses the open space opening to the southwest.",
@@ -25,7 +45,27 @@
           "circulation",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "southwest open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2705,
+            0.2084,
+            0.0625
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view clearly shows the southwest-facing open void enclosed by the building constellation."
+        }
       },
       {
         "statement": "The school building and gymnasium preserve the autonomy of their different typologies while optimizing their processes.",
@@ -33,7 +73,27 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "school building and gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6082,
+            0.6712,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Separate connected volumes are legible in plan and elevations, supporting an approximate inter-volume anchor."
+        }
       },
       {
         "statement": "The open spaces are precisely assigned to their uses and make the most of the available site.",
@@ -41,7 +101,27 @@
           "open space",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "assigned open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3579,
+            0.2525,
+            0.0625
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Ground-level voids around the L-shaped footprint provide the most plausible surface region for site open-space uses."
+        }
       },
       {
         "statement": "The robust construction and durable materials promise an economically sensible and sustainable building cycle.",
@@ -49,7 +129,26 @@
           "structure",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "robust construction and durable materials",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6234,
+            0.6928,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Construction quality is not directly distinguishable, so the marker is constrained to the principal building mass."
+        }
       }
     ],
     "negative": [],

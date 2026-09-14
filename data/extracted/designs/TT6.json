@@ -18,35 +18,130 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "sophisticated staggering",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6691,
+            0.5882,
+            0.7256
+          ],
+          "radius": 0.331,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Cross-stacked blocks and cantilevered offsets are visibly staggered across the mass."
+        }
       },
       {
         "statement": "The project offers a spacious and attractively designed entrance area, courtyards and terraces.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "entrance area, courtyards and terraces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2518,
+            0.2142,
+            0.1818
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Western square and elevated cavities visibly organize entrances, courtyards, and terraces."
+        }
       },
       {
         "statement": "The different levels and open and covered conditions create a diverse range of stay options.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "different levels and open and covered conditions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6919,
+            0.4112,
+            0.6364
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Overlapping blocks visibly create varied open, covered, and elevated conditions."
+        }
       },
       {
         "statement": "The incidence of natural light in large parts of the teaching areas offers a very special quality.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "teaching areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6267,
+            0.6627,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Large interior zones are approximated beneath the daylight-accessible stacked blocks."
+        }
       },
       {
         "statement": "The networking of the building parts creates a variety of visual relationships.",
         "tags": [
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "visual relationships",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4389,
+            0.4112,
+            0.5455
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central cavities and interlocking volumes visibly connect multiple building parts."
+        }
       },
       {
         "statement": "The facade expression authentically reflects the building's use and gives the ensemble an appropriate scale.",
@@ -54,7 +149,25 @@
           "expression",
           "facade",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8247,
+            0.4874,
+            0.7256
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Stacked outer faces visibly express the building's multi-level scale and use."
+        }
       },
       {
         "statement": "The large building volume is convincingly integrated into its surroundings, with harmonious proportions.",
@@ -62,7 +175,26 @@
           "urban integration",
           "proportion",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8475,
+            0.4112,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Compact cross-stacked envelope is anchored at its outer eastern mass."
+        }
       }
     ],
     "negative": [
@@ -72,21 +204,77 @@
           "massing",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "three-dimensional building grid",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4389,
+            0.4112,
+            0.5909
+          ],
+          "radius": 0.331,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated stacked axes and projections visibly dominate the overall organization."
+        }
       },
       {
         "statement": "The multiplication of vertical axes makes orientation through the building complex very difficult.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "vertical axes and orientation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4389,
+            0.4112,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple aligned vertical stacks converge around the central complex."
+        }
       },
       {
         "statement": "Flexibility of use is limited by the resulting arrangement of usable areas.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "usable areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6267,
+            0.7278,
+            0.4545
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Resulting interior arrangement is approximated beneath the eastern stacked blocks."
+        }
       },
       {
         "statement": "The structural concept becomes relatively complex because of the many projections, recesses and volumetric gimmicks.",
@@ -94,21 +282,69 @@
           "structure",
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "projections, recesses and volumetric gimmicks",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8247,
+            0.3322,
+            0.7727
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Cantilevered corners and recessed joints are clearly visible on the upper mass."
+        }
       },
       {
         "statement": "The delivery of materials to the special-use areas and workshops is not optimal.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "material delivery to special-use areas and workshops",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7788,
+            0.256,
+            0.2273
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Eastern lower edge is a constrained approximation for service access and workshops."
+        }
       },
       {
         "statement": "Construction and maintenance costs are expected to be above average.",
         "tags": [
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "construction and maintenance costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no single useful spatial referent."
+        }
       }
     ],
     "keyword": [

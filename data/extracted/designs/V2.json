@@ -16,7 +16,25 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "common room/playground expansion",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2331,
+            0.1564,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side ground-level zone approximates the common-room expansion toward external play space."
+        }
       },
       {
         "statement": "The central two-story room with its grandstand-like staircase and slide creates an inspiring access and communication space.",
@@ -24,41 +42,145 @@
           "circulation",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central two-story room with staircase and slide",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4587,
+            0.3312,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central opening and vertically continuous space are visible in top and south views."
+        }
       },
       {
         "statement": "The connected common room and terrace create a distinct atmosphere.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "common room and terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7299,
+            0.29,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate south-east ground-level edge represents the connected interior and terrace relationship."
+        }
       },
       {
         "statement": "The project offers substantial spatial potential for an open house and a unique organizational culture.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "open house and organizational culture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6207,
+            0.2986,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad building marker reflects the project-wide organizational potential."
+        }
       },
       {
         "statement": "The project impresses with its compactness.",
         "tags": [
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compactness",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2035,
+            0.1623,
+            0.4003
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall compact envelope is evident across the plan and elevations."
+        }
       },
       {
         "statement": "The hybrid construction method is conceptually comprehensible and coherently presented.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "hybrid construction method",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8867,
+            0.4456,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Marker is placed on the visible building envelope for a whole-building construction judgment."
+        }
       },
       {
         "statement": "The project is within a good cost range and aims at sustainability in a holistic sense.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "cost and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Pure cost and sustainability judgment has no useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -67,21 +189,74 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "building body positioning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2035,
+            0.1623,
+            0.35
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-west site edge approximates the building’s relationship to surrounding public areas."
+        }
       },
       {
         "statement": "Direct visibility from the sidewalk into the kindergarten rooms makes the transition impractical.",
         "tags": [
           "privacy",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sidewalk visibility into kindergarten rooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3778,
+            0.091,
+            0.4003
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing lower facade is the constrained location for sidewalk-to-room visibility."
+        }
       },
       {
         "statement": "The space between the secondary school and playgroup is too cramped.",
         "tags": [
           "scale",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "space between secondary school and playgroup",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3157,
+            0.4485,
+            0.2
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central ground-level gap approximates the cramped inter-program space."
+        }
       },
       {
         "statement": "The area in front of the building and the public-road relationship remain diffuse and lack sufficient significance.",
@@ -89,14 +264,50 @@
           "urban integration",
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "front area and public-road relationship",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.503,
+            0.1021,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side foreground represents the diffuse road-facing approach."
+        }
       },
       {
         "statement": "The open spatial organization causes mutual interference that must be taken into account.",
         "tags": [
           "functionality",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "mutual interference from open spatial organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4587,
+            0.3312,
+            0.55
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central multi-level organization is the plausible locus of overlapping movement and use."
+        }
       },
       {
         "statement": "The spatial closure of the common room and access to a playgroup room are not functionally solved, calling the claimed flexibility into question.",
@@ -104,21 +315,75 @@
           "functionality",
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "common-room closure and playgroup access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6494,
+            0.3772,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central lower-level zone approximates the disputed common-room and playgroup interface."
+        }
       },
       {
         "statement": "The second garden exit is schematic and leaves too little space for kindergarten cloakrooms.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "second garden exit",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8214,
+            0.1159,
+            0.1
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-east ground edge provides a constrained approximation for the garden exit."
+        }
       },
       {
         "statement": "The large upper terrace has not been shown to achieve a quality comparable to the central interior.",
         "tags": [
           "open space",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "upper terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.778,
+            0.305,
+            0.9
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper south-east edge corresponds to the visible elevated terrace region."
+        }
       },
       {
         "statement": "Fire protection and the fully glazed sloping roof areas present complex structural and energy-related challenges.",
@@ -126,7 +391,26 @@
           "fire safety",
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "glazed sloping roof areas",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6936,
+            0.5155,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sloped upper envelope is identifiable in the top and elevation views."
+        }
       },
       {
         "statement": "The architecture refers too much to itself and does not establish enough connection with the public space and surrounding architecture.",
@@ -134,7 +418,25 @@
           "urban integration",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "connection with public space and surrounding architecture",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4858,
+            0.0693,
+            0.4003
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South facade and foreground represent the building’s public-space interface."
+        }
       }
     ],
     "keyword": [

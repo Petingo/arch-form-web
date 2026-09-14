@@ -17,7 +17,28 @@
           "proportion",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "proportions, compactness, and relationship to existing building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1307,
+            0.6329,
+            0.5384
+          ],
+          "radius": 0.3113,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Main compact volume is visible across all calibrated views; neighboring-building proximity is inferred from the stated site condition."
+        }
       },
       {
         "statement": "The facade fits into the existing campus through a visually and structurally enriching composition.",
@@ -25,7 +46,27 @@
           "facade",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade composition",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4934,
+            0.0606,
+            0.5384
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Exterior composition is visible on the sampled envelope, with the front facade used as the representative anchor."
+        }
       },
       {
         "statement": "The efficient and compact proportions fit well into the existing complex and allow an energy-efficient volume.",
@@ -33,7 +74,28 @@
           "massing",
           "proportion",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "efficient compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6981,
+            0.9007,
+            0.5384
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact massing is visible in plan and elevations; energy efficiency remains a performance interpretation of the volume."
+        }
       },
       {
         "statement": "The loggia pleasantly raises the volume, creates a covered entrance, and defines the two playgrounds.",
@@ -41,7 +103,28 @@
           "expression",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "loggia and covered entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2226,
+            0.5561,
+            0.2312
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central top-view cutout and lower elevation opening identify the loggia and raised covered entrance."
+        }
       },
       {
         "statement": "The room program is generally well solved and the ground-floor division reinforces the building's position.",
@@ -49,14 +132,56 @@
           "layout",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor division",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.282,
+            0.7601,
+            0.116
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground level is constrained by the lower elevation bands; interior division is not distinguishable in the exterior sample."
+        }
       },
       {
         "statement": "Locating the important school rooms along the facade provides natural light.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "school rooms along facade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1069,
+            0.5513,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west",
+            "north",
+            "south"
+          ],
+          "rationale": "A perimeter surface anchor represents facade-adjacent rooms; the internal room program is not directly sampled."
+        }
       }
     ],
     "negative": [
@@ -65,42 +190,158 @@
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4831,
+            0.0629,
+            0.116
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The covered entrance is localized at the front lower opening; the hall's internal structure is not visible."
+        }
       },
       {
         "statement": "The large empty central core is unconvincing in its form and use.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "large empty central core",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8812,
+            0.4079,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A distinct central void is visible in plan and reflected by discontinuities in the elevation point fields."
+        }
       },
       {
         "statement": "External fabric blinds limit the use of daylight in summer.",
         "tags": [
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "external fabric blinds",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7862,
+            0.0816,
+            0.5384
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Blinds are not individually visible; the anchor is placed on a representative south-facing envelope surface."
+        }
       },
       {
         "statement": "The structural considerations and building-technology approaches are not sufficiently deepened or integrated.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "structural and building-technology approaches",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1663,
+            0.7553,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The whole building envelope is a proxy because structural and technical systems are not separately represented."
+        }
       },
       {
         "statement": "The fire-protection concept has not been fully thought out or developed.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "fire-protection concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8337,
+            0.2447,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Fire-safety provisions are absent as distinct geometry, so the marker indicates a plausible building-system location."
+        }
       },
       {
         "statement": "The building's accessibility for disabled people is incorrect.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "accessibility for disabled people",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4831,
+            0.0629,
+            0.1544
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Accessibility is anchored at the visible covered entrance, the most relevant sampled access point."
+        }
       }
     ],
     "keyword": [

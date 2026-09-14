@@ -17,7 +17,28 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4334,
+            0.4805,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated orthogonal volume visibly spans the full sampled plot depth."
+        }
       },
       {
         "statement": "The public passage forms a well-functioning, spatially high-quality backbone.",
@@ -25,28 +46,106 @@
           "circulation",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "public passage backbone",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4334,
+            0.4805,
+            0.55
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central longitudinal organization provides the most plausible anchor for the public passage."
+        }
       },
       {
         "statement": "The required uses are connected with a remarkably good internal organization.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4334,
+            0.4805,
+            0.45
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated comb bays and clear vertical layering visibly support the organized internal arrangement."
+        }
       },
       {
         "statement": "The proposed building structure promises a high degree of flexibility of use.",
         "tags": [
           "flexibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "building structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7167,
+            0.5876,
+            0.55
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Regular repeated bays and vertical lines visibly identify the sampled structural order."
+        }
       },
       {
         "statement": "The calm and balanced architectural expression corresponds to the flexible internal use.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "calm architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4834,
+            0.0933,
+            0.55
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south facade presents the clearest visible evidence of the calm, balanced envelope."
+        }
       }
     ],
     "negative": [
@@ -55,35 +154,130 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4334,
+            0.8742,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern edge and surrounding voids provide a constrained anchor for the outdoor-space assessment."
+        }
       },
       {
         "statement": "The usable space significantly exceeds the program, which has a negative impact on the economy.",
         "tags": [
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "usable space",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7167,
+            0.4991,
+            0.5
+          ],
+          "radius": 0.3412,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad elongated footprint visibly supports a spatial-capacity critique, while economy itself is unlocated."
+        }
       },
       {
         "statement": "The vertical access is purely functional.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "vertical access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7167,
+            0.4991,
+            0.55
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "A repeated vertical circulation zone is approximated within the eastern portion of the volume."
+        }
       },
       {
         "statement": "The deep window reveals prevent direct visual contact across the courtyards to the street space.",
         "tags": [
           "visibility",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "deep window reveals",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4834,
+            0.0933,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south facade is the stated-facing surface, though individual window reveals are not distinguishable."
+        }
       },
       {
         "statement": "The architectural potential to represent the institution as a flagship has not yet been fully exploited.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "flagship identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2833,
+            0.5003,
+            0.55
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The western building mass provides a distributed anchor for the unfulfilled institutional identity critique."
+        }
       }
     ],
     "keyword": [

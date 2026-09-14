@@ -5,6 +5,8 @@ const params = new URLSearchParams(location.search);
 const modelId = params.get("model") || "A1";
 const viewName = params.get("view") || "top";
 const showCritiqueMarkers = params.get("markers") === "1";
+// The label and axis legend are calibration aids; card captures pass chrome=0.
+const showChrome = params.get("chrome") !== "0";
 const viewDefinitions = {
   top:   { direction: [0, 0, 1], up: [0, 1, 0], axes: "↑ NORTH / +Y\n→ EAST / +X" },
   south: { direction: [0, -1, 0], up: [0, 0, 1], axes: "↑ TOP / +Z\n→ WEST / −X" },
@@ -24,7 +26,7 @@ renderer.setSize(innerWidth, innerHeight);
 document.body.prepend(renderer.domElement);
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0xecebe5);
+scene.background = new THREE.Color(0xffffff);
 scene.add(new THREE.HemisphereLight(0xffffff, 0x74766f, 1.25));
 const light = new THREE.DirectionalLight(0xffffff, 1.15);
 light.position.set(-3, -4, 8);
@@ -89,18 +91,49 @@ async function addCritiqueMarkers(box) {
   scene.add(outline, dots);
 }
 
-function frameObject(object) {
-  const box = new THREE.Box3().setFromObject(object);
+/**
+ * Fit the camera to everything currently in the scene.
+ *
+ * The previous version framed the point cloud alone and summed |right . size|
+ * per axis, which is an upper bound rather than the real projected extent: the
+ * isometric view zoomed out too far and the composition sat off-centre once the
+ * markers were added. Projecting the eight corners of the scene's bounding box
+ * onto the camera basis is exact for a box, so both the extent and the centre
+ * are right.
+ */
+const MARGIN = 1.06; // a little air around the content
+
+function frameScene() {
+  const box = new THREE.Box3().setFromObject(scene);
+  if (box.isEmpty()) return;
   const size = box.getSize(new THREE.Vector3());
   const center = box.getCenter(new THREE.Vector3());
+
   const direction = new THREE.Vector3(...view.direction).normalize();
   const requestedUp = new THREE.Vector3(...view.up).normalize();
   const right = new THREE.Vector3().crossVectors(requestedUp, direction).normalize();
   const up = new THREE.Vector3().crossVectors(direction, right).normalize();
-  const projectedWidth = Math.abs(right.x * size.x) + Math.abs(right.y * size.y) + Math.abs(right.z * size.z);
-  const projectedHeight = Math.abs(up.x * size.x) + Math.abs(up.y * size.y) + Math.abs(up.z * size.z);
+
+  let minU = Infinity, maxU = -Infinity, minV = Infinity, maxV = -Infinity;
+  const corner = new THREE.Vector3();
+  for (let i = 0; i < 8; i += 1) {
+    corner.set(
+      i & 1 ? box.max.x : box.min.x,
+      i & 2 ? box.max.y : box.min.y,
+      i & 4 ? box.max.z : box.min.z
+    );
+    const u = corner.dot(right);
+    const v = corner.dot(up);
+    if (u < minU) minU = u;
+    if (u > maxU) maxU = u;
+    if (v < minV) minV = v;
+    if (v > maxV) maxV = v;
+  }
+
   const aspect = innerWidth / Math.max(innerHeight, 1);
-  const halfHeight = Math.max(projectedHeight * 0.62, projectedWidth / aspect * 0.62, 1e-8);
+  const width = Math.max((maxU - minU) * MARGIN, 1e-8);
+  const height = Math.max((maxV - minV) * MARGIN, 1e-8);
+  const halfHeight = Math.max(height / 2, width / aspect / 2);
   const halfWidth = halfHeight * aspect;
   const distance = Math.max(size.length() * 2, 1e-7);
 
@@ -126,11 +159,16 @@ loader.load(
       new THREE.PointsMaterial({ color: 0x252925, size: 2.4, sizeAttenuation: false })
     );
     scene.add(object);
-    frameObject(object);
+    // markers first: the framing has to account for them or they fall outside
     await addCritiqueMarkers(geometry.boundingBox);
+    frameScene();
     renderer.render(scene, camera);
     document.querySelector("#label").textContent = `${modelId} · ${viewName.toUpperCase()} · 2,048-POINT PLY`;
     document.querySelector("#axes").textContent = view.axes;
+    if (!showChrome) {
+      document.querySelector("#label").hidden = true;
+      document.querySelector("#axes").hidden = true;
+    }
     document.body.dataset.ready = "true";
     } catch (error) {
       document.querySelector("#label").textContent = `ERROR · ${error.message || error}`;

@@ -18,7 +18,27 @@
           "massing",
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "orthogonal U-shaped layout and central entry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4405,
+            0.5407,
+            0.3077
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "U-shaped perimeter and central opening are clearly visible in the top view, with low-rise massing confirmed by elevations."
+        }
       },
       {
         "statement": "The two asymmetrical wings respond to the gap between neighboring fronts and open a perspective along the oblique axis.",
@@ -26,7 +46,26 @@
           "urban integration",
           "massing",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "asymmetrical wings and oblique perspective",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8412,
+            0.5168,
+            0.3462
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Offset wings and diagonal visual corridor are legible in the asymmetric top-view footprint."
+        }
       },
       {
         "statement": "The secondary rooftop volumes produce a lively but not excessive silhouette and a welcome visual break for the rear buildings.",
@@ -34,7 +73,26 @@
           "scale",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "secondary rooftop volumes",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6763,
+            0.6775,
+            0.8846
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped upper volumes are visible along the rear/right portion of the footprint and elevations."
+        }
       },
       {
         "statement": "The landscape concept creates a clear sequence of courtyards, a transverse pedestrian connection, a linear garden and a roof terrace.",
@@ -42,14 +100,54 @@
           "landscape",
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "courtyards, pedestrian connection, linear garden and roof terrace",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4054,
+            0.4666,
+            0.2692
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Open sequences are inferred from the U-shaped voids, perimeter gaps and stepped roof surfaces."
+        }
       },
       {
         "statement": "The cross section aligns well with the natural terrain and modifies it little.",
         "tags": [
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "natural terrain alignment",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2977,
+            0.3052,
+            0.1923
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Low, terraced elevations suggest a building stepping across the terrain."
+        }
       },
       {
         "statement": "The section hierarchically distributes public, teaching and administrative areas in a clear volumetric arrangement.",
@@ -57,7 +155,26 @@
           "layout",
           "functionality",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "hierarchical public, teaching and administrative areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.423,
+            0.5037,
+            0.4615
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior hierarchy is not distinguishable; the anchor uses the central volumetric organization."
+        }
       },
       {
         "statement": "The project is characterized by great accuracy in taking account of the site's urban-planning and landscape data.",
@@ -65,7 +182,26 @@
           "urban integration",
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning and landscape data",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2748,
+            0.694,
+            0.2308
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad site response is distributed across the stepped footprint and surrounding open edges."
+        }
       }
     ],
     "negative": [
@@ -75,21 +211,79 @@
           "layout",
           "visibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "weakened center of the building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4405,
+            0.5407,
+            0.3462
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Central void and separated spatial layers are visible within the U-shaped plan."
+        }
       },
       {
         "statement": "The typologies and spatial organization are schematic and less accomplished than the organization of the section.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "schematic typologies and spatial organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7535,
+            0.3316,
+            0.4231
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior organization is not sampled distinctly; the marker represents the main building mass."
+        }
       },
       {
         "statement": "The interior of the attics lacks spatial structure.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "interior of the attics",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6763,
+            0.6775,
+            0.9231
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Attic interiors are absent, so the estimate is placed beneath the visible stepped rooftop volumes."
+        }
       }
     ],
     "keyword": [

@@ -10,23 +10,23 @@ const TABS = {
   competitions: {
     pane: "pane-competitions",
     note: "",
-    load: () => import("./index.js?v=13"),
+    load: () => import("./index.js?v=20260914"),
   },
   "model-latent": {
     pane: "pane-model-latent",
     note: "3D FORM LATENT SPACE",
-    load: () => import("./model-space.js?v=2"),
+    load: () => import("./model-space.js?v=20260914"),
   },
   "jury-expression": {
     pane: "pane-jury-expression",
     note: "JURY TAGS × COMPETITION RANK",
-    load: () => import("./analysis.js?v=3"),
+    load: () => import("./analysis.js?v=20260914"),
   },
   project: {
     pane: "pane-project",
     note: "SPATIAL CRITIQUE",
     nav: "competitions",
-    load: () => import("./app.js?v=15"),
+    load: () => import("./app.js?v=20260914"),
   },
 };
 

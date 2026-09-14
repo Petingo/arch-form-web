@@ -16,7 +16,27 @@
         "tags": [
           "massing",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "calm volumetric structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4604,
+            0.0562,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact two-level mass and low roof profile are clearly visible across all views."
+        }
       },
       {
         "statement": "The proposal creates strong spatial and visual relationships across horizontal, vertical, and diagonal connections.",
@@ -24,21 +44,76 @@
           "layout",
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "horizontal, vertical and diagonal connections",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8349,
+            0.4218,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Connections are inferred within the layered compact volume and its central opening."
+        }
       },
       {
         "statement": "The indoor and outdoor pools complement each other through a strong spatial relationship between inside and outside.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "indoor and outdoor pools",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8097,
+            0.3196,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pool relationships are internal and not distinctly sampled; the marker uses the lower east-side zone."
+        }
       },
       {
         "statement": "The visibility of the swimming pool is suitable for competitions and provides enough spectator space despite the compactness.",
         "tags": [
           "visibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "swimming pool and spectator space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7916,
+            0.2465,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The competition pool and seating are not individually visible, so the main lower volume is used."
+        }
       },
       {
         "statement": "The outdoor facilities are high quality, skilfully integrated, and convincingly arranged.",
@@ -46,7 +121,24 @@
           "landscape",
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outdoor facilities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0968,
+            0.299,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor uses are approximated along the open ground-side edge beside the compact building."
+        }
       },
       {
         "statement": "The ecological construction, efficient support system, and affordable expected building costs are welcomed.",
@@ -54,7 +146,26 @@
           "sustainability",
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "ecological construction and support system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7181,
+            0.8518,
+            0.8333
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Construction performance is not directly visible; the marker references the lightweight upper structure."
+        }
       }
     ],
     "negative": [
@@ -63,7 +174,25 @@
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "hairdressing area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2307,
+            0.0792,
+            0.0833
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The missing room is internal; the marker uses a plausible ground-floor zone near the public side."
+        }
       },
       {
         "statement": "Organizing the cloakrooms on two floors is cumbersome for users and makes orientation a challenge.",
@@ -71,35 +200,126 @@
           "circulation",
           "accessibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "cloakrooms on two floors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1689,
+            0.5912,
+            0.4167
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Cloakroom organization is internal and anchored to the stacked central building zone."
+        }
       },
       {
         "statement": "The location of the cloakrooms is unsuitable for using the outdoor pool.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-pool cloakrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7844,
+            0.2173,
+            0.0833
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The outdoor-pool relationship is not distinguishable; the marker uses the lower edge zone."
+        }
       },
       {
         "statement": "The separation of the kitchen and storage room on two floors is operationally problematic.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "kitchen and storage room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1978,
+            0.7081,
+            0.4167
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Service rooms are internal and placed in a plausible stacked zone within the compact volume."
+        }
       },
       {
         "statement": "The available space for right-of-way and parking appears tight.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "right-of-way and parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2195,
+            0.7957,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The site-access criticism is anchored to the narrow open perimeter beside the building."
+        }
       },
       {
         "statement": "The concept is ultimately judged unsustainable because of the organization of the cloakrooms on two floors.",
         "tags": [
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "cloakroom organization and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1653,
+            0.5766,
+            0.4167
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The judgment links sustainability to internal cloakroom organization within the stacked building volume."
+        }
       }
     ],
     "keyword": [

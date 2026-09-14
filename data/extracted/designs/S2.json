@@ -15,14 +15,54 @@
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "static concept as project image",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3014,
+            0.4098,
+            0.7143
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad image-making concept assigned across the large shed-roofed building mass."
+        }
       },
       {
         "statement": "The project develops the principles of new school teaching in varied and complex meeting spaces.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "varied and complex meeting spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.535,
+            0.4372,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior meeting spaces are not distinguishable; central plan area provides a constrained approximation."
+        }
       }
     ],
     "negative": [
@@ -32,35 +72,135 @@
           "massing",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building size and massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2501,
+            0.3023,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large footprint and repeated elevation bands visibly establish the building's prominent massing."
+        }
       },
       {
         "statement": "The load-bearing structure became less clear and excessively elaborate with respect to the required function.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "load-bearing structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5925,
+            0.3311,
+            0.5714
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural system is not separately identifiable; location is constrained to visible repetitive building fabric."
+        }
       },
       {
         "statement": "The orientation of the sheds and the light-well openings is not coherent with the structural logic.",
         "tags": [
           "structure",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "shed orientation and light-well openings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6621,
+            0.7058,
+            0.7857
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view visibly shows repeated roof direction and punctuating openings across the upper footprint."
+        }
       },
       {
         "statement": "There are clear inconsistencies between the image of the casing and the internal contents.",
         "tags": [
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "casing and internal contents",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7996,
+            0.3246,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Envelope is visible, while internal contents are not distinguishable; marker represents their broad relationship."
+        }
       },
       {
         "statement": "The identical first and second floor plans have different natural-lighting conditions that are poorly controlled.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "identical first and second floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2369,
+            0.7441,
+            0.6429
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Horizontal elevation bands indicate upper floors, but individual plan lighting conditions remain unresolved."
+        }
       }
     ],
     "keyword": [

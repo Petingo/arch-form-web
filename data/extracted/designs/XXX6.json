@@ -17,7 +17,26 @@
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "reduced intervention in historic area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8168,
+            0.8162,
+            0.2619
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Approximate addition mass occupies the rear portion of the trapezoidal enclosure."
+        }
       },
       {
         "statement": "New trees inside and outside the enclosure support spatial continuity and user orientation.",
@@ -25,7 +44,26 @@
           "landscape",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "trees inside and outside enclosure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2649,
+            0.006,
+            0.0476
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape continuity is anchored along the southern enclosure edge and adjacent open space."
+        }
       },
       {
         "statement": "The tree arrangement along the southern edge is convincing environmentally and as a transition toward neighboring buildings.",
@@ -33,35 +71,128 @@
           "landscape",
           "urban integration",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "tree arrangement along southern edge",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.51,
+            0.0149,
+            0.0476
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Southern edge is identifiable as the lower boundary of the trapezoidal courtyard."
+        }
       },
       {
         "statement": "The plants will provide effective long-term shading to the south-facing façade.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "south-facing facade shading",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.751,
+            0.0237,
+            0.5476
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "South elevation shows the dense facade surface receiving the proposed landscape buffer."
+        }
       },
       {
         "statement": "Managing evacuated water as a resource is a positive intention.",
         "tags": [
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "evacuated water management",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2649,
+            0.006,
+            0.0238
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Water management is approximated at the southern ground interface of the building."
+        }
       },
       {
         "statement": "The idea of prefabricated wooden room cells is interesting.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "prefabricated wooden room cells",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7039,
+            0.4961,
+            0.5476
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Room-cell system is approximated within the repetitive upper enclosure."
+        }
       },
       {
         "statement": "The building envelope and system concept are clearly defined and generally satisfy the energy requirements.",
         "tags": [
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "building envelope and system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7039,
+            0.4961,
+            0.5238
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repetitive enclosure and aligned mass are visible across plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -71,7 +202,26 @@
           "expression",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "historic structural guidelines",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5028,
+            0.4301,
+            0.4524
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Formal repetition is distributed across the aligned enclosure and courtyard perimeter."
+        }
       },
       {
         "statement": "Closing the sector with a secondary building weakens the generous perception of arrival into the common space.",
@@ -79,7 +229,25 @@
           "circulation",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "secondary building at arrival",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8205,
+            0.1408,
+            0.3095
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Arrival obstruction is approximated along the southern approach to the common space."
+        }
       },
       {
         "statement": "The organization of external green spaces and new trees is fragmented and unresolved.",
@@ -87,7 +255,26 @@
           "landscape",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "external green spaces and new trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3058,
+            0.0074,
+            0.0476
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Fragmented landscape is assigned to the southern and lateral open-space edges."
+        }
       },
       {
         "statement": "The transparent common living space is not well calibrated in shape, organization, or size.",
@@ -95,7 +282,25 @@
           "layout",
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "transparent common living space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.804,
+            0.2102,
+            0.3571
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Common space is approximated at the lower southern portion of the addition."
+        }
       },
       {
         "statement": "The rigid arrangement of living cells creates poorly controlled spatial hierarchies.",
@@ -103,7 +308,26 @@
           "layout",
           "flexibility",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "rigid arrangement of living cells",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7039,
+            0.4961,
+            0.5714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repetitive upper-field geometry provides the available anchor for living-cell organization."
+        }
       },
       {
         "statement": "Thermal breaks and external pillars create geometric complexity, thermal bridges, and difficult structural connections.",
@@ -111,27 +335,101 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "thermal breaks and external pillars",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.738,
+            0.488,
+            0.5
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structural complexity is approximated on the repetitive external envelope."
+        }
       },
       {
         "statement": "The potential interaction between the prefabricated cells and the remaining structure is not exploited.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "interaction between prefabricated cells and remaining structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7039,
+            0.4961,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Interface is approximated within the upper repetitive enclosure."
+        }
       },
       {
         "statement": "Comfort and energy needs in the north-facing common spaces require verification.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "north-facing common spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6484,
+            0.9,
+            0.2619
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North-facing spaces are assigned along the rear edge of the visible enclosure."
+        }
       },
       {
         "statement": "The environmental sustainability of the materials is not addressed.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "environmental sustainability of materials",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7039,
+            0.4961,
+            0.4762
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Material sustainability is anchored to the sampled building envelope."
+        }
       }
     ],
     "keyword": [

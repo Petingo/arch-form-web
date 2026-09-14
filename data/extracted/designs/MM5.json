@@ -18,14 +18,52 @@
           "massing",
           "open space",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "compact building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.301,
+            0.2371,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact mass is visible; corner anchor represents its relationship to surrounding open-space edges."
+        }
       },
       {
         "statement": "The small footprint provides sufficiently wide edges for outdoor spaces.",
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "small footprint",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.1191,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view shows a compact footprint; offset anchor represents adjacent outdoor edge conditions."
+        }
       },
       {
         "statement": "The outdoor spaces offer a rich range of uses for the surrounding area.",
@@ -33,7 +71,25 @@
           "open space",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.2218,
+            0.0385
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Surrounding spaces are not sampled distinctly; distributed site-edge estimate marks the open-space context."
+        }
       },
       {
         "statement": "The communal level is surrounded by an attractive exterior space that invites people to linger.",
@@ -41,14 +97,51 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "communal level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4922,
+            0.0885,
+            0.4231
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Intermediate level is inferred from the notched vertical mass and placed near an exterior edge."
+        }
       },
       {
         "statement": "The hybrid timber structure is plausibly designed and reduces the concrete-intensive base to lower levels.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "hybrid timber structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4264,
+            0.9123,
+            0.2687
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Material system is not visible; lower-level surface anchor reflects the stated concrete-intensive base."
+        }
       },
       {
         "statement": "The rigorous urban-planning approach achieves the smallest possible footprint.",
@@ -56,7 +149,26 @@
           "urban integration",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "smallest possible footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.708,
+            0.7556,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Compact building footprint is visible; offset anchor represents the broader planning and proportion judgment."
+        }
       }
     ],
     "negative": [
@@ -66,7 +178,25 @@
           "circulation",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "pitches and parking arrival",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.1499,
+            0.0385
+          ],
+          "radius": 0.3,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking and pitches are not distinguished; site-edge estimate marks the criticized arrival condition."
+        }
       },
       {
         "statement": "A pitch at the corner blocks an important diagonal path and endangers existing trees.",
@@ -74,21 +204,73 @@
           "circulation",
           "landscape",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "corner pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0719,
+            0,
+            0.0385
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A corner anchor represents the stated pitch obstruction and its potential conflict with existing trees."
+        }
       },
       {
         "statement": "The doubled path system is incomprehensible and conflicts with the existing meandering routes.",
         "tags": [
           "circulation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "doubled path system",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.2936,
+            0.0385
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Paths are absent from the sample; distributed ground-edge estimate marks the circulation conflict."
+        }
       },
       {
         "statement": "The communal outdoor area is too small for a kindergarten and cannot replace an outdoor play garden.",
         "tags": [
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "communal outdoor area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1971,
+            1,
+            0.0385
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor play area is not separately visible; ground-edge estimate represents its constrained site location."
+        }
       },
       {
         "statement": "Classrooms without views to the outside cannot be accepted for permanent work areas.",
@@ -96,20 +278,76 @@
           "visibility",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms without outside views",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.4784,
+            0.6154
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior classrooms are not visible; facade-adjacent mid-height estimate represents the daylight concern."
+        }
       },
       {
         "statement": "The floor plans do not allow the required clustering of classrooms and group rooms.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classroom and group-room clustering",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.708,
+            0.6837,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior planning is unrepresented; intermediate surface estimate marks the relevant floor-plan region."
+        }
       },
       {
         "statement": "The structural solution for the overhang of the upper floors is unclear.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor overhang",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.1499,
+            0.8462
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper-level projection is approximated at the visible outer surface where overhang structure would occur."
+        }
       },
       {
         "statement": "The building’s scale, escape balconies and informal escape stair give it a commercial-looking character.",
@@ -117,7 +355,25 @@
           "expression",
           "scale",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "escape balconies and informal escape stair",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5092,
+            0.6154
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Specific escape elements are indistinguishable; facade anchor represents the criticized scale and character."
+        }
       }
     ],
     "keyword": [

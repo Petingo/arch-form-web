@@ -16,48 +16,171 @@
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "smaller pavilion-like volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6025,
+            0.2491,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Smaller pavilion is distinctly visible below the elongated main volume in plan and elevations."
+        }
       },
       {
         "statement": "The site setting and height concept preserve the presence intended for the existing building in the hillside silhouette.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "hillside silhouette and existing building presence",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6001,
+            0.8399,
+            0.8333
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Tall main volume anchors the visible building mass and upper silhouette region."
+        }
       },
       {
         "statement": "The two volumes are well integrated into the topography, and the informal play areas are possible and correctly located.",
         "tags": [
           "topography",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "informal play areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3665,
+            0.1714,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Open ground around the lower pavilion provides the most plausible sampled location for play areas."
+        }
       },
       {
         "statement": "The courtyard-like entrance space channels access for learners and employees and establishes a second relationship with the adjacent school.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "courtyard-like entrance space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5285,
+            0.4214,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central separation between the two visible volumes reads as an entrance courtyard or access zone."
+        }
       },
       {
         "statement": "The central air space leads light down through the building to the lower level.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central air space",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4719,
+            0.4386,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central opening within the main footprint is visible in plan and aligned through the elevations."
+        }
       },
       {
         "statement": "The ecological requirements are achievable through the material concept, hybrid construction, recycled concrete, and proposed photovoltaic system.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "ecological requirements and photovoltaic system",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material, construction, recycling, and photovoltaic claims have no distinct spatial marker in the sample."
+        }
       },
       {
         "statement": "Reducing the above-ground volumes is a promising strategy for the difficult site.",
         "tags": [
           "massing",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "reduced above-ground volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7323,
+            0.7996,
+            0.75
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Visible massing shows a tall elongated volume paired with a smaller, lower pavilion."
+        }
       }
     ],
     "negative": [
@@ -66,7 +189,24 @@
         "tags": [
           "landscape",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "trees in the viewing area toward the city",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6847,
+            0.1393,
+            0.0833
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open area beyond the pavilion is the plausible surface anchor for disputed viewing-area trees."
+        }
       },
       {
         "statement": "The smaller building's use of the same architectural language is questionable; differentiated materialization could mediate better between the volumes and existing buildings.",
@@ -74,54 +214,202 @@
           "expression",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "smaller building's architectural language",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5908,
+            0.2648,
+            0.3333
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The smaller pavilion is directly identifiable as the building whose expression is being questioned."
+        }
       },
       {
         "statement": "The gradient and maneuvering situation for trucks are rather problematic.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "truck gradient and maneuvering situation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6705,
+            0.1275,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Lower open ground beside the pavilion is the plausible access and maneuvering surface."
+        }
       },
       {
         "statement": "The strong organizational grid turns out to be too rigid, while the large workshops are much too narrow for operation.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "large workshops and organizational grid",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2854,
+            0.5129,
+            0.4167
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Main elongated volume provides the constrained anchor for the interior workshop organization."
+        }
       },
       {
         "statement": "The daylight situation on the lowest basement floor is assessed as critical.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "lowest basement floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2595,
+            0.5207,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Lowest accessible model level is approximated beneath the main building footprint."
+        }
       },
       {
         "statement": "The underground floor plan extends beneath the green belt in a way that is not possible.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "underground floor plan beneath the green belt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1463,
+            0.5552,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The building edge and adjacent open strip provide a plausible constrained anchor for the underground extension."
+        }
       },
       {
         "statement": "The large window areas are challenging in terms of cost-effectiveness and summer heat protection.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "large window areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5496,
+            0.4324,
+            0.6667
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing main facade is the most plausible surface for the criticized window areas."
+        }
       },
       {
         "statement": "The unusually large floor areas and building volumes, much of them underground, are expected to produce high creation costs.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large floor areas and building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3986,
+            0.4784,
+            0.4167
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated main volume visibly dominates the sampled building mass, including its apparent lower levels."
+        }
       },
       {
         "statement": "The strategy of reducing above-ground volumes comes at the price of excessive operational and economic shortcomings.",
         "tags": [
           "operation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "operational and economic shortcomings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7511,
+            0.7939,
+            0.6667
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Comment critiques the reduced-volume building strategy, anchored to the main visible mass."
+        }
       }
     ],
     "keyword": [

@@ -18,7 +18,28 @@
           "massing",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten, school and sports hall under one roof",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5108,
+            0.5396,
+            0.4911
+          ],
+          "radius": 0.348,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "S-shaped integrated mass visibly combines several elongated wings around the courtyard."
+        }
       },
       {
         "statement": "The enclosed outdoor space creates an attractive spatial atmosphere for the complex.",
@@ -26,7 +47,24 @@
           "open space",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "enclosed outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5389,
+            0.4996,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central open court is clearly enclosed by the surrounding S-shaped building edges."
+        }
       },
       {
         "statement": "The escape balconies allow the central corridor to be used as a teaching zone and shade the glazed facades in summer.",
@@ -34,7 +72,26 @@
           "layout",
           "functionality",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "escape balconies and central corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4808,
+            0.5533,
+            0.6667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Balcony-like linear edges follow the inner corridor-facing sides of the central wings."
+        }
       },
       {
         "statement": "The sports hall is easy to reach from the neighboring parking spaces and can also be entered directly from the school.",
@@ -42,7 +99,26 @@
           "circulation",
           "accessibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "sports hall access from neighboring parking",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8218,
+            0.148,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A southern forecourt and adjacent eastern wing provide the likely parking-side sports access."
+        }
       },
       {
         "statement": "The planned green facade can be expected to create an attractive spatial atmosphere in the classrooms.",
@@ -50,7 +126,25 @@
           "facade",
           "expression",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "green facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8603,
+            0.691,
+            0.4911
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The long eastern-facing glazed edge is the most plausible classroom facade location."
+        }
       }
     ],
     "negative": [
@@ -60,28 +154,99 @@
           "circulation",
           "visibility",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten and school access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5032,
+            0.0652,
+            0.1667
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Public approach is constrained to the small southern forecourt and building entry zone."
+        }
       },
       {
         "statement": "The kindergarten does not have its own outdoor space.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2533,
+            0.7306,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "No separate kindergarten yard is distinguishable within the enclosed exterior arrangement."
+        }
       },
       {
         "statement": "The high glass content has a negative impact on costs and operating energy.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "high glass content",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8661,
+            0.7035,
+            0.4911
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The likely glazed classroom edge is assigned to the long eastern facade."
+        }
       },
       {
         "statement": "The cloakrooms are only accessible through the public area and stands.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "cloakrooms through public area and stands",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4447,
+            0.1699,
+            0.3333
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The circulation concern is placed near the southern public approach and internal entry zone."
+        }
       }
     ],
     "keyword": [

@@ -18,56 +18,205 @@
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian connection between two streets",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4849,
+            0.1074,
+            0.0858
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Long linear volume visibly defines a narrow perimeter connection along the south-facing open-space edge."
+        }
       },
       {
         "statement": "The open arched ground-floor structure makes the public purpose of the building tangible in a sophisticated way.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "open arched ground-floor structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5197,
+            0.1074,
+            0.0858
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Repeated ground-level openings are visible along the long south elevation."
+        }
       },
       {
         "statement": "The office units can be flexibly organized around several courtyards.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "office units around several courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4352,
+            0.3638,
+            0.5828
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view shows repeated internal bands and courtyard-like separations within the long volume."
+        }
       },
       {
         "statement": "The central upper-floor access allows clear orientation.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "central upper-floor access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4352,
+            0.3638,
+            0.6657
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central access is approximated at the building midpoint on the upper occupied levels."
+        }
       },
       {
         "statement": "The courtyard typology gives the multispace and project-room modules a stringent organization.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard typology",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4352,
+            0.3638,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Several longitudinally distributed void-like zones are legible in the top projection."
+        }
       },
       {
         "statement": "The compact volumetrics achieve an efficient building envelope.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "efficient building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7853,
+            0.062,
+            0.5828
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Compact, continuous four-storey mass is clearly visible across plan and elevations."
+        }
       },
       {
         "statement": "The consistent system separation has a lasting effect on component life-cycle costs.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "consistent system separation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4362,
+            0.1238,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Regular facade point rows provide limited evidence for a repeated separated building system."
+        }
       },
       {
         "statement": "The building concept allows plausible grading along the horizontal axis.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "grading along horizontal axis",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7853,
+            0.4654,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated horizontal building axis is strongly legible, supporting an approximate longitudinal grading anchor."
+        }
       },
       {
         "statement": "The themed courtyards create contrasting atmospheres and intelligently intertwine security and access functions.",
@@ -75,7 +224,24 @@
           "open space",
           "landscape",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "themed courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5713,
+            0.4673,
+            0.0858
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Courtyard locations are approximated within the central ground-level open-space pattern."
+        }
       },
       {
         "statement": "Rainwater infiltration troughs create an interesting transition toward the avenue through relief, topography and varied vegetation.",
@@ -83,21 +249,79 @@
           "landscape",
           "topography",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "rainwater infiltration troughs",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.43,
+            0.0828,
+            0.0858
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A narrow avenue-side strip is the plausible surface location for perimeter landscape drainage."
+        }
       },
       {
         "statement": "The project conveys a surprising vision for a self-confident and open administrative center.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "open administrative center",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3964,
+            0.3638,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The complete large-scale building mass and open ground-floor condition are visible in all available projections."
+        }
       },
       {
         "statement": "The proposal is based on clear urban-planning, typological and constructive logic.",
         "tags": [
           "urban integration",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning, typological and constructive logic",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3576,
+            0.3638,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Linear massing, repeated levels, courtyards and regular facade structure are jointly visible."
+        }
       }
     ],
     "negative": [
@@ -106,42 +330,152 @@
         "tags": [
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.75,
+            0.516,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The roof occupies the visible upper surface of the elongated building footprint."
+        }
       },
       {
         "statement": "The facade length along the avenue does not match the scale of the surrounding buildings.",
         "tags": [
           "facade",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "facade length along the avenue",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7764,
+            0,
+            0.5828
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The exceptionally long south-facing elevation is clearly visible and spans most of the model."
+        }
       },
       {
         "statement": "The nearly fully occupied perimeter leaves only a narrow strip of outside space.",
         "tags": [
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "narrow strip of outside space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5282,
+            0.1074,
+            0.0858
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Top and south views show the building closely occupying the site with a thin edge zone."
+        }
       },
       {
         "statement": "The architectural references appear somewhat additive and weaker than the basic concept.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural references",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2171,
+            0.3638,
+            0.5828
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The critique concerns the whole visible building expression rather than one distinguishable element."
+        }
       },
       {
         "statement": "The open arcade ground floor is contradicted by the occupation of non-public uses.",
         "tags": [
           "functionality",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "open arcade ground floor",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5713,
+            0.0923,
+            0.0858
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The open ground-floor arcade is localized along the long south elevation."
+        }
       },
       {
         "statement": "The upper-floor facade expression does not provide a congruent response to the interior or open-space ground.",
         "tags": [
           "facade",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6306,
+            0.0923,
+            0.5828
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-level facade bands are clearly visible above the ground-floor openings."
+        }
       },
       {
         "statement": "The central access lacks connections to the courtyards, while closed corridors and artificially lit foyers can become confusing and labyrinthine.",
@@ -149,35 +483,130 @@
           "circulation",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central access and closed corridors",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3576,
+            0.3638,
+            0.5828
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central upper levels provide the best approximate anchor for the criticized internal circulation."
+        }
       },
       {
         "statement": "The monumental hall landscape does not entirely correspond to the publicity of its use.",
         "tags": [
           "functionality",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "monumental hall landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5672,
+            0.1009,
+            0.0858
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The public-facing ground-floor edge is the plausible location for the hall landscape."
+        }
       },
       {
         "statement": "The above-average volume leads to higher costs than other contributions.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "above-average volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7853,
+            0.4654,
+            0.5828
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The long, substantial four-storey volume is visible across all calibrated views."
+        }
       },
       {
         "statement": "The tree structure makes only a timid statement relative to the imposing building size.",
         "tags": [
           "landscape",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "tree structure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3092,
+            0.1015,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Landscape planting is approximated in the narrow avenue-side perimeter strip."
+        }
       },
       {
         "statement": "The design does not fully resolve the architecture congruently with its operational organization.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "operational organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4362,
+            0.2852,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The statement evaluates organization of the entire visible building concept."
+        }
       },
       {
         "statement": "The thematic density creates contradictions among references, scale and use.",
@@ -185,7 +614,27 @@
           "expression",
           "scale",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "references, scale and use",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4352,
+            0.3638,
+            0.4172
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The critique spans the whole building’s visible mass, facade expression and ground-floor condition."
+        }
       }
     ],
     "keyword": [

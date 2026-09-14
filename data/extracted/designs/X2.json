@@ -18,14 +18,51 @@
           "urban integration",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5824,
+            0.4469,
+            0.7333
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact fragmented stepped building is visible across plan and elevations."
+        }
       },
       {
         "statement": "The articulated and radiating plan avoids long built fronts and contributes to good integration into the site.",
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "articulated radiating plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2313,
+            0.5946,
+            0.4333
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Radiating arms and fragmented edges are directly identifiable in the top view."
+        }
       },
       {
         "statement": "The fragmented volume is precisely articulated with neighboring buildings while preserving and highlighting the beech.",
@@ -33,7 +70,26 @@
           "urban integration",
           "proportion",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "fragmented volume and beech",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2313,
+            0.5946,
+            0.2667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The fragmented volume is placed near the preserved landscape zone inferred around the footprint."
+        }
       },
       {
         "statement": "The entrances are clearly identifiable as extensions of adjoining exterior spaces and support easy separation of access.",
@@ -41,14 +97,49 @@
           "circulation",
           "accessibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5894,
+            0.1369,
+            0.0667
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Entrances are approximated at distinct lower perimeter breaks of the articulated plan."
+        }
       },
       {
         "statement": "The relationship between the two halls offers visual transparency throughout the building.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "two halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6037,
+            0.4912,
+            0.7333
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The two halls are approximated as adjacent central zones within the fragmented mass."
+        }
       },
       {
         "statement": "The circulation devices are generous and spatially rich, and the program is laid out efficiently.",
@@ -56,7 +147,27 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "circulation devices",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5824,
+            0.4469,
+            0.7667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Circulation is assigned to the central connectors linking the radiating building arms."
+        }
       },
       {
         "statement": "The project is rational and economical while respecting regulatory constraints.",
@@ -64,7 +175,18 @@
           "functionality",
           "cost",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "rational building organization",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns overall organization and economy without one useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -73,14 +195,53 @@
         "tags": [
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "lower-floor halls",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6518,
+            0.2018,
+            0.1333
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Lower halls are assigned to the broad lower portions of the stepped elevations."
+        }
       },
       {
         "statement": "The relatively high height of the building, coupled with the reduced attic skylights, limits daylight penetration into the lower floors.",
         "tags": [
           "scale",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "attic skylights and lower floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8609,
+            0.6473,
+            0.2
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The daylight concern links upper roof openings with the lower stacked building levels."
+        }
       }
     ],
     "keyword": [

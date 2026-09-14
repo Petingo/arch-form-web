@@ -16,35 +16,113 @@
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "covered outdoor threshold",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2063,
+            0.1237,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Perimeter threshold is approximated along the south-facing lower edge connecting exterior and interior."
+        }
       },
       {
         "statement": "The generous ground floor opens toward the city as a space for communication and exchange.",
         "tags": [
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "generous ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3136,
+            0.1237,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor openness is anchored to the raised lower perimeter and broad accessible base."
+        }
       },
       {
         "statement": "The two-stage spatiality offers a new way of designing an educational space.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two-stage spatiality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5989,
+            0.4552,
+            0.5833
+          ],
+          "radius": 0.3233,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The marker represents the stacked lower and introverted upper educational volumes."
+        }
       },
       {
         "statement": "The innovative and daring proposal shakes up thinking about secondary-level learning.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "innovative educational proposal",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3333,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns the proposal’s educational identity rather than a locatable geometric feature."
+        }
       },
       {
         "statement": "The project’s courage and innovation enabled debate on the college of tomorrow.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "college of tomorrow debate",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3333,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comment addresses innovation and debate at project scale without a specific spatial referent."
+        }
       }
     ],
     "negative": [
@@ -53,34 +131,127 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "occupied land without residual spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8503,
+            0.1237,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Site occupation is anchored to the building footprint and its perimeter condition at ground level."
+        }
       },
       {
         "statement": "The building reinforces the urban path without completely connecting to it.",
         "tags": [
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "urban path connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.099,
+            0.1237,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Incomplete connection is approximated at the lower south-west perimeter threshold."
+        }
       },
       {
         "statement": "The glass-block classroom walls are interesting but not well suited to the use of these spaces.",
         "tags": [
           "facade",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "glass-block classroom walls",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7693,
+            1,
+            0.6667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Classroom wall placement is approximated on the upper north-east envelope; material is not distinguishable."
+        }
       },
       {
         "statement": "The corridors leading to the classrooms are undersized for the number of students moving simultaneously.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classroom corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4571,
+            0.4974,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "Interior corridors are inferred near the upper-level central circulation zone, adjacent to visible classroom patterns."
+        }
       },
       {
         "statement": "The spatial proposal seems more suitable for a university-level establishment than a secondary school.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "secondary-school suitability",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6197,
+            0.3786,
+            0.5833
+          ],
+          "radius": 0.3333,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Programmatic criticism applies broadly, anchored to the building’s stacked educational mass."
+        }
       }
     ],
     "keyword": [

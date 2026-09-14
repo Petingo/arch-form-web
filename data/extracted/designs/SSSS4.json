@@ -18,56 +18,203 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.779,
+            0.5892,
+            0
+          ],
+          "radius": 0.308,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open landscape is located around the separated building masses, especially toward the southern and eastern site edges."
+        }
       },
       {
         "statement": "The central hall creates a clear and easily found entrance gate to the facility.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "central hall entrance gate",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2971,
+            0.5767,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The connecting junction between the two elongated masses provides the most plausible shared entrance location."
+        }
       },
       {
         "statement": "The architecture respects the necessary distance from the outdoor pool, allowing the landscape to flow around it.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor pool",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8254,
+            0.5863,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The pool is not distinctly sampled; the open southern zone adjacent to the main building is used."
+        }
       },
       {
         "statement": "The operational arrangement of the ice rink promises good use.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ice rink",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6359,
+            0.5982,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The larger elongated building is the most plausible ice-rink volume, supported by its broad footprint and elevations."
+        }
       },
       {
         "statement": "The indoor pool is organized on one floor with a pleasant reference to the outdoor pool.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "indoor pool",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6086,
+            0.5999,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The indoor pool is not separately identifiable; it is approximated within the main hall volume."
+        }
       },
       {
         "statement": "The noise insulation of the open ice rink works well.",
         "tags": [
           "acoustics",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "open ice rink",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5931,
+            0.6009,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The open rink is not distinctly visible, so a low-level position beside the main volume is assigned."
+        }
       },
       {
         "statement": "The ideas for the wider area provide beneficial additions to the sports and leisure facility.",
         "tags": [
           "functionality",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "wider area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8099,
+            0.5873,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The comment concerns additions around the facility; the surrounding open southern site is the useful anchor."
+        }
       },
       {
         "statement": "The supporting concept is simple and requires moderate spans.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "supporting concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5789,
+            0.6018,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural simplicity applies across both connected building masses rather than a single distinguishable element."
+        }
       }
     ],
     "negative": [
@@ -77,7 +224,25 @@
           "layout",
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "transition zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2966,
+            0.5732,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The narrow connection between the two masses is the likely transition zone between uses."
+        }
       },
       {
         "statement": "The massive roof does not provide enough atmospheric support for the outdoor pool's identity.",
@@ -85,7 +250,27 @@
           "massing",
           "identity",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "massive roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6264,
+            0.7229,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The extensive connected roof is clearly visible across the main upper footprint and elevations."
+        }
       },
       {
         "statement": "The large footprint causes relatively high sealing and prevents green roofs.",
@@ -93,21 +278,74 @@
           "sustainability",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large footprint",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5157,
+            0.6057,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Two elongated footprints visibly occupy a substantial portion of the sampled site."
+        }
       },
       {
         "statement": "The paths and terrain adjustments do not yet fit well into the existing park.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "paths and terrain adjustments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2392,
+            0.2532,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Site circulation and grading are not separately sampled; the southern approach zone is used."
+        }
       },
       {
         "statement": "Scattered seating elements contradict the character of the park pool and appear interchangeable.",
         "tags": [
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "seating elements",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7944,
+            0.5883,
+            0
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Seating is absent from the point cloud; a plausible pool-park edge position is assigned."
+        }
       },
       {
         "statement": "The separate entrances weaken the clarity of the shared reception arrangement.",
@@ -115,21 +353,79 @@
           "circulation",
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "separate entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2917,
+            0.5458,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrances are not individually distinguishable; the connection and adjacent facades provide the anchor."
+        }
       },
       {
         "statement": "The upper floor is not easily accessible for disabled people.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "upper floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6651,
+            0.5964,
+            0.6667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper-level access is assigned to the raised portion of the main elongated building."
+        }
       },
       {
         "statement": "The indoor pool's expansive canopy may prevent daylight and eye contact with the outside.",
         "tags": [
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "indoor pool canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6347,
+            0.7686,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The canopy corresponds to the broad roof over the likely indoor-pool portion of the main volume."
+        }
       },
       {
         "statement": "The project has high creation costs because of its large roof, facade areas, volume, and excavation.",
@@ -137,7 +433,26 @@
           "cost",
           "massing",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "large roof, facade areas, volume, and excavation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5944,
+            0.6008,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Cost drivers are distributed across the connected roof, facades, building volume, and extensive footprint."
+        }
       },
       {
         "statement": "The iconic silhouette failed to convince the jury at this location.",
@@ -145,7 +460,27 @@
           "expression",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "iconic silhouette",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5403,
+            0.6042,
+            0.8333
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The angular two-part silhouette is visible across the top and elevation views."
+        }
       }
     ],
     "keyword": [

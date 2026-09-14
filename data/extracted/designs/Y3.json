@@ -17,49 +17,196 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "relationships with nature",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4998,
+            0.9732,
+            0.0556
+          ],
+          "radius": 0.312,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Circular perimeter and surrounding gap are visible, supporting a landscape relationship around the pavilion."
+        }
       },
       {
         "statement": "The orthogonal organization within the circular form provides a certain spatial richness.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "orthogonal organization within circular form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2478,
+            0.3763,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly shows orthogonal interior groupings enclosed by the circular outer volume."
+        }
       },
       {
         "statement": "Generous informal distribution spaces open toward the exterior and the central patio.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "informal distribution spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2478,
+            0.3763,
+            0.4444
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior circulation zones are approximated beside visible central openings and perimeter."
+        }
       },
       {
         "statement": "The distributions and plan typology allow a certain flexibility.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "distributions and plan typology",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2478,
+            0.3763,
+            0.5556
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated orthogonal plan traces across elevations support flexible distribution across circular floors."
+        }
       },
       {
         "statement": "The concrete-wood structure with bracing cores is efficient and allows future changes.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "concrete-wood structure with bracing cores",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4952,
+            0.534,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Centralized vertical and horizontal patterns provide only an approximate structural-system anchor."
+        }
       },
       {
         "statement": "The building has a strong identity that reinforces the established language of cylinders.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "cylindrical building identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4998,
+            1,
+            0.5
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous circular perimeter is unmistakable in plan and all elevations."
+        }
       },
       {
         "statement": "Its compact volume places it among the compact proposals.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5453,
+            0.9979,
+            0.5
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The pavilion’s compact circular envelope is directly established by the dense perimeter sample."
+        }
       }
     ],
     "negative": [
@@ -69,21 +216,80 @@
           "proportion",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "narrow, elongated, or triangular premises",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1859,
+            0.3763,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior orthogonal traces suggest constrained room geometry, though individual premises are not resolved."
+        }
       },
       {
         "statement": "The patios are too small to provide convincing lighting down to the lower floors.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "small patios",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4952,
+            0.534,
+            0.4444
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Small internal openings are visible in plan and elevations as patio-related interruptions."
+        }
       },
       {
         "statement": "The volume is considered particularly generous compared with the average.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "generous volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4998,
+            0.9732,
+            0.4444
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full circular envelope and repeated floors directly establish the building’s overall volume."
+        }
       },
       {
         "statement": "The heavily glazed facades, concrete roof, and generous volume contribute to average gray-energy consumption.",
@@ -91,7 +297,28 @@
           "sustainability",
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "heavily glazed facades and concrete roof",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4998,
+            0.9801,
+            0.9444
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Outer facade and roof perimeter are visible, but glazing and concrete finish are not material-resolved."
+        }
       }
     ],
     "keyword": [

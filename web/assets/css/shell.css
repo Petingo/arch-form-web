@@ -5,8 +5,8 @@
 :root {
   --ink: #141714;
   --muted: #73786f;
-  --paper: #f2f0e9;
-  --panel: #fbfaf6;
+  --paper: #ffffff;
+  --panel: #ffffff;
   --line: #d9d8d0;
   --positive: #19a66a;
   --negative: #ed5d51;
@@ -18,7 +18,7 @@ html { background: var(--paper); }
 body { margin: 0; color: var(--ink); background: var(--paper); font-family: "Manrope", sans-serif; -webkit-font-smoothing: antialiased; }
 a { color: inherit; }
 
-.shell-header { position: sticky; top: 0; z-index: 20; display: grid; grid-template-columns: 220px 1fr auto; align-items: center; min-height: 88px; padding: 0 28px; border-bottom: 1px solid var(--line); background: rgba(251,250,246,.94); backdrop-filter: blur(14px); }
+.shell-header { position: sticky; top: 0; z-index: 20; display: grid; grid-template-columns: 220px 1fr auto; align-items: center; min-height: 88px; padding: 0 28px; border-bottom: 1px solid var(--line); background: rgba(255, 255, 255,.94); backdrop-filter: blur(14px); }
 .brand { display: inline-flex; align-items: center; gap: 12px; width: max-content; color: inherit; text-decoration: none; font-size: 13px; font-weight: 700; letter-spacing: .14em; }
 .brand-mark { position: relative; width: 26px; height: 26px; transform: rotate(30deg); }
 .brand-mark i { position: absolute; inset: 5px; border: 1.5px solid var(--ink); }

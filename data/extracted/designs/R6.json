@@ -16,21 +16,74 @@
         "tags": [
           "topography",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "workshop slope edge",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3263,
+            0.9284,
+            0.75
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Rectangular workshop footprint visibly follows the upper sloped edge and remains compact."
+        }
       },
       {
         "statement": "The idea of expanding the open space to create a second viewing point is convincing.",
         "tags": [
           "open space",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "second viewing point",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5482,
+            0.2546,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Lower trapezoidal public element plausibly marks the expanded open-space viewing area."
+        }
       },
       {
         "statement": "The spacious eastern green area, fruit-tree theme, path extensions, and informal play areas are appropriately retained or developed.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "eastern green area and informal play areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9172,
+            0.3986,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open eastern area lies beside the rectangular mass, with landscape use inferred from unbuilt space."
+        }
       },
       {
         "statement": "The generous access axis, guided by zenithal daylight, promises a high-quality meeting place that supports identification with the technical school while respecting the existing main building.",
@@ -38,21 +91,80 @@
           "circulation",
           "daylight",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "generous access axis",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5093,
+            0.4303,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central alignment between upper workshop and lower forum approximates the meeting-place access axis."
+        }
       },
       {
         "statement": "The well-sized training and workshop rooms are well lit through atriums.",
         "tags": [
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "training and workshop rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6346,
+            0.8243,
+            0.625
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Rooms are inferred within the visible rectangular workshop envelope; atriums are not separately distinguishable."
+        }
       },
       {
         "statement": "The typology of the workshop building fits the town crown and is developed from its context.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "workshop building typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.581,
+            0.8424,
+            0.625
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated rectangular mass is clearly identifiable across plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -61,62 +173,231 @@
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "forum form and size",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5616,
+            0.2501,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct trapezoidal lower footprint visibly occupies a substantial open-space portion."
+        }
       },
       {
         "statement": "The generous paved piazza seems somewhat artificial, and its necessity and significance are doubted.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "paved piazza",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4946,
+            0.2727,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open apron around the lower trapezoidal element is the plausible piazza location."
+        }
       },
       {
         "statement": "There is no understandable connection from the piazza to the existing technical center, and the historical context is treated only rudimentarily.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "piazza connection to existing technical center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4825,
+            0.4393,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The interstitial alignment between the two masses approximates the questioned connection."
+        }
       },
       {
         "statement": "The planting concept remains too reserved to strengthen the integration of the buildings into the surroundings.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building surroundings planting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9421,
+            0.4866,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Eastern perimeter open space is the likely planting integration zone."
+        }
       },
       {
         "statement": "Additional corridors to the classrooms compete strongly with the central axis.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "additional classroom corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6346,
+            0.8243,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Corridors are not distinct, so the central workshop interior is used as a constrained proxy."
+        }
       },
       {
         "statement": "The column-free forum has no reference to the sports hall below and therefore raises questions about the supporting structure.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "column-free forum and sports hall relationship",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5348,
+            0.2591,
+            0.125
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Lower forum footprint is visible, but supporting structure and sports hall reference are unresolved."
+        }
       },
       {
         "statement": "The uses are mostly functional but not optimally organized, and the space for the flow of goods is too limited.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "goods flow space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1742,
+            0.5434,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A constrained service-zone estimate is placed near the workshop’s western edge."
+        }
       },
       {
         "statement": "The city-facing facade appears artificial, while the interaction between the two facade languages appears arbitrary.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "city-facing facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.514,
+            0.8651,
+            0.625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The upper long edge is used as the likely city-facing facade, though orientation is not independently distinguishable."
+        }
       },
       {
         "statement": "The overall effect of the project is therefore not convincing.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "overall project effect",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5227,
+            0.4257,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall judgment is anchored to the combined rectangular workshop and trapezoidal forum composition."
+        }
       }
     ],
     "keyword": [

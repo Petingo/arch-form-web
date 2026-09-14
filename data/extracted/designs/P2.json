@@ -17,7 +17,28 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "independent open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.478,
+            0.5669,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central enclosed open space is visibly formed within the elongated school footprint."
+        }
       },
       {
         "statement": "A clear spatial organization and rational building structure enable a precise distribution of uses.",
@@ -25,7 +46,28 @@
           "layout",
           "functionality",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "spatial organization and building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6244,
+            0.5167,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Linear massing and repeated levels provide a distributed building-scale anchor."
+        }
       },
       {
         "statement": "The primary level's courtyards, escape balcony and bright group rooms provide a high degree of flexibility.",
@@ -33,14 +75,46 @@
           "layout",
           "flexibility",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "primary-level courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4877,
+            0.5795,
+            0.125
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Several courtyard-like voids are visibly arranged along the primary level."
+        }
       },
       {
         "statement": "The hybrid construction and moderate spans have a positive effect on primary energy and greenhouse-gas emissions.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "hybrid construction and moderate spans",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates structural and environmental performance without a useful spatial referent."
+        }
       },
       {
         "statement": "The project achieves high architectural quality and contributes valuable spatial qualities for a new school.",
@@ -48,7 +122,28 @@
           "expression",
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "whole school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6048,
+            0.4914,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Architectural quality is assigned across the visible school volume and its organized voids."
+        }
       }
     ],
     "negative": [
@@ -58,7 +153,27 @@
           "massing",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "basement and building-base transition",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4291,
+            0.5037,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The lowest visible level supplies an approximate anchor for the criticized base condition."
+        }
       },
       {
         "statement": "The new building appears crowded in its context and would become more self-evident as a solitaire.",
@@ -66,7 +181,28 @@
           "massing",
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole building in context",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.595,
+            0.4787,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated mass is visible, while crowding and solitaire comparison remain contextual judgments."
+        }
       },
       {
         "statement": "The landscape treatment is didactic and directly implemented, while the uniform tree species contradicts the extensive-facility concept.",
@@ -74,7 +210,24 @@
           "landscape",
           "expression",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "landscape treatment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2013,
+            0.8008,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A peripheral site anchor represents the criticized landscape around the building."
+        }
       },
       {
         "statement": "The entrances to the school area are all on the side and rather small.",
@@ -82,21 +235,82 @@
           "circulation",
           "visibility",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "school-area entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3019,
+            0.3392,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The side-facade constraint places entrances along the building edge, though openings are indistinguishable."
+        }
       },
       {
         "statement": "The upper-level classrooms lack nearby storage and material rooms.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper-level classroom storage",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6666,
+            0.5189,
+            0.75
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper classroom-related space is anchored on the upper repeated level."
+        }
       },
       {
         "statement": "The caretaker's apartment location is not understood and seems anecdotal.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "caretaker's apartment",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7904,
+            0.3468,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The apartment is not distinguishable, so it receives a constrained interior-side building estimate."
+        }
       },
       {
         "statement": "The poor compactness, low insulation values and high proportion of windows negatively affect energy efficiency.",
@@ -104,21 +318,64 @@
           "massing",
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "energy efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an overall performance judgment without a single useful spatial referent."
+        }
       },
       {
         "statement": "The technical distribution and shaft concept remain unclear, with uncertain pipe routing.",
         "tags": [
           "operation",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "technical shafts and pipe routing",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4627,
+            0.5999,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "An interior service-spine estimate locates the unshown technical distribution system."
+        }
       },
       {
         "statement": "The project has the highest construction costs because of its large amount of required space.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost comparison is non-spatial and relates to overall required building area."
+        }
       }
     ],
     "keyword": [

@@ -16,42 +16,154 @@
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two buildings surrounding a playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.514,
+            0.4783,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Two L-shaped footprints visibly enclose a central open playground."
+        }
       },
       {
         "statement": "The group of buildings fits well into the existing site and protects the recreational space.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "protected recreational space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5029,
+            0.4683,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central courtyard is clearly bounded by the paired building volumes."
+        }
       },
       {
         "statement": "Structuring the primary school into two groups around a top-lit space is interesting.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "top-lit space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.52,
+            0.4836,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central opening between the L-shaped groups provides the identifiable spatial anchor."
+        }
       },
       {
         "statement": "The proposed architecture is simple and rational.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "simple rational architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.269,
+            0.7224,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The judgment applies to the overall paired low-rise composition."
+        }
       },
       {
         "statement": "The openness to possible prefabrication is welcomed.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "prefabrication",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Prefabrication potential is a construction strategy without a useful geometric location."
+        }
       },
       {
         "statement": "The outdoor spaces are pleasant and well designed.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5252,
+            0.4882,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Courtyard and surrounding open areas are clearly visible in the top and elevation views."
+        }
       }
     ],
     "negative": [
@@ -61,14 +173,52 @@
           "circulation",
           "accessibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "bus stop, entrance area, and covered courtyards",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1973,
+            0.1952,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "These access and covered-space concerns are not separately identifiable; a perimeter ground anchor is approximate."
+        }
       },
       {
         "statement": "The glass wall separating the main entrance from the covered courtyard is not understood.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "glass wall at main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4695,
+            0.4385,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The separating wall is not distinguishable, so it is approximated at the courtyard entrance edge."
+        }
       },
       {
         "statement": "The WC and circulation blocks hamper future flexibility in the organization of spaces.",
@@ -76,21 +226,78 @@
           "circulation",
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "WC and circulation blocks",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2673,
+            0.7209,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior service blocks are absent as distinct features and are estimated within one building group."
+        }
       },
       {
         "statement": "Choosing a ground-floor building for a full-day school is expensive.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor building",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2673,
+            0.7209,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low-rise ground-floor condition is supported by the visible footprint and elevations."
+        }
       },
       {
         "statement": "The surface areas and volumes are slightly below the average for the projects.",
         "tags": [
           "scale",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "surface areas and volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7085,
+            0.2303,
+            0.3713
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Scale criticism applies to the overall paired building mass and footprint."
+        }
       }
     ],
     "keyword": [

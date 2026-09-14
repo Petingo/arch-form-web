@@ -16,14 +16,55 @@
         "tags": [
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7254,
+            0.7267,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact two-story volume and articulated massing are visible across the plan and elevations."
+        }
       },
       {
         "statement": "The architecture with irregularly arranged concrete bulkheads is precisely and poetically formulated.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "irregularly arranged concrete bulkheads",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7254,
+            0.6435,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated facade bands and vertical edge elements are visible in the calibrated elevations."
+        }
       },
       {
         "statement": "The building structure, expression, and interior design are conceived integrally and presented appealingly.",
@@ -31,14 +72,54 @@
           "structure",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "integrated structure, expression, and interior design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7254,
+            0.6574,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Exterior massing provides a building-scale anchor, while interior integration is not directly distinguishable."
+        }
       },
       {
         "statement": "The proposal is a strong piece of architecture with great appeal in its precision.",
         "tags": [
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "whole building precision and proportion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.27,
+            0.7302,
+            0.6667
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall proportions and precise rectilinear footprint are visible across plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -47,70 +128,256 @@
         "tags": [
           "circulation",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "central corridor",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5063,
+            0.7302,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central circulation is inferred near the junction between the visible plan masses."
+        }
       },
       {
         "statement": "The corridor glazing would be structurally complex if used as fire-protection glazing.",
         "tags": [
           "facade",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "corridor glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7254,
+            0.3803,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Corridor glazing is not identifiable, so the marker uses the likely front-facing corridor envelope."
+        }
       },
       {
         "statement": "The load-bearing bulkheads prevent the room layout from being changed.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "load-bearing bulkheads",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7254,
+            0.6297,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Facade bulkhead-like vertical and horizontal elements are clearly sampled in the elevations."
+        }
       },
       {
         "statement": "The underground gymnasium escape stairs are somewhat coincidentally located in front of the building.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "underground gymnasium escape stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7254,
+            0.0478,
+            0
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The stairs are constrained to the building frontage and near-ground level, but are not separately visible."
+        }
       },
       {
         "statement": "The proposed hard break area is too small, and no covered break area is offered.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "hard break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0554,
+            0.121,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The small front-side open-space projection is used as the approximate break-area anchor."
+        }
       },
       {
         "statement": "The remaining canton-owned area does not have the required dimensions, limiting the intended large connected space.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "remaining canton-owned area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0554,
+            0.1903,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The residual site area is approximated beside the smaller southern footprint projection."
+        }
       },
       {
         "statement": "Even with recycled concrete, the concrete structure will hardly meet the environmental requirements.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "concrete structure environmental performance",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7254,
+            0.6989,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Concrete structure is represented by the visible building envelope, without material-performance data."
+        }
       },
       {
         "statement": "The building-technology concept is contradictory and is not implemented in the architect's plans.",
         "tags": [
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "building-technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7254,
+            0.602,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Building services are not visible, so the marker uses a constrained central building-surface location."
+        }
       },
       {
         "statement": "The sacred character of the interior tends to distract from the robust basic concept for small children.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sacred interior character",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4219,
+            0.7302,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior character is absent from the exterior sample and approximated within the main occupied volume."
+        }
       },
       {
         "statement": "The chosen typology has serious disadvantages, especially because the central corridor does not support contemporary educational work.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central-corridor typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4557,
+            0.7302,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The typological criticism is anchored to the inferred central circulation spine and connected classroom masses."
+        }
       }
     ],
     "keyword": [

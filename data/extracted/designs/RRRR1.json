@@ -17,35 +17,131 @@
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "parking and open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7516,
+            0.2315,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The detached lower-right area is the clearest sampled open-space and parking region."
+        }
       },
       {
         "statement": "The minimized footprint generates maximum open space for a new park and contributes to the local climate.",
         "tags": [
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "new park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7739,
+            0.2526,
+            0.0714
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower-right open area plausibly represents the proposed park."
+        }
       },
       {
         "statement": "The small square and restaurants significantly improve the quality of stay.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "small square and restaurants",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6456,
+            0.2959,
+            0.0714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A lower-right exterior zone provides the most plausible location for square and restaurants."
+        }
       },
       {
         "statement": "The openness, lightness and permeability of the sculptural facade integrate the building into the surrounding development.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sculptural facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4768,
+            0.7263,
+            0.6429
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The large rotated perimeter mass exposes a clearly traceable facade surface."
+        }
       },
       {
         "statement": "The existing buildings are handled very carefully.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "existing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7963,
+            0.2737,
+            0.3571
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The detached lower-right mass is used as the likely existing-building context."
+        }
       },
       {
         "statement": "The green inner courtyard creates a symbolic center, brings light inside, regulates the internal climate, and provides orientation and meeting space.",
@@ -53,7 +149,27 @@
           "open space",
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "green inner courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3589,
+            0.6071,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central opening within the main rotated footprint is directly visible in plan."
+        }
       },
       {
         "statement": "The atrium as a compact distributor ensures flexibility, overview and easy orientation.",
@@ -61,28 +177,110 @@
           "flexibility",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3589,
+            0.6071,
+            0.5714
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The same central opening provides a clear atrium or distributor anchor."
+        }
       },
       {
         "statement": "The ecological construction and resource-saving operation form a convincing architectural expression.",
         "tags": [
           "sustainability",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "ecological construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3432,
+            0.6384,
+            0.5714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Construction and operation are assessed at the compact building envelope."
+        }
       },
       {
         "statement": "The compact shape and high space efficiency are economically convincing.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "compact shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3274,
+            0.6698,
+            0.5714
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The compact multi-storey main mass is clearly identifiable across plan and elevations."
+        }
       },
       {
         "statement": "The building creates urban calm and gives the institution an independent forward-looking identity.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "building identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3746,
+            0.5757,
+            0.5714
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The overall sculptural compact figure provides the appropriate building-scale identity anchor."
+        }
       }
     ],
     "negative": [
@@ -91,21 +289,80 @@
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "inner garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3432,
+            0.6384,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The internal courtyard opening is directly visible in the top view."
+        }
       },
       {
         "statement": "How existing trees are to be dealt with has not been clearly clarified.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7292,
+            0.2104,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The detached open-space area is the plausible location for unresolved existing trees."
+        }
       },
       {
         "statement": "The simple building structure sometimes results in long distances and suboptimal operational processes for patients.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "long distances",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3746,
+            0.5757,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact multi-storey floor plate is used for the operational circulation critique."
+        }
       }
     ],
     "keyword": [

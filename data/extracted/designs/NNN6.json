@@ -18,7 +18,26 @@
           "urban integration",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "new passage",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6909,
+            0.8245,
+            0.4286
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Passage-side placement follows the building's elongated upper-right relationship in plan."
+        }
       },
       {
         "statement": "The two entrances and the clarity of pedestrian circulation are well integrated into the site.",
@@ -26,28 +45,105 @@
           "circulation",
           "accessibility",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "two entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6909,
+            0.8245,
+            0.2857
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Entrances are placed along the accessible edge at lower and intermediate levels."
+        }
       },
       {
         "statement": "The underground base frees the building from disturbing volumetric annexes.",
         "tags": [
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "underground base",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1827,
+            0.2164,
+            0.0714
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Partly sunken lower mass is visible near the southwestern footprint and lowest elevations."
+        }
       },
       {
         "statement": "The supporting structure and architectural choices respond to the functional needs in a coherent and interesting way.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6909,
+            0.8245,
+            0.5714
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated stacked plates visibly express the building's supporting structural order."
+        }
       },
       {
         "statement": "The project is recognized for its qualities of interior organization and exterior spaces.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "exterior spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6909,
+            0.8245,
+            0.2143
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Exterior organization is assigned to the open passage-facing surroundings."
+        }
       }
     ],
     "negative": [
@@ -57,21 +153,81 @@
           "urban integration",
           "scale",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "cantonal road distance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6909,
+            0.9575,
+            0.7143
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northward displacement and height concern are anchored along the northern upper edge."
+        }
       },
       {
         "statement": "The jury questions whether such an iconic gesture is necessary.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "iconic gesture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6909,
+            0.8245,
+            0.7143
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The expressive vertical stack and alternating plates are clearly visible in every elevation."
+        }
       },
       {
         "statement": "The project offers little flexibility for future needs, and the effectiveness of an institution spanning three floors is questioned.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three-floor institution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6909,
+            0.8265,
+            0.5714
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Limited flexibility is assigned to the complete repeated three-level organization."
+        }
       }
     ],
     "keyword": [

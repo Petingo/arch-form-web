@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "comb structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5417,
+            0.4287,
+            0.4644
+          ],
+          "radius": 0.326,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Comb massing and alternating arms are clearly legible across the footprint and elevations."
+        }
       },
       {
         "statement": "The orthogonal placement facilitates north-south permeability and establishes a hierarchy of external spaces and circulation.",
@@ -26,7 +47,26 @@
           "circulation",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "north-south permeability and external circulation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5308,
+            0.4713,
+            0.1082
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Longitudinal gaps between arms suggest permeability through the central and southern open spaces."
+        }
       },
       {
         "statement": "The sequence of built bodies and courtyards successfully reproduces the dimensions of the existing spaces.",
@@ -34,7 +74,26 @@
           "massing",
           "proportion",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sequence of built bodies and courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5402,
+            0.4346,
+            0.2863
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated courtyard voids and orthogonal building segments are visible in the top and elevation views."
+        }
       },
       {
         "statement": "The differentiation of public spaces, including more intimate residential areas, is an important quality.",
@@ -42,7 +101,25 @@
           "open space",
           "privacy",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "differentiated public and intimate residential spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4122,
+            0.2975,
+            0.1082
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open courtyard regions provide plausible locations for differentiated public and intimate outdoor spaces."
+        }
       },
       {
         "statement": "The housing typologies are well studied, and the variation of modules is convincing.",
@@ -50,7 +127,26 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "housing typologies and module variation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6673,
+            0.5428,
+            0.4644
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated segmented arms and varied bay patterns indicate modular housing organization."
+        }
       },
       {
         "statement": "The greenery and paths remain continuous through the enclosure and connect the river with the school garden.",
@@ -58,14 +154,49 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "continuous greenery and paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7495,
+            0.2214,
+            0.0726
+          ],
+          "radius": 0.335,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Courtyard and perimeter gaps offer approximate routes through the comb, though landscape is not distinguishable."
+        }
       },
       {
         "statement": "The urban forest positively affects the microclimate and filters emissions from the surrounding road.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "urban forest",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2169,
+            0.2016,
+            0.0726
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A peripheral southern-western open area is used as a plausible landscape anchor."
+        }
       },
       {
         "statement": "The green roof and insulated load-bearing structure are effective choices.",
@@ -73,7 +204,26 @@
           "landscape",
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "green roof and insulated load-bearing structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8454,
+            0.6073,
+            0.9274
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The upper envelope is visible, while roof planting and insulation remain unresolved in the sample."
+        }
       }
     ],
     "negative": [
@@ -83,7 +233,27 @@
           "massing",
           "proportion",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "base and upper part of new volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5198,
+            0.5143,
+            0.5712
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Layered lower and upper masses are visible in the elevations across the building."
+        }
       },
       {
         "statement": "The distribution and accesses are ambiguous, with consequences for the façades.",
@@ -91,7 +261,25 @@
           "circulation",
           "layout",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "distribution and accesses",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2358,
+            0.2584,
+            0.2863
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Likely access points occur along southern courtyard-facing edges, but entrances are not individually identifiable."
+        }
       },
       {
         "statement": "The different connections between the comb arms and central body create an inconsistency between courtyards.",
@@ -99,49 +287,182 @@
           "layout",
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "connections between comb arms and central body",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5198,
+            0.5143,
+            0.4288
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Junctions between repeated arms and the central body are visible as varied courtyard connections."
+        }
       },
       {
         "statement": "The distribution system is spatially interesting but rather complicated.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "complicated distribution system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6673,
+            0.5428,
+            0.5
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The segmented plan suggests complexity, but internal circulation is not directly represented."
+        }
       },
       {
         "statement": "The relevance of opening skylights in the existing roof is questioned.",
         "tags": [
           "daylight",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "opening skylights in existing roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2792,
+            0.6443,
+            0.9274
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A roof-level point is assigned within the northern upper envelope, though skylights are not distinguishable."
+        }
       },
       {
         "statement": "The relationship with the historical complex is not entirely convincing.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "relationship with historical complex",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8076,
+            0.755,
+            0.1802
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern edge is used as the interface toward the stated historical complex."
+        }
       },
       {
         "statement": "The execution methods require better verification given the complex geometry.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "complex execution methods",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5417,
+            0.4287,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full segmented envelope provides the spatial anchor for construction complexity."
+        }
       },
       {
         "statement": "Summer thermal comfort and cooling needs, especially in glazed common areas, must be checked.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "summer thermal comfort in glazed common areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7329,
+            0.2861,
+            0.4644
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A courtyard-facing mid-height zone is a plausible location for glazed common areas."
+        }
       },
       {
         "statement": "The treatment of systems in the existing buildings is less in-depth.",
         "tags": [
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "systems in existing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2792,
+            0.6443,
+            0.4288
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The northern-western building edge is used as an approximate existing-building systems anchor."
+        }
       }
     ],
     "keyword": [

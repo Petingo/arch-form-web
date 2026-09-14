@@ -16,77 +16,277 @@
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "protected townscape stance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2445,
+            0.4831,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad building placement is anchored to the visible outer mass, with elevations confirming its overall embedded scale."
+        }
       },
       {
         "statement": "The curved volume creates an interesting interweaving of open space across the plot boundaries.",
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "curved interwoven volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4783,
+            0.4862,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly shows the five curved arms interweaving open space around a central junction."
+        }
       },
       {
         "statement": "The building is cleverly perceived as a collection of smaller volumes within the green urban body.",
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "smaller volumes within green urban body",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.295,
+            0.7927,
+            0.6
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct peripheral arms read as smaller volumes distributed around the larger central composition."
+        }
       },
       {
         "statement": "The public permeability of the ground floor and the spaciousness of the reception area are particularly welcomed.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "public ground floor and reception area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5675,
+            0.3277,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-level judgment is anchored near the central entry-facing surface, though reception is not distinguishable in the sample."
+        }
       },
       {
         "statement": "The garden pockets, entrance and small campus create pleasantly different atmospheres and respectfully engage the existing buildings.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "garden pockets, entrance and small campus",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7445,
+            0.2292,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open pockets around the lower-right arm provide the most plausible sampled anchor for site arrival and garden spaces."
+        }
       },
       {
         "statement": "The existing trees are integrated into the overall concept with a high degree of sensitivity.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2436,
+            0.2102,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "No trees are distinguishable, so the anchor uses an exposed peripheral landscape zone beside the building."
+        }
       },
       {
         "statement": "The architectural expression supports the curved form and is appropriate and largely understandable.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7785,
+            0.6494,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The articulated outer edge and repeated points visibly express the curved mass along the eastern arm."
+        }
       },
       {
         "statement": "The vertical pilaster layer creates permeability, intimacy and structural sun protection.",
         "tags": [
           "facade",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "vertical pilaster layer",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9124,
+            0.5142,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade layering is not individually resolved; the eastern perimeter provides the constrained vertical-screen anchor."
+        }
       },
       {
         "statement": "The low-invasive conversion of the existing building appears precise and well thought out.",
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "existing building conversion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2499,
+            0.174,
+            0.4
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The converted structure is not identifiable, so a separate-looking southwest peripheral volume is used as an approximate anchor."
+        }
       },
       {
         "statement": "The intensive green roof makes a valuable contribution to biodiversity.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "intensive green roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4768,
+            0.4747,
+            0.9
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The roof footprint is visible from above and its constant upper edge is confirmed in elevations."
+        }
       },
       {
         "statement": "The proposal is robust in terms of building physics and construction.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building physics and construction",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The statement evaluates whole-building performance and construction rather than a locatable geometric feature."
+        }
       }
     ],
     "negative": [
@@ -95,63 +295,233 @@
         "tags": [
           "scale",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "constant roof edge and high volumes",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4084,
+            0.8982,
+            0.9
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper perimeter remains level while the elevation sample shows the roof edge rising prominently above lower terrain."
+        }
       },
       {
         "statement": "The longer facade development causes the project to lose economic efficiency.",
         "tags": [
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "long facade development",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.907,
+            0.5508,
+            0.5
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated eastern and western perimeter arms visibly create extensive facade length."
+        }
       },
       {
         "statement": "The arrangement of the treatment rooms was assessed very critically because privacy can hardly be guaranteed.",
         "tags": [
           "privacy",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "treatment rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6889,
+            0.5979,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Interior rooms are absent from the exterior sample; the northeastern arm provides a constrained clinical-zone estimate."
+        }
       },
       {
         "statement": "The waiting areas remain separated from the facade, limiting views to the outside.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "waiting areas separated from facade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3089,
+            0.7021,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Waiting areas are not visible; the interior side of the western arm is used as a constrained approximation."
+        }
       },
       {
         "statement": "The corridors on the facade are questioned at the laboratory level.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "facade corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6596,
+            0.4306,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Corridors cannot be resolved, so the narrow interior band beside the eastern facade is used."
+        }
       },
       {
         "statement": "The long walk between the office pool and laboratories is impractical and undesirable.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "walk between office pool and laboratories",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5941,
+            0.2248,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The circulation issue is anchored to the elongated lower connector visible between peripheral arms."
+        }
       },
       {
         "statement": "The future viability of such a specific form was controversially discussed.",
         "tags": [
           "flexibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "future viability of specific form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4547,
+            0.4897,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete interwoven five-arm geometry is directly visible and defines the debated long-term specificity."
+        }
       },
       {
         "statement": "The curved shape creates many narrow, angled spaces that are critical for use.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "narrow angled spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6749,
+            0.261,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Acute residual spaces are visibly concentrated where the lower-right arm meets the central volume."
+        }
       },
       {
         "statement": "The insulation standard on the inner-courtyard facades must be increased, and functional summer thermal protection is lacking.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "inner-courtyard facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4988,
+            0.4675,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyard-facing surfaces are inferred around the central void, which is visible but lacks facade-system detail."
+        }
       }
     ],
     "keyword": [

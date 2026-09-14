@@ -16,56 +16,198 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "three-story volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0182,
+            0.2236,
+            0.5625
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated low-profile volume and terraced edges are clearly visible against the surrounding footprint."
+        }
       },
       {
         "statement": "The inner large space as a collective center with surrounding spatial units is convincingly received.",
         "tags": [
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "collective atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4993,
+            0.499,
+            0.5684
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central opening is clearly identifiable in plan and elevations, surrounded by enclosing spatial units."
+        }
       },
       {
         "statement": "The walkway, river promenade, school garden, and flexible space beside the sports hall create a coherent landscape structure.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "river promenade and school garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2016,
+            0.0271,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "West and southern perimeter zones plausibly represent the promenade, garden, and flexible sports-hall landscape."
+        }
       },
       {
         "statement": "The cascade-like atrium creates a large-scale spatial experience and intelligently illuminates the auditorium with sidelight.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "cascade-like atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3824,
+            0.5275,
+            0.6875
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central atrium void and stepped vertical enclosure are visible across plan and elevation views."
+        }
       },
       {
         "statement": "The communicative experience in the hall and the horizontal networking of class units are remarkably preserved.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "hall and class-unit network",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5029,
+            0.5343,
+            0.5684
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Horizontal circulation is approximated through the elongated central-to-eastern interior zone."
+        }
       },
       {
         "statement": "The internal school landscape offers exemplary academic and operational advantages.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "internal school landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4765,
+            0.2781,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior landscape functions are anchored to the central organization and adjacent circulation surfaces."
+        }
       },
       {
         "statement": "The proposed timber skeletal construction with composite ceilings is a promising construction method.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "timber skeletal construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.724,
+            0.2617,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Structural material is not distinguishable, so the system is anchored to a representative building surface."
+        }
       },
       {
         "statement": "The compact building and technical concept indicate good economic efficiency in construction and operation.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic efficiency is a whole-design judgment without a useful single spatial referent."
+        }
       }
     ],
     "negative": [
@@ -74,56 +216,205 @@
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "dominant spiral staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.502,
+            0.5255,
+            0.4375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stair locations are not individually identifiable; anchored near the central circulation zone."
+        }
       },
       {
         "statement": "The music department is located in a secondary basement position with an unattractive corridor.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "music department basement",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0733,
+            0.7588,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The basement department is approximated on a secondary perimeter zone at low elevation."
+        }
       },
       {
         "statement": "The expression is somewhat brittle and refers to pragmatic local buildings.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "brittle building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9186,
+            0.1744,
+            0.5625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The critique concerns the visible overall envelope, anchored to its exposed outer massing."
+        }
       },
       {
         "statement": "The acoustic requirements along the street remain unresolved.",
         "tags": [
           "acoustics",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "street acoustic edge",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9368,
+            0.3511,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Street orientation is unspecified, so the unresolved acoustic edge receives an approximate facade anchor."
+        }
       },
       {
         "statement": "Any expansion into a sports hall would be operationally unfavorable and is more of a temporary solution.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "sports hall expansion",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.775,
+            0.7565,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Expansion is anchored near the outer zone beside the presumed sports-hall relationship."
+        }
       },
       {
         "statement": "The fire protection requirements have not yet been fully clarified.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "fire protection system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0801,
+            0.8245,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Fire protection is not visible as a system, so it receives a representative envelope anchor."
+        }
       },
       {
         "statement": "The revised school garden and greenhouse arrangement remains rather random in relation to the facade.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "school garden and greenhouse arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2592,
+            0.0249,
+            0.1875
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Garden and greenhouse are approximated along an exposed facade-adjacent perimeter zone."
+        }
       },
       {
         "statement": "The movement flow toward the river is not clearly slowed by the side ends of the vestibule.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "riverward vestibule flow",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0473,
+            0.5064,
+            0.3125
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "west"
+          ],
+          "rationale": "Riverward movement is constrained to the western edge and vestibule side-end condition."
+        }
       }
     ],
     "keyword": [

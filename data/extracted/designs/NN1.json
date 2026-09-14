@@ -16,28 +16,101 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "generous differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1628,
+            0.0395,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Top view shows substantial open ground around the south-west building mass and courtyard-like voids."
+        }
       },
       {
         "statement": "The building is well proportioned and structured through its band facade and material concept.",
         "tags": [
           "proportion",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "band facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5172,
+            0.0065,
+            0.5833
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated horizontal bands are clearly visible across the south and east elevations."
+        }
       },
       {
         "statement": "The ground-floor circulation is consistent and offers exciting insights and views.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor circulation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.349,
+            0.3,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level circulation is anchored near the visible lower-floor courtyard and connected building mass."
+        }
       },
       {
         "statement": "The spatial program and pedagogical objectives are implemented innovatively with considerable variability for users.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "spatial program and pedagogical variability",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5172,
+            0.2878,
+            0.5
+          ],
+          "radius": 0.348,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The checkerboard-like massing provides a distributed building-scale anchor for varied program organization."
+        }
       },
       {
         "statement": "The upper floors create an inspiring learning landscape through generous spatial sequences, atriums, daylight, and visual connections.",
@@ -45,21 +118,74 @@
           "layout",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor learning landscape",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5172,
+            0.194,
+            0.75
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper horizontal levels and central voids support an approximate elevated learning-landscape location."
+        }
       },
       {
         "statement": "The clear, simple supporting structure and conventional foundation support good economic efficiency.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure and foundation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic efficiency is a non-locational judgment about the structural and foundation concept."
+        }
       },
       {
         "statement": "Natural night cooling through the atriums provides a good prerequisite for natural ventilation.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "atriums for natural night cooling",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2953,
+            0.3395,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view identifies interior voids; elevation bands constrain their approximate vertical extent."
+        }
       },
       {
         "statement": "The project has high local, architectural, and educational qualities.",
@@ -67,7 +193,28 @@
           "urban integration",
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5172,
+            0.3034,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Local, architectural, and educational qualities apply broadly across the sampled building volume."
+        }
       }
     ],
     "negative": [
@@ -76,42 +223,150 @@
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "entrance area and auditorium foyer",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2061,
+            0,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A ground-level perimeter anchor approximates the undersized entrance and foyer zone."
+        }
       },
       {
         "statement": "The caretaker's apartment cannot be accessed through the public ground floor without compromising privacy.",
         "tags": [
           "privacy",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "caretaker's apartment access",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1453,
+            0.0395,
+            0.0833
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The apartment is interior and unidentifiable, so its access is approximated at the lower-floor perimeter."
+        }
       },
       {
         "statement": "The four single-flight stair routes must be revised because the desired cloakroom and meeting areas conflict with fire protection requirements.",
         "tags": [
           "circulation",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "single-flight stair routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3477,
+            0.3395,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central lower-to-upper circulation is approximated from the building’s visible layered organization."
+        }
       },
       {
         "statement": "Neither the caretaker's apartment location nor the overall size of the attic structure is convincing.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "caretaker's apartment and attic structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5172,
+            0.3034,
+            0.8333
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The combined concern is anchored to an upper peripheral building region; neither feature is separately identifiable."
+        }
       },
       {
         "statement": "The proposal recommends standardized ventilation without adequately responding to the atrium-based natural ventilation opportunity.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "atrium-based natural ventilation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3128,
+            0.3395,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior voids are visible in plan, while stacked elevations constrain the ventilation opportunity vertically."
+        }
       },
       {
         "statement": "The specialist planner's contribution does not meet the requirements of a holistic overall concept.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "holistic overall concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The criticism concerns the overall conceptual contribution rather than a locatable building feature."
+        }
       }
     ],
     "keyword": [

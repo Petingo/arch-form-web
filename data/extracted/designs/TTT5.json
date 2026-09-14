@@ -16,35 +16,129 @@
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole building concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5163,
+            0.02,
+            0.5556
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Elongated orthogonal mass and layered elevations support a coherent overall concept."
+        }
       },
       {
         "statement": "The centrally arranged access area is clear, spacious, and convincingly designed as a control point.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4794,
+            0.0234,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access point is constrained to the centered entrance edge facing the canal."
+        }
       },
       {
         "statement": "The restaurant with its full-length terrace and view of the outdoor pool is very attractive.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "restaurant terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5283,
+            0.975,
+            0.4444
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The long terrace is approximated along the building’s pool-facing side."
+        }
       },
       {
         "statement": "The external expression is very appealing, with a fine and systematic facade structure.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "systematic facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5163,
+            0.02,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regularly sampled facade bands are clearly visible in the elevations."
+        }
       },
       {
         "statement": "The project authors succeeded in developing a clear concept valued as an outstanding contribution.",
         "tags": [
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "whole project contribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5283,
+            0.975,
+            0.6111
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The project-wide judgment is anchored to the broad elongated building envelope."
+        }
       }
     ],
     "negative": [
@@ -53,70 +147,248 @@
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "catering area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2213,
+            0.0467,
+            0.4444
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior catering space is not distinguishable, so it is estimated within the front-left building zone."
+        }
       },
       {
         "statement": "The strong spatial separation between the swimming pool and the arcade is criticized.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "swimming pool–arcade separation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2545,
+            0.5646,
+            0.2222
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central rectangular arrangement provides the closest visible proxy for pool and arcade separation."
+        }
       },
       {
         "statement": "The main passage and the parallel passage past hairdryers and showers do not work operationally or for bathers.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "main and parallel passages",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4425,
+            0.0267,
+            0.4444
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Circulation routes are internal and indistinct, estimated along the central longitudinal zone."
+        }
       },
       {
         "statement": "The superficially clear division of the room program becomes complicated and inflexible in detail.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "detailed room-program division",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8436,
+            0.3551,
+            0.4444
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The critique concerns internal subdivision, approximated within the east half of the building."
+        }
       },
       {
         "statement": "There are not enough toilets on the hall floor, and the route to swimming equipment is too long.",
         "tags": [
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "hall-floor toilets and swimming-equipment route",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1844,
+            0.05,
+            0.3333
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Hall-floor functions are estimated near the entrance-side edge and lower circulation route."
+        }
       },
       {
         "statement": "The basement storage and disposal rooms are very inconvenient, while the delivery route is too prominent and too narrow.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "basement storage, disposal, and delivery route",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7883,
+            0.1526,
+            0.0556
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Basement service functions are approximated at a low level along the east delivery side."
+        }
       },
       {
         "statement": "The workshop inside the building is unusable because it has no daylight.",
         "tags": [
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "workshop",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1502,
+            0.1824,
+            0.2222
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The interior workshop is absent as a distinct feature and estimated near the front-left envelope."
+        }
       },
       {
         "statement": "The treatment of topography in the access area with parking facilities is considered unmanaged.",
         "tags": [
           "topography",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "access area with parking facilities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1295,
+            0.0797,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access and parking are approximated outside the canal-facing entrance edge."
+        }
       },
       {
         "statement": "The interior is too bulky and lacks the subtlety and spatial character sought for by a bather.",
         "tags": [
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "bulky interior massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8725,
+            0.4612,
+            0.5556
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated, layered volume visibly supports the critique of bulk and limited spatial subtlety."
+        }
       },
       {
         "statement": "Expected investment and operating costs are in the upper third because of the relatively large volume and above-average maintenance costs.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "investment and operating costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and maintenance performance have no useful geometric location."
+        }
       }
     ],
     "keyword": [

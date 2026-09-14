@@ -16,77 +16,277 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban and strategic location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4651,
+            0.4106,
+            0.5167
+          ],
+          "radius": 0.307,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Solitary compact mass is clearly positioned as a freestanding campus building."
+        }
       },
       {
         "statement": "The three volumes communicate over greater distances and develop an exciting structural dialogue.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "three volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4651,
+            0.4106,
+            0.5333
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct clustered massing and vertical divisions are visible across the point-cloud elevations."
+        }
       },
       {
         "statement": "The compact design generates a small footprint and generous open spaces on all sides.",
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "compact design and open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1922,
+            0.1851,
+            0.05
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Compact footprint visibly leaves generous open ground around the building."
+        }
       },
       {
         "statement": "The height development is considered possible in relation to the surrounding area.",
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "height development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4651,
+            0.4106,
+            0.75
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Tall six-story vertical extent is clearly visible in all elevation samples."
+        }
       },
       {
         "statement": "The ring-shaped arrangement creates an impressive and exciting spatial figure with carved air spaces.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "ring-shaped arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4651,
+            0.4106,
+            0.5667
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view shows a carved central figure, corroborated by vertical surrounding masses."
+        }
       },
       {
         "statement": "The structural concept and materialization appear well thought out, harmonious, and atmospheric inside the building.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "structural concept and materialization",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4651,
+            0.4106,
+            0.5833
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular layered structure and varied point density indicate coherent envelope materialization."
+        }
       },
       {
         "statement": "The serial structure is expected to be very cost-effective, with key values in the lower range.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "serial structure",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost-effectiveness is an operational judgment without a useful spatial referent."
+        }
       },
       {
         "statement": "The attitude of using as little land as possible is appreciated.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "using as little land as possible",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5904,
+            0.47,
+            0.0167
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Compact building footprint is visibly concentrated within a broad open campus."
+        }
       },
       {
         "statement": "The differentiated and generous outdoor-space concept interacts well with the building.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "differentiated outdoor-space concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1922,
+            0.1851,
+            0.0333
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open campus areas around the compact building provide the landscape anchor."
+        }
       },
       {
         "statement": "The bridge extends the existing access axis and leads to a generous space between the school and sports hall.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "bridge and access axis",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5004,
+            0.0278,
+            0.15
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access extension is approximated at the lower edge leading toward the open space."
+        }
       },
       {
         "statement": "The riverbank is treated with beautifully differentiated stairs.",
         "tags": [
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "riverbank stairs",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9132,
+            0.0017,
+            0.0167
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Riverbank treatment is approximated along an outer campus edge; stairs are not individually visible."
+        }
       }
     ],
     "negative": [
@@ -95,28 +295,92 @@
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "aisle zones and sanitary areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3968,
+            0.4149,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation and sanitary zones are approximated within the central ring."
+        }
       },
       {
         "statement": "The development of building technology and sustainability requires further emphasis.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "building technology and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns systems and sustainability performance, not a specific spatial location."
+        }
       },
       {
         "statement": "The expansion option is only sketched schematically and a second school building would weaken the concept and reduce the quality of the open parking space.",
         "tags": [
           "flexibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "expansion option and parking space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1922,
+            0.1851,
+            0.0167
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Potential expansion and parking are approximated in the open ground beside the compact footprint."
+        }
       },
       {
         "statement": "The quality of the landscape project suffers somewhat from the natural design of the southern edge and the building's proximity to the roundabout.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "southern edge and roundabout proximity",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5004,
+            0.0278,
+            0.0167
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southern campus edge is constrained by the stated orientation; roundabout is not visible."
+        }
       }
     ],
     "keyword": [

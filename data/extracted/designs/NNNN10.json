@@ -17,21 +17,80 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "east-west axis",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4775,
+            0.4868,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Symmetrical crown geometry clearly establishes a dominant horizontal building axis."
+        }
       },
       {
         "statement": "The undulated facades soften the large dimension of the form and establish a morphological relationship with the central cylinder.",
         "tags": [
           "facade",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "undulated facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8519,
+            0.5067,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Curved perimeter edges visibly soften the large crown volume around the central cylinder."
+        }
       },
       {
         "statement": "Four of the six walks have adequate clearances in the corners of the site.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "four walks",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1439,
+            0.209,
+            0.1682
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Corner clearances are visible around the crown perimeter, represented by the southwest corner."
+        }
       }
     ],
     "negative": [
@@ -41,14 +100,52 @@
           "open space",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "green spaces between wall and building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9506,
+            0.4789,
+            0.1744
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Narrow perimeter strips between the crown and enclosing boundary are visible."
+        }
       },
       {
         "statement": "The suspended walkways compromise the apparent simplicity of the scheme.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "suspended walkways",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5045,
+            0.7247,
+            0.835
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper circulation is approximated above the curved internal perimeter."
+        }
       },
       {
         "statement": "The concavity of the corridors disrupts their control by reducing the guards' visual field.",
@@ -56,35 +153,136 @@
           "visibility",
           "safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "concave corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5058,
+            0.6993,
+            0.5058
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Concave inner edges visibly define the corridor ring around the central block."
+        }
       },
       {
         "statement": "The aerial walkways are required to connect the divisions to the central common services.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "aerial walkways",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4775,
+            0.4868,
+            0.8318
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Connecting circulation is placed at upper levels between perimeter divisions and central services."
+        }
       },
       {
         "statement": "The organization confines staff to the heart of the complex without a relation to the larger landscape.",
         "tags": [
           "layout",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "heart of the complex",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4568,
+            0.5079,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central cylindrical block is clearly enclosed by the crown and represents the complex heart."
+        }
       },
       {
         "statement": "The proposal presents an above-average volume and construction cost.",
         "tags": [
           "scale",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "above-average volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5145,
+            0.5548,
+            0.5045
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Extensive crown footprint and repeated levels visibly indicate a large construction volume."
+        }
       },
       {
         "statement": "The crown device makes it difficult to carry out the project in stages.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "project staging",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6224,
+            0.5935,
+            0.5058
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous crown geometry makes the whole building the relevant phasing anchor."
+        }
       }
     ],
     "keyword": [

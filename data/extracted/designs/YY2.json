@@ -17,49 +17,171 @@
         "tags": [
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "central break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4648,
+            0.6321,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central void is visibly formed between the three separated volumes in the top view."
+        }
       },
       {
         "statement": "The school complex offers a clever solution to the situation.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "school complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4777,
+            0.6349,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The three aligned volumes and their shared central break area define the overall complex."
+        }
       },
       {
         "statement": "The three volumes create exciting spatial sequences inside and outside.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "spatial sequences inside and outside",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4506,
+            0.63,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Separated masses and intervening void visibly create sequential movement through the complex."
+        }
       },
       {
         "statement": "The kindergarten's western playground and overall quality should be emphasized.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten western playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0905,
+            0.6231,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Western exterior space is estimated beside the western volume, though playground elements are not sampled."
+        }
       },
       {
         "statement": "The facades create an attractive and appropriate external appearance.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5151,
+            0.0854,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The exposed south-facing building edges provide the clearest sampled facade reference."
+        }
       },
       {
         "statement": "The project demonstrates design care and an intensive examination of user needs.",
         "tags": [
           "functionality",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "project design care and user needs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4747,
+            0.6453,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "This broad judgment concerns the complete arrangement of the three visible buildings."
+        }
       },
       {
         "statement": "The proposed lightweight construction has good ecological values.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "lightweight construction",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ecological value is a non-spatial construction-system judgment."
+        }
       }
     ],
     "negative": [
@@ -68,63 +190,228 @@
         "tags": [
           "safety",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten access waiting and play area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3912,
+            0.0667,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The likely access edge is estimated beside the southern volume; waiting and vestibule elements are absent."
+        }
       },
       {
         "statement": "The sports-hall cloakrooms are reached through the spectator stands or a narrow escape staircase, and their connection to the outdoor field is not optimal.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports-hall cloakrooms and outdoor-field connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7668,
+            0.5877,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern elongated volume is used as a constrained sports-hall anchor; interior cloakrooms are not visible."
+        }
       },
       {
         "statement": "The classrooms are arranged on one side of the corridor, which is seen as a disadvantage from a school perspective.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classrooms on one side of corridor",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1339,
+            0.7573,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Classrooms are estimated within the north-western volume, whose internal corridor arrangement is unsampled."
+        }
       },
       {
         "statement": "The classrooms only have windows on one side.",
         "tags": [
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "classroom windows on one side",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1922,
+            0.973,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north edge of the estimated school volume provides a constrained classroom-window location."
+        }
       },
       {
         "statement": "The dazzling effect of the light strips must be reduced with appropriate measures.",
         "tags": [
           "daylight",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "light strips",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2601,
+            0.7997,
+            0.75
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Light strips are not distinguishable; a high-level classroom facade position is estimated."
+        }
       },
       {
         "statement": "The kindergarten common area could be more spacious and spatially upgraded.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten common area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4947,
+            0.1579,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern compact volume is used as a constrained kindergarten anchor; its common area is interior."
+        }
       },
       {
         "statement": "The lightweight construction's acoustic measures and effective activation of storage mass are questionable.",
         "tags": [
           "acoustics",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "lightweight construction acoustic and storage measures",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4718,
+            0.6556,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Construction and acoustic measures are not identifiable, so the estimate references the overall sampled massing."
+        }
       },
       {
         "statement": "The classroom-wide windows and cloakroom air spaces limit long-term flexibility and management potential.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "classroom-wide windows and cloakroom air spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1779,
+            0.9708,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A north-side school-volume surface is estimated because the named window and cloakroom spaces are internal."
+        }
       },
       {
         "statement": "The three functional areas can only be reached by walking distance, which is a disadvantage in everyday use.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "walking-distance connections between functional areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.422,
+            0.5443,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The visible separation of three volumes makes the central ground-level connections the relevant anchor."
+        }
       }
     ],
     "keyword": [

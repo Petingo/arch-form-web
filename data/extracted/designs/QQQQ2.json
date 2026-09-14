@@ -19,7 +19,28 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "compact new building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5987,
+            0.5221,
+            0.5328
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact two-story volume is visible across the plan and all elevations."
+        }
       },
       {
         "statement": "Tree plantings provide a spatial filter to the neighbouring residential buildings.",
@@ -27,7 +48,25 @@
           "landscape",
           "privacy",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "tree plantings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9329,
+            0.5,
+            0.0656
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Landscape screening is absent as geometry, so it is anchored along the likely neighbouring-building edge."
+        }
       },
       {
         "statement": "The western development route and existing parking make the address accessible to visitors and deliveries.",
@@ -35,7 +74,25 @@
           "circulation",
           "accessibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "western development route and existing parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.3452,
+            0.0656
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The access and parking approach are constrained to the western ground-level edge."
+        }
       },
       {
         "statement": "The wooden facades create a homely overall impression and a facade compatible with the environment.",
@@ -43,14 +100,43 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "wooden facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.4107,
+            0.4661
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "west",
+            "south"
+          ],
+          "rationale": "Facade material is not sampled, but the west-facing envelope is clearly localized in elevation views."
+        }
       },
       {
         "statement": "The compact volume makes the project cost-effective.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "project cost-effectiveness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost effectiveness is an overall judgment without a useful geometric location."
+        }
       },
       {
         "statement": "A friendly atmosphere is created through the urban development and the architecture of the facades and roof.",
@@ -58,14 +144,51 @@
           "urban integration",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "urban development, facades and roof",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5987,
+            0.6845,
+            0.9333
+          ],
+          "radius": 0.335,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The broad impression is anchored across the visible upper envelope and rooflight zone."
+        }
       },
       {
         "statement": "The walking yard gains a sense of scale through its connecting staircase to the living floor.",
         "tags": [
           "scale",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "walking yard and connecting staircase",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6942,
+            0.5,
+            0.3326
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The yard and external connection are approximated at the lower courtyard-facing portion of the mass."
+        }
       }
     ],
     "negative": [
@@ -74,7 +197,25 @@
         "tags": [
           "privacy",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "walking yard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6465,
+            0.5,
+            0.3326
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The potentially exposed yard is anchored to the courtyard-facing lower zone."
+        }
       },
       {
         "statement": "The shed-like rooflight design does not correspond to the building structure, floor plan or section.",
@@ -82,7 +223,26 @@
           "massing",
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "shed-like rooflights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7625,
+            0.9878,
+            0.9333
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Rooflight features are visibly concentrated in the upper-right roof area and elevations."
+        }
       },
       {
         "statement": "Separating the patient rooms and lounges from the walking yard by a covered external staircase is negative in terms of safety.",
@@ -90,7 +250,25 @@
           "safety",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "covered external staircase separating rooms and yard",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6465,
+            0.5,
+            0.3993
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The staircase is approximated beside the yard, though adjacent interior rooms are not distinguishable."
+        }
       },
       {
         "statement": "Winding corridors and distant rooms require considerable monitoring work during operation.",
@@ -98,14 +276,50 @@
           "circulation",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "winding corridors and distant rooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5987,
+            0.5876,
+            0.4661
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior circulation is not directly sampled, so it is placed within the central building footprint."
+        }
       },
       {
         "statement": "The north orientation of the intensive-care rooms is problematic.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "north-oriented intensive-care rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5987,
+            0.9805,
+            0.5996
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The room zone is constrained to the northern upper portion of the sampled volume."
+        }
       },
       {
         "statement": "The floor plan has major deficiencies in use and safety.",
@@ -113,7 +327,25 @@
           "functionality",
           "safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5987,
+            0.6531,
+            0.3326
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Plan deficiencies are spatially assigned to a representative lower-level area of the visible footprint."
+        }
       }
     ],
     "keyword": [

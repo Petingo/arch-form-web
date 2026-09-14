@@ -16,35 +16,131 @@
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "radiating device",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2095,
+            0.8209,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four articulated wings visibly reduce the perceived scale of the overall college mass."
+        }
       },
       {
         "statement": "The spatial configuration favors multilateral access to the building.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "multilateral access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6053,
+            0.1069,
+            0.2796
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The perimeter-facing plan supports access from multiple sides, though individual entrances are not distinguishable."
+        }
       },
       {
         "statement": "The exterior developments skillfully continue the system through successive intermediate zones.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "successive intermediate zones",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8746,
+            0.0986,
+            0.1143
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The outer edge and articulated footprint provide a plausible anchor for successive landscape and mineral zones."
+        }
       },
       {
         "statement": "The ground-floor reference space effectively organizes the main public functions.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor reference space",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6878,
+            0.1792,
+            0.1143
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A ground-level anchor is placed along the lower articulated wing associated with public organization."
+        }
       },
       {
         "statement": "The spatial quality offered by the floor plan is undeniable.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "spatial quality of the floor plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4994,
+            0.4818,
+            0.3898
+          ],
+          "radius": 0.29,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central courtyard and radiating configuration visibly organize the plan around a strong spatial core."
+        }
       },
       {
         "statement": "The facades provide a unified reading of the college and express its institutional character.",
@@ -52,14 +148,52 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "unified institutional facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2095,
+            0.8209,
+            0.6102
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Continuous outer facade lines across the wings support a unified institutional reading."
+        }
       },
       {
         "statement": "The materialization gives the project a delicate and elegant character.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "delicate and elegant materialization",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7564,
+            0.1792,
+            0.5551
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The south-east external facade provides the closest visible anchor for the expressed material character."
+        }
       }
     ],
     "negative": [
@@ -69,14 +203,52 @@
           "functionality",
           "privacy",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "courtyard-facing glazed classrooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4994,
+            0.4818,
+            0.6103
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central courtyard and visibly articulated inner edges anchor the concern about glazed classroom fronts."
+        }
       },
       {
         "statement": "The use of the passageways and the interior staircase did not convince the jury.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "passageways and interior staircase",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4582,
+            0.5379,
+            0.3347
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior circulation is not directly resolved, so the estimate is constrained near the central connector zone."
+        }
       }
     ],
     "keyword": [

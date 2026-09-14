@@ -18,7 +18,26 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "single island-like building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8311,
+            0.2067,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Perimeter ring visibly establishes a singular island-like mass around the central opening."
+        }
       },
       {
         "statement": "The central planted park adapts well to the site's particular topography.",
@@ -26,7 +45,28 @@
           "landscape",
           "topography",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "central planted park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6431,
+            0.6494,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly identifies the central open park enclosed by the building ring."
+        }
       },
       {
         "statement": "Covered ground-floor openings provide appropriation, transparency, and an intimate school identity.",
@@ -34,7 +74,26 @@
           "open space",
           "identity",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "covered ground-floor openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3089,
+            0.3088,
+            0.3
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Openings are approximated along the low perimeter edge and ground-level circulation band."
+        }
       },
       {
         "statement": "The central park creates strong social and bioclimatic potential.",
@@ -42,7 +101,28 @@
           "landscape",
           "sustainability",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "central park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6607,
+            0.6311,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The courtyard is the model's clearest central landscape and environmental focus."
+        }
       },
       {
         "statement": "The ring distribution creates meeting and transition spaces around the courtyard.",
@@ -50,14 +130,52 @@
           "layout",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "ring meeting and transition spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7443,
+            0.5443,
+            0.4
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The continuous ring around the courtyard supports an approximate circulation-zone anchor."
+        }
       },
       {
         "statement": "The peripheral classroom arrangement gives the interior distribution clear organization.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "peripheral classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7289,
+            0.6545,
+            0.6
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Classroom areas are approximated within the thick outer perimeter surrounding the courtyard."
+        }
       },
       {
         "statement": "The patios provide protected rooms and corridors with natural light.",
@@ -65,14 +183,52 @@
           "daylight",
           "acoustics",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "patios and naturally lit corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2408,
+            0.7458,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Patio-like recesses are approximated along the inner and outer perimeter edges."
+        }
       },
       {
         "statement": "The project offers coherent water management, permeable surfaces, planting, and green roofs.",
         "tags": [
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "water management, planting, and green roofs",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6937,
+            0.6912,
+            0.9
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Landscape and roof systems are distributed across the visible perimeter and upper envelope."
+        }
       },
       {
         "statement": "The constructive approach and energy operation are effective.",
@@ -80,7 +236,18 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "constructive approach and energy operation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates construction and operation globally without a distinct spatial referent."
+        }
       }
     ],
     "negative": [
@@ -90,7 +257,26 @@
           "circulation",
           "safety",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "buried sports halls access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4542,
+            0.1577,
+            0
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Access is approximated at a low perimeter point leading toward the sunken program."
+        }
       },
       {
         "statement": "The horizontal and vertical distribution and entrance spaces remain schematic.",
@@ -98,14 +284,52 @@
           "circulation",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "entrance spaces and distribution",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8052,
+            0.183,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrance and distribution are approximated at the accessible lower perimeter edge."
+        }
       },
       {
         "statement": "Peripheral classrooms are exposed to noise that would have been better protected centrally.",
         "tags": [
           "acoustics",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "peripheral classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7465,
+            0.6362,
+            0.6
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The outer classroom band is visible as the perimeter zone surrounding the courtyard."
+        }
       },
       {
         "statement": "The proposal needs a more nuanced and less repetitive response.",
@@ -113,7 +337,26 @@
           "expression",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "repetitive building response",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8311,
+            0.2067,
+            0.6
+          ],
+          "radius": 0.307,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated perimeter geometry is clearly visible across the overall building mass."
+        }
       },
       {
         "statement": "Outdoor spaces lack complementary atmospheres, appropriations, freshness, and biodiversity.",
@@ -121,7 +364,26 @@
           "open space",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2457,
+            0.7503,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Exterior space is approximated outside the ring, where complementary landscape qualities are assessed."
+        }
       },
       {
         "statement": "The audience organization and hall-stage sequence are unclear and do not work.",
@@ -129,14 +391,52 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "audience organization and hall-stage sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6938,
+            0.2355,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Public hall-related organization is approximated within the southern building sector."
+        }
       },
       {
         "statement": "The documentation center is complicated and unconvincing.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "documentation center",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2595,
+            0.763,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The internal room is not distinguishable, so it is placed within a plausible peripheral zone."
+        }
       },
       {
         "statement": "Fully buried sports halls raise concerns about leakage routes, daylight, vandalism, and planting.",
@@ -144,7 +444,26 @@
           "safety",
           "daylight",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "buried sports halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4545,
+            0.158,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Sunken sports volumes are approximated beneath the low southern perimeter."
+        }
       },
       {
         "statement": "Several sports and service spaces have inadequate connections or dimensions.",
@@ -152,7 +471,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports and service spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7313,
+            0.2699,
+            0.3
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Program connections are approximated within the southern and eastern building bands."
+        }
       },
       {
         "statement": "The foyer and refreshment bar lack a view toward the triple hall.",
@@ -160,7 +498,26 @@
           "visibility",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "foyer and refreshment bar",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6844,
+            0.1856,
+            0.1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Foyer-related spaces are approximated near the southern public-facing perimeter."
+        }
       },
       {
         "statement": "The circus location in the parking area is inadmissible.",
@@ -168,7 +525,26 @@
           "open space",
           "layout",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "circus location in parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4719,
+            0.1394,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Parking and circus placement are approximated in the exterior southern-western site area."
+        }
       },
       {
         "statement": "The facade and surroundings contrast unfavorably with the quality of the central park.",
@@ -176,7 +552,27 @@
           "facade",
           "expression",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "facade and surroundings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.87,
+            0.5079,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south",
+            "north"
+          ],
+          "rationale": "The outer envelope and adjacent exterior are directly represented around the stronger central park."
+        }
       },
       {
         "statement": "Uniform corner openings fail to address their different contexts and functions.",
@@ -184,7 +580,26 @@
           "urban integration",
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "uniform corner openings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8686,
+            0.2411,
+            0.4
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Corner conditions are visible at the perimeter vertices, though individual functions remain indistinct."
+        }
       },
       {
         "statement": "The building's proportions and typology resemble a higher-education building rather than a secondary school.",
@@ -192,7 +607,28 @@
           "scale",
           "proportion",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "secondary-school building proportions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7795,
+            0.5076,
+            0.6
+          ],
+          "radius": 0.307,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall elongated ring proportions and repetitive typology are directly visible across all views."
+        }
       },
       {
         "statement": "Noise exposure, typology, and distributions remain unresolved on the upper floors.",
@@ -200,7 +636,25 @@
           "acoustics",
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor noise exposure and distribution",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7289,
+            0.6545,
+            0.8
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "Upper perimeter levels are approximated along the exposed outer edges."
+        }
       },
       {
         "statement": "The large buried volumes require substantial excavation and mechanical ventilation.",
@@ -208,14 +662,52 @@
           "topography",
           "ventilation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "buried volumes and excavation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4732,
+            0.1752,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Excavated program is approximated beneath the low southern perimeter."
+        }
       },
       {
         "statement": "Protection against summer overheating remains insufficiently developed.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "summer overheating protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.87,
+            0.5079,
+            0.7
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Overheating concern is assigned to the exposed upper outer envelope."
+        }
       }
     ],
     "keyword": [

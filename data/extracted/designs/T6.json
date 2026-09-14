@@ -18,7 +18,28 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban-development stance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5373,
+            0.1285,
+            0.5625
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad horizontal volume is visible across all calibrated views and anchors the urban-scale judgment."
+        }
       },
       {
         "statement": "The landscape concept creates a flowing, diverse and climatically pleasant open-space sequence.",
@@ -26,7 +47,26 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "landscape concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1946,
+            0.0885,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape is not separately sampled; the low south-west perimeter provides a constrained open-space anchor."
+        }
       },
       {
         "statement": "The arrangement of public uses enables good orientation and flexible use.",
@@ -34,7 +74,26 @@
           "layout",
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "arrangement of public uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5644,
+            0.1317,
+            0.4375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior public-use arrangement is unseen, so the central access region provides a constrained approximate anchor."
+        }
       },
       {
         "statement": "The project is consistently developed from a strong urban concept and has a high level of completion.",
@@ -42,7 +101,26 @@
           "urban integration",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "strong urban concept and completion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.754,
+            0.1538,
+            0.5625
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The consistently horizontal, compact mass is visible and supports a distributed whole-building placement."
+        }
       }
     ],
     "negative": [
@@ -51,21 +129,77 @@
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "large form near smaller school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.02,
+            0.257,
+            0.75
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The adjacent school is absent; the raised outer volume is used as a constrained overshadowing anchor."
+        }
       },
       {
         "statement": "The path connections are well resolved, but a certain spatial generosity is missing.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "path connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2758,
+            0.098,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Paths are not distinguishable; the south perimeter provides a constrained site-connection location."
+        }
       },
       {
         "statement": "The open concept is problematic for fire protection because escape stairs occupy the central access area.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4475,
+            0.8686,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central access area is interior and unseen, so its location is constrained near the mass centre."
+        }
       },
       {
         "statement": "The dense arrangement of classrooms makes circulation scarce and cluster zoning only partially successful.",
@@ -73,14 +207,52 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classroom circulation and cluster zoning",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9866,
+            0.5414,
+            0.4375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Classroom clusters are not visible; an offset interior zone provides a distributed constrained anchor."
+        }
       },
       {
         "statement": "The exclusive skylight lighting of the internal group rooms is questioned.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal group-room skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6692,
+            0.4508,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The roof surface is visible, but individual skylights are not distinguishable in the sampled renders."
+        }
       },
       {
         "statement": "The proposed facade greening is technically and operationally complex to maintain.",
@@ -88,7 +260,25 @@
           "facade",
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade greening",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9866,
+            0.5414,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "top"
+          ],
+          "rationale": "Facade greening is not identifiable; the east envelope supplies a constrained facade anchor."
+        }
       },
       {
         "statement": "The underground structure significantly restricts the integration of trees into the open space.",
@@ -96,7 +286,25 @@
           "landscape",
           "structure",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "underground structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8175,
+            0.1613,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The underground structure is not directly visible; the low perimeter marks its likely landscape constraint."
+        }
       }
     ],
     "keyword": [

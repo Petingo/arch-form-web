@@ -17,35 +17,133 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "four-building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4671,
+            0.5245,
+            0.5
+          ],
+          "radius": 0.3007,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four detached masses are visibly distributed along the diagonal ensemble, preserving gaps and permeability."
+        }
       },
       {
         "statement": "The cantilevered roof provides weather protection for bus and train passengers.",
         "tags": [
           "functionality",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "cantilevered roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5654,
+            0.6583,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The roof spans the connected masses and is clearly visible as a raised continuous element."
+        }
       },
       {
         "statement": "The apartments are clearly zoned and easy to furnish, with mostly two-sided orientation.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "apartments",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3133,
+            0.3788,
+            0.5652
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Apartment interiors are sampled indirectly; the residential block is anchored to the southwest-middle mass."
+        }
       },
       {
         "statement": "The situation in front of the city center is clarified.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "situation in front of the city center",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1534,
+            0.1965,
+            0.1284
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The urban-facing southwest end provides the most plausible site anchor for the city-center relationship."
+        }
       },
       {
         "statement": "Pedestrians are guided under the arcades without traffic.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "arcades",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5523,
+            0.5343,
+            0.1903
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Arcades are approximated along the open lower edge beneath the connected roofed masses."
+        }
       }
     ],
     "negative": [
@@ -54,56 +152,213 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "retail areas and vertical access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7015,
+            0.7052,
+            0.3142
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The hidden service-like zone is placed behind the northeastern connected mass, where interior functions are not distinguishable."
+        }
       },
       {
         "statement": "The different entrance positions for the two underpasses do not contribute to easy orientation.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "two underpasses",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2542,
+            0.3154,
+            0.1284
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Underpass entrances are not individually visible; the southwest access edge offers a constrained approximation."
+        }
       },
       {
         "statement": "The minimum bus-platform widths cannot be adhered to.",
         "tags": [
           "scale",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "bus-platform widths",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6509,
+            0.5383,
+            0.1284
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Platform width is associated with the elongated open ground-level edge beneath the roof."
+        }
       },
       {
         "statement": "The underground-car-park entrance creates a potential conflict between different users.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "underground-car-park entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1786,
+            0.1439,
+            0.1284
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The parking entrance is absent as a distinct feature, so it is approximated at the southwest site edge."
+        }
       },
       {
         "statement": "The fourth building obscures the legibility of the overall development idea.",
         "tags": [
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "fourth building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9256,
+            0.8314,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The detached northeastern building is clearly separated from the three roof-connected structures."
+        }
       },
       {
         "statement": "The quality of the open ground-floor space is not convincing.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "open ground-floor space",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.5606,
+            0.1284
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Open ground-level space is visibly continuous beneath and between the elevated masses."
+        }
       },
       {
         "statement": "The development primarily conveys an image of residential buildings and is not convincing as a station plaza.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "station plaza",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5061,
+            0.3965,
+            0.1284
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The likely plaza zone is the central open forecourt between the connected buildings and access edges."
+        }
       },
       {
         "statement": "The massive-looking bodies show the largest volume of all contributions.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "massive-looking bodies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6015,
+            0.6787,
+            0.5652
+          ],
+          "radius": 0.3007,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The ensemble’s large solid volumes dominate the point-cloud elevations and top footprint."
+        }
       }
     ],
     "keyword": [

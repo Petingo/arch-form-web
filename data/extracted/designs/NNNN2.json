@@ -17,14 +17,51 @@
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5199,
+            0.5984,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central connected mass and cruciform wings are clearly legible in plan and elevations."
+        }
       },
       {
         "statement": "The facade treatment differentiates functions through window sizes while maintaining a common architectural principle.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7962,
+            0.4802,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "East-side envelope provides the most useful sampled facade anchor for differentiated treatment."
+        }
       },
       {
         "statement": "The work on the cell's window size, proportion, and position demonstrates mastery of the subject.",
@@ -32,7 +69,25 @@
           "proportion",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "cell windows",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7409,
+            0.327,
+            0.75
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A wing surface is used as a constrained proxy for the stated cell-window work."
+        }
       },
       {
         "statement": "The logistical circulations are concentrated and secure, providing a good economy of means.",
@@ -40,21 +95,74 @@
           "circulation",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "logistical circulations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5695,
+            0.5156,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central connecting axis visibly concentrates movement between the two cruciform volumes."
+        }
       },
       {
         "statement": "The service courtyards efficiently serve all the workshops from the entrance area.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "service courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6494,
+            0.3822,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open recesses beside the central connection provide visible courtyard-like service zones."
+        }
       },
       {
         "statement": "The phasing is well thought out.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "phasing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.574,
+            0.629,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Phasing is anchored broadly to the connected building footprint because stages are not separately visible."
+        }
       }
     ],
     "negative": [
@@ -63,7 +171,26 @@
         "tags": [
           "identity",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "symmetrical composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5288,
+            0.5912,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated bilateral wing geometry and a strong central axis are evident across the calibrated views."
+        }
       },
       {
         "statement": "Many ground-level facades are blind, depriving prisoners of direct exterior views.",
@@ -71,14 +198,43 @@
           "facade",
           "visibility",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "ground-level facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5642,
+            0.1795,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A south-facing ground envelope point represents the critique of blind lower facades."
+        }
       },
       {
         "statement": "The limited material palette creates a cold atmosphere that does not correspond to ordinary living conditions.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "limited material palette",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material atmosphere is a whole-building judgment without a useful geometric point."
+        }
       },
       {
         "statement": "The insertion into the landscape is not completely convincing, and the exterior spaces are weakly treated.",
@@ -86,21 +242,73 @@
           "urban integration",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "landscape and exterior spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2725,
+            0.2735,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "An open area outside the footprint anchors the weak landscape and exterior-space treatment."
+        }
       },
       {
         "statement": "The concave wings limit clear views from the cells.",
         "tags": [
           "visibility",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "concave wings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6881,
+            0.6205,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The inward wing recess is clearly identifiable in the top projection."
+        }
       },
       {
         "statement": "The wings stop somewhat arbitrarily without a convincing treatment of their ends.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "wing ends",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8278,
+            0.8409,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The terminal end of the upper-right wing is visibly abrupt in plan and elevation."
+        }
       },
       {
         "statement": "The monolithic nature of the project makes phasing more complex and raises questions about its presence in the landscape and users' appropriation.",
@@ -108,7 +316,26 @@
           "massing",
           "scale",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "monolithic project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5401,
+            0.6007,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Continuous connected volumes read as one large mass across plan and elevations."
+        }
       }
     ],
     "keyword": [

@@ -17,7 +17,27 @@
           "urban integration",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing buildings and developments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5047,
+            0.4795,
+            0.3571
+          ],
+          "radius": 0.315,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Three separated volumes visibly organize the site, with approximate integration read from the distributed plan and elevations."
+        }
       },
       {
         "statement": "The college square provides a well-defined reference space for the new college.",
@@ -25,7 +45,24 @@
           "open space",
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "college square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5119,
+            0.5158,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open central area between the southern volumes reads as the principal shared square."
+        }
       },
       {
         "statement": "The distribution into three volumes allows great flexibility of use.",
@@ -33,14 +70,53 @@
           "massing",
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "three volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4803,
+            0.4795,
+            0.3571
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views clearly show three spatially separated masses with intervening voids."
+        }
       },
       {
         "statement": "The refectory and aula building and the gymnasium rooms are organized in a clear and functional manner.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "refectory and aula building and gymnasium rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6918,
+            0.2641,
+            0.2857
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The southern-right and southern-left volumes provide approximate anchors for the grouped communal and sports functions."
+        }
       }
     ],
     "negative": [
@@ -49,7 +125,24 @@
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "duplicated pedestrian traffic",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4875,
+            0.5158,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central gap between volumes is the most plausible shared circulation zone."
+        }
       },
       {
         "statement": "The typology and organization of the main classroom building are not convincing, particularly because orientation is difficult on the ground floor.",
@@ -57,7 +150,25 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "main classroom building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.679,
+            0.7543,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The northern volume is clearly identifiable in plan and its ground-level organization is only partially exposed."
+        }
       },
       {
         "statement": "The central courtyard should have been more generous and perhaps extended over the entire height of the building.",
@@ -65,14 +176,50 @@
           "open space",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "central courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.54,
+            0.7636,
+            0.5714
+          ],
+          "radius": 0.13,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A distinct internal rectangular void is clearly visible within the northern volume."
+        }
       },
       {
         "statement": "Some spaces around the central courtyard are in second daylight and lack natural light and ventilation.",
         "tags": [
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "spaces around the central courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.679,
+            0.7453,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Adjacent perimeter space is approximated on the northern volume surface; daylight conditions are not directly represented."
+        }
       },
       {
         "statement": "The circulation around the courtyard leaves little possibility of informal appropriation for users.",
@@ -80,7 +227,25 @@
           "circulation",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "circulation around the courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2673,
+            0.7615,
+            0.3571
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A perimeter anchor around the visible courtyard approximates the circulation zone."
+        }
       }
     ],
     "keyword": [

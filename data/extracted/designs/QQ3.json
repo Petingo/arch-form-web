@@ -16,42 +16,158 @@
           "urban integration",
           "proportion",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "whole building and open spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6257,
+            0.8499,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact stepped three-storey mass and surrounding open-space edges are clearly visible across all calibrated views."
+        }
       },
       {
         "statement": "The upper-floor arrangement of classrooms, stairs and atriums is simple and clear.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6257,
+            0.8499,
+            0.7143
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper level is constrained by repeated elevation bands and the stepped upper footprint."
+        }
       },
       {
         "statement": "The staircase connected to the atriums creates identity and meets the fire-protection requirements.",
         "tags": [
           "identity",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "staircase and atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5797,
+            0.865,
+            0.6429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stair and atrium locations are approximated centrally because interior voids are not directly exposed."
+        }
       },
       {
         "statement": "The atriums and anterooms basically enable an expansion of lessons, with the anterooms particularly suitable for exhibitions and gatherings.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "atriums and anterooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6718,
+            0.8349,
+            0.5714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior gathering zones are assigned within the compact central mass without distinguishable room geometry."
+        }
       },
       {
         "statement": "The compact organization and simple supporting structure are expected to be very cost-effective.",
         "tags": [
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "compact organization and supporting structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6027,
+            0.8574,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact massing and regular horizontal structural bands are evident throughout the model."
+        }
       },
       {
         "statement": "The outdoor spaces are appropriately sized and well designed.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2673,
+            0.1844,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open areas are visible around the compact footprint, especially along the southern and western edges."
+        }
       }
     ],
     "negative": [
@@ -61,14 +177,50 @@
           "circulation",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "staggered entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4866,
+            0.1127,
+            0.3571
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are not individually visible; the southern edge provides the directional approximation."
+        }
       },
       {
         "statement": "Several rooms have low heights that are not approvable and are not reasonable.",
         "tags": [
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "low-height rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9332,
+            0.4359,
+            0.3571
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Low rooms are approximated on a lower level because internal heights cannot be resolved directly."
+        }
       },
       {
         "statement": "The anterooms are only of limited suitability for group work because stair access passes through them and creates disruption potential.",
@@ -76,7 +228,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "anterooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3023,
+            0.1729,
+            0.5714
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Anterooms are assigned to a representative internal circulation zone not distinguishable in the exterior sample."
+        }
       },
       {
         "statement": "The offset hinders internal relationships more than it adds value, despite producing economically interesting compactness.",
@@ -84,7 +255,26 @@
           "layout",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "offset internal relationships",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9395,
+            0.4631,
+            0.5714
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The stepped offset is directly visible in the footprint and elevation bands, supporting a building-level anchor."
+        }
       },
       {
         "statement": "The massive architectural expression is hardly able to create an appropriate dialogue with the slenderness and delicacy of the existing architecture.",
@@ -92,7 +282,27 @@
           "expression",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "massive architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5096,
+            0.1052,
+            0.5714
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad repeated facade bands present a substantial exterior expression visible in the elevations."
+        }
       },
       {
         "statement": "Despite good external-space conditions, the building appears too independent and does not sufficiently complement and strengthen the existing ensemble.",
@@ -100,7 +310,28 @@
           "urban integration",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "independent building within the ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6488,
+            0.8424,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact standalone mass is clearly legible as a distinct building form."
+        }
       }
     ],
     "keyword": [

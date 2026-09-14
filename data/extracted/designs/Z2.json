@@ -16,7 +16,28 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "four-branched structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5162,
+            0.3393,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Radial branches and their central convergence are clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The gable roofs and non-massive volume dialogue harmoniously with the landscape and existing development.",
@@ -24,42 +45,156 @@
           "massing",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "gable roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6904,
+            0.714,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct roof ridges and sloping gable profiles are visible on the branch surfaces."
+        }
       },
       {
         "statement": "The architecture is clear, understandable, and fits into the regional environment.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "regional architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3731,
+            0.806,
+            0.5625
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The comment concerns the overall visible building form rather than a single distinguishable feature."
+        }
       },
       {
         "statement": "The central location guarantees distance from car traffic.",
         "tags": [
           "safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5162,
+            0.3393,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The centralized footprint is identifiable in plan, with the ground-level anchor representing site placement."
+        }
       },
       {
         "statement": "The three functions are well and clearly distributed within the volume.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4873,
+            0.3208,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Functions are internal and not distinguishable, so the anchor uses the centralized building volume."
+        }
       },
       {
         "statement": "The spacious circulation areas allow different uses and educational activities.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "spacious circulation areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.536,
+            0.311,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is not directly sampled; the central connector is the most plausible constrained location."
+        }
       },
       {
         "statement": "The jury salutes the sober and discreet architecture.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "sober architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8833,
+            0.333,
+            0.5625
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sober expression applies broadly to the visible building envelope."
+        }
       }
     ],
     "negative": [
@@ -68,34 +203,130 @@
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "future territory management",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4873,
+            0.3208,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The criticism refers to the building’s centralized site position visible in plan."
+        }
       },
       {
         "statement": "The two stairwells are narrow.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "two stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5162,
+            0.3393,
+            0.4375
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stairwells are internal and indistinguishable, so they are approximated near the central circulation zone."
+        }
       },
       {
         "statement": "The entrances are not clearly identifiable apart from the main entrance.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2262,
+            0.1468,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Entrance locations are not labeled; a branch-end ground anchor represents a plausible access point."
+        }
       },
       {
         "statement": "The main entrance's attached roof seems poorly integrated into the whole.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "main entrance attached roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1602,
+            0.2749,
+            0.9375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The attached entrance roof is not separable, so it is approximated at a visible branch end."
+        }
       },
       {
         "statement": "Natural light may be lacking throughout the building, particularly in the large central square.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "large central square",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5162,
+            0.3393,
+            0.5625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central convergence identifies the likely square or void location."
+        }
       }
     ],
     "keyword": [

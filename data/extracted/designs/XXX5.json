@@ -18,14 +18,53 @@
           "massing",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "differentiated heights",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0607,
+            0.2753,
+            0.7143
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevation views show a lower plinth and taller volume; the marker sits on the upper massing region."
+        }
       },
       {
         "statement": "The interventions on the historic buildings are respectful and engage with existing elements.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "historic buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1445,
+            0.9507,
+            0.3571
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Existing historic context is not distinct in the sample; placement approximates a peripheral site interface."
+        }
       },
       {
         "statement": "The continuous greenery connects the school park with the river and supports façade shading.",
@@ -33,7 +72,26 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "continuous greenery",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0387,
+            0.477,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape is not separately identifiable; placement follows the sampled ground-level perimeter."
+        }
       },
       {
         "statement": "The generous openings integrate the site into neighborhood routes and improve permeability.",
@@ -41,27 +99,94 @@
           "urban integration",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "generous openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5218,
+            0.0296,
+            0.4048
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing envelope is the plausible interface for openings connecting external routes."
+        }
       },
       {
         "statement": "The hierarchy of public spaces is a clear and shared intention.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "hierarchy of public spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.642,
+            0.2685,
+            0.0476
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Public-space hierarchy is inferred across the sampled ground and plinth edge."
+        }
       },
       {
         "statement": "The envelope and plant concept are clear and support the required energy standard.",
         "tags": [
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "envelope and plant concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9226,
+            0.7758,
+            0.6905
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The marker lies on the visible upper envelope where building systems would be expressed."
+        }
       },
       {
         "statement": "The observations on material sustainability are sufficiently exhaustive.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "material sustainability",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material sustainability is an overall performance judgment without a specific spatial referent."
+        }
       }
     ],
     "negative": [
@@ -71,7 +196,28 @@
           "proportion",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "plinth and tall building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9419,
+            0.5981,
+            0.6905
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "All elevations visibly distinguish the low plinth from the taller upper volume and its geometry."
+        }
       },
       {
         "statement": "The expression is very closed and has an almost repulsive effect toward the outside.",
@@ -79,7 +225,25 @@
           "expression",
           "urban integration",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "closed expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2344,
+            0.0099,
+            0.5714
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The exterior envelope is directly sampled; the south-facing surface provides the clearest placement."
+        }
       },
       {
         "statement": "The spatial organization and access to vertical distribution remain unresolved.",
@@ -87,7 +251,25 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "vertical distribution",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6176,
+            0.0362,
+            0.4524
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Interior circulation is absent, so the marker approximates a vertical circulation zone within the mass."
+        }
       },
       {
         "statement": "The living area suffers from its placement within the plinth.",
@@ -95,7 +277,26 @@
           "layout",
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "living area within the plinth",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6227,
+            0.4462,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The room is not identifiable; placement is constrained to the lower plinth volume."
+        }
       },
       {
         "statement": "The abstract monumental plinth makes dialogue with the historic buildings almost impossible.",
@@ -103,7 +304,28 @@
           "urban integration",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "monumental plinth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6033,
+            0.624,
+            0.1429
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad low plinth is clearly visible across the footprint and lower elevations."
+        }
       },
       {
         "statement": "The very small windows can be read as a refusal of dialogue with the life and vitality of the historic complex.",
@@ -111,7 +333,24 @@
           "facade",
           "visibility",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "very small windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7614,
+            0.0461,
+            0.5714
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Window scale is not individually resolved; the marker identifies a sampled exterior facade zone."
+        }
       },
       {
         "statement": "The external paving is not completely convincing, while the generous terrace lacks sufficient planning.",
@@ -119,14 +358,52 @@
           "landscape",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "external paving and generous terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.759,
+            0.1133,
+            0.0476
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level external space is approximated along the visible perimeter and plinth edge."
+        }
       },
       {
         "statement": "The complex geometry complicates the construction details.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "complex geometry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9419,
+            0.5981,
+            0.7143
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Triangular and tall massing is visible, though construction details are not represented in points."
+        }
       }
     ],
     "keyword": [

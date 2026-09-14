@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "built limits of surrounding neighborhood",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1914,
+            0.4462,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The broad cruciform footprint provides a visible anchor for its neighborhood-edge relationship."
+        }
       },
       {
         "statement": "The school naturally integrates into the continuity of the built fabric between village and fields while measuring its impact.",
@@ -26,7 +46,24 @@
           "urban integration",
           "landscape",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "built fabric between village and fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2162,
+            0.7216,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Village-field continuity is not represented, so the western portion of the footprint anchors the site reading."
+        }
       },
       {
         "statement": "The proposed extension by elevation continues the established logic efficiently and economically.",
@@ -34,7 +71,26 @@
           "flexibility",
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "extension by elevation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5748,
+            0.2336,
+            0.7
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated stacked elevation bands visibly support vertical expansion as the cited extension logic."
+        }
       },
       {
         "statement": "The covered courtyard is skillfully integrated into the building envelope and functions as a real entrance porch.",
@@ -42,7 +98,25 @@
           "layout",
           "circulation",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "covered courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5748,
+            0.2336,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central recessed geometry suggests a courtyard within the cruciform envelope."
+        }
       },
       {
         "statement": "The simple S-shaped distribution system provides a balanced sequence of thresholds and varied spaces.",
@@ -50,14 +124,52 @@
           "circulation",
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "S-shaped distribution system",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5748,
+            0.2336,
+            0.55
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior distribution is not visible; the central crossing provides the most useful anchor."
+        }
       },
       {
         "statement": "Four large windows across three orientations guarantee high-quality light in every classroom.",
         "tags": [
           "daylight",
           "orientation"
-        ]
+        ],
+        "position": {
+          "target": "classroom windows",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7986,
+            0.5538,
+            0.7
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated facade openings are visible across the elevation views, though individual classrooms are unresolved."
+        }
       },
       {
         "statement": "The identical, homogeneous character of the four facades presents a calm relationship to the near and distant environment.",
@@ -65,7 +177,26 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "four facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8707,
+            0.57,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repetitive homogeneous facade bands are clearly visible across multiple elevations."
+        }
       },
       {
         "statement": "The schoolyard, playground and basketball court are qualified as linked streets and squares, affirming the suburban character.",
@@ -73,7 +204,24 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard, playground and basketball court",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7436,
+            0.7595,
+            0.2
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor rooms are not individually distinguishable; the eastern exterior surrounds the cruciform volume."
+        }
       },
       {
         "statement": "The proposal achieves a precise balance between the theme, site constraints, spatial richness and constructive simplicity.",
@@ -81,7 +229,27 @@
           "layout",
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "theme, site constraints, spatial richness and constructive simplicity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5388,
+            0.2255,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The complete cruciform composition is visible across plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -90,14 +258,49 @@
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "parking location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.791,
+            0.2823,
+            0.15
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent from the sample; a plausible exterior southeast site anchor is used."
+        }
       },
       {
         "statement": "The northern access to the site lacks assertiveness in its design.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "northern site access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4996,
+            0.9595,
+            0.1
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The stated northern access is anchored along the site’s north edge at ground level."
+        }
       }
     ],
     "keyword": [

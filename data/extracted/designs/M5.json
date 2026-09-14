@@ -17,35 +17,122 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing buildings and garden-monument structure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5693,
+            0.8266,
+            0.4167
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad site-edge placement is approximated against the elongated building and surrounding open-space context."
+        }
       },
       {
         "statement": "The careful design responds appropriately to school and leisure uses.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "school and leisure uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6735,
+            0.7107,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior uses are anchored approximately within the central building volume."
+        }
       },
       {
         "statement": "The handling of the protected ensemble is cautious and appropriate.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "protected ensemble",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2191,
+            0.7782,
+            0.3333
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The protected ensemble is assigned to the less occupied peripheral site area."
+        }
       },
       {
         "statement": "The simple construction supports internal floor-plan flexibility.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "internal floor-plan flexibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7516,
+            0.6237,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Flexibility concerns the building interior, approximated within its central multi-level mass."
+        }
       },
       {
         "statement": "The compact building offers prerequisites for good economic indicators.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "economic indicators",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Purely economic judgment without a useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -54,7 +141,24 @@
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "placement beside residential development",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7646,
+            0.6092,
+            0.4167
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The building edge is anchored toward the presumed adjoining development side."
+        }
       },
       {
         "statement": "The five-gabled roof creates unnecessary small scale and weakens the expression.",
@@ -62,21 +166,80 @@
           "expression",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "five-gabled roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5547,
+            0.4775,
+            1
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multiple parallel roof ridges are clearly visible across the elongated footprint."
+        }
       },
       {
         "statement": "Orientation is difficult and the multi-purpose rooms are not easy to find.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose rooms and orientation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6865,
+            0.6962,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation and room-finding concerns are placed in the central interior zone."
+        }
       },
       {
         "statement": "The central upper-floor area is too small and overloaded with functions.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central upper-floor area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7125,
+            0.6672,
+            0.75
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-level criticism is located centrally at the upper occupied floor."
+        }
       },
       {
         "statement": "The basement gymnasium lacks a visual connection to the outside space.",
@@ -84,14 +247,52 @@
           "daylight",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7516,
+            0.6237,
+            0.0833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The basement room is approximated low within the building footprint, near its central area."
+        }
       },
       {
         "statement": "The arrangement of eight classes on one floor lacks a connection to the ground floor and cannot meet school requirements.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "eight classes on one floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6735,
+            0.7107,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The classroom arrangement is assigned broadly across one upper-middle floor."
+        }
       }
     ],
     "keyword": [

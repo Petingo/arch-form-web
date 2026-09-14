@@ -17,7 +17,28 @@
           "massing",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "three squat volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5849,
+            0.6227,
+            0.5991
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top view clearly shows three orthogonal masses; elevations corroborate their compact overall height."
+        }
       },
       {
         "statement": "The volumes define well-proportioned outdoor spaces as a transition to the surroundings and adjacent buildings.",
@@ -25,21 +46,84 @@
           "open space",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "proportioned outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5401,
+            0.6413,
+            0.2995
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Inter-volume gaps are clearly visible in plan and bounded by the surrounding pavilion edges."
+        }
       },
       {
         "statement": "The two- to three-floor height development creates a pleasant, child-friendly scale.",
         "tags": [
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "two- to three-floor height development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7851,
+            0.7294,
+            0.7988
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The upper-right pavilion provides a visible representative point for the compact multi-level height profile."
+        }
       },
       {
         "statement": "The central address formation via the break area is convincing.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "central address",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5625,
+            0.632,
+            0.3994
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central break and connecting edges visibly organize the three volumes around a shared address."
+        }
       },
       {
         "statement": "The outdoor spaces are clearly defined and mesh beautifully with the surroundings.",
@@ -47,21 +131,83 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3063,
+            0.5143,
+            0.1997
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Plan view clearly shows open exterior pockets between distinct pavilion footprints."
+        }
       },
       {
         "statement": "The partly elevated ground floor allows good lighting on the basement floors.",
         "tags": [
           "daylight",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "partly elevated ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6522,
+            0.5948,
+            0.1997
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "A lower-level anchor is constrained beneath the central-right mass by the elevation profiles and open ground condition."
+        }
       },
       {
         "statement": "The consistent wooden structure establishes a clear grid.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "wooden structural grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7964,
+            0.7479,
+            0.5991
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated orthogonal edge points suggest a consistent grid, though material and structural members are not distinguishable."
+        }
       },
       {
         "statement": "The balcony layer is positively assessed for summer heat protection and facade cleaning.",
@@ -69,7 +215,27 @@
           "sustainability",
           "facade",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "balcony layer",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8707,
+            0.5043,
+            0.5991
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal facade bands are visible across the elevation views and localized on the eastern outer edge."
+        }
       }
     ],
     "negative": [
@@ -78,7 +244,27 @@
         "tags": [
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "underground gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6598,
+            0.4616,
+            0.0998
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The gym is described as buried; its approximate location is assigned beneath the central-right built mass."
+        }
       },
       {
         "statement": "The exposure of the gymnasium below is unclear, and its quality for the gym and break area is questionable.",
@@ -86,7 +272,28 @@
           "daylight",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "gymnasium and break area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.671,
+            0.4801,
+            0.0998
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Below-grade gym and break functions are not distinguishable, so the marker is constrained beneath the central open address."
+        }
       },
       {
         "statement": "The pavilion-like buildings are only functionally connected through the outside area and basement, which is impractical for users.",
@@ -94,14 +301,56 @@
           "circulation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outside and basement connections",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5625,
+            0.632,
+            0.2995
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Visible links converge around the central gap, representing the external and lower-level connection condition."
+        }
       },
       {
         "statement": "The narrowings between user units on the upper floors appear too limited in space.",
         "tags": [
           "layout",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor narrowings",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5401,
+            0.6413,
+            0.7988
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The upper-level constriction is not separately identifiable; the marker follows the narrow central junction at upper height."
+        }
       },
       {
         "statement": "The high proportion of glass and the balcony layer raise concerns about mutual insights and disruptions to lessons.",
@@ -109,7 +358,28 @@
           "facade",
           "privacy",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "glass-and-balcony facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7762,
+            0.5434,
+            0.7089
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Balcony bands are visible, while glazing and privacy effects are not directly distinguishable in the point cloud."
+        }
       },
       {
         "statement": "A different height arrangement would have better promoted a playful height development.",
@@ -117,7 +387,28 @@
           "massing",
           "scale",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "playful height arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7738,
+            0.711,
+            0.7988
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elevation views clearly expose the existing compact height arrangement across the pavilion masses."
+        }
       }
     ],
     "keyword": [

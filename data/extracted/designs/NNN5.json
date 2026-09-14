@@ -18,7 +18,28 @@
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "existing constructions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.578,
+            0.6528,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Whole compact volume is positioned as a contextual urban mass between visible peripheral forms."
+        }
       },
       {
         "statement": "Its position and rectangular proportions avoid relegating a neighbouring building and open the entrance space.",
@@ -26,21 +47,75 @@
           "urban integration",
           "proportion",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrance space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1873,
+            0.1433,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southwestern lower edge provides the most plausible entrance-facing open zone."
+        }
       },
       {
         "statement": "The building nestles into the land and uses a depression to bring natural light to lower-level spaces.",
         "tags": [
           "topography",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "lower-level spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1845,
+            0.1734,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level placement is constrained near the depressed southwestern portion of the sampled mass."
+        }
       },
       {
         "statement": "The typology is clear and rigorous, with offices organized around a central core.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central core",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5866,
+            0.5894,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central placement follows the stated office-ring organization, though the core is not separately distinguishable."
+        }
       },
       {
         "statement": "The two major spaces have notable spatial quality, triple height, and natural roof lighting.",
@@ -48,14 +123,54 @@
           "layout",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "major spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7217,
+            0.6571,
+            0.75
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper peripheral volume provides the most plausible location for triple-height roof-lit spaces."
+        }
       },
       {
         "statement": "The peripheral structure provides flexibility for the offices, while interior walls define the major spaces.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "peripheral structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7305,
+            0.6615,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter geometry is visible around the sampled rectangular office volume."
+        }
       },
       {
         "statement": "The facade expresses the regularity of the offices and provides solar and acoustic protection.",
@@ -63,7 +178,27 @@
           "facade",
           "expression",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8177,
+            0.7051,
+            0.5
+          ],
+          "radius": 0.23,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular horizontal facade bands are clearly visible across the elevations."
+        }
       },
       {
         "statement": "The project attracted the jury through its efficiency, simplicity, and functional qualities.",
@@ -71,7 +206,28 @@
           "functionality",
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6476,
+            0.62,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Efficiency and simplicity are assigned to the complete compact sampled building."
+        }
       },
       {
         "statement": "The volumetric and typological choices meet programmatic needs and costs easily.",
@@ -79,7 +235,28 @@
           "massing",
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "volumetric and typological choices",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5809,
+            0.6227,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The visible rectangular mass and repeated levels represent the overall typological response."
+        }
       }
     ],
     "negative": [
@@ -88,14 +265,50 @@
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "blind rear corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7378,
+            0.8799,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Rear northern edge is the plausible location for constrained clearance and corridor spaces."
+        }
       },
       {
         "statement": "The seminar room has less convincing proportions and does not exploit verticality to relate to the office floor.",
         "tags": [
           "proportion",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "seminar room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7217,
+            0.6571,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The room is not identifiable; it is placed within the upper peripheral program zone."
+        }
       },
       {
         "statement": "The composition is considered somewhat too rigid, with long corridors in places.",
@@ -103,48 +316,176 @@
           "layout",
           "circulation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6433,
+            0.6178,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Elongated horizontal organization suggests circulation along the main rectangular volume."
+        }
       },
       {
         "statement": "The additional perforated glass screen is redundant and increases overall cost.",
         "tags": [
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "perforated glass screen",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8002,
+            0.6964,
+            0.75
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Screen is assigned to the exposed upper facade, where additional enclosure would occur."
+        }
       },
       {
         "statement": "The outdoor facilities ultimately fragment the campus entrance despite their gentle integration strategy.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "campus entrance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1883,
+            0.1333,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Fragmenting outdoor facilities is localized at the entrance-facing southwestern edge."
+        }
       },
       {
         "statement": "Protection against summer overheating is a weakness in the construction-ecology assessment.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "summer overheating protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7043,
+            0.6484,
+            0.75
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Thermal weakness is associated with the exposed upper facade and roof-facing envelope."
+        }
       },
       {
         "statement": "The significant height of auditoriums and classrooms disadvantages maintenance and acoustic management.",
         "tags": [
           "operation",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "auditoriums and classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6258,
+            0.6091,
+            0.75
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Tall room volumes are approximated in the upper levels where vertical clearances matter."
+        }
       },
       {
         "statement": "The project should establish a greater relationship between teaching and administrative areas.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "teaching and administrative areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5837,
+            0.5926,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Relationship between internal programs is placed near the central organizational zone."
+        }
       },
       {
         "statement": "A temporary carrier at the lower ground floor café area would improve the structural situation.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "lower ground floor café area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1759,
+            0.2637,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-ground café is approximated at the southwestern lower edge of the sampled building."
+        }
       }
     ],
     "keyword": [

@@ -16,7 +16,28 @@
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "calm urban-planning response",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3594,
+            0.3953,
+            0.5
+          ],
+          "radius": 0.304,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad placement represents the coherent overall building response across the two visible volumes."
+        }
       },
       {
         "statement": "The two volumes create a clear urban structure and external spatial hierarchy with simple means.",
@@ -24,14 +45,54 @@
           "massing",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "two volumes and external spatial hierarchy",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6515,
+            0.4899,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The gap and contrasting volumes are clearly identifiable in plan and elevations."
+        }
       },
       {
         "statement": "The hall forms a prominent communication space between school and city.",
         "tags": [
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "hall between school and city",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6515,
+            0.4899,
+            0.4545
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The inter-volume passage provides the most plausible location for the communication hall."
+        }
       },
       {
         "statement": "The entrances and access organization provide good orientation and are operationally convenient and efficient.",
@@ -39,35 +100,122 @@
           "circulation",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrances and access organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3594,
+            0.3953,
+            0.1364
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is anchored along the south-facing school edge at ground level."
+        }
       },
       {
         "statement": "The classrooms are well proportioned and the teaching areas are organized clearly.",
         "tags": [
           "proportion",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms and teaching areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2941,
+            0.3953,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior classrooms are approximated within the elongated school bar."
+        }
       },
       {
         "statement": "The restrained material and window strategy supports a calm architectural integration.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "restrained material and window strategy",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3268,
+            0.3953,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south elevation supplies the clearest calibrated facade reference."
+        }
       },
       {
         "statement": "The compact building and durable materials support good energy performance and resource efficiency.",
         "tags": [
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact building and durable materials",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3921,
+            0.3953,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact massing is directly evident from the complete plan and elevation set."
+        }
       },
       {
         "statement": "The project has good overall economic efficiency and low floor area and volume.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "economic efficiency and low floor area and volume",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an unlocated economic judgment about overall area and volume."
+        }
       }
     ],
     "negative": [
@@ -76,55 +224,210 @@
         "tags": [
           "open space",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "bicycle racks and courtyard glasshouse",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6515,
+            0.4899,
+            0.0909
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central passage and courtyard gap provide the plausible anchor for both questioned features."
+        }
       },
       {
         "statement": "The covered sports anteroom and rear courtyard offer limited spatial and experiential quality.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "covered sports anteroom and rear courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7683,
+            0.6789,
+            0.2273
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The sports-side volume and rearward courtyard region are approximated together."
+        }
       },
       {
         "statement": "The access zone on the school floors is unattractive, cramped, and narrow.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "access zone on school floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2614,
+            0.3953,
+            0.5
+          ],
+          "radius": 0.19,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The access zone is approximated inside the elongated school volume across its stacked floors."
+        }
       },
       {
         "statement": "The sports area is clearly organized but its dimensions are too tight.",
         "tags": [
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "sports area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7683,
+            0.5007,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The shorter eastern volume clearly identifies the sports-side area, though interior dimensions are unresolved."
+        }
       },
       {
         "statement": "The direction of the structural ribs does not follow the flow of forces.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "structural ribs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3268,
+            0.3953,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ribs are not distinguishable, so the roof surface of the school bar is used as a constrained anchor."
+        }
       },
       {
         "statement": "The need for ribbed ceilings is questioned for cost reasons.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "ribbed ceilings",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3268,
+            0.3953,
+            0.8636
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Ceilings are interior and unresolved; the upper school volume provides the nearest surface estimate."
+        }
       },
       {
         "statement": "The basement combination does not provide a convincing added value between the school and sports buildings.",
         "tags": [
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement combination between school and sports buildings",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6515,
+            0.4899,
+            0.0455
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The basement judgment is anchored at ground level within the visible inter-volume connection."
+        }
       },
       {
         "statement": "The project lacks a more comprehensive idea for the urban development of the district and the plot.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "urban development of district and plot",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.7024,
+            0.0455
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broader plot judgment is distributed toward the rear site edge represented around the building masses."
+        }
       }
     ],
     "keyword": [

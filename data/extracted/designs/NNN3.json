@@ -18,28 +18,104 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "campus-scale volumetry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2377,
+            0.2749,
+            0.4167
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The stepped building mass is visible across plan and elevations without a dominant tower."
+        }
       },
       {
         "statement": "The project sensitively integrates the site's topographical constraints as design elements.",
         "tags": [
           "topography",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "topographical constraints",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2604,
+            0.1629,
+            0.1667
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower platforms and the sloped mass provide the strongest terrain-related anchor."
+        }
       },
       {
         "statement": "The programmatic order is clear and inventive.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "programmatic order",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2449,
+            0.2749,
+            0.4167
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Distinct lower ring and upper terrace suggest ordered program zones."
+        }
       },
       {
         "statement": "The sloped interior circulation convincingly recreates a walk through natural terrain.",
         "tags": [
           "circulation",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "sloped interior circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2449,
+            0.2794,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The stepped central-to-lower arrangement offers an approximate circulation path."
+        }
       },
       {
         "statement": "The office ring opens generously to the landscape and reveals the interior life of the building.",
@@ -47,7 +123,26 @@
           "landscape",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "landscape-facing office ring",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1494,
+            0.2749,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The lower-left ring is clearly visible and fronts the exposed building edges."
+        }
       },
       {
         "statement": "The structural system is flexible and scalable, with a regular framework and reasonable spans.",
@@ -55,7 +150,26 @@
           "structure",
           "flexibility",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "regular structural framework",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7401,
+            0.8665,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated horizontal and vertical bands visibly support a regular framework reading."
+        }
       },
       {
         "statement": "The facade and roof lighting provide controlled, consistent illumination to the offices and common spaces.",
@@ -63,14 +177,44 @@
           "facade",
           "daylight",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade and roof lighting",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7976,
+            0.8665,
+            0.9167
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct upper-right roof terrace and surrounding envelope provide a clear lighting anchor."
+        }
       },
       {
         "statement": "The proposed technical principles are consistent and achievable.",
         "tags": [
           "operation",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "technical principles",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Technical feasibility is a whole-system judgment without a distinct geometric marker."
+        }
       }
     ],
     "negative": [
@@ -79,48 +223,164 @@
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central circulation organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2305,
+            0.2749,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central stepped region is the most plausible circulation anchor."
+        }
       },
       {
         "statement": "The mound installation is strongly questioned because it requires major ground reworking and may erase the original topography.",
         "tags": [
           "topography",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "mound installation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2604,
+            0.1629,
+            0.0833
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower platformed footprint supplies the site-level mound anchor."
+        }
       },
       {
         "statement": "The proposed photovoltaic sunshade system is too complex and may create future technical problems.",
         "tags": [
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "photovoltaic sunshade system",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7976,
+            0.8665,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The upper roof terrace is the plausible location for an unidentifiable sunshade system."
+        }
       },
       {
         "statement": "The large glazed surfaces, especially the roof, raise doubts about overheating control.",
         "tags": [
           "daylight",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "large glazed roof surfaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7904,
+            0.8665,
+            1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct upper roof feature anchors the glazing and overheating concern."
+        }
       },
       {
         "statement": "The building's poor compactness weakens its construction-ecology performance.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building compactness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Compactness is assessed across the whole building rather than one point."
+        }
       },
       {
         "statement": "The cost evaluation places the project well beyond the announced target.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "cost evaluation",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost has no useful spatial referent in the sampled geometry."
+        }
       },
       {
         "statement": "The concept appeals to the jury but raises questions about its suitability for the intended program.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "program suitability",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7186,
+            0.8665,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The broad upper building region provides a distributed anchor for program suitability."
+        }
       }
     ],
     "keyword": [

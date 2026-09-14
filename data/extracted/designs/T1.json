@@ -17,7 +17,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole building massing",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3057,
+            0.7382,
+            0.5357
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distributed building mass mediates between larger and smaller contextual scales."
+        }
       },
       {
         "statement": "The settlement creates a sequence of different open-space chambers that complements the existing structure.",
@@ -25,28 +45,99 @@
           "open space",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "open-space chambers",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7003,
+            0.4778,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view reveals multiple exterior gaps and a pronounced central outdoor space."
+        }
       },
       {
         "statement": "The exterior design and vegetation concept are convincing in their stringent clarity.",
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "exterior vegetation concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1967,
+            0.2098,
+            0.0357
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape assignment is placed along the open perimeter surrounding the building footprint."
+        }
       },
       {
         "statement": "The climate-effective measures improve the local climate and promote biodiversity.",
         "tags": [
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "climate and biodiversity measures",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9738,
+            0.2031,
+            0.0357
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Environmental measures are assigned to a plausible landscaped exterior zone."
+        }
       },
       {
         "statement": "The path connections are clear and provide welcome added value.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "path connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3331,
+            0.1742,
+            0.0357
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Approximate circulation anchor follows the visible open-space edges and building approaches."
+        }
       },
       {
         "statement": "The three-part complex has a strong center from which the different uses are developed.",
@@ -54,7 +145,27 @@
           "massing",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "strong center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6966,
+            0.5297,
+            0.1071
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Centralized organization is corroborated by the surrounding three-wing footprint."
+        }
       },
       {
         "statement": "The basic shape allows uses to be separated where this is desired.",
@@ -62,7 +173,27 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three-part complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7871,
+            0.6743,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Distributed anchor represents one wing within the clearly separated three-part mass."
+        }
       },
       {
         "statement": "The clusters are effectively organized around a common center, with group rooms accessible from both corridor and classroom.",
@@ -70,7 +201,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "group-room clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7787,
+            0.79,
+            0.4643
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Interior clusters are approximated behind the north-east portion of the sampled envelope."
+        }
       },
       {
         "statement": "The structural clarity results in an impressively simple building that harmoniously complements the existing school complex.",
@@ -78,7 +228,27 @@
           "structure",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "structural clarity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3095,
+            0.6863,
+            0.5357
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Simple structural expression is assigned across the visible building envelope."
+        }
       }
     ],
     "negative": [
@@ -87,21 +257,76 @@
         "tags": [
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7863,
+            0.6862,
+            0.4643
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Room proportion concern is approximated within an upper wing cluster."
+        }
       },
       {
         "statement": "Some basement workrooms are only illuminated via the gymnasium, which is viewed critically.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement workrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7041,
+            0.426,
+            0.0714
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Basement rooms are placed at a low-level surface location near the gymnasium zone."
+        }
       },
       {
         "statement": "The jury was unable to understand why the glass balustrades were proposed.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "glass balustrades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9144,
+            0.4369,
+            0.6786
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Facade element is approximated on the east exterior at an upper circulation level."
+        }
       }
     ],
     "keyword": [

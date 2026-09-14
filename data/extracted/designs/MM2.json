@@ -18,7 +18,28 @@
           "massing",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "central courtyard figure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5275,
+            0.4121,
+            0.2
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central courtyard void is clearly enclosed by staggered prismatic volumes."
+        }
       },
       {
         "statement": "The arrangement preserves many large-crowned trees and creates varied, connected outdoor spaces.",
@@ -26,7 +47,24 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "large-crowned trees and connected outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1894,
+            0.7555,
+            0.2
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Preserved landscape is assigned around the less occupied perimeter beyond the courtyard volumes."
+        }
       },
       {
         "statement": "Giving each school level its own building strengthens address and makes orientation easier.",
@@ -34,7 +72,26 @@
           "layout",
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "school-level building addresses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7925,
+            0.6523,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Separate wings are visibly distributed around the courtyard, supporting distinct addresses."
+        }
       },
       {
         "statement": "The school wings provide a solid and flexible spatial structure for contemporary teaching and learning.",
@@ -42,7 +99,28 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "school wings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6335,
+            0.445,
+            0.5039
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The four visible wings form a solid, adaptable spatial framework."
+        }
       },
       {
         "statement": "The schoolyard and community centre offer welcome public added value and a point of identification.",
@@ -50,7 +128,24 @@
           "open space",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard and community centre",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3434,
+            0.4121,
+            0.2
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Public value is anchored in the open ground areas adjoining the courtyard-forming buildings."
+        }
       },
       {
         "statement": "Good space efficiency, compactness, timber construction and large photovoltaic areas promise a favourable cost and CO2 balance.",
@@ -58,7 +153,26 @@
           "cost",
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "cost and CO2 balance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6642,
+            0.445,
+            0.5039
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Efficiency and material-performance judgment is associated with the compact visible building ensemble."
+        }
       }
     ],
     "negative": [
@@ -67,35 +181,123 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "anterooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5275,
+            0.4121,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Enclosure criticism is located along the courtyard’s interior edge."
+        }
       },
       {
         "statement": "The proximity of the volumes to the neighbouring path reduces the quality of the vegetative border.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "vegetative border beside neighbouring path",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8539,
+            0.6523,
+            0.2
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The affected landscape edge is approximated along the building perimeter."
+        }
       },
       {
         "statement": "A direct line of sight to the community-centre entrance from the street is desirable.",
         "tags": [
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "community-centre entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6401,
+            0,
+            0.2
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing entrance visibility is approximated at the south edge of the complex."
+        }
       },
       {
         "statement": "The community centre’s mix of uses does not yet provide sufficient operational synergies.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "community centre mix of uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.773,
+            0.4121,
+            0.4
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Operational concerns are assigned to one peripheral wing presumed to contain the community centre."
+        }
       },
       {
         "statement": "The SKB access organization does not match the qualities of the other school wings.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "SKB access organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2247,
+            0.5552,
+            0.4
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Access criticism is placed at a distinct outer school wing."
+        }
       },
       {
         "statement": "The school’s architectural expression remains schematic and uniform, giving it a somewhat temporary feel.",
@@ -103,7 +305,25 @@
           "expression",
           "identity",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "school architectural expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6145,
+            0,
+            0.6
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Uniform expression is anchored to the visible south-facing facade sequence."
+        }
       },
       {
         "statement": "The revised north-facing catering rooms may have seriously limited quality of stay because of insufficient sunlight.",
@@ -111,14 +331,51 @@
           "daylight",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "north-facing catering rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6635,
+            0.8852,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North orientation constrains the rooms to the rear edge of the building ensemble."
+        }
       },
       {
         "statement": "The roof structure makes the community building appear less open than previously indicated.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "community building roof structure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7925,
+            0.6523,
+            0.9
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof criticism is assigned to the upper surface of the presumed community wing."
+        }
       },
       {
         "statement": "The large footprint creates cramped ground-level open spaces, particularly around the running track.",
@@ -126,7 +383,24 @@
           "open space",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "ground-level open spaces around running track",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3434,
+            0.2544,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Cramped openness is located across the low ground plane near the presumed track edge."
+        }
       },
       {
         "statement": "The urban-planning approach severely impairs the surrounding green space and reduces its generosity and depth.",
@@ -134,7 +408,24 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "surrounding green space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2201,
+            0.7555,
+            0.2
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Urban-planning criticism is assigned to the preserved but narrowed peripheral green area."
+        }
       }
     ],
     "keyword": [

@@ -17,14 +17,50 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "permeable built front",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2443,
+            0.7184,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northwestern placement and open perimeter suggest a porous urban-facing built edge."
+        }
       },
       {
         "statement": "The location provides a particularly relevant operational solution by allowing existing facilities to remain in use.",
         "tags": [
           "operation",
           "phasing"
-        ]
+        ],
+        "position": {
+          "target": "existing facilities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2346,
+            0.7125,
+            0.2917
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Operational continuity is anchored to the school’s stated northwestern block-edge location."
+        }
       },
       {
         "statement": "The school’s placement makes clever and economical use of the triangular block while maximizing surrounding green space.",
@@ -32,7 +68,27 @@
           "open space",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "triangular block and surrounding green space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7518,
+            0.4855,
+            0.0833
+          ],
+          "radius": 0.321,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Top view visibly shows a triangular perimeter arrangement around a central open green area."
+        }
       },
       {
         "statement": "The clear alignments and simple whole fit naturally into the preserved environment.",
@@ -40,14 +96,52 @@
           "urban integration",
           "proportion",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "clear alignments and simple whole",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2733,
+            0.7359,
+            0.5417
+          ],
+          "radius": 0.321,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Orthographic views show a compact, clearly aligned perimeter volume with consistent elevation."
+        }
       },
       {
         "statement": "The school is connected clearly to the neighborhood by primary and secondary paths.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "primary and secondary paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1345,
+            0.652,
+            0.0417
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Perimeter and internal point alignments provide a plausible connection zone toward surrounding streets."
+        }
       },
       {
         "statement": "The south-side passageways successfully combine sun protection, escape routes, and exterior courtyard areas.",
@@ -55,7 +149,25 @@
           "facade",
           "safety",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "south-side passageways",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4332,
+            0.1579,
+            0.4167
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south elevation constrains the passageways to the lower southern facade and adjacent exterior space."
+        }
       }
     ],
     "negative": [
@@ -64,7 +176,26 @@
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "semi-buried parking installation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6943,
+            0.3158,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Parking is not distinguishable; approximate lower eastern site surface represents the proposed intervention."
+        }
       },
       {
         "statement": "The generous crossing hall is cluttered to the point of saturation, and the stair flights appear undersized.",
@@ -72,20 +203,78 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "crossing hall and stair flights",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6943,
+            0.3158,
+            0.4583
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is not identifiable, so the central building region is used as a constrained proxy."
+        }
       },
       {
         "statement": "The ground floor is particularly dark.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2795,
+            0.7397,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower elevation bands in the sampled envelope anchor the daylight judgment to the ground level."
+        }
       },
       {
         "statement": "The additional classroom and very large hall tend to inflate the volume to be built.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "additional classroom and very large hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3023,
+            0.7535,
+            0.6667
+          ],
+          "radius": 0.321,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal program is absent; upper northwestern volume is a constrained proxy for added bulk."
+        }
       },
       {
         "statement": "The future of the preserved plane-tree mall and the proposed concentration of play equipment require reconsideration.",
@@ -93,7 +282,24 @@
           "landscape",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "plane-tree mall and play equipment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4246,
+            0.8274,
+            0.0417
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape elements are not individually visible; central open-space surface represents the reconsidered site area."
+        }
       }
     ],
     "keyword": [

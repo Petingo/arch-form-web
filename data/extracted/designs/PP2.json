@@ -17,7 +17,26 @@
           "layout",
           "circulation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "undulating distribution space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7297,
+            0.3144,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central offset circulation zone is visible in the top footprint and repeated elevation bands."
+        }
       },
       {
         "statement": "The openness and porosity of the project generously bring in views of the surrounding countryside and connect the building with exterior spaces.",
@@ -25,7 +44,28 @@
           "visibility",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "open and porous building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7376,
+            0.3232,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Porous elongated volume and exterior connections are evident across the footprint and elevations."
+        }
       },
       {
         "statement": "The modest image of added elements and the ecological approach meet the requirements of the brief.",
@@ -33,7 +73,26 @@
           "expression",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2598,
+            0.6984,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Overall modest expression is assigned to the sampled low-rise envelope; ecological and cost claims are non-geometric."
+        }
       }
     ],
     "negative": [
@@ -43,7 +102,24 @@
           "open space",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "future recreation space loss",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0351,
+            0.4273,
+            0
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "West-side open ground is the plausible location of the removed playground and future extension."
+        }
       },
       {
         "statement": "The two separate entrances and absence of a common playground create operating problems for supervising children.",
@@ -51,14 +127,51 @@
           "operation",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "separate entrances and common playground",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7893,
+            0.3401,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground-level end zones approximate entrances and the absent shared playground."
+        }
       },
       {
         "statement": "Solar protection for the south-facing classrooms remains unresolved.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "south-facing classrooms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5594,
+            0.1492,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south edge of the elongated classroom volume provides the directional facade anchor."
+        }
       },
       {
         "statement": "Correcting the ground level to negate the slope contradicts the constructive simplicity by requiring substantial foundations.",
@@ -66,7 +179,26 @@
           "topography",
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "ground level and foundations",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3337,
+            0.1915,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level placement is anchored to the lower sampled envelope and site-facing footprint."
+        }
       }
     ],
     "keyword": [

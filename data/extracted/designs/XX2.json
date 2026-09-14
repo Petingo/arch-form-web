@@ -17,28 +17,107 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building placement in the landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5497,
+            0.5917,
+            0.4286
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three wings and stepped terrain relationship are clearly visible in the complete model views."
+        }
       },
       {
         "statement": "The rooms are logically divided into their different usage units and are easy to find.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "usage units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5712,
+            0.5964,
+            0.4286
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior divisions are not visible; estimate follows the three-wing organizational junction."
+        }
       },
       {
         "statement": "Short paths and visual references promote orientation.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "short paths and visual references",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5274,
+            0.5904,
+            0.354
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central junction and connected wing geometry provide the clearest circulation anchor."
+        }
       },
       {
         "statement": "The two-storey structure meets noise protection requirements.",
         "tags": [
           "scale",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "two-storey structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5282,
+            0.5871,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Two-storey horizontal bands are clearly visible on all elevations."
+        }
       }
     ],
     "negative": [
@@ -47,7 +126,26 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2583,
+            0.6668,
+            0.2143
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open-space locations are inferred from the voids around the three-wing footprint."
+        }
       },
       {
         "statement": "The accessible garden is hardly exposed to sunlight and is not very inviting near the main entrance.",
@@ -55,14 +153,52 @@
           "accessibility",
           "daylight",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "accessible garden near main entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2027,
+            0.3466,
+            0.1429
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Garden and entrance are not distinct; marker uses the low front-side open edge."
+        }
       },
       {
         "statement": "The corridors ultimately leave little visibility.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5244,
+            0.6032,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Corridors are interior and estimated at the central connecting zone."
+        }
       },
       {
         "statement": "The architectural expression is too weak in this strong landscape and has a strong barrack character.",
@@ -70,7 +206,27 @@
           "expression",
           "identity",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "weak architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5282,
+            0.5871,
+            0.5714
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The complete compact mass is visible, supporting a whole-building expression assessment."
+        }
       },
       {
         "statement": "The facade design appears fragile and inexperienced, with unfavorable window proportions.",
@@ -78,14 +234,51 @@
           "facade",
           "proportion",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7002,
+            0.6242,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Facade proportions are assessed on the visible east and north elevations."
+        }
       },
       {
         "statement": "The load transfer is unclear and the bracing is insufficient.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "load transfer and bracing",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5497,
+            0.5917,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural systems are not represented directly; marker uses the central building frame."
+        }
       }
     ],
     "keyword": [

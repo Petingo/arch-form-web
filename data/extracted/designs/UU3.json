@@ -18,7 +18,26 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7045,
+            0.0977,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Open areas are distributed around the paired volumes and their shared central setting."
+        }
       },
       {
         "statement": "The delicate structure and analogous architectural language treat both new buildings identically and equally.",
@@ -26,7 +45,27 @@
           "expression",
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "delicate structure and analogous architectural language",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4895,
+            0.9838,
+            0.6486
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated regular facade points and matching volumes visibly support equal treatment."
+        }
       },
       {
         "statement": "The facade design and loose setting are appropriate to the village context.",
@@ -34,7 +73,26 @@
           "facade",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "facade design and loose setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2338,
+            0.9838,
+            0.5495
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Paired solid volumes sit apart within a visibly open, village-scaled composition."
+        }
       },
       {
         "statement": "The planted front and break areas form a continuous connecting band between the buildings.",
@@ -42,7 +100,25 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "planted front and break areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5106,
+            0.0162,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The connecting band is approximated along the shared southern frontage."
+        }
       },
       {
         "statement": "The large sports and playing fields correspond to the loose setting of the two buildings.",
@@ -50,21 +126,75 @@
           "open space",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "sports and playing fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5097,
+            0.9838,
+            0
+          ],
+          "radius": 0.304,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Large fields are assigned to the open northern side beyond the sampled building mass."
+        }
       },
       {
         "statement": "The chosen wooden construction can be assumed to be sustainable.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "wooden construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9894,
+            0.476,
+            0.5991
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Material judgment is anchored to the visible building envelope, without resolved construction detail."
+        }
       },
       {
         "statement": "The internal organization of the school building seems clear.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0106,
+            0.4929,
+            0.4505
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Organization is approximated within the left paired volume and its regular floor bands."
+        }
       }
     ],
     "negative": [
@@ -73,7 +203,24 @@
         "tags": [
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "double hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4895,
+            0.9838,
+            0.6981
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "north"
+          ],
+          "rationale": "The hall is constrained to the north side, but its interior opening is not distinguishable."
+        }
       },
       {
         "statement": "The second staircase required for fire safety remains undecided and obscures the floor-plan organization.",
@@ -81,7 +228,25 @@
           "fire safety",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "second staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9894,
+            0.476,
+            0.4505
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A possible stair location is guessed within the right-hand volume."
+        }
       },
       {
         "statement": "Delivery crosses the access area and creates conflicts during events.",
@@ -89,14 +254,43 @@
           "circulation",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "delivery and access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5426,
+            0.0162,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Conflict is anchored at the southern access edge shared by the two buildings."
+        }
       },
       {
         "statement": "Maintenance costs are comparatively high despite the expected low construction costs.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "maintenance costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.304,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost comparison has no useful spatial referent."
+        }
       },
       {
         "statement": "The wide central zone and sometimes large classroom depths make the building dimensions questionable for school use.",
@@ -104,14 +298,52 @@
           "proportion",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central zone and classroom depths",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7045,
+            0.0977,
+            0.3514
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Dimensional criticism is assigned to the broad central floor region between paired masses."
+        }
       },
       {
         "statement": "The chosen building dimensions create unsatisfactory daylight situations.",
         "tags": [
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "daylight situations",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9894,
+            0.574,
+            0.5495
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Daylight concern is distributed across the sampled facade and floor bands."
+        }
       }
     ],
     "keyword": [

@@ -16,14 +16,52 @@
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "clear address and urban development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9561,
+            0.8834,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Anchored near the bar’s northeastern end as a plausible public address zone."
+        }
       },
       {
         "statement": "The formally clear and concise structural concept leaves the interiors practically column-free.",
         "tags": [
           "structure",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "column-free interiors",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4249,
+            0.0419,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior structure is unshown; anchored along the central longitudinal bar edge."
+        }
       },
       {
         "statement": "The project has great floor-plan potential and good space and volume efficiency.",
@@ -31,7 +69,26 @@
           "layout",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "floor-plan potential and space efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8313,
+            0.6359,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad planning judgment distributed toward the bar’s northeastern half."
+        }
       },
       {
         "statement": "It promotes open forms of learning and can respond to educational requirements and concepts.",
@@ -39,7 +96,26 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "open forms of learning",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5964,
+            0.1699,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Learning spaces are unshown; placed within the southwestern longitudinal portion."
+        }
       },
       {
         "statement": "The lowered auditorium creates interesting spatial and visual references and enables a two-story appearance.",
@@ -47,14 +123,44 @@
           "layout",
           "expression",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "lowered auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5376,
+            0.0534,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Auditorium is not distinguishable; low-level anchor follows the central bar edge."
+        }
       },
       {
         "statement": "The careful use of floor space and building volume produces an economically optimized building.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "economically optimized building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic optimization is a non-spatial performance judgment."
+        }
       }
     ],
     "negative": [
@@ -64,28 +170,100 @@
           "functionality",
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "narrow access zones and impractical room configurations",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0594,
+            0.1078,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Access conditions are unshown; anchored at the bar’s southwestern end."
+        }
       },
       {
         "statement": "An even more precise urban-planning setting would be desirable.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5335,
+            0.9675,
+            0.3333
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Site context is absent; placed along the northern perimeter as a broad urban edge."
+        }
       },
       {
         "statement": "The peripheral placement of the bicycle parking spaces is unfavorable for sustainability reasons.",
         "tags": [
           "sustainability",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "peripheral bicycle parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0995,
+            0.1093,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is not represented; constrained to the western-southwestern perimeter."
+        }
       },
       {
         "statement": "The proposed car-parking arrangement on the neighboring plot cannot be implemented in this way.",
         "tags": [
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "car-parking arrangement on the neighboring plot",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9488,
+            0.8688,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Neighboring parking is absent; anchored outside the northeastern building edge."
+        }
       },
       {
         "statement": "The facades and the prominent escape systems are not convincingly conceived or integrated.",
@@ -93,7 +271,27 @@
           "facade",
           "expression",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "facades and prominent escape systems",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8534,
+            0.6795,
+            0.6667
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Longitudinal facade and repeated balcony bands are visible, while escape systems remain indistinct."
+        }
       },
       {
         "statement": "Implementation of the spatial concept requires a general revision, including a reconsideration of the overall dimensions.",
@@ -101,7 +299,28 @@
           "layout",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "overall dimensions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5303,
+            0.0389,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated footprint and repeated elevations directly expose the building’s overall proportions."
+        }
       }
     ],
     "keyword": [

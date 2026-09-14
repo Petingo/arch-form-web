@@ -17,21 +17,78 @@
           "urban integration",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "public urban spaces and school setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5543,
+            0.2263,
+            0.1
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The street-facing opening between the compact wings is clearly visible in plan."
+        }
       },
       {
         "statement": "The urban development strategy is reflected in the clever continuation of use units, allowing the school and the city to form a spatial composition.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "continuation of use units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.5128,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "One compact wing anchors the spatial composition formed by the paired building volumes."
+        }
       },
       {
         "statement": "The space between the two buildings provides a generous access situation and clear addressing of the entrances.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "space between the two buildings and entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5543,
+            0.4772,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central access space and opposing entrance edges are legible across the views."
+        }
       },
       {
         "statement": "The tree-lined courtyard and the shared areas provide useful common spaces for school operations.",
@@ -39,7 +96,25 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "tree-lined courtyard and shared areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5543,
+            0.8118,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The rear courtyard zone is visible between the opposite compact wings."
+        }
       },
       {
         "statement": "The ground floor can be used very flexibly and efficiently through the overlap of multipurpose use and the entrance hall.",
@@ -47,7 +122,25 @@
           "flexibility",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground floor and entrance hall",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5543,
+            0.4772,
+            0.05
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The ground-level central access zone approximates the entrance hall and multipurpose overlap."
+        }
       },
       {
         "statement": "The efficient floor plan concept and the clear arrangement of the outside space are convincing from an operational point of view.",
@@ -55,7 +148,26 @@
           "operation",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outside space arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5543,
+            0.31,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The open spaces around and between the wings are clearly represented in plan."
+        }
       },
       {
         "statement": "The two buildings impress with good construction values, compactness, resource-saving durability, and a sensible ventilation concept.",
@@ -63,7 +175,28 @@
           "structure",
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "compact building parts and ventilation concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.5128,
+            0.55
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact paired massing is visible, while ventilation remains a broad building-level judgment."
+        }
       },
       {
         "statement": "The different support structures are reflected in a finely graduated architectural expression of the facades.",
@@ -71,14 +204,53 @@
           "structure",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2503,
+            0.0946,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Facade articulation and differing structural expressions are visible on the perimeter elevations."
+        }
       },
       {
         "statement": "The vertically consistent static concept of the compact building parts is economical.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "vertically consistent static concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5543,
+            0.4772,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stacked, compact building geometry is evident through the repeated elevation levels."
+        }
       }
     ],
     "negative": [
@@ -87,28 +259,102 @@
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor central zones",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.5128,
+            0.8
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-level restriction is anchored within a wing at the elevated central zone."
+        }
       },
       {
         "statement": "The classrooms positioned across the façade are unfavorable in their organization and lighting.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "classrooms across the facade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.0946,
+            0.65
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classroom interiors are not distinguishable, so the facade-side upper zone is used."
+        }
       },
       {
         "statement": "The strong building grid limits the flexibility of use.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "strong building grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2503,
+            0.5128,
+            0.45
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated regular point patterns visibly support a grid-system anchor."
+        }
       },
       {
         "statement": "The internal spaciousness on the upper floors is weakened by the central usage arrangements and loses quality.",
         "tags": [
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor central usage arrangements",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5543,
+            0.4772,
+            0.8
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "The upper central zone of the opposite wing provides a distributed floor-level estimate."
+        }
       },
       {
         "statement": "The typological approach of separate access areas with a shared center of use contradicts the horizontal flexibility requirements of a vocational school.",
@@ -116,20 +362,68 @@
           "circulation",
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "separate access areas and shared center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5543,
+            0.4772,
+            0.7
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connection is visible, but internal access-area divisions are not directly resolved."
+        }
       },
       {
         "statement": "The two narrow connecting corridors are poorly usable, leaving the solution indecisive on the upper floors.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two narrow connecting corridors",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5543,
+            0.4772,
+            0.65
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Connecting circulation is approximated at the central link between the two wings."
+        }
       },
       {
         "statement": "The mentioned pile foundation is cost-intensive.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "pile foundation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The foundation cost judgment has no useful visible spatial referent in the exterior point cloud."
+        }
       }
     ],
     "keyword": [

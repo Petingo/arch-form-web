@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "overall complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5237,
+            0.4499,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Top view shows two angled volumes grouped around a central open access zone; elevations corroborate the compact complex."
+        }
       },
       {
         "statement": "The outdoor spaces have beautiful spatial relationships and high quality in use and access.",
@@ -26,7 +46,26 @@
           "open space",
           "landscape",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5479,
+            0.4283,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open space is approximated in the visible gap between the two sampled building volumes."
+        }
       },
       {
         "statement": "The entrances and break areas are set back from traffic and protected.",
@@ -34,7 +73,25 @@
           "circulation",
           "safety",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "entrances and break areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5408,
+            0.3966,
+            0.125
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Set-back access and break areas are approximated along the central front-facing gap."
+        }
       },
       {
         "statement": "The sports hall is functionally well connected to parking and can operate completely separately from school operations.",
@@ -42,34 +99,120 @@
           "functionality",
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sports hall and parking connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6401,
+            0.2286,
+            0.2578
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The distinct lower-right volume is treated as the sports hall, with its external connection approximated toward the east."
+        }
       },
       {
         "statement": "The clear building structure enables a high degree of flexibility in classroom layout and allocation.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2694,
+            0.5979,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom organization is assigned to the larger upper-left school volume visible in the top view."
+        }
       },
       {
         "statement": "The central access zone with opposing cascade staircases is spatially attractive.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "central access zone with cascade staircases",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5256,
+            0.4405,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central gap and adjacent stepped linear traces identify the access zone between the angled volumes."
+        }
       },
       {
         "statement": "The project has a relatively cheap building volume and below-average expected investment and management costs.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "building volume and investment costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment concerns the project globally and has no useful spatial referent."
+        }
       },
       {
         "statement": "The balanced ratio of window to wall areas is particularly noticeable in sustainability terms.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "window-to-wall areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5842,
+            0.2711,
+            0.625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade bands are visible in elevations, but window-to-wall balance is not separately distinguishable."
+        }
       }
     ],
     "negative": [
@@ -78,14 +221,51 @@
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "outdoor design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5648,
+            0.4303,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The schematic outdoor condition is assigned to the open areas separating the sampled volumes."
+        }
       },
       {
         "statement": "The limited distance from the eastern industrial area is expected to cause disruptions to school operations.",
         "tags": [
           "urban integration",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "eastern industrial area distance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8484,
+            0.4793,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Eastern site edge is approximated beyond the rightmost building volume in the top and east views."
+        }
       },
       {
         "statement": "The integration of ball-stopping fences is spatially problematic and may disrupt school operations.",
@@ -93,7 +273,24 @@
           "open space",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "ball-stopping fences",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6322,
+            0.4385,
+            0.125
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Fence locations are not distinguishable; a constrained marker is placed within the central outdoor zone."
+        }
       },
       {
         "statement": "The ground-floor layout, sanitary rooms and escape stairs raise structural and organizational questions.",
@@ -101,7 +298,26 @@
           "layout",
           "structure",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor layout, sanitary rooms and escape stairs",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3103,
+            0.6321,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-level organizational concerns are assigned to the lower surface of the larger school volume."
+        }
       },
       {
         "statement": "The kindergarten cloakroom corridor appears problematic because it is illuminated only through the kindergarten rooms.",
@@ -109,21 +325,75 @@
           "daylight",
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten cloakroom corridor",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2934,
+            0.63,
+            0.2578
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The corridor is approximated inside the school volume; its internal daylight path is absent from the exterior sample."
+        }
       },
       {
         "statement": "The auditorium and adjoining rooms would have to be optimized.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "auditorium and adjoining rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5945,
+            0.2412,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Adjoining-room concerns are assigned to the distinct lower-right volume as an approximate internal zone."
+        }
       },
       {
         "statement": "The sanitary rooms are confusingly arranged and far too small.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sanitary rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3272,
+            0.6341,
+            0.2578
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Sanitary rooms are not visible internally; the marker is constrained within the larger school volume."
+        }
       },
       {
         "statement": "The sports hall adjoining rooms require more operationally balanced allocation across the floors.",
@@ -131,7 +401,26 @@
           "functionality",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sports hall adjoining rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8966,
+            0.3397,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct sports-hall volume anchors an approximate upper adjoining-room allocation."
+        }
       },
       {
         "statement": "The facades remain schematic and lack the public character of a school and sports facility.",
@@ -139,7 +428,26 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6014,
+            0.2212,
+            0.625
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevation views directly show the long, repetitive facade bands of the sampled volumes."
+        }
       },
       {
         "statement": "The materialization should be differentiated more carefully inside and outside to support the atmosphere of a primary school building.",
@@ -147,7 +455,26 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "interior and exterior materialization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2863,
+            0.5999,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Material differentiation is unobservable internally; the marker uses the larger school mass as a surface proxy."
+        }
       },
       {
         "statement": "The widely projecting upper floors are complex and contradict the more vertical structure.",
@@ -155,14 +482,51 @@
           "massing",
           "proportion",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "projecting upper floors",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5945,
+            0.2412,
+            0.875
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper projecting bands are visibly distinct in the top and elevation views, especially on the lower-right volume."
+        }
       },
       {
         "statement": "The fire-protection solutions should be questioned regarding the effort involved.",
         "tags": [
           "fire safety",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "fire-protection solutions",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.32,
+            0.604,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Fire-protection systems are not represented distinctly; a constrained marker uses the school building surface."
+        }
       }
     ],
     "keyword": [

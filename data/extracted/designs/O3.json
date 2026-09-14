@@ -17,7 +17,27 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large footprint and existing complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5698,
+            0.6174,
+            0.5
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad marker covers the elongated footprint while respecting its diagonal placement."
+        }
       },
       {
         "statement": "The sequence of courtyard spaces is a congenial continuation of the original design idea.",
@@ -25,14 +45,50 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "sequence of courtyard spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5883,
+            0.6025,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Repeated gaps and enclosed outdoor pockets are directly legible along the diagonal plan."
+        }
       },
       {
         "statement": "The informal entrances and exits underline the openness of the complex.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "informal entrances and exits",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2358,
+            0.633,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Placed at a lower-left perimeter segment where circulation openings are most plausible."
+        }
       },
       {
         "statement": "The simple and intelligent structure uses structural resources economically without compromising tectonic expression.",
@@ -40,14 +96,54 @@
           "structure",
           "expression",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "simple structural resources",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6192,
+            0.5777,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Building-wide anchor reflects the linear modular structural system visible across all elevations."
+        }
       },
       {
         "statement": "The modular building structure opens considerable flexibility for future school use.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "modular building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7797,
+            0.4488,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Placed along the repeated long-axis bays of the single-story volume."
+        }
       },
       {
         "statement": "The delicately structured construction fits seamlessly into the existing complex through subtle differentiation and proportioning.",
@@ -55,7 +151,27 @@
           "expression",
           "proportion",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "subtle differentiation and proportioning",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5389,
+            0.6422,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Facade anchor follows the restrained repeated bands visible in the elevations."
+        }
       },
       {
         "statement": "The horizontal juxtaposition of spatial functions offers an open and unconventional vessel with potential for a future school model.",
@@ -63,13 +179,44 @@
           "layout",
           "flexibility",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "horizontal juxtaposition of spatial functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.613,
+            0.5827,
+            0.25
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Linear marker follows the building’s longitudinal organization around the courtyards."
+        }
       },
       {
         "statement": "The project has low construction costs compared with the other entries.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Comparative construction cost is a non-spatial judgment."
+        }
       }
     ],
     "negative": [
@@ -79,42 +226,152 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "protected break halls, outdoor spaces, and trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2181,
+            0.6431,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Assigned to the lower-left external zone where displaced outdoor areas would relate to the building."
+        }
       },
       {
         "statement": "The alternating classrooms and group rooms make it difficult to create quiet niches for collaboration.",
         "tags": [
           "layout",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "quiet collaboration niches",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6192,
+            0.5777,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior niche location is estimated within the central linear sequence."
+        }
       },
       {
         "statement": "The high density of use in the central access corridor is unfavorable, especially during breaks.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central access corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6068,
+            0.5877,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central longitudinal zone is inferred from the elongated building organization."
+        }
       },
       {
         "statement": "The basement workrooms, lit only through a light shaft, do not offer enough quality of stay.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement workrooms and light shaft",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5613,
+            0.2417,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Below-grade workrooms are estimated beneath the middle-right portion of the footprint."
+        }
       },
       {
         "statement": "The location of the day school makes it difficult to oversee children playing on the school grounds.",
         "tags": [
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "day school location",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8106,
+            0.424,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Peripheral middle-right zone is assigned as the likely day-school area."
+        }
       },
       {
         "statement": "The spatial proximity of the new rooms to younger children's outdoor areas risks distraction and disruption.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "younger children's outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2296,
+            0.6379,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Placed beside the lower-left courtyard edge where outdoor child activity is most plausible."
+        }
       },
       {
         "statement": "Achieving the energy standard requires complex constructions and a large photovoltaic system.",
@@ -122,14 +379,50 @@
           "sustainability",
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "photovoltaic system and energy-standard construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6435,
+            0.2866,
+            1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-system marker follows the long upper surface, though photovoltaic elements are not distinguishable."
+        }
       },
       {
         "statement": "The arrangement of the spatial sequences inside and outside does not convincingly exploit the project's potential.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "spatial sequences inside and outside",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5821,
+            0.6075,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central courtyard sequence and adjacent linear spaces are directly visible in plan."
+        }
       }
     ],
     "keyword": [

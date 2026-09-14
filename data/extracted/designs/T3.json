@@ -18,7 +18,27 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "permeable outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3975,
+            0.3675,
+            0.05
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view shows open space around and between the elongated building islands."
+        }
       },
       {
         "statement": "The new open space and all-weather pitch establish a clear new school address.",
@@ -26,35 +46,124 @@
           "open space",
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "new school address",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7648,
+            0.137,
+            0.05
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Address is placed on the lower open-space edge associated with the all-weather pitch."
+        }
       },
       {
         "statement": "The connection to the existing path system improves access.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "existing path system connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1365,
+            0.4898,
+            0.05
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access anchor follows a plausible western approach to the elongated footprint."
+        }
       },
       {
         "statement": "The flowing green space becomes a coherent unit through careful tree planting.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "flowing green space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1757,
+            0.793,
+            0.05
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tree-planted landscape is assigned to the open north-west exterior area."
+        }
       },
       {
         "statement": "The functions are arranged clearly, with catering toward the primary school and care facilities toward the street.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "functional arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6402,
+            0.1977,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Interior functions are approximated across the lower-right portion of the building."
+        }
       },
       {
         "statement": "The classrooms are easily divided into the respective cluster units using the two access cores.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "cluster units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1703,
+            0.7866,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Classroom clusters are estimated within the upper-left portion of the volume."
+        }
       },
       {
         "statement": "The two-story loggias illuminate the deep floor plans and create an inspiring place for teaching.",
@@ -62,14 +171,53 @@
           "daylight",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two-story loggias",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5858,
+            0.5971,
+            0.6
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Parallel perimeter bands and elevations support the loggia placement on the deep facades."
+        }
       },
       {
         "statement": "The industrial expression is logically continued in the structural design inside.",
         "tags": [
           "expression",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "structural design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7418,
+            0.6215,
+            0.55
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Industrial expression is mapped broadly across the visible structural envelope."
+        }
       },
       {
         "statement": "The project impresses with a harmonious situation, precise open-space interventions and a clear arrangement of functions.",
@@ -77,7 +225,27 @@
           "urban integration",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "project arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2035,
+            0.5951,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall assessment is anchored to the coherent elongated building and its connected open spaces."
+        }
       }
     ],
     "negative": [
@@ -86,14 +254,50 @@
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "proximity to existing primary school",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1913,
+            0.8111,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Critical proximity is assigned to the north-west edge of the sampled building."
+        }
       },
       {
         "statement": "The eastern outbuilding raises questions in terms of urban planning.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "eastern outbuilding",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8607,
+            0.5134,
+            0.35
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern edge provides the directional anchor for the questioned outbuilding."
+        }
       },
       {
         "statement": "The garage exit obscures the basic volumetric disposition and the addressing of the school.",
@@ -101,56 +305,201 @@
           "identity",
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "garage exit",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8278,
+            0.2104,
+            0.1
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Low-level access element is approximated on the south-east approach."
+        }
       },
       {
         "statement": "The kindergarten remains sub-optimally accessible.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2554,
+            0.3816,
+            0.05
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Detached facility access is represented by a plausible outer site approach."
+        }
       },
       {
         "statement": "The entrance and transition to the stairwells are not convincing and prevent natural access to the rooms.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance and stairwell transition",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2035,
+            0.5951,
+            0.3
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level transition is approximated near the western entry side."
+        }
       },
       {
         "statement": "The conventional attic floor is questioned for a public building.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "conventional attic floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6315,
+            0.6482,
+            0.95
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The attic-topped silhouette is visible at the uppermost sampled level."
+        }
       },
       {
         "statement": "The purpose of the skylights in the playground area is questioned.",
         "tags": [
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "playground skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3737,
+            0.3891,
+            0.05
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Skylights are approximated over the central playground-related ground zone."
+        }
       },
       {
         "statement": "The basement kitchen has little natural light and is unsuitable as a full-fledged workspace.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement kitchen",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7858,
+            0.1615,
+            0.05
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Basement workspace is placed at a low-level south-eastern surface location."
+        }
       },
       {
         "statement": "The exterior expression is less convincing in relation to the existing school and the district.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "exterior expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.718,
+            0.6431,
+            0.55
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Facade criticism is assigned broadly to the visible outer envelope."
+        }
       },
       {
         "statement": "The spatial structure and internal sequence of room sequences appear somewhat functional in certain areas.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "internal room sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5477,
+            0.6409,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Internal sequence is estimated within the upper-central portion of the volume."
+        }
       }
     ],
     "keyword": [

@@ -18,34 +18,117 @@
         "tags": [
           "visibility",
           "orientation"
-        ]
+        ],
+        "position": {
+          "target": "cells along two facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2779,
+            0.36,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated cell modules are visible along opposing linear wings in plan and elevations."
+        }
       },
       {
         "statement": "The three wings housing the six divisions have a fairly clear organization.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three wings housing six divisions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4738,
+            0.4539,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The wing arrangement and repeated divisions are clearly legible in the top view."
+        }
       },
       {
         "statement": "The structural, technical-distribution, and sustainability responses are adequate.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "structural, technical-distribution, and sustainability responses",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates non-spatial building systems rather than a locatable geometric feature."
+        }
       },
       {
         "statement": "The phasing is well designed, with small contact surfaces facilitating realization of the second phase.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "small contact surfaces for the second phase",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5706,
+            0.3008,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A peripheral wing junction provides a plausible location for phased contact and construction."
+        }
       },
       {
         "statement": "The project author plans areas for later expansion.",
         "tags": [
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "areas for later expansion",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.763,
+            0.7575,
+            0.3363
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outer wing ends offer plausible expansion zones within the dispersed composition."
+        }
       }
     ],
     "negative": [
@@ -55,14 +138,50 @@
           "daylight",
           "functionality",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "small patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3038,
+            0.3785,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Small enclosed voids are visible beside the central ring and wing edges."
+        }
       },
       {
         "statement": "The great depth of the lower floors greatly reduces natural light in the workshops.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "great depth of lower floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3643,
+            0.4926,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Deep linear floor plates are visible in plan, with lower levels constrained by elevations."
+        }
       },
       {
         "statement": "Raising the buildings solves flooding but leaves them disconnected from the ground, while the stairs and ramps are not integrated into the architecture.",
@@ -70,7 +189,26 @@
           "topography",
           "accessibility",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "raised buildings, stairs, and ramps",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4759,
+            0.2789,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Raised linear masses and access appendages are visible around the central circulation ring."
+        }
       },
       {
         "statement": "The residual arrangement of buildings and promenades does not provide the privacy required for security.",
@@ -78,14 +216,48 @@
           "open space",
           "privacy",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "residual buildings and promenades",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5734,
+            0.3118,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral gaps between wings and circulation strips provide the site-level privacy concern."
+        }
       },
       {
         "statement": "The project does not convincingly integrate into the landscape, which remains very schematic.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "landscape integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2221,
+            0.1971,
+            0
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The outer ground-facing perimeter is the plausible location for schematic landscape treatment."
+        }
       },
       {
         "statement": "The mix of functions in the central building raises questions about the establishment’s functioning.",
@@ -93,7 +265,26 @@
           "functionality",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4646,
+            0.4669,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central ring and adjoining compact volume are clearly identifiable in plan."
+        }
       },
       {
         "statement": "Access from the distant divisions requires crossing other divisions, creating problematic circulation.",
@@ -101,7 +292,24 @@
           "circulation",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "access from distant divisions",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6465,
+            0.6744,
+            0.3363
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The outer wing-to-center route is inferred from the separated linear divisions."
+        }
       },
       {
         "statement": "The high-security division is too exposed to contact with other prisoners and people outside the establishment.",
@@ -109,14 +317,49 @@
           "safety",
           "privacy",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "high-security division",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2038,
+            0.6104,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A peripheral wing zone is used as the constrained location for the unspecified secure division."
+        }
       },
       {
         "statement": "Logistical circulation creates risks of contact between prisoners and external people across the site.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "logistical circulation across the site",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4942,
+            0.2528,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The lower site edge and inter-wing routes are the plausible logistical circulation surface."
+        }
       },
       {
         "statement": "The great building depth creates problems for horizontal evacuation routes.",
@@ -124,7 +367,26 @@
           "fire safety",
           "circulation",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "horizontal evacuation routes",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3762,
+            0.501,
+            0.3363
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Deep horizontal wings provide the constrained floor-level evacuation location."
+        }
       },
       {
         "statement": "The second-degree evolution of the concept is unconvincing and introduces functionality issues that were previously absent.",
@@ -132,14 +394,49 @@
           "functionality",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "second-degree evolution of the concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6596,
+            0.7031,
+            0.5
+          ],
+          "radius": 0.3067,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The judgment concerns the later overall arrangement, anchored to the dispersed wing composition."
+        }
       },
       {
         "statement": "The proposed expansion areas are not shown to work as a coherent whole.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "proposed expansion areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.776,
+            0.7667,
+            0.3363
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Peripheral open-ended wing areas plausibly represent the proposed expansion zones."
+        }
       }
     ],
     "keyword": [

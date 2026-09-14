@@ -17,14 +17,54 @@
           "massing",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "cross-shaped stacking",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3929,
+            0.5484,
+            0.5625
+          ],
+          "radius": 0.321,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Distinct cross-shaped footprint and stacked volumes are visible across the top and elevation views."
+        }
       },
       {
         "statement": "The base building provides an appropriate scale in the transition to the residential buildings.",
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "base building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3411,
+            0.1092,
+            0.1875
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low base volume is visible around the lower portion of the stacked central mass."
+        }
       },
       {
         "statement": "The volumetric arrangement creates generous distances from the surrounding buildings.",
@@ -32,7 +72,25 @@
           "massing",
           "urban integration",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "distances from surrounding buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2587,
+            0.2053,
+            0.3125
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open perimeter zones around the sampled building provide the approximate spatial anchor."
+        }
       },
       {
         "statement": "The distribution of uses is extremely sensible and stringent, with an impressive naturalness.",
@@ -40,7 +98,26 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "distribution of uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6643,
+            0.3563,
+            0.5
+          ],
+          "radius": 0.334,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior use distribution is unobserved, so the marker uses a plausible surface region of the whole building."
+        }
       },
       {
         "statement": "The school rooms form clusters with shared multifunctional rooms that allow great programming and variation.",
@@ -48,7 +125,26 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "school rooms and shared multifunctional rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4083,
+            0.5878,
+            0.5625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Room clusters are interior and indistinguishable; the anchor is placed near the central sampled volume."
+        }
       },
       {
         "statement": "The new school building appears airy and open.",
@@ -56,7 +152,28 @@
           "expression",
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7106,
+            0.4746,
+            0.625
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Open stepped massing and separated horizontal bands support an airy whole-building reading."
+        }
       }
     ],
     "negative": [
@@ -65,28 +182,107 @@
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "Neugutweg public passageway",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.294,
+            0.1383,
+            0.1875
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The named passage is not separately modeled; the marker approximates the low street-facing edge."
+        }
       },
       {
         "statement": "The additional vertical escape stairs seem a little complicated.",
         "tags": [
           "circulation",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "additional vertical escape stairs",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6797,
+            0.3957,
+            0.6875
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Escape stairs are not distinguishable in the sample; the anchor uses a plausible upper-volume surface."
+        }
       },
       {
         "statement": "The surrounding area is likely to be greener and closer to nature, and the roof areas retain unused potential.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "roof areas and surrounding landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6193,
+            0.4569,
+            1
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Roof plates are visible at the upper extent, while surrounding landscape is not separately represented."
+        }
       },
       {
         "statement": "The design is sober and clear, but a freer and more inspiring treatment would have been preferable.",
         "tags": [
           "expression",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "whole building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3312,
+            0.3905,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The sampled orthogonal massing visibly supports the sober, clear expression being critiqued."
+        }
       }
     ],
     "keyword": [

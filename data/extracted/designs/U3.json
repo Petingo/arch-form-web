@@ -17,7 +17,28 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "compact solitaire",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1778,
+            0.9616,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Square single-volume mass is clearly legible across the top and four elevation views."
+        }
       },
       {
         "statement": "The river area is enhanced as an ecologically valuable compensation and local recreation space.",
@@ -25,7 +46,24 @@
           "landscape",
           "sustainability",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "river area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1599,
+            0.0117,
+            0.0455
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "River-side open-space comment is approximated along the southern exterior edge."
+        }
       },
       {
         "statement": "The public ground floor connects the building strongly with its attractive surroundings.",
@@ -33,14 +71,51 @@
           "urban integration",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "public ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1599,
+            0.0117,
+            0.1364
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level public connection is placed along the accessible southern perimeter."
+        }
       },
       {
         "statement": "The learning landscape meaningfully combines classrooms, semi-classrooms, work areas, access areas, and courtyards.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "learning landscape",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5074,
+            0.4812,
+            0.9091
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior learning organization is approximated within the central building volume."
+        }
       },
       {
         "statement": "The classrooms along the facade can be optimally illuminated and ventilated.",
@@ -48,14 +123,51 @@
           "daylight",
           "ventilation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms along the facade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9784,
+            0.5072,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Facade classrooms are placed along the visible east perimeter, with elevation evidence for repeated levels."
+        }
       },
       {
         "statement": "The gym is optimally illuminated through its raised position above the terrain.",
         "tags": [
           "daylight",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "gym",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1794,
+            0.7593,
+            0.9091
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Raised gym is approximated toward the southern upper volume, consistent with the terrain-related statement."
+        }
       },
       {
         "statement": "The concentration in one building allows great freedom in designing the surrounding spaces and provides high public added value.",
@@ -63,14 +175,50 @@
           "massing",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "surrounding spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8424,
+            0.0466,
+            0.0455
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Freed surrounding space is distributed outside the compact footprint toward the north-east."
+        }
       },
       {
         "statement": "The learning-landscape concept promises diverse forms of teaching.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "learning-landscape concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9812,
+            0.4479,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Teaching flexibility is assigned to the central building organization, not a distinguishable exterior element."
+        }
       }
     ],
     "negative": [
@@ -79,28 +227,97 @@
         "tags": [
           "scale",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "all-weather pitch",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8424,
+            0.0466,
+            0.0909
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pitch is not distinguishable; its likely open-space location is approximated beyond the south-east edge."
+        }
       },
       {
         "statement": "Entry and exit from the main road, particularly for above-ground parking, are unresolved because the turning radius is too small.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "above-ground parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9568,
+            0.8449,
+            0.0455
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking access is not visible; an exterior north-east surface location provides a constrained site anchor."
+        }
       },
       {
         "statement": "The proposed room height is significantly too low for the entrance and multifunctional uses.",
         "tags": [
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "entrance and multifunctional uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1599,
+            0.0117,
+            0.1818
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance-related uses are approximated at the southern ground-level edge."
+        }
       },
       {
         "statement": "Mutual views across the courtyards into classrooms are negative.",
         "tags": [
           "privacy",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "courtyards into classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5074,
+            0.4813,
+            0.9545
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Courtyard privacy concern is assigned to the central interior organization suggested by the top view."
+        }
       },
       {
         "statement": "The two basement levels and complex roof and facade construction prevent optimal economic efficiency.",
@@ -108,7 +325,26 @@
           "cost",
           "massing",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "two basement levels and complex roof and facade construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7725,
+            0.0371,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Construction complexity is spatially distributed across the envelope and lower building, without isolated detail."
+        }
       },
       {
         "statement": "The basement, roof, and facade construction have a detrimental effect on energy and sustainability.",
@@ -116,7 +352,26 @@
           "sustainability",
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "basement, roof, and facade construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2347,
+            0.9645,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Energy concern is anchored broadly to the sampled envelope and lower volume."
+        }
       },
       {
         "statement": "The proposed southward expansion would leave the entrance, auditorium, and gallery areas poorly exposed and unattractive.",
@@ -124,7 +379,25 @@
           "flexibility",
           "daylight",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "southward expansion",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5012,
+            0.0291,
+            0.4091
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Potential expansion is placed along the southern facade, where exposure effects would occur."
+        }
       },
       {
         "statement": "The expressive roof allows insufficiently specific engagement with the existing character and neighboring buildings.",
@@ -132,14 +405,52 @@
           "expression",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "expressive roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.506,
+            0.5111,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Curved shed roof is visibly expressed across the upper envelope and elevations."
+        }
       },
       {
         "statement": "The design is unfortunately somewhat too self-referential, especially in its treatment of neighboring buildings.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "neighboring buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0108,
+            0.8361,
+            0.0455
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Neighboring-building relationship is approximated outside the compact footprint toward the north-west."
+        }
       }
     ],
     "keyword": [

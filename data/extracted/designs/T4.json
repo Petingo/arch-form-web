@@ -17,7 +17,27 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "school ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1825,
+            0.7282,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact building mass is assessed as part of the surrounding ensemble."
+        }
       },
       {
         "statement": "The compact volume successfully mediates between the high-rise residential buildings and low-rise residential areas.",
@@ -25,7 +45,27 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7664,
+            0.6983,
+            0.5417
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad anchor captures the compact prism mediating between contrasting neighboring scales."
+        }
       },
       {
         "statement": "Well-proportioned green spaces integrate seamlessly into the open and flowing landscape.",
@@ -33,7 +73,24 @@
           "open space",
           "landscape",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2178,
+            0.3003,
+            0.0417
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape is assigned to the flowing open exterior around the rotated volume."
+        }
       },
       {
         "statement": "The courtyard-like open space and hard court function as a connecting element and center for the pupils.",
@@ -41,35 +98,131 @@
           "open space",
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "courtyard-like open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.5322,
+            0.3333
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view clearly shows the central courtyard-like opening and adjacent hard-court zone."
+        }
       },
       {
         "statement": "The compact sequence of shared facilities can be made more open or closed as required.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "shared facilities sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6079,
+            0.4721,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Facilities are approximated along the ring surrounding the visible central opening."
+        }
       },
       {
         "statement": "The internal organization of the school is very simple and practical.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal school organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7323,
+            0.7283,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Simple organization is mapped across the clearly compact prismatic envelope."
+        }
       },
       {
         "statement": "The lighting of the sports hall via side light shafts is well solved.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports hall light shafts",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7704,
+            0.229,
+            0.2083
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Lower side-lit hall zone is approximated on the south-eastern building edge."
+        }
       },
       {
         "statement": "The architectural appearance is very reduced and controlled.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "reduced architectural appearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1825,
+            0.7282,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Controlled expression is assigned across the repetitive visible facade surfaces."
+        }
       }
     ],
     "negative": [
@@ -78,21 +231,74 @@
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "entrance arcade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8307,
+            0.2969,
+            0.2083
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance arcade is approximated at a low-level south-eastern approach."
+        }
       },
       {
         "statement": "The path network to better connect the detached kindergarten is not expanded.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten path network",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2178,
+            0.3003,
+            0.0833
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Unexpanded connection is represented at the detached-site edge."
+        }
       },
       {
         "statement": "The shared facilities raise questions about suitability for everyday use and acoustics.",
         "tags": [
           "functionality",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "shared facilities acoustics",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5946,
+            0.4572,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Concern is attached to the estimated shared-facility band around the atrium."
+        }
       },
       {
         "statement": "The ring-shaped corridor is hardly usable for teaching because it also serves as an escape route.",
@@ -100,35 +306,131 @@
           "circulation",
           "functionality",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "ring-shaped corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6079,
+            0.4721,
+            0.4583
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The top view visibly supports a circulation ring surrounding the central opening."
+        }
       },
       {
         "statement": "The central atrium has little spatial presence within the school.",
         "tags": [
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.5322,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central void is clearly identifiable in the rotated square footprint."
+        }
       },
       {
         "statement": "A clear spatial structure of the individual clusters is not visible.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "individual clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7664,
+            0.6983,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Cluster structure is approximated within the outer perimeter zone."
+        }
       },
       {
         "statement": "The workrooms in the basement without daylight are not optimally arranged.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement workrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.294,
+            0.6905,
+            0.0417
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight concern is assigned to a low-level north-west basement surface."
+        }
       },
       {
         "statement": "A strong spatial center of the school is missing.",
         "tags": [
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "spatial center of the school",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5397,
+            0.5322,
+            0.4583
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central atrium provides the most defensible spatial anchor for the missing-center criticism."
+        }
       }
     ],
     "keyword": [

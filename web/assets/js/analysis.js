@@ -4,7 +4,8 @@ const tagSelect = document.querySelector("#tag-select");
 const expressionGrid = document.querySelector("#expression-grid");
 const tooltip = document.querySelector("#chart-tooltip");
 const chartContainers = [...document.querySelectorAll(".chart")];
-const state = { prevalence: "positive", winner: 12, pairwise: 12, heatmap: "both", emphasis: 12, signal: "18" };
+const state = { prevalence: "positive", winner: 12, pairwise: 12, heatmap: "both", emphasis: 12, signal: "18", palette: "color" };
+const analysisMain = document.querySelector(".analysis-main");
 let chartData = null;
 let resizeFrame = null;
 
@@ -93,7 +94,10 @@ function ticks(minimum, maximum, count = 5) {
  * cards on narrower viewports.
  */
 function chartWidth(container, floor) {
-  return Math.max(container.clientWidth || floor, floor);
+  // Never exceed the container: returning the floor when the container is
+  // narrower is what made a chart overflow its card and scroll sideways.
+  // A hidden pane reports 0, and the ResizeObserver re-renders once shown.
+  return container.clientWidth || floor;
 }
 
 function renderPrevalence() {
@@ -333,6 +337,12 @@ document.querySelectorAll(".chart-controls").forEach((controls) => {
     state[name] = ["winner", "pairwise", "emphasis"].includes(name) ? Number(button.dataset.value) : button.dataset.value;
     controls.querySelectorAll("button").forEach((item) => item.classList.toggle("active", item === button));
     tooltip.hidden = true;
+    if (name === "palette") {
+      // A filter on the chart containers covers every colour at once, including
+      // the heatmap cells whose fill is set per-cell in JS.
+      analysisMain.dataset.palette = state.palette;
+      return;
+    }
     if (name === "signal") renderSignals(chartData.winner);
     else renderCharts();
   });
@@ -364,19 +374,31 @@ async function loadAnalysis() {
   document.body.dataset.ready = "true";
 }
 
-// Charts are sized from their container, so they have to be rebuilt when the
-// viewport changes or they keep the width they were first drawn at.
+// Charts are sized from their container, so they are rebuilt whenever that
+// container changes width -- a window resize, but also the pane being shown for
+// the first time, which a window resize listener alone would miss.
 let resizeTimer = null;
-let lastChartWidth = window.innerWidth;
-window.addEventListener("resize", () => {
-  if (window.innerWidth === lastChartWidth) return;
-  lastChartWidth = window.innerWidth;
+const observedWidths = new Map();
+const chartObserver = new ResizeObserver((entries) => {
+  let changed = false;
+  for (const entry of entries) {
+    const width = Math.round(entry.contentRect.width);
+    if (!width || observedWidths.get(entry.target) === width) continue;
+    observedWidths.set(entry.target, width);
+    changed = true;
+  }
+  if (!changed || !chartData) return;
   window.clearTimeout(resizeTimer);
   resizeTimer = window.setTimeout(() => {
     renderCharts();
-    if (chartData) renderSignals(chartData.winner);
-  }, 180);
+    renderSignals(chartData.winner);
+  }, 160);
 });
+
+for (const id of ["#signal-list", "#prevalence-chart", "#winner-chart", "#pairwise-chart", "#heatmap-chart", "#emphasis-chart"]) {
+  const container = document.querySelector(id);
+  if (container) chartObserver.observe(container);
+}
 
 loadAnalysis().catch((error) => {
   console.error(error);

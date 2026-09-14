@@ -19,42 +19,155 @@
           "proportion",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "elongated volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.379,
+            0.3567,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated rectangular mass is clearly visible in plan and all elevations."
+        }
       },
       {
         "statement": "The clear and systematic division of the space-forming structure works consistently across all floors.",
         "tags": [
           "layout",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "space-forming structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4812,
+            0.2566,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular point arrays across the elongated envelope support a systematic whole-building structural reading."
+        }
       },
       {
         "statement": "The facade design with interlocking horizontal and vertical elements is recognized as a valuable contribution to the sophisticated design of a temporary building.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "interlocking facade elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.858,
+            0.4573,
+            0.5455
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal and vertical surface elements are most legible along the elevations."
+        }
       },
       {
         "statement": "The supporting structure is consistent and simple, with well-distributed and almost symmetrical stabilizing walls.",
         "tags": [
           "structure",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "stabilizing walls",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1237,
+            0.6068,
+            0.1818
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Ground-level structural support is approximated along the visible perimeter and access-side ends."
+        }
       },
       {
         "statement": "The energy concept is plausibly and optimally solved, and the building should generate little maintenance effort.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy and maintenance performance are not spatially represented in the sampled exterior geometry."
+        }
       },
       {
         "statement": "The L-shaped foundation and retaining-wall arrangement is a valuable contribution to easy dismantling and component reuse.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "L-shaped foundation and retaining walls",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1237,
+            0.6068,
+            0.0227
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Foundation-related geometry is approximated at the low perimeter near the apparent excavation interface."
+        }
       }
     ],
     "negative": [
@@ -63,7 +176,28 @@
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "excavations and existing topography",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1237,
+            0.6068,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Low-set footprint and ground-level edges indicate a substantial site interface, though excavation is not distinct."
+        }
       },
       {
         "statement": "The external vertical access is too technical, impairs access to the protected neighboring building, obscures the address, and consumes too much outdoor space.",
@@ -71,7 +205,28 @@
           "circulation",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "external vertical access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.94,
+            0.1358,
+            0.5227
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Rounded vertical access elements are concentrated near the east and south-east end of the footprint."
+        }
       },
       {
         "statement": "The access arrangement creates a small-scale outdoor situation and offers little space for adequate open-space use.",
@@ -79,7 +234,26 @@
           "open space",
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "small-scale outdoor situation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9326,
+            0.1034,
+            0.0227
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Outdoor space is approximated immediately around the access end and low building perimeter."
+        }
       },
       {
         "statement": "The external access requires users to leave the climate envelope between floors, placing high demands on flexibility.",
@@ -87,42 +261,163 @@
           "circulation",
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "climate envelope crossings",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.94,
+            0.1358,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Inter-floor access is anchored to the visible external vertical elements at the east end."
+        }
       },
       {
         "statement": "Not all floors function autonomously, and the multifunctional rooms have proportions that are not ideal for their users.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "multifunctional rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.379,
+            0.3567,
+            0.5227
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior rooms are not visible; a plausible central interior region is constrained within the elongated envelope."
+        }
       },
       {
         "statement": "The susceptibility of the suspended ceilings to vibration would have to be demonstrated.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "suspended ceilings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4301,
+            0.3066,
+            0.7273
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Ceilings are interior and absent from the exterior sample; placement is constrained to upper occupied levels."
+        }
       },
       {
         "statement": "The hot-water storage arrangement is unfavorable for hygienic reasons and should be replaced by an energy storage solution.",
         "tags": [
           "sustainability",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "hot-water storage arrangement",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5833,
+            0.1566,
+            0.4545
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Storage is not distinguishable; a plausible internal service location is placed within the building envelope."
+        }
       },
       {
         "statement": "The building occupies a relatively large amount of plot space, while its facade development leads to average gray-energy values.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "whole building plot occupation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.379,
+            0.3567,
+            0.0455
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated footprint visibly occupies a broad portion of the sampled horizontal extent."
+        }
       },
       {
         "statement": "Natural lighting in some of the main usable areas is insufficient.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "main usable areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.379,
+            0.3567,
+            0.5455
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Usable interiors are not visible; the marker approximates central occupied zones within the envelope."
+        }
       }
     ],
     "keyword": [

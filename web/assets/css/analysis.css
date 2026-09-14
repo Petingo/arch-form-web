@@ -33,6 +33,15 @@
 .chart-controls button { min-height:28px; padding:0 8px; border:0; border-right:1px solid var(--line); color:var(--muted); background:transparent; font:500 7px "DM Mono",monospace; cursor:pointer; }
 .chart-controls button:last-child { border-right:0; }
 .chart-controls button.active { color:#fff; background:var(--ink); }
+/* Every chart SVG carries a viewBox, so capping its width makes it scale down
+   rather than overflow; overflow-x stays as a last resort. */
+.chart svg { max-width:100%; height:auto; display:block; }
+
+/* Palette switch: one filter desaturates every chart, including the heatmap
+   cells whose fill is written per-cell by the renderer. */
+.analysis-main[data-palette="grayscale"] .chart { filter: grayscale(1); }
+.palette-toggle { display:flex; align-items:center; gap:10px; margin-top:18px; padding-top:16px; border-top:1px solid var(--line); }
+.palette-toggle > span { color:var(--muted); font:500 9px "DM Mono",monospace; letter-spacing:.13em; }
 .chart { min-width:0; overflow-x:auto; background:#fff; scrollbar-width:thin; scrollbar-color:#b7b9b2 #f1f0eb; }
 .chart svg { display:block; max-width:none; }
 .chart text { font-family:"DM Mono",monospace; }
@@ -59,7 +68,7 @@
 .chart-hit:hover .heat-cell { stroke:#151815; stroke-width:2; }
 .heat-value { fill:#252925; font-size:9px; pointer-events:none; }
 .heat-value.light { fill:#fff; }
-.chart-tooltip { position:fixed; z-index:50; display:grid; gap:4px; min-width:190px; max-width:280px; padding:11px 12px; border:1px solid rgba(20,23,20,.18); color:var(--ink); background:rgba(251,250,246,.97); box-shadow:0 12px 32px rgba(20,23,20,.14); pointer-events:none; }
+.chart-tooltip { position:fixed; z-index:50; display:grid; gap:4px; min-width:190px; max-width:280px; padding:11px 12px; border:1px solid rgba(20,23,20,.18); color:var(--ink); background:rgba(255, 255, 255,.97); box-shadow:0 12px 32px rgba(20,23,20,.14); pointer-events:none; }
 .chart-tooltip[hidden] { display:none; }
 .chart-tooltip strong { margin-bottom:2px; font-size:11px; text-transform:capitalize; }
 .chart-tooltip span { color:var(--muted); font:8px/1.45 "DM Mono",monospace; }

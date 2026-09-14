@@ -17,7 +17,26 @@
           "urban integration",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "spatial idea and designed landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6467,
+            0.3279,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Scattered volumes visibly frame a central open area across the top and elevation projections."
+        }
       },
       {
         "statement": "The composition balances actively and passively usable spaces and creates atmospheric tension between built and natural open space.",
@@ -25,7 +44,24 @@
           "open space",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "built and natural open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6467,
+            0.4556,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central open space and separated building footprints are directly visible in the top view."
+        }
       },
       {
         "statement": "The approach creates an extremely independent identity and transforms the site into an important open space for the district.",
@@ -33,14 +69,50 @@
           "identity",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "central square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6467,
+            0.3534,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A clearly open central zone is enclosed by scattered volumes in the top projection."
+        }
       },
       {
         "statement": "Despite the challenging topography, almost barrier-free access to all areas is offered.",
         "tags": [
           "topography",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "all-area access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6467,
+            0.4556,
+            0.375
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Accessibility applies across the clustered complex; no ramps or barriers are individually identifiable."
+        }
       },
       {
         "statement": "The volumetric formation incorporates the scale and qualities of the existing building.",
@@ -48,21 +120,70 @@
           "massing",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "volumetric formation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.754,
+            0.5004,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple offset volumes with varied heights are clearly visible in top and elevation views."
+        }
       },
       {
         "statement": "The organization and distribution of uses are well thought out and largely correspond to the client's ideas.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "organization and distribution of uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6467,
+            0.4556,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Uses are internal and unmarked; the anchor covers the distributed building cluster."
+        }
       },
       {
         "statement": "The planned phases enable seamless school operations.",
         "tags": [
           "phasing",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "planned phases",
+          "spatial_scope": "site",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Phasing and operational continuity have no identifiable geometric location in the sampled model."
+        }
       },
       {
         "statement": "The construction allows simple adjustments as user needs change and supports sustainability through material and structural robustness.",
@@ -70,7 +191,26 @@
           "flexibility",
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "construction adjustments",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7174,
+            0.5004,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural adaptability concerns the clustered building system rather than a distinguishable exterior element."
+        }
       },
       {
         "statement": "The clear operational arrangement of the teaching areas enables three clusters and usable corridor areas.",
@@ -78,14 +218,52 @@
           "layout",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "teaching clusters and corridor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7042,
+            0.4863,
+            0.625
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Teaching clusters are approximated within the upper portions of the distributed volumes."
+        }
       },
       {
         "statement": "The arrangement of the auditorium, library, care and specialist rooms enables autonomous extracurricular use.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "auditorium, library, care and specialist rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3007,
+            0.6713,
+            0.375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Specialist and communal uses are assigned to a representative lower-level volume without interior visibility."
+        }
       }
     ],
     "negative": [
@@ -95,14 +273,50 @@
           "facade",
           "expression",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade cladding",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8218,
+            0,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Exterior facade surfaces are visible, though material cladding is not distinguishable from sampled points."
+        }
       },
       {
         "statement": "The formal design of the entrance canopies is not yet convincing.",
         "tags": [
           "expression",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "entrance canopies",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6467,
+            0.047,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance edges are approximated along the southern frontage; canopies are not separately visible."
+        }
       },
       {
         "statement": "The internal development and organization are not yet convincing; access to the sports hall appears narrow and committed only to functionality.",
@@ -110,35 +324,124 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports hall access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7829,
+            0.5004,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Sports access is assigned to a lower-level edge zone, without a distinguishable hall entrance."
+        }
       },
       {
         "statement": "The location of the bicycle shelter must be reconsidered because of its distance from the road and restrictions on civil-defense-system usability.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "bicycle shelter",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1399,
+            0.3473,
+            0
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The shelter is approximated near the western edge and road-facing side, but is absent as a distinct feature."
+        }
       },
       {
         "statement": "The long-term relocation of the kindergarten would affect operations that still need clarification.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten relocation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1259,
+            0.5125,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Kindergarten operations are assigned to a representative lower-level volume without identifiable room geometry."
+        }
       },
       {
         "statement": "The environmental design remains somewhat schematic and requires more differentiated elaboration.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "environmental design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6467,
+            0.2513,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central square and surrounding open areas are visible, while landscape differentiation is not represented."
+        }
       },
       {
         "statement": "The renovation work and its impact on the continued usability of the civil-defense facility still need to be proven.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "civil-defense facility renovation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.754,
+            0.5004,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The facility is not identifiable; a lower-level anchor is assigned within the eastern building cluster."
+        }
       }
     ],
     "keyword": [

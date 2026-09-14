@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "new whole",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.755,
+            0.5413,
+            0.7
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Two complementary volumes visibly combine into one stepped, rotated composition."
+        }
       },
       {
         "statement": "The differentiated entrances generate a sequence of clearly assigned outdoor spaces.",
@@ -26,7 +46,26 @@
           "circulation",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "differentiated entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7589,
+            0.2166,
+            0.1
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrance sequence is anchored along the lower southern edge where the volumes separate."
+        }
       },
       {
         "statement": "The dispersed spatial programme produces an exciting access system that separates and reconnects the uses.",
@@ -34,7 +73,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "exciting access system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6754,
+            0.1921,
+            0.3
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Circulation is approximated through the visible gap and lower connecting edges."
+        }
       },
       {
         "statement": "Keeping all rooms on one floor provides short distances, clarity, and a tangible school community.",
@@ -42,7 +100,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "all rooms on one floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7032,
+            0.2002,
+            0.3
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The lower occupied band represents the principal single-level room arrangement."
+        }
       },
       {
         "statement": "The kindergarten arrangement benefits from multi-sided orientation and a visual connection to the outside.",
@@ -50,7 +127,26 @@
           "daylight",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8285,
+            0.237,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Kindergarten spaces are placed in the smaller lower-right volume with exterior-facing edges."
+        }
       },
       {
         "statement": "The multi-purpose building impresses from a functional point of view, with a spacious foyer and well-organized delivery.",
@@ -58,7 +154,26 @@
           "functionality",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose building foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0441,
+            0.3884,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The foyer is approximated inside the larger primary volume near its lower access edge."
+        }
       },
       {
         "statement": "The reserved appearance and limited design elements create a unified whole related to the existing building.",
@@ -66,14 +181,45 @@
           "expression",
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "reserved appearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.481,
+            0.8775,
+            0.8
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Simple perimeter edges and limited visible elements define a unified envelope."
+        }
       },
       {
         "statement": "The simply structured buildings are expected to provide good profitability.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "simply structured buildings",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.304,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Profitability is an operational judgment without a useful geometric anchor."
+        }
       }
     ],
     "negative": [
@@ -82,28 +228,100 @@
         "tags": [
           "safety",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "break area across the street",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8424,
+            0.2411,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The criticized break area is assigned beyond the southern edge of the sampled buildings."
+        }
       },
       {
         "statement": "The kindergarten outdoor area seems too tight, with its use and design largely unspecified.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten outdoor area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7589,
+            0.2166,
+            0
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A tight external zone is approximated immediately south of the smaller volume."
+        }
       },
       {
         "statement": "The access halls lack an outside connection and are not very suitable as learning zones.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "access halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.833,
+            0.4533,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior halls are located along the central circulation band, though not directly distinguishable."
+        }
       },
       {
         "statement": "The kindergarten skylights are questioned because of their small dimensions and the two-story structure.",
         "tags": [
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7773,
+            0.3343,
+            1
+          ],
+          "radius": 0.06,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Skylights are guessed on the smaller volume roof, whose openings are not resolved."
+        }
       },
       {
         "statement": "The foyer arrangement is unsuitable as a school gymnasium because front glazing impairs sports operation.",
@@ -111,7 +329,25 @@
           "functionality",
           "operation",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "foyer arrangement",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0441,
+            0.3884,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The foyer is approximated near the large volume's southern frontage."
+        }
       },
       {
         "statement": "The great depth of the school building is not managed convincingly.",
@@ -119,7 +355,26 @@
           "massing",
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "great depth of school building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2781,
+            0.818,
+            0.5
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The large upper volume visibly extends deeply relative to its narrow projected access edge."
+        }
       },
       {
         "statement": "Deficient lighting in the kindergartens and corridors, together with introverted break halls, reveals weaknesses in the concept.",
@@ -127,7 +382,26 @@
           "daylight",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "kindergartens and corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7311,
+            0.2084,
+            0.3
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Weakly lit interior zones are approximated within the smaller volume and central connection."
+        }
       }
     ],
     "keyword": [

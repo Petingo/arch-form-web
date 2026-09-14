@@ -16,49 +16,171 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6197,
+            0.1125,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Southeast-corner massing is visible in the top view and elevations."
+        }
       },
       {
         "statement": "The placement creates a pleasantly large distance from the northern plot.",
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "northern plot distance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5699,
+            0.736,
+            0.2647
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The open northern setback is approximated along the building’s north side."
+        }
       },
       {
         "statement": "A second obstacle-free entrance is provided further to the west.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "west entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.202,
+            0.4635,
+            0.1471
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Westward access is constrained to the west edge near ground level."
+        }
       },
       {
         "statement": "The two upper floors are clearly structured around a central core.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central core",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3645,
+            0.327,
+            0.6765
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper-floor core is placed near the apparent center of the compact volume."
+        }
       },
       {
         "statement": "The material rooms are easily accessible.",
         "tags": [
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "material rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2749,
+            0.4023,
+            0.2353
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior service rooms are approximated near the lower western portion of the building."
+        }
       },
       {
         "statement": "All three basic-level classes have an overview of the entire outdoor space.",
         "tags": [
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "basic-level outdoor overview",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6342,
+            0.1805,
+            0.0882
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level classroom zone is anchored toward the open southeast outdoor edge."
+        }
       },
       {
         "statement": "The simple supporting structure with direct load transfer corresponds to an economic principle.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "economic supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic structural judgment has no useful localized spatial referent."
+        }
       }
     ],
     "negative": [
@@ -67,63 +189,226 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "retaining walls",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5866,
+            0.7219,
+            0.0294
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Retaining edges are approximated around the leveled site perimeter."
+        }
       },
       {
         "statement": "The large-looking building and its windows, which are too small, weaken the architectural expression.",
         "tags": [
           "scale",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "large building and small windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5833,
+            0.1431,
+            0.5588
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The large orthogonal envelope and dense small-window field are clear on the south elevation."
+        }
       },
       {
         "statement": "The wooden facade seems strange in the neighborhood.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "wooden facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.898,
+            0.4602,
+            0.5588
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Facade material criticism is anchored to the exposed east elevation."
+        }
       },
       {
         "statement": "The covered entrance situation is only formulated schematically.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "covered entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.202,
+            0.4635,
+            0.1176
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The entrance is approximated at the west ground-level edge."
+        }
       },
       {
         "statement": "The usage distribution is not optimal and the entrance area is too small.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2385,
+            0.4329,
+            0.1176
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Small entrance zone is placed near the west-side ground-level access."
+        }
       },
       {
         "statement": "The basic-level zones are not very flexible and are connected only through vertical access.",
         "tags": [
           "flexibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "basic-level zones",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5249,
+            0.2724,
+            0.0882
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor zones are approximated across the lower southern portion."
+        }
       },
       {
         "statement": "The relationship between the teachers' room and teachers' cloakroom does not make sense.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "teachers’ room and cloakroom",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2916,
+            0.3882,
+            0.6176
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Paired staff rooms are estimated within the upper interior volume."
+        }
       },
       {
         "statement": "More direct access to the outdoor space would be desirable for all units.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor access for units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6342,
+            0.1805,
+            0.1176
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor interface is anchored along the open southern and eastern edges."
+        }
       },
       {
         "statement": "The window treatment makes communication with children outside more difficult.",
         "tags": [
           "visibility",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "window treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6197,
+            0.1125,
+            0.5588
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Window pattern is directly visible across the south facade."
+        }
       },
       {
         "statement": "The outdoor landscape leaves too little space for free movement and lacks a suitable field of activity for discovery games.",
@@ -131,26 +416,93 @@
           "landscape",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7342,
+            0.1624,
+            0.0294
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape criticism is assigned to the limited open area south and east of the building."
+        }
       },
       {
         "statement": "The construction volume is comparatively large and entails higher gray energy.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "construction volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.401,
+            0.2963,
+            0.5588
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The broad three-story envelope is evident across all elevations."
+        }
       },
       {
         "statement": "The expected construction costs are in the upper range of the shortlisted projects.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
       },
       {
         "statement": "The rooms have limited and sometimes insufficient daylight.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "rooms and daylight",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.401,
+            0.2963,
+            0.5294
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Daylight criticism is distributed across the enclosed building volume."
+        }
       },
       {
         "statement": "The implementation has significant deficits in access, fenestration, and design integration into the district.",
@@ -158,7 +510,26 @@
           "circulation",
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "access, fenestration, and district integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5104,
+            0.2044,
+            0.4412
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Combined shortcomings are distributed across access edges, facades, and the urban-facing mass."
+        }
       }
     ],
     "keyword": [

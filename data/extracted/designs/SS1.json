@@ -19,7 +19,28 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "collective heart and fragmented built fronts",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4207,
+            0.2656,
+            0.2059
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central open heart and discontinuous perimeter fronts are legible across the plan and elevations."
+        }
       },
       {
         "statement": "The clearly positioned soft-mobility network anchors the project in a larger scope and creates a new green multifunctional centrality.",
@@ -27,14 +48,54 @@
           "circulation",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "soft-mobility network and green centrality",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4207,
+            0.2656,
+            0.1471
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central landscape zone and perimeter connections provide the most plausible anchor for the mobility network."
+        }
       },
       {
         "statement": "The school opens onto the park with a covered courtyard that facilitates management of the children.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school covered courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4207,
+            0.2656,
+            0.2353
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The courtyard is approximated at the school-facing edge of the central open space."
+        }
       },
       {
         "statement": "The parking is skillfully inserted into the topography and its presence is reduced as much as possible.",
@@ -42,7 +103,26 @@
           "topography",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "parking at the low point",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8031,
+            0.0454,
+            0.0588
+          ],
+          "radius": 0.23,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A low peripheral surface along the road is used for the approximate parking location."
+        }
       },
       {
         "statement": "The shallow building depth offers numerous typological potentials and high quality of use, particularly in terms of light.",
@@ -50,7 +130,27 @@
           "layout",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "shallow building depth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0499,
+            0.3606,
+            0.4412
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Thin massing is evident in the elevations and distributed across the perimeter building fabric."
+        }
       },
       {
         "statement": "The diversity of landscape environments results from the relationship between peripheral functions and building identities rather than being forced.",
@@ -58,7 +158,26 @@
           "landscape",
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "diverse landscape environments",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0499,
+            0.7211,
+            0.1471
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Peripheral open-space pockets are distributed around the fragmented built perimeter."
+        }
       },
       {
         "statement": "The proposal is a real sewing and valorization operation of the existing through landscape programs open to different uses and favourable to flora and fauna.",
@@ -66,28 +185,106 @@
           "urban integration",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "landscape sewing and valorization",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2912,
+            0.9546,
+            0.1471
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The marker spans an existing-looking peripheral landscape band connected to the central heart."
+        }
       },
       {
         "statement": "The project pays great attention to open-space quality by integrating open-air water-management systems.",
         "tags": [
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "open-air water-management systems",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7409,
+            0.0454,
+            0.0588
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Water-management elements are approximated near the likely low peripheral landscape zone."
+        }
       },
       {
         "statement": "The distribution of the program makes the different operators and programs independent, allowing great operational flexibility.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "independent program distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9501,
+            0.5552,
+            0.3824
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A peripheral building region represents distributed operators and separated program areas."
+        }
       },
       {
         "statement": "The school can be built in a first phase while maintaining much of the existing parking and plane trees.",
         "tags": [
           "flexibility",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "school first-phase area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6786,
+            0.0454,
+            0.2353
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The school is approximated along the park-facing perimeter where phased construction can coexist with open areas."
+        }
       },
       {
         "statement": "The compact school opens onto the park with a covered courtyard that will probably become the main entrance.",
@@ -95,7 +292,26 @@
           "circulation",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "school covered courtyard and main entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4207,
+            0.2656,
+            0.1765
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A park-facing central-edge zone provides the most plausible courtyard and entrance anchor."
+        }
       },
       {
         "statement": "Each level is organized around a generous central collective space with overhead and side light and a shared landing.",
@@ -103,35 +319,133 @@
           "layout",
           "daylight",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central collective space and shared landing",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4297,
+            0.2171,
+            0.2353
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A central void-like area is visible in plan and vertically constrained through the elevations."
+        }
       },
       {
         "statement": "The distribution on either side of the central space offers great flexibility for classroom allocation.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom areas on either side",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9501,
+            0.4986,
+            0.5294
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The marker sits on one side of the visible central space, representing paired classroom allocation zones."
+        }
       },
       {
         "statement": "The constructive concept is consistent, with a collective distributive core and classroom construction arranged around it.",
         "tags": [
           "structure",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "collective distributive core and classroom construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4297,
+            0.2171,
+            0.2059
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central plan feature and surrounding repetitive bays support a core-and-classroom system reading."
+        }
       },
       {
         "statement": "The treatment of changing rooms and glazed doors shows great care and concern in the architectural devices.",
         "tags": [
           "functionality",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "changing rooms and glazed doors",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4297,
+            0.1604,
+            0.2353
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "An entrance-facing lower facade surface is used because these small devices are not separately identifiable."
+        }
       },
       {
         "statement": "Solar protection by roof overhangs and projections ensures the comfort of the schoolchildren.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "roof overhangs and projections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3259,
+            0.0454,
+            0.9118
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Roof-edge projections are visible along the upper perimeter in plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -140,7 +454,25 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "street entrance clearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4919,
+            0.0454,
+            0.1471
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is approximated on the road-facing perimeter facade, where clearance is being judged."
+        }
       }
     ],
     "keyword": [

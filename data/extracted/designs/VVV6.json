@@ -16,14 +16,52 @@
         "tags": [
           "structure",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "foundation concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2472,
+            0.2448,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Approximate support location beneath the elevated south-west portion of the elongated volume."
+        }
       },
       {
         "statement": "The special foundation allows increased multi-story storage and reduces the building footprint.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "special foundation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6834,
+            0.8051,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Foundation is assigned beneath the north-east building footprint, supporting the reduced ground occupation."
+        }
       },
       {
         "statement": "The height development is used to accommodate the highway, while the canopy accentuates the road reference and provides noise protection.",
@@ -31,28 +69,104 @@
           "urban integration",
           "acoustics",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5436,
+            0.366,
+            0.5833
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Road-facing canopy is placed along the southern edge at the elevated upper volume."
+        }
       },
       {
         "statement": "The northern outdoor space impresses with its width, spaciousness, and meaningful emptiness.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "northern outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7174,
+            0.8333,
+            0.0833
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Broad open area is placed on the north side opposite the road-facing canopy."
+        }
       },
       {
         "statement": "The project impresses with its rigorous independence and strikingly expresses its function as a mountain.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6286,
+            0.4364,
+            0.5833
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete slender, elevated, ship-shaped mass is visible across the calibrated views."
+        }
       },
       {
         "statement": "The seriousness and precision with which the project idea was developed become apparent on closer examination.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6252,
+            0.4896,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Precision and rigor are assigned to the visible overall massing and its sharply defined edges."
+        }
       }
     ],
     "negative": [
@@ -61,21 +175,79 @@
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "delivery arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5703,
+            0.5062,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Delivery activity is approximated at the south-east road-facing end of the building."
+        }
       },
       {
         "statement": "The necessary transshipment space is not provided, although goods can only be moved within the building using forklifts.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "transshipment space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5277,
+            0.477,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Missing transfer space is anchored near the inferred southern loading edge."
+        }
       },
       {
         "statement": "The ship-shaped volume is unsuitable for the collection-center function because its loading arrangement does not replicate the required ferry-like loading volume.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "ship-shaped volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6167,
+            0.4826,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated ship-shaped envelope is clearly visible, though its internal loading arrangement is not."
+        }
       },
       {
         "statement": "The first stage appears amputated, while the uncertain second stage and possible expansion are constitutive elements of the concept.",
@@ -83,28 +255,106 @@
           "phasing",
           "massing",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "first stage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1609,
+            0.1495,
+            0.4167
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The apparent initial stage is assigned to the truncated south-west end of the elongated mass."
+        }
       },
       {
         "statement": "The canopy extending beyond the distance line represents a violation of building law.",
         "tags": [
-        "regulatory compliance",
+          "regulatory compliance",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "canopy",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5266,
+            0.3519,
+            0.5833
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The potentially noncompliant projection is located along the southern canopy edge."
+        }
       },
       {
         "statement": "The strength of the image is contradicted by important functional inadequacies.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5998,
+            0.4685,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The criticism concerns tension between the visible architectural image and building-wide functional performance."
+        }
       },
       {
         "statement": "The building's hermeticism turns against the desired spatial and communicative openness of the collection center.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5946,
+            0.4082,
+            0.5833
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Hermeticism is anchored to the visibly continuous enclosure surrounding the elongated volume."
+        }
       }
     ],
     "keyword": [

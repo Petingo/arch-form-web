@@ -17,14 +17,50 @@
           "massing",
           "open space",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "three zoned outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2981,
+            0.2342,
+            0.06
+          ],
+          "radius": 0.3197,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Perimeter massing visibly frames differentiated outdoor zones around the compact volume."
+        }
       },
       {
         "statement": "The structural setting preserves all three valuable trees and integrates them as distinctive, identity-creating elements.",
         "tags": [
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "three preserved trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2404,
+            0.7511,
+            0.06
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are not individually distinguished; the estimate sits near the sampled footprint perimeter."
+        }
       },
       {
         "statement": "The volume is compatible with the townscape and fits well with the existing pavilion buildings despite its height.",
@@ -32,7 +68,27 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building in townscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8351,
+            0.4452,
+            0.56
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Compact asymmetric volume is visible across all elevations and its footprint."
+        }
       },
       {
         "statement": "The outdoor spaces and building form interact closely, creating an attractive and protected play area.",
@@ -40,14 +96,52 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "protected play area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2981,
+            0.2342,
+            0.04
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A sheltered ground-level perimeter zone is inferred beside the compact volume."
+        }
       },
       {
         "statement": "The solution impresses with urban-planning clarity and a simple, sensitive design.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8613,
+            0.4972,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The simple, compact building mass is consistently legible in footprint and elevations."
+        }
       },
       {
         "statement": "The compact, clearly structured floor plans are flexible, with no unnecessary traffic space and sensible adjoining-room arrangements.",
@@ -55,7 +149,25 @@
           "layout",
           "flexibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "compact floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3664,
+            0.2481,
+            0.28
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is not directly sampled; a lower-floor surface point is used as an anchor."
+        }
       },
       {
         "statement": "The balanced ratio of glazing and closed wall segments provides clear arrangements and opportunities for retreat.",
@@ -63,14 +175,43 @@
           "facade",
           "privacy",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "glazing and closed wall segments",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8351,
+            0.4452,
+            0.58
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Elevation views visibly show alternating dense and open facade bands."
+        }
       },
       {
         "statement": "The compact volume and relatively simple building shape promise a high level of cost-effectiveness.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "cost-effectiveness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful geometric location."
+        }
       }
     ],
     "negative": [],

@@ -18,7 +18,27 @@
           "massing",
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "non-symmetrical U-shaped volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4657,
+            0.5265,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The U-shaped mass and central opening are clearly visible in plan and elevations."
+        }
       },
       {
         "statement": "The simple and precise volumetry combines the typology of individual villas with the linear buildings of large complexes.",
@@ -26,7 +46,26 @@
           "massing",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "villa-and-clinic typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1609,
+            0.3116,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The linear layered mass is positioned as a transition between smaller and larger building types."
+        }
       },
       {
         "statement": "The facade expression creates a strong interior-exterior relationship through large openings toward the park.",
@@ -34,14 +73,51 @@
           "facade",
           "expression",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "park-facing facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4487,
+            0.0508,
+            0.5455
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open U-side and layered facade bands face the exterior landscape edge."
+        }
       },
       {
         "statement": "The building follows the natural terrain with great delicacy and precision.",
         "tags": [
           "topography",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "natural terrain",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8659,
+            0.5674,
+            0.3182
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The stepped horizontal envelope is assigned across the sloping site surface."
+        }
       },
       {
         "statement": "The exterior arrangements carefully integrate pedestrian paths around the large trees.",
@@ -49,7 +125,24 @@
           "landscape",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian paths around large trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4736,
+            0.5452,
+            0.0455
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Paths are approximated around the central open grove-side space."
+        }
       },
       {
         "statement": "The sober architectural expression is particularly well chosen for the site and the program.",
@@ -57,7 +150,26 @@
           "expression",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sober architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8052,
+            0.4232,
+            0.6364
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Restrained horizontal expression is visible across the layered elevations."
+        }
       }
     ],
     "negative": [],

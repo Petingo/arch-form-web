@@ -17,7 +17,28 @@
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5602,
+            0.5615,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact low-rise mass and articulated perimeter are visible in every calibrated view."
+        }
       },
       {
         "statement": "Shifts in the compact volume subtly organize the ground floor and link it to the exterior spaces.",
@@ -25,42 +46,154 @@
           "massing",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "volume shifts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6157,
+            0.5303,
+            0.25
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Shifts are visible along the perimeter and organize adjacent exterior spaces."
+        }
       },
       {
         "statement": "The resulting spaces offer diversity and can be appropriated by students and the population.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "diverse exterior spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2909,
+            0.6241,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The northwest patio and surrounding cut-outs visibly form varied appropriable spaces."
+        }
       },
       {
         "statement": "The organization of access and public activities allows events outside school hours to function smoothly.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "public activities access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8413,
+            0.5285,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Public access is approximated along the east-facing external edge."
+        }
       },
       {
         "statement": "The circulation spaces are subtly hierarchical, generous, and varied in atmosphere.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "circulation spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5419,
+            0.5807,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central circulation is inferred from the courtyard-punctured plan and repeated elevation bands."
+        }
       },
       {
         "statement": "Views and natural light are provided at corridor ends and around the interior courtyards.",
         "tags": [
           "visibility",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "corridor ends and interior courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.601,
+            0.6427,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyard voids are clearly identifiable in the top view and bounded by elevated bands."
+        }
       },
       {
         "statement": "The distribution of the program across the floors is consistent.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "program distribution across floors",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5967,
+            0.523,
+            0.625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated horizontal levels support a distributed multi-floor building estimate."
+        }
       },
       {
         "statement": "The interior circulation resembles a small school medina and counteracts the mass effect of the large school.",
@@ -68,40 +201,146 @@
           "circulation",
           "scale",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "school medina circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5784,
+            0.5422,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyards and internal bands create a legible central circulation network."
+        }
       },
       {
         "statement": "The organization supports the educational and socialization mission of the establishment.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "educational and socialization organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5237,
+            0.5999,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The whole compact building is the only useful spatial anchor for this organizational judgment."
+        }
       },
       {
         "statement": "The construction system is simple and efficient, combining a main structure with localized rigid cores.",
         "tags": [
-        "structure"
-        ]
+          "structure"
+        ],
+        "position": {
+          "target": "main structure and rigid cores",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5967,
+            0.523,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural organization is approximated from the regular mass and localized plan interruptions."
+        }
       },
       {
         "statement": "The proposal is the most efficient among the presented projects from an energy and sustainability perspective.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "energy and sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Performance judgment has no useful localized spatial referent."
+        }
       },
       {
         "statement": "Eaves, passageways, and patios provide protection from noise and summer sun.",
         "tags": [
           "acoustics",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "eaves, passageways, and patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.601,
+            0.6427,
+            0.875
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Patios are visible in plan; associated upper protective elements are approximated above them."
+        }
       },
       {
         "statement": "The proposal has strong potential for optimization without distorting its architectural qualities.",
         "tags": [
           "flexibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "optimization potential",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6157,
+            0.5303,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Optimization comment applies broadly to the compact articulated building."
+        }
       }
     ],
     "negative": [
@@ -110,7 +349,24 @@
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "landscape concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6982,
+            0.1767,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape criticism is placed in the open southern and eastern site margins."
+        }
       },
       {
         "statement": "The open-ground surfaces should offer more freshness, biodiversity, and varied appropriation.",
@@ -118,112 +374,398 @@
           "landscape",
           "sustainability",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "open-ground surfaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3228,
+            0.2205,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-ground improvement is anchored to the southern exterior margin."
+        }
       },
       {
         "statement": "The basement organization needs adaptations to address dysfunctions and allow vegetation in at least one patio.",
         "tags": [
           "layout",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "basement organization and vegetated patio",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3583,
+            0.322,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement and patio issue is approximated beneath the southwest interior courtyard."
+        }
       },
       {
         "statement": "The multimedia room must be treated as a classroom and receive daylight.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "multimedia room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2909,
+            0.6241,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The room is not distinguishable; it is placed near the northwest interior zone."
+        }
       },
       {
         "statement": "The vertical distribution and number of sanitary blocks appear insufficient for the number of students per floor.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sanitary blocks",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6999,
+            0.4498,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Sanitary provision is approximated within the eastern multi-floor zone."
+        }
       },
       {
         "statement": "The documentation center premises must be directly accessible from the media library.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "documentation center and media library",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.745,
+            0.6452,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The paired rooms are estimated near the northeast interior edge."
+        }
       },
       {
         "statement": "The arrangement of classrooms opposite each other across patios raises concerns.",
         "tags": [
           "layout",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "classrooms across patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.469,
+            0.6576,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Opposing classroom zones are inferred around the clearly visible upper courtyard."
+        }
       },
       {
         "statement": "Access for the spectators to the stands is unsatisfactory and must allow exchanges between sides without passing through the sports hall or outside.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "spectator access to stands",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.765,
+            0.3707,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Public spectator circulation is approximated along the east-side ground-level zone."
+        }
       },
       {
         "statement": "Publicly accessible areas must be partitionable from the strictly school spaces.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "publicly accessible areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8595,
+            0.5093,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Public areas are placed along the external east-facing access edge."
+        }
       },
       {
         "statement": "The basement plan is ineffective and problematic, particularly because of vertical distributions and mixed uses.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "basement plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4528,
+            0.3709,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Basement criticism is assigned to the lowest level beneath the central volume."
+        }
       },
       {
         "statement": "The location of the equipment-room access through the stands cannot work, and the refreshment bar and toilets must connect to the public stands.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "equipment-room access, refreshment bar, and toilets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7456,
+            0.3527,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Service and public-support functions are approximated near the east ground-level edge."
+        }
       },
       {
         "statement": "The outdoor sports fields and running track should be located away from classroom facades.",
         "tags": [
           "acoustics",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor sports fields and running track",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2863,
+            0.259,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sports landscape is placed away from the building along the southern site edge."
+        }
       },
       {
         "statement": "The parking layout takes priority over the relationship between the street and the school complex.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "parking layout",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.834,
+            0.2301,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is approximated at the eastern street-facing site margin."
+        }
       },
       {
         "statement": "The envelope and entrances should offer more varied intermediate spaces between enclosed areas and natural elements.",
         "tags": [
           "facade",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "envelope and entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9125,
+            0.4534,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Perimeter envelope and entrance conditions are most legible on the east facade."
+        }
       },
       {
         "statement": "Two patios are limited to providing natural lighting and should acquire a stronger quality of use.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3091,
+            0.6049,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two courtyard voids are clearly visible in the top plan."
+        }
       },
       {
         "statement": "The project ignores the existing topography.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing topography",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3045,
+            0.2398,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Topography concern is assigned to the surrounding site, absent a distinguishable slope surface."
+        }
       },
       {
         "statement": "The exterior arrangements require more sustained and sensitive attention.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "exterior arrangements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7177,
+            0.1948,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Exterior arrangement criticism covers the open perimeter around the compact footprint."
+        }
       },
       {
         "statement": "The parking and municipal-program layouts should be reviewed, and more space should be provided along the quieter frontage.",
@@ -231,34 +773,122 @@
           "landscape",
           "acoustics",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "parking and municipal-program layouts",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8146,
+            0.212,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "These site programs are approximated along the east and southeast frontage."
+        }
       },
       {
         "statement": "Ventilation and heat production remain insufficiently developed.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "ventilation and heat production",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5602,
+            0.5615,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Building environmental systems are approximated within the upper central volume."
+        }
       },
       {
         "statement": "Exterior solar protection is needed to avoid summer overheating.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "exterior solar protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6024,
+            0.0875,
+            0.7414
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Solar protection need is anchored to the exposed south-facing envelope."
+        }
       },
       {
         "statement": "The teaching rooms on one frontage are highly exposed to road noise.",
         "tags": [
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "teaching rooms on one frontage",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9307,
+            0.4342,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east"
+          ],
+          "rationale": "Road-exposed teaching frontage is approximated at the east facade."
+        }
       },
       {
         "statement": "The proportion of glazing should be reduced to improve environmental performance and comfort.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "glazing proportion",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8942,
+            0.4726,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Glazing distribution is directly readable as repeated facade bands."
+        }
       }
     ],
     "keyword": [

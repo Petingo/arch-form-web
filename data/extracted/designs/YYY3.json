@@ -18,7 +18,26 @@
           "urban integration",
           "massing",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "street alignment and compact footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6624,
+            0.2443,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The compact cloverleaf mass visibly aligns its south-east edge with the street side."
+        }
       },
       {
         "statement": "The arrangement reorganizes the exterior spaces and frees the central zone for reception, recreation and public access.",
@@ -26,7 +45,24 @@
           "open space",
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central reception, recreation and public access zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5547,
+            0.2986,
+            0
+          ],
+          "radius": 0.17,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central articulation visibly opens toward the south-east access side."
+        }
       },
       {
         "statement": "The built volume clearly expresses the functions it houses.",
@@ -34,14 +70,51 @@
           "massing",
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "built volume functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5547,
+            0.5457,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The articulated three-branch envelope provides the anchor for functional expression."
+        }
       },
       {
         "statement": "The central space immediately accessible from the entrance organizes the three units.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central space and three units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4942,
+            0.4785,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A central articulation is clearly visible where the three branches meet."
+        }
       },
       {
         "statement": "The green roof is treated as a true fifth facade and is widely readable from the pedestrian link.",
@@ -49,7 +122,27 @@
           "facade",
           "expression",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "green roof",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.374,
+            0.6522,
+            1
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The roof footprint is clearly readable from above and forms the visible fifth facade."
+        }
       },
       {
         "statement": "The concept clearly defines three major outdoor spaces.",
@@ -57,26 +150,97 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "three major outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2514,
+            0.6456,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Three exterior pockets are visibly formed between the cloverleaf branches."
+        }
       },
       {
         "statement": "The supporting wooden frame provides appropriate spans for the chosen material.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "supporting wooden frame",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7669,
+            0.5532,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The frame is not individually visible; the eastern branch provides a representative surface anchor."
+        }
       },
       {
         "statement": "Wood and single-level construction are relevant for the poor bearing capacity of the soil.",
         "tags": [
           "structure",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "wood and single-level construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2707,
+            0.6456,
+            0.1285
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Single-level massing is visible, while material and soil suitability remain constrained."
+        }
       },
       {
         "statement": "The project meets fire quality assurance requirements on a single level.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "fire quality assurance on a single level",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7669,
+            0.5393,
+            0.2523
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The one-storey envelope is visible, but fire compliance itself lacks a distinct marker."
+        }
       }
     ],
     "negative": [
@@ -86,7 +250,24 @@
           "open space",
           "safety",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor activity areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1905,
+            0.2165,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Branch-separated exterior pockets are visibly assigned as distinct activity areas."
+        }
       },
       {
         "statement": "The structural system is complicated and its changes in portico orientation weaken the central articulation.",
@@ -94,7 +275,27 @@
           "structure",
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "structural system and portico orientation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4942,
+            0.4785,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Structural changes are not individually visible; the central articulation is the likely focus."
+        }
       },
       {
         "statement": "Winter operation is problematic because circulation to the three zones is too narrow or constricted.",
@@ -102,7 +303,24 @@
           "operation",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "winter circulation to three zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4942,
+            0.4785,
+            0.2523
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central connector visibly mediates routes to the three branches."
+        }
       },
       {
         "statement": "The central spaces in the three zones are unattractive or undersized.",
@@ -110,14 +328,50 @@
           "layout",
           "proportion",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "central spaces in the three zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5547,
+            0.5007,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior-facing central pockets are visibly narrow and irregular around the articulation."
+        }
       },
       {
         "statement": "The seismic safety device is not indicated, and the cloverleaf geometry requires numerous interior walls to control torsional effects.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "seismic safety device",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5547,
+            0.5681,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The device is absent from the sample; the central mass is the most plausible structural anchor."
+        }
       },
       {
         "statement": "A complete second-level extension would probably require deep foundations.",
@@ -125,14 +379,52 @@
           "flexibility",
           "structure",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "complete second-level extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3603,
+            0.6456,
+            1
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The model is single-storey, so a second level can only be assigned to the existing roof footprint."
+        }
       },
       {
         "statement": "The scheme raises problems with escape-route distances if the building is elevated.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "escape-route distances",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6624,
+            0.2443,
+            0.2523
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Escape routes are not visible; the street-facing south-east access edge provides a directional anchor."
+        }
       }
     ],
     "keyword": [

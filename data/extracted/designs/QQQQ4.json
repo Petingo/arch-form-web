@@ -16,7 +16,26 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "structured floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5148,
+            0.5091,
+            0.125
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view shows an elongated organized footprint with nested internal zones; elevations confirm a single low-level volume."
+        }
       },
       {
         "statement": "The straight corridors are advantageous in terms of safety and have optimal lighting.",
@@ -24,7 +43,25 @@
           "circulation",
           "safety",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "straight corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5148,
+            0.3056,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal linear organization is suggested by the nested plan, but corridors are not individually distinguishable."
+        }
       },
       {
         "statement": "The easily accessible courtyard offers a large open space with maximum flexibility of use.",
@@ -32,7 +69,26 @@
           "open space",
           "accessibility",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "accessible courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5148,
+            0.48,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central nested opening in the top view provides a clear courtyard-like open-space anchor."
+        }
       },
       {
         "statement": "The wooden ceiling elements and solid interior walls form a functional and economical support system.",
@@ -40,28 +96,94 @@
           "structure",
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "wooden ceiling elements and solid interior walls",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4716,
+            0.3003,
+            0.875
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled envelope supports a roof-and-wall system location, though material and interior construction are not visible."
+        }
       },
       {
         "statement": "The south orientation of the patient rooms offers attractive exposure and sunlight.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "south patient rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4803,
+            0,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing rooms are anchored along the southern building edge, with their interior subdivision unresolved."
+        }
       },
       {
         "statement": "The technical access, especially to the patient rooms from the corridor, is optimally solved.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "technical access to patient rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4798,
+            0.2216,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A plausible corridor-side location follows the southern room band, but technical access is not separately visible."
+        }
       },
       {
         "statement": "The ecological construction approach responds to the limited period of use and gives the property a warm character.",
         "tags": [
           "sustainability",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "ecological construction approach",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ecological performance and warm character are evaluative properties without a reliable geometric marker."
+        }
       }
     ],
     "negative": [
@@ -71,7 +193,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4963,
+            0.2216,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views clearly show the long footprint extending broadly across the sampled model."
+        }
       },
       {
         "statement": "The pavilion expression does not correspond to the size of the object.",
@@ -79,48 +221,180 @@
           "expression",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "pavilion expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4716,
+            0.5038,
+            0.75
+          ],
+          "radius": 0.309,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The low elongated mass and extensive footprint provide direct evidence for the overall pavilion-scale expression."
+        }
       },
       {
         "statement": "The entrance position is not entirely logical in view of the northern open space.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrance position",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.7158,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The eastern edge is the constrained entrance location, adjacent to the north-side open-space relationship."
+        }
       },
       {
         "statement": "The western outside space is limited and not spatially clearly defined.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "western outside space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.5102,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western perimeter is identifiable beside the long footprint, while the external landscape is not sampled distinctly."
+        }
       },
       {
         "statement": "The entrance area is somewhat tight.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.6868,
+            0.125
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern building edge provides a plausible compact entrance-area anchor without a distinguishable entrance object."
+        }
       },
       {
         "statement": "The smoking area and internal facade are not clearly defined.",
         "tags": [
           "layout",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "smoking area and internal facade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5148,
+            0.5091,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The central zone suggests an internal facade edge, but no smoking area is identifiable in the exterior sample."
+        }
       },
       {
         "statement": "The nearby facade severely limits the view from the patient rooms.",
         "tags": [
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "patient rooms and nearby facade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4968,
+            0,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Patient rooms are constrained to the south-facing band; the obstructing nearby facade is not separately distinguishable."
+        }
       },
       {
         "statement": "The importance of the flat roof as a fifth facade should be taken into account.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "flat roof",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4716,
+            0.3003,
+            1
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The top footprint and highest elevation point rows provide direct evidence of a broad flat roof plane."
+        }
       }
     ],
     "keyword": [

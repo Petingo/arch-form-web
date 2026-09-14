@@ -1,3 +1,12 @@
+/* Palette shared with the main site (web/assets/css/shell.css). */
+:root {
+    --ink: #141714;
+    --muted: #73786f;
+    --line: #d9d8d0;
+    --hairline: #ecebe4;
+    --panel: #ffffff;
+}
+
 /* .hover-popup {
     display: block;
 } */
@@ -40,9 +49,10 @@
 .model-info-wrapper {
     position: fixed;
     z-index: 1000;
-    margin-left: 1vh;
-    /* sits at the top-left of the body, flush under the nav bar */
-    margin-top: 5.5em;
+    /* top-left of the body, mirroring the control panel opposite */
+    left: 1em;
+    top: 5.5em;
+    margin: 0;
 }
 
 .hover-popup {
@@ -77,11 +87,12 @@ h1, h2, h3, h4, h5 {
 /* Controls inherited the UA default (Arial 13.3px); match the site's scale. */
 button, select, input, label, legend {
     font-family: "Manrope", sans-serif;
+    font-size: 11px;
 }
 
 button {
-    background-color: #f5f5f5;
-    border: #e9e9e9 solid 1px;
+    background-color: #ffffff;
+    border: 1px solid var(--line);
     color: #000000;
     padding: 4px 9px;
     outline: inherit;
@@ -92,7 +103,7 @@ button {
 }
 
 button:hover {
-    background-color: #e9e9e9;
+    background-color: #efeee7;
 }
 
 button:active {
@@ -100,7 +111,7 @@ button:active {
 }
 
 .card-container{
-    background-color: #FEFEFE;
+    background-color: #ffffff;
     border: 1px solid #E5E5E5;
     border-radius: 8px;
     padding: 1em;
@@ -248,7 +259,7 @@ dialog {
     /* same chrome as .card-container so dialogs match the panels */
     border: 1px solid #E5E5E5;
     border-radius: 8px;
-    background-color: #FEFEFE;
+    background-color: #ffffff;
     width: 80vw;
     height: 80vh;
     padding: 0;
@@ -268,30 +279,31 @@ fieldset {
 
 /* The dialog follows the site's type scale: 12px body text, 9px DM Mono for
    the small uppercase labels. */
+/* One body size for the viewer chrome. The dialog had picked up four different
+   sizes -- 12px containers, 11px labels, a 10.2px inline status and 9px
+   headings -- so plain text now inherits a single value and only the small
+   uppercase labels differ. */
 .dialog-sidebar, .control-panel {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .dialog-sidebar h3,
 .control-panel legend {
     margin: 0 0 2px;
-    color: #73786f;
+    color: var(--muted);
     font: 500 9px "DM Mono", monospace;
     letter-spacing: .13em;
     text-transform: uppercase;
 }
 
-#interpolation-dialog-alpha-wrap label,
-#interpolation-view-controls label {
-    font-size: 11px;
-}
+
 
 .dialog-sidebar{
     /* scrolls once several interpolation sources are added; it used to clip */
     overflow-y: auto;
     overflow-x: hidden;
-    border-right: 1px solid #E5E5E5;
-    background-color: #FBFAF6;
+    border-right: 1px solid var(--line);
+    background-color: var(--panel);
 }
 
 .dialog-container{
@@ -309,9 +321,7 @@ fieldset {
     padding: 8px;
 }
 
-#interpolation-dialog-alpha-wrap .sidebar-item-desc {
-    padding: 12px 8px;
-}
+
 
 #interpolation-dialog-alpha-wrap label {
     display: block;
@@ -385,15 +395,75 @@ fieldset {
     display: none;
 }
 
+/* Every group is one block with the same padding, so headings, sliders and
+   labels share a single left edge. The markup carries basscss margin utilities
+   (mx2/ml2/my1/mt1) that produced three different indents; they are neutralised
+   here and the spacing comes from this block instead. */
 .interpolation-dialog-sidebar-item,
 #interpolation-view-controls,
 #interpolation-dialog-alpha-wrap {
-    border-bottom: 1px solid #ECEBE4;
-    padding-bottom: 0.75em;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--hairline);
 }
 
 #interpolation-dialog-alpha-wrap {
     border-bottom: 0;
+}
+
+.dialog-sidebar .mx2,
+.dialog-sidebar .ml2,
+.dialog-sidebar .my1,
+.dialog-sidebar .mt1,
+.dialog-sidebar .sidebar-item-desc {
+    margin: 0;
+    padding: 0;
+}
+
+.dialog-sidebar h3 {
+    margin: 0 0 9px;
+}
+
+.dialog-sidebar .slider-container {
+    width: 100%;
+    margin: 0;
+}
+
+/* checkbox rows */
+#interpolation-view-controls .mt1 {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-top: 7px;
+}
+
+#interpolation-view-controls input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    accent-color: var(--ink);
+}
+
+#interpolation-view-controls label {
+    cursor: pointer;
+}
+
+#interpolation-dialog-alpha-wrap label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+/* range inputs carry a UA inline margin, which left the sliders 2px off the
+   column the headings sit on */
+.dialog-sidebar input[type="range"] {
+    margin: 0;
+}
+
+#interpolation-dialog-alpha-wrap .slider-container + label {
+    margin-top: 13px;
+}
+
+#btn-generate-alpha-wrap {
+    margin-top: 14px;
 }
 
 
@@ -402,12 +472,18 @@ fieldset {
 .slider-value {
     float: right;
     margin-right: 1em;
-    color: #73786f;
+    color: var(--muted);
     font: 500 9px "DM Mono", monospace;
 }
 
 #interpolation-dialog-alpha-wrap label {
-    color: #73786f;
+    color: var(--muted);
+}
+
+#alpha-wrap-status {
+    display: block;
+    margin-top: 4px;
+    color: var(--muted);
 }
 
 #alpha-wrap-status:empty {

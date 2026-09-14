@@ -18,14 +18,51 @@
           "massing",
           "proportion",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "volumetric setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2167,
+            0.775,
+            0.5455
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Interwoven footprint and repeated elevation bands clearly show the proportional massing."
+        }
       },
       {
         "statement": "The clear urban arrangement opens up extensive open spaces on all sides.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "extensive open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7714,
+            0.2065,
+            0.3182
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open areas are inferred around the irregular perimeter, especially along the southeast side."
+        }
       },
       {
         "statement": "The arrangement of school uses and their accesses appears coherent.",
@@ -33,7 +70,27 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school uses and accesses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2167,
+            0.775,
+            0.4545
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Uses and access routes are interior, approximated across the visible interwoven mass."
+        }
       },
       {
         "statement": "The primary-level cluster structures and subdividable class areas offer good conditions for variable teaching methods and varied learning landscapes.",
@@ -41,7 +98,26 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "primary-level cluster and class areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1996,
+            0.7454,
+            0.3636
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Named teaching zones are not distinguishable; the lower western mass provides a constrained anchor."
+        }
       },
       {
         "statement": "The compactness, moderate spans and linear load transfer positively affect gray energy and greenhouse-gas emissions.",
@@ -49,14 +125,53 @@
           "massing",
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "compact structural mass",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7885,
+            0.236,
+            0.5455
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sampled massing is visibly compact, while structural performance remains inferred from form."
+        }
       },
       {
         "statement": "The project has lower construction costs because of its small amount of required space.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2219,
+            0.3179,
+            0.2273
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Cost is global, with a representative anchor placed on the low base volume."
+        }
       }
     ],
     "negative": [
@@ -66,7 +181,24 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "open-space designs",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7728,
+            0.7798,
+            0.3182
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open spaces surround the irregular footprint but their landscape design is not directly represented."
+        }
       },
       {
         "statement": "Terrain modeling and level transitions at the entrances are neither functionally nor design-wise resolved.",
@@ -74,14 +206,50 @@
           "topography",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "terrain modeling and level transitions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2519,
+            0.3011,
+            0.0909
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrance terrain is not explicit; a low perimeter anchor represents the stated ground transition."
+        }
       },
       {
         "statement": "The proposed networking and thoroughfares guarantee only limited, obstacle-free access.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "obstacle-free access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7529,
+            0.219,
+            0.1364
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Thoroughfares are not distinguishable; the southeast exterior edge is a plausible approach zone."
+        }
       },
       {
         "statement": "The basic level's separate access and outdoor space are not fully implemented, causing conflicts with the public area.",
@@ -89,14 +257,53 @@
           "layout",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "basic-level access and outdoor space",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2019,
+            0.7047,
+            0.1364
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low base approximates the basic level and its adjacent exterior area."
+        }
       },
       {
         "statement": "The deep floor plans create rear dark zones, and not all areas benefit equally from daylight.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "deep floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7728,
+            0.7798,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad footprint and dense repeated elevations support the deep-plan concern."
+        }
       },
       {
         "statement": "The basic level only partially meets requirements for spatial organization, classroom outdoor connections and daylight.",
@@ -104,7 +311,26 @@
           "layout",
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "basic level organization",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2189,
+            0.7343,
+            0.1364
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor organization is not visible; the lower western base is the best proxy."
+        }
       },
       {
         "statement": "The primary level's daylight, visual references and access dimensions are questioned, while the dense ground-floor structure fails to create the desired qualities.",
@@ -112,21 +338,79 @@
           "daylight",
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "primary level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7885,
+            0.236,
+            0.6818
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-level concerns are anchored to the smaller elevated volume."
+        }
       },
       {
         "statement": "The caretaker's apartment in the school entrance area seems strange.",
         "tags": [
           "layout",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "caretaker's apartment",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4618,
+            0.084,
+            0.1818
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The apartment is not identifiable; the stated entrance-area location constrains a low front edge."
+        }
       },
       {
         "statement": "Limited insulation values and additional construction complexity tend to worsen the gray-energy balance.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "insulation and construction complexity",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7429,
+            0.7966,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Envelope and complexity are represented approximately by the visible deep building mass."
+        }
       }
     ],
     "keyword": [

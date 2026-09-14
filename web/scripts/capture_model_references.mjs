@@ -15,8 +15,10 @@ const modelIds = process.argv[5]?.split(",").filter(Boolean)
 // "isometric_marked" renders the isometric view with the critique markers drawn
 // on it -- that is what the competition index shows on each card.
 const views = process.argv[4]?.split(",").filter(Boolean) || ["isometric_marked"];
+// chrome=0 drops the label and axis legend, which are calibration aids and do
+// not belong on a competition card.
 const viewUrl = (modelId, view) => view === "isometric_marked"
-  ? `${pageOrigin}/arch-form-web/web/tools/reference.html?model=${modelId}&view=isometric&markers=1`
+  ? `${pageOrigin}/arch-form-web/web/tools/reference.html?model=${modelId}&view=isometric&markers=1&chrome=0`
   : `${pageOrigin}/arch-form-web/web/tools/reference.html?model=${modelId}&view=${view}`;
 
 const pages = await fetch(`http://127.0.0.1:${browserPort}/json/list`).then((response) => response.json());
@@ -79,9 +81,22 @@ for (const modelId of modelIds) {
     if (process.env.SKIP_EXISTING === "1" && fs.existsSync(target)) { continue; }
     await send("Page.navigate", { url: viewUrl(modelId, view) });
     await waitUntilReady();
-    const screenshot = await send("Page.captureScreenshot", { format: "png", fromSurface: true });
-    fs.writeFileSync(target, Buffer.from(screenshot.data, "base64"));
-    console.log(`${modelId} ${view}`);
+    // A lost WebGL context still screenshots cleanly -- as a blank plate. A real
+    // render is 25-45KB at this size, a blank one about 3.8KB, so retry on that.
+    const MIN_BYTES = 8000;
+    let written = 0;
+    for (let attempt = 1; attempt <= 4 && written < MIN_BYTES; attempt += 1) {
+      if (attempt > 1) {
+        await send("Page.navigate", { url: "about:blank" });
+        await send("Page.navigate", { url: viewUrl(modelId, view) });
+        await waitUntilReady();
+      }
+      const screenshot = await send("Page.captureScreenshot", { format: "png", fromSurface: true });
+      const bytes = Buffer.from(screenshot.data, "base64");
+      fs.writeFileSync(target, bytes);
+      written = bytes.length;
+    }
+    console.log(`${modelId} ${view}${written < MIN_BYTES ? " (BLANK)" : ""}`);
   }
 }
 

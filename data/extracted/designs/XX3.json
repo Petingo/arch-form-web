@@ -17,7 +17,27 @@
           "massing",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "simple cubic body",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3864,
+            0.4598,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact cubic mass and continuity with surrounding geometry are clearly represented across views."
+        }
       },
       {
         "statement": "The difficult terrain situation is cleverly used by offsetting the main entrance and exit to the rear garden area around a floor.",
@@ -25,7 +45,26 @@
           "topography",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "rear garden-level entrance and exit",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2691,
+            0.8142,
+            0.2143
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Rear access is constrained to the garden-side edge and lower elevation."
+        }
       },
       {
         "statement": "The generous, calm and protected outdoor area is a quality of the chosen solution.",
@@ -33,14 +72,52 @@
           "open space",
           "acoustics",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "protected outdoor area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3392,
+            0.7445,
+            0.2143
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Protected exterior space is inferred along the recessed garden-side perimeter."
+        }
       },
       {
         "statement": "The various areas are of good spatial quality and functionally arranged.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "various areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.37,
+            0.4455,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior areas are not distinguishable; marker represents the main organized volume."
+        }
       },
       {
         "statement": "The different niches and views into the corridor zones support privacy and help functionality.",
@@ -48,21 +125,71 @@
           "layout",
           "privacy",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "corridor niches and views",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3689,
+            0.4772,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior niches are absent; central placement follows the likely corridor organization."
+        }
       },
       {
         "statement": "The functionality and quality of the spatial offer are maintained in their flexibility towards changes in use.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "flexible spatial offer",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Flexibility concerns use over time rather than a specific geometric location."
+        }
       },
       {
         "statement": "The central open staircase, decentralized lifts and escape stairs provide visible and functional access.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "central open staircase and decentralized lifts",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3479,
+            0.4317,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central opening is visible in plan, while lifts and escape stairs are inferred internally."
+        }
       }
     ],
     "negative": [
@@ -72,21 +199,78 @@
           "layout",
           "daylight",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "parking lot, school garden and playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2438,
+            0.367,
+            0.1429
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Site uses are absent; the marker distributes across the front and garden-side exterior edges."
+        }
       },
       {
         "statement": "The two ground-floor height offsets are problematic for the offices, meeting rooms and gymnasium.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor height offsets",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5848,
+            0.5007,
+            0.2143
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Lower-level offsets are suggested by the stepped ground relationship in the elevations."
+        }
       },
       {
         "statement": "The location of the therapy rooms on the upper floor is deficient.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "therapy rooms on upper floor",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3864,
+            0.4598,
+            0.7857
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-floor rooms are not visible; marker is placed within the upper building zone."
+        }
       },
       {
         "statement": "The facade design appears arbitrary and monotonous and does not coherently convey the system and its function.",
@@ -94,27 +278,103 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8286,
+            0.6092,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The regular outer elevations provide the available evidence for facade assessment."
+        }
       },
       {
         "statement": "The skeleton construction still has several inconsistencies.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "skeleton construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3513,
+            0.4946,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural skeleton is not exposed; central anchor represents the building frame."
+        }
       },
       {
         "statement": "The climbing zones and wet cells are not consistently stacked.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "climbing zones and wet cells",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5832,
+            0.485,
+            0.2857
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior service and activity rooms are absent; marker follows the central stacked zone."
+        }
       },
       {
         "statement": "The project requires a noise barrier along the highway to meet noise protection requirements.",
         "tags": [
           "acoustics",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "noise barrier along the highway",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.246,
+            0.5991,
+            0.3571
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Highway orientation is unstated in the model; barrier is approximated along the outer western edge."
+        }
       }
     ],
     "keyword": [

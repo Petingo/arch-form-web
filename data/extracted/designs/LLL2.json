@@ -19,14 +19,49 @@
           "massing",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "campus entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5082,
+            0.1042,
+            0.0714
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level entry locations are approximated along the accessible southern edge of the staggered campus."
+        }
       },
       {
         "statement": "The boulevard is spatially framed and ends in a generous open space offered to the district.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "boulevard and generous open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7677,
+            0.5926,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The eastern open side provides a plausible district-facing endpoint beside the framed campus volumes."
+        }
       },
       {
         "statement": "The main hall creates an unexpected generosity that benefits the campus and its identity.",
@@ -34,21 +69,76 @@
           "layout",
           "identity",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "main hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4932,
+            0.1042,
+            0.2143
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central larger volume is the most plausible sampled location for the main hall."
+        }
       },
       {
         "statement": "The distribution of uses and individual room groupings are optimally solved.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "room groupings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3506,
+            0.0935,
+            0.3571
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior groupings are not exposed, so the estimate uses a plausible lower central volume surface."
+        }
       },
       {
         "statement": "The main entrances are convincing and the campus parts are coherently connected by internal access.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "main entrances and internal access",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4832,
+            0.1042,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern frontage is the most plausible shared access edge connecting the offset campus parts."
+        }
       },
       {
         "statement": "The simple, compact volume promises economical and sustainable construction.",
@@ -56,7 +146,28 @@
           "massing",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5281,
+            0.5907,
+            0.3571
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall compact ensemble is visible across the plan and all four elevations."
+        }
       }
     ],
     "negative": [
@@ -65,35 +176,127 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "city stream opening",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1831,
+            0.1042,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The required landscape opening is not identifiable, so it is approximated along a site edge."
+        }
       },
       {
         "statement": "The quality of the boulevard and the public appeal of its long covered area are questioned.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "long covered boulevard area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5196,
+            0.5804,
+            0.2143
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central longitudinal covered zone is approximated between the offset volumes."
+        }
       },
       {
         "statement": "The office and catering areas still require optimization.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "office and catering areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7406,
+            0.2811,
+            0.3571
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "These interior functions are absent from the exterior sample and estimated within the eastern volume."
+        }
       },
       {
         "statement": "The flexibility of the floor plan is somewhat limited by the chosen structure.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "floor plan structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6281,
+            0.5907,
+            0.4286
+          ],
+          "radius": 0.3,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Structural flexibility is not directly visible, so the marker represents the broader upper building organization."
+        }
       },
       {
         "statement": "The boulevard coverage violates zoning regulations and carries a substantial regulatory risk.",
         "tags": [
           "urban integration",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "boulevard coverage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4946,
+            0.5804,
+            0.2143
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The regulatory concern is assigned to the same approximated longitudinal covered boulevard zone."
+        }
       }
     ],
     "keyword": [

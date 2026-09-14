@@ -17,42 +17,158 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "street line",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5213,
+            0.1242,
+            0.0522
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The street-facing edge is represented along the southern perimeter."
+        }
       },
       {
         "statement": "The upper-floor routing is promising and offers high-quality workplaces for independent learning.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor routing",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3567,
+            0.4515,
+            0.7239
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Upper circulation is approximated within the tall perimeter volume."
+        }
       },
       {
         "statement": "The facade routes establish an external reference to the city and allow precise orientation.",
         "tags": [
           "visibility",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "facade routes",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0329,
+            0.5015,
+            0.5995
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Vertical facade organization is clearly visible across the elevation views."
+        }
       },
       {
         "statement": "The classrooms have good spatial proportions and can be easily divided into usable group rooms.",
         "tags": [
           "proportion",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2158,
+            0.7465,
+            0.6493
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Classroom zones are estimated within the upper-floor perimeter around the central void."
+        }
       },
       {
         "statement": "The sports halls can be easily divided without further restricting their room height.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "sports halls",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6672,
+            0.2404,
+            0.0771
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Large lower-level zones are approximated along the southern and eastern volume."
+        }
       },
       {
         "statement": "The upper-floor organization around the atrium is compact.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5711,
+            0.4518,
+            0.5498
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The central void is visible in the top view and reflected by surrounding elevations."
+        }
       }
     ],
     "negative": [
@@ -61,56 +177,207 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "city-level open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5213,
+            0.1242,
+            0.0273
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Hard ground-level open space is approximated immediately along the street-facing edge."
+        }
       },
       {
         "statement": "The roof terrace lacks sufficient information about its technical implementation.",
         "tags": [
           "structure",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "roof terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6817,
+            0.2907,
+            0.9727
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The roof-level terrace is assigned to the upper footprint visible in plan."
+        }
       },
       {
         "statement": "The extra-high perimeter fence prevents an unfiltered view of the landscape.",
         "tags": [
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "perimeter fence",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8854,
+            0.5452,
+            0.0522
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Fence location is estimated at the outer site edge beyond the building."
+        }
       },
       {
         "statement": "The sports halls lack daylight and a spatial connection to the entrance floor.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sports halls",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6214,
+            0.1792,
+            0.1019
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower sports-hall zones are approximated near the southern building edge."
+        }
       },
       {
         "statement": "The ground-floor circulation, especially around the multi-purpose room, is unconvincing.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor circulation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5188,
+            0.415,
+            0.1019
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level circulation is placed near the central lower-volume zone."
+        }
       },
       {
         "statement": "Darkening and effective sun protection are missing.",
         "tags": [
           "daylight",
           "comfort"
-        ]
+        ],
+        "position": {
+          "target": "sun protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4772,
+            0.082,
+            0.7239
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Missing protection is assigned to the exposed upper south facade."
+        }
       },
       {
         "statement": "The facade proposal appears non-specific and schematic.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade proposal",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9607,
+            0.4899,
+            0.5498
+          ],
+          "radius": 0.23,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The repetitive perimeter envelope is directly visible in all elevations."
+        }
       },
       {
         "statement": "Building technology and central ecological questions are only rarely discussed.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "building technology",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5711,
+            0.4518,
+            0.5746
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Technical systems are not distinguishable and are approximated within the building core."
+        }
       }
     ],
     "keyword": [

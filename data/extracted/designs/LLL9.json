@@ -19,7 +19,24 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "campus outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2838,
+            0.3947,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Distributed building edges and open areas in the top view support an outdoor-space campus anchor."
+        }
       },
       {
         "statement": "Staggering the volumes ensures good sunlight in the central outdoor spaces.",
@@ -27,7 +44,26 @@
           "massing",
           "daylight",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "central outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4982,
+            0.4586,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Staggered perimeter masses visibly frame central open space; sunlight performance is inferred from massing."
+        }
       },
       {
         "statement": "The central campus square is the heart of the complex and receives all paths.",
@@ -35,7 +71,28 @@
           "layout",
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "central campus square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4982,
+            0.4992,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A central void is clearly identifiable in plan and sits at ground level between the sampled volumes."
+        }
       },
       {
         "statement": "The topography is made a theme through ramps, seating steps, and stairs.",
@@ -43,7 +100,24 @@
           "topography",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "ramps, seating steps, and stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4078,
+            0.1805,
+            0
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Stepped and irregular ground-level edges in the plan provide a plausible topographic-landscape anchor."
+        }
       },
       {
         "statement": "The weather-insensitive facade construction enables a long service life and reduces life-cycle costs.",
@@ -51,14 +125,50 @@
           "facade",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "facade construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1375,
+            0.1187,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "An exposed outer building edge provides the closest sampled location for facade construction."
+        }
       },
       {
         "statement": "The materials are compatible with the specified ecological requirements.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "ecological facade materials",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8169,
+            0.7289,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Material compatibility is unobservable; the marker estimates a visible outer facade region."
+        }
       }
     ],
     "negative": [
@@ -67,7 +177,24 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "one main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4757,
+            0.4613,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The statement identifies a central entrance, but the sampled point cloud does not distinguish an entrance element."
+        }
       },
       {
         "statement": "Important district connections are missing or require large detours, and the viaduct area is unattractive as an open space.",
@@ -75,7 +202,24 @@
           "urban integration",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "viaduct area and district connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9671,
+            0.4332,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The viaduct-side edge is not explicitly identifiable, so the east-side perimeter estimates the affected site area."
+        }
       },
       {
         "statement": "The internal circulation creates long paths, dead ends, and labyrinthine spaces.",
@@ -83,7 +227,24 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal circulation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3078,
+            0.3947,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior paths are absent from the exterior sample; this point estimates the denser left building mass."
+        }
       },
       {
         "statement": "The basic spatial-typological rules are unclear and the deviations are not comprehensible.",
@@ -91,7 +252,25 @@
           "layout",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "spatial-typological rules",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1328,
+            0.5938,
+            0.5
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The irregular stepped footprint provides a broad anchor for the criticized spatial organization."
+        }
       },
       {
         "statement": "The huge basement has practically no daylight and many large ground-floor rooms are trapped inside the plan.",
@@ -99,7 +278,25 @@
           "daylight",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement and trapped ground-floor rooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3031,
+            0.3268,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement interiors are not sampled; the marker estimates the lower central portion of the left volume."
+        }
       },
       {
         "statement": "Internal access is confusing and inflexible, and the lounge proportions are not optimal.",
@@ -107,7 +304,24 @@
           "circulation",
           "flexibility",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "internal access and lounge proportions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5766,
+            0.3268,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior access and lounge geometry are unseen; this estimates a plausible central-right plan zone."
+        }
       },
       {
         "statement": "The complicated volumetrics and extensive facade, terrace, and roof development are complex and expensive to construct and maintain.",
@@ -115,7 +329,28 @@
           "massing",
           "cost",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "volumetrics, facade, terrace, and roof development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7813,
+            0.5938,
+            1
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The distinct upper-right stepped volume and roof footprint visibly support a broad complexity anchor."
+        }
       },
       {
         "statement": "The above-average glazing creates a relatively high overheating risk and requires substantial technical effort.",
@@ -123,14 +358,49 @@
           "facade",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8633,
+            0.5938,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Glazing is not distinguishable in the point cloud; the marker estimates an exposed east-side facade."
+        }
       },
       {
         "statement": "The large supports in the partition walls are inconvenient and the rise zones are limited.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "partition-wall supports and rise zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2071,
+            0.3268,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior supports and vertical circulation are absent; the point estimates a plausible left-volume interior zone."
+        }
       }
     ],
     "keyword": [

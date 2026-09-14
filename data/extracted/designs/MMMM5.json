@@ -19,7 +19,26 @@
           "urban integration",
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "formative urban space and clear address",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6958,
+            0.6476,
+            0.0556
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open station-square space is inferred beside the northeastern tower and adjoining horizontal station volume."
+        }
       },
       {
         "statement": "The skeletal structure is an easy-to-read node of public transport, with clearly visible stops, sales points, exits and vertical connections.",
@@ -27,7 +46,26 @@
           "circulation",
           "visibility",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "public transport node",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3896,
+            0.3125,
+            0.2222
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The skeletal lower station volume and its repeated openings visibly organize transport access and connections."
+        }
       },
       {
         "statement": "The commercial floor can be subdivided very flexibly, promising varied tenants and a high level of sustainability.",
@@ -35,7 +73,26 @@
           "flexibility",
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "commercial floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3492,
+            0.2759,
+            0.3367
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Commercial accommodation is assigned within the elongated lower station volume, though the interior floor is indistinguishable."
+        }
       },
       {
         "statement": "The apartments are well sized, well zoned and easy to furnish, with large outdoor spaces.",
@@ -43,7 +100,27 @@
           "layout",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "apartments",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8594,
+            0.7622,
+            0.6667
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The distinct northeastern slender tower provides the clearest sampled-model anchor for the apartments."
+        }
       }
     ],
     "negative": [
@@ -52,28 +129,105 @@
         "tags": [
           "structure",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "whole building implementation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.636,
+            0.5642,
+            0.3889
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The comment concerns implementation across the paired building masses, so it is anchored broadly across the visible model."
+        }
       },
       {
         "statement": "The technical rooms appear randomly sized and positioned.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "technical rooms",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2644,
+            0.2638,
+            0.1667
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Technical rooms are not distinguishable; a constrained guess is placed within the lower station volume."
+        }
       },
       {
         "statement": "The organization and structure of the underground car park are not entirely convincing.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "underground car park",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2309,
+            0.2207,
+            0.0556
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The underground parking is absent from the exterior sample, approximated beneath the southwestern station volume."
+        }
       },
       {
         "statement": "Access to the long-term bicycle parking spaces via the underground parking ramp is not optimal.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "long-term bicycle parking access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1771,
+            0.1719,
+            0.0556
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Bicycle parking and ramp access are not identifiable, so the anchor follows the lower station and parking edge."
+        }
       }
     ],
     "keyword": [

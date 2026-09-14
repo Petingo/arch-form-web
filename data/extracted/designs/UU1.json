@@ -17,7 +17,26 @@
           "landscape",
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "landscape-integrated building volumes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1551,
+            0.1076,
+            0.125
+          ],
+          "radius": 0.321,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad site integration is approximated at a low building edge visible against the compact overall footprint."
+        }
       },
       {
         "statement": "Differentiated height grading spatially relates the buildings and creates a pleasant transition to the pedestrian level.",
@@ -25,7 +44,28 @@
           "massing",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "height-graded buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7191,
+            0.7005,
+            0.75
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Differing upper and lower horizontal bands visibly establish graded building heights across the complex."
+        }
       },
       {
         "statement": "The independent architectural expression integrates the existing school building and creates a strong identity as a cohesive public facility.",
@@ -33,7 +73,26 @@
           "expression",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "cohesive public facility identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5551,
+            0.2576,
+            0.4375
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The connected multi-volume envelope supports a cohesive facility reading, though the existing school is not separately identifiable."
+        }
       },
       {
         "statement": "The well-lit central room organizes the classrooms and group rooms efficiently.",
@@ -41,7 +100,26 @@
           "daylight",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.456,
+            0.2729,
+            0.4375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central interior anchor is estimated within the visible surrounding building mass."
+        }
       },
       {
         "statement": "Flexible room dividers allow varied spatial constellations and different educational concepts.",
@@ -49,14 +127,51 @@
           "flexibility",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "flexible room dividers",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4015,
+            0.7494,
+            0.4375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior partitions are not sampled distinctly, so the estimate is constrained within a plausible classroom zone."
+        }
       },
       {
         "statement": "The interior atmosphere is inviting, with simple and robust materials suggesting a pleasant indoor climate.",
         "tags": [
           "expression",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "inviting interior atmosphere",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6047,
+            0.25,
+            0.4375
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Atmospheric qualities are interior and unrepresented, approximated within the visible building envelope."
+        }
       },
       {
         "statement": "The foyer and stage area extend the hall into an attractive space continuum open to its surroundings.",
@@ -64,7 +179,25 @@
           "open space",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "foyer and stage area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8507,
+            0.2765,
+            0.3766
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The interior zone is not distinguishable, so it is placed near an accessible edge of the mass."
+        }
       },
       {
         "statement": "Pedestrian routes, deliveries, and parking facilities are well placed and separated.",
@@ -72,7 +205,26 @@
           "circulation",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian, delivery, and parking routes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1097,
+            0.7898,
+            0.0625
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Site circulation is estimated along an exterior edge surrounding the visible building footprint."
+        }
       },
       {
         "statement": "The buildings have efficient supporting structures, low space requirements, and a lean energy concept.",
@@ -80,7 +232,18 @@
           "structure",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "supporting structures and energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Structural efficiency, area, and energy performance have no distinct spatial marker in the sampled exterior geometry."
+        }
       },
       {
         "statement": "The proposal is convincing because of its precise integration into the small-scale context.",
@@ -88,7 +251,26 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "small-scale contextual integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2294,
+            0.0962,
+            0.0625
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The proposal-wide contextual judgment is anchored to the compact low building footprint and its surrounding site edge."
+        }
       }
     ],
     "negative": [
@@ -98,7 +280,25 @@
           "open space",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1551,
+            0.1076,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor kindergarten areas are not identifiable, estimated beside the low building base at the site perimeter."
+        }
       },
       {
         "statement": "The outdoor areas are only partially visible from the kindergarten rooms.",
@@ -106,35 +306,126 @@
           "visibility",
           "layout",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten room views",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3074,
+            0.2957,
+            0.4375
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Visibility from rooms is interior and unrepresented, approximated from a plausible perimeter classroom zone."
+        }
       },
       {
         "statement": "The indirect connection between the equipment room and the gymnasium must be questioned from an operational perspective.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "equipment room–gymnasium connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6987,
+            0.7037,
+            0.4375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The internal connection is not distinguishable, so it is placed between plausible zones within the building mass."
+        }
       },
       {
         "statement": "The dimensions of the stage access must be checked.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "stage access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8547,
+            0.3002,
+            0.3766
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stage access is not visible as a separate element; the estimate follows the foyer-side building edge."
+        }
       },
       {
         "statement": "The glass portion of the building envelopes and the interior design should be optimized in the interests of economy.",
         "tags": [
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "glazed building envelope",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8867,
+            0.4989,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "A perimeter facade is visible, but glazing is not differentiated from other envelope surfaces in the point cloud."
+        }
       },
       {
         "statement": "The multi-purpose hall foyer is volumetrically very spacious and offers a target for optimization.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose hall foyer",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7037,
+            0.2348,
+            0.4375
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The foyer is not internally identifiable; its estimate occupies a spacious-looking zone near the larger volume edge."
+        }
       }
     ],
     "keyword": [

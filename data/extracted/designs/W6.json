@@ -17,56 +17,206 @@
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "low height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5252,
+            0.4919,
+            0.6154
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Low, horizontally extended mass is visible across the top and elevation views."
+        }
       },
       {
         "statement": "The recessed base expands the open space beneath the cantilevered building.",
         "tags": [
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "recessed base",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3474,
+            0.3143,
+            0.1154
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Lower-level voids and cantilever edges are clearly visible around the building perimeter."
+        }
       },
       {
         "statement": "The interior presents a spatially appealing and rich inner world.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "rich inner world",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5252,
+            0.4919,
+            0.6538
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central recessed geometry provides the best available approximation for the interior spatial experience."
+        }
       },
       {
         "statement": "The closable two-story multi-purpose room expands the spaciousness of the public ground-floor zones.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "two-story multi-purpose room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4753,
+            0.2143,
+            0.1154
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level public zone is approximated beneath the cantilever toward the front-right portion."
+        }
       },
       {
         "statement": "The lateral staircases provide direct access and also serve as fire escapes.",
         "tags": [
           "circulation",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "lateral staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0832,
+            0.5669,
+            0.3462
+          ],
+          "radius": 0.07,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Side circulation is approximated along the lateral building edges across the storeys."
+        }
       },
       {
         "statement": "The classrooms have good proportions and efficient divisibility.",
         "tags": [
           "proportion",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4416,
+            0.5311,
+            0.6154
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper-floor classroom zones are estimated within the repetitive perimeter volume."
+        }
       },
       {
         "statement": "The facades are well proportioned.",
         "tags": [
           "facade",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0587,
+            0.5343,
+            0.5385
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Repetitive envelope edges are clearly sampled on all elevations."
+        }
       },
       {
         "statement": "The project achieves attractive build values through compact and resource-saving design.",
         "tags": [
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact resource-saving design",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.332,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource efficiency is a whole-design judgment without a specific spatial referent."
+        }
       }
     ],
     "negative": [
@@ -75,56 +225,207 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "western square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.096,
+            0.3984,
+            0.1538
+          ],
+          "radius": 0.23,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western external area is located beyond the building's left edge at ground level."
+        }
       },
       {
         "statement": "The northeast outdoor areas are likely to be shady and drafty, with unappealing furnishings.",
         "tags": [
           "open space",
           "comfort"
-        ]
+        ],
+        "position": {
+          "target": "northeast outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7998,
+            0.7,
+            0.1538
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Northeast open space is approximated beyond the upper-right building edge."
+        }
       },
       {
         "statement": "The spacious forecourt lacks a clear design signature and an inviting entrance idea.",
         "tags": [
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "spacious forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5713,
+            0.1393,
+            0.0385
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Front forecourt is placed along the broad south-facing open edge."
+        }
       },
       {
         "statement": "The floor plan is very introverted, with access to the outside only through the stairwells.",
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "introverted floor plan",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5007,
+            0.4593,
+            0.6154
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The judgment concerns the building-wide inward organization, approximated at its central mass."
+        }
       },
       {
         "statement": "The sports halls lack daylight and their equipment-room arrangement is uneconomical.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports halls",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7377,
+            0.1862,
+            0.1154
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Large ground-level zones are approximated beneath the eastern and southern volume."
+        }
       },
       {
         "statement": "The ventilation system and fixed sun-control elements are not functionally convincing.",
         "tags": [
           "ventilation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ventilation system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5743,
+            0.5571,
+            0.6154
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "west"
+          ],
+          "rationale": "Building services are not distinguishable; placement is constrained within the upper envelope."
+        }
       },
       {
         "statement": "The facades still show little identity.",
         "tags": [
           "identity",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.951,
+            0.4566,
+            0.6154
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The sampled perimeter facades are visible on all elevations."
+        }
       },
       {
         "statement": "The necessary sun protection is completely missing.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sun protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4942,
+            0.1004,
+            0.7308
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Missing protection is assigned to the exposed upper south-facing envelope."
+        }
       }
     ],
     "keyword": [

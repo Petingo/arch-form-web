@@ -16,6 +16,8 @@
    widths and the name heading from model-info.css; only its anchoring differs,
    since here it overlays the project viewer rather than the whole viewport. */
 #pane-project .model-info-wrapper { position: static; margin: 0; }
+/* the panel carries its own card chrome now */
+.viewer-heading { top: 20px; left: 20px; max-width: none; }
 
 @media (max-width: 900px) {
   #pane-project { height: auto; }
@@ -34,7 +36,7 @@ button, select { font: inherit; }
   min-height: 88px;
   padding: 0 28px;
   border-bottom: 1px solid var(--line);
-  background: rgba(251, 250, 246, .94);
+  background: rgba(255, 255, 255, .94);
   z-index: 20;
 }
 
@@ -74,7 +76,7 @@ button, select { font: inherit; }
 
 /* Mirrors the Model Latent detail panel: the same fields in the same order. */
 .model-detail { margin: 14px 0 0; max-width: 390px; }
-.model-rank { display: inline-block; margin-left: 9px; padding: 4px 6px; border: 1px solid rgba(20,23,20,.18); color: var(--ink); background: rgba(251,250,246,.72); font: 500 9px "DM Mono", monospace; letter-spacing: .08em; vertical-align: 1px; }
+.model-rank { display: inline-block; margin-left: 9px; padding: 4px 6px; border: 1px solid rgba(20,23,20,.18); color: var(--ink); background: rgba(255, 255, 255,.72); font: 500 9px "DM Mono", monospace; letter-spacing: .08em; vertical-align: 1px; }
 .model-rank.winner { border-color: #d0a91e; background: #fff4ba; }
 
 .nonspatial-summary { display: flex; align-items: center; gap: 9px; margin-top: 14px; pointer-events: auto; }
@@ -97,7 +99,7 @@ button, select { font: inherit; }
   padding: 4px;
   gap: 3px;
   border: 1px solid rgba(50, 52, 47, .12);
-  background: rgba(251, 250, 246, .83);
+  background: rgba(255, 255, 255, .83);
   backdrop-filter: blur(12px);
 }
 .legend-item {
@@ -120,7 +122,7 @@ button, select { font: inherit; }
 
 .view-tools { position: absolute; z-index: 6; right: 28px; bottom: 27px; display: flex; gap: 6px; }
 .view-tools button {
-  width: 38px; height: 38px; border: 1px solid rgba(50,52,47,.15); background: rgba(251,250,246,.86);
+  width: 38px; height: 38px; border: 1px solid rgba(50,52,47,.15); background: rgba(255, 255, 255,.86);
   color: var(--ink); cursor: pointer; font-size: 18px;
 }
 .view-tools button.active { color: var(--positive); border-color: var(--positive); }
@@ -159,10 +161,10 @@ button, select { font: inherit; }
 .confidence { margin-left: auto; padding: 3px 5px; border: 1px solid var(--line); }
 .annotation-card p { margin: 0; color: #42463f; font-size: 12px; line-height: 1.5; }
 
-.method-note { padding: 15px 24px 19px; border-top: 1px solid var(--line); background: #f4f2ec; }
+.method-note { padding: 15px 24px 19px; border-top: 1px solid var(--line); background: #ffffff; }
 .method-note p { margin: 7px 0 0; color: var(--muted); font-size: 10px; line-height: 1.45; }
 
-.tooltip { position: absolute; z-index: 12; width: min(280px, calc(100% - 28px)); padding: 12px 13px; border: 1px solid rgba(20,23,20,.15); background: rgba(251,250,246,.96); box-shadow: 0 12px 32px rgba(20,23,20,.12); pointer-events: none; }
+.tooltip { position: absolute; z-index: 12; width: min(280px, calc(100% - 28px)); padding: 12px 13px; border: 1px solid rgba(20,23,20,.15); background: rgba(255, 255, 255,.96); box-shadow: 0 12px 32px rgba(20,23,20,.12); pointer-events: none; }
 .tooltip strong { display: block; margin-bottom: 5px; font-size: 11px; }
 .tooltip p { margin: 0; color: var(--muted); font-size: 10px; line-height: 1.45; }
 

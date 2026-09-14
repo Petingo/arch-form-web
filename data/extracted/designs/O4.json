@@ -17,27 +17,107 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "learning landscapes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2268,
+            0.6849,
+            0.5
+          ],
+          "radius": 0.324,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact multi-level volume supports varied learning scenarios across the building."
+        }
       },
       {
         "statement": "The internal cores and central staircase zone the floor plan naturally.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "internal cores and central staircase",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2427,
+            0.7089,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Centralized internal organization is approximated within the compact sampled volume."
+        }
       },
       {
         "statement": "The classrooms can be illuminated on two sides across the corner.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "corner classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2146,
+            0.2425,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Corner locations are identifiable in plan and bounded by the sampled elevations."
+        }
       },
       {
         "statement": "The arrangement of day school, teacher areas, and classrooms appears very practical.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day school, teacher areas, and classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2395,
+            0.2271,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Programmatic arrangement is assigned to a plausible interior portion of the compact floor plate."
+        }
       },
       {
         "statement": "External escape routes free the internal circulation area for lessons.",
@@ -45,28 +125,106 @@
           "fire safety",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "external escape routes",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9039,
+            0.5051,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Offset side projections in the top view provide approximate anchors for external escape routes."
+        }
       },
       {
         "statement": "The flexible spatial concept allows classrooms to be interconnected and adapted to new teaching models.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "flexible classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7606,
+            0.2886,
+            0.55
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Adaptable classroom zones are approximated along the sampled perimeter where rooms are represented."
+        }
       },
       {
         "statement": "The arrangement gives carers a good overview of the outside space.",
         "tags": [
           "visibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "outside-space overview",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2241,
+            0.2039,
+            0.65
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A perimeter corner is used as a plausible vantage point toward the outside space."
+        }
       },
       {
         "statement": "The efforts to integrate the solitary building into the existing pavilion school are generally appreciated.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "solitary building integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8397,
+            0.7189,
+            0.5
+          ],
+          "radius": 0.324,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact solitary volume is anchored broadly within its sampled building envelope."
+        }
       },
       {
         "statement": "The compact organization offers good energy and economic parameters.",
@@ -74,7 +232,18 @@
           "sustainability",
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "energy and economic parameters",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.324,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Performance judgment concerns the compact organization globally, without a useful geometric location."
+        }
       }
     ],
     "negative": [
@@ -84,28 +253,90 @@
           "scale",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "external connection and neighboring buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9198,
+            0.5292,
+            0.35
+          ],
+          "radius": 0.324,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The building perimeter is anchored toward an external edge where connection obstruction and proximity apply."
+        }
       },
       {
         "statement": "The proposed parking spaces are too close to the entrance and encroach on the children's area.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "parking spaces near entrance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6969,
+            0.1924,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A low adjacent perimeter area approximates parking beside the entrance and children’s zone."
+        }
       },
       {
         "statement": "The architectural image and constructive facts are irritatingly contradictory in places.",
         "tags": [
           "expression",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "architectural image and constructive facts",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The contradiction is conceptual and has no useful spatial referent."
+        }
       },
       {
         "statement": "The insulation thicknesses shown do not correspond to the described values.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "insulation thicknesses",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Insulation values are a specification issue without a localizable sampled feature."
+        }
       },
       {
         "statement": "The ventilation concept is difficult to understand, inefficient, and limits night-time cooling in summer.",
@@ -113,14 +344,44 @@
           "ventilation",
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "ventilation concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ventilation performance and night cooling are system-level judgments without visible equipment."
+        }
       },
       {
         "statement": "Summer comfort is reduced in the sun-exposed corner rooms.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "sun-exposed corner rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7446,
+            0.2646,
+            0.7
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A high corner zone approximates sun-exposed rooms using the visible perimeter and upper levels."
+        }
       }
     ],
     "keyword": [

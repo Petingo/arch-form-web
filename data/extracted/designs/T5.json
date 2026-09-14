@@ -19,14 +19,53 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "high structure and flowing outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1408,
+            0.1919,
+            0.5
+          ],
+          "radius": 0.3021,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact footprint and substantial height are evident, with open-space implications around the sampled building mass."
+        }
       },
       {
         "statement": "The structural order gives the design its quality.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "structural order",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.896,
+            0.5085,
+            0.5526
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular repeated point rows and horizontal plates visibly establish the building-wide structural order."
+        }
       },
       {
         "statement": "The two central staircases create well-proportioned access halls as anterooms to the classrooms.",
@@ -34,7 +73,25 @@
           "circulation",
           "proportion",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central staircases and access halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5484,
+            0.0419,
+            0.4474
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior staircases are not distinguishable; the central access-hall location is approximated at the south-facing surface."
+        }
       },
       {
         "statement": "The slope of the terrain is cleverly used to illuminate the gymnasium and create ground-floor zoning.",
@@ -42,28 +99,102 @@
           "topography",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "gymnasium and ground-floor zoning",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1408,
+            0.1919,
+            0.1316
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Split-level lower geometry supports a constrained ground-floor anchor, though the gymnasium itself is interior."
+        }
       },
       {
         "statement": "The division of the canteens according to age groups makes sense.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "canteens divided by age group",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9319,
+            0.2018,
+            0.3421
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Separate canteens are unrepresented internally; a lower-level zone is estimated on the south-east building surface."
+        }
       },
       {
         "statement": "The concrete support plate structure allows great flexibility.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "concrete support plate structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5484,
+            0.0419,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated horizontal support plates are clearly visible across the elevations and anchor the structural system."
+        }
       },
       {
         "statement": "The architectural expression with structurally modern themes is convincing in the context of the surrounding buildings.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "modern architectural expression in context",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.069,
+            0.8052,
+            0.6316
+          ],
+          "radius": 0.3021,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The tall solitary volume and symmetric roof support an expression anchor; surrounding buildings are not sampled."
+        }
       }
     ],
     "negative": [
@@ -72,7 +203,26 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "large asphalted break area and all-weather area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9319,
+            0.2018,
+            0.0263
+          ],
+          "radius": 0.3021,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Hard-surface areas are absent from the point cloud; the adjacent south-east ground edge provides a constrained estimate."
+        }
       },
       {
         "statement": "The poorly designed surroundings and large hard-surface areas do not use the urban-development potential sufficiently.",
@@ -80,56 +230,204 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "poor surroundings and large hard-surface areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.069,
+            0.8052,
+            0.0263
+          ],
+          "radius": 0.3021,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "External surroundings are not modeled, so the north-west perimeter is used as a distributed site approximation."
+        }
       },
       {
         "statement": "The shade roof limits the quality of stay.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "shade roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1109,
+            0.4474,
+            0.9474
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Symmetrical roof geometry is clearly visible at the upper boundary and across the elevation views."
+        }
       },
       {
         "statement": "The excavation required to illuminate the gymnasium may seem forced.",
         "tags": [
           "topography",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "excavation for gymnasium illumination",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1408,
+            0.1919,
+            0.0789
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower split-level geometry suggests excavation at the ground interface, while the gymnasium remains interior."
+        }
       },
       {
         "statement": "The kitchen cannot be optimally arranged for both canteens, and meal distribution is constrained.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "kitchen serving both canteens",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9319,
+            0.2018,
+            0.2895
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Kitchen operations are not visible; a lower south-east service zone is used as a constrained anchor."
+        }
       },
       {
         "statement": "Views over the district and vertical spatial relationships between floors would make the climb easier.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "views over district and vertical floor relationships",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8602,
+            0.8151,
+            0.6316
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Vertical stacking is visible, but district views are absent; the upper north-east edge approximates the circulation concern."
+        }
       },
       {
         "statement": "Individual group rooms and offices are too narrow.",
         "tags": [
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "individual group rooms and offices",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8602,
+            0.8151,
+            0.5789
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "north",
+            "east"
+          ],
+          "rationale": "Interior rooms are not distinguishable; a distributed upper-level north-east surface location is estimated."
+        }
       },
       {
         "statement": "The basement workshops have only indirect lighting and are unlikely to be eligible for approval.",
         "tags": [
           "daylight",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "basement workshops",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1408,
+            0.1919,
+            0.0526
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Basement workshops are interior and unrepresented; the lower south-west surface provides a constrained placement."
+        }
       },
       {
         "statement": "Access to the basement floors, workshops and cloakrooms is too small and not sufficiently generous.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "basement access, workshops and cloakrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5484,
+            0.0419,
+            0.1316
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Internal access spaces are not identifiable; the lower central south edge approximates the basement circulation zone."
+        }
       },
       {
         "statement": "The height, solitary urban setting and architectural expression were questioned for the expanded school complex.",
@@ -137,7 +435,28 @@
           "scale",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "height, solitary urban setting and architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.896,
+            0.5085,
+            0.7105
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Height, compact solitary massing, and roof expression are visible, though the expanded urban complex is absent."
+        }
       }
     ],
     "keyword": [

@@ -18,7 +18,26 @@
           "landscape",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "flowing landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.212,
+            0.3018,
+            0.0588
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open landscape is approximated along the lower-western site edge surrounding the compact volume."
+        }
       },
       {
         "statement": "The new building forms a striking and appropriate structural symbol at the edge of the site.",
@@ -26,7 +45,27 @@
           "identity",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "structural symbol at site edge",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8244,
+            0.686,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact square building is clearly identifiable at the northeastern edge of the sampled site."
+        }
       },
       {
         "statement": "The outdoor spaces are comprehensibly programmed and harmoniously designed, apart from the entrance square.",
@@ -34,7 +73,24 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "programmed outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2546,
+            0.2562,
+            0.0588
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor space is assigned to the open southwestern area, excluding the likely entrance approach."
+        }
       },
       {
         "statement": "The typology provides a flexible modular framework with varied spatial references and cluster-forming possibilities.",
@@ -42,14 +98,52 @@
           "flexibility",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "modular framework",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6463,
+            0.6487,
+            0.5294
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The layered, centrally organized volume provides the most plausible anchor for modular spatial organization."
+        }
       },
       {
         "statement": "The restrained interventions in the existing property are appropriate and respectful.",
         "tags": [
           "urban integration",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "existing property interventions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.201,
+            0.7072,
+            0.4412
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Existing-property work is approximated toward the northwestern surrounding edge beyond the compact building."
+        }
       },
       {
         "statement": "The compact, prefabricated design offers the prerequisites for good economic indicators.",
@@ -57,7 +151,18 @@
           "cost",
           "flexibility",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "prefabricated design economy",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The comment concerns economic performance rather than a locatable geometric feature."
+        }
       }
     ],
     "negative": [
@@ -66,7 +171,24 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "new path connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2568,
+            0.2539,
+            0.0294
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The access connection is approximated at the tight southwestern approach to the building."
+        }
       },
       {
         "statement": "The entrance square is unconvincing in terms of traffic and integration into the neighbourhood.",
@@ -74,14 +196,49 @@
           "circulation",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrance square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7469,
+            0.2453,
+            0.0294
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance square is assigned to the southeastern frontage and its external approach."
+        }
       },
       {
         "statement": "The widened tree area unnecessarily weakens the flowing landscape space.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "widened tree area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2435,
+            0.7364,
+            0.0303
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The tree-area criticism is placed in the open northwestern landscape zone."
+        }
       },
       {
         "statement": "The high proportion of glazing creates a challenge for meeting energy requirements.",
@@ -89,7 +246,26 @@
           "facade",
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "glazed facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9948,
+            0.5038,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Extensive glazing is assigned to the exposed eastern facade visible across the elevation samples."
+        }
       },
       {
         "statement": "The meeting between the building structure and the hill topography is barely articulated.",
@@ -97,7 +273,25 @@
           "topography",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "building–hill meeting",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.234,
+            0.2682,
+            0.2059
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The topographic junction is approximated where the southwestern building edge meets the sloping site."
+        }
       },
       {
         "statement": "The wooden construction appears somewhat too strong.",
@@ -105,7 +299,26 @@
           "structure",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "wooden construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7315,
+            0.5576,
+            0.5294
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The structural-expression comment is anchored on the visible upper-middle building mass."
+        }
       }
     ],
     "keyword": [

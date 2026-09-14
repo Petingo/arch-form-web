@@ -18,7 +18,28 @@
           "identity",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "site identity and landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2031,
+            0.6032,
+            0.2
+          ],
+          "radius": 0.341,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad site judgment anchored to the extended building, courtyard, and surrounding sampled landscape edges."
+        }
       },
       {
         "statement": "The compact intervention as an extension and raising of the main volume finds full meaning in the landscape context.",
@@ -26,14 +47,54 @@
           "massing",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "compact raised extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7969,
+            0.5038,
+            0.75
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The dominant eastern volume visibly extends and rises above the lower western mass."
+        }
       },
       {
         "statement": "The covered reception space establishes a strong relationship between the main building and the gym.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "covered reception space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6021,
+            0.4566,
+            0.35
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central covered courtyard zone is positioned between the raised main volume and lower gym-like wing."
+        }
       },
       {
         "statement": "The enlarged theater, new square and exterior extensions provide high-quality gathering and terrace spaces.",
@@ -41,7 +102,25 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "new square and exterior extensions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4406,
+            0.2951,
+            0.15
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open gathering areas are approximated along the lower western extension and courtyard edge."
+        }
       },
       {
         "statement": "The distribution of functions is relevant, with the dining space correctly connected to the landscape, gym and aula.",
@@ -49,7 +128,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "dining space and connected functions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4406,
+            0.2951,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior program is anchored near the lower central connection between landscape-facing and gym-like volumes."
+        }
       },
       {
         "statement": "The exceptional top floor combines a strong relationship with the sky and city with study rooms, a library and generous outdoor space.",
@@ -57,7 +155,28 @@
           "daylight",
           "identity",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "exceptional top floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7856,
+            0.605,
+            0.95
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct upper level and roof footprint are clearly visible on the raised eastern block."
+        }
       },
       {
         "statement": "The proposals promote the heritage witness and create a convincing dialogue with vegetation and nature.",
@@ -65,14 +184,52 @@
           "landscape",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "heritage and vegetation dialogue",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2248,
+            0.6084,
+            0.15
+          ],
+          "radius": 0.334,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Landscape relationship is distributed along the sampled perimeter surrounding the intervention."
+        }
       },
       {
         "statement": "The gym is very little affected by the intervention.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "gym",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.032,
+            0.2349,
+            0.2
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Gym is approximated within the lower western wing, largely separate from the raised volume."
+        }
       }
     ],
     "negative": [
@@ -81,21 +238,79 @@
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "foundations beneath raised building",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7838,
+            0.5004,
+            0.05
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Foundation concern is anchored directly beneath the visibly raised eastern building mass."
+        }
       },
       {
         "statement": "The formalization of the new staircase, particularly its relationship to the elevators and light void, is unconvincing.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "new staircase and elevator relationship",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6887,
+            0.4776,
+            0.45
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Circulation core is approximated within the central portion of the raised volume."
+        }
       },
       {
         "statement": "The two open stairwells do not function as escape routes.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "two open stairwells",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7536,
+            0.4933,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Stairwell locations are constrained to the tall central circulation region of the raised block."
+        }
       },
       {
         "statement": "Independent use of the dining space in connection with the gym outside school hours is difficult.",
@@ -103,7 +318,26 @@
           "operation",
           "flexibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "independent dining use",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4372,
+            0.3284,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Dining operations are anchored near the lower connection between the gym and exterior-facing spaces."
+        }
       }
     ],
     "keyword": [

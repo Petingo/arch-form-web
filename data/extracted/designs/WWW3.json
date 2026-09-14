@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "large volume and cultural buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4933,
+            0.4902,
+            0.6867
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three large assembled bodies create a clearly articulated overall volume."
+        }
       },
       {
         "statement": "Existing topography and part of the tree heritage are conserved and adapted.",
@@ -26,7 +47,26 @@
           "topography",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "existing topography and tree heritage",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1419,
+            0.8396,
+            0.0625
+          ],
+          "radius": 0.3198,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Existing landscape is approximated around the building perimeter and northern park edge."
+        }
       },
       {
         "statement": "The three-courtyard organization provides two level access routes and connects the park's subspaces.",
@@ -34,7 +74,24 @@
           "layout",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "three-courtyard organization",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4776,
+            0.4807,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Three courtyard-like openings are visibly distributed through the articulated plan."
+        }
       },
       {
         "statement": "The three assembled bodies manage the large scale while providing covered transitions between exterior and interior.",
@@ -42,7 +99,28 @@
           "massing",
           "scale",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "three assembled bodies",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4946,
+            0.4659,
+            0.6867
+          ],
+          "radius": 0.3198,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three distinct masses and their covered transitions are legible across all views."
+        }
       },
       {
         "statement": "Public functions are clearly legible and can operate independently outside school hours.",
@@ -50,14 +128,52 @@
           "operation",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "public functions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.68,
+            0.3642,
+            0.1875
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Public functions are approximated toward the southeastern accessible edge."
+        }
       },
       {
         "statement": "Vertical flows are well distributed.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "vertical flows",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4975,
+            0.4866,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Vertical circulation is anchored near the central articulated connections."
+        }
       },
       {
         "statement": "The sloping facade and patios provide simple circulation, varied daylight, and exterior views.",
@@ -65,7 +181,26 @@
           "circulation",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "sloping facade and patios",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5749,
+            0.3964,
+            0.5625
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stepped perimeter edges and patio recesses are visible in the footprint and elevations."
+        }
       },
       {
         "statement": "The articulated plan generates a strong classroom-floor typology with natural light and exterior views.",
@@ -73,7 +208,28 @@
           "layout",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom-floor typology",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.382,
+            0.6972,
+            0.5625
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Classroom floors are approximated within the repeated articulated building bands."
+        }
       },
       {
         "statement": "Horizontal circulation has almost urban spatial qualities and useful exterior clearances.",
@@ -81,7 +237,26 @@
           "circulation",
           "identity",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "horizontal circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5261,
+            0.4618,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Horizontal circulation is assigned to central connectors around the courtyards."
+        }
       },
       {
         "statement": "The landscape approach sensitively manages existing trees and runoff while diversifying planting.",
@@ -89,7 +264,26 @@
           "landscape",
           "sustainability",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "landscape approach",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1731,
+            0.7425,
+            0.0625
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Trees, runoff, and planting are approximated around the wooded perimeter."
+        }
       }
     ],
     "negative": [
@@ -99,7 +293,26 @@
           "layout",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "classrooms in the internal corners",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4891,
+            0.4708,
+            0.5625
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal corner rooms are approximated beside courtyard recesses."
+        }
       },
       {
         "statement": "School access has too few stairs and undersized entrance halls for the number of users.",
@@ -107,7 +320,25 @@
           "circulation",
           "accessibility",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "school access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5582,
+            0.1256,
+            0.1875
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Primary access is approximated at the southern central approach."
+        }
       },
       {
         "statement": "Some classroom corridors are too narrow.",
@@ -115,7 +346,26 @@
           "circulation",
           "proportion",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4161,
+            0.6963,
+            0.5625
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Corridors are anchored within the repeated classroom bands."
+        }
       },
       {
         "statement": "The patios have an unfavorable width-to-height ratio.",
@@ -123,7 +373,26 @@
           "proportion",
           "daylight",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4776,
+            0.4807,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Patio voids are directly visible as recesses within the articulated footprint."
+        }
       },
       {
         "statement": "The documentation center should be directly accessible from the media-library area.",
@@ -131,14 +400,52 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "documentation center",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6617,
+            0.3502,
+            0.375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Documentation center is approximated near the southeastern public-program zone."
+        }
       },
       {
         "statement": "An exterior terrace is needed for the refectory.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "refectory terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6495,
+            0.3409,
+            0.0625
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Terrace is approximated on the southeastern ground-level exterior."
+        }
       },
       {
         "statement": "Club equipment rooms and student changing rooms are poorly related to the sports hall.",
@@ -146,7 +453,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "club equipment rooms and student changing rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8543,
+            0.1429,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sports support spaces are approximated toward the southeastern edge."
+        }
       },
       {
         "statement": "The northern parking arrangement makes sharing with the municipal program difficult.",
@@ -154,28 +480,94 @@
           "urban integration",
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "northern parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4678,
+            0.8662,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern site edge is constrained by the top view and north elevation."
+        }
       },
       {
         "statement": "Teaching rooms facing the avenue are highly exposed to road noise.",
         "tags": [
           "acoustics",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "teaching rooms facing the avenue",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.559,
+            0.1249,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Avenue-facing rooms are approximated along the southern facade."
+        }
       },
       {
         "statement": "Some sustainability aspects require consolidation, despite good ventilation and sun protection.",
         "tags": [
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "sustainability aspects",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability consolidation is a building-wide performance judgment without one spatial anchor."
+        }
       },
       {
         "statement": "Exterior surfaces are relatively impermeable.",
         "tags": [
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "exterior surfaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1731,
+            0.7425,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Exterior ground surfaces are approximated around the building and park perimeter."
+        }
       }
     ],
     "keyword": [

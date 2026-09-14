@@ -18,7 +18,28 @@
           "massing",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "folded block edge",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2131,
+            0.5068,
+            0.5417
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views clearly show the indented perimeter reducing the apparent scale of the five-story mass."
+        }
       },
       {
         "statement": "The differentiated squares locate the building precisely in its heterogeneous context and create harmonious outdoor spaces.",
@@ -26,7 +47,26 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "differentiated squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2246,
+            0.2214,
+            0.0417
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view indicates varied perimeter setbacks and outdoor pockets around the compact block."
+        }
       },
       {
         "statement": "The ground floor creates an innovative and robust sequence of public interior spaces with varied visual references.",
@@ -34,7 +74,26 @@
           "layout",
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor public interior spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6135,
+            0.2753,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level massing and perimeter openings provide an approximate anchor for the public ground-floor sequence."
+        }
       },
       {
         "statement": "The access and lounge areas ensure easy orientation and many meeting opportunities.",
@@ -42,7 +101,25 @@
           "circulation",
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "access and lounge areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7113,
+            0.1907,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A plausible lower-front perimeter location represents access and lounge zones, though interiors are not identifiable."
+        }
       },
       {
         "statement": "The project combines contextual openness with a strong architectural statement in one coherent building.",
@@ -50,7 +127,28 @@
           "urban integration",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "coherent building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4096,
+            0.5973,
+            0.5417
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete sampled mass shows a unified folded perimeter block with integrated courtyard towers."
+        }
       },
       {
         "statement": "The spatial organization and room depths support flexible use.",
@@ -58,7 +156,26 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "spatial organization and room depths",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7217,
+            0.6362,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top and elevation views constrain approximate depth across the building, but individual rooms are not resolved."
+        }
       }
     ],
     "negative": [
@@ -67,7 +184,26 @@
         "tags": [
           "open space",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2246,
+            0.2214,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Peripheral outdoor pockets are visible in the top view, while their material mood remains unrepresented."
+        }
       },
       {
         "statement": "The central buildings appear anecdotal and compete with the geometry of the indented block.",
@@ -75,7 +211,26 @@
           "massing",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "central buildings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.401,
+            0.5761,
+            0.625
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central vertical elements are visible around the courtyard and can be localized above the surrounding block."
+        }
       },
       {
         "statement": "The spatial concept and lighting would benefit from a quieter sequence of the central buildings.",
@@ -83,21 +238,78 @@
           "layout",
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "central-building sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.401,
+            0.5761,
+            0.5833
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The courtyard center constrains the sequence location, but lighting and interior progression are not directly visible."
+        }
       },
       {
         "statement": "The overall depth of the basement floors is problematic in relation to ground conditions.",
         "tags": [
           "structure",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "basement floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4257,
+            0.3265,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lowest sampled perimeter surface approximates basement depth, without subsurface geometry or ground-condition evidence."
+        }
       },
       {
         "statement": "The structural concepts and the integration of building services remain questionable.",
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "structural concepts and building services",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7217,
+            0.7008,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "A distributed envelope anchor represents structural and service integration, which cannot be distinguished in the point cloud."
+        }
       },
       {
         "statement": "The facade elements appear more like a formal gimmick than a comprehensible urban or programmatic expression.",
@@ -105,14 +317,53 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "facade elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0671,
+            0.518,
+            0.5833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "west"
+          ],
+          "rationale": "The west perimeter facade is clearly sampled, but individual facade motifs are not distinguishable."
+        }
       },
       {
         "statement": "The extensive glazing raises concerns about energy use and the targeted building standard.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "extensive glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7963,
+            0.0136,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The south-east envelope offers a plausible facade anchor for glazing concerns without visible material or energy data."
+        }
       },
       {
         "statement": "Some delivery openings are considered too small.",
@@ -120,7 +371,26 @@
           "functionality",
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "delivery openings",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9417,
+            0.276,
+            0.0833
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "A lower east-side perimeter point approximates delivery access, though opening dimensions are unresolved."
+        }
       }
     ],
     "keyword": [

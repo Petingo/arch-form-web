@@ -18,7 +18,28 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "minimal building footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4835,
+            0.4056,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Compact offset footprint is clearly visible across the top plan and elevations."
+        }
       },
       {
         "statement": "The subtly structured volumes create a well-proportioned lightness and a finely graduated fit into the terrain.",
@@ -26,7 +47,28 @@
           "massing",
           "proportion",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "subtly structured volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6349,
+            0.6147,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Offset layered masses and graduated heights are visible throughout the sampled envelope."
+        }
       },
       {
         "statement": "The pavilion-like appearance and reserved architecture establish a strong dialogue between building and landscape.",
@@ -34,42 +76,156 @@
           "expression",
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "pavilion-like appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5906,
+            0.5455,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Low pavilion-like composition is identifiable in plan and all elevations."
+        }
       },
       {
         "statement": "The building is well accessible from all directions through external and internal paths, while the covered entrance creates an eventful relationship with nature and the uses.",
         "tags": [
           "circulation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "covered entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.3543,
+            0.1875
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance is not distinct, but the south-west perimeter offers a constrained external access anchor."
+        }
       },
       {
         "statement": "The spatial organization provides an attractively designed entrance hall with good overview and orientation.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4302,
+            0.4056,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior hall is inferred near the accessible lower-central portion of the compact plan."
+        }
       },
       {
         "statement": "The combination of a solid base and timber upper floor is sensible from a design perspective.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "solid base and timber upper floor",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5978,
+            0.5186,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Horizontal layering is visible in elevations, though materials are not distinguishable."
+        }
       },
       {
         "statement": "The low degree of sealing, green roof, and proposed habitats support ecological sustainability.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "green roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5906,
+            0.8031,
+            0.9375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Roof-level surface is localized over the rear offset volume; vegetation is not identifiable."
+        }
       },
       {
         "statement": "The location and structure of the new building provide optimal noise insulation for the open ice rink.",
         "tags": [
           "acoustics",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "open ice rink",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9283,
+            0.2236,
+            0.3125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Adjacent open-rink context is approximated along the broad east-side edge."
+        }
       },
       {
         "statement": "The project has the lowest construction costs, excellent compactness, and strong resource efficiency.",
@@ -77,7 +233,18 @@
           "cost",
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost, compactness, and resource efficiency apply globally without one useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -87,21 +254,74 @@
           "topography",
           "circulation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "paths and area accesses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2978,
+            0.0658,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "External circulation is approximated around the south-west and lower perimeter."
+        }
       },
       {
         "statement": "Opening the edge vegetation conflicts with the character of the existing park, and the protected trees and hedges must not be loosened.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "edge vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.7961,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Park-edge vegetation is inferred along the western and northern perimeter."
+        }
       },
       {
         "statement": "The additional tower-like cloakroom element is unnecessary and should be reconsidered.",
         "tags": [
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "tower-like cloakroom element",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5906,
+            0.6927,
+            0.6875
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Potential added vertical element is approximated on the taller central offset volume."
+        }
       },
       {
         "statement": "The proposed cloakroom arrangement is neither operationally nor landscape-satisfactory and appears inaccessible and unattractive for bathers.",
@@ -109,35 +329,124 @@
           "functionality",
           "operation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "cloakroom arrangement",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5902,
+            0.4056,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Cloakroom interior is not visible; a constrained location is placed within the lower central mass."
+        }
       },
       {
         "statement": "The parking arrangement requires further checking.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.7137,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is approximated at the open east-north site edge."
+        }
       },
       {
         "statement": "The support concept is complex, with large spans and demanding cantilevers.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large spans and demanding cantilevers",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5906,
+            0.5455,
+            0.5625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Structural concern is assigned to the projecting and offset central upper volumes."
+        }
       },
       {
         "statement": "The unprotected ventilated timber facade is expected to generate maintenance costs.",
         "tags": [
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "ventilated timber facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5639,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "east"
+          ],
+          "rationale": "East-facing envelope is visible, while timber protection details are not distinguishable."
+        }
       },
       {
         "statement": "The proposed outdoor pool accesses, parking situation, and photovoltaic provision require further review or clarification.",
         "tags": [
           "circulation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "outdoor pool accesses, parking situation, and photovoltaic provision",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8216,
+            0.2236,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Compound external provisions are approximated along the open east and south site edges."
+        }
       }
     ],
     "keyword": [

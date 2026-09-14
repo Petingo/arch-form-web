@@ -18,7 +18,26 @@
           "landscape",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "recreational and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4907,
+            0.9896,
+            0.0556
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "River-side and forecourt landscape are approximated around the elongated building footprint."
+        }
       },
       {
         "statement": "The generous distance from the river mitigates the relationship between building length and height.",
@@ -26,35 +45,131 @@
           "massing",
           "scale",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "distance from the river",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4907,
+            0.9896,
+            0.2222
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The building’s river setback is represented along the north-side open edge."
+        }
       },
       {
         "statement": "The school takes a self-confident position in relation to its surroundings.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "school position in its surroundings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1496,
+            0.5027,
+            0.5556
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The consolidated block’s outer west edge represents its confident contextual stance."
+        }
       },
       {
         "statement": "The two consistently connected vertical axes are arranged in an operationally advantageous manner.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "two vertical axes",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1957,
+            0.6727,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central and lower internal point clusters indicate two vertically organized access cores."
+        }
       },
       {
         "statement": "The urban integration of the striking school is a notable contribution in harmony with the external spatial qualities.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "striking school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8554,
+            0.5039,
+            0.5556
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The long, narrow elevated block is anchored on its prominent east-facing envelope."
+        }
       },
       {
         "statement": "The consolidation into one building is impressive despite its considerable length and height.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "one building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7917,
+            0.2726,
+            0.6111
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous perimeter points across the five-story volume support a single consolidated mass."
+        }
       }
     ],
     "negative": [
@@ -63,14 +178,51 @@
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "horizontal zoning and lack of openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.849,
+            0.4808,
+            0.5556
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "east",
+            "west",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated horizontal elevation bands and sparse openings are clearest on the side façades."
+        }
       },
       {
         "statement": "The even horizontal facade structure is not entirely understandable given the partly over-high ground floor.",
         "tags": [
           "facade",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "even horizontal facade structure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.492,
+            0.0113,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The south elevation shows regular horizontal structure above a disproportionately tall lower level."
+        }
       },
       {
         "statement": "The structural rigor leads internally to a somewhat schematic and less collective school operation.",
@@ -78,7 +230,25 @@
           "structure",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "schematic school operation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7921,
+            0.2738,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal operation is not distinguishable; a constrained mid-building anchor represents the criticism."
+        }
       }
     ],
     "keyword": [

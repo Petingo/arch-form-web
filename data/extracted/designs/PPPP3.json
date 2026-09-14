@@ -17,21 +17,80 @@
           "urban integration",
           "massing",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "two interlocking buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5731,
+            0.5007,
+            0.6426
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two differently oriented interlocking courtyard volumes are clearly visible in plan and elevations."
+        }
       },
       {
         "statement": "The large central staircase creates a beautiful articulation between the two buildings.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "large central staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6005,
+            0.5223,
+            0.4287
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connection zone is evident between volumes, though the staircase itself is not separately resolved."
+        }
       },
       {
         "statement": "The two patios facilitate orientation and bring natural light into the building.",
         "tags": [
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "two patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5982,
+            0.5438,
+            0.4287
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard voids are visibly enclosed by the two interlocking plan geometries."
+        }
       },
       {
         "statement": "The private floors are well organized and allow wandering around in a loop.",
@@ -39,7 +98,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "private floors and loop circulation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6486,
+            0.6303,
+            0.7138
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper circulation is approximated along the perimeter of the taller courtyard volume."
+        }
       },
       {
         "statement": "The relationship with the historic park is of quality and forms a homogeneous landscape and architectural ensemble.",
@@ -47,7 +125,25 @@
           "urban integration",
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "historic park relationship",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5151,
+            0.8748,
+            0.2149
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The park is not modeled; the northern outward-facing edge is used as the directional landscape anchor."
+        }
       },
       {
         "statement": "The arrangement offers diverse openings toward the large landscape and preserves the protected trees.",
@@ -55,7 +151,26 @@
           "landscape",
           "visibility",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "openings toward landscape and protected trees",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1821,
+            0.8521,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Openings and trees are unresolved; the northern landscape-facing facade provides a constrained approximation."
+        }
       }
     ],
     "negative": [
@@ -65,28 +180,101 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three-story building over the parking",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.639,
+            0.6138,
+            0.8534
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The taller interlocking volume is clearly distinguished from the lower companion in the elevations."
+        }
       },
       {
         "statement": "The shared landing between the staircase and elevator leads to serious logistical conflicts.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "shared landing between staircase and elevator",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5934,
+            0.5355,
+            0.5713
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal landing is not visible; the central connector is the most plausible surface anchor."
+        }
       },
       {
         "statement": "The access to the living spaces is too small and eccentrically positioned.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "access to living spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6437,
+            0.622,
+            0.5713
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Living access is approximated along the taller volume’s inner circulation edge."
+        }
       },
       {
         "statement": "The privacy of rooms along the upper access path remains questionable.",
         "tags": [
           "privacy",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "rooms along the upper access path",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6318,
+            0.6014,
+            0.7138
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Rooms are not individually resolved; the upper perimeter adjacent to the access route is used."
+        }
       },
       {
         "statement": "The generous spaces are sometimes excessive, undermining the compactness of the general organization.",
@@ -94,7 +282,26 @@
           "layout",
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "generous spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6011,
+            0.5161,
+            0.5713
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The large interlocking masses and broad internal voids visibly define the project’s spatial generosity."
+        }
       },
       {
         "statement": "The building's large volume produces reduced outdoor spaces lacking in quality.",
@@ -102,7 +309,25 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "reduced outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5451,
+            0.2442,
+            0.1436
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern recessed exterior zone is the clearest sampled outdoor-space location."
+        }
       },
       {
         "statement": "The considerable excavation generates a significant investment and worsens the biodiversity balance.",
@@ -110,14 +335,50 @@
           "topography",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "considerable excavation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5982,
+            0.5438,
+            0.0723
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Excavation is not directly represented; the lower central footprint provides a constrained terrain anchor."
+        }
       },
       {
         "statement": "The car flow from the underground parking conflicts directly with the main entrance.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "car flow from underground parking",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7278,
+            0.1947,
+            0.0723
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking circulation is absent; the southern approach beneath the taller volume is used as an approximation."
+        }
       },
       {
         "statement": "The extensive footprint makes the ensemble massive and oversized compared with the castle and village houses.",
@@ -125,14 +386,51 @@
           "scale",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "extensive footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6341,
+            0.5127,
+            0.4287
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The interlocking volumes occupy a broad, visibly substantial plan footprint."
+        }
       },
       {
         "statement": "The clearance spaces in front of the cafeteria are limited by the road.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "clearance spaces in front of cafeteria",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4959,
+            0.0943,
+            0.1436
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The cafeteria is not identifiable; the southern entrance-side open strip is the nearest plausible location."
+        }
       },
       {
         "statement": "The south entrance needs to be revisited to give the place more character and clarify its purpose.",
@@ -140,14 +438,51 @@
           "identity",
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "south entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4959,
+            0.0943,
+            0.2862
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern recessed entry zone is visible as the principal indentation along the front edge."
+        }
       },
       {
         "statement": "The project is more than 30 percent above the most economical proposal in total cost.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "total cost",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6102,
+            0.5644,
+            0.5713
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Cost itself is unlocated; the broad interlocking building mass provides the associated spatial reference."
+        }
       }
     ],
     "keyword": [

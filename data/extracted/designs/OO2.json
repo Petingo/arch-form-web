@@ -17,7 +17,24 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard enclosure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.313,
+            0.4696,
+            0.0833
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Top view shows a perimeter building arrangement enclosing a central schoolyard-like open region."
+        }
       },
       {
         "statement": "The access axis is connected through the building to the southern green spaces and sports fields.",
@@ -25,7 +42,25 @@
           "circulation",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "access axis to southern green spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5036,
+            0.1887,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern edge and aligned internal void provide the strongest available anchor for the stated access axis."
+        }
       },
       {
         "statement": "The basic levels and day school have direct exits to outdoor areas.",
@@ -33,33 +68,125 @@
           "circulation",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day-school outdoor exits",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1751,
+            0,
+            0.4144
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing lower-level surface is the most plausible location for direct outdoor exits."
+        }
       },
       {
         "statement": "The two-story day school provides the desired division of rooms for different children's activities.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "children's activity rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.313,
+            0.6946,
+            0.4137
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Interior rooms are not distinguishable; the upper central zone is a constrained approximation."
+        }
       },
       {
         "statement": "The upper-floor structure is well thought out.",
         "tags": [
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor structure",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.6253,
+            0.75
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-level elevation bands and the extended footprint constrain this upper-floor location."
+        }
       },
       {
         "statement": "The classrooms are very well lit.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2049,
+            0,
+            0.6667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classrooms are unlabelled, so a south-oriented upper zone anchors the daylight judgment."
+        }
       },
       {
         "statement": "The project impresses with its clear and radical approach to the schoolyard.",
         "tags": [
           "open space",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard approach",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5017,
+            0.5833
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The clear outer frame and radical linear footprint are directly legible across plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -68,49 +195,178 @@
         "tags": [
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "side-path entrance area",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0337,
+            0.7972,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The west-side perimeter edge provides the best constrained anchor for the side-path entrance."
+        }
       },
       {
         "statement": "The outdoor-space design remains somewhat vague, despite its potential for further development.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8155,
+            0.1887,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern exterior space is implied beyond the building edge but not distinctly represented."
+        }
       },
       {
         "statement": "Some classrooms are too far from the common sanitary facilities.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "common sanitary facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.6871,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Sanitary facilities are absent from the exterior sample; this marks a plausible upper interior zone."
+        }
       },
       {
         "statement": "The corridor area on the upper floor appears too spacious.",
         "tags": [
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor corridor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5017,
+            0.75
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The upper central longitudinal zone approximates the criticized corridor area."
+        }
       },
       {
         "statement": "The full-glass facade fails to meet the primary energy and ecological requirements.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "full-glass facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4995,
+            0,
+            0.5833
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "South and north elevations visibly show the repeated transparent facade surface."
+        }
       },
       {
         "statement": "The internal design lacks the same clarity and consistency as the external approach.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "internal design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.313,
+            0.571,
+            0.4137
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior clarity is not directly sampled; the central building zone provides a constrained anchor."
+        }
       },
       {
         "statement": "The generally oversized rooms make the volume appear unfavorably inflated.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "oversized rooms",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5017,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated perimeter volume and broad repeated bays support a distributed massing annotation."
+        }
       }
     ],
     "keyword": [

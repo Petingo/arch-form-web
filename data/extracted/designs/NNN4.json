@@ -17,35 +17,130 @@
         "tags": [
           "topography",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "topographical location and limited excavation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1846,
+            0.1529,
+            0.1335
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower irregular mass provides the clearest embankment and excavation anchor."
+        }
       },
       {
         "statement": "The composition has undeniable qualities despite not offering a strong emblematic form.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "overall composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6169,
+            0.6354,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Two contrasting masses and their connection define the overall composition."
+        }
       },
       {
         "statement": "The central hall welcomes visitors and provides convincing access to the major spaces.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2053,
+            0.1658,
+            0.3778
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The lower-left mass contains the clearest central opening and connector geometry."
+        }
       },
       {
         "statement": "The walkways crossing the central void ensure efficient and convincing circulation.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "walkways crossing the central void",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2053,
+            0.1658,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The narrow central connector is the available anchor for crossing walkways."
+        }
       },
       {
         "statement": "The independent modular facade has a dynamic appearance through its irregular folded rhythm.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "folded modular facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1637,
+            0.1346,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The irregular lower-left perimeter visibly supplies the folded facade rhythm."
+        }
       },
       {
         "statement": "The phased implementation provides functional interest as a gathering place for public events.",
@@ -53,7 +148,25 @@
           "flexibility",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "public event gathering place",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2992,
+            0.1742,
+            0.1335
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The broad lower southern zone is the plausible public-event gathering area."
+        }
       }
     ],
     "negative": [
@@ -63,7 +176,26 @@
           "acoustics",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "open central atrium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2127,
+            0.1641,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central opening is visibly identifiable within the lower-left mass."
+        }
       },
       {
         "statement": "The facade expression is unconvincing relative to the additional life-cycle costs it would generate.",
@@ -71,14 +203,51 @@
           "facade",
           "expression",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "facade expression and life-cycle costs",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1709,
+            0.1394,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The irregular exposed facade anchors both expression and associated cost concerns."
+        }
       },
       {
         "statement": "The proposed re-naturalization appears to circumvent the road-related problem.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "re-naturalization and road-related landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1574,
+            0.1242,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern site edge is the plausible location for road-related landscape intervention."
+        }
       }
     ],
     "keyword": [

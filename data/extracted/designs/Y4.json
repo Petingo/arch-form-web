@@ -17,34 +17,136 @@
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "site and program organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.256,
+            0.2086,
+            0.4412
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Articulated footprint and stepped masses visibly express differentiated organization across the building."
+        }
       },
       {
         "statement": "The jury appreciates the compactness and articulation of the project.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "compactness and articulation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7821,
+            0.9044,
+            0.7647
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three unequal nested volumes and setbacks are clearly visible in plan and elevations."
+        }
       },
       {
         "statement": "The wood-concrete hybrid construction is appreciated.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "wood-concrete hybrid construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7259,
+            0.9044,
+            0.6471
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Layered massing supports a broad structural anchor, but materials are not distinguishable."
+        }
       },
       {
         "statement": "The large spans offer great flexibility in the organization of plans.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "large spans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1734,
+            0.4909,
+            0.3529
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower articulated block provides an approximate plan anchor for the claimed flexible spans."
+        }
       },
       {
         "statement": "The proposal integrates sustainable-development principles well and could achieve the 200-watt society principles.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sustainable-development principles",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7821,
+            0.9044,
+            0.7941
+          ],
+          "radius": 0.312,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Whole articulated envelope anchors the sustainability judgment; performance principles are not directly visible."
+        }
       }
     ],
     "negative": [
@@ -53,70 +155,269 @@
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "meeting, free-work and relaxation spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2093,
+            0.4477,
+            0.3529
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower interior block is a constrained approximation for unidentifiable program spaces."
+        }
       },
       {
         "statement": "Access to the nursery terrace by a single elevator and emergency stairs is not convincing.",
         "tags": [
           "accessibility",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "nursery terrace access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7821,
+            0.9044,
+            0.9412
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper stepped mass provides a constrained terrace-level anchor; access elements are not separable."
+        }
       },
       {
         "statement": "The nursery terrace as its unique outdoor space is controversially discussed.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "nursery terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7821,
+            0.9044,
+            0.9706
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Setback upper volume and roof terrace are visible in the top view and elevations."
+        }
       },
       {
         "statement": "The constrained situation limits the potential for expansion of the HES and the hospital's central functions.",
         "tags": [
           "flexibility",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "expansion potential",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.256,
+            0.0675,
+            0.2918
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "South-west reserve around compact blocks approximates constrained expansion capacity."
+        }
       },
       {
         "statement": "The removal of approximately 115 parking spaces is not compensated.",
         "tags": [
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "removed parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3,
+            0.1296,
+            0.0294
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "South-west ground-level reserve is an approximate site anchor; parking is not distinct."
+        }
       },
       {
         "statement": "The current logistics output appears modified and requires special attention in further development.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "logistics output",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2763,
+            0.1866,
+            0.2059
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Lower site-facing interface provides a constrained anchor for logistics and circulation changes."
+        }
       },
       {
         "statement": "The transitions between the upper and lower floor typologies are not yet mastered, with significant load-transfer problems in the central part.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "transitions between upper and lower floor typologies",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7259,
+            0.9044,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped upper and lower masses visibly meet through a complex central transfer region."
+        }
       },
       {
         "statement": "The expression remains somewhat subject to the constructive constraints of wood.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "constructive constraints of wood",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7801,
+            0.9044,
+            0.7353
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper facade surface anchors the expression comment, while timber constraints are not material-resolved."
+        }
       },
       {
         "statement": "The complexity of three nested volumes would better highlight its qualities at a larger scale.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "three nested volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7279,
+            0.9044,
+            0.7647
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Nested block hierarchy is clearly visible across the footprint and elevation silhouettes."
+        }
       },
       {
         "statement": "The facade development is relatively important and network and logistics relocations will generate significant transfer costs.",
         "tags": [
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "facade development and logistics relocations",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7801,
+            0.9044,
+            0.5882
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed outer envelope represents facade work; relocation costs have no independent geometric marker."
+        }
       }
     ],
     "keyword": [

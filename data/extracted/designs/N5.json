@@ -16,41 +16,140 @@
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4162,
+            0.587,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact symmetrical multi-bent form is clearly visible across the projections."
+        }
       },
       {
         "statement": "The classrooms receive light from three sides and open onto attractive verandas.",
         "tags": [
           "daylight",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "classrooms and verandas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3872,
+            0.5971,
+            0.6071
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior classrooms are approximated behind the bent facade, with verandas along the perimeter."
+        }
       },
       {
         "statement": "The floor plans are well done overall.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6053,
+            0.4133,
+            0.4643
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Plan quality is broadly anchored to the compact multi-story envelope."
+        }
       },
       {
         "statement": "The project is the most cost-effective among the shortlisted entries.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "cost effectiveness",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost ranking is a whole-project judgment without a spatial referent."
+        }
       },
       {
         "statement": "The project meets the energy requirements well.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "energy requirements",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy compliance is a global performance judgment without a specific spatial referent."
+        }
       },
       {
         "statement": "The proposal is compact and structurally interesting.",
         "tags": [
           "massing",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "compact structural form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3872,
+            0.5971,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The compact bent mass and repeated structural envelope are directly visible."
+        }
       }
     ],
     "negative": [
@@ -59,62 +158,213 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "street and elevated railway setting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5538,
+            0.1812,
+            0.1429
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The setting is not explicitly modeled; the south edge represents the street-side context."
+        }
       },
       {
         "statement": "The spatial relationship to the existing development and the resulting outdoor spaces appear indifferent.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces around the building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1333,
+            0.2909,
+            0.0357
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Narrow residual strips are visible around the compact building footprint."
+        }
       },
       {
         "statement": "Collaboration between classes is possible only through the public access area.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "public access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5538,
+            0.1812,
+            0.2857
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The public circulation route is approximated along the south-facing access edge."
+        }
       },
       {
         "statement": "The multi-purpose room is too small to serve as a reserve classroom, and the desired reserve rooms are not shown.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room and reserve rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6053,
+            0.4133,
+            0.3571
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Unseen reserve rooms are placed within the eastern-middle portion of the building."
+        }
       },
       {
         "statement": "The main rooms appear to have very limited lighting.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "main rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4162,
+            0.587,
+            0.6071
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Main-room daylight criticism is anchored to an upper perimeter zone."
+        }
       },
       {
         "statement": "The central vertical circulation is too small for six classes and blocks access to the cloakrooms and verandas.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central vertical circulation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4162,
+            0.587,
+            0.5357
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central circulation core is not separable, so it is placed at the bent mass center."
+        }
       },
       {
         "statement": "The already narrow open space is further restricted by ramps, stairs, and outdoor equipment.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "narrow open space with ramps and stairs",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.772,
+            0.2012,
+            0.1429
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The compact footprint leaves visibly narrow peripheral outdoor bands."
+        }
       },
       {
         "statement": "The delivery arrangement and the feasibility of the outdoor equipment room are problematic.",
         "tags": [
           "accessibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "delivery arrangement and outdoor equipment room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8053,
+            0.1587,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Delivery and equipment functions are approximated at the street-side edge."
+        }
       },
       {
         "statement": "The technical requirements are inadequately evidenced in the plans.",
         "tags": [
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "technical requirements",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Technical evidence is a documentation judgment without a useful spatial referent."
+        }
       }
     ],
     "keyword": [

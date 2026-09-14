@@ -19,7 +19,26 @@
           "urban integration",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "differentiated access, delivery yard, and sports facilities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6952,
+            0.3592,
+            0.25
+          ],
+          "radius": 0.3072,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The comb perimeter and interstitial bands provide plausible locations for access, delivery, and sports."
+        }
       },
       {
         "statement": "The project is precisely subordinated to the monumental neighbouring construction.",
@@ -27,7 +46,25 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "monumental neighbouring construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2389,
+            0.6695,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north-facing edge is used as the constrained interface with the neighbouring monument."
+        }
       },
       {
         "statement": "The original clarity remains and continues to respond through numerous solutions addressing the observations from the first degree.",
@@ -35,14 +72,52 @@
           "expression",
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "original clarity of the concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4942,
+            0.5074,
+            0.5
+          ],
+          "radius": 0.3067,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The repeated comb branches and central spine clearly express the overall concept."
+        }
       },
       {
         "statement": "The detailed study of the individual cells is interesting.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "individual cells",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6632,
+            0.5714,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated branch cells are individually legible as modules in the top and elevation views."
+        }
       }
     ],
     "negative": [
@@ -52,7 +127,25 @@
           "massing",
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "spread between divisions and administrative unit",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8231,
+            0.4499,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The outer branches visibly extend away from the central administrative connection."
+        }
       },
       {
         "statement": "The concentration of the division program and addition of a median connection disrupt the initial simplicity of the concept.",
@@ -60,28 +153,101 @@
           "layout",
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "median connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5042,
+            0.4931,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central longitudinal connector is clearly visible between the comb branches."
+        }
       },
       {
         "statement": "The courtyards are simultaneously open and closed without providing real additional spatial qualities.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5419,
+            0.499,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interstitial courtyard voids are visible between the repeated branch volumes."
+        }
       },
       {
         "statement": "Views from the cells and common areas are dominated by the sports facilities, with substantial associated noise.",
         "tags": [
           "visibility",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "sports facilities",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7236,
+            0.3793,
+            0.25
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The outer edge is the plausible location of facilities affecting cell views and acoustics."
+        }
       },
       {
         "statement": "The undulating intermediate connection is difficult to understand and provides no decisive spatial qualities.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "undulating intermediate connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5143,
+            0.4789,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The intermediate spine is visible as the central connection between the linear branches."
+        }
       },
       {
         "statement": "The intermediate connection makes routes between flows complex because vertical and horizontal intersections require automated management.",
@@ -89,7 +255,26 @@
           "circulation",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "routes between flows",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5319,
+            0.5133,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Intersections are anchored to the central connector where branch and vertical flows converge."
+        }
       }
     ],
     "keyword": [

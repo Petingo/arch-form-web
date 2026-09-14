@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "closed orthogonal structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3498,
+            0.7143,
+            0.5147
+          ],
+          "radius": 0.319,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Perimeter-forming orthogonal massing is clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The new building precisely adopts the geometry and height of its surroundings, achieving suitable volumetric interaction.",
@@ -26,21 +46,78 @@
           "urban integration",
           "proportion",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "building geometry and height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6916,
+            0.3184,
+            0.5735
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact footprint and aligned multi-level envelope are identifiable across plan and elevations."
+        }
       },
       {
         "statement": "The division between service spaces toward the city and living spaces toward the historic roofs is appreciated.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "service and living spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5206,
+            0.8149,
+            0.5441
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Outer and inner perimeter zones suggest the stated program split, though interiors are indistinguishable."
+        }
       },
       {
         "statement": "The room organization and thresholds are efficient.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "room organization and thresholds",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3976,
+            0.5338,
+            0.1765
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is not sampled directly, so a plausible mid-building surface anchor is used."
+        }
       },
       {
         "statement": "New trees connect existing green areas and provide effective shading to the south-facing façade.",
@@ -48,14 +125,49 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "south-facing facade and connecting trees",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5208,
+            0.2178,
+            0.2941
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south elevation provides the facade constraint; trees and green connections are not distinguishable."
+        }
       },
       {
         "statement": "The water feature is a valuable fixed furnishing element in the outdoor spaces.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "water feature",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5428,
+            0.5328,
+            0.0441
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A central outdoor void is visible in plan, but the specific water furnishing is not identifiable."
+        }
       }
     ],
     "negative": [
@@ -65,7 +177,26 @@
           "urban integration",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor public spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.337,
+            0.1094,
+            0.0441
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level perimeter surfaces are visible, while public-space continuity is not directly distinguishable."
+        }
       },
       {
         "statement": "The internal empty spaces, pedestrian paths, transparencies, and greenery should have been better defined.",
@@ -73,21 +204,78 @@
           "open space",
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "internal empty spaces and pedestrian paths",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5652,
+            0.4651,
+            0.1765
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central opening and surrounding circulation zone are legible in plan and bounded by elevations."
+        }
       },
       {
         "statement": "Residual spaces outside the enclosure lack a stronger spatial and functional connotation.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "residual spaces outside the enclosure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9093,
+            0.7742,
+            0.1029
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "An outer perimeter region represents residual space beyond the enclosed mass; its function is not visible."
+        }
       },
       {
         "statement": "The accesses to the building and site lack the necessary depth, clarity, and generosity.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "building and site accesses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2368,
+            0.0503,
+            0.1471
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low outer-edge anchor approximates access territory, though entrances are not separately identifiable."
+        }
       },
       {
         "statement": "The rigid wall creates excessive closure and limited permeability toward the city.",
@@ -95,14 +283,52 @@
           "urban integration",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "rigid perimeter wall",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9477,
+            0.4694,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The enclosing outer wall is visible; the specific city-facing side is not identified by the statement."
+        }
       },
       {
         "statement": "The architectural language is too abstract and impersonal, and its dual identity is not convincing.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.777,
+            0.3688,
+            0.5441
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The critique concerns the visible overall architectural expression and massing."
+        }
       },
       {
         "statement": "The common living spaces lack generosity despite the use of double heights.",
@@ -110,34 +336,120 @@
           "layout",
           "functionality",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "common living spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3498,
+            0.7143,
+            0.6176
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Living interiors and double-height volumes are absent, so a plausible elevated interior-zone anchor is assigned."
+        }
       },
       {
         "statement": "The interventions within the historic structure remain insufficiently thorough and evasive.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "historic structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1791,
+            0.6136,
+            0.5441
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The perimeter relationship suggests the historic enclosure, but interventions within it are not separately visible."
+        }
       },
       {
         "statement": "The load-descent system and resistance to horizontal forces require improvement and verification.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "load-descent and lateral-force system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3498,
+            0.7143,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural systems are not sampled directly; the anchor covers the overall building envelope."
+        }
       },
       {
         "statement": "The effect of the glazed northern façade on energy needs requires verification.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "northern glazed facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6913,
+            0.9156,
+            0.5147
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north elevation is identifiable, but glazing and its energy effect are not visually separable."
+        }
       },
       {
         "statement": "The sustainability impacts of the materials are not explicitly mentioned.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "material sustainability",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material sustainability is evaluative and has no useful spatial referent in the sampled geometry."
+        }
       }
     ],
     "keyword": [

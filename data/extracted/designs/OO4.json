@@ -16,55 +16,206 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard closure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3677,
+            0.2464,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "L-shaped footprint visibly encloses the lower inner yard edge against open space."
+        }
       },
       {
         "statement": "Its structure takes up the proportions of the existing classroom wing.",
         "tags": [
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "existing classroom wing proportions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2862,
+            0.8451,
+            0.5738
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper horizontal mass provides the clearest visible reference for proportional comparison."
+        }
       },
       {
         "statement": "The access axis is extended and improves access to the entire facility.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "access axis",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4959,
+            0.2464,
+            0.2857
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A longitudinal access route is approximated along the lower part of the fitted plan."
+        }
       },
       {
         "statement": "The basic levels meet the requirements of their school level ideally, with autonomous and well-thought-out room units.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "autonomous room units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2447,
+            0.8451,
+            0.5738
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior units are not separable, so the upper classroom zone provides a constrained surface anchor."
+        }
       },
       {
         "statement": "The spacious terrace allows the interior space to expand in uncertain weather.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "spacious terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.4622,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The recessed right-side terrace-like zone is visible in plan and aligned across elevations."
+        }
       },
       {
         "statement": "The day school is well organized.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "day school organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3527,
+            0.2412,
+            0.2857
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Organization is anchored to a distributed lower building region rather than an exact room."
+        }
       },
       {
         "statement": "The primary classes and design rooms are separately accessible, with convenient underground access for frequent class changes.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "primary and design-room access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3527,
+            0.1333,
+            0.1429
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Separate interiors and underground circulation are unshown; the lower access edge supplies a useful guess."
+        }
       },
       {
         "statement": "The planned building envelope can easily achieve the required energy standard.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "planned building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7841,
+            0.8451,
+            0.8571
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Envelope judgment is distributed across the visible upper and perimeter surfaces."
+        }
       }
     ],
     "negative": [
@@ -73,21 +224,76 @@
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.8237,
+            0.0714
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Fields are absent from the sample; the outer site edge approximates their separated destination."
+        }
       },
       {
         "statement": "The access from the main path seems too narrow.",
         "tags": [
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "main-path access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3527,
+            0.0794,
+            0.2143
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The narrow lower access connection is the most plausible sampled location for the main path."
+        }
       },
       {
         "statement": "The arrangement is attractive for the ground-floor classes, but its potential is not exhausted for the day school.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor classes",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3527,
+            0.2412,
+            0.1429
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor criticism is anchored to the lower western classroom region."
+        }
       },
       {
         "statement": "The day school would be better placed on the ground floor, and the proposed outside stair may not solve the operational problem.",
@@ -95,14 +301,51 @@
           "layout",
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "outside stair",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5161,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A vertical recessed feature is visible near the right-side terrace zone and plausibly represents the stair."
+        }
       },
       {
         "statement": "The upper-floor primary-school areas lack a connection to the schoolyard or a view outside.",
         "tags": [
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor primary-school areas",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3527,
+            0.1908,
+            0.8571
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Upper-level areas are placed along the yard-facing lower edge where connection and outlook are judged."
+        }
       },
       {
         "statement": "The facade appears rough and almost foreign beside the existing building.",
@@ -110,14 +353,42 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "facade beside existing building",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5959,
+            0.2464,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The south-facing perimeter is directly visible and provides a facade anchor beside adjacent context."
+        }
       },
       {
         "statement": "The incorporation of the energy concept into the project is largely missing.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a project-wide sustainability judgment without a uniquely locatable geometric feature."
+        }
       },
       {
         "statement": "The project remains undecided in many places and lacks an underlying idea that holds it together.",
@@ -125,7 +396,27 @@
           "expression",
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6596,
+            0.8451,
+            0.5738
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The comment concerns overall coherence, so it is distributed across the visible building mass."
+        }
       }
     ],
     "keyword": [

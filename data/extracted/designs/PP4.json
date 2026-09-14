@@ -17,7 +17,26 @@
           "urban integration",
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "site and landscape response",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0755,
+            0.4665,
+            0.1154
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The west-offset building footprint is anchored within the surrounding open site."
+        }
       },
       {
         "statement": "The simple volume with a gable roof integrates into the traditional farms and villa district as a house or barn among others.",
@@ -25,7 +44,28 @@
           "urban integration",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "gable-roofed volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4628,
+            0.4934,
+            1
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact footprint and peaked roof profile are clearly corroborated across top and elevations."
+        }
       },
       {
         "statement": "The facade expression lightens the volume and controls its scale through alternating opaque and transparent elements.",
@@ -33,7 +73,25 @@
           "facade",
           "scale",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "alternating facade elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.537,
+            0.0767,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The facade anchor is placed on the visible long building edge where opaque-transparent modulation is expressed."
+        }
       },
       {
         "statement": "The compact building and minimal footprint protect the land and facilitate the expected extension.",
@@ -41,14 +99,52 @@
           "landscape",
           "flexibility",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact minimal-footprint building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.094,
+            0.3826,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The compact sampled footprint and single volume directly support the massing and land-protection assignment."
+        }
       },
       {
         "statement": "The rational plan typology suggests good economics for the project.",
         "tags": [
           "layout",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "rational plan typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4092,
+            0.9038,
+            0.3846
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The interior plan is approximated within the compact envelope; economics is not independently spatial."
+        }
       }
     ],
     "negative": [
@@ -58,14 +154,52 @@
           "circulation",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central corridor system",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4092,
+            0.9038,
+            0.4615
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central circulation is estimated along the building spine beneath the sampled envelope."
+        }
       },
       {
         "statement": "The interior staircase is weak: entering under it is unpleasant and the direction of movement upstairs is not sufficiently direct.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "interior staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0848,
+            0.4245,
+            0.3462
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The staircase is assigned a plausible central lower-level position, but is absent from exterior points."
+        }
       },
       {
         "statement": "The social and spatial added value of the primary-school circulation space remains questionable.",
@@ -73,7 +207,26 @@
           "circulation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "primary-school circulation space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4092,
+            0.9038,
+            0.4231
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The questioned circulation space is approximated within the central compact volume."
+        }
       }
     ],
     "keyword": [

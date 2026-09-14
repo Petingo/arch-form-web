@@ -17,7 +17,25 @@
           "urban integration",
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "entrance head formation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1713,
+            0.4909,
+            0.8077
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Distinct taller mass marks the entrance at the south-west edge in plan and south elevation."
+        }
       },
       {
         "statement": "The form and placement generate a spacious courtyard and a strong connection between school and neighbourhood space.",
@@ -25,7 +43,25 @@
           "massing",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "spacious courtyard and neighbourhood connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6455,
+            0.1889,
+            0.0385
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Open courtyard occupies the lower-left interior edge and connects toward the south."
+        }
       },
       {
         "statement": "The courtyard offers atmosphere and sufficient scope for everyday school life and public use.",
@@ -33,7 +69,25 @@
           "landscape",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6455,
+            0.1889,
+            0.0769
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Courtyard void is clearly legible in the top view at ground level."
+        }
       },
       {
         "statement": "The facade is carefully designed and responds skilfully to the unequal surrounding situations through differentiated mesh sizes.",
@@ -41,7 +95,25 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "differentiated facade mesh",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6608,
+            0,
+            0.5385
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "South and east elevations show differing point densities across the articulated envelope."
+        }
       },
       {
         "statement": "The entrance hall is generous, flexible, and enlivens the urban space convincingly.",
@@ -49,7 +121,25 @@
           "circulation",
           "flexibility",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0.0362,
+            0.1923
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior hall is approximated behind the covered south entrance passage."
+        }
       },
       {
         "statement": "The learning landscape, roof garden, and classroom zoning function well together.",
@@ -57,7 +147,26 @@
           "layout",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "learning landscape, roof garden, and classroom zoning",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0.2726,
+            0.6538
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Upper roof and articulated building mass provide the closest exterior anchor for these internal functions."
+        }
       },
       {
         "statement": "The clear organization and distribution of rooms provide high utility value and support school operations positively.",
@@ -65,14 +174,51 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "room organization and distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.639,
+            0.4909,
+            0.5
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Internal layout is represented by a distributed approximation across the building envelope."
+        }
       },
       {
         "statement": "The supporting structure has a clear concept and is carefully planned for straightforward implementation.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.157,
+            0.4909,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Structure is not separately visible, so it is anchored to the west structural envelope."
+        }
       }
     ],
     "negative": [
@@ -81,48 +227,168 @@
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "tree",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0.1889,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Tree is not distinguishable; courtyard ground provides the most plausible landscape anchor."
+        }
       },
       {
         "statement": "Statements about railings and technical structures, especially in the roof area, are missing.",
         "tags": [
           "safety",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "roof railings and technical structures",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0.2726,
+            0.6154
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Roof area is visible, but railings and technical equipment are not separately identifiable."
+        }
       },
       {
         "statement": "The escape route above the gymnasium must be solved differently.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "escape route above the gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0.0362,
+            0.6538
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The route is constrained to an elevated south-side building surface; gymnasium location is indistinct."
+        }
       },
       {
         "statement": "The arrangement of fitness and gymnastics in the unexposed basement is unsatisfactory.",
         "tags": [
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "fitness and gymnastics basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2329,
+            0.4909,
+            0.0385
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Basement functions are not visible, so the lower building envelope supplies a distributed ground-level anchor."
+        }
       },
       {
         "statement": "The ventilation concept for the rooms is unresolved.",
         "tags": [
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "ventilation concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6106,
+            0.4909,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Ventilation is unresolved internally and is approximated across the eastern building envelope."
+        }
       },
       {
         "statement": "The large basement, extensive roof garden, window proportion, and sun protection have a negative impact on life-cycle costs.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "life-cycle costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.300000000000004,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is primarily a whole-building economic judgment spanning several components."
+        }
       },
       {
         "statement": "The transition between the ground and basement structures and the canopy anchoring still require coordination.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "ground-basement transition and canopy anchoring",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6455,
+            0,
+            0.0769
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower south edge and entrance canopy provide the closest visible coordination location."
+        }
       }
     ],
     "keyword": [

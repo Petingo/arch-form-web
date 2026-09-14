@@ -17,21 +17,80 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "three single-story buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5694,
+            0.2982,
+            0.25
+          ],
+          "radius": 0.311,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Three distinct pavilion footprints are clearly distributed around the central open area."
+        }
       },
       {
         "statement": "The roof edges slope down with the same gentleness as the terrain.",
         "tags": [
           "topography",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "sloping roof edges",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5782,
+            0.3017,
+            0.6268
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Low-rise roof-edge bands and their differing heights are visible in the elevations."
+        }
       },
       {
         "statement": "The single-story arrangement and distribution of uses across different buildings are sensible and valuable for school operation.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "distributed single-story arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2873,
+            0.2583,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Separated low-rise pavilions visibly support a distributed arrangement of uses."
+        }
       },
       {
         "statement": "The generous arrangement of indoor and outdoor spaces promises a calm and de-escalating atmosphere.",
@@ -39,7 +98,27 @@
           "open space",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "indoor and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5573,
+            0.2934,
+            0.125
+          ],
+          "radius": 0.311,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central yard and surrounding pavilion clearances form a generous visible open-space framework."
+        }
       },
       {
         "statement": "The wooden pavilion architecture is a calm and beautiful response to the landscape context.",
@@ -47,14 +126,54 @@
           "expression",
           "landscape",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "wooden pavilion architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2893,
+            0.1667,
+            0.25
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Pavilion form is visible, while wooden material is not distinguishable in the point cloud."
+        }
       },
       {
         "statement": "The newly built pavilions create an amazing number of places to stay with very different qualities.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "places to stay",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7025,
+            0.3507,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple pavilion edges and open areas visibly create varied potential staying places."
+        }
       }
     ],
     "negative": [
@@ -63,7 +182,24 @@
         "tags": [
           "scale",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "space between new houses and main building",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5815,
+            0.3029,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The criticized inter-building gap is approximated within the central open space."
+        }
       },
       {
         "statement": "The interesting impression of buildings floating above the terrain is not sufficiently deepened in the outdoor-space design.",
@@ -71,7 +207,27 @@
           "landscape",
           "topography",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "floating buildings and outdoor-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2873,
+            0.2583,
+            0.125
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The terrain relationship is estimated beneath the visible low-rise pavilion group."
+        }
       },
       {
         "statement": "The schoolyard would tolerate more unsealed green areas and additional tree planting.",
@@ -79,7 +235,24 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard green areas and tree planting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5661,
+            0.2969,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape criticism is anchored to the central schoolyard, where planting is not represented."
+        }
       }
     ],
     "keyword": [

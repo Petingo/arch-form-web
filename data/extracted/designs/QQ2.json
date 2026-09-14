@@ -16,21 +16,80 @@
           "urban integration",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6075,
+            0.7578,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated, symmetric three-storey volume is clearly visible across top and elevation views."
+        }
       },
       {
         "statement": "The internal organization largely meets the requirements.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6413,
+            0.7419,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior organization is not exposed; approximate anchor is distributed within the central building mass."
+        }
       },
       {
         "statement": "The access areas receive zenithal daylight through skylights and openings.",
         "tags": [
           "daylight",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2704,
+            0.2967,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation openings are suggested within the central volume but not directly distinguishable from the exterior sample."
+        }
       },
       {
         "statement": "The facade construction takes up the proportions and architectural and structural character of the existing school building.",
@@ -38,7 +97,27 @@
           "facade",
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "facade construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5577,
+            0.162,
+            0.5833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long horizontal facade bands and repeated proportions are directly visible in elevation views."
+        }
       }
     ],
     "negative": [
@@ -48,21 +127,78 @@
           "circulation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "large access areas and classroom pre-zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2197,
+            0.3205,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation zones are approximated inside the elongated mass because the point cloud does not reveal rooms."
+        }
       },
       {
         "statement": "The strict basic structure and inflexible access zones make adaptation to changing educational requirements difficult.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "access zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7596,
+            0.6864,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Inflexible access is assigned to a representative internal zone within the repetitive building structure."
+        }
       },
       {
         "statement": "The classrooms are relatively limited in size, while several other areas significantly exceed the required space.",
         "tags": [
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7934,
+            0.6706,
+            0.6667
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classrooms are not individually visible; the marker approximates a representative upper-level internal zone."
+        }
       },
       {
         "statement": "The outdoor-space design remains very schematic, with no evidence of replacing felled trees.",
@@ -70,21 +206,73 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "outdoor-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4976,
+            0.1902,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The courtyard and surrounding exterior areas are visible in the top view, though planting is not represented."
+        }
       },
       {
         "statement": "The covered bicycle parking beside the main entrance should be assessed very critically.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "covered bicycle parking",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2656,
+            0.3056,
+            0.0833
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Main-entrance adjacency is approximated on the western side; the bicycle shelter itself is indistinguishable."
+        }
       },
       {
         "statement": "The investment costs are around ten percent higher, directly resulting from the high proportion of development and traffic areas.",
         "tags": [
           "cost",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "development and traffic areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4807,
+            0.1981,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The cost criticism references circulation-heavy site areas, approximated around the courtyard-facing ground plane."
+        }
       },
       {
         "statement": "The proposal creates only very limited, freely playable learning landscapes and little scope for changing pedagogical requirements.",
@@ -92,7 +280,24 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "freely playable learning landscapes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9444,
+            0.2188,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Limited learning landscape is assigned to the sparse eastern outdoor area visible beside the building."
+        }
       }
     ],
     "keyword": [

@@ -17,63 +17,242 @@
         "tags": [
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "compact overall figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5384,
+            0.6387,
+            0.5714
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The offset compact ensemble and taller mass are clearly visible across calibrated views."
+        }
       },
       {
         "statement": "The offset creates a well-sized forecourt with a clear address for both parts of the building.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4823,
+            0.4322,
+            0.0714
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The open zone between offset masses forms a clearly identifiable forecourt."
+        }
       },
       {
         "statement": "The elongated park is a good and precise response to urban cold-air corridors and ecological connections.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "elongated park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1385,
+            0.4288,
+            0.0714
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The western open portion of the plan is the stated park location."
+        }
       },
       {
         "statement": "The spatial organization is clearly derived from the duality of clinic and teaching and forms an internally coherent organism.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "clinic and teaching",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5541,
+            0.601,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The two offset building masses provide a plausible anchor for the dual program."
+        }
       },
       {
         "statement": "The common forecourt leads to a spacious entrance room with well-located reception and cafeteria.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4806,
+            0.4364,
+            0.2143
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The forecourt edge is the most plausible sampled location for the entrance room."
+        }
       },
       {
         "statement": "The separation of staff and patient traffic flows is organized in the desired form.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "staff and patient traffic flows",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5541,
+            0.601,
+            0.4286
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The internal circulation system is approximated through the two-part building ensemble."
+        }
       },
       {
         "statement": "The teaching area develops its own identity through its attractive connection and separate access.",
         "tags": [
           "identity",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "teaching area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3015,
+            0.6682,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-left mass is a plausible location for the separately accessed teaching area."
+        }
       },
       {
         "statement": "The project is convincing in its urban planning and consistency with the interior organization.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "urban planning and interior organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5767,
+            0.6237,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Offset masses, forecourt, and internal arrangement are visibly related at building scale."
+        }
       },
       {
         "statement": "The compact shape and area-efficient implementation of the program support sustainability.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "compact shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5226,
+            0.6763,
+            0.5714
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The compact area-efficient ensemble is directly apparent in plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -82,63 +261,237 @@
         "tags": [
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4806,
+            0.4364,
+            0.1429
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The forecourt-facing zone is the most plausible entrance-area anchor."
+        }
       },
       {
         "statement": "The park formulation is not understood, and the floodplain-landscape gesture seems arbitrary and overloaded.",
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "park formulation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1499,
+            0.3968,
+            0.0714
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The western park strip is visible as the landscape gesture under critique."
+        }
       },
       {
         "statement": "The park has too much surface area and lacks the green spaces typical of the district.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1741,
+            0.4212,
+            0.0714
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The western open landscape area is the stated park location."
+        }
       },
       {
         "statement": "The high proportion of floor-to-ceiling glazing is architecturally unnecessary and very problematic from an energy perspective.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "floor-to-ceiling glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7286,
+            0.7097,
+            0.6429
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "A visible outer facade of the taller mass provides the glazing anchor."
+        }
       },
       {
         "statement": "The facade design of the existing building in the new courtyard remains unresolved.",
         "tags": [
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "existing building facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5384,
+            0.6387,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The courtyard-facing edge is the plausible location of the unresolved existing facade."
+        }
       },
       {
         "statement": "The double and two-track vertical access seems complicated and goes far beyond functionality flows of people.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "vertical access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5541,
+            0.601,
+            0.5714
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Vertical circulation is approximated within the central building ensemble."
+        }
       },
       {
         "statement": "The intervention in the existing building is structurally risky or even questionable in places.",
         "tags": [
           "structure",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "intervention in the existing building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3015,
+            0.6682,
+            0.4286
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-left mass is used as the likely existing-building intervention area."
+        }
       },
       {
         "statement": "The proposed building envelope cannot achieve the required energy standard.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6496,
+            0.6968,
+            0.5714
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The taller mass envelope is clearly represented by perimeter points and elevations."
+        }
       },
       {
         "statement": "The facade constructions and joints are not robust in terms of building physics and carry an inherent risk of damage.",
         "tags": [
           "facade",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "facade constructions and joints",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7447,
+            0.3122,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The south-east perimeter is a plausible sampled facade surface for construction joints."
+        }
       }
     ],
     "keyword": [

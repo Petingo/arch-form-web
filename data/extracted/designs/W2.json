@@ -17,48 +17,180 @@
           "massing",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6948,
+            0.7778,
+            0.4783
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Compact, low-rise massing is visible across the plan and elevations, though surrounding campus horizon is absent."
+        }
       },
       {
         "statement": "The reduced footprint creates high-quality outdoor spaces framed by plane trees.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces framed by plane trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2547,
+            0.7821,
+            0.0217
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A peripheral open-space location is estimated beside the reduced footprint; trees are not distinguishable in the sample."
+        }
       },
       {
         "statement": "The ground-floor uses and open-space design are well coordinated, including deliveries.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor uses and deliveries",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.696,
+            0.1667,
+            0.0435
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level operational uses are anchored near a plausible southern entrance edge, without distinguishable delivery geometry."
+        }
       },
       {
         "statement": "The raised piazza is ideal as a meeting point and observation post.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "raised piazza",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7467,
+            0.2336,
+            0.087
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The piazza is approximated as an exterior raised zone adjacent to the lower southern building edge."
+        }
       },
       {
         "statement": "The open framework gives the building an institutional character, with a balanced tension between rawness and noblesse.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "open framework",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1636,
+            0.6622,
+            0.5435
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west",
+            "north"
+          ],
+          "rationale": "Dense open framework and repetitive structural members are clearly visible around the sampled envelope."
+        }
       },
       {
         "statement": "The static principle seems plausible.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "static principle",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6948,
+            0.7778,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The structural system is anchored to the visible framework, but load paths are not directly identifiable."
+        }
       },
       {
         "statement": "The building is clearly structured, and the generous vestibule separates school and sports use.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "generous vestibule",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.428,
+            0.1268,
+            0.0435
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The vestibule is approximated at the southern ground-floor entry edge; interior separation is not visible."
+        }
       },
       {
         "statement": "The atrium acts as the heart of the building, combining architectural, functional, spatial, and building-technology requirements while giving identity to the pragmatic room configuration.",
@@ -66,35 +198,119 @@
           "layout",
           "functionality",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6948,
+            0.7778,
+            0.5217
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "A central void-like organization is visible in plan and supported by the surrounding vertical framework."
+        }
       },
       {
         "statement": "The project implements the spatial program in an extremely space-efficient manner and conserves resources.",
         "tags": [
           "functionality",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "space-efficient spatial program",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates whole-building efficiency and resource conservation without a distinct spatial referent."
+        }
       },
       {
         "statement": "The building technology concept appears well thought out and innovative.",
         "tags": [
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "building technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The comment evaluates an overall technical concept rather than a locatable sampled component."
+        }
       },
       {
         "statement": "The atrium provides good lighting for the interior rooms and supports night cooling.",
         "tags": [
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4725,
+            0.4546,
+            0.8697
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The central atrium location is identifiable in plan and adjacent elevations, supporting daylight and cooling interpretations."
+        }
       },
       {
         "statement": "The supporting structure allows spatial adjustments in both directions.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2547,
+            0.7821,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repetitive structural members are visible, though their capacity for two-directional adjustment is not directly demonstrated."
+        }
       }
     ],
     "negative": [
@@ -103,54 +319,189 @@
         "tags": [
           "scale",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "bicycle area next to entrance",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6556,
+            0.1136,
+            0.0217
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Bicycle congestion is anchored beside a plausible southern ground-level entrance zone."
+        }
       },
       {
         "statement": "The lack of western access would have anchored the building better in the urban fabric.",
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "western access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0217,
+            0.4754,
+            0.0217
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western edge is visible in plan and west elevation, but no access opening is distinguishable."
+        }
       },
       {
         "statement": "The nodes of the diagonal struts are shown too glossily, and the edge beams of the facade are too low.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "diagonal struts and edge beams",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.929,
+            0.4734,
+            0.7391
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Diagonal perimeter members and facade edges are represented in the sampled framework, with finish quality not measurable."
+        }
       },
       {
         "statement": "It is unclear how exhaust air is routed.",
         "tags": [
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "exhaust air routing",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Air-routing clarity is a technical-system judgment without a visible geometric marker."
+        }
       },
       {
         "statement": "The arrival area is under too much pressure, and the student flows are not meaningfully unbundled.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "arrival area and student flows",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.696,
+            0.1667,
+            0.0652
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Arrival pressure is anchored at the likely southern ground-floor access zone; circulation paths are not distinguishable."
+        }
       },
       {
         "statement": "The corridor widths seem implausible, and the spiral staircase may not accommodate the large number of students.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "corridors and spiral staircase",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3092,
+            0.2187,
+            0.4783
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is approximated around the central atrium, where the sampled envelope offers the strongest constraint."
+        }
       },
       {
         "statement": "Under these conditions, smooth school operations hardly seem possible.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school operations",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an overall operational judgment without one useful spatial referent."
+        }
       },
       {
         "statement": "The atrium type is not stated, and a sprinkler and fire-alarm system will presumably be necessary.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "atrium and fire-safety systems",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6948,
+            0.7778,
+            0.5435
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The atrium is centrally anchored, while sprinkler and alarm systems are not visible in the exterior point cloud."
+        }
       }
     ],
     "keyword": [

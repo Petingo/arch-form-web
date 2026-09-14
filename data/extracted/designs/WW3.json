@@ -17,48 +17,166 @@
         "tags": [
           "massing",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "linear bulkhead structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5648,
+            0.4789,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Linear elevated volume and repetitive structural bands are clearly visible across plan and elevations."
+        }
       },
       {
         "statement": "The two uses are clearly separated spatially.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two separated uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5847,
+            0.4618,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated mass shows distinct spatial portions separated along its main axis."
+        }
       },
       {
         "statement": "Protected entrances for all basic levels and an independent entrance provide direct access to the outdoor space.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "protected entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1964,
+            0.5113,
+            0.1254
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level access is approximated along the lower base edge where entry points would meet outdoor space."
+        }
       },
       {
         "statement": "The basic-level floor plans are identical and well thought out.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basic-level floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4735,
+            0.2847,
+            0.1878
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-level bands occupy the broad, repetitive base visible in plan and elevations."
+        }
       },
       {
         "statement": "The day-school floor plan allows flexible use through open or separable units.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day-school floor plan",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.699,
+            0.3632,
+            0.6249
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper elevated volume provides a plausible anchor for the day-school program."
+        }
       },
       {
         "statement": "The simple repetitive structure enables economical construction and maintenance.",
         "tags": [
           "cost",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "economical construction and maintenance",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an operational and cost judgment without a unique geometric location."
+        }
       },
       {
         "statement": "The project is compatible with the stated sustainability standards.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sustainability standards",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Compliance with sustainability standards has no useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -67,88 +185,329 @@
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "ditch-like front zone",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1366,
+            0.4198,
+            0.063
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lowered front edge and adjacent irregular terrain are most plausibly located at the southern approach."
+        }
       },
       {
         "statement": "The front outdoor space is significantly too small for the basic levels.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "front outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1195,
+            0.4145,
+            0.063
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A narrow external strip is approximated beside the lowered southern base."
+        }
       },
       {
         "statement": "The lowered direct location is unsatisfactory and problematic for basic-level use.",
         "tags": [
           "topography",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "lowered direct location",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4337,
+            0.3191,
+            0.063
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sunken lower level is visible as the lowest horizontal band around the elevated volume."
+        }
       },
       {
         "statement": "The rooms dug into the rear receive too little daylight.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "rear rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6923,
+            0.6672,
+            0.1254
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Rear rooms are approximated within the far side of the elongated sunken base."
+        }
       },
       {
         "statement": "The proposal is not permitted under building law and exceeds the permitted dimensions and limit distances.",
         "tags": [
           "regulatory compliance",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "permitted dimensions and limit distances",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7639,
+            0.51,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The regulatory concern is anchored to the building envelope and its visible overall extents."
+        }
       },
       {
         "statement": "The internal connection between the levels is provided only by the lift, while a staircase is possible only through the exterior.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "internal connection between levels",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4337,
+            0.3191,
+            0.2503
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Vertical circulation is approximated near the central overlap between lower and elevated masses."
+        }
       },
       {
         "statement": "The visual connection to the northern outdoor space from the basement is insufficient.",
         "tags": [
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "northern outdoor space from basement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6243,
+            0.7375,
+            0.1254
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The sightline concern is placed at the basement edge facing the northern exterior."
+        }
       },
       {
         "statement": "The permeability between classes is possible only via the forecourt; an internal connection would be desirable.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "permeability between classes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3938,
+            0.3534,
+            0.1878
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The forecourt-facing transition zone is approximated beside the front portion of the base."
+        }
       },
       {
         "statement": "Despite the courtyards, natural light will remain too scarce in the deep rooms and group rooms.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "deep rooms and group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5612,
+            0.6717,
+            0.1254
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Interior deep-room daylight concerns are anchored within the broad central sunken footprint."
+        }
       },
       {
         "statement": "The garden entrance through the lawn is impractical.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "garden entrance through the lawn",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0996,
+            0.4317,
+            0.063
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The garden approach is approximated at the southern lawn-facing edge."
+        }
       },
       {
         "statement": "The outdoor design is limited and leaves otherwise unfurnished areas, while bicycle parking remains unclear.",
         "tags": [
           "landscape",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "outdoor design and bicycle parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3938,
+            0.3534,
+            0.063
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Unresolved external areas are distributed around the front and side of the lowered base."
+        }
       },
       {
         "statement": "The extensive subterranean concrete structures create a high proportion of gray energy.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "subterranean concrete structures",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6475,
+            0.5986,
+            0.063
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The gray-energy concern is anchored to the extensive lowest-level footprint."
+        }
       },
       {
         "statement": "System separation is possible only to a limited extent because of the floor channel.",
         "tags": [
           "flexibility",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "floor channel system separation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6475,
+            0.5986,
+            0.1878
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The floor-channel constraint is approximated within the repetitive lower structural zone."
+        }
       }
     ],
     "keyword": [

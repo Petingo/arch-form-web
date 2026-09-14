@@ -16,49 +16,175 @@
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "site layout",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1721,
+            0.5017,
+            0.1667
+          ],
+          "radius": 0.3077,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The rectangular volume, courtyard relationship, and aligned edges are visible across all views."
+        }
       },
       {
         "statement": "The generous schoolyard accommodates the two basketball courts.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "schoolyard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1721,
+            0.4771,
+            0
+          ],
+          "radius": 0.3077,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open space is estimated along the broad southern-central side of the footprint."
+        }
       },
       {
         "statement": "The low height preserves views toward the rock and village.",
         "tags": [
           "scale",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "low building height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.357,
+            0.0551,
+            0.3333
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "All elevations show a low, single-storey horizontal volume."
+        }
       },
       {
         "statement": "The setback accommodates a public path and a public square capable of hosting events.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "public path and public square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4162,
+            0.9527,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The northern setback is the plausible public edge outside the linear building."
+        }
       },
       {
         "statement": "The eastern vehicle access avoids traffic in the courtyard.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "eastern vehicle access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9344,
+            0.5484,
+            0
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Eastern access is constrained to the right-hand perimeter of the sampled footprint."
+        }
       },
       {
         "statement": "The three programs are arranged in a north-south row with separate entrances.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "three-program north-south row",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1721,
+            0.5139,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated plan and repeated vertical divisions establish the north-south organization."
+        }
       },
       {
         "statement": "The common premises function as a buffer zone for the childhood-related program.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "common premises buffer zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1721,
+            0.5508,
+            0.1667
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Buffer spaces are estimated near the middle of the linear program sequence."
+        }
       },
       {
         "statement": "The crossing distribution area creates niches suitable for flexible use and small-group meetings.",
@@ -66,48 +192,177 @@
           "circulation",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "crossing distribution area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1721,
+            0.563,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior distribution is not exposed; marker follows the central portion of the plan."
+        }
       },
       {
         "statement": "The facades provide sheltered retreats appreciated in relation to the surroundings.",
         "tags": [
           "facade",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "sheltered facade retreats",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1721,
+            0.4894,
+            0.1667
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "Perimeter recesses are visible along the long facade edges and corners."
+        }
       },
       {
         "statement": "The separation between the gardens and the schoolyard is judicious.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "gardens and schoolyard separation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4172,
+            0.9644,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The northern open edge is used for the landscape transition outside the building."
+        }
       },
       {
         "statement": "The modular wooden construction integrates sustainability and allows a height extension.",
         "tags": [
           "sustainability",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "modular wooden construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9344,
+            0.4993,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated low-rise bays and regular elevations visibly support the modular construction reading."
+        }
       },
       {
         "statement": "The repetitive timber framework ensures good economy, controlled spans, and effective load transfer.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "repetitive timber framework",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1721,
+            0.5017,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular horizontal elevation bands and repeated bays indicate the structural rhythm."
+        }
       },
       {
         "statement": "The structural choice is relevant given the weak soil and single-level construction.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "weak-soil structural choice",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9344,
+            0.5115,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structural assessment is anchored to the complete low, single-level building system."
+        }
       },
       {
         "statement": "The project meets fire-assurance requirements.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "fire-assurance requirements",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4162,
+            0.9527,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Fire judgment applies broadly to the complete sampled building."
+        }
       }
     ],
     "negative": [
@@ -116,20 +371,72 @@
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "distribution cores",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1668,
+            0.5725,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Cores are interior and indistinct; estimate follows the central distribution sequence."
+        }
       },
       {
         "statement": "The three-entrance operation and the partitioning of the UAPE activity rooms are questioned by the user.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "three-entrance operation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4881,
+            0,
+            0.1667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance operation is assigned to the southern-facing access edge of the linear building."
+        }
       },
       {
         "statement": "No response is given regarding the desired extension request.",
         "tags": [
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "desired extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9402,
+            0.7844,
+            0.1667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Potential extension is placed at the open northeastern perimeter beside the rectangular volume."
+        }
       }
     ],
     "keyword": [

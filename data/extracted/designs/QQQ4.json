@@ -18,7 +18,25 @@
           "layout",
           "open space",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "sequence of open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.56,
+            0.5038,
+            0.125
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Distributed volumes visibly define a linear sequence of interstitial open areas."
+        }
       },
       {
         "statement": "The differentiated urban development establishes a stable order while relating carefully to the topographical structure.",
@@ -26,14 +44,52 @@
           "urban integration",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "topographical structure",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6972,
+            0.3561,
+            0.25
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped volumes and differing elevations provide a distributed approximation of terrain response."
+        }
       },
       {
         "statement": "The simple floor plans are suitable for use and do justice to everyday school life.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "simple floor plans",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6972,
+            0.483,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Several regular rectangular footprints and stacked floor bands are clearly visible."
+        }
       },
       {
         "statement": "The linear promenade connects the buildings and makes the complex appear clear from an operational perspective.",
@@ -41,14 +97,51 @@
           "circulation",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "linear promenade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.56,
+            0.2922,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A longitudinal access zone is approximated through the aligned building ensemble."
+        }
       },
       {
         "statement": "The comparable structural grid provides a high degree of flexibility for later adjustments.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "structural grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6972,
+            0.5042,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated horizontal bands and regular volume spacing visibly support a consistent structural order."
+        }
       },
       {
         "statement": "The architectural expression is pleasantly unspectacular, while the constructive implementation is coherent and creates identity.",
@@ -56,14 +149,45 @@
           "expression",
           "structure",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6972,
+            0.4619,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The ensemble’s restrained repeated volumes and coherent construction are visible throughout the model."
+        }
       },
       {
         "statement": "The project largely meets sustainability requirements through its careful use of resources.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "sustainability requirements",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource use and sustainability performance are not spatially represented."
+        }
       }
     ],
     "negative": [
@@ -73,7 +197,24 @@
           "open space",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "fragmentary open-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4269,
+            0.6993,
+            0
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open areas between separate masses are visible but lack identifiable landscape structure."
+        }
       },
       {
         "statement": "The urban-development and open-space approach has significant deficiencies in level transitions and accessibility for protection and rescue.",
@@ -81,14 +222,50 @@
           "accessibility",
           "safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "level transitions and rescue access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5623,
+            0.2561,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower access edges are visible, but level changes and rescue infrastructure are not distinguishable."
+        }
       },
       {
         "statement": "The mixing of delivery and main access is not cleverly chosen.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "delivery and main access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1199,
+            0.4481,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A southern approach zone is approximated at the lower edge of the ensemble."
+        }
       },
       {
         "statement": "The grass playing field cannot be convincingly integrated into the local topography.",
@@ -96,14 +273,48 @@
           "landscape",
           "topography",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "grass playing field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8056,
+            0.78,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The field is assigned to a peripheral open zone; grass and terrain are not visible in the sample."
+        }
       },
       {
         "statement": "The southern parking areas are questionable in relation to the proposed green concept.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "southern parking areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6063,
+            0.0853,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Southern site edge is used as a constrained parking approximation without sampled parking geometry."
+        }
       },
       {
         "statement": "The classroom window openings are too large and risk excessive heat input on the west and south sides.",
@@ -111,7 +322,25 @@
           "facade",
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "classroom window openings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6972,
+            0.0598,
+            0.625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The southern and eastern facade bands are visible, though individual classroom openings are unresolved."
+        }
       }
     ],
     "keyword": [

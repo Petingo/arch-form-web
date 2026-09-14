@@ -19,7 +19,28 @@
           "layout",
           "functionality",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "ground world and upper world",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4834,
+            0.4982,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Central void and separated ground fragments visibly establish the cross-sectional relationship between lower and upper worlds."
+        }
       },
       {
         "statement": "The arrangement generates multiple differentiated spaces for workshops, sport, and well-being.",
@@ -27,14 +48,54 @@
           "open space",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "differentiated spaces for workshops, sport, and well-being",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2746,
+            0.3767,
+            0.1698
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower fragmented volumes and interstices visibly distribute multiple potential activity spaces across the site."
+        }
       },
       {
         "statement": "The upper crown gives all cells an equal and unobstructed relationship with the distant horizon.",
         "tags": [
           "visibility",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "upper crown",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7457,
+            0.5902,
+            0.8302
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The elevated crown forms a continuous ring, with cells visibly exposed around the unobstructed outer perimeter."
+        }
       },
       {
         "statement": "The vertical assembly relates coherently to the historic buildings in scale and hierarchy.",
@@ -42,14 +103,54 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "historic buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5815,
+            0.3493,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The visible lower fragments and elevated ring provide a distributed scale-and-hierarchy comparison across the assembly."
+        }
       },
       {
         "statement": "The ground-level architecture allows inmates to identify with their division.",
         "tags": [
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground-level architecture",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2928,
+            0.1878,
+            0.1698
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A distinct lower autonomous volume anchors the ground-level divisions visible beneath the elevated ring."
+        }
       }
     ],
     "negative": [
@@ -59,7 +160,26 @@
           "circulation",
           "operation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "inmate and delivery flows",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5815,
+            0.3493,
+            0.1698
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distributed base and surrounding ring imply overlapping site circulation, though individual flows are not rendered."
+        }
       },
       {
         "statement": "The underground connection has no natural light and lengthens vertical routes, making management difficult.",
@@ -67,14 +187,52 @@
           "daylight",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "underground connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4519,
+            0.6421,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The connection is not distinguishable externally; its approximate location is constrained to the lowest sampled surface."
+        }
       },
       {
         "statement": "The underground position does not comply with the provisions concerning management of the water table.",
         "tags": [
           "topography",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "underground position",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6462,
+            0.7428,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Water-table implications concern an unrendered subterranean condition, approximated at the model’s lowest perimeter region."
+        }
       },
       {
         "statement": "The long horizontal circuit requires segmentation by grids or doors and will be disrupted by the inevitable cutoff in the first stage.",
@@ -82,7 +240,28 @@
           "circulation",
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "long horizontal circuit",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2904,
+            0.6701,
+            0.6651
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated elevated ring visibly creates a continuous horizontal circuit around the central void."
+        }
       },
       {
         "statement": "The structural effort required to support the ring is contradictory with the systematic vertical openings of each cell and requires further study.",
@@ -90,14 +269,56 @@
           "structure",
           "facade",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "floating ring",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.76,
+            0.5999,
+            0.8302
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "The elevated ring and repeated cell openings are clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The contrast between the two constructive languages underlines the tension or difficulty of supporting the floating ring.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "two constructive languages",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5844,
+            0.3609,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Contrasting elevated ring and fragmented lower volumes are visibly legible as two distinct constructive expressions."
+        }
       }
     ],
     "keyword": [

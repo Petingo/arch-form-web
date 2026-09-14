@@ -18,7 +18,26 @@
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "building volumetrics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.052,
+            0.5295,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Outer square massing is clearly legible across the top and elevation views."
+        }
       },
       {
         "statement": "The courtyard and diagonally offset staircases create exciting, usable cluster units.",
@@ -26,7 +45,24 @@
           "layout",
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "courtyard and offset staircases",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4944,
+            0.4246,
+            0.5455
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central courtyard is clearly visible in plan; diagonal circulation traces provide the approximate cluster anchor."
+        }
       },
       {
         "statement": "The technical facade elements give the building an appropriate public appearance.",
@@ -34,7 +70,24 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "technical facade elements",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9733,
+            0.4899,
+            0.4545
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east"
+          ],
+          "rationale": "East elevation provides a representative visible facade surface for the technical expression."
+        }
       },
       {
         "statement": "The compact arrangement leaves usable land reserves for later development.",
@@ -42,7 +95,24 @@
           "massing",
           "flexibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "usable land reserves",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2722,
+            0.2814,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Approximate perimeter land reserve is anchored beside the compact building footprint."
+        }
       },
       {
         "statement": "The upper-floor plan demonstrates convincing potential in lighting and orientation.",
@@ -50,7 +120,26 @@
           "daylight",
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3522,
+            0.4958,
+            0.8636
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper-level potential is placed on an elevated peripheral floor region visible in plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -60,7 +149,25 @@
           "landscape",
           "topography",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces and terrain integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2993,
+            0.2574,
+            0.0455
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower perimeter zone approximates the outdoor-space and terrain interface without identifiable landscape elements."
+        }
       },
       {
         "statement": "The transition to the sunken fields contradicts the intended continuous outdoor space, while the forecourt appears cramped.",
@@ -68,14 +175,49 @@
           "topography",
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sunken fields and cramped forecourt",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2993,
+            0.2574,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Low peripheral placement represents the stated sunken transition and forecourt constraint."
+        }
       },
       {
         "statement": "The sports court lacks the spaciousness needed for the intended central outdoor space.",
         "tags": [
           "open space",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "sports court",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2722,
+            0.2814,
+            0.0455
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central rectangular void is distinctly visible in the top view and anchors the outdoor court judgment."
+        }
       },
       {
         "statement": "The access system is inefficient and requires additional escape stairs because of the distances.",
@@ -83,7 +225,25 @@
           "circulation",
           "fire safety",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "access system and escape stairs",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9014,
+            0.4082,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A peripheral building anchor represents the circulation system, though stairs are not individually distinguishable."
+        }
       },
       {
         "statement": "The narrow spaces and small atriums on the classroom floors are critical.",
@@ -91,14 +251,43 @@
           "layout",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "classroom floors and small atriums",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3522,
+            0.4958,
+            0.7273
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Elevated interior classroom organization is approximated on the sampled upper-floor surface."
+        }
       },
       {
         "statement": "The complex support system entails high costs.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "support system and high costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent in the sampled exterior geometry."
+        }
       },
       {
         "statement": "The organization of the floor plans is complicated and sometimes labyrinthine in operation.",
@@ -106,7 +295,26 @@
           "layout",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "complicated floor-plan organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6561,
+            0.5554,
+            0.5455
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad internal organization is approximated within the compact building envelope; labyrinthine circulation is not directly visible."
+        }
       }
     ],
     "keyword": [

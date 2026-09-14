@@ -17,28 +17,103 @@
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "transversal connections to school park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2848,
+            0.056,
+            0.0952
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Permeability is anchored through the low base toward the southern open edge."
+        }
       },
       {
         "statement": "The declared desire to manage rainwater through draining pavement is appreciated.",
         "tags": [
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "draining pavement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.289,
+            0.0562,
+            0.0238
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pavement drainage is approximated across the southern ground-level base."
+        }
       },
       {
         "statement": "The technical report clearly describes the intervention on existing buildings.",
         "tags": [
           "structure",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "intervention on existing buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1903,
+            0.5224,
+            0.1429
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Existing-building intervention is assigned to the extended low base."
+        }
       },
       {
         "statement": "The system concept for all buildings is exhaustive and clear.",
         "tags": [
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "system concept for all buildings",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4877,
+            0.6053,
+            0.5476
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The sampled proposal combines a repetitive base with a distinct tall compact volume."
+        }
       }
     ],
     "negative": [
@@ -48,7 +123,26 @@
           "massing",
           "open space",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "southern triangular space and excessive footprint",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4437,
+            0.0551,
+            0.0476
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Top view visibly shows the broad base occupying the southern triangular region."
+        }
       },
       {
         "statement": "The linearity and continuity of the urban base have been lost in the reworking.",
@@ -56,21 +150,78 @@
           "urban integration",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "urban base linearity and continuity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5045,
+            0.2666,
+            0.1905
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The extended low base provides the geometric anchor for the urban continuity judgment."
+        }
       },
       {
         "statement": "The architectural expression does not remove doubts about the building's identity as a student house.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "student-house identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8564,
+            0.7042,
+            0.5952
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Identity concern is assigned to the dominant tall compact volume."
+        }
       },
       {
         "statement": "The distorted movement given to the originally geometrically complex volume is considered superfluous.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "distorted movement of the volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8564,
+            0.7042,
+            0.6429
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The tall eastern volume is the visibly differentiated massing element."
+        }
       },
       {
         "statement": "The excessive formalism of the tree rows and the lack of hierarchy among spaces are not convincing.",
@@ -78,7 +229,26 @@
           "landscape",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "tree rows and hierarchy among spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3663,
+            0.0583,
+            0.0476
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape organization is approximated along the low southern site edge."
+        }
       },
       {
         "statement": "The mixing of pedestrian and vehicle uses seems problematic, and the layout of the stalls needs to be rethought.",
@@ -86,14 +256,50 @@
           "circulation",
           "safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian and vehicle uses",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2503,
+            0.0545,
+            0.0238
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Mixed circulation is assigned to the southern ground-level approach zone."
+        }
       },
       {
         "statement": "The major roof-structure change appears technically unjustified and difficult to reconcile with conservation requirements.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "major roof-structure change",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8564,
+            0.7042,
+            0.9762
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof intervention is anchored at the top of the tall compact volume."
+        }
       },
       {
         "statement": "The extensive glazing should be checked because it is critical for summer comfort and energy performance.",
@@ -101,7 +307,26 @@
           "facade",
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "extensive glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8706,
+            0.625,
+            0.6429
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Dense facade fields on the tall volume provide the glazing anchor."
+        }
       }
     ],
     "keyword": [

@@ -16,7 +16,26 @@
           "safety",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "non-introverted structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5356,
+            0.2104,
+            0.5
+          ],
+          "radius": 0.304,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Building mass remains visually connected to its perimeter and landscape rather than forming an isolated inward-facing block."
+        }
       },
       {
         "statement": "The landscape element and principle of fencing liberate the use, which appears secondarily behind the hedge.",
@@ -24,14 +43,51 @@
           "landscape",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "hedge-defined fencing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2833,
+            0.1286,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Perimeter enclosure is approximated along the south-west landscape edge, behind which the building volume recedes."
+        }
       },
       {
         "statement": "The single-floor disposition is viewed positively from an operational point of view.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "single-floor disposition",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3043,
+            0.1286,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled geometry consistently presents a compact single-storey arrangement across plan and elevations."
+        }
       },
       {
         "statement": "The landscape situation shapes the interior spaces and enables a high degree of identification with the location and complex.",
@@ -39,7 +95,26 @@
           "landscape",
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "landscape-shaped interior spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5757,
+            0.7046,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The recessed central angle and surrounding wings provide the clearest spatial anchor for landscape-influenced interiors."
+        }
       },
       {
         "statement": "A harmonious atmosphere is created that is both open and protected.",
@@ -47,7 +122,26 @@
           "expression",
           "privacy",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "open and protected atmosphere",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7019,
+            0.5387,
+            0.375
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central recessed geometry supports an approximate reading of openness balanced by enclosure."
+        }
       }
     ],
     "negative": [
@@ -56,7 +150,25 @@
         "tags": [
           "facade",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "full-surface glass facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5415,
+            0,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The south-facing envelope is the most useful sampled surface for the stated exterior-connection concern."
+        }
       },
       {
         "statement": "The usage layout is not clear enough and is unsatisfactory in terms of security, leading to high operating costs for monitoring and maintenance.",
@@ -64,27 +176,95 @@
           "layout",
           "safety",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "unclear usage layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7301,
+            0.5567,
+            0.375
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The recessed-angle junction is a plausible anchor for unclear circulation and monitoring relationships."
+        }
       },
       {
         "statement": "The rooms arranged on both sides of the recessed angle are not possible because of the risk of collusion.",
         "tags": [
           "layout",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "rooms beside recessed angle",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7092,
+            0.5567,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The paired wing edges bordering the visible recessed angle provide the strongest plan-based approximation."
+        }
       },
       {
         "statement": "The static concept appears questionable because large spans are proposed without supports.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "unsupported large spans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7225,
+            0.8778,
+            0.875
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The upper footprint region anchors the roof-spanning structural concern, though supports are not distinguishable."
+        }
       },
       {
         "statement": "Operationally, the project has significant weaknesses.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "operational weaknesses",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a broad operational judgment without a specific spatial referent."
+        }
       }
     ],
     "keyword": [

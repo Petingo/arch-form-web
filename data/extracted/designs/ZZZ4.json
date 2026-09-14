@@ -16,7 +16,26 @@
         "tags": [
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "perpendicular wall panels and two fields",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6742,
+            0.293,
+            0.5385
+          ],
+          "radius": 0.3168,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view shows perpendicular fields and elevations confirm their layered volumetric composition."
+        }
       },
       {
         "statement": "The expressive sports figure gains enough strength for the relatively small building to assert itself independently in the urban space.",
@@ -24,35 +43,128 @@
           "expression",
           "scale",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "expressive sports figure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1616,
+            0.0832,
+            0.6923
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinctive raised sports volume is concentrated at the southwest end of the footprint."
+        }
       },
       {
         "statement": "The setbacks and contrasting building shapes nevertheless create volumetric unity.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "setbacks and contrasting building shapes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6742,
+            0.293,
+            0.5
+          ],
+          "radius": 0.324,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distributed marker captures the stepped setbacks and contrasting masses across the building."
+        }
       },
       {
         "statement": "The atrium and central organization create surprisingly new spatial experiences within a familiar corridor arrangement.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "atrium and central organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3385,
+            0.293,
+            0.3846
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Top view indicates a central courtyard-like void within the surrounding corridor arrangement."
+        }
       },
       {
         "statement": "The school wing structure is functional, efficient, and easy to implement.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "school wing structure",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7115,
+            0.293,
+            0.3846
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "School wing is approximated along the long eastern building arm."
+        }
       },
       {
         "statement": "The project achieves a strong urban-development response and a spatially convincing school proposal.",
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "whole school proposal",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6369,
+            0.293,
+            0.4615
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Broad marker covers the visible school mass and its urban-facing spatial response."
+        }
       }
     ],
     "negative": [
@@ -61,21 +173,75 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "small courtyard and differentiated planting, lounge, and hedge areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1931,
+            0.3039,
+            0.0385
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Small southwest courtyard edge is the plausible location for planting and landscape subdivisions."
+        }
       },
       {
         "statement": "The courtyard is hardly suitable as a publicly usable neighbourhood space.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3055,
+            0.293,
+            0.0769
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central-south open space is approximated from the visible footprint gap."
+        }
       },
       {
         "statement": "The open arrangement of the kiosk is an operational disadvantage.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "kiosk",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1887,
+            0.1702,
+            0.1923
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Kiosk is not distinguishable; constrained near the likely public-facing southwest frontage."
+        }
       },
       {
         "statement": "The classroom dimensions are at the lower limit and the exposed collections restrict usability and flexibility.",
@@ -83,42 +249,143 @@
           "proportion",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom dimensions and exposed collections",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6742,
+            0.293,
+            0.4615
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Interior classrooms are unexposed, so the long school wing provides the constrained anchor."
+        }
       },
       {
         "statement": "The front glazing of the gymnasiums and the equipment-room design may restrict sports use.",
         "tags": [
           "functionality",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "front glazing of the gymnasiums and equipment-room design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1903,
+            0.0606,
+            0.6538
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southwest sports volume is the likely gymnasium frontage and equipment-support location."
+        }
       },
       {
         "statement": "The sports supporting structure is not convincing conceptually or technically, particularly because of deformation and vibration behaviour.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "sports supporting structure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1989,
+            0.0832,
+            0.6923
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Raised sports volume provides the only visible anchor for its supporting structure."
+        }
       },
       {
         "statement": "The very large sports-hall windows increase cooling demand and the risk of summer overheating.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "very large sports-hall windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1466,
+            0.038,
+            0.6154
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "South-facing edge of the raised sports volume is the constrained window location."
+        }
       },
       {
         "statement": "The building violates the applicable building regulations despite moving away from the construction line.",
         "tags": [
           "safety",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building construction line and regulations",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5411,
+            0.293,
+            0.2692
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South site edge approximates the referenced construction-line relationship."
+        }
       },
       {
         "statement": "The below-average space efficiency, oversized basement, and atrium fire-protection requirements lead to poor economic efficiency.",
         "tags": [
           "cost",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "economic efficiency",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Judgment concerns combined cost, efficiency, basement, and fire-protection performance."
+        }
       }
     ],
     "keyword": [

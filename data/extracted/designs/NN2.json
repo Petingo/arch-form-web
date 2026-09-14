@@ -16,56 +16,201 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "spacious break area and prominent address",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5025,
+            0,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing forecourt is approximated at the low front edge, linking the building toward adjacent green space."
+        }
       },
       {
         "statement": "The two-story horizontal structure fits well into the small-scale residential context.",
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "two-story horizontal structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2992,
+            0.2967,
+            0.5714
+          ],
+          "radius": 0.30000000000000004,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevations clearly show a compact, low, horizontally extended two-level volume."
+        }
       },
       {
         "statement": "The semi-public spaces allow diverse and sometimes simultaneous use by different user groups.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "semi-public spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3047,
+            0.4165,
+            0.5714
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior use zones are not distinguishable; placement is constrained near the visible central circulation and atrium grouping."
+        }
       },
       {
         "statement": "The covered access and expansion options promise a high level of user-friendliness for the school and third parties.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "covered access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5025,
+            0,
+            0.1429
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is approximated along the south/front perimeter where the entrance address is implied."
+        }
       },
       {
         "statement": "The meandering circulation figure creates manageable, neighborly situations within the large school building.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "meandering circulation figure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3663,
+            0.4165,
+            0.5714
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top view shows repeated offset atrium and circulation patterns forming a meandering central figure."
+        }
       },
       {
         "statement": "The minimal supporting structure and prefabricated components allow quick construction.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "minimal supporting structure and prefabricated components",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction speed and prefabrication describe the building system without a specific geometric location."
+        }
       },
       {
         "statement": "The interweaving of rooms, access routes, and atriums creates promising spatial quality and enables different forms of learning.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "interweaving of rooms, access routes, and atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6378,
+            0.4165,
+            0.5714
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central top-view voids and surrounding point rows provide the strongest visible evidence of interwoven spatial organization."
+        }
       },
       {
         "statement": "The clear and natural building volume gives the school a strong character and high identification potential.",
         "tags": [
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "clear natural building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7008,
+            0.291,
+            0.5714
+          ],
+          "radius": 0.30000000000000004,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Orthographic views consistently show a simple, compact horizontal envelope with clear two-story massing."
+        }
       }
     ],
     "negative": [
@@ -74,20 +219,69 @@
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "primary-school playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7044,
+            0.082,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The required playground is not identifiable; its likely adjacent open-space edge is marked near the building perimeter."
+        }
       },
       {
         "statement": "Stabilizing the upper floor with cantilevered supports is not optimal.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "cantilevered supports at upper floor",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7008,
+            0.291,
+            0.7857
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper-floor support locations are not distinguishable, so the marker approximates an elevated perimeter position."
+        }
       },
       {
         "statement": "The building's opportunity for natural ventilation is not used, and standardized ventilation is recommended without justification.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "natural ventilation and standardized ventilation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Ventilation strategy is a performance judgment without a reliable geometric marker in the sampled exterior cloud."
+        }
       }
     ],
     "keyword": [

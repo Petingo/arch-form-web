@@ -19,7 +19,26 @@
           "urban integration",
           "open space",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "outdoor spaces and addressing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5127,
+            0.4493,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central and perimeter open areas are approximated from the staggered footprints and visible entry-facing gaps."
+        }
       },
       {
         "statement": "The building complex and open-space design form a clear and memorable whole.",
@@ -27,7 +46,28 @@
           "massing",
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "building complex and open-space design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5034,
+            0.5833,
+            0.6
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The paired staggered volumes and linking upper element are clearly legible across all calibrated views."
+        }
       },
       {
         "statement": "The main hall offers a clear, spacious, and exciting spatial experience.",
@@ -35,35 +75,134 @@
           "layout",
           "identity",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "main hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.334,
+            0.251,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior hall is not distinguishable; location is approximated within the larger lower-left building volume."
+        }
       },
       {
         "statement": "The large building's access routes and platforms bring identity to the central space.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "large building's access routes and platforms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6176,
+            0.4452,
+            0.6
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Access and platforms are constrained to the large volume and central linking space visible in the model."
+        }
       },
       {
         "statement": "The wooden structure and upper-floor grid are cleverly chosen for the respective requirements.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "wooden structure and upper-floor grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6875,
+            0.7198,
+            0.8
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular upper-level point rows support the grid placement, while material remains unobservable."
+        }
       },
       {
         "statement": "The floor plans offer extremely good flexibility for room changes.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2641,
+            0.2537,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Plan flexibility is assigned to the larger lower building, though internal partitions are not sampled."
+        }
       },
       {
         "statement": "The roof and facade are used for electricity production.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "roof and facade",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7529,
+            0.7695,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper roof footprint and exterior envelope are visible; electricity-producing elements are not distinguishable."
+        }
       }
     ],
     "negative": [
@@ -72,7 +211,25 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "serpentine ramp",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.334,
+            0.251,
+            0.1
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal ramp is absent from the exterior sample and approximated near the lowered entrance zone."
+        }
       },
       {
         "statement": "The required playing field and east-west connection along the city stream are not proven.",
@@ -80,49 +237,185 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "playing field and east-west connection along the city stream",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5052,
+            0.0798,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The linear site edge is placed along the southern perimeter, aligned with the stated east-west connection."
+        }
       },
       {
         "statement": "The building expression does not correspond to the intended use of the university.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7225,
+            0.7184,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall architectural expression is represented by the visible paired massing and staggered envelope."
+        }
       },
       {
         "statement": "The smaller building's foyer is too small for the three public halls.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "smaller building's foyer",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7924,
+            0.7157,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The smaller upper-right volume is visible, but its foyer cannot be separated from the sampled exterior."
+        }
       },
       {
         "statement": "The many long corridors with little daylight are narrow.",
         "tags": [
           "circulation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2291,
+            0.2551,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior corridors are not visible; the estimate follows the elongated lower building footprint."
+        }
       },
       {
         "statement": "The use groups are neither clearly separated nor logically adjacent.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "use groups",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5477,
+            0.4479,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Program adjacency is assigned to the central overlap between the two visible volumes and connector."
+        }
       },
       {
         "statement": "All small lecture halls and some required operating procedures are missing.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "small lecture halls and operating procedures",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7924,
+            0.7157,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Missing functions are approximated within the smaller building, whose interior organization is not represented."
+        }
       },
       {
         "statement": "The large room depths on the lower floors result in insufficient daylight conditions.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "large room depths on the lower floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.299,
+            0.2523,
+            0.2
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-floor placement follows the larger building mass and the lowest repeated elevation rows."
+        }
       }
     ],
     "keyword": [

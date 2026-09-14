@@ -18,49 +18,181 @@
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "quality green spaces around construction",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1803,
+            0.3494,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open green areas are visible around the low rectangular hall footprint."
+        }
       },
       {
         "statement": "The two precisely laid out soft-mobility axes connect the building to other campus facilities.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "two soft-mobility axes",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4874,
+            0.0468,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Two approach routes are approximated crossing the surrounding campus open space."
+        }
       },
       {
         "statement": "The peripheral gallery offers exterior extensions and addresses fire-safety issues.",
         "tags": [
           "open space",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "peripheral gallery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1445,
+            0.5008,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The gallery is anchored along the hall perimeter visible in plan and elevations."
+        }
       },
       {
         "statement": "The layout of the program is logical and rational.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "program layout",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5443,
+            0.4855,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Logical organization is assigned across the clearly bounded hall volume."
+        }
       },
       {
         "statement": "The building offers great flexibility in distributing the program across its levels.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "program across levels",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4865,
+            0.5008,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Double-height and upper-platform bands are visible across the hall elevations."
+        }
       },
       {
         "statement": "The construction system allows a possible future extension to be considered with confidence.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "future extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8863,
+            0.4855,
+            0.3
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Potential extension is placed at the hall's eastern end."
+        }
       },
       {
         "statement": "The shed roof provides excellent natural lighting and good potential for photovoltaic electricity production.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "shed roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7074,
+            0.4918,
+            0.9
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper roof profile and repeated roof-light bands are visible in the elevations."
+        }
       }
     ],
     "negative": [
@@ -69,14 +201,54 @@
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "industrial expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4865,
+            0.5008,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The low linear hall reads as a single industrial building volume."
+        }
       },
       {
         "statement": "The proposal is not part of the family of truly compact projects.",
         "tags": [
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "compact project proportion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4865,
+            0.5008,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad rectangular plan and low profile provide direct proportional evidence."
+        }
       },
       {
         "statement": "The consumption of gray energy appears relatively high, partly because of the heavily glazed facades and the two-and-a-half-level distribution.",
@@ -84,14 +256,52 @@
           "sustainability",
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "heavily glazed facades and level distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6598,
+            0.5008,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Glazed facade bands and stacked upper platform are represented across the hall elevations."
+        }
       },
       {
         "statement": "A significant improvement could be obtained by guaranteeing the use of recycled glass and steel.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "recycled glass and steel",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4557,
+            0.4964,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Material proposal is anchored to the visible structural and envelope system."
+        }
       }
     ],
     "keyword": [

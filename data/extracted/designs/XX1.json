@@ -19,7 +19,27 @@
           "massing",
           "topography",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "several building parts",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5612,
+            0.5422,
+            0.4441
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple offset parts, backbone and wings are clearly legible across the top and elevations."
+        }
       },
       {
         "statement": "The main volume provides noise protection for the outdoor spaces behind it.",
@@ -27,7 +47,27 @@
           "massing",
           "acoustics",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "main noise-protective volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5919,
+            0.5603,
+            0.5553
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The long parallel backbone dominates the footprint and forms repeated horizontal elevation bands."
+        }
       },
       {
         "statement": "The volumes engage with the slope edge and striking rock formation, creating an interaction with the morphology of the place.",
@@ -35,7 +75,26 @@
           "landscape",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "slope edge and rock formation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3272,
+            0.6925,
+            0.2217
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Terrain and rock are not distinct point-cloud elements; the anchor follows the offset landscape-facing edge."
+        }
       },
       {
         "statement": "The landscaped right of way leads through a park-like green space to the covered access situation.",
@@ -43,7 +102,26 @@
           "landscape",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "landscaped right of way and covered access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.218,
+            0.321,
+            0.1106
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Access is approximated at the low front-left edge of the articulated footprint."
+        }
       },
       {
         "statement": "The formation of the building structure connects differentiated and well-oriented open spaces with the interior organization.",
@@ -51,7 +129,26 @@
           "layout",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "differentiated open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.33,
+            0.7116,
+            0.2217
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Outdoor spaces are represented by the gaps and recesses between offset building parts."
+        }
       },
       {
         "statement": "The two-storey volume sits relatively reservedly in the landscape and organizes the school facilities in a child-friendly manner.",
@@ -59,7 +156,27 @@
           "scale",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two-storey volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5612,
+            0.5422,
+            0.5553
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Two-storey massing and reserved landscape placement are clear in all elevations."
+        }
       },
       {
         "statement": "The shifted sections make corridors narrow and expand in interesting ways, providing clear views of the surrounding landscape.",
@@ -67,7 +184,26 @@
           "circulation",
           "visibility",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "shifted corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5337,
+            0.5312,
+            0.5553
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Corridors are interior; the estimate follows the central shifted junction of the volumes."
+        }
       },
       {
         "statement": "The upper level is well ventilated away from the noise, while the lower rooms are protected by the existing earth wall.",
@@ -75,7 +211,26 @@
           "ventilation",
           "acoustics",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "upper level ventilation and lower earth-wall protection",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5282,
+            0.5695,
+            0.7776
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Upper and lower levels are visible, while ventilation and earth-wall conditions remain inferred."
+        }
       },
       {
         "statement": "The pent roof brings additional light into the depth of the rooms and breaks up the volume.",
@@ -83,7 +238,27 @@
           "daylight",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "pent roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5424,
+            0.5078,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The roofed articulated profile is visible as the upper edge and stepped silhouette."
+        }
       },
       {
         "statement": "The project blends unobtrusively yet spectacularly into the landscape, with a sufficiently strong building expression.",
@@ -91,7 +266,27 @@
           "urban integration",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "building expression in the landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5919,
+            0.5603,
+            0.4441
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Overall integration and articulated expression are represented by the complete sampled building."
+        }
       },
       {
         "statement": "Low volume requirements, a simple support system and minor topographic interventions enable economical implementation.",
@@ -99,7 +294,26 @@
           "cost",
           "structure",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "economical implementation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5765,
+            0.5513,
+            0.4441
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Economy is non-geometric; marker approximates the simple, low-rise primary volume."
+        }
       }
     ],
     "negative": [
@@ -108,21 +322,78 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "set-back entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1841,
+            0.3126,
+            0.1106
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Entrance is not identifiable; constrained to the recessed low front edge."
+        }
       },
       {
         "statement": "The proposed disposition of the two kindergarten rooms cannot be combined.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two kindergarten rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5254,
+            0.5887,
+            0.3329
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior rooms are absent; estimate placed in the lower central building zone."
+        }
       },
       {
         "statement": "The reception is somewhat decentralized and cannot be found immediately from the main entrance.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "reception",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.218,
+            0.321,
+            0.2217
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Reception is not visible; location is constrained near the likely main access edge."
+        }
       },
       {
         "statement": "The wheelchair-accessible ramps are very long, so the access theme is overused and requires a lot of space.",
@@ -130,7 +401,26 @@
           "accessibility",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "wheelchair-accessible ramps",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2932,
+            0.4627,
+            0.1106
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Ramps are absent from the sample; marker follows the low frontage and access approach."
+        }
       },
       {
         "statement": "The separation of vertical access for fire safety reasons would be difficult and complex, and additional emergency exits are required.",
@@ -138,28 +428,96 @@
           "fire safety",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "vertical fire access",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5459,
+            0.5331,
+            0.5553
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Fire circulation is interior; the anchor uses the central vertical organization."
+        }
       },
       {
         "statement": "The relatively high level of building development has a negative impact on operation and gray energy.",
         "tags": [
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building development and gray energy",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational and embodied-energy criticism has no useful single geometric location."
+        }
       },
       {
         "statement": "The proposed insulation for the ground-floor overhang is not sufficient for the MINERGIE-P standard.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor overhang insulation",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6533,
+            0.5966,
+            0.1106
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Insulation is not visible; estimate follows the lower overhanging edge."
+        }
       },
       {
         "statement": "The wet cells are only partially grouped, and unresolved technology shafts will reduce usable areas.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "wet cells and technology shafts",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5459,
+            0.5331,
+            0.3329
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior service grouping is absent; marker uses the central service-bearing portion of the building."
+        }
       }
     ],
     "keyword": [

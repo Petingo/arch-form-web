@@ -13,7 +13,25 @@
         "statement": "The main entrance is clearly arranged.",
         "tags": [
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4784,
+            0.049,
+            0.1875
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-central entry position is indicated by the organized courtyard-facing plan."
+        }
       }
     ],
     "negative": [
@@ -23,7 +41,24 @@
           "circulation",
           "scale",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "inner access corridor route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4062,
+            0.5241,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central courtyard-side zone approximates the internal access route and cramped support spaces."
+        }
       },
       {
         "statement": "The very flat, freely structured and rather hermetic-looking facade is not a local contribution to the village space.",
@@ -31,14 +66,51 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "flat hermetic facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3759,
+            0.0654,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Flat outer envelope and limited openings are visible on the elevations."
+        }
       },
       {
         "statement": "The inner courtyard cannot compensate for the failure to activate and enliven the outdoor space.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "inner courtyard and outdoor space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4556,
+            0.4946,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central courtyard is clearly visible, while its weak outdoor activation is assessed there."
+        }
       }
     ],
     "keyword": [

@@ -19,7 +19,26 @@
           "urban integration",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "new body and taller head",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6222,
+            0.7569,
+            0.62
+          ],
+          "radius": 0.3115,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Stepped wing and taller head are visible as the principal massing toward the northern urban edge."
+        }
       },
       {
         "statement": "The rhythm of full and empty spaces is uniform and clear, making the citadel layout legible.",
@@ -27,14 +46,49 @@
           "massing",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "full-and-empty rhythm",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4049,
+            0.2444,
+            0.48
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Repeated dense and open vertical bays are clearly legible across the lower wing facade."
+        }
       },
       {
         "statement": "The paths are clear and well delineated.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2977,
+            0.1471,
+            0.02
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A southern ground-level access zone is assigned from the site-facing footprint, though paths are not separately resolved."
+        }
       },
       {
         "statement": "The existing roof typology is recovered as a strong trademark that gives the new construction personality.",
@@ -42,21 +96,77 @@
           "expression",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "existing roof typology",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.752,
+            0.8315,
+            0.96
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinctive pitched roof forms are visible at the taller head and across the stepped massing."
+        }
       },
       {
         "statement": "The linear and simple coworking and costudying layout can be recalibrated for new needs.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "coworking and costudying layout",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3513,
+            0.1957,
+            0.48
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The long wing provides the most plausible surface anchor for the linear shared-work layout."
+        }
       },
       {
         "statement": "The new building has good envelope characteristics, with an optimal insulation level and opaque-to-glass ratio.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1905,
+            0.0499,
+            0.58
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Opaque and glazed envelope performance is assigned to the exposed southern wing facade."
+        }
       }
     ],
     "negative": [
@@ -65,7 +175,25 @@
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "southern area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3513,
+            0.1957,
+            0.04
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern edge of the sampled complex is the plausible location for the potentially residual open space."
+        }
       },
       {
         "statement": "The relationship between green and mineral surfaces and the arrangement of trees should be reconsidered.",
@@ -73,34 +201,120 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "green and mineral surfaces and trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2977,
+            0.1471,
+            0.04
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern ground-level surroundings are visible only as an undifferentiated exterior zone in the point cloud."
+        }
       },
       {
         "statement": "The complex ground-floor roof structure is not completely resolved and should be substantially reworked.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor roof structure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4721,
+            0.3358,
+            0.7
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower wing roof edge and stepped junction provide an approximate anchor for the unresolved structure."
+        }
       },
       {
         "statement": "The alignment of the load-bearing system between the two building bodies and the facade portals still needs to be checked.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "load-bearing system and facade portals",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6716,
+            0.4805,
+            0.56
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The interface between the long wing and taller head is the relevant visible alignment zone."
+        }
       },
       {
         "statement": "The decentralized ventilation proposal must be verified in depth for its suitability for certification.",
         "tags": [
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "decentralized ventilation proposal",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.719,
+            0.2603,
+            0.54
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Ventilation is not identifiable externally, so it is approximated within the exposed head-building envelope."
+        }
       },
       {
         "statement": "The ecological and health aspects of the materials are not explicitly addressed.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "ecological and health aspects of materials",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material ecology and health are performance judgments without a useful spatial referent in the sampled geometry."
+        }
       }
     ],
     "keyword": [

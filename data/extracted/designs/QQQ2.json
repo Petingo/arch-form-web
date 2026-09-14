@@ -17,7 +17,24 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "new buildings and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.506,
+            0.6409,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Perpendicular wing and gymnasium visibly define two distinct outdoor spaces around the courtyard."
+        }
       },
       {
         "statement": "The landscape concept creates a natural embedding, a clear address and diverse open spaces with high atmospheric and functional quality.",
@@ -25,7 +42,24 @@
           "landscape",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "landscape concept and open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2054,
+            0.6409,
+            0
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Western park, courtyard, and eastern field are visible as differentiated exterior zones."
+        }
       },
       {
         "statement": "The moderate height development and striking longitudinal section are appropriate and harmonious for a primary school.",
@@ -33,14 +67,54 @@
           "scale",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "moderate-height development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6099,
+            0.6193,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Moderate-height wing and contrasting longitudinal section are clearly visible across the model views."
+        }
       },
       {
         "statement": "The internal structure of the elongated building is simple and clear.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "elongated building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3737,
+            0.6193,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The long northern wing is directly legible in the top and elevation projections."
+        }
       },
       {
         "statement": "The first floor forms a memorable learning landscape with three clusters and well-lit classrooms.",
@@ -48,7 +122,26 @@
           "layout",
           "daylight",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "first-floor learning landscape",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3978,
+            0.6193,
+            0.7
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The first-floor band is visible, while clusters and classroom interiors require an approximate anchor."
+        }
       },
       {
         "statement": "The clearly structured areas with their own entrances convey a feeling of home and enable autonomous use.",
@@ -56,7 +149,25 @@
           "layout",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "areas with their own entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1805,
+            0.6193,
+            0.4
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Separate entrances are approximated along the long wing’s southern frontage without distinct markers."
+        }
       },
       {
         "statement": "The construction system should enable efficient and sustainable construction through a clear grid and robust details.",
@@ -64,7 +175,26 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4167,
+            0.6193,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Regular longitudinal massing and repeated elevation bands provide direct evidence for a clear structural system."
+        }
       }
     ],
     "negative": [
@@ -73,35 +203,128 @@
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "grass playing field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6969,
+            0.2411,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The eastern open field is visible beside the gymnasium, though embankment geometry is only partially represented."
+        }
       },
       {
         "statement": "The arrangement of group rooms in the existing building is unsuitable.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "group rooms in existing building",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2019,
+            0.6193,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Existing group rooms are not distinguishable; the anchor approximates the western portion of the wing."
+        }
       },
       {
         "statement": "The care-area intersections with the staircases are not ideal.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "care-area intersections with staircases",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5884,
+            0.6193,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Care and stair intersections are internal and approximated within the central wing."
+        }
       },
       {
         "statement": "The large room depths on the ground and basement floors create inadequate lighting conditions.",
         "tags": [
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "large room depths",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.506,
+            0.6409,
+            0.2
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground and basement levels are constrained by the lower elevation bands of the elongated wing."
+        }
       },
       {
         "statement": "The determining facade material is viewed critically with regard to the resulting expression.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "determining facade material",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6646,
+            0.046,
+            0.6
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Facade surfaces are clearly visible in elevations, but sampled points do not identify material."
+        }
       },
       {
         "statement": "The stepped section reduces the available space and the efficiency of the photovoltaic system.",
@@ -109,7 +332,27 @@
           "massing",
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "stepped section",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8247,
+            0.6193,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The stepped longitudinal profile is directly visible toward the eastern end of the wing."
+        }
       },
       {
         "statement": "The high spatial quality is limited to the well-lit clusters on the top floor, while lower rooms are less flexible and difficult to use in terms of lighting.",
@@ -117,7 +360,25 @@
           "daylight",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "well-lit clusters on the top floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4407,
+            0.6193,
+            0.9
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Top-floor bands are visible, but lighting quality and cluster interiors are not directly represented."
+        }
       }
     ],
     "keyword": [

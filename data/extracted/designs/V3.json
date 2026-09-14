@@ -16,28 +16,101 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "elongated building parallel to the street",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4865,
+            0.0602,
+            0.3571
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Long street-facing bar is clearly visible in plan and south elevation."
+        }
       },
       {
         "statement": "The building appears as a clearly articulated and structured composition.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "articulated and structured composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3784,
+            0.5322,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "T-shaped massing and stepped facade organization are corroborated across views."
+        }
       },
       {
         "statement": "The facade is technically structured but playfully varied by arcades, stairs, projections, and recesses.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "facade with arcades, stairs, projections, and recesses",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5679,
+            0.0499,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "South-facing elevation visibly contains repeated layered facade articulation."
+        }
       },
       {
         "statement": "The large glazed surfaces provide desirable insight into daily activities.",
         "tags": [
           "visibility",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "large glazed surfaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5095,
+            0.0573,
+            0.5714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "South facade is the constrained location for public visual connection through glazing."
+        }
       },
       {
         "statement": "The room arrangement is clear and obvious, with well-lit and well-proportioned rooms.",
@@ -45,7 +118,25 @@
           "layout",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "clear room arrangement",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3726,
+            0.5136,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central building marker represents the claimed internal organization, not directly visible."
+        }
       },
       {
         "statement": "The structural design is sustainable, consistent, and promises economical implementation.",
@@ -53,14 +144,43 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "sustainable structural design",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability and economy are non-spatial judgments."
+        }
       },
       {
         "statement": "The proposal offers an unspectacular, user-friendly architectural language.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "user-friendly architectural language",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4218,
+            0.0684,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Whole-building marker captures the broad architectural-language assessment."
+        }
       }
     ],
     "negative": [
@@ -69,42 +189,149 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "forecourt parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4865,
+            0.0602,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South foreground approximates the street-side forecourt."
+        }
       },
       {
         "statement": "The access to the covered entrance is narrow and does not provide a public forecourt with sufficient quality of stay.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "covered entrance access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5158,
+            0.0565,
+            0.2143
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-central lower edge is the likely covered entrance approach."
+        }
       },
       {
         "statement": "The remaining lawn and the outdoor spaces are insufficiently designed.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "remaining lawn and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7577,
+            0.1636,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Side and front ground-level perimeter approximates the underdesigned outdoor spaces."
+        }
       },
       {
         "statement": "The footpath and bicycle path crossing the entrance access is operationally problematic.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "footpath and bicycle path crossing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4865,
+            0.0602,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance-side ground approach is the constrained crossing location."
+        }
       },
       {
         "statement": "The corridor areas are somewhat narrow, and the free-standing lift reduces the spaciousness of the entrances.",
         "tags": [
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "corridors and free-standing lift",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3721,
+            0.5123,
+            0.3571
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central upper-level marker approximates internal circulation space."
+        }
       },
       {
         "statement": "The open staircase is unsuitable as an escape route because it has no direct exit to the outside.",
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "open staircase escape route",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1899,
+            0.3261,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Side facade marker approximates the visible circulation structure."
+        }
       },
       {
         "statement": "The underground car park has unclear routing, narrow lanes, and an unworkable 180-degree turn.",
@@ -112,7 +339,25 @@
           "circulation",
           "functionality",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "underground car park routing",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8219,
+            0.3675,
+            0.0714
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Low-level side zone approximates the unrepresented underground access system."
+        }
       },
       {
         "statement": "The volumetric design and the outdoor spaces, especially toward the street, remain somewhat schematic and random-looking.",
@@ -120,14 +365,50 @@
           "massing",
           "open space",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "schematic volumetric design and street-side spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4802,
+            0.061,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing mass and forecourt are directly represented in plan and elevation."
+        }
       },
       {
         "statement": "The proposal does not offer sufficient quality of stay because the street-side area functions as a pure parking area.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "street-side parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3404,
+            0.0787,
+            0.0714
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South frontage marks the criticized parking-dominated area."
+        }
       },
       {
         "statement": "Fire-protection measures and summer heat protection are expected to increase costs and require further consideration.",
@@ -135,14 +416,43 @@
           "fire safety",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "fire protection and summer heat protection",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and performance concerns have no useful spatial referent."
+        }
       },
       {
         "statement": "It remains questionable whether the constructive interior spaces can develop an appropriate spatial atmosphere.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "constructive interior spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3842,
+            0.5507,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central interior estimate represents the unshown atmospheric quality of internal spaces."
+        }
       }
     ],
     "keyword": [

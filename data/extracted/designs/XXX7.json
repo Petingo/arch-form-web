@@ -16,7 +16,25 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "river greenery and school greenery connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4298,
+            0.004,
+            0.1327
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Landscape connection is approximated along the southern open-space boundary."
+        }
       },
       {
         "statement": "The large body of water positively defines the new limit and benefits the environmental aspects.",
@@ -24,7 +42,25 @@
           "landscape",
           "sustainability",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "large body of water",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4882,
+            0.2079,
+            0.102
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Water body is placed at the exterior southern limit of the square volume."
+        }
       }
     ],
     "negative": [
@@ -34,7 +70,27 @@
           "urban integration",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "autonomous square volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6326,
+            0.5285,
+            0.8878
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Square footprint and vertically autonomous volume are clearly visible across all calibrated views."
+        }
       },
       {
         "statement": "The organization of the square plan suffers from the centrally occupied core and hotel-like corridors.",
@@ -42,7 +98,27 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central service core and hotel-like corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6326,
+            0.5285,
+            0.898
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central organization is anchored near the corroborated plan center."
+        }
       },
       {
         "statement": "The lack of greenery inside the citadel raises questions about use during the hottest periods.",
@@ -50,7 +126,24 @@
           "landscape",
           "sustainability",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "greenery inside citadel",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2919,
+            0.487,
+            0.0204
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Interior planting is approximated within the enclosed square footprint."
+        }
       },
       {
         "statement": "The structure is elaborate and its changing walls, pillars, cantilevers, and tapering lack a clear relationship with the architectural concept.",
@@ -58,7 +151,27 @@
           "structure",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "changing walls, pillars, cantilevers, and tapering",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2946,
+            0.4613,
+            0.1224
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Cantilevered and tapered ground conditions are visibly concentrated at the lower volume."
+        }
       },
       {
         "statement": "The significant glazing on all orientations must be verified because it is critical to achieving the expected energy standard.",
@@ -66,7 +179,26 @@
           "facade",
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "glazing on all orientations",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6326,
+            0.5285,
+            0.9082
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated vertical facade bands appear on each calibrated elevation."
+        }
       },
       {
         "statement": "The proposed treatment of existing walls erases their tactile and visual qualities and uses a material considered too fragile for the intended use.",
@@ -74,7 +206,26 @@
           "facade",
           "expression",
           "durability"
-        ]
+        ],
+        "position": {
+          "target": "existing walls treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.004,
+            0.5482,
+            0.449
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Existing wall treatment is approximated at the perimeter wall surfaces."
+        }
       }
     ],
     "keyword": [

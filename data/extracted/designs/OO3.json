@@ -16,21 +16,79 @@
           "massing",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "staggered volume with high rooms and skylights",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7187,
+            1,
+            0.875
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper staggered masses and roof-level punctuations are visible in plan and elevations."
+        }
       },
       {
         "statement": "The volume establishes a subtle reference to the existing school's volumetrics.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building volumetrics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.6912,
+            0.5625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The varied overall massing provides the available geometric reference for volumetric integration."
+        }
       },
       {
         "statement": "The organization of the room groups is positive.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "organization of room groups",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6184,
+            0.4014,
+            0.4375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior grouping is not directly legible, so the central occupied building zone anchors the judgment."
+        }
       },
       {
         "statement": "The corridor forms the backbone of the building, with daylight and views toward the schoolyard and playground.",
@@ -38,7 +96,26 @@
           "circulation",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "corridor backbone",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3994,
+            0.6314,
+            0.4375
+          ],
+          "radius": 0.13,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A longitudinal internal route is approximated through the building’s central staggered spine."
+        }
       },
       {
         "statement": "Each basic level has separate access and direct exit to a spacious outdoor area.",
@@ -46,20 +123,70 @@
           "circulation",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "separate basic-level access and outdoor exits",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3495,
+            0.0599,
+            0.1875
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern edge visibly adjoins the enclosed outdoor area and likely ground-level exits."
+        }
       },
       {
         "statement": "The building is atmospheric and carefully integrated into the school complex.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole building integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.6912,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete staggered envelope is the spatial basis for integration within the school complex."
+        }
       },
       {
         "statement": "Compliance with the primary energy and ecological requirements has been demonstrated.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "primary energy and ecological requirements",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is a performance judgment without a useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -68,55 +195,191 @@
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "planted island and spaced green on north side",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7373,
+            1,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The northern perimeter provides the directional surface anchor for the questioned landscape."
+        }
       },
       {
         "statement": "It is unclear how students reach the sports fields.",
         "tags": [
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "route to sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9037,
+            0.4014,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Sports-field access is not identifiable; an external ground-level edge location is estimated."
+        }
       },
       {
         "statement": "Using the climate-buffer access area as a group and lounge room is probably not possible throughout the year.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "climate-buffer access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1586,
+            0.1726,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The access condition is not distinguishable, so a low-level perimeter entry zone is approximated."
+        }
       },
       {
         "statement": "Mixing different age groups in the access area is problematic from an operational perspective.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "mixed-age access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1805,
+            0.1726,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The operationally shared access area is approximated at the same perimeter entry zone."
+        }
       },
       {
         "statement": "The accesses to the basic-school and day-school classrooms are narrow and awkward.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basic-school and day-school classroom accesses",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6152,
+            0.2706,
+            0.3125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Classroom entrances are not individually visible; a lower side facade zone provides a constrained anchor."
+        }
       },
       {
         "statement": "The separate stairs make orientation difficult.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "separate stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3555,
+            0.6314,
+            0.4375
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stairs are not identifiable, so the central circulation zone is used as an approximate marker."
+        }
       },
       {
         "statement": "The energy concept is relatively complex, and individual measures would need to be questioned.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This operational complexity judgment has no useful spatial referent."
+        }
       },
       {
         "statement": "The accessibility of the adjoining design rooms has not been conclusively resolved.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "adjoining design rooms accessibility",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8314,
+            0.4014,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Design rooms are not distinguishable; an adjoining lower side zone is estimated from the envelope."
+        }
       }
     ],
     "keyword": [

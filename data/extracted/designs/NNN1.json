@@ -17,7 +17,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "campus composition and building scale",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7813,
+            0.7674,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Broad compact massing is visible across the building footprint and elevations."
+        }
       },
       {
         "statement": "The central collective space achieves high spatial quality through varied floor openings and shifting dimensions.",
@@ -25,7 +45,26 @@
           "layout",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "central collective space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5988,
+            0.7674,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central opening is identifiable between the two principal sampled masses."
+        }
       },
       {
         "statement": "The functional groups are well sized and their internal relationships correctly established.",
@@ -33,21 +72,69 @@
           "functionality",
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "functional groups",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2227,
+            0.1908,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Separate footprint regions suggest distinct functional groups, though interiors are not exposed."
+        }
       },
       {
         "statement": "The load transfer through the central space is resolved elegantly with judiciously arranged structural walls.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "structural walls around central space",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5988,
+            0.7708,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Slab and wall edges around the central opening provide constrained structural evidence."
+        }
       },
       {
         "statement": "The project has one of the most advantageous form coefficients and is among the most compact schemes.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "compact form coefficient",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns whole-building compactness rather than a distinct location."
+        }
       },
       {
         "statement": "The technical concepts are relatively simple, and natural atrium ventilation is considered a good solution.",
@@ -55,7 +142,26 @@
           "operation",
           "ventilation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "natural atrium ventilation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6056,
+            0.7674,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The atrium opening offers the most plausible geometric anchor for natural ventilation."
+        }
       }
     ],
     "negative": [
@@ -64,14 +170,50 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "orthogonal position",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2209,
+            0.206,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The irregular southwestern footprint is the clearest massing anchor for alignment concerns."
+        }
       },
       {
         "statement": "The collective spaces could create use problems unless noise management is perfectly resolved.",
         "tags": [
           "acoustics",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "collective spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6124,
+            0.7674,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central opening anchors the collective-space and acoustic concern."
+        }
       },
       {
         "statement": "The ground floor is not generous enough for members of the public arriving from outside.",
@@ -79,7 +221,25 @@
           "circulation",
           "accessibility",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "ground floor public arrival",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2309,
+            0.1155,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing ground-level edge is the plausible public arrival surface."
+        }
       },
       {
         "statement": "Part of the facade solution is considered somewhat timid.",
@@ -87,28 +247,95 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "facade solution",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8219,
+            0.7674,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The exposed eastern and southern envelope provides a constrained facade anchor."
+        }
       },
       {
         "statement": "The central core still requires improvement in natural lighting.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central core lighting",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5988,
+            0.7866,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central void and surrounding core are the strongest available daylight-related location."
+        }
       },
       {
         "statement": "The ground-floor supporting system contains singularities that require optimization.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor supporting system",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2297,
+            0.1299,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The south ground-floor slab edge anchors the supporting-system concern."
+        }
       },
       {
         "statement": "A concept for electric lighting integrated with natural-light management is missing.",
         "tags": [
           "daylight",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "electric lighting and natural-light management",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "No distinct exterior location represents the proposed lighting-control concept."
+        }
       }
     ],
     "keyword": [

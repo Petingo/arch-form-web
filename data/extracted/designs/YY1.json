@@ -17,7 +17,27 @@
         "tags": [
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "overall complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5609,
+            0.5399,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view shows connected volumes forming one compact complex; elevations confirm the overall massing."
+        }
       },
       {
         "statement": "The compact solution creates generous outdoor spaces for individual uses, and the school complex reads as a unit.",
@@ -25,42 +45,147 @@
           "massing",
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "generous outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3496,
+            0.33,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground areas are visible around the separated building volumes in the top view."
+        }
       },
       {
         "statement": "The covered connection is a huge advantage for school operations.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "covered connection",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6106,
+            0.443,
+            0.375
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A narrow connecting volume is visible between the primary masses near the complex center."
+        }
       },
       {
         "statement": "The elongated grass playing field is optimally oriented and enables good use without disrupting school operations.",
         "tags": [
           "landscape",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "elongated grass playing field",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4016,
+            0.2315,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated low rectangular area is clearly distinguished in the southwest portion of the top view."
+        }
       },
       {
         "statement": "The school building's split-level solution is spatially attractive and allows extra height in the auditorium.",
         "tags": [
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "school building split-level solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7692,
+            0.7565,
+            0.625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The dominant upper-right building mass is visible in plan, with stepped level evidence across elevations."
+        }
       },
       {
         "statement": "The proposed facades are harmonious and provide an appropriate external appearance for a school and sports facility.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "proposed facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4988,
+            0.0405,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing external edge is constrained by the street-facing building side and elevation profile."
+        }
       },
       {
         "statement": "The concepts for statics and building technology show serious work and appropriate, optimized solutions.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "statics and building technology",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Structural and technical concepts are not spatially localized by the sampled exterior geometry."
+        }
       },
       {
         "statement": "The project is among the most efficient entries in area and volume, with comparatively low construction and management costs.",
@@ -68,7 +193,18 @@
           "cost",
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "area and volume efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Efficiency and cost comparison are global judgments without a useful spatial referent."
+        }
       },
       {
         "statement": "The project implements the client's different requirements in an architecturally convincing, economical and appropriate way.",
@@ -76,7 +212,27 @@
           "functionality",
           "cost",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.543,
+            0.5377,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The comment concerns the complete compact complex, represented by its central connected massing."
+        }
       }
     ],
     "negative": [
@@ -85,42 +241,151 @@
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "school rooms toward southern street",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4951,
+            0.0513,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The south-facing edge is the constrained location for rooms oriented toward the street."
+        }
       },
       {
         "statement": "The kindergarten's main-room exposure is limited by the deep covered anteroom and patio.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten main-room exposure",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3091,
+            0.3251,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The smaller southwest volume provides the approximate kindergarten anchor; the covered threshold is not separately identifiable."
+        }
       },
       {
         "statement": "The kindergarten rooms are rather introverted and not oriented toward the outdoors.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "introverted kindergarten rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4072,
+            0.3111,
+            0.375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The kindergarten zone is approximated within the smaller southwest building volume, away from clearly open edges."
+        }
       },
       {
         "statement": "The path to the sports-hall cloakrooms is indirect, and the connection between the cloakrooms and outdoor playing field is not optimal.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "path to sports-hall cloakrooms",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5454,
+            0.4163,
+            0.25
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The circulation anchor lies between the field and larger hall mass, where the indirect route is implied."
+        }
       },
       {
         "statement": "The view of the playing field from the spectator seats is not optimal everywhere.",
         "tags": [
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "spectator view of playing field",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6864,
+            0.5554,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The larger hall volume is used as the approximate spectator location overlooking the offset field."
+        }
       },
       {
         "statement": "The project is above average in gray energy, primarily due to the exposed-concrete facades.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "exposed-concrete facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8136,
+            0.3569,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "An exposed outer facade edge is approximated on the eastern side of the complex."
+        }
       }
     ],
     "keyword": [

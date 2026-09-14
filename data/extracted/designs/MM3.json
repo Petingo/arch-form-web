@@ -16,7 +16,28 @@
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "sectional figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5053,
+            0.5923,
+            0.5
+          ],
+          "radius": 0.326,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long continuous massing and uniform sectional profile are clearly visible across plan and elevations."
+        }
       },
       {
         "statement": "The main access arrangement naturally connects the building to the site and establishes clear spatial order.",
@@ -24,7 +45,25 @@
           "circulation",
           "urban integration",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "main access arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4947,
+            0.0707,
+            0.1231
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Main access is anchored approximately along the south-facing ground edge connecting building and site."
+        }
       },
       {
         "statement": "The interconnected indoor and outdoor spaces promise daily added value for school life.",
@@ -32,7 +71,25 @@
           "layout",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "interconnected indoor and outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5716,
+            0.3119,
+            0.25
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central plan openings and lower-level edges provide an approximate anchor for connected indoor-outdoor areas."
+        }
       },
       {
         "statement": "The entrance hall’s view of the gymnasium contributes to a specific spatial atmosphere.",
@@ -40,7 +97,25 @@
           "visibility",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall and gymnasium view",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4793,
+            0.0707,
+            0.1231
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior hall and gymnasium are not distinguishable, so placement follows the likely south entrance zone."
+        }
       },
       {
         "statement": "Large contiguous areas with logical development offer scope for future change and a sustainable life cycle.",
@@ -48,7 +123,25 @@
           "flexibility",
           "layout",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "large contiguous areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2361,
+            0.0707,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The elongated building footprint visibly supports broad contiguous areas along its length."
+        }
       },
       {
         "statement": "The architectural identity is impressive and the materialization is believable.",
@@ -56,7 +149,27 @@
           "identity",
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "architectural identity and materialization",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7607,
+            0,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Material identity is assigned to the visible exterior envelope, especially the long facade."
+        }
       }
     ],
     "negative": [
@@ -66,7 +179,26 @@
           "massing",
           "urban integration",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "building dimension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2425,
+            0.5923,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The unusually elongated footprint is directly evident in plan and longitudinal elevations."
+        }
       },
       {
         "statement": "Its extension into the street space affects surrounding trees and does not convincingly address the street.",
@@ -74,7 +206,25 @@
           "urban integration",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "street extension and surrounding trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7421,
+            0,
+            0.1231
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street impact is approximated along the south edge where the long building meets surrounding open space."
+        }
       },
       {
         "statement": "The uniform height and structure require stronger differentiation to integrate into the district and gain social acceptance.",
@@ -82,14 +232,52 @@
           "massing",
           "facade",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "uniform height and structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6135,
+            0.5923,
+            0.875
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated horizontal elevation bands and consistent top profile clearly show uniform height and structure."
+        }
       },
       {
         "statement": "A single main entrance with long internal corridors may not provide a pleasant arrival for the whole school.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "single main entrance and long internal corridors",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4981,
+            0,
+            0.3816
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance and corridor system is approximated from the elongated plan and south-side access constraint."
+        }
       },
       {
         "statement": "The uniform facade makes it difficult for children to identify and orient themselves at their entrances.",
@@ -97,7 +285,27 @@
           "facade",
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "uniform facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3123,
+            0,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long elevations visibly repeat a uniform facade treatment with limited differentiation."
+        }
       },
       {
         "statement": "The roof-level outdoor spaces may not be sufficiently available to the district outside school hours.",
@@ -105,7 +313,26 @@
           "open space",
           "urban integration",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "roof-level outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7526,
+            0.5923,
+            1
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof areas are approximated on the visible upper envelope without distinguishable terrace boundaries."
+        }
       },
       {
         "statement": "The jury missed additional public leisure and play opportunities at ground level.",
@@ -113,7 +340,25 @@
           "open space",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "ground-level public leisure and play opportunities",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7211,
+            0.0707,
+            0
+          ],
+          "radius": 0.23,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level public space is anchored in the open strip adjacent to the building’s south side."
+        }
       },
       {
         "statement": "Running tracks and parking occupy an atmospheric arrival space that should instead provide quality of stay.",
@@ -121,7 +366,25 @@
           "circulation",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "running tracks and parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1951,
+            0.0707,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Arrival-space uses are approximated along the ground-level edge beside the elongated structure."
+        }
       },
       {
         "statement": "The functional areas appear monotonous, and further transversal crossings are needed to improve orientation and district connections.",
@@ -129,7 +392,25 @@
           "open space",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "functional areas and transversal crossings",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4187,
+            0.246,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The long repetitive plan suggests monotonous internal zones requiring additional transverse connections."
+        }
       },
       {
         "statement": "The SKB bus route could intersect undesirably with schoolchildren’s movements.",
@@ -137,7 +418,25 @@
           "operation",
           "safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "SKB bus route and schoolchildren movements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0869,
+            0.0707,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Bus interaction is approximated at the south-west ground edge where external circulation meets school access."
+        }
       },
       {
         "statement": "Classrooms facing an inward courtyard without an outside view are criticized.",
@@ -145,21 +444,76 @@
           "daylight",
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classrooms facing inward courtyard",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5207,
+            0.5923,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom placement is approximated around the central inward-facing plan region."
+        }
       },
       {
         "statement": "There is no clear arrival room for the SKB on the ground floor.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "SKB arrival room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2783,
+            0.0707,
+            0.1231
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-floor arrival is anchored near the south-facing entrance edge, without a distinguishable room marker."
+        }
       },
       {
         "statement": "The revised circulation becomes too narrow around staircases and would cause considerable operational problems.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "narrow circulation around staircases",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6644,
+            0.3119,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stair and circulation constraints are approximated within the repetitive interior plan."
+        }
       },
       {
         "statement": "The absence of ground-level play options is a missed opportunity for the neighbourhood.",
@@ -167,7 +521,25 @@
           "open space",
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-level play options",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.226,
+            0.0707,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Missing play provision is anchored to the accessible ground strip adjoining the building."
+        }
       },
       {
         "statement": "The large facade area, terraces and footprint weaken economic efficiency, ecology and generally accessible open space.",
@@ -175,7 +547,28 @@
           "cost",
           "sustainability",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "large facade area, terraces and footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7836,
+            0.5923,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Extensive footprint and facade surfaces are directly visible, while terraces are approximated on the envelope."
+        }
       }
     ],
     "keyword": [

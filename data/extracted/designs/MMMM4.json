@@ -17,49 +17,183 @@
         "tags": [
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4984,
+            0.6246,
+            0.5417
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The unified monolithic mass is visible across the sampled footprint and elevations."
+        }
       },
       {
         "statement": "The cantilevered structure and articulated front facades create a strong address with an inviting spatial effect.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "cantilevered front facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3036,
+            0.1976,
+            0.75
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Cantilevered projections and articulated frontage are identifiable along the lower-left building edge."
+        }
       },
       {
         "statement": "The western placement suggests an actual train station square.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "western station square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0813,
+            0.2156,
+            0.0833
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The open western edge provides the most plausible sampled location for the station-square forecourt."
+        }
       },
       {
         "statement": "The stacked apartments provide attractive, easily furnished units and flexible commercial spaces.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "stacked apartments and commercial spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7762,
+            0.6171,
+            0.6667
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior programs are not resolved, so the upper eastern building mass provides a constrained proxy."
+        }
       },
       {
         "statement": "Sliding walls promise a high degree of flexibility in the room layout.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sliding-wall room layout",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6269,
+            0.4846,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Room partitions are absent, anchored approximately within the central sampled building volume."
+        }
       },
       {
         "statement": "The strict and efficient building grid supports attractive apartments and flexibly divisible commercial spaces.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "efficient building grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6228,
+            0.735,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The regular repeated massing supports a broad structural-system anchor in the eastern middle volume."
+        }
       },
       {
         "statement": "The simplicity of the structure is captivating and reaches its greatest quality in its object-like implementation.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "object-like building mass",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.573,
+            0.6909,
+            0.5833
+          ],
+          "radius": 0.34,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The compact elongated silhouette and stacked elevations clearly establish the object-like overall implementation."
+        }
       }
     ],
     "negative": [
@@ -68,7 +202,26 @@
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "twisting protruding building parts",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7672,
+            0.8246,
+            0.8333
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Protruding upper elements are visible, though the alleged twisting is not distinctly resolved."
+        }
       },
       {
         "statement": "The central urban space is overloaded by densely packed functions and overlapping traffic flows.",
@@ -76,35 +229,128 @@
           "open space",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "central urban space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4203,
+            0.4686,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The central open forecourt is approximated immediately beside the building’s middle footprint."
+        }
       },
       {
         "statement": "The proposed pocket park may not be needed at this location.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "eastern pocket park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.801,
+            0.6392,
+            0.2083
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The tapering eastern green area is explicitly described and aligns with the building extension."
+        }
       },
       {
         "statement": "The two-story ramp system is too broad, too complicated and correspondingly expensive.",
         "tags": [
           "circulation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "two-story ramp system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7264,
+            0.573,
+            0.2083
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower eastern extension offers the most plausible surface proxy for the unresolved ramp system."
+        }
       },
       {
         "statement": "Visibility conditions in the underground facility are sometimes critical.",
         "tags": [
           "visibility",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "underground facility",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6461,
+            0.6215,
+            0.0417
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The underground facility is not distinguishable; its location is approximated beneath the eastern building mass."
+        }
       },
       {
         "statement": "The consistent design approach makes it impossible to respond adequately to the varied urban environment and functional conditions.",
         "tags": [
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "whole building and urban conditions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3989,
+            0.5363,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The comment concerns broad contextual response, represented by the northwestern building perimeter."
+        }
       },
       {
         "statement": "The proposal has clear deficits in the overlay of complicated traffic functions, the underground car park and the open-space arrangement.",
@@ -112,7 +358,26 @@
           "circulation",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "traffic and open-space arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5772,
+            0.4405,
+            0.2083
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A broad lower eastern edge anchor captures the stated overlap of circulation, parking, and open space."
+        }
       }
     ],
     "keyword": [

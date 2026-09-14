@@ -15,14 +15,50 @@
         "tags": [
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "upper corridor and extra-high common room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5907,
+            0.488,
+            0.7222
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central upper-level marker approximates the vertical relationship between corridor and common room."
+        }
       },
       {
         "statement": "The access concept works towards a diverse relationship between the interior and exterior spaces.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "interior-exterior access concept",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4849,
+            0.7264,
+            0.3904
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Embedded openings and layered edges visibly connect internal and external zones."
+        }
       }
     ],
     "negative": [
@@ -32,28 +68,102 @@
           "massing",
           "scale",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "schematic volumetry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2916,
+            0.2305,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Irregular layered massing is directly visible across the plan and elevations."
+        }
       },
       {
         "statement": "The shape of the roof remains arbitrary.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "arbitrary roof shape",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5632,
+            0.5175,
+            0.8889
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Distinct upper roof outline is clearly visible in the top and south views."
+        }
       },
       {
         "statement": "The courtyards embedded in the volume cannot sufficiently moderate the transition from the school complex into the building structure.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "embedded courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5044,
+            0.7467,
+            0.3904
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central voids and recessed outdoor spaces are identifiable in the top view."
+        }
       },
       {
         "statement": "The super-barn remains strangely alien as a new bearer of village identification.",
         "tags": [
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "super-barn village identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6593,
+            0.308,
+            0.7222
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Large barn-like upper mass is visibly distinct from the lower layered volume."
+        }
       }
     ],
     "keyword": [

@@ -14,7 +14,25 @@
         "tags": [
           "safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "road connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2611,
+            0.1568,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern forecourt and lower-level edge indicate the road-facing access relationship."
+        }
       },
       {
         "statement": "The compact volume intelligently separates the two single-storey levels and their outdoor spaces.",
@@ -22,21 +40,77 @@
           "massing",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "compact two-level volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7824,
+            0.7354,
+            0.75
+          ],
+          "radius": 0.3077,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped footprint and separated upper and lower masses are visible across plan and elevations."
+        }
       },
       {
         "statement": "The ground-floor distribution allows adequate use of the UAPE.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor UAPE distribution",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2611,
+            0.1979,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level area is constrained to the southern portion of the sampled lower volume."
+        }
       },
       {
         "statement": "The use of recycled concrete is appreciated and corresponds to the mineral character of the surrounding constructions.",
         "tags": [
           "sustainability",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "recycled concrete expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7074,
+            0.1478,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Material judgment is anchored to the exposed southern and eastern envelope."
+        }
       }
     ],
     "negative": [
@@ -46,48 +120,174 @@
           "urban integration",
           "open space",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "fenced lower space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.22,
+            0.2166,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower southern zone is visibly distinct and enclosed along the forecourt edge."
+        }
       },
       {
         "statement": "The low-quality corridor separates the nap rooms from the living spaces upstairs.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper corridor",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.739,
+            0.7505,
+            0.75
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior corridor is not exposed; estimate follows the upper-level linear distribution."
+        }
       },
       {
         "statement": "The upper supporting elements do not align with the lower ones, making gravity-load transfer uneconomical and irrational.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "upper supporting elements",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.739,
+            0.7505,
+            0.625
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structural alignment concern is assigned to the stacked upper and lower building zones."
+        }
       },
       {
         "statement": "The seismic protection system is not convincing.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "seismic protection system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4946,
+            0.1478,
+            0.4375
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "System is not distinguishable, so the marker covers the exposed structural envelope."
+        }
       },
       {
         "statement": "Poor bearing soil and the structural system require deep foundations.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "deep foundations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7606,
+            0.1478,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Foundation concern is anchored beneath the southern lower-level footprint."
+        }
       },
       {
         "statement": "The project does not meet fire-assurance requirements because escape distances are inadequate and the vertical escape route lacks compartmentalization.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "vertical escape route",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.809,
+            0.7354,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Escape route is not visible; estimate follows the eastern vertical circulation edge."
+        }
       },
       {
         "statement": "No response is given regarding the desired extension.",
         "tags": [
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "desired extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9105,
+            0.7354,
+            0.375
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Potential extension is placed at the open northeastern perimeter of the footprint."
+        }
       }
     ],
     "keyword": [

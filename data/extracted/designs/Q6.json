@@ -17,7 +17,27 @@
           "massing",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three houses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4968,
+            0.4204,
+            0.375
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The plan clearly shows three independent masses arranged as a clustered group."
+        }
       },
       {
         "statement": "The system allows users to experience the school as a campus with distinct locations for the main activities.",
@@ -25,7 +45,27 @@
           "layout",
           "identity",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "campus with distinct locations",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4968,
+            0.4204,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Separate buildings and intervening open space visibly produce a campus-like spatial arrangement."
+        }
       },
       {
         "statement": "The four interior courtyards provide overhead light and breathing space for students.",
@@ -33,7 +73,26 @@
           "daylight",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "four interior courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7184,
+            0.4204,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior courtyards are not distinctly resolved, so the large southern-right building provides an approximate anchor."
+        }
       },
       {
         "statement": "The expression of the buildings is convincing and gives the project an institutional character.",
@@ -41,7 +100,26 @@
           "expression",
           "identity",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "buildings",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7788,
+            0.4204,
+            0.625
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct elevation bands across the separated buildings support an institutional facade reading."
+        }
       },
       {
         "statement": "The facades present nuances specific to each activity without affecting the overall reading.",
@@ -49,7 +127,26 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "facades specific to each activity",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4968,
+            0.4204,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Separate masses permit approximate facade anchors, though activity-specific treatments are not distinguishable."
+        }
       }
     ],
     "negative": [
@@ -59,14 +156,52 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "long school bar",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3771,
+            0.7816,
+            0.375
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated northern bar is clearly visible and stands in front of the other plan elements."
+        }
       },
       {
         "statement": "The entrance porticos of the two other houses seem narrow.",
         "tags": [
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "entrance porticos",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1504,
+            0.2596,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Porticos are not distinguishable; the western southern house is used as an approximate entrance anchor."
+        }
       },
       {
         "statement": "The sports house raises questions because of its ungenerous entrance space and changing rooms spread over four floors.",
@@ -74,7 +209,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports house entrance space and changing rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1504,
+            0.2596,
+            0.5
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The smaller western house is a plausible sports-house anchor, while internal stacking is not represented."
+        }
       },
       {
         "statement": "The presence of classrooms on the ground floor was questioned.",
@@ -82,7 +236,25 @@
           "layout",
           "privacy",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classrooms on the ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7184,
+            0.4204,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level classrooms are not visible internally; the southern-right building surface supplies a constrained anchor."
+        }
       },
       {
         "statement": "The strong presence of the learning house closes the perspective from the existing courtyard towards the distant landscape.",
@@ -90,7 +262,25 @@
           "scale",
           "landscape",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "perspective from the existing courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3771,
+            0.7292,
+            0.375
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The northern bar occupies the likely view corridor beyond the central open area."
+        }
       }
     ],
     "keyword": [

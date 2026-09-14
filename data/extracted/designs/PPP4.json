@@ -16,35 +16,125 @@
         "tags": [
           "open space",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "generous outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2471,
+            0.3327,
+            0.05
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The polygonal footprint visibly leaves differentiated perimeter spaces around the building."
+        }
       },
       {
         "statement": "Almost the entire tree population can be preserved while the green structures continue to flow through the area.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "preserved tree landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.8402,
+            0.05
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are not individually visible; the estimate uses an open outer site region."
+        }
       },
       {
         "statement": "The building is sensitively embedded in the given topography.",
         "tags": [
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "topography embedding",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3316,
+            0.2485,
+            0.35
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped elevations and the irregular footprint visibly suggest terrain-responsive embedding."
+        }
       },
       {
         "statement": "The large communal play garden uses the valuable trees as zoning and defining elements.",
         "tags": [
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "communal play garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3316,
+            0.2485,
+            0.05
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The garden is not labeled in the sample; a broad ground-level perimeter area is estimated."
+        }
       },
       {
         "statement": "The outdoor spaces are accessible without barriers from inside and outside.",
         "tags": [
           "accessibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "barrier-free outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1203,
+            0.459,
+            0.075
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access routes are not explicit; a ground-level edge adjacent to the volume is used."
+        }
       },
       {
         "statement": "The arrangement of the split level as the main access staircase with lift is logical given the terrain.",
@@ -52,35 +142,129 @@
           "circulation",
           "topography",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "main access staircase with lift",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3728,
+            0.2061,
+            0.35
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The vertical access core is not distinguishable; a terrain-facing mid-height anchor is approximate."
+        }
       },
       {
         "statement": "The operational organization is convincing and provides enough space.",
         "tags": [
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "operational organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5829,
+            0.8108,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Operational layout is internal; the marker is distributed within the visible stepped volume."
+        }
       },
       {
         "statement": "The two-story care units create different qualities of stay and a child-friendly atmosphere.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "two-story care units",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5829,
+            0.8108,
+            0.65
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Stacked floor bands visibly support a two-level unit organization."
+        }
       },
       {
         "statement": "The structural system and simple ventilated facade construction appear logical.",
         "tags": [
           "structure",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "ventilated facade construction",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9114,
+            0.4857,
+            0.55
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Construction details are not resolved; the marker sits on the visible outer facade."
+        }
       },
       {
         "statement": "All rooms receive plenty of daylight through the vertically arranged windows.",
         "tags": [
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "vertically arranged windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9114,
+            0.4857,
+            0.625
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Elevation renders visibly show repeated vertical facade openings."
+        }
       }
     ],
     "negative": [
@@ -89,21 +273,72 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "oriental spruce",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8551,
+            0.1563,
+            0.05
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The named tree is not identifiable; the estimate marks a southern perimeter conflict zone."
+        }
       },
       {
         "statement": "More paved area would be desirable for ball games and similar activities.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "paved ball-game area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8551,
+            0.1563,
+            0.025
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Paving is not distinguishable; a broad ground-level outdoor zone is estimated."
+        }
       },
       {
         "statement": "The outdoor equipment room, transshipment area, and bicycle and kickboard racks are not yet solved.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "outdoor equipment and bicycle storage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2893,
+            0.2906,
+            0.05
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Small site-support spaces are absent from the sample; the anchor uses a perimeter service area."
+        }
       },
       {
         "statement": "The facade toward Gessnerstrasse creates an inappropriate spatial narrowing.",
@@ -111,56 +346,207 @@
           "facade",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "Gessnerstrasse facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1506,
+            0.4288,
+            0.55
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The named street frontage is not mapped; a visible outer facade edge is used."
+        }
       },
       {
         "statement": "The basement is completely missing from the depiction.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3316,
+            0.2485,
+            0.025
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The basement is not depicted; the marker is placed at the building’s lowest sampled level."
+        }
       },
       {
         "statement": "The split-level arrangement makes the building difficult to understand.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "split-level arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3316,
+            0.2485,
+            0.325
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped elevation bands visibly indicate vertically offset levels."
+        }
       },
       {
         "statement": "The facade has a schematic expression, especially through the almost flush windows.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "schematic facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9114,
+            0.4857,
+            0.6
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated regular facade bands and openings are directly visible in the elevations."
+        }
       },
       {
         "statement": "The security aspect of the deep parapets has not yet been resolved.",
         "tags": [
           "safety",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "deep parapets",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.849,
+            0.1428,
+            0.7
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Parapets are not separately resolved; the upper street-facing facade is used."
+        }
       },
       {
         "statement": "Some facades do not correspond to the floor plans and vice versa.",
         "tags": [
           "facade",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "facades and floor plans",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5829,
+            0.8108,
+            0.55
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The comparison concerns envelope versus interior, so a distributed building anchor is appropriate."
+        }
       },
       {
         "statement": "The concept-dependent geometry minimizes subsequent flexibility of use.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "concept-dependent geometry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2774,
+            0.3025,
+            0.475
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The irregular polygonal mass visibly constrains later spatial adaptation."
+        }
       },
       {
         "statement": "The geometry creates excessive building volume through one-and-a-half-story rooms.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "excessive building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9114,
+            0.4857,
+            0.75
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Tall stepped massing and enlarged upper volumes are visible across the elevations."
+        }
       }
     ],
     "keyword": [

@@ -17,7 +17,26 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "public outdoor space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6407,
+            0.3782,
+            0.0625
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open ground around the interlocking volumes represents the connected public park landscape."
+        }
       },
       {
         "statement": "The new building volume relates geometrically and volumetrically precisely to the town hall.",
@@ -25,7 +44,25 @@
           "urban integration",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "new building volume and town hall relationship",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0328,
+            0.7053,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The upper-left volume is anchored as the contextual massing interface."
+        }
       },
       {
         "statement": "The permeable organization of the school complex is functionally and architecturally convincing.",
@@ -33,7 +70,28 @@
           "layout",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "permeable school complex",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4527,
+            0.4661,
+            0.4375
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interlocking bars and open connections visibly demonstrate a permeable complex."
+        }
       },
       {
         "statement": "The entrance hall can be used in a variety of ways as a meeting area, lounge, or school auditorium.",
@@ -41,7 +99,26 @@
           "flexibility",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5389,
+            0.2666,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower central junction is the most plausible entrance and meeting zone."
+        }
       },
       {
         "statement": "The organization of the teaching floor is convincing and allows flexible, sustainable use.",
@@ -49,7 +126,26 @@
           "layout",
           "flexibility",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "teaching floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2122,
+            0.7666,
+            0.875
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The raised upper floor is localized within the taller western volume."
+        }
       },
       {
         "statement": "The gym benefits from natural exposure and is operationally well organized.",
@@ -57,7 +153,26 @@
           "daylight",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "gym",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7609,
+            0.3837,
+            0.1875
+          ],
+          "radius": 0.17,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower eastern volume is used as the gym anchor with exterior exposure."
+        }
       },
       {
         "statement": "The concept creates spacious public outdoor spaces with overlapping potential uses.",
@@ -65,7 +180,26 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "public outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7208,
+            0.3819,
+            0.0625
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Overlapping open areas are distributed around the lower interlocking building edges."
+        }
       }
     ],
     "negative": [
@@ -75,7 +209,25 @@
           "open space",
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8527,
+            0.0404,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking is not distinguishable; a south-eastern edge anchor represents its landscape impact."
+        }
       },
       {
         "statement": "The escape balconies and stairs should have a greater influence on the architectural appearance and should also serve normal school operations.",
@@ -83,20 +235,70 @@
           "expression",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "escape balconies and stairs",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9224,
+            0.391,
+            0.5625
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "External circulation elements are approximated along the exposed east façade."
+        }
       },
       {
         "statement": "The compact-looking project has a comparatively large cubature and building footprint.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "large cubature and building footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4708,
+            0.731,
+            0.625
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad interlocking footprint and raised volume are clearly visible across the model."
+        }
       },
       {
         "statement": "The expected costs are likely to be above average compared with the other projects.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "expected costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful spatial referent."
+        }
       },
       {
         "statement": "The large volume below terrain and massive base suggest a high grey-energy requirement.",
@@ -104,7 +306,25 @@
           "sustainability",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large volume below terrain",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3492,
+            0.2199,
+            0.0625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Below-grade mass is not directly separable; the lower south-eastern base is used as an approximation."
+        }
       },
       {
         "statement": "The multi-purpose room integrated into the oversized entrance hall offers potential for cost optimization.",
@@ -112,7 +332,25 @@
           "cost",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room and entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.538,
+            0.3047,
+            0.1875
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central lower junction is the plausible oversized entrance and multipurpose zone."
+        }
       }
     ],
     "keyword": [

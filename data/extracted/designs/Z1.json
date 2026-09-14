@@ -14,21 +14,75 @@
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "three-storey building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8095,
+            0.6959,
+            0.6364
+          ],
+          "radius": 0.3077,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact footprint and three clearly stacked elevation levels are visible across the calibrated views."
+        }
       },
       {
         "statement": "The base clearly demarcates the school zone from the green zone.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "school and green zones",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1736,
+            0.4975,
+            0.0455
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The base and surrounding open areas visibly establish a boundary between site zones."
+        }
       },
       {
         "statement": "The location does not alter the area's functionality for events and expansion.",
         "tags": [
           "open space",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "event and expansion capacity",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7938,
+            0.2628,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open perimeter space is used as the plausible location for events and future expansion."
+        }
       },
       {
         "statement": "The east-west orientation and nearby forest provide shading while preserving landscape perspectives.",
@@ -36,7 +90,26 @@
           "daylight",
           "landscape",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "east-west orientation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2095,
+            0.2861,
+            0.6364
+          ],
+          "radius": 0.26,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The elongated rotated footprint and opposing facades establish the orientation."
+        }
       },
       {
         "statement": "The plans are structured rationally, with flexible classes, a concentrated core, and short pathways.",
@@ -44,33 +117,129 @@
           "layout",
           "flexibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "classrooms and concentrated core",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1905,
+            0.3137,
+            0.6364
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior planning is anchored within the compact central mass and its perimeter rooms."
+        }
       },
       {
         "statement": "The glass-facade concept is rational, clear, and calm.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "glass facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9048,
+            0.5577,
+            0.6364
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Facade judgment is assigned to the exposed eastern side of the vertically layered envelope."
+        }
       },
       {
         "statement": "The primary-school spaces are well planned and correspond to the curriculum.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "primary-school spaces",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2673,
+            0.7813,
+            0.4091
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Program is approximated within the middle portion of the three-storey building."
+        }
       },
       {
         "statement": "The architecture is clear and sober.",
         "tags": [
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "sober architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8476,
+            0.6406,
+            0.6364
+          ],
+          "radius": 0.3077,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact, restrained massing is directly visible throughout the model views."
+        }
       },
       {
         "statement": "The envelope-to-surface ratio is optimal.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "envelope-to-surface ratio",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8286,
+            0.6683,
+            0.6364
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Envelope assessment is anchored to the compact perimeter and stacked building volume."
+        }
       }
     ],
     "negative": [
@@ -79,34 +248,122 @@
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "school and gymnasium connection",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9429,
+            0.5024,
+            0.2726
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The connection is not distinguishable; estimate uses the eastern edge as the likely interface."
+        }
       },
       {
         "statement": "The arrival area appears minimal.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "arrival area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2968,
+            0.1613,
+            0.0455
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Arrival is assigned to the lower-left approach edge outside the base."
+        }
       },
       {
         "statement": "Discretion over the lives of children is not optimal.",
         "tags": [
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "children's privacy",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7905,
+            0.7236,
+            0.6364
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Privacy judgment is anchored broadly to the exposed multi-storey envelope."
+        }
       },
       {
         "statement": "The all-day school's changing-room area is unclear and appears insufficient.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "all-day school changing-room area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2116,
+            0.4422,
+            0.1818
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior changing rooms are not visible; estimate follows the lower western building zone."
+        }
       },
       {
         "statement": "The covered playgrounds are too small and cluttered with bicycles.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "covered playgrounds",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.766,
+            0.2439,
+            0.0455
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Covered play areas are not distinguishable; marker uses the open southeastern perimeter."
+        }
       }
     ],
     "keyword": [

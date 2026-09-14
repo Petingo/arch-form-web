@@ -18,28 +18,101 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "deep building structure and open space in front",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4563,
+            0.0804,
+            0.4565
+          ],
+          "radius": 0.3218,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Top and south views show a deep compact volume with a pronounced open edge toward the front."
+        }
       },
       {
         "statement": "The proposal meets the requirements of the desired sports operation and is conceptually simple and logically organized.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sports operation layout",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2282,
+            0.3192,
+            0.4565
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior organization is inferred within the compact mass from the overall footprint and elevations."
+        }
       },
       {
         "statement": "The good compactness produces a favorable relationship between floor area and building envelope and contributes to good construction economics.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9087,
+            0.5576,
+            0.5
+          ],
+          "radius": 0.3218,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled model clearly shows a compact, consistently bounded envelope across plan and elevations."
+        }
       },
       {
         "statement": "The building technology is adequately implemented overall.",
         "tags": [
           "operation",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "building technology",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1369,
+            0.4147,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "west"
+          ],
+          "rationale": "Overall technical implementation is assigned broadly to the visible building envelope; systems are not distinguishable."
+        }
       }
     ],
     "negative": [
@@ -48,7 +121,25 @@
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "side facades and excavations",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0913,
+            0.4624,
+            0.4565
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "west"
+          ],
+          "rationale": "Side elevations provide the available geometric anchor for the criticized excavated facade edges."
+        }
       },
       {
         "statement": "The outdoor space design is incomprehensible and partially replaces the protected garden, while the address lacks a generous and inviting gesture.",
@@ -56,7 +147,26 @@
           "open space",
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "southeast courtyard and address",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7366,
+            0.1847,
+            0.2391
+          ],
+          "radius": 0.3218,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The southeast open edge is approximated from the top footprint and adjacent elevations; landscape features are not distinguishable."
+        }
       },
       {
         "statement": "The proximity and considerable height beside the neighboring building are difficult, requiring a more delicate and subtle facade.",
@@ -64,7 +174,24 @@
           "urban integration",
           "scale",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "side facade beside neighboring building",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9087,
+            0.5576,
+            0.8043
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "east"
+          ],
+          "rationale": "A side elevation at upper height best represents the criticized proximity and imposing scale."
+        }
       },
       {
         "statement": "The almost monolithic and consistently closed appearance is perceived as too unwelcoming for a building with substantial public use.",
@@ -72,14 +199,51 @@
           "expression",
           "visibility",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "monolithic closed building appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0913,
+            0.4624,
+            0.6087
+          ],
+          "radius": 0.3218,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "All elevations visibly present a dense, uniform, and largely closed outer surface."
+        }
       },
       {
         "statement": "The designated cloakroom is too small, and the sports hall window height must be checked because of glare.",
         "tags": [
           "functionality",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "sports hall windows and cloakroom",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6894,
+            0.1385,
+            0.6522
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Interior rooms are absent; the south facade provides only a provisional anchor for window-related concerns."
+        }
       },
       {
         "statement": "The high proportion of concrete makes dismantling comparatively difficult, while the facade material is questioned in terms of design, longevity, and further use.",
@@ -87,21 +251,75 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "facade material",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1369,
+            0.4147,
+            0.5435
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "west",
+            "east"
+          ],
+          "rationale": "Material concerns are assigned to the sampled side facade surfaces visible in elevation."
+        }
       },
       {
         "statement": "The ventilation concept is critically assessed for comfort under limited room height and varying operating conditions, and summer night cooling is not very effective.",
         "tags": [
           "ventilation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ventilation concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3651,
+            0.1759,
+            0.6522
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Ventilation performance is interior-dependent, so it is placed broadly within the upper building volume."
+        }
       },
       {
         "statement": "The large resource use and insufficient daylight, especially on the strength and cardio floor, are clearly too weak in terms of sustainability.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "strength and cardio floor daylight",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8175,
+            0.6531,
+            0.5435
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The criticized floor is not identifiable; a distributed mid-level facade anchor represents its daylight exposure."
+        }
       }
     ],
     "keyword": [

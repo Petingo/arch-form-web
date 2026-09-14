@@ -18,7 +18,24 @@
           "landscape",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact placement preserving trees and playground",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.918,
+            0.2817,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Compact elongated footprint leaves substantial adjacent open ground visible in plan."
+        }
       },
       {
         "statement": "The building’s height and volume are conceivable as a further development of the complex.",
@@ -26,7 +43,27 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "three-storey building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4703,
+            0.489,
+            0.5455
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Rectangular elongated mass and three repeated vertical levels are clearly visible."
+        }
       },
       {
         "statement": "Large windows provide views of greenery and a maximum connection to the outside space.",
@@ -34,35 +71,131 @@
           "facade",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "large windows and outside connection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4176,
+            0.0939,
+            0.5455
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Long elevations visibly expose repeated facade fields associated with exterior connection."
+        }
       },
       {
         "statement": "The clear spatial division and restrained materialization create spatial quality.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "clear spatial division",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5332,
+            0.498,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal division is not explicit; marker is constrained within the regular central volume."
+        }
       },
       {
         "statement": "The project fulfills the spatial program well and uses volumes and areas economically.",
         "tags": [
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "spatial program and economical volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4703,
+            0.489,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular compact mass visibly supports efficient use of volume and floor area."
+        }
       },
       {
         "statement": "The compact volume has a correspondingly low building envelope.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "low building envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4703,
+            0.489,
+            0.5909
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact rectangular form presents a relatively efficient envelope."
+        }
       },
       {
         "statement": "The structure and facade grid enable flexible use.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "structure and facade grid",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3935,
+            0.1249,
+            0.5455
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Dense repeated grid pattern is directly visible across the elevations."
+        }
       }
     ],
     "negative": [
@@ -72,28 +205,102 @@
           "massing",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "random interchangeable building form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4703,
+            0.489,
+            0.4545
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular elongated block is clearly identifiable, supporting the critique of generic form."
+        }
       },
       {
         "statement": "The appearance feels somewhat cold and anonymous beside the existing school complex.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "cold anonymous appearance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3695,
+            0.1559,
+            0.5455
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated uniform facade grid is clearly visible on the elevations."
+        }
       },
       {
         "statement": "The outside-space design is only faintly visible.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outside-space design",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9316,
+            0.2491,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Adjacent open areas are visible, though their specific landscape design is not distinguishable."
+        }
       },
       {
         "statement": "The grid creates elongated rooms with unfavorable aspect ratios.",
         "tags": [
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "elongated rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3526,
+            0.4687,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior room proportions are not visible; marker uses a representative lateral position."
+        }
       },
       {
         "statement": "Access through the cloakroom creates cramped situations, and the wet zones are not optimally solved operationally.",
@@ -101,21 +308,76 @@
           "circulation",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "cramped cloakroom access and wet zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2556,
+            0.3811,
+            0.3182
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal circulation zones are absent; approximate marker is placed near the western lower facade."
+        }
       },
       {
         "statement": "The route to music and support spaces is too long for daily use.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "long route to music and support spaces",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4703,
+            0.489,
+            0.4091
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Route is not represented; marker spans the building’s central longitudinal circulation zone."
+        }
       },
       {
         "statement": "The support-center layout is not operationally optimal.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "support-center layout",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7773,
+            0.6073,
+            0.3636
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Support-center rooms are not distinguishable; marker uses a constrained eastern interior region."
+        }
       },
       {
         "statement": "Standardization subordinates the auditorium, whose room height is too tight.",
@@ -123,14 +385,50 @@
           "functionality",
           "proportion",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "auditorium room height",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6589,
+            0.516,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Auditorium is not identified; marker uses a representative middle-level interior surface."
+        }
       },
       {
         "statement": "The auditorium escape-route situation is unresolved, and fire compartments are not sufficiently evident.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "auditorium escape routes and fire compartments",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6687,
+            0.018,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Fire-safety elements are not separable; marker is constrained to the accessible facade-side region."
+        }
       }
     ],
     "keyword": [

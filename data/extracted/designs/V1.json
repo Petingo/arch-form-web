@@ -16,7 +16,24 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "anteroom and coherent outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2951,
+            0.7722,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Elongated volume and adjacent open forecourt visibly define the approximate anteroom."
+        }
       },
       {
         "statement": "The compact volume and minimal east-west extent create useful distance and protected outdoor spaces.",
@@ -24,7 +41,28 @@
           "massing",
           "privacy",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "compact volume and protected outdoor spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5974,
+            0.8258,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact elongated envelope and narrow east-west extent are corroborated across views."
+        }
       },
       {
         "statement": "The volume is shaped by incisions and expansions that articulate entrances, covered play areas, and terraces.",
@@ -32,7 +70,28 @@
           "massing",
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "incisions, entrances, covered play areas, and terraces",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6283,
+            0.8213,
+            0.625
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated cuts and stepped edge features are visible in top and elevation projections."
+        }
       },
       {
         "statement": "The generous skylight supports daylight, clear orientation, and differentiated circulation.",
@@ -40,14 +99,46 @@
           "daylight",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "generous skylight and circulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5056,
+            0.3479,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Skylight is not individually resolved; roof ridge is the relevant envelope anchor."
+        }
       },
       {
         "statement": "The proposal is extremely convincing in its compactness and offers a coherent architectural concept.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "coherent architectural concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Evaluates the whole compact building concept."
+        }
       },
       {
         "statement": "The structural concept promises cost-effective production and the construction approach supports robustness and low maintenance.",
@@ -55,7 +146,18 @@
           "structure",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "structural concept and robust low-maintenance construction",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Structure, cost, and maintenance are global performance judgments."
+        }
       }
     ],
     "negative": [
@@ -64,35 +166,118 @@
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian and vehicle access conflict",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1429,
+            0.27,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Access conflict is not directly represented; lower-west approach is a plausible site anchor."
+        }
       },
       {
         "statement": "The use of the building is not sufficiently noticeable in its expression.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "building expression and use identity",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8777,
+            0.4957,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Use identity is judged at the visible elongated facade without a distinct program marker."
+        }
       },
       {
         "statement": "The effect of the materials on the attractiveness of the spaces for children is questioned.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "materials and children’s spatial attractiveness",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4668,
+            0.0335,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Material effects are not resolved; lower facade offers an approximate children’s-space anchor."
+        }
       },
       {
         "statement": "Reducing the number of outdoor parking spaces could clarify and separate pedestrian and vehicle access.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "outdoor parking and separated access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7063,
+            0.2315,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent; eastern lower forecourt marks a plausible access zone."
+        }
       },
       {
         "statement": "It must be carefully examined how the fire-protection requirements can be fully met.",
         "tags": [
           "fire safety",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "fire-protection requirements",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Fire-protection compliance is an unlocated technical judgment."
+        }
       }
     ],
     "keyword": [

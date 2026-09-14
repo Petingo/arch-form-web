@@ -15,35 +15,134 @@
         "tags": [
           "structure",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "building foundations over ruins",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3774,
+            0.1444,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated building footprint and ground lines constrain the foundation region beneath the volume."
+        }
       },
       {
         "statement": "The calm appearance of the volume and its positioning lead to a good integration into the landscape.",
         "tags": [
           "expression",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "whole volume in landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5435,
+            0.5514,
+            0.4889
+          ],
+          "radius": 0.334,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Calm elongated mass is clearly visible across the top and four elevation views."
+        }
       },
       {
         "statement": "The project convincingly accommodates all functions in one large, homogeneous volume.",
         "tags": [
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "homogeneous building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.706,
+            0.3555,
+            0.4889
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous elongated enclosure is visible across the complete point-cloud envelope."
+        }
       },
       {
         "statement": "The abstract historical reference to the atrium typology makes sense.",
         "tags": [
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4453,
+            0.4878,
+            0.4889
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Distinct central rectangular opening is clearly identifiable in the top view."
+        }
       },
       {
         "statement": "The noise-protected interior world goes beyond pure practicality and is convincing in its basic concept.",
         "tags": [
           "acoustics",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "noise-protected interior world",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5672,
+            0.4785,
+            0.4889
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior acoustic realm is not distinguished, so it is approximated within the enclosed central building zone."
+        }
       }
     ],
     "negative": [
@@ -53,21 +152,79 @@
           "operation",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "detached main entrance and delivery",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.091,
+            0.1738,
+            0.2444
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A plausible end-zone surface anchor represents the detached entrance and delivery interface."
+        }
       },
       {
         "statement": "The distance between delivery and the depot creates long internal operating routes and operational overlays that reveal the limits of the concept.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "delivery-to-depot route",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8011,
+            0.4166,
+            0.4889
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Internal operating routes are absent, approximated along the elongated building’s circulation direction."
+        }
       },
       {
         "statement": "The architectural design seems somewhat forced and inappropriate to the building's primary function as a place for research and storage.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "research and storage building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9396,
+            0.7371,
+            0.4889
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete elongated mass provides the spatial anchor for the overall architectural expression."
+        }
       }
     ],
     "keyword": [

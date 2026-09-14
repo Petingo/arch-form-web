@@ -16,35 +16,121 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "transition from city to outdoor pool",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5134,
+            0.1891,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Long continuous volume is visible; approximate lower-side placement represents urban-to-pool transition."
+        }
       },
       {
         "statement": "The main entrance is clearly positioned with short routes from the city and parking area.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3645,
+            0.0409,
+            0.1875
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Small localized feature near the lower narrowing plausibly indicates the entrance approach."
+        }
       },
       {
         "statement": "The main functional areas are arranged in a comprehensible and clear manner.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "main functional areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6146,
+            0.5036,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central portion of the continuous volume anchors the broadly described internal functional arrangement."
+        }
       },
       {
         "statement": "The proposed phasing promises uninterrupted operation of the outdoor and indoor pools.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "uninterrupted outdoor and indoor pool operation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Operational phasing is a performance judgment without a useful geometric location."
+        }
       },
       {
         "statement": "The project has a small cubage and promises an economical solution.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "small cubage",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6568,
+            0.6346,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distributed placement on the elongated envelope represents the overall cubage assessment."
+        }
       }
     ],
     "negative": [
@@ -54,49 +140,179 @@
           "identity",
           "expression",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "barn image",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4377,
+            0.1901,
+            0.5625
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated barn-like volume is clearly identifiable across top and elevation views."
+        }
       },
       {
         "statement": "A shell fully glazed on all sides raises questions because of the risk of glare.",
         "tags": [
           "facade",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "fully glazed shell",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8862,
+            0.5856,
+            0.3755
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "East envelope surface anchors the all-sides glazing concern on the visible continuous shell."
+        }
       },
       {
         "statement": "The structural logic is not sufficiently conveyed; the roof structure appears fragmented and schematic.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "roof structure",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2823,
+            0.9317,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-line geometry is visible, though its fragmented support logic is not separately distinguishable."
+        }
       },
       {
         "statement": "The roof support construction fragments the impression of space.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "roof support construction",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2706,
+            0.9237,
+            0.9375
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper envelope placement represents the roof supports implicated in spatial fragmentation."
+        }
       },
       {
         "statement": "The open-space and planting concept remains schematic and not particularly sensual.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "open-space and planting concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2034,
+            0.0532,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Adjacent ground region outside the building anchors the schematic landscape assessment."
+        }
       },
       {
         "statement": "The sunken open-topped bicycle yard appears strange, while bicycle parking is too far from the main entrance.",
         "tags": [
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sunken bicycle yard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3376,
+            0.0429,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower-side external area provides a constrained surface estimate for the bicycle yard and access issue."
+        }
       },
       {
         "statement": "There is very limited space when accessing the outdoor pool.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "outdoor pool access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7286,
+            0.2269,
+            0.0625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "External ground adjacent to the elongated volume anchors the constrained pool-access concern."
+        }
       },
       {
         "statement": "The project contains heated rooms outside the insulation perimeter, reduced room height in the later wellness area, and undersized technical rooms.",
@@ -104,14 +320,53 @@
           "cost",
           "functionality",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "heated rooms and technical rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6357,
+            0.5691,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central envelope location approximates the unshown internal rooms and wellness-area deficiencies."
+        }
       },
       {
         "statement": "The promised sustainable supporting structure is hardly credible at the slimness shown.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sustainable supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6399,
+            0.5822,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level placement anchors the supporting-structure credibility concern on the sampled envelope."
+        }
       }
     ],
     "keyword": [

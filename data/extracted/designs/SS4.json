@@ -13,7 +13,18 @@
         "statement": "The project was selected for its contribution to the competition.",
         "tags": [
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "competition contribution",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Selection contribution is an overall jury assessment without a spatial referent."
+        }
       }
     ],
     "negative": [],

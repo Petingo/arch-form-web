@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "precise volumetry",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5754,
+            0.4795,
+            0.75
+          ],
+          "radius": 0.3198,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated bridge massing is visible across the footprint and elevations."
+        }
       },
       {
         "statement": "The landscape proposal enhances existing topography and trees while engaging with neighboring buildings.",
@@ -26,7 +47,26 @@
           "landscape",
           "topography",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "landscape proposal",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1733,
+            0.7727,
+            0.0833
+          ],
+          "radius": 0.3199,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Landscape is approximated around the building perimeter and northern edge."
+        }
       },
       {
         "statement": "The placement generates three distinct and high-quality outdoor spaces.",
@@ -34,7 +74,24 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "three distinct outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.494,
+            0.5013,
+            0
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Three distinct open areas are legible along the elongated top-view footprint."
+        }
       },
       {
         "statement": "Ground-floor public uses provide numerous independent accesses and facilitate sector separation.",
@@ -42,7 +99,26 @@
           "circulation",
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor public uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.494,
+            0.5013,
+            0.0833
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-level access zones are approximated along the building perimeter."
+        }
       },
       {
         "statement": "The program distribution has well-proportioned circulation spaces with natural light and exterior views.",
@@ -50,7 +126,26 @@
           "layout",
           "circulation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "program distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4232,
+            0.5562,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation and vertically distributed program are represented through the elongated multi-level mass."
+        }
       },
       {
         "statement": "The bridge building establishes a dialogue between the city and the agricultural landscape.",
@@ -58,7 +153,28 @@
           "urban integration",
           "landscape",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "bridge building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5562,
+            0.4622,
+            0.75
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous elongated building form clearly reads as a bridge-like volume."
+        }
       },
       {
         "statement": "The covered central square creates a generous meeting space for school and civic uses.",
@@ -66,7 +182,26 @@
           "open space",
           "functionality",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "covered central square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.537,
+            0.4449,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central covered void is visible between the surrounding elongated wings."
+        }
       },
       {
         "statement": "The park-school concept allows freedom of use, creativity, and sociability.",
@@ -74,7 +209,26 @@
           "flexibility",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "park-school concept",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.471,
+            0.3403,
+            0
+          ],
+          "radius": 0.3198,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Open areas surrounding the building provide a plausible shared park-school zone."
+        }
       },
       {
         "statement": "The relationship between interior and exterior is poetic and generous.",
@@ -82,7 +236,26 @@
           "open space",
           "identity",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "interior and exterior relationship",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5562,
+            0.4622,
+            0.4167
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central void and perimeter openings visibly connect interior massing with exterior space."
+        }
       },
       {
         "statement": "Integrating the sports program into the school building improves the organization.",
@@ -90,7 +263,26 @@
           "layout",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports program",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6696,
+            0.1378,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Sports-related program is approximated toward the southeastern end of the footprint."
+        }
       }
     ],
     "negative": [
@@ -100,7 +292,26 @@
           "layout",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "detached sports hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8556,
+            0.1243,
+            0.0833
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Detached sports volume is approximated beyond the southeastern building end."
+        }
       },
       {
         "statement": "The pavilions forming a border with the agricultural area penalize the landscape concept.",
@@ -108,14 +319,52 @@
           "landscape",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "pavilions forming a border",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1925,
+            0.79,
+            0.3333
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Agricultural edge is approximated along the northern and western perimeter."
+        }
       },
       {
         "statement": "The retention of much of the existing topography is questioned under the site's constraints.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing topography",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2117,
+            0.8073,
+            0.0833
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Topographic retention is assigned to the surrounding ground surface."
+        }
       },
       {
         "statement": "The number and size of stairs serving classrooms are insufficient.",
@@ -123,7 +372,26 @@
           "circulation",
           "accessibility",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "stairs serving classrooms",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.494,
+            0.5013,
+            0.3333
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Stair locations are not distinguishable; a central vertical circulation anchor is used."
+        }
       },
       {
         "statement": "The off-axis skylights create excessive contractions in the corridors.",
@@ -131,14 +399,51 @@
           "circulation",
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "off-axis skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.537,
+            0.4449,
+            0.9167
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Skylights are approximated on the roof above the central circulation zone."
+        }
       },
       {
         "statement": "Some rooms are blind or receive too little natural light.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "rooms with insufficient natural light",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6949,
+            0.284,
+            0.5833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Potentially blind rooms are approximated within the southeastern interior mass."
+        }
       },
       {
         "statement": "The lower-ground-floor distribution, auditorium access, and stage relationship require improvement.",
@@ -146,7 +451,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "lower-ground-floor distribution",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7889,
+            0.3943,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower-ground organization is anchored toward the southeastern lower level."
+        }
       },
       {
         "statement": "The basement corridor to the triple room is excessively long and poor in quality.",
@@ -154,7 +478,26 @@
           "circulation",
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basement corridor to the triple room",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3049,
+            0.7024,
+            0.0833
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Basement corridor is approximated along the western-central lower level."
+        }
       },
       {
         "statement": "The facade passageways require more detail concerning climbing plants.",
@@ -162,7 +505,26 @@
           "facade",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade passageways",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4424,
+            0.5735,
+            0.5833
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Passageways are assigned to the perimeter facade strips around the central void."
+        }
       },
       {
         "statement": "The cultural program raises questions about access, coexistence, and visibility.",
@@ -170,7 +532,26 @@
           "circulation",
           "operation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "cultural program",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7347,
+            0.4496,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Cultural functions are approximated toward the southeastern public-facing portion."
+        }
       },
       {
         "statement": "The southern circus space is too disconnected from the cultural program.",
@@ -178,14 +559,51 @@
           "layout",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "southern circus space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6335,
+            0.1746,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Southern open space is anchored along the lower footprint edge."
+        }
       },
       {
         "statement": "Grass cover under the building will be difficult to maintain.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "grass cover under the building",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5132,
+            0.5186,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground beneath the bridge is approximated at the central covered void."
+        }
       },
       {
         "statement": "The energy concept remains incomplete and information on materials, ventilation, and green roofs is lacking.",
@@ -193,7 +611,18 @@
           "sustainability",
           "ventilation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "energy concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Energy, materials, ventilation, and green-roof information have no single spatial anchor."
+        }
       },
       {
         "statement": "The balconies and greening do not sufficiently prevent summer overheating.",
@@ -201,7 +630,26 @@
           "sustainability",
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "balconies and greening",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.537,
+            0.4449,
+            0.75
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Facade shading and planting are approximated around the upper perimeter."
+        }
       },
       {
         "statement": "The fully glazed lower and upper floors may create summer overheating problems.",
@@ -209,7 +657,27 @@
           "sustainability",
           "facade",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "fully glazed lower and upper floors",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5562,
+            0.4622,
+            0.6667
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Glazing concern is assigned across the upper and lower exterior bands."
+        }
       },
       {
         "statement": "The southwest facade is exposed to road noise and should accommodate less noise-sensitive uses.",
@@ -217,7 +685,25 @@
           "acoustics",
           "layout",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "southwest facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4041,
+            0.4094,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "west"
+          ],
+          "rationale": "Southwestern corner is constrained by the south and west elevation views."
+        }
       },
       {
         "statement": "The main entrance is cramped and disproportionate to the building's length.",
@@ -225,7 +711,25 @@
           "circulation",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6154,
+            0.1931,
+            0.1667
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Main entrance is approximated on the southern central edge of the long building."
+        }
       },
       {
         "statement": "Long corridors weaken the quality of circulation and differentiated subunit organization.",
@@ -233,7 +737,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.537,
+            0.4449,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Longitudinal circulation is approximated through the center of the elongated plan."
+        }
       },
       {
         "statement": "The bridge structure is insufficiently expressed, compromising architectural expression and credibility.",
@@ -241,7 +764,28 @@
           "structure",
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "bridge structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5936,
+            0.4645,
+            0.75
+          ],
+          "radius": 0.3198,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Bridge-like structural expression is directly legible in the elongated mass and elevations."
+        }
       }
     ],
     "keyword": [

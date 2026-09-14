@@ -16,14 +16,49 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "western-edge location",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.082,
+            0.4917,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The building visibly occupies the west edge, leaving clearance toward the opposite side."
+        }
       },
       {
         "statement": "The north-south path extends the existing route and is connected to the school entrance.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "north-south path and entrance",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4852,
+            0.7353,
+            0.05
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A ground-level longitudinal route is placed beside the building and connected to its likely entrance."
+        }
       },
       {
         "statement": "The three-bay volume establishes a clear front toward the fields and a discontinuous front toward the village, producing a scale relationship close to individual housing.",
@@ -31,14 +66,52 @@
           "massing",
           "facade",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "three-bay discontinuous front",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5152,
+            0.743,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Three-bay massing and stepped discontinuity are directly legible in the footprint and elevations."
+        }
       },
       {
         "statement": "The typological and structural concept is relevant and supports the proposed organization.",
         "tags": [
           "layout",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "typological and structural organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4431,
+            0.7245,
+            0.45
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The organizational judgment is anchored to the complete sampled building volume."
+        }
       },
       {
         "statement": "The urban-planning and landscape response is appreciated by the jury.",
@@ -46,7 +119,24 @@
           "urban integration",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "urban-planning and landscape response",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0733,
+            0.5356,
+            0.15
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "West-side placement and surrounding clearance provide the site-scale landscape anchor."
+        }
       }
     ],
     "negative": [
@@ -56,7 +146,25 @@
           "massing",
           "proportion",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "first-stage waiting bay",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3126,
+            0.8232,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The incomplete upper-left bay is the clearest sampled location for the first-stage imbalance."
+        }
       },
       {
         "statement": "The playground layout remains schematic, pedestrian access from the village is unaddressed, and slope management is unresolved.",
@@ -64,7 +172,24 @@
           "open space",
           "circulation",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "playground and village access",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8032,
+            0.5287,
+            0.05
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground beyond the volume approximates playground, pedestrian approach, and unresolved slope management."
+        }
       },
       {
         "statement": "The entrance step conflicts with the overhang gesture and creates an obstacle between the covered courtyard and the hall.",
@@ -72,7 +197,25 @@
           "accessibility",
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "entrance step and covered courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4852,
+            0.7353,
+            0.1
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance threshold is estimated at the lower central edge of the sampled volume."
+        }
       },
       {
         "statement": "The valuable conceptual choices are weakened because they are not reflected rigorously in the plans and facades.",
@@ -80,14 +223,54 @@
           "layout",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "plans and facades",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4071,
+            0.7152,
+            0.45
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The criticism concerns consistency across the entire sampled building envelope."
+        }
       },
       {
         "statement": "The rotation of some classrooms contradicts the concept’s intended single orientation.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "rotated classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8124,
+            0.4824,
+            0.45
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom zones are approximated along the elongated bays, with rotation not distinguishable in the sample."
+        }
       },
       {
         "statement": "The services clutter the central hall and do not resolve the position of the classroom changing rooms.",
@@ -95,7 +278,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central hall services",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4792,
+            0.7337,
+            0.45
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Services and changing rooms are estimated within the central hall, absent as distinct exterior geometry."
+        }
       }
     ],
     "keyword": [

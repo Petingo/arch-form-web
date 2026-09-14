@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "emerging building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5659,
+            0.6127,
+            0.5833
+          ],
+          "radius": 0.319,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elongated elevated volume is clearly visible along the complex edge across plan and elevations."
+        }
       },
       {
         "statement": "Freeing the ground-floor corner clearly identifies the entrance and creates a sequence of shared meeting spaces.",
@@ -26,7 +46,26 @@
           "circulation",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor entrance corner",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1164,
+            0.2137,
+            0.0833
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Low corner and ground-level setback approximate the freed entrance zone."
+        }
       },
       {
         "statement": "The external space between the new and historic buildings is enhanced by a fluid connection between outdoor areas.",
@@ -34,7 +73,26 @@
           "open space",
           "circulation",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "external space between buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4568,
+            0.2065,
+            0.0417
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interstitial low zone is visible between the linear building masses."
+        }
       },
       {
         "statement": "The differentiated structural proposal coherently rethinks the industrial character through prefabrication and serial production.",
@@ -42,7 +100,26 @@
           "expression",
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "prefabricated structural system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6713,
+            0.6809,
+            0.5625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated orthogonal point pattern supports a broad structural-system anchor."
+        }
       },
       {
         "statement": "The greenery creates a coherent hortus conclusus while balancing use requirements and environmental aspects.",
@@ -50,7 +127,25 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "enclosed greenery",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4041,
+            0.1724,
+            0.0208
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Approximate planted enclosure is placed in the interstitial outdoor zone."
+        }
       },
       {
         "statement": "The lightweight structure is efficient, quick to build, and causes limited repercussions on the surroundings.",
@@ -58,7 +153,27 @@
           "structure",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "lightweight building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.724,
+            0.715,
+            0.6042
+          ],
+          "radius": 0.323,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Building-scale marker follows the elevated linear envelope and limited ground contact."
+        }
       },
       {
         "statement": "The envelope and glass-to-opaque ratio appear optimal and suitable for the intended energy certification.",
@@ -66,14 +181,49 @@
           "sustainability",
           "daylight",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "building envelope",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.454,
+            0.2046,
+            0.625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "South-facing envelope surface provides the clearest sampled facade anchor."
+        }
       },
       {
         "statement": "External and internal noise protection is carefully documented.",
         "tags": [
           "acoustics",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "noise protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2959,
+            0.1023,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Acoustic protection is approximated at the exterior envelope without distinguishable acoustic elements."
+        }
       }
     ],
     "negative": [
@@ -83,21 +233,75 @@
           "layout",
           "flexibility",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "structural masonry spine",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4013,
+            0.1705,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior spine is absent from the exterior sample and anchored approximately through the building envelope."
+        }
       },
       {
         "statement": "A green roof or more defined green concept for the galleries could have provided environmental benefits.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "green roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6713,
+            0.6809,
+            0.9792
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Roof plane is visible in plan, but no distinct green treatment is sampled."
+        }
       },
       {
         "statement": "The ecological aspects of the materials are not explicitly addressed.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "building materials",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6121,
+            0.3069,
+            0.5833
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Material properties are not distinguishable, so the marker uses a representative envelope surface."
+        }
       }
     ],
     "keyword": [

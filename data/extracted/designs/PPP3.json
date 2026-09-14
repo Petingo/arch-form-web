@@ -16,56 +16,206 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "existing-building setting",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4981,
+            0.7724,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The elongated longitudinal volume is unmistakable in the footprint and elevations."
+        }
       },
       {
         "statement": "The building acts as a mediator between the neighboring educational buildings.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "mediator between educational buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.643,
+            0.5834,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The central elongated mass visibly mediates between its two longitudinal ends."
+        }
       },
       {
         "statement": "Its distance from the kindergarten enables a good connection to the outdoor sports fields.",
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "connection to outdoor sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.452,
+            0.8628,
+            0.05
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The stated kindergarten separation is anchored toward the open longitudinal end."
+        }
       },
       {
         "statement": "The building arrangement provides good lighting for the ground-floor rooms.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor rooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3428,
+            0.427,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Ground-level bands are clearly visible along the elongated elevations."
+        }
       },
       {
         "statement": "The architectural language has been developed appropriately and site-specifically.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "site-specific architectural language",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5343,
+            0.7252,
+            0.55
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The consistent longitudinal form and horizontal layering define the visible architectural language."
+        }
       },
       {
         "statement": "The transparent partitions enable pleasant and clear room sequences.",
         "tags": [
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "transparent room sequences",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3777,
+            0.3815,
+            0.6
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Partitions are interior and not distinct; a mid-level central anchor represents the sequence."
+        }
       },
       {
         "statement": "The meandering corridor creates pleasantly zoned spatial sequences.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "meandering corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4321,
+            0.3106,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The corridor is not directly separable, so it is approximated within the longitudinal middle."
+        }
       },
       {
         "statement": "The exercise rooms are easy to fold and use.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "exercise rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4882,
+            0.8156,
+            0.25
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior exercise rooms are absent from the sample; the anchor uses a lower-level longitudinal surface."
+        }
       }
     ],
     "negative": [
@@ -74,61 +224,216 @@
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "entrance zones and nearby outdoor areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5421,
+            0.1671,
+            0.05
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The building’s southern end and adjacent ground zone provide the closest visible entrance-area constraint."
+        }
       },
       {
         "statement": "A more feasible and usable solution for addressing the topography is required.",
         "tags": [
           "topography",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "topography response",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.524,
+            0.1908,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Slope handling is not directly represented; a low-end site anchor is used."
+        }
       },
       {
         "statement": "The garden-like upper open space does not seem robust enough for intensive play.",
         "tags": [
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper garden-like open space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5245,
+            0.7684,
+            0.05
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Upper open space is inferred beside the building’s longitudinal perimeter."
+        }
       },
       {
         "statement": "The southern tip of the area can only be used to a limited extent.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "southern tip",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5784,
+            0.1199,
+            0.05
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The southern longitudinal end is directly localized in the footprint."
+        }
       },
       {
         "statement": "The transparent partitions leave the desired intimacy somewhat lacking.",
         "tags": [
           "privacy",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "transparent partitions",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3777,
+            0.3815,
+            0.55
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Interior partitions are not individually visible; the central facade-adjacent anchor is approximate."
+        }
       },
       {
         "statement": "The wardrobes have limited dimensions and functionality.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "wardrobes",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4334,
+            0.3089,
+            0.25
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Wardrobes are internal and unrepresented; a lower-level central location is estimated."
+        }
       },
       {
         "statement": "The office space is somewhat too small.",
         "tags": [
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "office space",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5524,
+            0.7016,
+            0.55
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The office is not distinguished in the point cloud; a mid-building room anchor is used."
+        }
       },
       {
         "statement": "The longitudinal construction creates disadvantageously long corridor situations.",
         "tags": [
           "circulation",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "long corridor situations",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6611,
+            0.5598,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The longitudinal footprint and repeated horizontal elevation bands visibly support the corridor concern."
+        }
       },
       {
         "statement": "The project is classified as rather expensive.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "expensive project",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment has no useful geometric location."
+        }
       }
     ],
     "keyword": [

@@ -18,35 +18,129 @@
           "urban integration",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "two differentiated landscape areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0592,
+            0.1666,
+            0
+          ],
+          "radius": 0.308,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The narrow diagonal volume plausibly separates landscape on opposing sides within the site."
+        }
       },
       {
         "statement": "The self-contained volume appears reservedly quiet despite its large dimensions.",
         "tags": [
           "scale",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "self-contained volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5154,
+            0.738,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "All views show one continuous, quiet rectangular volume with substantial longitudinal extent."
+        }
       },
       {
         "statement": "The structural and foundation requirements are used architecturally to develop a specific spatial typology.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "specific spatial typology",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3263,
+            0.1492,
+            0.1667
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The sampled mass supports a building-scale typological reading, while structure and foundations remain indistinguishable."
+        }
       },
       {
         "statement": "The internal organization consistently follows the logic established by the volume’s positioning.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7036,
+            0.8702,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior layout is unexposed, so the eastern longitudinal portion provides a constrained surface anchor."
+        }
       },
       {
         "statement": "The operational processes are well recorded and atmospherically woven into the field-like spatial concept.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "operational processes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0637,
+            0.1515,
+            0.3333
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Operations are not separately visible; the anchor marks a plausible end zone within the linear volume."
+        }
       },
       {
         "statement": "The skylights and two-story rooms create differentiated spatial qualities within the rigid structure.",
@@ -54,7 +148,26 @@
           "daylight",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "skylights and two-story rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7271,
+            0.8178,
+            0.8333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-adjacent placement reflects skylight emphasis; room heights are inferred from the moderately tall envelope."
+        }
       },
       {
         "statement": "The project proposal consistently works through all subject areas and translates the task into convincing architecture.",
@@ -62,14 +175,56 @@
           "urban integration",
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole project proposal",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6045,
+            0.8006,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad assessment is anchored to the visible building envelope across its diagonal footprint and elevations."
+        }
       },
       {
         "statement": "The type mediates between commercial-building requirements and a clearly recognizable architectural character.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "recognizable architectural character",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4055,
+            0.2049,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous angled roof and narrow rectangular body visibly establish a distinctive architectural type."
+        }
       }
     ],
     "negative": [],

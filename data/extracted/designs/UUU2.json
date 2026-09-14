@@ -19,7 +19,28 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "controlled space between the two buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3343,
+            0.6016,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Open route-end square visibly framed between both footprint masses on the ground plane."
+        }
       },
       {
         "statement": "The position of the first-stage building, especially the multi-purpose hall, is appreciated for its close relation to the kindergarten.",
@@ -27,14 +48,42 @@
           "urban integration",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "first-stage multipurpose hall beside the kindergarten",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3352,
+            0.6984,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Upper-left building is the identifiable first-stage mass; neighboring kindergarten is not separately legible."
+        }
       },
       {
         "statement": "The architectural quality is considered satisfactory after refinement during development.",
         "tags": [
           "expression",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "architectural quality after refinement",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Evaluates overall architectural expression rather than a discrete model location."
+        }
       },
       {
         "statement": "The proposed spaces are interesting and high-quality, with good functional and circulation organization.",
@@ -42,7 +91,28 @@
           "functionality",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "proposed spaces and circulation organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6776,
+            0.3198,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Interior organization is hidden; marker approximates the occupied building region."
+        }
       }
     ],
     "negative": [
@@ -52,7 +122,24 @@
           "massing",
           "urban integration",
           "phasing"
-        ]
+        ],
+        "position": {
+          "target": "incomplete route-end space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3372,
+            0.6064,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Framed gap between buildings is clearly visible as the affected route-end space."
+        }
       },
       {
         "statement": "The plinth creates a large space without a clear function, while the two flowerbeds deny the square's potential.",
@@ -60,7 +147,24 @@
           "open space",
           "functionality",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "large plinth and flowerbeds",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6688,
+            0.3054,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Lower-right mass and adjacent ground best approximate the plinth and landscape critique."
+        }
       },
       {
         "statement": "The layout of the football pitches and remaining green area is not sufficiently thorough.",
@@ -68,14 +172,42 @@
           "landscape",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "football pitches and remaining green area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2318,
+            0.4348,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pitches and planting are not distinguishable; marker estimates a remaining ground-field region."
+        }
       },
       {
         "statement": "No adequate construction solutions are presented to rationalize costs as requested in the competition brief.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction solutions and cost rationalization",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction cost is an unlocated performance judgment."
+        }
       }
     ],
     "keyword": [

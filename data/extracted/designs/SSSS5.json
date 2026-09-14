@@ -18,7 +18,24 @@
           "open space",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "contiguous open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7512,
+            0.496,
+            0.1
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The compact northwest mass leaves the largest uninterrupted open area toward the southeast."
+        }
       },
       {
         "statement": "The slightly angular volume gives the northwest area a precise urban setting.",
@@ -26,7 +43,27 @@
           "urban integration",
           "massing",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "angular volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2077,
+            0.8295,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact angular building is clearly concentrated at the model's northwest corner."
+        }
       },
       {
         "statement": "The main uses and associated infrastructures are sensibly arranged for functional and operational processes.",
@@ -34,7 +71,26 @@
           "functionality",
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "main uses and associated infrastructures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.7894,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Functional arrangement is assigned across the compact stacked building envelope."
+        }
       },
       {
         "statement": "The restaurant and outdoor terrace are in a desirable location and form a beautiful dialogue with the pool.",
@@ -42,7 +98,26 @@
           "layout",
           "landscape",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "restaurant and outdoor terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7156,
+            1,
+            0.4
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The terrace is approximated along the building's eastern and northern pool-facing edge."
+        }
       },
       {
         "statement": "The facade is attractive in its combinatorics, tectonics, and location-specific material character.",
@@ -50,7 +125,26 @@
           "facade",
           "expression",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8997,
+            0.804,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The exposed eastern and northern envelope provides the clearest sampled facade surfaces."
+        }
       },
       {
         "statement": "The park is respected, the architecture is withdrawn, and the degree of sealing is low.",
@@ -58,14 +152,50 @@
           "landscape",
           "urban integration",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7206,
+            0.496,
+            0.1
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The building's peripheral placement leaves most park area open on the southeast side."
+        }
       },
       {
         "statement": "The project achieves good compactness and a remarkably small footprint.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "small footprint",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2042,
+            0.9942,
+            0.2
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled footprint is compact and concentrated in the northwest portion of the model."
+        }
       },
       {
         "statement": "The concept is recognized as preserving substantial park space with a compact peripheral building.",
@@ -73,7 +203,27 @@
           "open space",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "compact peripheral building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2077,
+            0.8094,
+            0.6
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The complete building mass is visibly compact and peripheral in the northwest."
+        }
       }
     ],
     "negative": [
@@ -83,7 +233,26 @@
           "functionality",
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "stacked uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2077,
+            0.7693,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Multiple horizontal levels are clearly visible in the elevations, indicating vertically stacked uses."
+        }
       },
       {
         "statement": "The external ice-rink enclosure is unresolved, and future energy and climatic needs were overlooked.",
@@ -91,35 +260,127 @@
           "acoustics",
           "sustainability",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "external ice-rink enclosure",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9402,
+            0.6592,
+            0.3
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The enclosure is not separately identifiable; the exposed eastern edge is the plausible anchor."
+        }
       },
       {
         "statement": "The large external staircase lacks sufficient architectural design power.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "external staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1062,
+            0.2354,
+            0.3
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "A prominent diagonal external stair-like structure is visible along the southwest approach."
+        }
       },
       {
         "statement": "The necessary roof housing is not convincing.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "roof housing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.8496,
+            0.9
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Roof-mounted housing is approximated on the upper northwest mass where roof structures are visible."
+        }
       },
       {
         "statement": "A more spatially attractive route to the ice-rink grandstand would be desirable.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ice-rink grandstand route",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7028,
+            0.496,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The grandstand route is not distinguishable; the eastern circulation edge is used."
+        }
       },
       {
         "statement": "The terrace additions are architecturally unsightly and obscure the material expression.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "terrace additions",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9041,
+            0.8058,
+            0.4
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Terrace additions are approximated on the exposed eastern facade and adjacent upper edge."
+        }
       },
       {
         "statement": "The newly acquired lounge area is too open in front of the unconvincing ramp staircase.",
@@ -127,14 +388,51 @@
           "open space",
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "lounge area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2435,
+            0.496,
+            0.3
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lounge is not visible internally; the open approach beside the southwest stair is used."
+        }
       },
       {
         "statement": "The arrangement of uses has functional and operational deficiencies.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "arrangement of uses",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.7493,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The criticism concerns the full stacked building organization shown in the elevations."
+        }
       },
       {
         "statement": "The deep basement produces a large excavation volume.",
@@ -142,7 +440,25 @@
           "topography",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "deep basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0045,
+            0.7891,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The basement is below the sampled ground envelope; its footprint is approximated beneath the compact mass."
+        }
       },
       {
         "statement": "The carrying concept is unconvincing and the construction method is resource-intensive.",
@@ -150,21 +466,78 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "carrying concept and construction method",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.8496,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Structural and construction criticism applies broadly to the compact stacked building."
+        }
       },
       {
         "statement": "The stacked arrangement creates thermal neighbourhoods that disrupt efficient operation and energy performance.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "thermal neighbourhoods",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.7292,
+            0.6
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The stacked levels provide the only visible spatial proxy for separated thermal zones."
+        }
       },
       {
         "statement": "The project cannot be implemented in several independent stages.",
         "tags": [
           "flexibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "independent stages",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2077,
+            0.8696,
+            0.6
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Phasing is not geometrically represented; the whole compact building is the constrained anchor."
+        }
       }
     ],
     "keyword": [

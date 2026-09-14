@@ -17,7 +17,28 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "low pavilion form",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5083,
+            0.5468,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Six low parallel pavilion rows are clearly visible across the plan and all elevations."
+        }
       },
       {
         "statement": "The irregular exterior outline blends into the landscape while the regular solids-and-voids pattern supports variety and orientation.",
@@ -25,7 +46,26 @@
           "massing",
           "layout",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "irregular exterior outline",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1953,
+            0.5321,
+            0.4
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The stepped outer perimeter and repeated solids-and-voids pattern are directly visible in plan and elevations."
+        }
       },
       {
         "statement": "The ground-floor interior street structures the different functions favorably and provides landmarks and natural light.",
@@ -33,7 +73,26 @@
           "circulation",
           "layout",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor interior street",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4906,
+            0.4503,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level circulation is inferred between the parallel rows and constrained by the lowest elevation band."
+        }
       },
       {
         "statement": "The accommodation units offer high-quality strolling spaces and a variety of living spaces.",
@@ -41,7 +100,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "accommodation units and strolling spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.716,
+            0.5568,
+            0.3
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated pavilion intervals and connecting open strips visibly create varied walking and living zones."
+        }
       },
       {
         "statement": "The restored vegetable garden and diversified outdoor program support daily contact and exchanges between inhabitants and residents.",
@@ -49,7 +127,24 @@
           "landscape",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "restored vegetable garden and outdoor program",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2004,
+            0.1943,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape programming is not separately modeled; the peripheral southern-western open area is the closest anchor."
+        }
       },
       {
         "statement": "The low elevation allows the castle roofs to emerge and avoids competition with the historic complex.",
@@ -57,7 +152,27 @@
           "scale",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "low elevation and castle roof visibility",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4906,
+            0.4503,
+            0.2
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The consistently low profile is directly confirmed by the compact vertical spread in every elevation."
+        }
       }
     ],
     "negative": [
@@ -67,7 +182,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "first-floor interior street",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4994,
+            0.4525,
+            0.6
+          ],
+          "radius": 0.23,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper circulation is approximated between pavilion rows at the upper repeated elevation bands."
+        }
       },
       {
         "statement": "The upper accommodation level is divided into two distant centers and is too compressed in places.",
@@ -75,21 +209,76 @@
           "layout",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "upper accommodation level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6549,
+            0.5088,
+            0.7
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The upper row organization and its divided pavilion centers are visible in plan and upper elevation bands."
+        }
       },
       {
         "statement": "The bathrooms and their access are poorly designed.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "bathrooms and access",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6549,
+            0.5088,
+            0.6
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Bathrooms are not identifiable; a representative upper accommodation bay is used as a constrained anchor."
+        }
       },
       {
         "statement": "The constructive principles should be specified at the level of the supporting structure and facade.",
         "tags": [
           "structure",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure and facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8424,
+            0.4925,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "west"
+          ],
+          "rationale": "The repeated external facade edges are visible, though structural principles are not distinguishable."
+        }
       },
       {
         "statement": "The multiplied gable roofs almost produce the opposite of the intended village integration.",
@@ -97,7 +286,28 @@
           "massing",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "multiplied gable roofs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4737,
+            0.5416,
+            0.9
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated roof ridges and pavilion caps are clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The project lacks a clear entry gesture and the street-side clearance needed for proper functioning.",
@@ -105,7 +315,25 @@
           "circulation",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "clear entry gesture",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4962,
+            0.0875,
+            0.2
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "An entry is not singled out; the southern exterior edge is the most plausible public approach surface."
+        }
       },
       {
         "statement": "The building has a large influence on the plot, a significant built volume and an introverted attitude toward public space.",
@@ -113,7 +341,26 @@
           "massing",
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "large influence on the plot",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4906,
+            0.4503,
+            0.3
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad repeated footprint visibly occupies much of the sampled plan."
+        }
       },
       {
         "statement": "The management of the topography at the car park and underground access is poorly regulated.",
@@ -121,7 +368,25 @@
           "topography",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "car park and underground access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.737,
+            0.1828,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Parking access is absent from the point cloud; the southern-eastern lower perimeter is used as an approximation."
+        }
       },
       {
         "statement": "The spread of the project and extensive horizontal circulation increase the accommodation area beyond target.",
@@ -129,21 +394,79 @@
           "massing",
           "circulation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "extensive horizontal circulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5248,
+            0.4475,
+            0.3
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Long parallel circulation gaps and the spread of rows are directly visible in plan."
+        }
       },
       {
         "statement": "The multiplicity of roofs places the project toward the higher end of the cost range.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "multiplicity of roofs",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4508,
+            0.5581,
+            0.9
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The repeated gabled roof geometry is directly represented throughout the model."
+        }
       },
       {
         "statement": "The underground car park has a significant impact on the total cost.",
         "tags": [
           "cost",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "underground car park",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.737,
+            0.1828,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The underground garage is not visible; a lower southern-eastern footprint location is assigned."
+        }
       }
     ],
     "keyword": [

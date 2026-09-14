@@ -19,7 +19,26 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "setting and volumetrics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8141,
+            0.1678,
+            0.5536
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact stacked mass is clearly visible at the model’s northeastern, orthogonally aligned building region."
+        }
       },
       {
         "statement": "The compact footprint allows generous outdoor spaces and preserves most of the trees.",
@@ -27,34 +46,116 @@
           "open space",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact footprint and preserved trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1682,
+            0.1608,
+            0.0536
+          ],
+          "radius": 0.3,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Small footprint occupies a limited corner-like area, leaving surrounding site space outside the sampled mass."
+        }
       },
       {
         "statement": "The positioning at the interface between neighborhood and school is consistent.",
         "tags": [
           "urban integration",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "neighborhood-school interface",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8141,
+            0.1678,
+            0.3571
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Northeastern edge location is constrained by the stated interface and the compact footprint’s visible boundary."
+        }
       },
       {
         "statement": "The division of uses works on the upper floors.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor division of uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7282,
+            0.1438,
+            0.7679
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper stacked levels are visible in elevation, though individual uses are not distinguishable in the point cloud."
+        }
       },
       {
         "statement": "The structure is neatly constructed in wood and wood-concrete composite construction.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "wood and wood-concrete composite construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7282,
+            0.1438,
+            0.5536
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Structural enclosure is visible, but timber and composite material identities are not distinguishable."
+        }
       },
       {
         "statement": "The implementation of the environmental standard is carefully described and feasible.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "environmental standard implementation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Feasibility and environmental-standard description have no useful geometric location."
+        }
       }
     ],
     "negative": [
@@ -64,7 +165,27 @@
           "scale",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "cube-shaped building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4932,
+            0.7095,
+            0.7687
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact cube-like envelope is plainly corroborated across top and all elevations."
+        }
       },
       {
         "statement": "The auditorium is introverted and has little external impact on the school or neighborhood.",
@@ -72,7 +193,26 @@
           "visibility",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "introverted auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6424,
+            0.1199,
+            0.1786
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Partly sunken auditorium is stated at basement level; the sampled exterior cannot isolate its room."
+        }
       },
       {
         "statement": "The vertical access and the auditorium’s shape and arrangement are not convincing.",
@@ -80,7 +220,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "vertical access and auditorium arrangement",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8841,
+            0.6334,
+            0.3036
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Circulation and auditorium geometry are interior, approximated within the lower central building volume."
+        }
       },
       {
         "statement": "The facade appears arbitrary and does not reflect the floor-plan layering or uses.",
@@ -88,7 +247,26 @@
           "facade",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "facade layering and uses",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8141,
+            0.1678,
+            0.625
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevations show stacked facade bands, while their relationship to internal uses remains unresolved."
+        }
       },
       {
         "statement": "The facade lacks the powerful architectural character of the existing complex.",
@@ -96,7 +274,25 @@
           "facade",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "architectural character of existing complex",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1682,
+            0.1608,
+            0.5536
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Building perimeter provides a facade anchor, but the existing complex is not represented in the model."
+        }
       },
       {
         "statement": "The project would require substantial organizational reworking, especially for the daily structures.",
@@ -104,28 +300,104 @@
           "operation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "daily structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7282,
+            0.1438,
+            0.5714
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Organizational reworking concerns the overall stacked building, without a separable geometric feature."
+        }
       },
       {
         "statement": "The generous access zones and basement are unfavorable economically.",
         "tags": [
           "cost",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "access zones and basement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1442,
+            0.2464,
+            0.125
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Lower level and access are approximated near the visible building base; exact zones are not distinguishable."
+        }
       },
       {
         "statement": "The winter gardens and terraces have disadvantageous cost and energy effects.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "winter gardens and terraces",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7433,
+            0.1481,
+            0.8929
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Upper perimeter locations are plausible terrace anchors, but winter gardens are not visibly separable."
+        }
       },
       {
         "statement": "The usefulness of the upper terrace is questioned.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "upper terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8292,
+            0.172,
+            0.9464
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Highest visible building zone provides the constrained anchor for the questioned terrace."
+        }
       }
     ],
     "keyword": [

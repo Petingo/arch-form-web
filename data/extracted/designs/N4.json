@@ -19,7 +19,28 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "shifted volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5795,
+            0.3202,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three diagonally shifted volumes are strongly visible in plan and elevations."
+        }
       },
       {
         "statement": "The staggered volume divides the narrow open space and creates more spacious outdoor areas rather than residual space.",
@@ -27,21 +48,73 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "staggered volume and outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2891,
+            0.3171,
+            0.0417
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The zigzag plan visibly divides the surrounding open space into larger pockets."
+        }
       },
       {
         "statement": "The outdoor spaces provide different play and lounge areas on all sides of the building.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "play and lounge areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8183,
+            0.7667,
+            0.0417
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Multiple exterior pockets are distributed along the building’s shifted sides."
+        }
       },
       {
         "statement": "The internal connections between group rooms and main rooms allow cross-class teaching methods.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "internal connections",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5795,
+            0.3202,
+            0.4167
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal links are not visible; the marker follows the central connected volume."
+        }
       },
       {
         "statement": "The main uses of the basic levels are sensibly arranged and easily accessible for smaller children.",
@@ -49,14 +122,51 @@
           "layout",
           "accessibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "basic-level uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3302,
+            0.3709,
+            0.2083
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The accessible lower-level zone is anchored to the low-rise sampled envelope."
+        }
       },
       {
         "statement": "The project provides a contemporary answer and connects with the surrounding context.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "contemporary contextual response",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.573,
+            0.2999,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The stepped linear silhouette visibly provides a contemporary contextual identity."
+        }
       }
     ],
     "negative": [
@@ -65,35 +175,122 @@
         "tags": [
           "visibility",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "multiple outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6492,
+            0.2285,
+            0.0417
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Several separated exterior pockets are evident around the zigzag footprint."
+        }
       },
       {
         "statement": "The furniture appears randomly distributed, and delivery at the street junction is problematic.",
         "tags": [
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "furniture and street-junction delivery",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1504,
+            0.8105,
+            0.0417
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The junction-side edge is used for the uncertain delivery and furniture-related site issue."
+        }
       },
       {
         "statement": "The difference in height of the existing trees in the entrance area was not taken into account.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing trees in entrance area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2015,
+            0.2613,
+            0.0417
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Tree height is not encoded distinctly; the entrance-edge landscape is approximated."
+        }
       },
       {
         "statement": "The children enter a relatively narrow break room with access stairs.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "narrow break room with access stairs",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3302,
+            0.3709,
+            0.1667
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The interior room and stairs are approximated within the lower central volume."
+        }
       },
       {
         "statement": "The project creates conflicts inside, including a walk-through cloakroom and prominently located toilets.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "walk-through cloakroom and toilets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5795,
+            0.3202,
+            0.3333
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal conflicts are anchored to the connected middle portion of the building."
+        }
       },
       {
         "statement": "The project is not convincing enough in its urban setting, pavilion legibility and expression.",
@@ -101,7 +298,26 @@
           "urban integration",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "urban setting and pavilion expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5795,
+            0.3202,
+            0.4583
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The whole stepped form is visible, though its contextual reading remains a broad judgment."
+        }
       },
       {
         "statement": "The high glass proportion causes winter comfort losses and expected losses of light and views when blinds are closed.",
@@ -109,14 +325,48 @@
           "facade",
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "high glass proportion",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5204,
+            0.1339,
+            0.5417
+          ],
+          "radius": 0.19,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Facade performance is assigned to the exposed south elevation where glazing effects would occur."
+        }
       },
       {
         "statement": "The external treatment and glass content make compliance with the primary energy requirements difficult.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "external treatment and glass content",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7522,
+            0.8536,
+            0.5417
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "north"
+          ],
+          "rationale": "Energy compliance concerns are anchored to the sampled outer facade envelope."
+        }
       }
     ],
     "keyword": [

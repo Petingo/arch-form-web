@@ -15,7 +15,26 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole proposal",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2475,
+            0.6572,
+            0.2143
+          ],
+          "radius": 0.307,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distributed open massing and landscape traces support a broad site-scale urban response."
+        }
       },
       {
         "statement": "Freeing the existing site as a large recreational area would create substantial added value for the neighbourhood.",
@@ -23,7 +42,26 @@
           "open space",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "large recreational area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7363,
+            0.1944,
+            0.1071
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Open, dispersed ground-level geometry indicates substantial recreational landscape across the existing site."
+        }
       },
       {
         "statement": "The transformed landscape creates varied specific places with a high quality of stay.",
@@ -31,7 +69,26 @@
           "landscape",
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "transformed landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5903,
+            0.4814,
+            0.1655
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Varied low landscape volumes and clearings are visible across the plan and lower elevations."
+        }
       },
       {
         "statement": "The alternation between emptiness and green volumes is atmospheric and essential to the garden-city character.",
@@ -39,7 +96,26 @@
           "landscape",
           "expression",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "garden-city character",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2519,
+            0.7019,
+            0.3095
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Top and elevations show alternating empty areas and repeated green-like vertical volumes."
+        }
       }
     ],
     "negative": [
@@ -48,7 +124,26 @@
         "tags": [
           "operation",
           "feasibility"
-        ]
+        ],
+        "position": {
+          "target": "all-weather pitches",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7363,
+            0.1944,
+            0.119
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A lower eastern enclosure zone is used as the approximate location for the unidentifiable pitches."
+        }
       },
       {
         "statement": "The tight circulation spaces cannot meet the requirements for meeting and lounge areas.",
@@ -56,14 +151,50 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "tight circulation spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5559,
+            0.1297,
+            0.25
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The compact southern lower-level geometry provides a constrained proxy for circulation areas."
+        }
       },
       {
         "statement": "The proposed type cannot provide the required clusters of three to four classes.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "clusters of three to four classes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4315,
+            0.7576,
+            0.3452
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A northern distributed building zone is used as a constrained proxy for classroom clustering."
+        }
       },
       {
         "statement": "Classrooms facing narrow and poorly lit spaces would have cramped conditions and reduced quality.",
@@ -71,14 +202,52 @@
           "daylight",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classrooms facing narrow spaces",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6225,
+            0.8111,
+            0.3452
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated northern and eastern vertical bays suggest the approximate classroom-facing envelope."
+        }
       },
       {
         "statement": "The required kindergartens are not identified in the project.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "kindergartens",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2475,
+            0.6572,
+            0.1786
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "No kindergarten is distinguishable; a plausible low-level western interior proxy is assigned."
+        }
       }
     ],
     "keyword": [

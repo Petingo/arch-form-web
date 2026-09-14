@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "three school buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5436,
+            0.6073,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Top and elevation views show three distributed volumes framing transparent open space."
+        }
       },
       {
         "statement": "The significant volumes fit comfortably into the context and structure the open spaces in a campus-like manner.",
@@ -26,7 +47,26 @@
           "urban integration",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "campus-like open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5527,
+            0.6073,
+            0.2
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Separated rectangular masses visibly structure open areas across the campus."
+        }
       },
       {
         "statement": "The roof terrace successfully combines the spatial and shady potential of the photovoltaic systems with a roof garden open for school use.",
@@ -34,21 +74,72 @@
           "sustainability",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "roof terrace",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.545,
+            0.7084,
+            0.8
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central building roof surface is visible; terrace and photovoltaic arrangement are not individually distinguishable."
+        }
       },
       {
         "statement": "The sensible construction takes comprehensive ecological responsibility into account.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "ecological construction",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction responsibility is a non-local performance judgment without a specific geometric referent."
+        }
       },
       {
         "statement": "The roof landscape, vertical greenery and diverse vegetation types contribute to sustainability and biodiversity.",
         "tags": [
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "roof landscape and vertical greenery",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5485,
+            0.7136,
+            0.8
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper surfaces and building edges provide approximate anchors, but vegetation types are not distinguishable."
+        }
       },
       {
         "statement": "The project has been developed in an interesting way and shows an appealing overall quality based on clever urban planning.",
@@ -56,7 +147,28 @@
           "urban integration",
           "massing",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "whole campus",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5277,
+            0.6073,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Overall planning quality concerns the visibly distributed campus composition."
+        }
       }
     ],
     "negative": [
@@ -65,14 +177,50 @@
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "entrance hierarchy and arrival side",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1188,
+            0.1244,
+            0.2
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A plausible perimeter arrival zone is anchored along the near campus edge; entrances are not identifiable."
+        }
       },
       {
         "statement": "The rectangular playing fields do not fit convincingly with the organic shapes of the green edge.",
         "tags": [
           "landscape",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "rectangular playing fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1188,
+            0.1244,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A small rectangular ground-level zone is visible near the lower-left campus edge."
+        }
       },
       {
         "statement": "Distributing the uses across different buildings leaves possible synergies unused and creates considerable additional operational effort.",
@@ -80,28 +228,106 @@
           "operation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "distributed uses across buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5436,
+            0.6073,
+            0.4
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three separate sampled volumes visibly support the distributed-use criticism."
+        }
       },
       {
         "statement": "The large number of entrances makes orientation difficult.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "multiple entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8429,
+            0.6113,
+            0.2
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter access is approximated on an outer facade because individual entrances are not distinguishable."
+        }
       },
       {
         "statement": "The primary school does not implement the required cluster formation typologically.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "primary school cluster formation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5596,
+            0.6073,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central school volume is a plausible anchor, while internal cluster typology is absent from exterior points."
+        }
       },
       {
         "statement": "The classrooms have an unfavorable ratio of room height to room depth.",
         "tags": [
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5436,
+            0.6073,
+            0.6
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Mid-height central volume approximates classroom locations; room depth and height are not directly resolved."
+        }
       },
       {
         "statement": "The development of the triple gymnasium is very complex and operationally difficult.",
@@ -109,7 +335,28 @@
           "operation",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "triple gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5117,
+            0.6073,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The largest central volume is a plausible gymnasium anchor, though its program is not identifiable."
+        }
       },
       {
         "statement": "The entrances and connections do not sufficiently take school operations into account.",
@@ -117,14 +364,53 @@
           "circulation",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "entrances and connections",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5368,
+            0.6073,
+            0.2
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Approximate circulation is placed in the shared ground-level space between distributed buildings."
+        }
       },
       {
         "statement": "The mezzanine uses have unsuitable room proportions and are unthinkable in this combination.",
         "tags": [
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "mezzanine uses",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5277,
+            0.6073,
+            0.6
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Mid-level elevation bands provide a constrained mezzanine anchor in the central building."
+        }
       },
       {
         "statement": "The kindergarten is spread over two floors and lacks open space for the upper-floor classes.",
@@ -132,7 +418,26 @@
           "layout",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten upper-floor classes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1188,
+            0.1244,
+            0.3
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Small lower-left volume is a plausible kindergarten location; upper-floor open space is not distinguishable."
+        }
       }
     ],
     "keyword": [

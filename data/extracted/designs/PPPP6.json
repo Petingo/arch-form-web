@@ -19,28 +19,105 @@
           "urban integration",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "large house volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3454,
+            0.567,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The large house is clearly legible as the dominant U-shaped complex."
+        }
       },
       {
         "statement": "The dining room and the sequence from covered indoor terrace to outdoor terrace are high-quality spaces.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "dining room and terrace sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5177,
+            0.287,
+            0.3125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A southern central threshold zone approximates the interior-to-outdoor terrace sequence."
+        }
       },
       {
         "statement": "Placing the entire accommodation program on one level is a positive aspect of the proposal.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "one-level accommodation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3395,
+            0.5001,
+            0.25
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "A low wing surface anchors the predominantly single-level accommodation."
+        }
       },
       {
         "statement": "The rooms’ relationship to the garden and landscape is well established, with privacy managed through successive thresholds.",
         "tags": [
           "privacy",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "rooms’ relationship to garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6085,
+            0.4848,
+            0.3125
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central garden and enclosing wings visibly establish successive spatial thresholds."
+        }
       },
       {
         "statement": "The historical issue is placed at the heart of the project, restoring the legibility of the monument and landscape.",
@@ -48,7 +125,24 @@
           "urban integration",
           "identity",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "historical issue at project heart",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6132,
+            0.5014,
+            0.3125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central garden is the identifiable project heart associated with landscape and monument legibility."
+        }
       },
       {
         "statement": "The modest elevation and flat green roof of the southeast wing contribute to good integration into the countryside.",
@@ -56,21 +150,75 @@
           "urban integration",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "southeast wing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8043,
+            0.2538,
+            0.25
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low southeast perimeter wing is localized on the eastern and southern edges."
+        }
       },
       {
         "statement": "The eastern walk connects existing and new paths and highlights western landscape views through belvedere squares.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "eastern walk and belvedere squares",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9111,
+            0.5288,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern perimeter provides the constrained location for paths and viewing spaces."
+        }
       },
       {
         "statement": "The protected central garden is welcoming and invites residents to wander.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "protected central garden",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6085,
+            0.4848,
+            0.1875
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The enclosed central void is clearly visible within the U-shaped footprint."
+        }
       }
     ],
     "negative": [
@@ -79,21 +227,80 @@
         "tags": [
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "vertical distribution of common functions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3469,
+            0.584,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The full building envelope anchors the critique of vertically distributed common functions."
+        }
       },
       {
         "statement": "The limited clearance on the street is unsatisfactory as an EMS forecourt and village interface.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "EMS forecourt and village interface",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4924,
+            0.0665,
+            0.125
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern street-facing edge is the plausible village and emergency-access interface."
+        }
       },
       {
         "statement": "The one-level accommodation bias creates a large built footprint on the site.",
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "large built footprint",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6225,
+            0.5345,
+            0.25
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The extensive U-shaped footprint is directly visible in the plan and elevations."
+        }
       },
       {
         "statement": "The transformation toward military fort architecture with palisades is surprising and historically erroneous.",
@@ -101,28 +308,100 @@
           "expression",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "military fort architecture with palisades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2484,
+            0.592,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western perimeter facade is used as an uncertain anchor for the expression critique."
+        }
       },
       {
         "statement": "The historic park is reduced because the orchard and vegetable garden largely disappear.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "historic park and orchard",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7563,
+            0.8372,
+            0.125
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The northern and eastern exterior landscape is the plausible affected park edge."
+        }
       },
       {
         "statement": "The central garden establishes few relationships with the existing wooded park.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "central garden relationship with wooded park",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6132,
+            0.5014,
+            0.1875
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The central garden is visible, while its connection to the wooded park remains approximate."
+        }
       },
       {
         "statement": "The western facade remains essentially uninhabited despite the proposed fruit-tree alignment.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "western facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0621,
+            0.5483,
+            0.3734
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The western outer edge directly constrains the criticized facade location."
+        }
       }
     ],
     "keyword": [

@@ -15,14 +15,52 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4178,
+            0.8531,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The top view clearly shows open areas spanning between and around the two volumes."
+        }
       },
       {
         "statement": "The location and separation of the entrances keep the building entrances clear along the street.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1374,
+            0.1619,
+            0.125
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are directionally approximated along the clear street-facing edge."
+        }
       },
       {
         "statement": "The small multi-purpose hall can be converted into a foyer extension and functions as a spacious entrance.",
@@ -30,20 +68,74 @@
           "flexibility",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose hall foyer extension",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4178,
+            0.8531,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The internal hall and foyer are not distinguishable; the central lower zone is used."
+        }
       },
       {
         "statement": "The staircase to the cloakrooms is architecturally appealing and appropriately designed for school sports.",
         "tags": [
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "staircase to cloakrooms",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0488,
+            0.5378,
+            0.4375
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The staircase is internal and approximated within the visible building mass."
+        }
       },
       {
         "statement": "The lighting of the adjoining rooms is otherwise above average.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "adjoining rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9084,
+            0.4682,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Adjoining rooms are not exposed, so a representative mid-height side zone is selected."
+        }
       },
       {
         "statement": "The ground-floor kindergartens are oriented south and have a visual relationship with the common playground.",
@@ -51,14 +143,49 @@
           "orientation",
           "open space",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor kindergartens",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3295,
+            0.1392,
+            0.0625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-facing ground-level zones and adjacent open space are directionally supported by the views."
+        }
       },
       {
         "statement": "The continuous planted band connects the new buildings with the existing school building.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "continuous planted band",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4107,
+            0.1259,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A connecting low-level strip between volumes is the best available landscape anchor."
+        }
       },
       {
         "statement": "The large sports and playing fields correspond to the loose setting of the two buildings.",
@@ -66,14 +193,44 @@
           "open space",
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "sports and playing fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5022,
+            0.9163,
+            0
+          ],
+          "radius": 0.26,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Large open ground zones around the loose masses represent the playing fields."
+        }
       },
       {
         "statement": "The chosen construction method can be assumed to be sustainable.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "sustainable construction method",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3006,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability applies to the construction approach without a locatable geometric feature."
+        }
       },
       {
         "statement": "The facade design and loose setting are appropriate to the village context.",
@@ -81,7 +238,26 @@
           "facade",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "facade design",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.51,
+            0.0817,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated facade bands and the loose envelope are visible across the elevations."
+        }
       }
     ],
     "negative": [
@@ -90,14 +266,50 @@
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "large and small multi-purpose halls",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4394,
+            0.8578,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Hall interiors are not represented distinctly; the central lower building zone is used."
+        }
       },
       {
         "statement": "The double hall is lit only through a high opening on the north side, producing an uneven distribution of light.",
         "tags": [
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "double hall north opening",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5077,
+            0.9154,
+            0.625
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north facade and upper-level region provide a directional approximation for the opening."
+        }
       },
       {
         "statement": "The location and separation of the second staircase required for fire safety are undecided and obscure the floor-plan organization.",
@@ -105,7 +317,25 @@
           "fire safety",
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "second staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9118,
+            0.5034,
+            0.375
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The fire stair is internal and cannot be identified in the sampled exterior."
+        }
       },
       {
         "statement": "The delivery route crosses the access area, creating conflicts during events.",
@@ -113,14 +343,43 @@
           "operation",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "delivery route",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0482,
+            0.5308,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A peripheral ground-level route is used because deliveries are not separately modeled."
+        }
       },
       {
         "statement": "The new buildings are expected to have low construction costs, but their maintenance costs are comparatively high.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "maintenance costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.3006,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost judgment concerns the buildings generally and has no spatially locatable referent."
+        }
       },
       {
         "statement": "The wide central zone and sometimes large classroom depths make the building dimensions questionable for school use and create unsatisfactory daylight situations.",
@@ -128,7 +387,27 @@
           "scale",
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "wide central zone and classroom depths",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4178,
+            0.8531,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central depth and broad internal zones are approximated from the loose massing and elevation spans."
+        }
       }
     ],
     "keyword": [

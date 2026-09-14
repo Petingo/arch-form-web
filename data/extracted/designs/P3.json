@@ -17,7 +17,27 @@
           "urban integration",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "flat block-edge building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1974,
+            0.2564,
+            0.5
+          ],
+          "radius": 0.322,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Continuous shallow perimeter mass is clearly visible in plan and all elevations."
+        }
       },
       {
         "statement": "The central schoolyard is the identity-creating center of the school complex and is accessed from various sides via spacious staircases.",
@@ -25,7 +45,24 @@
           "identity",
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "central schoolyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3313,
+            0.6025,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The large central void is distinctly enclosed by the perimeter ring in the top view."
+        }
       },
       {
         "statement": "The internal organization is coherent and credibly implements the school's ‘under one roof’ principle.",
@@ -33,7 +70,26 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "internal school organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7445,
+            0.7652,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior organization is not exposed, so the anchor uses the visible enclosing building surface."
+        }
       },
       {
         "statement": "The basic level is generously designed as an autonomous unit with flexible spaces, clear storage and short routes to the outdoor area.",
@@ -41,7 +97,26 @@
           "layout",
           "flexibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "basic level",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2233,
+            0.7483,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-level judgment is anchored to the southwest perimeter and lowest elevation band."
+        }
       },
       {
         "statement": "The ring-shaped primary-level access provides visual contact and great flexibility of use.",
@@ -49,21 +124,71 @@
           "circulation",
           "visibility",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "primary-level access ring",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7817,
+            0.2665,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The inner perimeter indicates a ring circulation zone around the courtyard."
+        }
       },
       {
         "statement": "The shallow building depth allows good daylight quality in all rooms.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "shallow building depth",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.832,
+            0.7151,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Very thin depth is consistently visible between the perimeter edges and elevation lines."
+        }
       },
       {
         "statement": "The hybrid construction has a positive effect on primary energy and greenhouse-gas emissions.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "hybrid construction",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction and energy performance have no useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -72,7 +197,24 @@
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3396,
+            0.6172,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central courtyard is clearly identifiable as the enclosed open void."
+        }
       },
       {
         "statement": "The introverted schoolyard is isolated from the neighborhood, barely visible and not very connected.",
@@ -80,14 +222,49 @@
           "urban integration",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "introverted schoolyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.323,
+            0.5878,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The enclosed central yard is visible, while neighborhood connection is not represented geometrically."
+        }
       },
       {
         "statement": "The urban integration of the existing gymnasium is also called into question.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "existing gymnasium",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2265,
+            0.2397,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gymnasium is unnamed in the sample; an exterior perimeter anchor approximates the associated building area."
+        }
       },
       {
         "statement": "The desired elegance is not achieved equally on all facades, where vertical openings compete with the pronounced horizontality.",
@@ -95,7 +272,26 @@
           "facade",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8975,
+            0.4726,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevation views show the horizontal facade bands and vertical interruptions."
+        }
       },
       {
         "statement": "The day-school access corridors appear too narrow, and the two music rooms have unfavorable proportions.",
@@ -103,21 +299,68 @@
           "circulation",
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "day-school access corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2211,
+            0.7444,
+            0.5
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Corridors are interior and indistinguishable; placement is constrained to the southwest building edge."
+        }
       },
       {
         "statement": "The large surface area of the building shell and extensive terrain movements have a negative impact on operational and gray energy.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "building shell and terrain movements",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2481,
+            0.7925,
+            0.1667
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The broad shell is visible; terrain movement is approximated near the low perimeter edge."
+        }
       },
       {
         "statement": "The project has increased construction costs, particularly because of comparatively high land consumption.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "site",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost and land-consumption judgment has no useful single spatial marker."
+        }
       }
     ],
     "keyword": [

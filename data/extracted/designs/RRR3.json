@@ -17,7 +17,28 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5404,
+            0.3911,
+            0.4596
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Offset paired volumes and intervening open spaces are clearly visible across the plan and elevations."
+        }
       },
       {
         "statement": "The offset positioning creates well-sized outdoor spaces and a balanced sequence of small squares.",
@@ -25,7 +46,26 @@
           "open space",
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "sequence of small squares",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4947,
+            0.3755,
+            0.1508
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Three separated footprints visibly define connected outdoor voids between the compact masses."
+        }
       },
       {
         "statement": "The complex has spatial permeability along the diagonals and allows visual references to the lake and garden.",
@@ -33,14 +73,52 @@
           "urban integration",
           "visibility",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "diagonal permeability",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6373,
+            0.5969,
+            0.228
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Diagonal relationships between offset footprints create visible gaps and sightline corridors."
+        }
       },
       {
         "statement": "The operational organization and development are clear and plausible.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "operational organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3091,
+            0.3123,
+            0.3824
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The compact separated masses provide a plausible organizational anchor, though operations are not directly represented."
+        }
       },
       {
         "statement": "The building volumes and outdoor spaces are harmoniously proportioned and dimensioned.",
@@ -48,14 +126,54 @@
           "proportion",
           "scale",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "building volumes and outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.609,
+            0.4145,
+            0.3824
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Visible mass-to-void proportions across the complete sampled arrangement support the placement."
+        }
       },
       {
         "statement": "The opening to the lake and the sequence of spaces are very much appreciated.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "lake opening",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7468,
+            0.961,
+            0.1508
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The open edge adjacent to the northeastern volume provides the most plausible lake-facing anchor."
+        }
       }
     ],
     "negative": [
@@ -64,28 +182,103 @@
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "missing rooms and undersized gymnasium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3182,
+            0.2927,
+            0.3824
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior program is absent; constrained near the western compact volume where rooms would be located."
+        }
       },
       {
         "statement": "The access areas inside the two buildings appear rather oversized.",
         "tags": [
           "circulation",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "oversized access areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3118,
+            0.3132,
+            0.3824
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation is not sampled, so the western building footprint provides an approximate interior anchor."
+        }
       },
       {
         "statement": "The buildings should manifest themselves in a more architecturally conscious and decisive manner.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7468,
+            0.961,
+            0.614
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The northeastern volume is a distinct visible mass and serves as the clearest expression anchor."
+        }
       },
       {
         "statement": "The formal formulation appears somewhat anemic and is unable to create atmospheric quality.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "atmospheric quality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5176,
+            0.3833,
+            0.3824
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The exposed central outdoor edge and adjacent low volume are visible but atmosphere is interpretive."
+        }
       },
       {
         "statement": "The outdoor area is treated only schematically, without sufficient information about planting, topography, or retreat areas.",
@@ -93,14 +286,48 @@
           "landscape",
           "topography",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "outdoor area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4719,
+            0.3677,
+            0.1508
+          ],
+          "radius": 0.341,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open ground is visibly distributed among the three separated building footprints."
+        }
       },
       {
         "statement": "The continuous mineral arrival area lacks water, furniture, and trees.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "mineral arrival area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3912,
+            0.1366,
+            0.0736
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The lower central gap is the most plausible arrival zone, while water, furniture, and trees are absent."
+        }
       }
     ],
     "keyword": [

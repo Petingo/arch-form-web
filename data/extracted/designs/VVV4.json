@@ -18,42 +18,160 @@
         "tags": [
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "coordinated roof landscape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5659,
+            0.7733,
+            1
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Paired elongated roof forms and their coordinated footprint are clearly visible across top and elevation views."
+        }
       },
       {
         "statement": "The separation of staff and visitor entrances is correct for distinguishing staff and goods flows.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "staff and visitor entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1964,
+            0.369,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Entrances are not distinguishable, so the marker approximates an accessible end of the paired volumes."
+        }
       },
       {
         "statement": "The structural concept is sophisticated and the timber construction is sustainable.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "timber structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7371,
+            0.7136,
+            0.6667
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Structure is not individually sampled; placement is constrained to the visible upper-volume envelope."
+        }
       },
       {
         "statement": "The carefully formulated facade creates a coherent ensemble despite differing functions.",
         "tags": [
           "facade",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "coherent facade ensemble",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7715,
+            0.7299,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated parallel facade bands visibly unify the two elongated volumes despite their separation."
+        }
       },
       {
         "statement": "The lightweight structural concept promises relatively cost-effective implementation.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "lightweight structural concept",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2651,
+            0.4016,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The structural system is not individually visible; marker is placed on the sampled lightweight volume envelope."
+        }
       },
       {
         "statement": "The internal organization works and is largely well organized within the two volumes.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal organization within two volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6773,
+            0.5972,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior layout is absent, so the marker covers a plausible region within the paired massing."
+        }
       }
     ],
     "negative": [
@@ -63,42 +181,158 @@
           "massing",
           "acoustics",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "first-stage structure and noise-polluted open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5056,
+            0.5157,
+            0.1667
+          ],
+          "radius": 0.305,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The exposed intermediate gap between the two sampled volumes is visible in the top view."
+        }
       },
       {
         "statement": "The east-west access axis ends in an infrastructure zone inaccessible to the public and closed with gates.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "east-west access axis and gated infrastructure zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8563,
+            0.3499,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "The infrastructure endpoint is not identifiable; marker approximates a peripheral access termination."
+        }
       },
       {
         "statement": "Dividing the program into two volumes requires many functional connections through the only partly covered intermediate space.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "functional connections through intermediate space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5227,
+            0.5238,
+            0.1667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The partly covered intermediate space is represented by the visible separation between parallel volumes."
+        }
       },
       {
         "statement": "The arrangement of the studios and workshops in the covered space is called into question.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "studios and workshops in covered space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4712,
+            0.4994,
+            0.1667
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Studios and workshops are not distinguishable; marker approximates the central covered gap."
+        }
       },
       {
         "statement": "The concept is unspecific and more reminiscent of agricultural buildings than of the intended collection center.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "agricultural-building identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6856,
+            0.6892,
+            0.8364
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The paired low-rise elongated gabled masses visibly support the stated agricultural-building association."
+        }
       },
       {
         "statement": "The internal organization cannot be optimally solved because of the building shape and division into two volumes.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internal organization constrained by building division",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2823,
+            0.4097,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior constraints are not sampled; placement spans a plausible region of one elongated volume."
+        }
       }
     ],
     "keyword": [

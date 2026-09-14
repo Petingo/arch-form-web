@@ -17,35 +17,139 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "site composition and campus family",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4925,
+            0.0138,
+            0.5017
+          ],
+          "radius": 0.312,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large rectangular low-rise envelope is clearly visible as a coherent campus-scale mass."
+        }
       },
       {
         "statement": "The entrance pocket is large and inviting, bringing visitors toward the center of the building.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance pocket",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1941,
+            0.0138,
+            0
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "South-side perimeter opening provides the best approximate anchor for the entrance pocket."
+        }
       },
       {
         "statement": "The structure is efficient and allows flexible organization of the plan and future internal changes.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "efficient structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3289,
+            0.4466,
+            0.5017
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular repeated point patterns suggest an efficient structural system without isolating specific members."
+        }
       },
       {
         "statement": "The premises have the right proportions and demonstrate a certain flexibility.",
         "tags": [
           "proportion",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "premises proportions",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3142,
+            0.4813,
+            0.5017
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated broad floor bands and rectangular organization are visible throughout the low-rise volume."
+        }
       },
       {
         "statement": "The strong and precise contour could express a referential lightness for the entire hospital site.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "strong and precise contour",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5156,
+            0.0138,
+            0.5017
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous rectangular perimeter is sharply legible in plan and all facade elevations."
+        }
       }
     ],
     "negative": [
@@ -54,41 +158,166 @@
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "circular patio voids",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1875,
+            0.3504,
+            0.5017
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two circular internal voids are clearly visible in plan and associated vertical openings."
+        }
       },
       {
         "statement": "The circular patios only partially illuminate the more central premises.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central premises daylight",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3378,
+            0.405,
+            0.5017
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central plan region lies between perimeter walls and small patios, constraining daylight reach."
+        }
       },
       {
         "statement": "The large volume puts natural luminosity in large parts of the plan center in difficulty.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "plan center natural luminosity",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2948,
+            0.5057,
+            0.5017
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Large central area is distant from the perimeter and only punctuated by small patios."
+        }
       },
       {
         "statement": "The large glazed facade can become problematic for climatic issues.",
         "tags": [
           "facade",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "large glazed facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4925,
+            0.0138,
+            0.7024
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Long facade elevations are visible, though glazing extent and climatic behavior are not resolved."
+        }
       },
       {
         "statement": "The project only partially integrates sustainable-development principles.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sustainable-development principles",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3401,
+            0.3687,
+            0.5017
+          ],
+          "radius": 0.312,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Whole building envelope anchors the sustainability comment; principles are not geometrically identifiable."
+        }
       },
       {
         "statement": "Embodied energy consumption would be high because of low compactness, double-skin facades and a concrete roof.",
         "tags": [
           "sustainability",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "embodied energy consumption",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2726,
+            0.5178,
+            0.5017
+          ],
+          "radius": 0.312,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad low-rise envelope supports the massing-related anchor; energy and facade systems are not directly measured."
+        }
       }
     ],
     "keyword": [

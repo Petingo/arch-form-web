@@ -17,7 +17,27 @@
           "identity",
           "massing",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "grouping of independent divisions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3492,
+            0.4861,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Separate layered volumes are clearly legible across the top and elevation views."
+        }
       }
     ],
     "negative": [
@@ -26,21 +46,80 @@
         "tags": [
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "aggregation of units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5658,
+            0.4618,
+            0.5
+          ],
+          "radius": 0.3067,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The fragmented overall aggregation is directly visible in all calibrated views."
+        }
       },
       {
         "statement": "Too many exceptions disrupt easy identification of the different volumes.",
         "tags": [
           "identity",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "different volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7255,
+            0.4746,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Multiple exceptions and offsets are visible among the independent building volumes."
+        }
       },
       {
         "statement": "The height-difference connection system is random and poorly controlled.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "height-difference connection system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5529,
+            0.5152,
+            0.3333
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Uneven connecting elements are anchored between the layered volumes and visible in elevation."
+        }
       },
       {
         "statement": "The resulting architecture is complicated and resembles an industrial production site more than an open living and working environment.",
@@ -48,7 +127,26 @@
           "expression",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "open living and working environment",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4858,
+            0.3838,
+            0.3333
+          ],
+          "radius": 0.3067,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distributed site composition provides the spatial anchor for the environmental character judgment."
+        }
       }
     ],
     "keyword": [

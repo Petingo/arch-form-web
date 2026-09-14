@@ -17,7 +17,26 @@
           "massing",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "rectangular building volumes",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7168,
+            0.4137,
+            0.3962
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple orthogonal volumes and intervening gaps are clearly visible across the model."
+        }
       },
       {
         "statement": "The independent orthogonal pattern establishes a common center and a precise formal and structural relationship between the parts.",
@@ -25,7 +44,25 @@
           "massing",
           "urban integration",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "common center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5563,
+            0.2922,
+            0.1981
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central open area is constrained between the distributed volumes and low access-level surfaces."
+        }
       },
       {
         "statement": "The floor staggering of the existing building is elegantly incorporated into the access typology.",
@@ -33,7 +70,26 @@
           "topography",
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "floor staggering",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1827,
+            0.3093,
+            0.2972
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped and vertically differentiated volumes visibly register changing floor levels."
+        }
       },
       {
         "statement": "The central skylight illuminates the lightweight building and accentuates the roof area visible from the esplanade.",
@@ -41,7 +97,25 @@
           "daylight",
           "identity",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "central skylight",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1827,
+            0.3991,
+            0.7924
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A likely roof-level feature is placed over the central campus region, though no skylight is distinct."
+        }
       },
       {
         "statement": "The open-plan access floor skilfully combines entrance, foyer, gallery and auditorium into an attractive group of public spaces.",
@@ -49,7 +123,25 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "open-plan access floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1367,
+            0.3049,
+            0.1981
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Low western and central masses plausibly contain the access-level public sequence."
+        }
       },
       {
         "statement": "The kindergarten proposal offers a child-friendly building structure with varied teaching methods and play options.",
@@ -57,14 +149,51 @@
           "functionality",
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.176,
+            0.3049,
+            0.4953
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A smaller independent volume is positioned within the varied-height ensemble."
+        }
       },
       {
         "statement": "The spatial integration of the kindergarten works, and later conversion of its rooms into workrooms seems possible.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1827,
+            0.3093,
+            0.3962
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are approximated within the smaller kindergarten-scale volume."
+        }
       },
       {
         "statement": "The new school draws its identity from a carefully implemented campus idea and develops practical use groupings within clear building structures.",
@@ -72,7 +201,27 @@
           "identity",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "whole school campus",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5913,
+            0.3244,
+            0.3962
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "The complete multi-volume campus and its practical groupings are visible across all calibrated views."
+        }
       }
     ],
     "negative": [
@@ -82,21 +231,74 @@
           "landscape",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "tree grove",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7397,
+            0.7101,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A landscape zone is approximated beside the eastern building edge; vegetation is absent from the sample."
+        }
       },
       {
         "statement": "The open-space approach with extensive green cover remains tentative in its formulation.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green open space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5299,
+            0.6802,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The broad open-space area is placed in the interstitial campus zone without visible landscape points."
+        }
       },
       {
         "statement": "The height difference between the school buildings and gymnasium obscures the obviousness of the access solution.",
         "tags": [
           "topography",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "gymnasium and school height difference",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7768,
+            0.3733,
+            0.3962
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The compact low mass contrasts visibly with taller adjacent volumes."
+        }
       },
       {
         "statement": "The requirements for protection, rescue and obstacle-free passage remain insufficient.",
@@ -104,14 +306,49 @@
           "safety",
           "accessibility",
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "protection and rescue routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5563,
+            0.1933,
+            0.1981
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access circulation is approximated along the lower campus edge; safety systems are not represented."
+        }
       },
       {
         "statement": "The positioning and topographical embedding of the grass playing field are not convincing and require major earth movements.",
         "tags": [
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "grass playing field",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1227,
+            0.7288,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The field is placed in a peripheral open zone, but terrain and grass are not sampled."
+        }
       },
       {
         "statement": "The barrier-free access at street level is unfortunate and highlights the general accessibility problem caused by the staggered floors.",
@@ -119,21 +356,75 @@
           "accessibility",
           "topography",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "street-level barrier-free access",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5563,
+            0.081,
+            0.0991
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing access is approximated along the southern edge at the lowest visible level."
+        }
       },
       {
         "statement": "The location of the textile-work rooms disrupts the desired spatial relationships within a teaching unit.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "textile-work rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7185,
+            0.3733,
+            0.3962
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior teaching rooms are approximated within the eastern classroom volume."
+        }
       },
       {
         "statement": "The route from the gym entrance to the cloakrooms and sports rooms uses a somewhat awkward staircase.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "gym entrance to cloakrooms and sports rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6636,
+            0.2585,
+            0.0991
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The gym access zone is placed at the lower edge of the compact sports-related volume."
+        }
       },
       {
         "statement": "The reduced entrance hall, combined with mixed age groups, seems cramped.",
@@ -141,7 +432,25 @@
           "layout",
           "functionality",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "reduced entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1284,
+            0.3049,
+            0.1981
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance hall is approximated in the compressed lower access zone."
+        }
       },
       {
         "statement": "The common center cannot match the intended generosity, and proximity between buildings creates a spatial bottleneck along the esplanade.",
@@ -149,14 +458,43 @@
           "open space",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "common center and esplanade bottleneck",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5563,
+            0.2922,
+            0.0991
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The central interstitial corridor visibly narrows between closely spaced building masses."
+        }
       },
       {
         "statement": "The carefully worked-out proposal still shows small weaknesses in terms of phasing.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "phasing",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Phasing is an operational judgment without a specific geometric marker."
+        }
       }
     ],
     "keyword": [

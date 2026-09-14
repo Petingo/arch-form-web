@@ -19,7 +19,26 @@
           "massing",
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5917,
+            0.417,
+            0.5497
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Compact overhanging mass is clearly visible across the top and elevation views."
+        }
       },
       {
         "statement": "The open space concept weaves forest, groups of trees, herbaceous fringe and meadow into the new school building.",
@@ -27,14 +46,52 @@
           "landscape",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "forest, trees, herbaceous fringe and meadow",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7473,
+            0.274,
+            0.0531
+          ],
+          "radius": 0.321,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Landscape features are not sampled, so the south-east perimeter provides a constrained site anchor."
+        }
       },
       {
         "statement": "The building volume is intelligently placed in the forest clearing and strengthens the spatial conditions through new plantings.",
         "tags": [
           "massing",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "building volume in forest clearing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2618,
+            0.768,
+            0.5993
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "The building mass is visible, while the forest clearing and plantings require an approximate site placement."
+        }
       },
       {
         "statement": "The compact building volume enables different uses to be arranged naturally, well exposed to the sun and accessible by wheelchair.",
@@ -42,14 +99,52 @@
           "massing",
           "functionality",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "compact building volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.623,
+            0.4203,
+            0.5497
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The compact stepped volume is visible; use-related and accessibility qualities are not geometrically distinguishable."
+        }
       },
       {
         "statement": "The ground floor is designed and organized in a very practical and user-oriented manner.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2644,
+            0.7266,
+            0.1524
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower set-back level is identifiable in elevations and anchored toward the north-west footprint."
+        }
       },
       {
         "statement": "The rooms are well positioned in relation to access, exposure and the outside.",
@@ -57,14 +152,54 @@
           "layout",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "rooms in relation to access, exposure and outside",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7371,
+            0.2223,
+            0.5993
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Exterior-facing upper volume provides a plausible anchor for rooms relating to access and outside."
+        }
       },
       {
         "statement": "The vertical access at the center promises the shortest possible paths on all sides.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central vertical access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4442,
+            0.5108,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central placement is supported by the top-view void and surrounding stepped massing."
+        }
       },
       {
         "statement": "The project impresses with its precision, well-placed building volume, innovative design features and sympathetic materialization.",
@@ -72,7 +207,28 @@
           "massing",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "well-placed building volume and design features",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.728,
+            0.6201,
+            0.6986
+          ],
+          "radius": 0.321,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Stepped overhangs and atrium cuts are visible across the complete calibrated view set."
+        }
       }
     ],
     "negative": [
@@ -82,28 +238,108 @@
           "circulation",
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3789,
+            0.5725,
+            0.7979
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Upper-level circulation is constrained to the winding perimeter and internal stepped geometry."
+        }
       },
       {
         "statement": "The location of the offices and therapy rooms on the first floor is criticized.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "first-floor offices and therapy rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7711,
+            0.25,
+            0.649
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The first-floor level is visible, but offices and therapy rooms are not individually distinguishable."
+        }
       },
       {
         "statement": "The kindergartens' location on the second floor prevents direct outdoor access.",
         "tags": [
           "accessibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "second-floor kindergartens",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2618,
+            0.768,
+            0.8972
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Second-floor volume is visible, while kindergarten placement is inferred near the north-west upper perimeter."
+        }
       },
       {
         "statement": "The open central staircase is not tolerated for fire-safety reasons, and the atriums would require elaborate fire compartments.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "central staircase and atriums",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4442,
+            0.5108,
+            0.5497
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central opening and surrounding atrium incisions are visibly expressed in plan and elevations."
+        }
       },
       {
         "statement": "The large cubature and graduated atrium incisions require very large and expensive facade processing.",
@@ -111,14 +347,51 @@
           "massing",
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large cubature and graduated atrium incisions",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7711,
+            0.25,
+            0.5993
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Large stepped massing and facade-edge incisions are visible on the south-east exterior."
+        }
       },
       {
         "statement": "The high proportion of glass has a negative impact on gray energy.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "high proportion of glass",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5668,
+            0.0842,
+            0.5993
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The south-facing facade supplies a constrained anchor; glazing proportion is not materially resolved by points."
+        }
       },
       {
         "statement": "The area and volume efficiency, complex facade construction and expensive courtyards lead to high investment costs.",
@@ -126,7 +399,26 @@
           "cost",
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "whole building and courtyards",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7832,
+            0.7222,
+            0.5497
+          ],
+          "radius": 0.321,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad efficiency and investment concerns are anchored across the visible stepped building and courtyard cuts."
+        }
       }
     ],
     "keyword": [

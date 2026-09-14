@@ -17,14 +17,52 @@
           "urban integration",
           "scale",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "continuous frontage and street-side gardens",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.136,
+            0.1557,
+            0.3214
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Perimeter mass and low stepped frontage are visible along the south-west garden edge."
+        }
       },
       {
         "statement": "The dimensions of the housing adapt judiciously to existing and future neighborhoods.",
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "housing dimensions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.751,
+            0.3116,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Approximate outer housing frontage is anchored on the east-south perimeter."
+        }
       },
       {
         "statement": "The school’s central position makes it visible from all sides and connects it to the different paths.",
@@ -32,14 +70,52 @@
           "urban integration",
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "central school position",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6183,
+            0.2561,
+            0.4643
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central point-cloud mass is clearly surrounded by circulation and perimeter frontage."
+        }
       },
       {
         "statement": "The reception and transition space provides natural security for the exterior areas.",
         "tags": [
           "safety",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "reception and transition space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4773,
+            0.125,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Likely entry transition is placed at the front ground-level edge; reception is not distinguishable."
+        }
       },
       {
         "statement": "The simple and functional program arrangement gives the younger classes a direct relationship with the garden and playground.",
@@ -47,7 +123,25 @@
           "layout",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "younger classes and garden playground relationship",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3577,
+            0.1471,
+            0.1429
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower perimeter zone adjacent to the central open space approximates younger-class access."
+        }
       },
       {
         "statement": "The circulation areas are pleasant and well dimensioned, with views toward the garden and old town.",
@@ -55,7 +149,27 @@
           "circulation",
           "proportion",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "circulation areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5851,
+            0.2422,
+            0.4643
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Circulation is anchored around the visible central garden and internal perimeter."
+        }
       },
       {
         "statement": "The central breathing space supports small-group activities and brings natural light into the building.",
@@ -63,13 +177,52 @@
           "layout",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central breathing space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6183,
+            0.2561,
+            0.5357
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Central void is legible in plan and elevations as the building’s breathing space."
+        }
       },
       {
         "statement": "The orientation of the classrooms is good.",
         "tags": [
           "orientation"
-        ]
+        ],
+        "position": {
+          "target": "classroom orientation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6846,
+            0.2838,
+            0.5357
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Classroom zones are approximated along the outer east-south edge with exposed elevations."
+        }
       },
       {
         "statement": "The use of wood as covering and structure makes sense in the garden setting and supports rapid dry execution and energy efficiency.",
@@ -77,7 +230,26 @@
           "expression",
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "wood covering and structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2864,
+            0.1172,
+            0.3929
+          ],
+          "radius": 0.27,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Material is not identifiable; marker follows the visible garden-facing building envelope."
+        }
       }
     ],
     "negative": [
@@ -86,7 +258,26 @@
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "existing plane trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1264,
+            0.1905,
+            0.0357
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Existing trees are absent; approximate garden-edge landscape location is marked."
+        }
       },
       {
         "statement": "The northern volume could have included more breakthroughs and permeabilities for the neighborhood and future residents.",
@@ -94,28 +285,101 @@
           "urban integration",
           "open space",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "northern volume breakthroughs and permeabilities",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6897,
+            0.9445,
+            0.5357
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Northern perimeter volume is visible, while individual openings are not distinguishable."
+        }
       },
       {
         "statement": "The niche-based changing-room layout is appreciated, but the principle is not applied systematically.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "changing-room layout",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.951,
+            0.531,
+            0.3571
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Changing rooms are interior and unidentifiable; east-side middle-level surface provides an approximate anchor."
+        }
       },
       {
         "statement": "The desired relationships between certain premises are not always achieved.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "relationships between premises",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5187,
+            0.2144,
+            0.3929
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior adjacency is not represented; central building zone gives a constrained approximation."
+        }
       },
       {
         "statement": "The proximity of the northwestern classroom to housing is questionable.",
         "tags": [
           "privacy",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "northwestern classroom near housing",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.225,
+            0.75,
+            0.5357
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "North-west perimeter classroom is approximated where the volume meets adjacent housing frontage."
+        }
       }
     ],
     "keyword": [

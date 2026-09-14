@@ -18,7 +18,24 @@
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "room groups",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4945,
+            0.4488,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central plan region plausibly anchors the grouped functional units shown within the elongated footprint."
+        }
       },
       {
         "statement": "The well-lit rooms resulting from the winding east and southeast facade partly compensate for the low compactness of the volume.",
@@ -26,14 +43,51 @@
           "facade",
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "east and southeast facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8172,
+            0.2359,
+            0.625
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Winding perimeter is clearest along the eastern and southeastern edges across plan and elevation views."
+        }
       },
       {
         "statement": "The noise protection is well solved with the low structure and a sound barrier along the highway.",
         "tags": [
           "scale",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "sound barrier along highway",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5043,
+            0.1272,
+            0.25
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South-side edge is the most plausible location for the stated highway sound barrier."
+        }
       },
       {
         "statement": "The project shows an interesting basic disposition with great potential for well-organized school operations and clear orientation.",
@@ -41,14 +95,46 @@
           "layout",
           "operation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4882,
+            0.4204,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The overall elongated, courtyard-cut disposition is visible across the complete calibrated view set."
+        }
       },
       {
         "statement": "The load transfer works quite economically.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "load transfer",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic structural performance has no useful spatial referent in the exterior point cloud."
+        }
       }
     ],
     "negative": [
@@ -58,21 +144,77 @@
           "topography",
           "open space",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "north and west outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3114,
+            0.6064,
+            0.125
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Northwestern perimeter and courtyard-adjacent zones anchor the stated outdoor areas and topographic intervention."
+        }
       },
       {
         "statement": "Parking on the south side leads to long access roads and brings traffic far into the property.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "south parking and access roads",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2662,
+            0.0445,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The southern edge is the stated parking side and plausible origin of the long approach routes."
+        }
       },
       {
         "statement": "The planting appears strained and does not follow any recognizable idea.",
         "tags": [
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "planting",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2508,
+            0.6002,
+            0.125
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "west"
+          ],
+          "rationale": "Planting is not distinguishable; a northwestern outdoor surface provides the closest landscape anchor."
+        }
       },
       {
         "statement": "The completely glazed inner courtyard appears unnecessary and confusing for orientation.",
@@ -80,28 +222,102 @@
           "layout",
           "visibility",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "inner courtyard glazing",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5039,
+            0.4915,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central courtyard cut is visible in plan, while glazing itself is not separately identifiable."
+        }
       },
       {
         "statement": "The long corridors result from the large volume and make the organization less compact.",
         "tags": [
           "circulation",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "long corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4863,
+            0.3811,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior corridors are absent from the exterior sample; the central longitudinal building zone is the best anchor."
+        }
       },
       {
         "statement": "The excavated courtyards and deep excavation require an unnecessarily large amount of gray energy.",
         "tags": [
           "sustainability",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "excavated courtyards",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5071,
+            0.5057,
+            0.125
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Courtyard cuts and the low central region are visible in plan, with excavation constrained by elevations."
+        }
       },
       {
         "statement": "The fire protection has deficiencies, including an enclosed stair requirement and a problematic escape-route crossing.",
         "tags": [
           "fire safety",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "fire protection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4913,
+            0.4346,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Stairs and escape routes are not distinguishable; the central circulation region provides an approximate anchor."
+        }
       },
       {
         "statement": "The unfavorable volume and envelope conditions and complex facade constructions lead to rather high investment costs.",
@@ -109,7 +325,26 @@
           "cost",
           "massing",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "volume and envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7791,
+            0.2227,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The broad massing and perimeter envelope are most legible along the eastern and southeastern building edge."
+        }
       }
     ],
     "keyword": [

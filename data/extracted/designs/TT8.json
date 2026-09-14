@@ -17,7 +17,26 @@
           "massing",
           "urban integration",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "urban volumetric solution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.4799,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Simple square envelope visibly reads at the surrounding area's large scale."
+        }
       },
       {
         "statement": "The open spaces are pleasantly simple, atmospheric, and of good user quality.",
@@ -25,7 +44,26 @@
           "open space",
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5005,
+            0.7465,
+            0.2353
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central courtyard and perimeter voids visibly create distinct atmospheric outdoor areas."
+        }
       },
       {
         "statement": "The consistent grid allows one-, two-, or three-bay typologies and provides the required flexibility.",
@@ -33,7 +71,26 @@
           "flexibility",
           "structure",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "consistent grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.766,
+            0.5456,
+            0.6176
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated orthogonal facade grid is clearly visible across the elevations."
+        }
       },
       {
         "statement": "Despite its simplicity, the building has a distinct identity and clear address.",
@@ -41,14 +98,51 @@
           "identity",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "distinct identity and clear address",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5411,
+            0,
+            0.5588
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "South facade and square enclosure provide the clearest architectural address."
+        }
       },
       {
         "statement": "The compact building shape creates a favorable ratio of floor space to building envelope.",
         "tags": [
           "massing",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "compact building shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.4799,
+            0.5294
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Deep compact ring visibly minimizes exposed envelope relative to floor area."
+        }
       }
     ],
     "negative": [
@@ -57,28 +151,98 @@
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "mezzanine level and auditorium anteroom",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5005,
+            0.7465,
+            0.5588
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central upper zone is approximated for the partially developed mezzanine and auditorium support space."
+        }
       },
       {
         "statement": "The main usable areas are imbalanced, with too much central space and substantial shortages for offices and laboratories.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "main usable areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5005,
+            0.7465,
+            0.4412
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central ring and courtyard relationship provide only an approximate interior allocation."
+        }
       },
       {
         "statement": "Seven sufficiently high floors do not fit within the maximum permitted building height.",
         "tags": [
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "seven floors and permitted height",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8452,
+            0.4138,
+            0.9412
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Upper envelope is the constrained anchor for the height and floor-count concern."
+        }
       },
       {
         "statement": "The crossed double staircases appear somewhat over-instrumented.",
         "tags": [
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "crossed double staircases",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5005,
+            0.7465,
+            0.5
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central courtyard-adjacent area provides a plausible location for internal stair cores."
+        }
       },
       {
         "statement": "The everything-under-one-roof concept reaches spatial, geometric, and operational limits.",
@@ -86,7 +250,26 @@
           "massing",
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "everything-under-one-roof concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.4799,
+            0.4706
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Continuous square roofed envelope visibly concentrates the program into one compact volume."
+        }
       }
     ],
     "keyword": [

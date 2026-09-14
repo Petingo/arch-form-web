@@ -16,56 +16,209 @@
         "tags": [
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "new east volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6008,
+            0.6694,
+            0.625
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct eastward mass is visible in top view and elevations, balancing the lower west volume."
+        }
       },
       {
         "statement": "The exterior layout refers appropriately to the current concept and is slightly reworked.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "exterior layout",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4453,
+            0.4469,
+            0.125
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed surface anchor represents the reworked exterior arrangement around both building masses."
+        }
       },
       {
         "statement": "The distribution of premises between the three buildings is clear.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "three-building distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6102,
+            0.5818,
+            0.4375
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central cluster anchor approximates relationships among the stated building components."
+        }
       },
       {
         "statement": "Removing rooms on the west side creates a generous meeting space with natural lighting.",
         "tags": [
           "open space",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "west meeting space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0339,
+            0.3262,
+            0.4375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "West-side zone is constrained by the top footprint and lower elevation mass."
+        }
       },
       {
         "statement": "The fire escapes in the annex are strategically well positioned.",
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "annex fire escapes",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8339,
+            0.5396,
+            0.5625
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Approximate annex-side surface anchor follows the elevated east volume; escape elements are not distinguishable."
+        }
       },
       {
         "statement": "The double-height study rooms generate additional spatial richness.",
         "tags": [
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "double-height study rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5976,
+            0.6985,
+            0.75
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper portion of the east mass approximates the stated double-height study-room zone."
+        }
       },
       {
         "statement": "The cluster benefits from overhead lighting through skylights and double-height spaces.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "skylights and double-height spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8142,
+            0.535,
+            0.9375
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level anchor covers overhead-lighting features across the elevated east cluster."
+        }
       },
       {
         "statement": "The new facade gives the ensemble a contemporary expression.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "new facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9875,
+            0.6953,
+            0.5625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "East-facing boundary of the new volume is clearly exposed in plan and elevation."
+        }
       },
       {
         "statement": "The interventions on the main building show flexibility, elegance and spatial quality.",
@@ -73,7 +226,26 @@
           "flexibility",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "main building interventions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4628,
+            0.3167,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "West building mass is the plausible anchor for interventions to the main building."
+        }
       }
     ],
     "negative": [
@@ -82,56 +254,212 @@
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "aula",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.037,
+            0.297,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Aula location is not identifiable; west peripheral placement reflects the stated excessive distance."
+        }
       },
       {
         "statement": "Raising the sports hall requires demolishing the existing supporting structure and generates additional cost.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "raised sports hall support",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7818,
+            0.5274,
+            0.25
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Anchor sits beneath the visibly raised east volume where supporting structure would be required."
+        }
       },
       {
         "statement": "The decisive supporting system leaves some rooms with less-than-ideal proportions.",
         "tags": [
           "structure",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "decisive supporting system",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6039,
+            0.6402,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central-east structural zone approximates the support system affecting room proportions."
+        }
       },
       {
         "statement": "The rigid structure is not very flexible for possible subsequent modifications.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "rigid structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6102,
+            0.5818,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad cluster anchor represents the visibly orthogonal, rigid organization across the ensemble."
+        }
       },
       {
         "statement": "Using rooms to connect circulation between sectors is not judicious and calls the floor functioning into question.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "room-connected circulation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4471,
+            0.4626,
+            0.4375
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Middle-level central anchor approximates circulation links between the visible building sectors."
+        }
       },
       {
         "statement": "Despite its interesting typology, the circulation system remains labyrinthine.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "labyrinthine circulation system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.444,
+            0.4918,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distributed central cluster placement reflects a building-wide circulation judgment."
+        }
       },
       {
         "statement": "The visual connection of two floors is interesting but not obvious.",
         "tags": [
           "scale",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "visual connection between two floors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6039,
+            0.6402,
+            0.625
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "East mass mid-height approximates the vertical relationship between stacked levels."
+        }
       },
       {
         "statement": "The elevation demonstrates the complexity and limits of organizing the triple sports hall.",
         "tags": [
           "massing",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "triple sports hall",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8339,
+            0.5396,
+            0.8125
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Raised east block is the clearest visible candidate for the complex triple sports-hall organization."
+        }
       }
     ],
     "keyword": [

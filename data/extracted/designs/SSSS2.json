@@ -18,7 +18,28 @@
           "landscape",
           "open space",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "walkable green roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7876,
+            0.8618,
+            0.6671
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Distinct elevated roof plate is clearly visible as the elongated upper footprint."
+        }
       },
       {
         "statement": "The architecture integrates independently into the park, with minimal paved areas benefiting the urban climate.",
@@ -26,7 +47,28 @@
           "urban integration",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "independently integrated park building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4155,
+            0.4822,
+            0.5006
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Long embedded mass and reduced external footprint visibly support park integration."
+        }
       },
       {
         "statement": "Separate routes for the public, athletes, and operations promise smooth operation.",
@@ -34,7 +76,24 @@
           "circulation",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "separate public, athlete, and operations routes",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5683,
+            0.4969,
+            0.3342
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Separate routes are interior and inferred within the elongated plan."
+        }
       },
       {
         "statement": "The indoor pool clearly distinguishes dirty, wet, and clean areas.",
@@ -42,14 +101,49 @@
           "layout",
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "indoor pool wet and clean areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.619,
+            0.4895,
+            0.3342
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Internal pool zoning is not separable, so the central elongated mass provides an approximate anchor."
+        }
       },
       {
         "statement": "The direct visual connection between the indoor and outdoor pools is very welcome.",
         "tags": [
           "visibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "visual connection between indoor and outdoor pools",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4155,
+            0.521,
+            0.3397
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Connection is inferred toward the pool-facing side of the embedded building."
+        }
       },
       {
         "statement": "Careful embedding into the existing terrain ensures an exceptionally small excavation volume.",
@@ -57,21 +151,74 @@
           "topography",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "existing terrain embedding",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4155,
+            0.4158,
+            0.1677
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Low elongated volume and shallow elevations visibly indicate terrain embedding."
+        }
       },
       {
         "statement": "The supporting concept is comprehensible and resource-saving in the intended construction method.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "supporting construction concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource-saving construction judgment has no specific spatial referent."
+        }
       },
       {
         "statement": "The insulated building shell ensures low winter heating requirements, while the green roof contributes to summer cooling.",
         "tags": [
           "sustainability",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "insulated building shell and green roof",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4334,
+            0.5218,
+            0.8335
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north",
+            "west"
+          ],
+          "rationale": "Envelope and roof are visible, although insulation and cooling performance are not geometric."
+        }
       }
     ],
     "negative": [
@@ -80,7 +227,24 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "bicycle parking and right of way",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.1815,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Access elements are approximated near the lower-left approach to the elongated building."
+        }
       },
       {
         "statement": "The small distance from the outdoor pool weakens the landscape effect and spaciousness.",
@@ -88,14 +252,48 @@
           "landscape",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "outdoor pool proximity",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9316,
+            0.5696,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Pool-side open space is approximated along the building’s right-hand side."
+        }
       },
       {
         "statement": "Better access to the park outside the bathing season would be desirable.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "park access outside bathing season",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0099,
+            0.6213,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Park access is assigned to the open left-side perimeter."
+        }
       },
       {
         "statement": "The permanent, low-maintenance design of the walkable green roof remains doubtful.",
@@ -103,49 +301,170 @@
           "operation",
           "sustainability",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "walkable green roof maintenance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7585,
+            0.8634,
+            0.6671
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The walkable roof plate is distinctly visible, while maintenance performance remains non-geometric."
+        }
       },
       {
         "statement": "A substrate depth of only 20 centimetres may not ensure the required safety for roof use.",
         "tags": [
           "safety",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "20-centimetre roof substrate",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4334,
+            0.7811,
+            0.8335
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Roof surface is visible, but substrate depth is not represented."
+        }
       },
       {
         "statement": "The facades lack functional summer heat protection.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.0099,
+            0.5022,
+            0.5006
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "west",
+            "south"
+          ],
+          "rationale": "Long low facades are clearly visible in the elevations; heat protection is not distinguishable."
+        }
       },
       {
         "statement": "The open ice rink is insufficiently shielded and would require additional noise protection.",
         "tags": [
           "acoustics",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "open ice rink",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8916,
+            0.4458,
+            0.1677
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Adjacent rink is approximated at the open side beyond the building."
+        }
       },
       {
         "statement": "The staging works, but its individual phases are sometimes too intertwined.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "staging phases",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Phasing criticism concerns operations globally rather than a model location."
+        }
       },
       {
         "statement": "The address formation and impermeability along the street leave questions unanswered.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "street address and impermeability",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1234,
+            0.1268,
+            0.3342
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing edge is approximated along the lower-left building perimeter."
+        }
       },
       {
         "statement": "The green roof is a major cost driver and appears expensive to maintain.",
         "tags": [
           "cost",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "green roof cost and maintenance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8021,
+            0.861,
+            0.6671
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Distinct roof surface is visible, while cost and maintenance remain performance judgments."
+        }
       }
     ],
     "keyword": [

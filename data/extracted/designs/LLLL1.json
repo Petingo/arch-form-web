@@ -18,7 +18,26 @@
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "urban context",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4171,
+            0.8198,
+            0.5652
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "south"
+          ],
+          "rationale": "Broad context relationship assigned across the visible upper urban-facing building region."
+        }
       },
       {
         "statement": "The autonomous volume becomes a pivotal point of connection with its surroundings.",
@@ -26,7 +45,28 @@
           "massing",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "autonomous volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3746,
+            0.5729,
+            0.5652
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Polygonal autonomous mass is visible across all calibrated views."
+        }
       },
       {
         "statement": "The polygonal shape impresses with its proportions and context-derived guidelines.",
@@ -34,7 +74,28 @@
           "massing",
           "proportion",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "polygonal shape",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9537,
+            0.5007,
+            0.587
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Distinct polygonal perimeter and proportion are clearly legible across plan and elevations."
+        }
       },
       {
         "statement": "The sequence of outdoor spaces, including the courtyard space, is interesting and enriched by additional introverted spaces.",
@@ -42,14 +103,49 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "courtyard space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3361,
+            0.3993,
+            0.3478
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Central open-space sequence is approximated from the top-view void and surrounding terraces."
+        }
       },
       {
         "statement": "The main entrance is attractive and enlivens the public space.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4117,
+            0.0215,
+            0.2391
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrance is constrained to the publicly oriented front edge and lower facade."
+        }
       },
       {
         "statement": "The central staircase becomes a joint between existing and new buildings and supports encounter and cultural exchange.",
@@ -57,7 +153,26 @@
           "circulation",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "central staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3604,
+            0.4905,
+            0.5652
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central connector is placed on the visible interior-facing mass near mid-height."
+        }
       },
       {
         "statement": "The compact design allows an understandable and realizable building-technology concept, with investment costs expected within the specified limits.",
@@ -65,7 +180,28 @@
           "massing",
           "cost",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "compact design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3604,
+            0.4905,
+            0.587
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Compact multi-level envelope is directly visible throughout the sampled model."
+        }
       },
       {
         "statement": "The project accommodates a large public use in a historically sensitive urban location in a sophisticated way.",
@@ -73,7 +209,26 @@
           "urban integration",
           "functionality",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "large public use",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3037,
+            0.1612,
+            0.4565
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Public-use judgment is anchored to the lower frontage and connected building volume."
+        }
       }
     ],
     "negative": [
@@ -83,13 +238,51 @@
           "facade",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "architectural transparency",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7777,
+            0.1848,
+            0.587
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Transparency concern is distributed across the visible exterior envelope."
+        }
       },
       {
         "statement": "The proposed flat-ceiling structure and its mode of action need to be clarified in more detail.",
         "tags": [
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "flat-ceiling structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.523,
+            0.303,
+            0.2174
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Unresolved ceiling structure is approximated within the central lower building surface."
+        }
       }
     ],
     "keyword": [

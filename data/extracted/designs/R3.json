@@ -16,7 +16,28 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "uniform roof edge",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.811,
+            0.322,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Continuous upper boundary is clearly visible around the principal polygonal volume."
+        }
       },
       {
         "statement": "The clear fronts are geometrically integrated into the important alignments, creating a well-proportioned shared space that also provides access.",
@@ -24,7 +45,26 @@
           "urban integration",
           "proportion",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "clear fronts and shared space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6373,
+            0.1592,
+            0.2
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Front-facing lower zone is anchored along the visible southern and eastern approaches."
+        }
       },
       {
         "statement": "The new building is cleverly integrated into the difficult topography, and the network of paths and green structures can strengthen the campus idea.",
@@ -32,14 +72,50 @@
           "topography",
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "network of paths and green structures",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2331,
+            0.6873,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Approximate landscape and circulation region lies around the detached western mass and main volume."
+        }
       },
       {
         "statement": "The interior is zoned and structured in an amazingly simple, logical, and exciting way.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "interior zoning and structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.721,
+            0.2328,
+            0.4984
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Interior organization is approximated within the principal sampled building footprint."
+        }
       },
       {
         "statement": "The attractive two-story workshop hall with central daylight promotes exchange between disciplines and gives the institution an important symbol.",
@@ -47,27 +123,95 @@
           "layout",
           "daylight",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "two-story workshop hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8176,
+            0.3177,
+            0.6
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Workshop hall is placed centrally within the tall principal volume, with daylight inferred from its exposed position."
+        }
       },
       {
         "statement": "The wood-concrete hybrid system makes sense, with pragmatic materialization decisions enabling an attractive working atmosphere.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "wood-concrete hybrid system",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7331,
+            0.2434,
+            0.4984
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Material system is anchored to the principal building envelope where its working atmosphere is expressed."
+        }
       },
       {
         "statement": "The arcade zone determines the appearance of the new school and promises a great variety.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "arcade zone",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3885,
+            0.4014,
+            0.4984
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Variable-depth perimeter bands visibly wrap the main polygonal volume."
+        }
       },
       {
         "statement": "The sustainability concept is well thought out and can become part of the overall concept.",
         "tags": [
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sustainability concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability is a non-local conceptual judgment without a distinct geometric marker."
+        }
       },
       {
         "statement": "The project combines innovative and intelligent positions into an independent, future-oriented learning workshop.",
@@ -75,7 +219,26 @@
           "identity",
           "functionality",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "future-oriented learning workshop",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7814,
+            0.2858,
+            0.4984
+          ],
+          "radius": 0.34,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad identity judgment is anchored to the principal polygonal building volume."
+        }
       }
     ],
     "negative": [
@@ -84,63 +247,228 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "courtyard at the existing technical center",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2375,
+            0.7044,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Courtyard is approximated in the western detached cluster visible beside the main volume."
+        }
       },
       {
         "statement": "The desired play areas in the eastern area are possible but are not shown.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "play areas in the eastern area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8546,
+            0.3502,
+            0.1
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Eastern open area is placed along the main volume’s rightmost visible edge."
+        }
       },
       {
         "statement": "The sloping space between the streets appears helpless and indeterminate.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "sloping space between the streets",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4057,
+            0.468,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Intermediate open space is located between the detached western outline and principal polygon."
+        }
       },
       {
         "statement": "Five almost equivalent entrances significantly obscure the addressing.",
         "tags": [
           "circulation",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "five equivalent entrances",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6362,
+            0.1582,
+            0.3
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Multiple entrances are assigned to the principal lower front zone and adjoining exposed edges."
+        }
       },
       {
         "statement": "The external workspace areas are tempting, but functionality is not yet guaranteed at the proposed height.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "external workspace areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7107,
+            0.2136,
+            0.4984
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "External work areas are approximated on elevated exposed edges of the main volume."
+        }
       },
       {
         "statement": "The zone between the two main areas of use remains unclearly assigned and spatially unclear.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "zone between the two main areas of use",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3769,
+            0.4052,
+            0.4984
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ambiguous intermediate zone is placed within the central transition of the principal footprint."
+        }
       },
       {
         "statement": "A clearer decision in favor of one architectural expression would enable greater precision.",
         "tags": [
           "expression",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7452,
+            0.254,
+            0.6
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Expression is anchored across the visibly articulated polygonal envelope and arcade perimeter."
+        }
       },
       {
         "statement": "It remains open how the exceeded total building height could be compensated for.",
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "exceeded total building height",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.799,
+            0.3114,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Height concern is assigned directly to the clearly visible upper building boundary."
+        }
       },
       {
         "statement": "The large proportion of windows and lack of central building-technology areas cloud the intention of developing an intelligent building.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "windows and central building-technology areas",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6969,
+            0.2115,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Envelope openings and service organization are approximated on the exposed principal façades."
+        }
       }
     ],
     "keyword": [

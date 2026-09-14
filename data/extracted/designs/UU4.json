@@ -17,7 +17,24 @@
         "tags": [
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "maximum open spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4098,
+            0.192,
+            0
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Two separated footprints visibly leave a broad central open setting."
+        }
       },
       {
         "statement": "The northern building derives its development layout from the topography and separates the different functions in an interesting way.",
@@ -25,7 +42,26 @@
           "topography",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "northern building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.282,
+            0.9375,
+            0.5503
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct upper-left volume is the northern building and follows the oblique site layout."
+        }
       },
       {
         "statement": "The hard court is convincingly framed by the edge of the slope.",
@@ -33,7 +69,24 @@
           "open space",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "hard court",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4226,
+            0.1884,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The court is approximated in the central void framed by the two visible buildings."
+        }
       },
       {
         "statement": "The kindergarten building is convincingly organized, with three entrances linked by an internal access.",
@@ -41,28 +94,103 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7468,
+            0.0957,
+            0.4397
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The separate lower-right volume is clearly identifiable as the second building."
+        }
       },
       {
         "statement": "The teaching and group rooms are well proportioned and have sufficient light.",
         "tags": [
           "proportion",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "teaching and group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3077,
+            0.9301,
+            0.5503
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Rooms are approximated within the larger northern volume."
+        }
       },
       {
         "statement": "The covered outdoor spaces provide an additional spatial quality.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "covered outdoor spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6875,
+            0.1815,
+            0.108
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Covered exterior spaces are placed along the lower building's visible edge."
+        }
       },
       {
         "statement": "Placing the kindergarten building directly on the district street allows generous free outdoor play space.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten building on district street",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8363,
+            0.1505,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower-right kindergarten volume is anchored along the southern street-facing edge."
+        }
       }
     ],
     "negative": [
@@ -72,42 +200,153 @@
           "open space",
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "parking arrangement",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9004,
+            0.1322,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is approximated near the southern edge beside the kindergarten volume."
+        }
       },
       {
         "statement": "The kindergarten and existing school form a loose unity, while the complex lacks spatial cohesion.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "kindergarten and existing school",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4006,
+            0.1947,
+            0.4397
+          ],
+          "radius": 0.304,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The two visible buildings form a loose pair with substantial separation and weak cohesion."
+        }
       },
       {
         "statement": "The three school buildings hardly seem to relate to one another.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "three school buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3878,
+            0.1983,
+            0.4397
+          ],
+          "radius": 0.304,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The sampled composition shows separated masses with limited visible relational structure."
+        }
       },
       {
         "statement": "The decentralized arrangement of classrooms and play areas is controversial.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classrooms and play areas",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4739,
+            0.1737,
+            0.2186
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Decentralized functions are approximated across the two separated footprints."
+        }
       },
       {
         "statement": "The internal functional distribution has deficiencies, including the need for two offices serving the multi-purpose rooms.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "internal functional distribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6186,
+            0.1324,
+            0.4397
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Office and multi-purpose relationships are guessed within the lower building."
+        }
       },
       {
         "statement": "The route from the kindergarten rooms through the cloakrooms to the outdoor play area is somewhat complicated.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "route from kindergarten rooms through cloakrooms",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7851,
+            0.1651,
+            0.2186
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The route is anchored along the kindergarten volume between interior and outdoor-facing edges."
+        }
       },
       {
         "statement": "The buildings have little in common in appearance, and the project lacks an overall spatial and functional idea.",
@@ -115,7 +354,18 @@
           "expression",
           "urban integration",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "overall spatial and functional idea",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.304,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Overall coherence is a whole-design judgment without one specific location."
+        }
       }
     ],
     "keyword": [

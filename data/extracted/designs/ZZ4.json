@@ -19,35 +19,129 @@
           "urban integration",
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "staggered twisting integration",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4378,
+            0.3789,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Stepped, fanned footprint is clearly visible and corroborated by horizontal elevations."
+        }
       },
       {
         "statement": "The roof unites the individual buildings into an interconnected whole.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "unifying roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6151,
+            0.1643,
+            1
+          ],
+          "radius": 0.1,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Top view shows one continuous roof line spanning the staggered pavilion sequence."
+        }
       },
       {
         "statement": "The alternation of open and closed facade areas is direct and captivating.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "alternating open and closed facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8169,
+            0.3852,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elevation views show repeated horizontal bands with changing density across the facades."
+        }
       },
       {
         "statement": "The diagonal arrangement of the main rooms generates attractive spatial relationships.",
         "tags": [
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "diagonal main-room arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2877,
+            0.4887,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Diagonal room relationships are approximated along the stepped central plan."
+        }
       },
       {
         "statement": "The well-proportioned rooms offer a certain flexibility of use.",
         "tags": [
           "proportion",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "well-proportioned flexible rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6431,
+            0.6078,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Individual rooms are not separated, so marker uses a representative pavilion bay."
+        }
       }
     ],
     "negative": [
@@ -57,35 +151,124 @@
           "landscape",
           "open space",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "large footprint and lost trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4351,
+            0.3578,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Broad staggered footprint visibly spreads across much of the plan area."
+        }
       },
       {
         "statement": "The room program is not very convincing, with a small, separated foyer and auditorium.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "small separated foyer and auditorium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8647,
+            0.1592,
+            0.3382
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal spaces are unmarked; marker is assigned near the south-east pavilion end."
+        }
       },
       {
         "statement": "Outdoor entrances create very narrow entrance situations.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "narrow outdoor entrances",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5593,
+            0.0488,
+            0
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Entrances are not individually visible; marker uses the southern perimeter access edge."
+        }
       },
       {
         "statement": "The daily structures are very difficult to organize when fully staffed.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "daily structures",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4331,
+            0.4034,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Operational organization is internal and approximated across the central pavilion sequence."
+        }
       },
       {
         "statement": "The solid construction offers flexibility mainly through multiple uses rather than actual changeability.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "solid construction flexibility",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4405,
+            0.3995,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Construction system is not separately modeled; marker anchors the central building structure."
+        }
       },
       {
         "statement": "The non-compact single-storey structure creates a high envelope and disadvantages energy performance.",
@@ -93,7 +276,27 @@
           "massing",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "non-compact single-storey envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4351,
+            0.3578,
+            0.3382
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Large spread footprint with low horizontal elevations directly shows the non-compact envelope."
+        }
       }
     ],
     "keyword": [

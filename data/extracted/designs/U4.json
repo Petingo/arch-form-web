@@ -17,7 +17,27 @@
           "massing",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "spaces between buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4847,
+            0.5419,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Central ground-level void visibly separates the two polygonal building volumes."
+        }
       },
       {
         "statement": "The precise facades define high-quality public spaces that are coherently linked.",
@@ -25,7 +45,26 @@
           "facade",
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "linked public spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6472,
+            0.2673,
+            0.0625
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Facing edges around the lower polygon suggest a connected public-space sequence."
+        }
       },
       {
         "statement": "The outdoor-space concept reflects the scale of the existing buildings and retains the historic railway axis as a cycle and footpath.",
@@ -33,7 +72,24 @@
           "scale",
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "historic railway axis as cycle and footpath",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4879,
+            0.5426,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open diagonal corridor between masses provides the plausible retained movement axis."
+        }
       },
       {
         "statement": "The sports hall and adjoining rooms are organized coherently and economically.",
@@ -41,14 +97,51 @@
           "layout",
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "sports hall and adjoining rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8714,
+            0.1026,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The distinct lower-right polygonal volume is the most plausible sports-hall cluster."
+        }
       },
       {
         "statement": "The exits from the underground car park are ideally organized toward the town hall.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "underground car park exits toward the town hall",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5998,
+            0.195,
+            0.0625
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A low-level point near the central-facing edge approximates the described underground exit zone."
+        }
       },
       {
         "statement": "The proposal carefully balances the urban planning and the external spaces.",
@@ -56,7 +149,27 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "urban planning and external spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4672,
+            0.5548,
+            0.0625
+          ],
+          "radius": 0.33,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The sampled arrangement clearly shows multiple volumes organized around linked exterior ground spaces."
+        }
       }
     ],
     "negative": [
@@ -65,21 +178,80 @@
         "tags": [
           "fire safety",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "escape-route issue",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2586,
+            0.5334,
+            0.4375
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "No route is identifiable; the marker covers the multi-level building circulation region."
+        }
       },
       {
         "statement": "The balanced outdoor-space qualities continue inside the schoolhouse only to a limited extent.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "schoolhouse interior outdoor-space continuity",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1936,
+            0.5406,
+            0.375
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-left volume is a plausible schoolhouse anchor, while interior continuity is not visible."
+        }
       },
       {
         "statement": "The classroom floors have minimal daylight in the tightly cut, star-shaped central area.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "classroom floors in the star-shaped central area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5839,
+            0.2356,
+            0.5625
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The lower-right polygon supplies the closest visible approximation to the described central classroom area."
+        }
       },
       {
         "statement": "Access areas and intermediate spaces lack the spatial quality needed to create a flexible learning environment.",
@@ -87,21 +259,79 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "access areas and intermediate spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4953,
+            0.5441,
+            0.4375
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The interstitial central zone is the plausible surface anchor for circulation and intermediate spaces."
+        }
       },
       {
         "statement": "The architectural appearance and questions of innovation remain vague.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural appearance and innovation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6647,
+            0.6636,
+            0.5
+          ],
+          "radius": 0.33,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The comment concerns overall expression; the marker samples the combined visible building envelope."
+        }
       },
       {
         "statement": "The large transparent facade areas weaken the economic efficiency of the project.",
         "tags": [
           "facade",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large transparent facade areas",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9291,
+            0.1483,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The exposed lower-right exterior edge provides a plausible facade anchor for the transparent areas."
+        }
       },
       {
         "statement": "The high proportion of windows and large volumes below terrain suggest that energy and sustainability were not sufficiently prioritized.",
@@ -109,7 +339,26 @@
           "facade",
           "sustainability",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "windows and volumes below terrain",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8372,
+            0.0754,
+            0.125
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The low marker captures the lower-right mass and its potentially below-terrain portion."
+        }
       },
       {
         "statement": "The learning environment has too little spatial potential and is too segmented.",
@@ -117,7 +366,26 @@
           "layout",
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "segmented learning environment",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2586,
+            0.5334,
+            0.5625
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-left multi-level volume is a plausible learning-environment anchor, though rooms are not distinguishable."
+        }
       }
     ],
     "keyword": [

@@ -15,27 +15,111 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "multipurpose block and green spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6073,
+            0.5935,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Articulated central block is visible within the elongated strip and surrounding open margins."
+        }
       },
       {
         "statement": "The modular spaces and movement of the cross section give the architecture quality.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "modular spaces and cross section",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6148,
+            0.587,
+            0.5
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated longitudinal modules and sectional bands are visible across projections."
+        }
       },
       {
         "statement": "The spaces demonstrate a correct use of natural light.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "natural light in the spaces",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5301,
+            0.4875,
+            1
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Daylight is not directly visible; roof surface provides the useful envelope anchor."
+        }
       },
       {
         "statement": "The internal gym spaces are functional and well organized.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "internal gym spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6408,
+            0.1946,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Gym interiors are hidden; eastern building segment provides a plausible surface approximation."
+        }
       }
     ],
     "negative": [
@@ -44,7 +128,28 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "first-stage building alignments",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4051,
+            0.3983,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Strip is visible, but existing reference buildings and precise alignments are absent."
+        }
       },
       {
         "statement": "The pedestrian route does not relate convincingly to the context, and the residual green area has an unconvincing function.",
@@ -52,14 +157,52 @@
           "urban integration",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "pedestrian route and residual green area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6355,
+            0.1992,
+            0
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Route and residual landscape are not separately legible; marker estimates side ground."
+        }
       },
       {
         "statement": "The horizontal design does not respond satisfactorily to the sloping terrain.",
         "tags": [
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "horizontal design on sloping terrain",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4022,
+            0.3894,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated mass is visible, while terrain slope is not distinctly represented."
+        }
       },
       {
         "statement": "The proposed embankment is architecturally underdeveloped and obstructs the relationship between the street and the gymnasium.",
@@ -67,14 +210,42 @@
           "topography",
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "embankment between street and gymnasium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6732,
+            0.1666,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Embankment is not identifiable; marker estimates lower access-side ground."
+        }
       },
       {
         "statement": "The construction system retains the unresolved problems previously identified by the jury.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction system",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction-system and cost concerns are not spatially localized."
+        }
       }
     ],
     "keyword": [

@@ -17,7 +17,27 @@
           "massing",
           "expression",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "whole project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5293,
+            0.6424,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The stepped zigzag volume is clearly visible across all calibrated views."
+        }
       },
       {
         "statement": "The building takes advantage of the topography rather than entering into conflict with it.",
@@ -25,7 +45,26 @@
           "topography",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "hillside insertion",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2007,
+            0.3945,
+            0.3338
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The irregular stepped footprint is assigned to the sloping site insertion zone."
+        }
       },
       {
         "statement": "The garden becomes a functional, efficient and fluid connecting space and a public outdoor area.",
@@ -33,7 +72,24 @@
           "open space",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "garden connecting space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4932,
+            0.03,
+            0.0833
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Outdoor connecting space is approximated along the lower open edge of the zigzag footprint."
+        }
       },
       {
         "statement": "The program fits convincingly on the different levels, with fluid circulation spaces benefiting from views and lateral natural lighting.",
@@ -41,7 +97,26 @@
           "layout",
           "circulation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "fluid circulation spaces",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5499,
+            0.6753,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Circulation is placed through the articulated central volume and its stepped levels."
+        }
       },
       {
         "statement": "The architectural expression is subtle and discreet, with a marked horizontality and a distinct identity.",
@@ -49,7 +124,26 @@
           "expression",
           "facade",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "horizontal facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8141,
+            0.4549,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Strong horizontal bands and a discreet envelope are visible throughout the elevations."
+        }
       },
       {
         "statement": "The implementation resolves most of the site's integration difficulties with very good spatial qualities.",
@@ -57,7 +151,26 @@
           "urban integration",
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "site integration",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5293,
+            0.6424,
+            0.3338
+          ],
+          "radius": 0.32026,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The articulated footprint and stepped envelope visibly mediate between site and building."
+        }
       }
     ],
     "negative": [
@@ -66,28 +179,99 @@
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "garden public space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4932,
+            0.03,
+            0.0417
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The garden is approximated along the lower site edge, where outdoor expansion is visible."
+        }
       },
       {
         "statement": "The English-courtyard device is somewhat boxy and deserves to be optimized.",
         "tags": [
           "daylight",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "English courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2943,
+            0.4603,
+            0.2917
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The courtyard device is approximated beside the stepped recesses in the footprint."
+        }
       },
       {
         "statement": "Accessibility for people with reduced mobility is not currently guaranteed at the bottom of the auditoriums.",
         "tags": [
           "accessibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "auditorium bottoms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8408,
+            0.5078,
+            0.0833
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Lower auditorium access is assigned to the bottom-level edge of the stepped building."
+        }
       },
       {
         "statement": "The east and south facades, which were not shown, must be checked.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "east and south facades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.754,
+            0.2899,
+            0.5417
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "The stated facades are directional surfaces, though their detailed expression remains unresolved."
+        }
       }
     ],
     "keyword": [

@@ -19,21 +19,76 @@
           "functionality",
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "programmatic content and optimization of flows",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5235,
+            0.5102,
+            0.5
+          ],
+          "radius": 0.3067,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The inverted double-comb organization and central junction are clearly visible across views."
+        }
       },
       {
         "statement": "Each division is organized around a common courtyard enclosed by its programmatic components.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "common courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5188,
+            0.517,
+            0.25
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Courtyard voids are visibly enclosed between paired programmatic branches."
+        }
       },
       {
         "statement": "The development of the facades, particularly the blind walls, is important.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "blind walls",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.784,
+            0.6638,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Long outer branch edges and their wall lines are visible along the comb perimeter."
+        }
       }
     ],
     "negative": [
@@ -43,7 +98,24 @@
           "circulation",
           "open space",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "vehicle access roads and sports areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6346,
+            0.3437,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The outer perimeter is the plausible location where vehicle routes meet interstitial sports areas."
+        }
       },
       {
         "statement": "The rigorous inversion causes many cells to face north and the blinders reduce direct natural light.",
@@ -51,7 +123,25 @@
           "orientation",
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "north-facing cells and blinders",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6807,
+            0.8399,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The north edge and repeated branch cells provide the directional daylight constraint."
+        }
       },
       {
         "statement": "The blind walls are incomprehensible where they are free from adjoining constructions.",
@@ -59,7 +149,26 @@
           "facade",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "free-standing blind walls",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8357,
+            0.7016,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Outer wall segments are visibly exposed beyond adjoining branch constructions."
+        }
       },
       {
         "statement": "The synthesis does not sufficiently attend to the quality of land uses, the sun’s path, or possible views across the site.",
@@ -67,7 +176,25 @@
           "landscape",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "land uses, sun path, and site views",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3116,
+            0.6555,
+            0
+          ],
+          "radius": 0.3072,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "A broad peripheral site area anchors the combined landscape, solar, and view concern."
+        }
       },
       {
         "statement": "The architectural concept appears too subordinate to prison constraints.",
@@ -75,7 +202,26 @@
           "expression",
           "functionality",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "architectural concept",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4989,
+            0.3814,
+            0.5
+          ],
+          "radius": 0.3067,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The overall inverted-comb massing provides the spatial anchor for this conceptual judgment."
+        }
       }
     ],
     "keyword": [

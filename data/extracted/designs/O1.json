@@ -17,14 +17,52 @@
           "urban integration",
           "landscape",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "difficult context and open landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1562,
+            0.1592,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Placed along the lower exterior edge where the building meets the open landscape and slope."
+        }
       },
       {
         "statement": "The open passage convincingly integrates the building into the existing path system.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "open ground-floor passage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5559,
+            0.2006,
+            0.1111
+          ],
+          "radius": 0.14,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central lower-level opening is visible between the cranked building wings."
+        }
       },
       {
         "statement": "The enlarged staircase cores guarantee escape and create added value as a learning landscape.",
@@ -32,14 +70,52 @@
           "fire safety",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "enlarged staircase cores",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0542,
+            0.5396,
+            0.5556
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Approximate internal stair-core location constrained between the visible outer wings."
+        }
       },
       {
         "statement": "The clear horizontal organization offers interesting usage options between the two staircases.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "horizontal organization between staircases",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4991,
+            0.2408,
+            0.5556
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Placed in the middle upper-level span connecting the two apparent circulation cores."
+        }
       },
       {
         "statement": "The building is independent but unpretentious and does not compete with the existing complex.",
@@ -47,14 +123,52 @@
           "expression",
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.9416,
+            0.4788,
+            0.5
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Broad marker covers the compact independent pavilion mass without privileging its complex."
+        }
       },
       {
         "statement": "The structured common areas and directly connected group rooms support cross-class work.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "common areas and group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5205,
+            0.2367,
+            0.5556
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior collaborative zone is estimated just behind the open lower passage."
+        }
       },
       {
         "statement": "The existing green strip creates a natural separation between play and break areas.",
@@ -62,7 +176,25 @@
           "landscape",
           "open space",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "existing green strip",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1562,
+            0.1592,
+            0.0556
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Placed along the lower site edge adjacent to the presumed play and break areas."
+        }
       },
       {
         "statement": "The clear building structure is easy to implement and meets the ECO requirements.",
@@ -70,7 +202,27 @@
           "structure",
           "operation",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "clear building structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5028,
+            0.777,
+            0.5
+          ],
+          "radius": 0.306,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Broad building anchor reflects the legible layered and cranked structural organization."
+        }
       }
     ],
     "negative": [
@@ -79,48 +231,163 @@
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "archive and technical rooms next to passage",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.791,
+            0.0792,
+            0.1111
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Estimated beside the lower passage at the building’s outer corner."
+        }
       },
       {
         "statement": "The economic effort of the structural concept seems considerable.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "structural concept",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic effort is a non-spatial judgment about the overall structural concept."
+        }
       },
       {
         "statement": "Daylight is limited in the core.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "core",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4813,
+            0.2068,
+            0.5556
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central internal core is inferred between the visible perimeter wings."
+        }
       },
       {
         "statement": "Natural ventilation on the ground floor is not solved by the huge window sashes.",
         "tags": [
           "ventilation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "ground floor window sashes",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5327,
+            0.2243,
+            0.1111
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Ground-floor opening zone is visible along the lower facade, though sash detail is unresolved."
+        }
       },
       {
         "statement": "The vertical connection from the ground floor through the floor duct is unfavorable.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "vertical floor duct connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4991,
+            0.2408,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Internal vertical connection is estimated through the central layered volume."
+        }
       },
       {
         "statement": "The ECO suitability, especially regarding materialization, is not documented.",
         "tags": [
           "sustainability",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "ECO materialization",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Documentation of material sustainability has no reliable geometric marker."
+        }
       },
       {
         "statement": "Summer comfort is reduced in the sun-exposed corner rooms.",
         "tags": [
           "daylight",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "sun-exposed corner rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8266,
+            0.1735,
+            0.6667
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Estimated at an exposed upper corner on the lower-right side of the footprint."
+        }
       }
     ],
     "keyword": [

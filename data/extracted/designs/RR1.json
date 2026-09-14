@@ -17,7 +17,26 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4759,
+            0.1634,
+            0.0333
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central massing separates plausible northern and southern outdoor regions between existing ensembles."
+        }
       },
       {
         "statement": "The building naturally connects to the existing connection axis, while pedestrian-prioritized traffic routing is convincingly solved.",
@@ -25,7 +44,25 @@
           "urban integration",
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "existing connection axis and pedestrian routing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3391,
+            0.2059,
+            0.0667
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level western approach provides a plausible anchor for axis connection and pedestrian-prioritized access."
+        }
       },
       {
         "statement": "The room organization and combinable communal spaces offer a wide range of additional event and usage options.",
@@ -33,7 +70,24 @@
           "layout",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "communal spaces",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3855,
+            0.1733,
+            0.4333
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Interior organization is projected onto the sampled south envelope at mid-height."
+        }
       },
       {
         "statement": "The atrium creates interesting spatial relationships and promises flowing and flexible teaching.",
@@ -41,7 +95,26 @@
           "layout",
           "flexibility",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "central atrium",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3855,
+            0.1733,
+            0.4667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central top-view opening and corresponding elevation pattern support an atrium anchor."
+        }
       },
       {
         "statement": "The room clusters have great synergy potential and prove advantageous spatially and operationally.",
@@ -49,7 +122,25 @@
           "layout",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "room clusters",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.759,
+            0.7823,
+            0.4333
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "top"
+          ],
+          "rationale": "Unseen room clusters are approximated along the eastern sampled envelope at mid-level."
+        }
       },
       {
         "statement": "The high proportion of glass promises very bright and transparent rooms.",
@@ -57,14 +148,52 @@
           "facade",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "glazed facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4767,
+            0.145,
+            0.5333
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Glazing is not materialized, so the bright transparent-room claim is anchored to the south envelope."
+        }
       },
       {
         "statement": "The compact volumetrics support an energy-efficient and sustainable building.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "compact volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4767,
+            0.145,
+            0.5
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Compact, continuous mass is clearly represented across the plan and elevations."
+        }
       }
     ],
     "negative": [
@@ -74,7 +203,26 @@
           "daylight",
           "sustainability",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "skylights",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4983,
+            0.5122,
+            0.9667
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Roof-level location is constrained, but skylight openings are not distinguishable in the point cloud."
+        }
       }
     ],
     "keyword": [

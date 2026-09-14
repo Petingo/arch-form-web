@@ -17,14 +17,54 @@
           "urban integration",
           "open space",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "precisely placed volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.428,
+            0.2691,
+            0.4444
+          ],
+          "radius": 0.311,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact rectangular volume and surrounding clearances are visible in plan and elevations."
+        }
       },
       {
         "statement": "The load transfer is consistently and clearly thought out, with generous ceiling spans and a central stabilizing core.",
         "tags": [
           "structure",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "central stabilizing core",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4551,
+            0.2619,
+            0.4444
+          ],
+          "radius": 0.09,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central core is approximated at the building center, supported by balanced surrounding spans."
+        }
       },
       {
         "statement": "The combinable auditorium and lunch table provide varied internal and external event and usage options.",
@@ -32,35 +72,132 @@
           "flexibility",
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "auditorium and lunch table",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5093,
+            0.2476,
+            0.2222
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal event spaces are estimated within the lower central portion of the compact volume."
+        }
       },
       {
         "statement": "The upper-floor plan reflects very good spatial and operational connections.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor plan",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1943,
+            0.6037,
+            0.7778
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Upper-level organization is constrained to the visibly defined second-story band."
+        }
       },
       {
         "statement": "The lightweight timber structure offers a high degree of flexibility.",
         "tags": [
           "flexibility",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "lightweight timber structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4009,
+            0.2763,
+            0.4444
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural system is not material-distinguishable, so it is anchored to the visible building frame."
+        }
       },
       {
         "statement": "The cost-conscious compactness of the building is convincing.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "compact building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.428,
+            0.2691,
+            0.3889
+          ],
+          "radius": 0.311,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The building’s compactness is directly evident from its tightly bounded footprint and elevations."
+        }
       },
       {
         "statement": "The proposal is recognized as an exciting, identity-forming contribution.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "identity-forming contribution",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4822,
+            0.2548,
+            0.4444
+          ],
+          "radius": 0.311,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Expression applies to the complete, clearly legible building figure."
+        }
       }
     ],
     "negative": [
@@ -69,14 +206,52 @@
         "tags": [
           "structure",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor connection levels and ceiling system",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.428,
+            0.2691,
+            0.2222
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The criticized connection and ceiling zone is assigned to the ground-floor band."
+        }
       },
       {
         "statement": "The separation between the upper floor and basement is incomprehensible, and the basement quality cannot match that of the upper floor.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper floor and basement separation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3738,
+            0.2835,
+            0.4444
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The separation is anchored between the visible upper and lower building bands."
+        }
       },
       {
         "statement": "The basement atriums offer little daylight and do not replace the necessary connection to the outside.",
@@ -84,7 +259,25 @@
           "daylight",
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "basement atriums",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3971,
+            0.2773,
+            0.0556
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Basement daylight voids are estimated near the lower central footprint."
+        }
       },
       {
         "statement": "The highly transparent facade is applied inconsistently, denying an important part of the building the same quality.",
@@ -92,7 +285,26 @@
           "facade",
           "visibility",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "highly transparent facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8453,
+            0.4941,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Facade criticism is anchored to the visible eastern enclosure, where transparency itself is not distinguishable."
+        }
       },
       {
         "statement": "The floor-to-ceiling vertically divided glass facade appears unfortunate in places and creates potential conflicts.",
@@ -100,14 +312,50 @@
           "facade",
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "vertically divided glass facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8369,
+            0.4711,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "east",
+            "north",
+            "south"
+          ],
+          "rationale": "Vertical facade divisions are approximated along the exposed eastern side."
+        }
       },
       {
         "statement": "Complete glazing behind the auditorium stage does not make much sense.",
         "tags": [
           "facade",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "glazing behind auditorium stage",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5148,
+            0.0492,
+            0.5556
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Stage glazing is assigned to the south-facing facade, though the auditorium is not externally identifiable."
+        }
       },
       {
         "statement": "The escape balcony reinforces the impression that more than one escape staircase is necessary.",
@@ -115,7 +363,25 @@
           "fire safety",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "escape balcony",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8453,
+            0.4941,
+            0.6111
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "north"
+          ],
+          "rationale": "The balcony is approximated on the exposed upper facade at second-story height."
+        }
       }
     ],
     "keyword": [

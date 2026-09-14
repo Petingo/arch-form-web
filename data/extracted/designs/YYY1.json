@@ -18,7 +18,28 @@
           "massing",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "axial volumetric composition",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6932,
+            0.5066,
+            0.5
+          ],
+          "radius": 0.3,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Four rectangular volumes visibly organize around a strong central axis and open garden."
+        }
       },
       {
         "statement": "The dimensions allow the children's life center to be skillfully positioned between the road and the bottom of the slope.",
@@ -26,7 +47,25 @@
           "urban integration",
           "scale",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "children's life center between road and slope",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4952,
+            0.1622,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The pavilion occupies a broad single-storey footprint between the southern approach and northern slope side."
+        }
       },
       {
         "statement": "The private and protected central garden unifies the house and avoids restrictive fencing around the surrounding spaces.",
@@ -34,7 +73,24 @@
           "open space",
           "landscape",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "private and protected central garden",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6932,
+            0.5066,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A clear central void is enclosed by four touching rectangular volumes."
+        }
       },
       {
         "statement": "The four volumes generate a generous garden space at the center.",
@@ -42,7 +98,24 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "generous garden space at the center",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6932,
+            0.5254,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central garden is visibly the largest open area within the pavilion composition."
+        }
       },
       {
         "statement": "The touching roofs cleverly form a single object while preserving permeability.",
@@ -50,7 +123,28 @@
           "massing",
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "touching roofs forming a single object",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3341,
+            0.5049,
+            1
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Roof outlines visibly touch between the four volumes while leaving the center permeable."
+        }
       },
       {
         "statement": "The distribution choices are logical and integrate the parameters and uses of the site.",
@@ -58,28 +152,100 @@
           "layout",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "distribution of site uses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4734,
+            0.1622,
+            0.1667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Separated pavilion sectors visibly distribute functions around the central garden."
+        }
       },
       {
         "statement": "The daring approach ensures short and undivided routes.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "short and undivided routes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6932,
+            0.5066,
+            0.1667
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The central garden-facing arrangement suggests compact routes between the four volumes."
+        }
       },
       {
         "statement": "Centralized entrances open directly onto changing rooms and make distribution very easy.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "centralized entrances and changing rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5171,
+            0.1622,
+            0.1667
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Likely entry and changing-room distribution is anchored at the southern central approach."
+        }
       },
       {
         "statement": "The project is credible and constructively realistic, with provision for a possible second floor.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "possible second floor",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3341,
+            0.5237,
+            1
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The sampled model is single-storey, so future vertical expansion is only level-constrained."
+        }
       },
       {
         "statement": "The project has great coherence in location, organization and identity in relation to the world of childhood.",
@@ -87,21 +253,78 @@
           "urban integration",
           "layout",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "coherence in location, organization and identity",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6932,
+            0.5254,
+            0.5
+          ],
+          "radius": 0.348,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete four-volume composition provides the spatial anchor for this overall judgment."
+        }
       },
       {
         "statement": "The rational and efficient timber structure provides economy and low spans for gravity loads.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "rational timber structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3068,
+            0.5468,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Structure is not individually visible; a representative western volume surface provides an anchor."
+        }
       },
       {
         "statement": "The symmetrical vertical supporting systems provide excellent dynamic behavior during an earthquake.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "symmetrical vertical supporting systems",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6932,
+            0.4877,
+            0.5
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Supporting systems are not distinguishable, so the eastern volume supplies a constrained anchor."
+        }
       },
       {
         "statement": "The single-level construction is relevant for poor soil and may save deep foundations.",
@@ -109,27 +332,94 @@
           "structure",
           "topography",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "single-level construction",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3068,
+            0.2263,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "All visible volumes are compact and single-storey, with floor-level geometry clearly represented."
+        }
       },
       {
         "statement": "The proposed extension offers great flexibility for future needs.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "proposed extension",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6932,
+            0.5443,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "No extension is visible; the eastern perimeter is a plausible future-growth surface."
+        }
       },
       {
         "statement": "The materials support durability, sustainable development and savings in gray energy.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "materials and sustainable development",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3068,
+            0.3017,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "Material performance is not visually identifiable; a representative exterior volume is assigned."
+        }
       },
       {
         "statement": "Fire quality assurance aspects are well resolved.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "fire quality assurance",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Fire compliance is an operational judgment without a distinct exterior geometric marker."
+        }
       }
     ],
     "negative": [],

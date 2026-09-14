@@ -19,14 +19,51 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "simple building figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3922,
+            0.552,
+            0.4091
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Simple elongated mass is clearly corroborated across the rectangular top and elevations."
+        }
       },
       {
         "statement": "The arrangement creates the greatest possible open space between the neighboring buildings and the new building.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "open space between buildings",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.5673,
+            0.0455
+          ],
+          "radius": 0.300000000000004,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Setback-related open space is anchored along the building’s long lateral edge."
+        }
       },
       {
         "statement": "The passage, courtyard and sports-hall arrangement produces a strong openness toward the urban space.",
@@ -34,7 +71,26 @@
           "urban integration",
           "open space",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "passage, courtyard and sports halls",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3922,
+            0.552,
+            0.2273
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central opening-like top pattern and end masses support a constrained courtyard and passage anchor."
+        }
       },
       {
         "statement": "The courtyard is well integrated into the neighborhood and supports dual use by the school and public.",
@@ -42,21 +98,78 @@
           "urban integration",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3922,
+            0.552,
+            0.3182
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central void/open zone is visible between the elongated building’s longitudinal masses."
+        }
       },
       {
         "statement": "The clear building structure and construction with supports and panels create a high level of flexibility.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "supports and panels",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0,
+            0.5539,
+            0.5455
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular vertical and horizontal structural rhythm is visible throughout the facade elevations."
+        }
       },
       {
         "statement": "The suspended platform creates spatial richness and sequences that merge without corridors.",
         "tags": [
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "suspended platform",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3922,
+            0.552,
+            0.3636
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Elevations clearly show upper massing suspended above the open lower base."
+        }
       },
       {
         "statement": "The large terrace connects to the courtyard and adds an unusual spatial opportunity.",
@@ -64,7 +177,26 @@
           "layout",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "large terrace",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4888,
+            0.8636
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper open platform is approximated beside the central courtyard-facing portion."
+        }
       },
       {
         "statement": "The covered access areas and courtyard-side lounge are attractive and work well in school operations.",
@@ -72,7 +204,25 @@
           "circulation",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "covered access areas and courtyard-side lounge",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3922,
+            0.2006,
+            0.2273
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level edge adjacent to the central opening provides a plausible covered-access anchor."
+        }
       },
       {
         "statement": "The teaching floors are well lit, clear and furnished with well-proportioned classrooms.",
@@ -80,7 +230,26 @@
           "daylight",
           "layout",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "teaching floors and classrooms",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3922,
+            0.4349,
+            0.4091
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Repeated upper-level bands are clearly visible, though individual classrooms are not isolated."
+        }
       },
       {
         "statement": "The special classrooms are prominently arranged and positively enliven the street space.",
@@ -88,28 +257,103 @@
           "visibility",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "special classrooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1901,
+            0,
+            0.6818
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Street-facing outer edge is constrained from the stated placement, without identifiable classroom markers."
+        }
       },
       {
         "statement": "The spatial program is implemented efficiently.",
         "tags": [
           "functionality",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "spatial program",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6078,
+            0.448,
+            0.4091
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Overall modular building organization is visible, while program efficiency itself is non-geometric."
+        }
       },
       {
         "statement": "Daylight use is good and the ventilation principle is conceptually sensible.",
         "tags": [
           "daylight",
           "ventilation"
-        ]
+        ],
+        "position": {
+          "target": "daylight use and ventilation principle",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6078,
+            0.448,
+            0.3636
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north",
+            "top"
+          ],
+          "rationale": "Upper envelope and open courtyard provide approximate anchors for daylight and ventilation strategies."
+        }
       },
       {
         "statement": "The separated usage units enable a solid structural fire-protection concept.",
         "tags": [
           "fire safety",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "separated usage units",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.4888,
+            0.6364
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Modular upper massing suggests separated units, but fire compartments are not directly visible."
+        }
       },
       {
         "statement": "The diverse entrances and exits support an open and communicative institution.",
@@ -117,7 +361,26 @@
           "circulation",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "diverse entrances and exits",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3922,
+            0.0835,
+            0.1818
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-level perimeter near the passage provides a plausible entrance anchor."
+        }
       }
     ],
     "negative": [
@@ -126,28 +389,102 @@
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sanitary and service spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6078,
+            0.448,
+            0.3182
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior service spaces are not visible; a constrained anchor is placed within the lower building zone."
+        }
       },
       {
         "statement": "The structural concept has weaknesses because some facade supports are not directly supported by the framework.",
         "tags": [
           "structure",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "facade supports",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1901,
+            0,
+            0.5455
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "External supports are visibly repeated along the facade, though load-path defects are not geometrically testable."
+        }
       },
       {
         "statement": "The rigid ceiling-to-facade connections are not convincing because of temperature deformation and thermal requirements.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "ceiling-to-facade connections",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7332,
+            0,
+            0.7273
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Upper facade junction provides a constrained anchor for the stated connection concern."
+        }
       },
       {
         "statement": "The earthquake bracing still needs to be checked in the longitudinal direction.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "longitudinal earthquake bracing",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3922,
+            0.6691,
+            0.4091
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Longitudinal structural system follows the elongated building, but bracing is not individually visible."
+        }
       },
       {
         "statement": "The high gray energy per square meter results from the lack of compactness and complex supporting concept.",
@@ -155,7 +492,18 @@
           "sustainability",
           "massing",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "high gray energy per square meter",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.05,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Embodied-energy performance is a whole-building judgment without a useful single spatial marker."
+        }
       },
       {
         "statement": "The external supporting facade is cost-intensive and challenging in terms of building physics.",
@@ -163,7 +511,26 @@
           "facade",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "external supporting facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.353,
+            0,
+            0.5455
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "External supporting facade is visible as the repeated perimeter structure along the elevations."
+        }
       },
       {
         "statement": "The facade has not yet been mastered structurally and physically.",
@@ -171,7 +538,25 @@
           "facade",
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade structural and physical performance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6517,
+            0,
+            0.6364
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Long facade surfaces are directly visible, while structural and physical mastery is evaluative."
+        }
       },
       {
         "statement": "The above-average envelope and window proportions increase the technical and economic demands.",
@@ -179,7 +564,26 @@
           "facade",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "envelope and window proportions",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7875,
+            0,
+            0.6818
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Facade proportions are visible across the long elevations, including repeated window and support rhythms."
+        }
       }
     ],
     "keyword": [

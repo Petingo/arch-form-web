@@ -17,35 +17,123 @@
         "tags": [
           "urban integration",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "existing architecture",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7768,
+            0.6028,
+            0.5714
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Minimal intervention is attributed to the dominant new volume relative to the existing complex."
+        }
       },
       {
         "statement": "The cluster concept for four classes is exciting and pedagogically promising.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "cluster for four classes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8016,
+            0.5699,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The teaching cluster is approximated within the main central building zone."
+        }
       },
       {
         "statement": "The interior architectural attitude is self-confident and easy to imagine.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "interior architectural attitude",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7892,
+            0.5864,
+            0.5714
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior character is anchored within the main visible building volume."
+        }
       },
       {
         "statement": "The transparent, bright room concept promises a friendly learning atmosphere.",
         "tags": [
           "daylight",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "transparent, bright room concept",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7644,
+            0.6193,
+            0.5714
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Bright learning rooms are approximated in the elevated central volume."
+        }
       },
       {
         "statement": "The low intervention in the existing buildings helps relieve the gray-energy balance.",
         "tags": [
           "sustainability",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "gray-energy balance",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Pure sustainability judgment without a useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -55,7 +143,28 @@
           "scale",
           "massing",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "three-story volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7768,
+            0.6028,
+            0.7143
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The dominant tall building mass is clearly visible and obscures adjacent lower elements."
+        }
       },
       {
         "statement": "The building weakens the clarity of the existing architecture through difficult-to-assign facade language.",
@@ -63,7 +172,25 @@
           "facade",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "facade language",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7458,
+            0.0922,
+            0.5714
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Facade criticism is anchored to the clearly rendered south-facing building envelope."
+        }
       },
       {
         "statement": "The new organization breaks the neighborhood opening and reduces the quality of the living space.",
@@ -71,7 +198,24 @@
           "urban integration",
           "open space",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "neighborhood opening and living space",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3226,
+            0.5265,
+            0.2073
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Reduced openness is assigned to the open area beside the dominant volume."
+        }
       },
       {
         "statement": "The courtyard interpretation is considered incorrect and the outside space appears listless.",
@@ -79,7 +223,26 @@
           "landscape",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "courtyard and outside space",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4525,
+            0.481,
+            0.2143
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The courtyard relationship is approximated in the low central open-space zone."
+        }
       },
       {
         "statement": "The basic level lacks a direct connection to the ground floor and outside space.",
@@ -87,14 +250,49 @@
           "layout",
           "functionality",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "basic level connection",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5097,
+            0.4052,
+            0.0714
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Ground-level access is constrained to the building base and adjacent exterior."
+        }
       },
       {
         "statement": "The distribution of students between the two buildings is unequal.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "distribution of students between the two buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4852,
+            0.4377,
+            0.5
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Distribution concerns are assigned broadly across the visible building relationship."
+        }
       },
       {
         "statement": "The large volume and complex statics make the project expensive.",
@@ -102,7 +300,26 @@
           "massing",
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large volume and complex statics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7768,
+            0.6028,
+            0.6429
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Cost criticism is tied to the visibly large, vertically layered building mass."
+        }
       }
     ],
     "keyword": [

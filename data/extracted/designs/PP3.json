@@ -17,14 +17,52 @@
           "massing",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "cut-outs and broken-line roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6615,
+            0.7049,
+            1
+          ],
+          "radius": 0.09,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Distinct roof breaks and footprint cut-outs are clearly visible in the upper-right mass."
+        }
       },
       {
         "statement": "The typological proposal is interesting, with classrooms arranged around an elongated central hall.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "elongated central hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5246,
+            0.3644,
+            0.4284
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior hall is approximated beneath the elongated central spine visible in the surrounding envelope."
+        }
       },
       {
         "statement": "The first-stage plan permits economical expansion by two or four classrooms without changing the basic typological principle or sloping roof.",
@@ -32,14 +70,54 @@
           "flexibility",
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "classroom expansion zones",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7386,
+            0.4268,
+            0.5236
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Expansion is assigned to the elongated classroom-bearing volume, with the east side offering a plausible extension zone."
+        }
       },
       {
         "statement": "The prefabricated construction is economical and quick, and the materiality is convincing.",
         "tags": [
           "cost",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "prefabricated material envelope",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5551,
+            0.3733,
+            0.4284
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Material and construction claims are anchored to the complete sampled building envelope."
+        }
       }
     ],
     "negative": [
@@ -49,7 +127,25 @@
           "urban integration",
           "circulation",
           "orientation"
-        ]
+        ],
+        "position": {
+          "target": "village-side entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1683,
+            0.5488,
+            0.0949
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The west edge represents the village-facing approach and likely entrance location."
+        }
       },
       {
         "statement": "The exterior fittings are lacking in quality, with narrow access from the village and an injudicious location of vehicles beside and within the playground.",
@@ -57,7 +153,25 @@
           "open space",
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "village access and playground vehicles",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1299,
+            0.3434,
+            0.0473
+          ],
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "West-side ground clearance approximates village access, playground, and vehicle conflict areas."
+        }
       },
       {
         "statement": "The hall remains the same size from one expansion stage to the next, which limits the typological proposal.",
@@ -65,7 +179,26 @@
           "flexibility",
           "layout",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "central hall expansion limit",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.494,
+            0.3555,
+            0.4284
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The hall is placed along the central elongated spine, though its interior boundary is not sampled."
+        }
       },
       {
         "statement": "The desired big-house appearance seems incompatible with the character of a representative building.",
@@ -73,7 +206,26 @@
           "expression",
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "big-house appearance",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6774,
+            0.409,
+            0.5236
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The identity judgment applies broadly to the asymmetric low-rise massing."
+        }
       },
       {
         "statement": "The exceptional west facade does not correspond to the floor plan, and the positioning of the windows lacks precision.",
@@ -81,14 +233,53 @@
           "facade",
           "layout",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "west facade and windows",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0344,
+            0.5098,
+            0.5236
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The west boundary of the irregular footprint provides the facade anchor."
+        }
       },
       {
         "statement": "The project is above average economically, with substantially more surface area and volume.",
         "tags": [
           "cost",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole building surface area",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.493,
+            0.6434,
+            0.5236
+          ],
+          "radius": 0.303,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Cost criticism references the overall sampled volume and envelope rather than one local feature."
+        }
       }
     ],
     "keyword": [

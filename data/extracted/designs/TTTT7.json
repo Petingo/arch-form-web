@@ -17,14 +17,51 @@
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "bridge and centrally located entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5895,
+            0.5038,
+            0.3333
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central connector zone between masses is anchored as the bridge and entrance sequence."
+        }
       },
       {
         "statement": "The spacious arcade forms a strong address for the school.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "spacious arcade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4895,
+            0.1265,
+            0.3333
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The river-facing front edge is the most plausible address and arcade location."
+        }
       },
       {
         "statement": "The inner courtyards create a rich inner world contrasting with the immission-rich street side.",
@@ -32,14 +69,52 @@
           "layout",
           "open space",
           "acoustics"
-        ]
+        ],
+        "position": {
+          "target": "inner courtyards",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5895,
+            0.5038,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Multiple open internal point clusters visibly organize the large rectangular volume."
+        }
       },
       {
         "statement": "The interior streets provide communication and meeting zones.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "interior streets",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5827,
+            0.4779,
+            0.4167
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central circulation bands are approximated between the visible courtyard zones."
+        }
       },
       {
         "statement": "Transparency, visual references, and views serve orientation and create a high atmospheric density.",
@@ -47,14 +122,53 @@
           "visibility",
           "circulation",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "transparency and views",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4827,
+            0.1007,
+            0.5833
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "The river-facing envelope provides the clearest directional anchor for visual connections."
+        }
       },
       {
         "statement": "The project provides a convincing, coherent answer and rigorously solves all essential aspects.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "coherent project",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.684,
+            0.5669,
+            0.5833
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The continuous rectangular building and courtyard system visibly support a unified architectural answer."
+        }
       }
     ],
     "negative": [
@@ -63,27 +177,99 @@
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "roundabout and underground car-park access",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7664,
+            0.8776,
+            0.0833
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Access is not identifiable; the street-side north-east perimeter provides a constrained approximation."
+        }
       },
       {
         "statement": "The transparency and resulting opportunities for insight must be questioned.",
         "tags": [
           "visibility",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "transparency and insight",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4827,
+            0.1007,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "The front-facing envelope is used for the privacy concern associated with excessive transparency."
+        }
       },
       {
         "statement": "The limited direct lighting options in the middle rooms must be questioned.",
         "tags": [
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "middle rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5964,
+            0.5296,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Middle interior rooms are not directly visible and are approximated within the courtyard-based plan."
+        }
       },
       {
         "statement": "The street side has only a planted strip with no clear connection to the neighbourhood.",
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "street-side planted strip",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.479,
+            0.9908,
+            0
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "The street-side northern perimeter represents the limited planted connection to the neighborhood."
+        }
       }
     ],
     "keyword": [

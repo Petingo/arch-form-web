@@ -17,14 +17,52 @@
           "layout",
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "first two levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4542,
+            0.4561,
+            0.3667
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Lower levels are constrained by the dense lower elevation rows and the compact plan."
+        }
       },
       {
         "statement": "The staggered alternation of the four patios provides nice spatial variety.",
         "tags": [
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "four patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4542,
+            0.4561,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Several internal patio voids are visibly punctuated across the compact rectangular footprint."
+        }
       },
       {
         "statement": "The corridors benefit from quality lighting and visual clearances.",
@@ -32,14 +70,53 @@
           "daylight",
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3014,
+            0.4561,
+            0.5667
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "Corridors are inferred along the perimeter and patio edges; lighting quality is not directly readable."
+        }
       },
       {
         "statement": "The structure is simple and rational.",
         "tags": [
           "structure",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4542,
+            0.4561,
+            0.5333
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "Regularly repeated points and a compact envelope support a simple rational structural reading."
+        }
       }
     ],
     "negative": [
@@ -48,7 +125,25 @@
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0,
+            0.5229,
+            0.2333
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The entrance is not identifiable, but the western facade is the constrained location for the stated orientation."
+        }
       },
       {
         "statement": "The staging of the gymnasiums on two gallery levels seems excessive for their primary purpose.",
@@ -56,7 +151,25 @@
           "layout",
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "gymnasiums on two gallery levels",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7831,
+            0.3046,
+            0.7
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Gymnasium galleries are internal and indistinct; the eastern upper volume provides an approximate anchor."
+        }
       },
       {
         "statement": "Independent access to the sports halls lacks quality and has small dimensions.",
@@ -64,7 +177,24 @@
           "circulation",
           "accessibility",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "independent access to the sports halls",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8926,
+            0.539,
+            0.1
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "east"
+          ],
+          "rationale": "Sports access is not separable in the sample, so it is approximated on the lower eastern facade."
+        }
       },
       {
         "statement": "Arranging classes on four levels is not optimal and reaches the limit of the required comfort.",
@@ -72,7 +202,26 @@
           "layout",
           "functionality",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "classes on four levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4382,
+            0.6956,
+            0.6333
+          ],
+          "radius": 0.23,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "west"
+          ],
+          "rationale": "The full-height compact envelope visibly supports multiple levels, while classroom locations remain internal."
+        }
       },
       {
         "statement": "The large glazing of the aula and gymnasiums struggles to convince in its use and architectural integration.",
@@ -80,7 +229,25 @@
           "facade",
           "expression",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "large glazing of the aula and gymnasiums",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.519,
+            0.5667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Glazing is not distinguishable from sampled points; the eastern facade is a directional approximation."
+        }
       },
       {
         "statement": "The vast esplanade does not interact sufficiently with the main course, leaving the two spaces juxtaposed.",
@@ -88,7 +255,24 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "vast esplanade",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.987,
+            0.472,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open esplanade is outside the sampled building surface, anchored immediately east of the compact volume."
+        }
       }
     ],
     "keyword": [

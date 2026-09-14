@@ -17,7 +17,28 @@
           "urban integration",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "program organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3363,
+            0.6437,
+            0.4375
+          ],
+          "radius": 0.301,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Broad articulated footprint and offset wings provide the visible anchor for organized program distribution."
+        }
       },
       {
         "statement": "The ground floor creates great permeability between the school and the park.",
@@ -25,7 +46,28 @@
           "urban integration",
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "permeable ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4547,
+            0.3504,
+            0.0625
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Raised lower level and open central passages visibly connect the school footprint with surrounding open space."
+        }
       },
       {
         "statement": "The central void provides a reference space for student orientation and offers work and relaxation spaces.",
@@ -33,7 +75,28 @@
           "layout",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "central void",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.506,
+            0.3834,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central opening is clearly legible in plan and elevations, surrounded by the four offset arms."
+        }
       },
       {
         "statement": "The building's expression gives it an adequate institutional character.",
@@ -41,7 +104,26 @@
           "expression",
           "identity",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "institutional facade expression",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.789,
+            0.2255,
+            0.5625
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A representative outer wing surface anchors the building-wide institutional expression judgment."
+        }
       }
     ],
     "negative": [
@@ -50,14 +132,52 @@
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "side entrance to double-height aula",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.195,
+            0.486,
+            0.3125
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The side-edge access is estimated on an outer wing where an entrance could connect to the taller volume."
+        }
       },
       {
         "statement": "The proposed classroom height raises questions about natural light in the depth of the plan.",
         "tags": [
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "classroom depth and height",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7454,
+            0.7337,
+            0.625
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "Interior classrooms are not identifiable; the point marks a deeper upper-level plan region."
+        }
       },
       {
         "statement": "The facade principle should have been more modulated for double-height spaces such as the gymnasiums.",
@@ -65,7 +185,26 @@
           "facade",
           "proportion",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "double-height gymnasium facade modulation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8354,
+            0.5744,
+            0.375
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "An outer lower-to-mid facade region represents the unmodulated gymnasium envelope concern."
+        }
       },
       {
         "statement": "Sharing the ground floor between the public park and the school raises questions about the future institution's functioning outside class periods.",
@@ -73,7 +212,26 @@
           "operation",
           "urban integration",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "shared ground floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2831,
+            0.486,
+            0.0625
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The raised ground-floor perimeter provides a constrained anchor for shared park-school operation."
+        }
       }
     ],
     "keyword": [

@@ -17,7 +17,27 @@
           "identity",
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "new address",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8438,
+            0.6914,
+            0.5417
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Independent compact mass is clearly visible as a distinct footprint and stacked volume."
+        }
       },
       {
         "statement": "The placement restructures the outdoor spaces in a differentiated manner, creating three spacious and clearly defined areas.",
@@ -25,28 +45,100 @@
           "open space",
           "landscape",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "three defined outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1874,
+            0.2729,
+            0.0417
+          ],
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Outdoor divisions are inferred around the footprint, with lower-level areas anchored near the perimeter."
+        }
       },
       {
         "statement": "The tree population is preserved and harmoniously complemented, maintaining the image of a flowing landscape.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "flowing landscape",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1431,
+            0.8001,
+            0.0417
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape and trees are not separately identifiable, so the estimate uses an outer site edge."
+        }
       },
       {
         "statement": "The clear western orientation of the group rooms creates good lighting situations.",
         "tags": [
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "western group rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0625,
+            0.5458,
+            0.4792
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "Western orientation constrains the anchor to the left side of the sampled footprint."
+        }
       },
       {
         "statement": "The floor-by-floor organization successfully creates three clear functional units.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "floor-by-floor functional units",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6897,
+            0.1802,
+            0.625
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Regular stacked elevations provide visible evidence for the repeated vertical organization."
+        }
       },
       {
         "statement": "The compact four-story building is expected to be resource-efficient to construct.",
@@ -54,7 +146,27 @@
           "massing",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "four-story building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6686,
+            0.5627,
+            0.9792
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact footprint and four-level elevation stack are clearly visible."
+        }
       }
     ],
     "negative": [
@@ -63,35 +175,125 @@
         "tags": [
           "circulation",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "external stairs",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2499,
+            0.1364,
+            0.2708
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "An exterior circulation element is approximated at the lower perimeter."
+        }
       },
       {
         "statement": "The selected layout prevents the movement spaces from being collapsed.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "movement spaces",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6897,
+            0.1802,
+            0.4583
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Circulation is interior and indistinguishable; a central lower-level surface anchor is used."
+        }
       },
       {
         "statement": "The themed rooms cannot operationally replace the desired collapsibility.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "themed rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8438,
+            0.6914,
+            0.5625
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Named rooms are not visible; the estimate occupies a plausible mid-building surface location."
+        }
       },
       {
         "statement": "The exposed-concrete construction principle raises questions about the insulation perimeter.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "insulation perimeter",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0937,
+            0.4776,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The envelope concern is anchored to the exposed outer facade surface."
+        }
       },
       {
         "statement": "The proposal leaves questions about accessibility and functionality.",
         "tags": [
           "accessibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "accessibility and functionality",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2186,
+            0.2047,
+            0.1875
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Access is not explicit in the sample; a ground-level perimeter location is estimated."
+        }
       }
     ],
     "keyword": [

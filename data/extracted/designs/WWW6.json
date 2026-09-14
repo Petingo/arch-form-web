@@ -18,7 +18,27 @@
           "urban integration",
           "massing",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "whole monolith",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5034,
+            0.5041,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Elongated rectangular monolith is clearly visible across the footprint and elevations."
+        }
       },
       {
         "statement": "The patios and passageways create an inward-looking but identifiable school environment.",
@@ -26,7 +46,24 @@
           "identity",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "patios and passageways",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4923,
+            0.4939,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Two inset patio voids and connecting passage cuts are clearly identifiable in the top view."
+        }
       },
       {
         "statement": "The arrangement preserves tree heritage and creates dialogue between street trees and the elongated facade.",
@@ -34,7 +71,25 @@
           "landscape",
           "urban integration",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "elongated facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5046,
+            0.1775,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The long building edge is identifiable in plan and repeated horizontally in elevation."
+        }
       },
       {
         "statement": "Public functions on the ground floor have good visibility and generous spaces.",
@@ -42,7 +97,25 @@
           "visibility",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor public functions",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8434,
+            0.146,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level public areas are assigned to the accessible lower perimeter near the main footprint."
+        }
       },
       {
         "statement": "The patios provide diversified overhead light and protect rooms and corridors from road noise.",
@@ -50,14 +123,48 @@
           "daylight",
           "acoustics",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "patios",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4065,
+            0.52,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Patio openings are directly visible as internal voids, supporting light and acoustic separation."
+        }
       },
       {
         "statement": "The location away from main roads supports protection from traffic nuisances.",
         "tags": [
           "acoustics",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "building away from main roads",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4825,
+            0.8333,
+            0.1667
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The comment is site-wide; the marker is distributed along the rear building edge."
+        }
       },
       {
         "statement": "The project integrates biodiversity, permeable exteriors, a wooden structure, and prefabricated modules.",
@@ -65,7 +172,24 @@
           "sustainability",
           "landscape",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "permeable exteriors and planted patios",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3528,
+            0.5755,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape and permeability are approximated around the visible patio and perimeter zones."
+        }
       },
       {
         "statement": "The upper-floor circulation efficiently distributes the curriculum and provides cross-views.",
@@ -73,7 +197,26 @@
           "circulation",
           "layout",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor circulation",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6496,
+            0.4195,
+            0.6667
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Upper circulation is assigned along the elongated upper building bands visible in plan and elevations."
+        }
       },
       {
         "statement": "All rooms can benefit from natural ventilation and the plan allows some partitioning scalability.",
@@ -81,7 +224,25 @@
           "ventilation",
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "rooms and plan partitions",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6162,
+            0.389,
+            0.5
+          ],
+          "radius": 0.32026,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior ventilation and flexibility are approximated within the central building mass and patio edges."
+        }
       },
       {
         "statement": "The constructive approach and energy operation are effective.",
@@ -89,7 +250,18 @@
           "structure",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "constructive approach and energy operation",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This evaluates construction and operation globally without a useful spatial referent."
+        }
       }
     ],
     "negative": [
@@ -99,7 +271,25 @@
           "circulation",
           "daylight",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "long poorly lit corridors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6356,
+            0.2834,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Long narrow circulation bands are inferred along the monolith’s elongated depth."
+        }
       },
       {
         "statement": "Vertical distributions are not scaled to the number of users.",
@@ -107,7 +297,26 @@
           "circulation",
           "scale",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "vertical distributions",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5145,
+            0.5142,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Vertical access is assigned centrally across the stacked elevation levels."
+        }
       },
       {
         "statement": "Some ground-floor premises are interlocked, blind, or too compressed.",
@@ -115,21 +324,74 @@
           "layout",
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "compressed ground-floor premises",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3207,
+            0.3674,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Ground-level enclosed areas are approximated beside the visible perimeter and patio cuts."
+        }
       },
       {
         "statement": "The open-space organization of teaching and assistant premises is not possible.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "teaching and assistant premises",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7025,
+            0.6061,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space teaching organization is approximated in a ground-floor perimeter zone."
+        }
       },
       {
         "statement": "The secretariat lacks ventilation and direct natural light.",
         "tags": [
           "ventilation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "secretariat",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3417,
+            0.3458,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The unidentifiable room is placed on the constrained ground-floor outer edge."
+        }
       },
       {
         "statement": "Multimedia rooms need facade contact for light and ventilation and should be partitioned.",
@@ -137,7 +399,25 @@
           "daylight",
           "ventilation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "multimedia rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7967,
+            0.5088,
+            0.1667
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Rooms needing facade contact are approximated along the long exterior perimeter."
+        }
       },
       {
         "statement": "The sports equipment room should be located at the level of the triple hall.",
@@ -145,14 +425,48 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports equipment room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7234,
+            0.5845,
+            0
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The equipment room is placed near the lower-level outer edge as a constrained functional guess."
+        }
       },
       {
         "statement": "The running track in front of the main facade is not possible.",
         "tags": [
           "layout",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "running track",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.557,
+            0.1234,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The track is approximated in front of the long principal facade."
+        }
       },
       {
         "statement": "Parking is poorly located for access to public facilities.",
@@ -160,7 +474,24 @@
           "circulation",
           "accessibility",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "parking area",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3521,
+            0.335,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking access is assigned to the outer site edge nearest the presumed public approach."
+        }
       },
       {
         "statement": "The energy concept is incomplete and solar protection requires further detail.",
@@ -168,14 +499,49 @@
           "sustainability",
           "facade",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "solar protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7299,
+            0.186,
+            0.8333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Solar protection is located along the exposed long facade and upper levels."
+        }
       },
       {
         "statement": "The passageways do not sufficiently prevent summer overheating.",
         "tags": [
           "sustainability",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "passageways",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4811,
+            0.4837,
+            0.5
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Passageways are visible as narrow transitions around the patio voids."
+        }
       },
       {
         "statement": "The optimization leaves too little room for landscape escapes, adaptations, and informal spaces.",
@@ -183,7 +549,24 @@
           "open space",
           "flexibility",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "landscape escapes and informal spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0764,
+            0.6479,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Residual landscape space is approximated along the outer perimeter beyond the compact footprint."
+        }
       },
       {
         "statement": "The repeated doors over a very long length create a monotonous experience.",
@@ -191,7 +574,25 @@
           "expression",
           "proportion",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "repeated doors",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7742,
+            0.2197,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Monotony is assigned to the long repetitive facade band visible in elevation."
+        }
       },
       {
         "statement": "The monotypical upper floors are difficult to manage in crises and do not sufficiently encourage sociability.",
@@ -199,7 +600,26 @@
           "flexibility",
           "safety",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5368,
+            0.5346,
+            0.8333
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Repeated upper levels form broad stacked bands across the elevations."
+        }
       },
       {
         "statement": "The ground floor does not reveal the building's depth and complexity through the patios.",
@@ -207,7 +627,25 @@
           "layout",
           "visibility",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "ground floor and patios",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5063,
+            0.5068,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The ground-floor relationship to patio voids is directly readable in plan and lower elevations."
+        }
       }
     ],
     "keyword": [

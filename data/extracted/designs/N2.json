@@ -18,14 +18,54 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "differentiated volumetrics",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5347,
+            0.7596,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Offset pavilion masses are clearly visible across the top and elevation projections."
+        }
       },
       {
         "statement": "The geometry creates varied opportunities to play and spend time in the outdoor spaces.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "outdoor play spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2044,
+            0.3067,
+            0.0333
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Peripheral gaps around the offset volumes indicate distributed outdoor play areas."
+        }
       },
       {
         "statement": "The basic levels are functionally well solved, with flexible spaces and useful cloakroom-playroom relationships.",
@@ -33,14 +73,50 @@
           "functionality",
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "basic levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7842,
+            0.5462,
+            0.4667
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Interior level organization is not exposed, so the marker uses a plausible mid-building surface location."
+        }
       },
       {
         "statement": "The reserve multi-purpose room can be used for extracurricular district events and as a reserve classroom.",
         "tags": [
           "flexibility",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "reserve multi-purpose room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7773,
+            0.4579,
+            0.4667
+          ],
+          "radius": 0.13,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The reserve room is not distinguishable; placement is constrained to an end pavilion zone."
+        }
       },
       {
         "statement": "The project impresses with subtle urban development and good operational use of the school.",
@@ -48,7 +124,26 @@
           "urban integration",
           "operation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "school operation",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5347,
+            0.7596,
+            0.4333
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Operational assessment applies broadly, anchored to the central sampled building mass."
+        }
       }
     ],
     "negative": [
@@ -57,21 +152,74 @@
         "tags": [
           "massing",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "large footprint and narrow peripheral areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2538,
+            0.2415,
+            0.0333
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The elongated footprints visibly consume much of the site, leaving narrow edge strips."
+        }
       },
       {
         "statement": "The clearly separated basic levels make collaboration between classes on the same floor difficult.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "separated basic levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.786,
+            0.5462,
+            0.5333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Class separation is interior; the marker is constrained to an upper-middle pavilion level."
+        }
       },
       {
         "statement": "The toilets in the eastern part of the building are too far from the basic level.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "eastern toilets",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8994,
+            0.5462,
+            0.4333
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The eastern-part constraint places the unseen toilets near the east end of the sampled mass."
+        }
       },
       {
         "statement": "The facade is not sufficiently geared toward school use and the pavilion-like expression conflicts with the situation and use.",
@@ -79,21 +227,74 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "school-use facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7568,
+            0.0893,
+            0.5667
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "The pavilion-like exterior and elongated glazed edges are visible on the south-facing perimeter."
+        }
       },
       {
         "statement": "The extensive glazing requires glare protection that restricts the optimal use of daylight.",
         "tags": [
           "facade",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "extensive glazing",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6005,
+            0.0522,
+            0.5667
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "south"
+          ],
+          "rationale": "Glazing performance is assigned to the exposed south facade where daylight enters."
+        }
       },
       {
         "statement": "Integral elements in the interaction between architecture and technology are missing.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "architecture-technology integration",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5347,
+            0.7596,
+            0.5333
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The missing integration is conceptual, anchored to the central building envelope."
+        }
       },
       {
         "statement": "The project has poor economic efficiency because of its large outer surface and complex construction.",
@@ -101,7 +302,18 @@
           "cost",
           "massing",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "construction and outer-surface cost",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic efficiency is a whole-project judgment without a specific spatial referent."
+        }
       }
     ],
     "keyword": [

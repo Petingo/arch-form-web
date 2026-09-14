@@ -18,14 +18,52 @@
           "circulation",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "landscaped entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5971,
+            0.2485,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The offset cluster visibly leaves an open approach zone between the main footprints."
+        }
       },
       {
         "statement": "The single-story terraced-house type is advantageous for this task.",
         "tags": [
           "massing",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "single-story terraced-house type",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2407,
+            0.4022,
+            0.4
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Low terraced linear volumes are clearly visible in plan and remain near the lower elevation band."
+        }
       },
       {
         "statement": "Unbundling the classes into their own units and entrances solves important organizational problems.",
@@ -33,7 +71,26 @@
           "layout",
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "class units and entrances",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2537,
+            0.4055,
+            0.3
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The western elongated cluster visibly separates into repeated linear units."
+        }
       },
       {
         "statement": "The row of class units is harmonious and very functional.",
@@ -41,14 +98,50 @@
           "layout",
           "functionality",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "row of class units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2482,
+            0.4206,
+            0.3
+          ],
+          "radius": 0.22,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated parallel traces in the western volume clearly support the row placement."
+        }
       },
       {
         "statement": "The internal organization solves the teachers' safety aspect.",
         "tags": [
           "safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "teachers' safety organization",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2462,
+            0.3871,
+            0.4
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Safety relationships are interior and unresolved in the sample; the classroom cluster is the useful anchor."
+        }
       },
       {
         "statement": "The solution allows units to be combined, decoupled, or connected and promises great flexibility.",
@@ -56,7 +149,26 @@
           "flexibility",
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "flexible units",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2427,
+            0.4358,
+            0.3
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The modular repeated footprint supports an approximate flexibility anchor without showing connections directly."
+        }
       },
       {
         "statement": "The multi-purpose room is beautifully located facing the courtyard and has an attractive area facing the lake.",
@@ -64,7 +176,26 @@
           "layout",
           "open space",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7287,
+            0.7751,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The room is not identifiable; the northeastern volume facing the central court provides a plausible anchor."
+        }
       }
     ],
     "negative": [
@@ -74,14 +205,50 @@
           "scale",
           "proportion",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "spiral staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1825,
+            0.3964,
+            0.6
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The staircase is absent; an upper-level point above the western classroom cluster is constrained."
+        }
       },
       {
         "statement": "The office assigned to the multi-purpose room is placed at the wrong end of the building.",
         "tags": [
           "layout",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "multi-purpose room office",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.738,
+            0.7836,
+            0.3
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The office is not represented, so it is approximated at the far end of the northeastern volume."
+        }
       },
       {
         "statement": "The hall roof is irritating in relation to the existing building and reflects another scale error.",
@@ -89,7 +256,26 @@
           "scale",
           "expression",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "hall roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7451,
+            0.7996,
+            0.8
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The northeastern volume has a visibly distinct roof trace that supports this scale-related anchor."
+        }
       },
       {
         "statement": "The teachers' room is not in the immediate vicinity of the classrooms and the distances are too long.",
@@ -97,28 +283,96 @@
           "layout",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "teachers' room",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2592,
+            0.3903,
+            0.3
+          ],
+          "radius": 0.11,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The room is not visible; the classroom row provides the closest constrained organizational location."
+        }
       },
       {
         "statement": "The peripheral location of the economic building is not quite optimal and the route concept needs refinement.",
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "economic building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7335,
+            0.2188,
+            0.2
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The referenced peripheral building is not distinguishable; the southeastern detached footprint is an approximation."
+        }
       },
       {
         "statement": "The open-space project is presented very schematically and leaves many topics unaddressed.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "open-space project",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6527,
+            0.6846,
+            0.1
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space detail is absent, so the central interstitial landscape is used as a broad constrained marker."
+        }
       },
       {
         "statement": "The courtyard design does not meet the requirements of the hard-court surface.",
         "tags": [
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "courtyard hard-court surface",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6406,
+            0.694,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The courtyard void is visibly enclosed by the clustered volumes, though its surface treatment is not sampled."
+        }
       }
     ],
     "keyword": [

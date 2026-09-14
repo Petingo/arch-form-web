@@ -19,14 +19,52 @@
           "circulation",
           "daylight",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "expanded division corridors",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5478,
+            0.632,
+            0.7461
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Central comb corridors are approximated along the spine and upper branch circulation at elevated levels."
+        }
       },
       {
         "statement": "The surrounding wall is carefully treated to reduce its impact on the landscape and life within the establishment.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "surrounding wall",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0847,
+            0.1553,
+            0.4974
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "A perimeter-related landscape edge is approximated near the southwest access side of the site."
+        }
       },
       {
         "statement": "Differentiated walking courses support resocialization and contribute to the quality of integration in the environment.",
@@ -34,14 +72,52 @@
           "open space",
           "functionality",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "differentiated walking courses",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6413,
+            0.3347,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open circulation and walking space is estimated beside the comb’s eastern and southern edges."
+        }
       },
       {
         "statement": "The comb organization offers a good response to users and is intelligently developed with interesting elements.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "comb organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5798,
+            0.6541,
+            0.4974
+          ],
+          "radius": 0.303,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The deep spine and repeated parallel branches are clearly identifiable across the calibrated views."
+        }
       },
       {
         "statement": "Logistical circulation is resolved compactly, freeing maximum space for walks and sports fields.",
@@ -49,7 +125,24 @@
           "circulation",
           "open space",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "walks and sports fields",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6417,
+            0.3415,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Freed open space is estimated along the southeast side outside the main comb footprint."
+        }
       },
       {
         "statement": "The phasing is well thought out, with consistent traffic flows from the first phase and limited contact surfaces between phases.",
@@ -57,7 +150,28 @@
           "flexibility",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "traffic flows between phases",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4621,
+            0.5821,
+            0.4974
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Phasing circulation is anchored to the central spine connecting the repeated branch bars."
+        }
       }
     ],
     "negative": [
@@ -67,7 +181,28 @@
           "circulation",
           "layout",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "central body",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5406,
+            0.6333,
+            0.4974
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The long central spine and parallel branches visibly create a deep, layered mass."
+        }
       },
       {
         "statement": "The result is a monolithic complex whose form is poorly defined and whose scale is not fully consistent with the penitentiary centre.",
@@ -75,7 +210,28 @@
           "massing",
           "scale",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5638,
+            0.6431,
+            0.4974
+          ],
+          "radius": 0.35,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The complete comb footprint and repeated thin elevation bands support a monolithic-scale assessment."
+        }
       },
       {
         "statement": "The cells face one another and do not provide truly clear views of the landscape.",
@@ -83,28 +239,94 @@
           "visibility",
           "privacy",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "opposing cell views",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6248,
+            0.7186,
+            0.7461
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Opposing branch zones are approximated along the upper-central comb where facing rooms would occur."
+        }
       },
       {
         "statement": "The angled vertical sunshades strongly limit natural light entering the cells.",
         "tags": [
           "daylight",
           "facade"
-        ]
+        ],
+        "position": {
+          "target": "angled vertical sunshades",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6673,
+            0.8048,
+            0.7461
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The likely exposed branch facade is localized on the upper-right side, though shades are not distinct."
+        }
       },
       {
         "statement": "The proposed landscaping outside the walls does not really contribute to the quality of life of the establishment.",
         "tags": [
           "landscape",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "landscaping outside the walls",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6333,
+            0.3292,
+            0
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "External landscape is estimated in open ground beyond the southeast building edge."
+        }
       },
       {
         "statement": "The total surface area is much greater than the target, raising questions about the general economics of the project.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "total surface area",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.303,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an overall area and economics judgment without a single spatial referent."
+        }
       },
       {
         "statement": "Internal circulation weighs on the economy and flexibility of the project.",
@@ -112,14 +334,54 @@
           "circulation",
           "cost",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "internal circulation",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4574,
+            0.5905,
+            0.4974
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Internal movement is anchored to the central spine and repeated branch connections."
+        }
       },
       {
         "statement": "The relevance of the flood treatment and the safety of hollow elements still require confirmation.",
         "tags": [
           "safety",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "flood treatment and hollow elements",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1232,
+            0.0732,
+            0
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Potential site-edge drainage and void safety are approximated near the low southwest access area."
+        }
       }
     ],
     "keyword": [

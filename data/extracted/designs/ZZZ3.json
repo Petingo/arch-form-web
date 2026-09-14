@@ -16,7 +16,28 @@
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "urban structure, streets, courtyards, and alleyways",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1844,
+            1,
+            0.0833
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Perimeter volumes and courtyard-forming gaps visibly organize the sampled building footprint."
+        }
       },
       {
         "statement": "The division into a lower movement level and an upper lounge level is functionally convincing through clear visual references and connecting greenery.",
@@ -24,7 +45,26 @@
           "layout",
           "functionality",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "lower movement level and upper lounge level",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8486,
+            0.2738,
+            0.5833
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped and layered volumes provide a plausible lower-to-upper level transition along the eastern side."
+        }
       },
       {
         "statement": "The entrance sequence creates a clear address and a passage that can serve both neighbourhood and school use.",
@@ -32,14 +72,50 @@
           "circulation",
           "urban integration",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "entrance sequence",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5051,
+            0.0246,
+            0.2122
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The front edge provides the most plausible address and passage location for shared neighbourhood-school access."
+        }
       },
       {
         "statement": "The supporting structure impresses with efficient skeleton construction and clear load transfer.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6652,
+            0.5251,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Regular sampled points suggest a structural zone within the connected multi-volume frame."
+        }
       },
       {
         "statement": "The spatial proposal for the school combines different dimensions coherently and achieves good space and light qualities.",
@@ -47,14 +123,54 @@
           "layout",
           "daylight",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "school spatial proposal",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2944,
+            0.5251,
+            0.5
+          ],
+          "radius": 0.34,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Multiple connected volumes and open gaps visibly establish varied dimensions and potential light exposure."
+        }
       },
       {
         "statement": "The classrooms are conveniently oriented and the easy access provides good orientation.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "classrooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7776,
+            0.6142,
+            0.7083
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "A peripheral upper-level zone is a plausible location for oriented classrooms and accessible circulation."
+        }
       }
     ],
     "negative": [
@@ -63,21 +179,77 @@
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "rear courtyard",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.6293,
+            1,
+            0.0833
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The rear open gap is visibly articulated by several stepped and attached volumes."
+        }
       },
       {
         "statement": "The public accessibility of the courtyard buildings is problematic from an operational perspective.",
         "tags": [
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "courtyard buildings",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5169,
+            0.5251,
+            0.2917
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north"
+          ],
+          "rationale": "Courtyard-facing perimeter masses provide the most plausible location for public-access complications."
+        }
       },
       {
         "statement": "The central corridor limits the flexibility of the multi-purpose and lounge areas.",
         "tags": [
           "flexibility",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "central corridor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5169,
+            0.5251,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central building band is the best surface proxy for an interior corridor absent from exterior sampling."
+        }
       },
       {
         "statement": "The architectural dominance of the gymnasium head is only partly compatible with its pragmatic use.",
@@ -85,7 +257,26 @@
           "expression",
           "functionality",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "gymnasium head",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9571,
+            0.3349,
+            0.5417
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A visually prominent terminal mass appears at the eastern end of the connected composition."
+        }
       },
       {
         "statement": "The separate exhibition and plant building is architecturally alien and economically unsustainable.",
@@ -93,13 +284,43 @@
           "urban integration",
           "expression",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "separate exhibition and plant building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.8567,
+            0.1453,
+            0.25
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "A distinct lower appendage is visible near the southeastern edge of the sampled footprint."
+        }
       },
       {
         "statement": "The large floor area and volume result in poor overall economic efficiency.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "large floor area and volume",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "The judgment concerns overall economic efficiency without a single useful spatial referent."
+        }
       },
       {
         "statement": "The facade is comparatively expensive to build, despite positive maintenance and longevity qualities.",
@@ -107,7 +328,26 @@
           "facade",
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.9247,
+            0.5251,
+            0.5
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The exposed eastern and southern envelope provides the clearest sampled facade surface for annotation."
+        }
       }
     ],
     "keyword": [

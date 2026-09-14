@@ -19,7 +19,26 @@
           "urban integration",
           "open space",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "urban planning and outdoor areas",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.3485,
+            0.4056,
+            0.0263
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The compact eastern mass leaves a clearly visible, spacious western schoolyard."
+        }
       },
       {
         "statement": "The compact structure creates a generous and naturally structured open space.",
@@ -27,35 +46,121 @@
           "massing",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "compact structure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5832,
+            0.5526
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The dense four-story volume is clearly legible across plan and elevations."
+        }
       },
       {
         "statement": "The entrance square creates a good, clear connection to the existing school building.",
         "tags": [
           "circulation",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "entrance square",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3485,
+            0.3084,
+            0.0263
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance connection is placed on the open western approach between building and existing school."
+        }
       },
       {
         "statement": "The arrangement of the classrooms is well thought out and offers good permeability between units for collaborative work.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "classroom arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5832,
+            0.6316
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Classroom permeability is internal, approximated within the upper-middle building volume."
+        }
       },
       {
         "statement": "The minimalist and abstract design language gives the project a pleasantly essential quality despite its size.",
         "tags": [
           "expression",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "minimalist abstract design",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5832,
+            0.5789
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The restrained compact silhouette and raised roof form are directly visible in all projections."
+        }
       },
       {
         "statement": "The energy and building technology concept harmonizes well with the overall architectural concept.",
         "tags": [
           "sustainability",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "energy and building technology concept",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Technology harmony is a conceptual performance judgment without a specific spatial referent."
+        }
       }
     ],
     "negative": [
@@ -65,41 +170,144 @@
           "circulation",
           "fire safety",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance, cloakroom and movement zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3485,
+            0.4056,
+            0.1579
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Circulation spaces are internal and approximated near the western entrance side."
+        }
       },
       {
         "statement": "The outside space assigned to the classes is missing on the upper floors.",
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "upper-floor outside space",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8091,
+            0.486,
+            0.8947
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "The upper-level constraint places missing class outdoor space high on the compact volume."
+        }
       },
       {
         "statement": "The structural protection of the existing trees may not be successful.",
         "tags": [
           "landscape",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3485,
+            0.2112,
+            0.0263
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees are not distinguishable, so a low-confidence western plot-edge marker is used."
+        }
       },
       {
         "statement": "The complex and cost-intensive double-shell exposed-concrete construction should be examined for replacement.",
         "tags": [
           "structure",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "double-shell exposed-concrete construction",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.486,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Construction layers are not separable in the sample; the marker anchors the main envelope."
+        }
       },
       {
         "statement": "The project comes off worst in terms of system and construction costs.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "system and construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Cost comparison is a whole-project judgment without a spatial referent."
+        }
       },
       {
         "statement": "The project is not convincing enough in its entirety despite an understandable concept and layout.",
         "tags": [
           "expression",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "project entirety",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.486,
+            0.5263
+          ],
+          "radius": 0.33,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The criticism concerns the complete compact form and its overall arrangement."
+        }
       }
     ],
     "keyword": [

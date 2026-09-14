@@ -18,7 +18,27 @@
           "massing",
           "landscape",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "simple volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4593,
+            0.5579,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The elongated bar and lightweight upper volumes are clearly legible across plan and elevations."
+        }
       },
       {
         "statement": "A spacious forecourt ensures good connections and activates the place.",
@@ -26,49 +46,177 @@
           "circulation",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "spacious forecourt",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4207,
+            0.1352,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The open southern approach in front of the bar is the most plausible forecourt."
+        }
       },
       {
         "statement": "Decentralized parking near the various entrances appears sensible and practical.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "decentralized parking",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1514,
+            0.4159,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent from the sample; a peripheral access zone near the western entrance is assigned."
+        }
       },
       {
         "statement": "The proposed activities under the viaduct could ease the intensive use of the facility.",
         "tags": [
           "functionality",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "activities under the viaduct",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4573,
+            0.4954,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The underside of the elongated bar is not directly visible, so the central base zone is used."
+        }
       },
       {
         "statement": "The swimming pool, ice-rink stand, and outdoor pool are accessible through a shared entrance hall.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "shared entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4582,
+            0.5232,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "A central entry zone is approximated within the long base connecting the program elements."
+        }
       },
       {
         "statement": "The organization is compact and functional.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "organization",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4487,
+            0.5463,
+            0.375
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Compact functional organization applies across the elongated building and its two upper volumes."
+        }
       },
       {
         "statement": "The attempt to integrate the existing swimming pool into the new volume is praiseworthy.",
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "existing swimming pool",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2464,
+            0.4763,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The existing pool is not identifiable separately; the western base volume provides a constrained proxy."
+        }
       },
       {
         "statement": "The volume offers a simple elegance and an abstract architectural expression.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "abstract architectural expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4602,
+            0.5847,
+            0.5
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The simple bar-shaped composition and separated lightweight volumes define the visible expression."
+        }
       }
     ],
     "negative": [
@@ -78,7 +226,24 @@
           "open space",
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "narrow space between building and garden pool",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7112,
+            0.5629,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The narrow interstitial space is not explicitly marked; the eastern side gap is the plausible location."
+        }
       },
       {
         "statement": "The large footprint and sealing provide no benefit to the open space.",
@@ -86,7 +251,26 @@
           "massing",
           "sustainability",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "large footprint and sealing",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4582,
+            0.5222,
+            0
+          ],
+          "radius": 0.31,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The elongated footprint visibly occupies much of the model's central length."
+        }
       },
       {
         "statement": "The elongated bar dominates the park pool landscape, while the existing subtle topography is lost.",
@@ -94,21 +278,77 @@
           "massing",
           "topography",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "elongated bar",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.458,
+            0.5176,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The dominant linear bar is clearly visible in plan and all elevations."
+        }
       },
       {
         "statement": "The proposed tree additions do not correspond to the existing tree concept, and biodiversity measures are insufficiently documented.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "tree additions",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.835,
+            0.5503,
+            0
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Trees and biodiversity measures are absent; the surrounding southeastern landscape is used as a proxy."
+        }
       },
       {
         "statement": "Access to the upper bathroom area is unattractive, with a narrow staircase and long routes.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "upper bathroom area",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4602,
+            0.5847,
+            0.625
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The upper bathroom is not distinguishable; the elevated eastern portion is the constrained placement."
+        }
       },
       {
         "statement": "The organization lacks flexibility for alternative access through the main entrance hall.",
@@ -116,7 +356,25 @@
           "flexibility",
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "main entrance hall",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4578,
+            0.5098,
+            0.25
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The shared central entry zone is the likely location for alternative access constraints."
+        }
       },
       {
         "statement": "The small pavilion between the building and outdoor rink is operationally difficult and lacks nearby benches and cloakrooms.",
@@ -124,14 +382,49 @@
           "operation",
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "small pavilion",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7723,
+            0.5545,
+            0.125
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The pavilion is not separately visible; the gap beside the eastern portion of the bar is used."
+        }
       },
       {
         "statement": "The open ice rink is insufficiently shielded and requires additional noise protection.",
         "tags": [
           "acoustics",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "open ice rink",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8559,
+            0.5489,
+            0.125
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The rink is not clearly sampled; the eastern open edge is the plausible adjacent zone."
+        }
       },
       {
         "statement": "The large volume and facade lead to high resource use, maintenance, heating, and lifecycle costs.",
@@ -139,7 +432,27 @@
           "sustainability",
           "cost",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "large volume and facade",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4597,
+            0.5713,
+            0.5
+          ],
+          "radius": 0.32,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The extensive linear volume and facade surfaces are prominent throughout the calibrated views."
+        }
       },
       {
         "statement": "The desired simplicity produces indeterminacy and a lack of conciseness in the spatial organization and expression.",
@@ -147,13 +460,44 @@
           "layout",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "spatial organization and expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4589,
+            0.5445,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The critique applies to the overall bar composition and its internal spatial legibility."
+        }
       },
       {
         "statement": "The project is the most expensive shortlisted proposal in construction costs.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "construction costs",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.04,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Construction cost is a non-spatial judgment without a useful geometric anchor."
+        }
       }
     ],
     "keyword": [

@@ -18,7 +18,28 @@
           "urban integration",
           "massing",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "three differentiated buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5142,
+            0.5169,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three offset massing groups are clearly visible in the top and elevation point clouds."
+        }
       },
       {
         "statement": "The differentiated outdoor spaces harmonize with the space-forming buildings.",
@@ -26,28 +47,103 @@
           "open space",
           "landscape",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2539,
+            0.5229,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "high",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Distinct open areas are visibly formed between and around the offset building masses."
+        }
       },
       {
         "statement": "The location of the bridge in relation to the square ensures good integration with the vocational school.",
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "bridge and square",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.731,
+            0.512,
+            0.1875
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Bridge and square relationship is approximated at the junction between offset volumes."
+        }
       },
       {
         "statement": "The internally open and communicative building for school lessons is considered to be of high quality.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "internally open communicative building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5163,
+            0.4739,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Central openness is suggested by separated massing, though interior communication is not directly visible."
+        }
       },
       {
         "statement": "The uniform structural grid allows for a high degree of flexibility in use.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "uniform structural grid",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5575,
+            0.5159,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Repeated regular point rows indicate a consistent structural grid across the complex."
+        }
       }
     ],
     "negative": [
@@ -56,14 +152,53 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "lower auditorium",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2078,
+            0.2178,
+            0.125
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "north"
+          ],
+          "rationale": "Lower auditorium is approximated in a ground-level volume near the street-facing side."
+        }
       },
       {
         "statement": "The division into three buildings is viewed critically from an operational perspective because of the many timetable changes.",
         "tags": [
           "operation",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "division into three buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4708,
+            0.5179,
+            0.5
+          ],
+          "radius": 0.307,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Three separated building masses are clearly represented across the model."
+        }
       }
     ],
     "keyword": [

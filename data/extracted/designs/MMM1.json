@@ -18,7 +18,26 @@
           "massing",
           "proportion",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "connecting volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5341,
+            0.3246,
+            0.5027
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Central elongated connection is visible between the larger mass and smaller side volume across plan and elevations."
+        }
       },
       {
         "statement": "The raised classroom building retains the main volume hierarchy.",
@@ -26,7 +45,26 @@
           "massing",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "raised classroom building",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5573,
+            0.4673,
+            0.75
+          ],
+          "radius": 0.27,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Elevated classroom mass is identifiable above the lower connecting and side volumes."
+        }
       },
       {
         "statement": "The unitary facade treatment gives coherence and a new identity to the college.",
@@ -34,7 +72,25 @@
           "facade",
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "unitary facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4186,
+            0.1077,
+            0.5027
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Facade assignment is anchored to the prominent south-facing envelope of the elongated main building."
+        }
       },
       {
         "statement": "The entrance hall provides multiple access routes and numerous possibilities of use.",
@@ -42,14 +98,52 @@
           "circulation",
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.829,
+            0.4081,
+            0.375
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The smaller eastern volume provides the most plausible surface location for the entrance hall."
+        }
       },
       {
         "statement": "The provision of light on each distribution level improves the spatiality of the platforms in a simple but effective way.",
         "tags": [
           "daylight",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "distribution levels",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5945,
+            0.3417,
+            0.5027
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east"
+          ],
+          "rationale": "Platforms are assigned to the mid-height circulation zone of the raised classroom building."
+        }
       },
       {
         "statement": "The compactness preserves access qualities and as much space as possible for sports and outdoor activities.",
@@ -57,7 +151,24 @@
           "massing",
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "sports and outdoor activity spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3419,
+            0.5654,
+            0.0625
+          ],
+          "radius": 0.29,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Open-space benefit is anchored to the less occupied western and northern surroundings."
+        }
       },
       {
         "statement": "The reorganization of sports areas, play areas and paths generates quality gathering places and varied walks.",
@@ -65,14 +176,48 @@
           "open space",
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "sports areas, play areas and paths",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.776,
+            0.7877,
+            0.0625
+          ],
+          "radius": 0.315,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Gathering and circulation improvements are distributed through the open site edge around the compact masses."
+        }
       },
       {
         "statement": "The treatment of the developments promotes biodiversity and rich, varied local vegetation.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "local vegetation",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4952,
+            0.9249,
+            0
+          ],
+          "radius": 0.315,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Vegetation is placed on the peripheral open ground beyond the western building footprint."
+        }
       }
     ],
     "negative": [
@@ -81,14 +226,51 @@
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "sanitary facilities and group rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8359,
+            0.4101,
+            0.5027
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "Interior shortcomings are approximated within the smaller eastern volume, whose rooms are not distinguishable externally."
+        }
       },
       {
         "statement": "The unitary facade treatment still needs clarification in its development.",
         "tags": [
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "unitary facade treatment",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4007,
+            0.0992,
+            0.5027
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "Clarification concerns the visible south facade of the elongated principal volume."
+        }
       }
     ],
     "keyword": [

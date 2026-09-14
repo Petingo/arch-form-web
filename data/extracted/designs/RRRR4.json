@@ -17,7 +17,28 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "center-and-periphery ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5765,
+            0.5742,
+            0.5
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The top view directly shows a central composition surrounded by offset peripheral volumes."
+        }
       },
       {
         "statement": "Staggered heights and facade setbacks adapt the building to the district and achieve a compatible scale.",
@@ -25,63 +46,228 @@
           "massing",
           "scale",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "staggered heights and facade setbacks",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5667,
+            0.5955,
+            0.7
+          ],
+          "radius": 0.24,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stepped outer edges and differing elevation bands visibly establish setbacks and height variation."
+        }
       },
       {
         "statement": "The small mountain-side park can serve as open space for both the district and the clinic.",
         "tags": [
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "mountain-side park",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4944,
+            0.752,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The park is not separately sampled; the open northern side beyond the ensemble is the plausible landscape anchor."
+        }
       },
       {
         "statement": "The entrance situation on Hofstrasse is clear and uncluttered.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "entrance situation on Hofstrasse",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2658,
+            0.1705,
+            0.1
+          ],
+          "radius": 0.09,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance is unnamed geometrically; a lower perimeter access point provides a constrained arrival estimate."
+        }
       },
       {
         "statement": "The entrance hall creates a cheerful atmosphere and an attractive interplay between indoor and outdoor spaces.",
         "tags": [
           "open space",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3262,
+            0.2259,
+            0.2
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior hall is not visible, so the lower access-facing volume is used as an approximate anchor."
+        }
       },
       {
         "statement": "The clinic-room arrangement enables the desired separation between staff and patients.",
         "tags": [
           "layout",
           "privacy"
-        ]
+        ],
+        "position": {
+          "target": "clinic-room arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5863,
+            0.5529,
+            0.6
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "Room organization is interior and indistinguishable; the substantial eastern block provides a useful zone estimate."
+        }
       },
       {
         "statement": "The polyclinic can be converted to a new use with only a few structural interventions.",
         "tags": [
           "flexibility",
           "structure"
-        ]
+        ],
+        "position": {
+          "target": "polyclinic conversion",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2441,
+            0.6245,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west"
+          ],
+          "rationale": "The converted component cannot be identified; the offset western volume is a constrained approximation."
+        }
       },
       {
         "statement": "The connection to the new building is a precise and coherent intervention inherent in the existing typology and concept.",
         "tags": [
           "urban integration",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "connection to new building",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4664,
+            0.4219,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "A central joining zone is visibly suggested where the principal bars and transverse volume meet."
+        }
       },
       {
         "statement": "The urban-planning concept is robust with regard to future preservation, replacement, or release of the sisters' house.",
         "tags": [
           "urban integration",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "future preservation or replacement ensemble",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8335,
+            0.2817,
+            0.5
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east"
+          ],
+          "rationale": "The broad urban-planning judgment is anchored to the eastern perimeter of the visible ensemble."
+        }
       },
       {
         "statement": "The result is valuable for the historical inventory and its perception.",
         "tags": [
           "identity",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "historical inventory and perception",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1856,
+            0.7466,
+            0.6
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "west",
+            "north"
+          ],
+          "rationale": "This broad identity judgment is placed on a prominent western mass visible across the ensemble."
+        }
       },
       {
         "statement": "The independent facade forms an ensemble with the character buildings while creating a familiar expression.",
@@ -89,21 +275,62 @@
           "facade",
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "independent facade forms",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.606,
+            0.5103,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "south"
+          ],
+          "rationale": "The stepped eastern facade visibly reads as an independent but coordinated edge."
+        }
       },
       {
         "statement": "The hybrid wood-concrete construction conceptually takes sustainability requirements into account.",
         "tags": [
           "structure",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "hybrid wood-concrete construction",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Material construction is not represented by the sampled geometry and applies to the whole building."
+        }
       },
       {
         "statement": "Resource-saving and lean materialization compensate to a large extent for the effort required under the terrain.",
         "tags": [
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "resource-saving materialization",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Resource efficiency and material economy are whole-building judgments without a spatially specific marker."
+        }
       }
     ],
     "negative": [
@@ -112,98 +339,346 @@
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green space along Pestalozzistrasse",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2058,
+            0.205,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The street edge is unlabeled; the southern open margin provides a constrained site anchor."
+        }
       },
       {
         "statement": "The opening toward the neighbourhood lacks a clear spatial definition.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "opening toward neighbourhood",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5436,
+            0.6455,
+            0.1
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The undefined opening is approximated at the broad northeastern edge where the ensemble opens outward."
+        }
       },
       {
         "statement": "The proposed excavation along the north-east facade can hardly be approved under building regulations in its current form.",
         "tags": [
           "topography",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "north-east facade excavation",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5141,
+            0.7094,
+            0.2
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "east",
+            "north"
+          ],
+          "rationale": "The northeast facade is directionally and geometrically anchored on the upper-right perimeter."
+        }
       },
       {
         "statement": "The three atriums obscure the relationship between the new building and the park.",
         "tags": [
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "three atriums",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5568,
+            0.6167,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Repeated interruptions and open voids are visible within the central ensemble, though individual atriums are not fully separable."
+        }
       },
       {
         "statement": "The paths are functional, but a self-confident park character is missing.",
         "tags": [
           "landscape",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "paths and park character",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7669,
+            0.221,
+            0.1
+          ],
+          "radius": 0.24,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "External routes are not sampled distinctly; the southern perimeter is used for the constrained landscape-circulation judgment."
+        }
       },
       {
         "statement": "The main entrance appears too large and too stony.",
         "tags": [
           "circulation",
           "scale"
-        ]
+        ],
+        "position": {
+          "target": "main entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.296,
+            0.1982,
+            0.1
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The oversized entrance is not identifiable, so the lower access-facing edge provides an approximate anchor."
+        }
       },
       {
         "statement": "The adjacent seating area does not appear self-evident, and preserving the existing trees will hardly be possible.",
         "tags": [
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "adjacent seating area and existing trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2507,
+            0.1566,
+            0.1
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Landscape furnishings and trees are absent; the southern edge beside the entrance is the constrained site location."
+        }
       },
       {
         "statement": "The sudden transitions from the large entrance hall to corridors and stairwells were critically assessed.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "entrance hall transitions",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.3453,
+            0.2936,
+            0.2
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The hall-to-corridor sequence is interior; the lower entry block provides a constrained approximation."
+        }
       },
       {
         "statement": "Crossing access routes and internal clinic waiting rooms are spatially and operationally problematic.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "clinic waiting rooms and access routes",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6011,
+            0.3649,
+            0.4
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal waiting and circulation spaces are not distinguishable, so the central connector is used as an estimate."
+        }
       },
       {
         "statement": "The underground teaching area without daylight did not convince the jury.",
         "tags": [
           "daylight",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "underground teaching area",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4389,
+            0.4678,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The below-grade area is not visible directly; the lowest sampled building level provides the constrained anchor."
+        }
       },
       {
         "statement": "There is no direct connection between teaching and research without passing through the clinics.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "teaching and research connection",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6158,
+            0.489,
+            0.5
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The internal connection cannot be seen; the transverse central connector is the most plausible spatial proxy."
+        }
       },
       {
         "statement": "The wooden roller shutters do not optimally meet the requirements for shading and daylight control.",
         "tags": [
           "facade",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "wooden roller shutters",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.606,
+            0.5103,
+            0.7
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "east",
+            "south"
+          ],
+          "rationale": "Shutters are not resolved; the exposed eastern facade provides the directional facade anchor."
+        }
       },
       {
         "statement": "The contribution is one of the more complex proposals in terms of economic efficiency.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "economic efficiency",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Economic complexity is a whole-project judgment without a useful geometric location."
+        }
       },
       {
         "statement": "The project requires relatively large floor area and underbuilds a significant part of the plot.",
         "tags": [
           "cost",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "large floor area and plot underbuilding",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.573,
+            0.5817,
+            0.1
+          ],
+          "radius": 0.305,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The broad footprint is directly visible in plan and occupies most of the sampled site envelope."
+        }
       },
       {
         "statement": "The insulation, airtightness, facade construction, and summer thermal protection require further development to achieve the required standard.",
@@ -211,7 +686,25 @@
           "sustainability",
           "facade",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "insulation, airtightness and thermal protection",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6158,
+            0.489,
+            0.6
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "Envelope performance is anchored to the exposed eastern facade, where the relevant systems would occur."
+        }
       },
       {
         "statement": "Spatially dividing excavations and weak relationships between the garden and new building contradict the idea of strengthening the hospital garden as a center.",
@@ -219,7 +712,26 @@
           "urban integration",
           "open space",
           "topography"
-        ]
+        ],
+        "position": {
+          "target": "excavations and garden relationship",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5239,
+            0.6881,
+            0.1
+          ],
+          "radius": 0.26,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "north",
+            "east"
+          ],
+          "rationale": "The northeastern edge is the stated excavation and garden-facing zone, approximated from the ensemble perimeter."
+        }
       }
     ],
     "keyword": [

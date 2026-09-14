@@ -16,62 +16,227 @@
         "tags": [
           "urban integration",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "clear positioning",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7538,
+            0.8224,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The compact footprint is positioned toward the north-east portion of the modeled site."
+        }
       },
       {
         "statement": "The large, contiguous open space with the trees worth preserving will largely be preserved.",
         "tags": [
           "landscape",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "contiguous open space with preserved trees",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2305,
+            0.2197,
+            0
+          ],
+          "radius": 0.309,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Open space is represented adjacent to the compact building, especially on its south-west side."
+        }
       },
       {
         "statement": "The calm and unpretentious architectural language fits into the existing school complex.",
         "tags": [
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "calm architectural language",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7548,
+            0.7617,
+            0.5625
+          ],
+          "radius": 0.309,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The comment concerns the overall compact composition and visible envelope."
+        }
       },
       {
         "statement": "The visual connections through the auditorium result in easy orientation in the building.",
         "tags": [
           "visibility",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "auditorium visual connections",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.1919,
+            0.3958,
+            0.5
+          ],
+          "radius": 0.18,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The central enclosed arrangement visibly organizes views and orientation around the auditorium."
+        }
       },
       {
         "statement": "The separate access to the day structures and music and support rooms offers the necessary intimacy.",
         "tags": [
           "privacy",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "separate access to day structures and music rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8167,
+            0.1543,
+            0
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Separate access points are not labeled; a perimeter ground anchor represents a plausible entry zone."
+        }
       },
       {
         "statement": "The flexible room layout can be ideally set up for both age groups.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "flexible room layout",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7543,
+            0.7632,
+            0.5
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Room divisions are internal and indistinguishable within the compact two-story mass."
+        }
       },
       {
         "statement": "The simple, clear arrangement ensures problem-free use of the individual areas.",
         "tags": [
           "layout",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "clear arrangement of individual areas",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2785,
+            0.9198,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The overall clustered arrangement is visible, while individual areas remain internal."
+        }
       },
       {
         "statement": "The room program is well organized and allows dual use of the rooms.",
         "tags": [
           "functionality",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "dual-use room program",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8543,
+            0.4842,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Dual-use rooms are not distinguishable; the anchor marks a plausible internal program zone."
+        }
       },
       {
         "statement": "The estimated investment costs are in the favorable range.",
         "tags": [
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "investment costs",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Investment cost is an unlocated economic judgment."
+        }
       }
     ],
     "negative": [
@@ -80,28 +245,103 @@
         "tags": [
           "open space",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "loggia",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6597,
+            0.1235,
+            0.5625
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The loggia is approximated along the south-facing perimeter where an open edge is most plausible."
+        }
       },
       {
         "statement": "Closing the volume could strengthen the clarity of the building.",
         "tags": [
           "massing",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "closing the volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5091,
+            0.3892,
+            0.9375
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The criticism concerns the enclosure and clarity of the compact central composition."
+        }
       },
       {
         "statement": "The staircase from the terrace to the garden needs to be checked and may not be convincing due to its arrangement.",
         "tags": [
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "staircase from terrace to garden",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8481,
+            0.1605,
+            0
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The external stair is not distinguishable; a south-east perimeter ground anchor is approximate."
+        }
       },
       {
         "statement": "The project could be made more compact by closing the loggia.",
         "tags": [
           "massing",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "closing the loggia",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6911,
+            0.1296,
+            0.5625
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The loggia location is approximated along the south-facing perimeter."
+        }
       }
     ],
     "keyword": [

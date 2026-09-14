@@ -16,7 +16,25 @@
         "tags": [
           "urban integration",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "existing site connection",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0992,
+            0.5084,
+            0.1007
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The westward offset and surrounding ground-level edges indicate the site connection."
+        }
       },
       {
         "statement": "The modulated roof landscape and facade design with its choice of materials and fenestration are impressive.",
@@ -24,35 +42,127 @@
           "massing",
           "facade",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "modulated roof landscape and facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7867,
+            0.8396,
+            0.8993
+          ],
+          "radius": 0.15,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The stepped upper volume and modulated roof outline are clearly visible in plan and elevations."
+        }
       },
       {
         "statement": "The operational processes are well resolved and the bathroom floor is spatially structured in an appealing way.",
         "tags": [
           "operation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "bathroom floor",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.876,
+            0.3913,
+            0.3003
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The main lower volume provides a constrained anchor for the internal bathing floor."
+        }
       },
       {
         "statement": "The arrangement of the pools is ideal from the user's perspective.",
         "tags": [
           "functionality",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "arrangement of the pools",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4569,
+            0.0339,
+            0.2005
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pool layouts are internal, so the marker uses the central lower-volume zone."
+        }
       },
       {
         "statement": "The covered intermediate zone supports the desired indoor-outdoor connection.",
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "covered intermediate zone",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4964,
+            0.0298,
+            0.3003
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The lower transition zone is anchored along the visible interface between base and upper volume."
+        }
       },
       {
         "statement": "The relatively small area and volume promise comparatively low construction costs, and the wooden construction is a first step toward sustainability.",
         "tags": [
           "cost",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "wooden construction",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7805,
+            0.8135,
+            0.8494
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Construction material is not separable in the point cloud; the marker references the lightweight upper structure."
+        }
       }
     ],
     "negative": [
@@ -61,35 +171,124 @@
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "traffic area into a square",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0248,
+            0.1954,
+            0.0508
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The external ground area is anchored beside the west entrance-side edge of the building."
+        }
       },
       {
         "statement": "The interior atmosphere appears dematerialized and still needs to be detailed as work continues.",
         "tags": [
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "interior atmosphere",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5032,
+            0.4754,
+            0.6497
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior atmosphere is not directly represented; the marker uses the central occupied volume."
+        }
       },
       {
         "statement": "The route through the cloakrooms and the ability to find the stairs to the upper floor must be made clearer.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "cloakrooms and stairs to upper floor",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1054,
+            0.5345,
+            0.3503
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Internal circulation is not visible, so the marker follows the lower-to-upper transition zone."
+        }
       },
       {
         "statement": "The entrance to the cafeteria outside swimming times is hardly recognizable as public access.",
         "tags": [
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "cafeteria entrance",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.0434,
+            0.2736,
+            0.1007
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The external public entrance is approximated at the west-facing ground-level approach."
+        }
       },
       {
         "statement": "The non-swimmer and multipurpose pool area must be increased, and a direct workshop-to-technical-room connection is desired.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "non-swimmer and multipurpose pool area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.8574,
+            0.313,
+            0.2005
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Pool subdivisions are internal; the marker occupies the central lower bathing zone."
+        }
       }
     ],
     "keyword": [

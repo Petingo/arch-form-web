@@ -17,42 +17,158 @@
           "urban integration",
           "expression",
           "identity"
-        ]
+        ],
+        "position": {
+          "target": "two buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2777,
+            0.5276,
+            0.5
+          ],
+          "radius": 0.3247,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Two distinct compact volumes are visible across the top and elevation projections."
+        }
       },
       {
         "statement": "The public sports field on the roof is a welcome approach to expanding publicly usable space vertically.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "public sports field on the roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.7859,
+            0,
+            1
+          ],
+          "radius": 0.08,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The roof-level sports area is identifiable in the right-hand portion of the top footprint."
+        }
       },
       {
         "statement": "The division into sports and school buildings is functionally and operationally conceivable.",
         "tags": [
           "functionality",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "sports and school buildings",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            1,
+            0.5182,
+            0.5
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Contrasting building portions are distinguishable in plan and elevation views."
+        }
       },
       {
         "statement": "The classroom floors are organized advantageously with generous access and a clear structure.",
         "tags": [
           "layout",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "classroom floors",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2777,
+            0.6312,
+            0.6364
+          ],
+          "radius": 0.24,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Classroom levels are approximated within the school volume using stacked elevation evidence."
+        }
       },
       {
         "statement": "The classrooms are well proportioned and the main entrances are immediately legible.",
         "tags": [
           "proportion",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "classrooms and main entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4968,
+            0,
+            0.1364
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The entrance-side ground zone is constrained along the front edge of the sampled mass."
+        }
       },
       {
         "statement": "The efficient supporting structure makes the flow of forces tangible and resolves the earthquake bracing very well.",
         "tags": [
           "structure",
           "safety"
-        ]
+        ],
+        "position": {
+          "target": "supporting structure and earthquake bracing",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.2777,
+            0.5276,
+            0.5455
+          ],
+          "radius": 0.12,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Regular structural traces are visible through the elevation point patterns."
+        }
       },
       {
         "statement": "Compactness, durable materials, and system separation support good energy and life-cycle performance.",
@@ -60,7 +176,18 @@
           "massing",
           "sustainability",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "energy and life-cycle performance",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "This is an overall performance judgment without a discrete spatial referent."
+        }
       }
     ],
     "negative": [
@@ -69,7 +196,26 @@
         "tags": [
           "urban integration",
           "proportion"
-        ]
+        ],
+        "position": {
+          "target": "two similarly wide gaps",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4418,
+            0.3462,
+            0.1364
+          ],
+          "radius": 0.22,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Two open separations are legible between the compact masses in plan and elevations."
+        }
       },
       {
         "statement": "The most expressive facade faces the neighbour and is only visible from the corner, while parking reduces its impact.",
@@ -77,56 +223,204 @@
           "facade",
           "visibility",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "most expressive facade and parking",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            1,
+            0.5182,
+            0.5455
+          ],
+          "radius": 0.2,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "east",
+            "west"
+          ],
+          "rationale": "A perimeter facade is used as a constrained proxy for the neighbour-facing expressive edge."
+        }
       },
       {
         "statement": "It remains unclear whether the connecting material is sufficient to read the two buildings as an ensemble.",
         "tags": [
           "expression",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "connecting material",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4066,
+            0.5387,
+            0.5
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The approximate junction between the two volumes anchors the ensemble-reading comment."
+        }
       },
       {
         "statement": "The courtyard infrastructure is minimal and the outdoor space is reduced largely to circulation, limiting its quality of stay.",
         "tags": [
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "courtyard infrastructure and outdoor circulation",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4435,
+            0.5484,
+            0.0909
+          ],
+          "radius": 0.18,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The central open courtyard zone is visible between the building footprints."
+        }
       },
       {
         "statement": "The roof sports field places high demands on operation and use and depends on a very clear access solution.",
         "tags": [
           "operation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "roof sports field access",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.821,
+            0,
+            1
+          ],
+          "radius": 0.14,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "The roof sports area is visible, while its access route is inferred at the roof edge."
+        }
       },
       {
         "statement": "The required open-space ratio is not met, even with the roof sports field.",
         "tags": [
           "open space",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "required open-space ratio",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4418,
+            0.3462,
+            0.0455
+          ],
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The constrained site anchor lies in the visible open-space gaps surrounding the volumes."
+        }
       },
       {
         "statement": "The ground-floor arrangement limits possibilities for spatial demarcation too much.",
         "tags": [
           "layout",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "ground-floor arrangement",
+          "spatial_scope": "floor",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2777,
+            0.5485,
+            0.0909
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The ground-level arrangement is located within the school-side footprint at the base."
+        }
       },
       {
         "statement": "The mobile separation of preparation and collection rooms does not adequately meet operational requirements and impairs openness when closed.",
         "tags": [
           "operation",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "mobile separation of preparation and collection rooms",
+          "spatial_scope": "room",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2777,
+            0.5276,
+            0.3182
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Interior rooms are not distinguishable, so the school volume provides a constrained surface estimate."
+        }
       },
       {
         "statement": "The high proportion of glass in the sports halls limits usability.",
         "tags": [
           "facade",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "glass in the sports halls",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7508,
+            0,
+            0.5
+          ],
+          "radius": 0.16,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "east"
+          ],
+          "rationale": "The sports-hall front facade is approximated on the visible perimeter of the right volume."
+        }
       },
       {
         "statement": "The open staircase cannot serve as an escape route and would require extensive fire-protection equipment and an additional stair.",
@@ -134,7 +428,25 @@
           "fire safety",
           "circulation",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "open staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2777,
+            0.113,
+            0.5
+          ],
+          "radius": 0.08,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The staircase is interior and unidentifiable, so it is anchored near the school access edge."
+        }
       },
       {
         "statement": "The building depth and indeterminate setting are strange in this context, and the resulting small courtyard cannot be adequately compensated for by the roof area.",
@@ -142,7 +454,28 @@
           "massing",
           "urban integration",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "building depth and small courtyard",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4066,
+            0.3314,
+            0.5
+          ],
+          "radius": 0.35,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The elongated massing and narrow central open space are assessed from the complete projections."
+        }
       }
     ],
     "keyword": [

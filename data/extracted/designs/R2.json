@@ -16,7 +16,28 @@
           "urban integration",
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "whole building and topographic volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5917,
+            0.4456,
+            0.8
+          ],
+          "radius": 0.3,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "Elongated stepped mass is visible across the calibrated top and elevation views."
+        }
       },
       {
         "statement": "The internal street connects the two entrances on two floors, with appropriate entrance areas, atriums, and vertical references enabling good operational processes.",
@@ -24,7 +45,26 @@
           "circulation",
           "operation",
           "daylight"
-        ]
+        ],
+        "position": {
+          "target": "internal street and two entrances",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5136,
+            0.4946,
+            0.8
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior circulation is not exposed; central placement follows the connected linear volume."
+        }
       },
       {
         "statement": "The centrally arranged office and training rooms allow short distances, views, and a high atmospheric density.",
@@ -32,35 +72,124 @@
           "layout",
           "circulation",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "central office and training rooms",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5361,
+            0.4721,
+            0.8
+          ],
+          "radius": 0.15,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior rooms are absent, so a central upper-volume location provides the best constrained estimate."
+        }
       },
       {
         "statement": "The structural concept minimizes supports in the large-span workshops and enables a high level of flexibility of use.",
         "tags": [
           "structure",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "large-span workshops",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7924,
+            0.2563,
+            0.3
+          ],
+          "radius": 0.17,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Workshop interiors are not distinguishable; the extended lower-volume area offers a plausible surface anchor."
+        }
       },
       {
         "statement": "The construction and robust material choices meet the sustainability requirements and enable easy system separation and high flexibility of use.",
         "tags": [
           "sustainability",
           "flexibility"
-        ]
+        ],
+        "position": {
+          "target": "construction and robust material choices",
+          "spatial_scope": "building",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.32,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Sustainability and material separation are building-wide judgments without a reliable spatial marker."
+        }
       },
       {
         "statement": "The low proportion of underground construction volume has a positive impact on construction costs.",
         "tags": [
           "topography",
           "cost"
-        ]
+        ],
+        "position": {
+          "target": "underground construction volume",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2386,
+            0.3664,
+            0.1
+          ],
+          "radius": 0.25,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "The partly sunken lower envelope is constrained by the stepped mass and lowest elevation rows."
+        }
       },
       {
         "statement": "The self-confident conceptual approach has the potential to give the educational campus a new, independent expression.",
         "tags": [
           "identity",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "whole building expression",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5969,
+            0.4549,
+            0.8
+          ],
+          "radius": 0.32,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "north",
+            "east",
+            "west"
+          ],
+          "rationale": "The building’s independent expression concerns the visible staggered, shed-roofed volume."
+        }
       }
     ],
     "negative": [
@@ -69,35 +198,125 @@
         "tags": [
           "urban integration",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "offset entrance area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2189,
+            0.3862,
+            0.3
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The entrance offset is not identifiable internally; an edge location anchors the access-related comment."
+        }
       },
       {
         "statement": "The hard-surface treatment and tree islands miss the important historical context of the existing building.",
         "tags": [
           "landscape",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "hard-surface treatment and tree islands",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2301,
+            0.3233,
+            0
+          ],
+          "radius": 0.25,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Landscape elements are not sampled; an adjacent low site position provides a constrained estimate."
+        }
       },
       {
         "statement": "The large staircase is understandable topographically but is not convincing in its formulation.",
         "tags": [
           "topography",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "large staircase",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.2386,
+            0.3664,
+            0.2
+          ],
+          "radius": 0.1,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "west"
+          ],
+          "rationale": "The stepped lower edge supports an approximate topographic stair location, though individual treads are unresolved."
+        }
       },
       {
         "statement": "The formal expansion of the cafeteria access area into the district's important open space is hardly conceivable.",
         "tags": [
           "open space",
           "circulation"
-        ]
+        ],
+        "position": {
+          "target": "cafeteria access area",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7747,
+            0.2401,
+            0.1
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "The open-space expansion is not distinguishable; a low perimeter zone provides a plausible access-area anchor."
+        }
       },
       {
         "statement": "The bicycle parking spaces are inexplicably not located at the entrances.",
         "tags": [
           "circulation",
           "accessibility"
-        ]
+        ],
+        "position": {
+          "target": "bicycle parking spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.1634,
+            0.4127,
+            0
+          ],
+          "radius": 0.18,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "Parking is absent from the sample; a perimeter access-side position offers a constrained site estimate."
+        }
       },
       {
         "statement": "It is doubtful whether the metal facade can integrate into the surrounding historic district; its materialization reinforces the autonomy of the volume.",
@@ -105,20 +324,68 @@
           "facade",
           "urban integration",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "metal facade",
+          "spatial_scope": "facade",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.554,
+            0.0794,
+            0.6
+          ],
+          "radius": 0.27,
+          "confidence": "medium",
+          "view_evidence": [
+            "south",
+            "top"
+          ],
+          "rationale": "A representative south-facing envelope surface anchors the facade integration concern."
+        }
       },
       {
         "statement": "Access to individual rooms and workshops exclusively through other usable spaces is viewed negatively.",
         "tags": [
           "circulation",
           "operation"
-        ]
+        ],
+        "position": {
+          "target": "access to individual rooms and workshops",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7586,
+            0.6988,
+            0.4
+          ],
+          "radius": 0.16,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "north"
+          ],
+          "rationale": "Interior access routes are not visible; the central working-volume surface is the best constrained anchor."
+        }
       },
       {
         "statement": "The project still has significant deficiencies in terms of fire protection.",
         "tags": [
           "fire safety"
-        ]
+        ],
+        "position": {
+          "target": "fire protection",
+          "spatial_scope": "system",
+          "visible_on_model": false,
+          "grounding": "global",
+          "normalized_position": null,
+          "radius": 0.28,
+          "confidence": "low",
+          "view_evidence": [],
+          "rationale": "Fire protection is a building-wide system judgment without a reliable geometric location."
+        }
       }
     ],
     "keyword": [

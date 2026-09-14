@@ -17,7 +17,27 @@
         "tags": [
           "open space",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "differentiated outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5454,
+            0.3789,
+            0.1
+          ],
+          "radius": 0.311,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Connected volumes and intervening open areas visibly create differentiated transitions."
+        }
       },
       {
         "statement": "The classroom arrangement is convincing because of its operational autonomy and the beautiful outdoor spaces in front of it.",
@@ -25,21 +45,80 @@
           "functionality",
           "layout",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "classroom arrangement",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4514,
+            0.712,
+            0.2
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Classroom zone is approximated within the connected central volume facing outdoor space."
+        }
       },
       {
         "statement": "The building base cleverly integrates the facility under the large roof into the graduated topographical context.",
         "tags": [
           "topography",
           "massing"
-        ]
+        ],
+        "position": {
+          "target": "building base under large roof",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.578,
+            0.3892,
+            0.3
+          ],
+          "radius": 0.28,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Low building base and broad roof clearly register as a graduated connected figure."
+        }
       },
       {
         "statement": "The project has a plausible wooden building structure and is carefully designed structurally.",
         "tags": [
           "structure",
           "expression"
-        ]
+        ],
+        "position": {
+          "target": "wooden building structure",
+          "spatial_scope": "system",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5337,
+            0.5223,
+            0.4
+          ],
+          "radius": 0.1,
+          "confidence": "low",
+          "view_evidence": [
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "Structural material is not distinguishable, so the marker follows the visible low-rise frame."
+        }
       },
       {
         "statement": "The green garden framed by the arcade forms a beautiful motif and a prelude to the hard court.",
@@ -47,7 +126,25 @@
           "landscape",
           "circulation",
           "open space"
-        ]
+        ],
+        "position": {
+          "target": "green garden framed by arcade",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5617,
+            0.3841,
+            0.1
+          ],
+          "radius": 0.15,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Central open-space zone is approximated inside the connected arcade-framed footprint."
+        }
       },
       {
         "statement": "The lakeshore is opened and differentiated outdoor spaces interact productively with the existing building.",
@@ -55,7 +152,25 @@
           "urban integration",
           "open space",
           "landscape"
-        ]
+        ],
+        "position": {
+          "target": "lakeshore outdoor spaces",
+          "spatial_scope": "site",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.5707,
+            0.0981,
+            0.1
+          ],
+          "radius": 0.311,
+          "confidence": "medium",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Waterfront relationship is assigned to the southern open edge of the complex."
+        }
       }
     ],
     "negative": [
@@ -65,14 +180,51 @@
           "scale",
           "massing",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "large new figure",
+          "spatial_scope": "building",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.5457,
+            0.4945,
+            0.4
+          ],
+          "radius": 0.311,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The broad connected figure is clearly visible relative to the surrounding sampled context."
+        }
       },
       {
         "statement": "The proximity to the main building and the corner near the workshop building appear cramped.",
         "tags": [
           "scale",
           "urban integration"
-        ]
+        ],
+        "position": {
+          "target": "proximity to main building and workshop corner",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7911,
+            0.2549,
+            0.1
+          ],
+          "radius": 0.14,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The cramped relationship is approximated at the eastern corner near the detached surrounding masses."
+        }
       },
       {
         "statement": "The very large flat roof is too clearly visible and appears too dominant.",
@@ -80,21 +232,78 @@
           "massing",
           "expression",
           "visibility"
-        ]
+        ],
+        "position": {
+          "target": "very large flat roof",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "direct",
+          "normalized_position": [
+            0.4503,
+            0.3492,
+            0.7
+          ],
+          "radius": 0.12,
+          "confidence": "high",
+          "view_evidence": [
+            "top",
+            "south",
+            "east",
+            "north"
+          ],
+          "rationale": "The extensive roof is directly visible as the dominant uppermost horizontal figure."
+        }
       },
       {
         "statement": "A direct connection from the classrooms to the outside area would have been very desirable.",
         "tags": [
           "circulation",
           "functionality"
-        ]
+        ],
+        "position": {
+          "target": "classroom connection to outside",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.4639,
+            0.7101,
+            0.2
+          ],
+          "radius": 0.12,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south"
+          ],
+          "rationale": "Classroom exterior access is approximated along the open-facing side of the central volume."
+        }
       },
       {
         "statement": "The location of the stairs in relation to the new house is not convincing.",
         "tags": [
           "circulation",
           "layout"
-        ]
+        ],
+        "position": {
+          "target": "stairs near new house",
+          "spatial_scope": "element",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.6433,
+            0.4096,
+            0.1
+          ],
+          "radius": 0.07,
+          "confidence": "low",
+          "view_evidence": [
+            "top",
+            "south",
+            "east"
+          ],
+          "rationale": "Stair location is estimated near the connection between the main connected volumes."
+        }
       },
       {
         "statement": "The hard court is very large and entirely hard-surfaced, while its transitions to the parkland are undervalued.",
@@ -102,7 +311,24 @@
           "open space",
           "landscape",
           "sustainability"
-        ]
+        ],
+        "position": {
+          "target": "hard court",
+          "spatial_scope": "zone",
+          "visible_on_model": true,
+          "grounding": "constrained",
+          "normalized_position": [
+            0.7422,
+            0.2396,
+            0
+          ],
+          "radius": 0.22,
+          "confidence": "low",
+          "view_evidence": [
+            "top"
+          ],
+          "rationale": "The hard court is approximated in the southern detached open-space region."
+        }
       }
     ],
     "keyword": [
