@@ -49,15 +49,15 @@
   <!-- interpolation dialog -->
   <dialog id="interpolation-dialog">
     <div class="dialog-container clearfix">
-      <div id="interpolation-dialog-sidebar" class="dialog-sidebar col col-4">
+      <div id="interpolation-dialog-sidebar" class="dialog-sidebar col col-4" aria-label="Interpolation controls">
         <!-- items -->
         <div
           id="interpolation-dialog-sidebar-item-template"
           class="interpolation-dialog-sidebar-item clearfix"
         >
           <div class="sidebar-item-desc col col-12">
-            <h3 class="mx2 my1"><span class="model-id">L333</span><span class="slider-value">50</span></h3>
-            <div class="slider-container ml2">
+            <h3><span class="model-id">L333</span><span class="slider-value">50</span></h3>
+            <div class="slider-container">
               <input
                 type="range"
                 min="1"
@@ -73,19 +73,19 @@
         <!-- View toggle controls -->
         <div id="interpolation-view-controls" class="clearfix">
           <div class="sidebar-item-desc col col-12">
-            <h3 class="mx2 my1">View</h3>
-            <div class="mx2">
-              <div class="mt1">
+            <h3>View</h3>
+            <div class="sidebar-control-list">
+              <div class="checkbox-control">
                 <input type="checkbox" id="chk-view-point-cloud" checked />
-                <label for="chk-view-point-cloud" style="cursor:pointer;">Point Cloud</label>
+                <label for="chk-view-point-cloud">Point Cloud</label>
               </div>
-              <div class="mt1">
+              <div class="checkbox-control">
                 <input type="checkbox" id="chk-view-convex-hull" />
-                <label for="chk-view-convex-hull" style="cursor:pointer;">Convex Hull</label>
+                <label for="chk-view-convex-hull">Convex Hull</label>
               </div>
-              <div class="mt1">
+              <div class="checkbox-control">
                 <input type="checkbox" id="chk-view-alpha-wrap" />
-                <label for="chk-view-alpha-wrap" style="cursor:pointer;">Alpha Wrap</label>
+                <label for="chk-view-alpha-wrap">Alpha Wrap</label>
               </div>
             </div>
           </div>
@@ -94,18 +94,18 @@
         <!-- Alpha Wrap controls -->
         <div id="interpolation-dialog-alpha-wrap" class="clearfix">
           <div class="sidebar-item-desc col col-12">
-            <h3 class="mx2 my1">Alpha Wrap</h3>
-            <div class="mx2">
-              <label>Alpha <span id="alpha-wrap-alpha-val">20</span></label>
-              <div class="slider-container ml2">
+            <h3>Alpha Wrap</h3>
+            <div class="sidebar-control-list">
+              <label class="range-control-label" for="alpha-wrap-alpha"><span>Alpha</span><output id="alpha-wrap-alpha-val">20</output></label>
+              <div class="slider-container">
                 <input type="range" id="alpha-wrap-alpha" min="1" max="60" value="20" class="slider">
               </div>
-              <label>Offset <span id="alpha-wrap-offset-val">150</span></label>
-              <div class="slider-container ml2">
+              <label class="range-control-label" for="alpha-wrap-offset"><span>Offset</span><output id="alpha-wrap-offset-val">150</output></label>
+              <div class="slider-container">
                 <input type="range" id="alpha-wrap-offset" min="1" max="250" value="150" class="slider">
               </div>
-              <button id="btn-generate-alpha-wrap" class="mt1">Generate Wrap</button>
-              <span id="alpha-wrap-status"></span>
+              <button id="btn-generate-alpha-wrap" type="button">Generate Wrap</button>
+              <span id="alpha-wrap-status" role="status" aria-live="polite"></span>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
         id="interpolation-visualizer-canvas-container"
         class="dialog-content col col-8"
       >
-        <button id="btn-close-interpolation-dialog" class="btn-close-panel" onclick="document.getElementById('interpolation-dialog').close()">&#x2715;</button>
+        <button id="btn-close-interpolation-dialog" class="btn-close-panel" aria-label="Close interpolation dialog" onclick="document.getElementById('interpolation-dialog').close()">&#x2715;</button>
         <canvas id="interpolation-visualizer-canvas" width="100%"></canvas>
         <div id="interpolation-visualizer-control-panel">
           <button id="btn-download-interpolated-ply" type="button" title="Download the interpolated point cloud as PLY">
@@ -445,4 +445,3 @@
     </div>
   </body>
 </html>
-

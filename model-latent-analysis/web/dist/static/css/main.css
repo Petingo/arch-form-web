@@ -277,14 +277,11 @@ fieldset {
     border: 1px solid #777777;
 }
 
-/* The dialog follows the site's type scale: 12px body text, 9px DM Mono for
-   the small uppercase labels. */
-/* One body size for the viewer chrome. The dialog had picked up four different
-   sizes -- 12px containers, 11px labels, a 10.2px inline status and 9px
-   headings -- so plain text now inherits a single value and only the small
-   uppercase labels differ. */
+/* The dialog follows the site's type system: Manrope for controls and DM Mono
+   for compact headings, values and actions. */
 .dialog-sidebar, .control-panel {
     font-size: 11px;
+    line-height: 1.4;
 }
 
 .dialog-sidebar h3,
@@ -304,6 +301,8 @@ fieldset {
     overflow-x: hidden;
     border-right: 1px solid var(--line);
     background-color: var(--panel);
+    scrollbar-width: thin;
+    scrollbar-color: #b7b9b2 transparent;
 }
 
 .dialog-container{
@@ -323,19 +322,6 @@ fieldset {
 
 
 
-#interpolation-dialog-alpha-wrap label {
-    display: block;
-    margin-top: 10px;
-}
-
-#interpolation-dialog-alpha-wrap .slider-container {
-    margin-bottom: 4px;
-}
-
-#interpolation-dialog-alpha-wrap button {
-    margin-top: 10px;
-}
-
 /* Slider */
 .slider-container {
     /* The container carries a basscss .ml2 left margin; without a matching
@@ -350,34 +336,44 @@ fieldset {
     -webkit-appearance: none;  /* Override default CSS styles */
     appearance: none;
     width: 100%;
-    height: 1.5px; /* Specified height */
-    background: #555555; /* Grey background */
+    height: 2px; /* Specified height */
+    background: var(--line); /* Grey background */
     outline: none; /* Remove outline */
-    opacity: 0.6; /* Set transparency (for mouse-over effects on hover) */
-    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
-    transition: opacity .2s;
+    opacity: 1;
 }
 
-/* Mouse-over effects */
-.slider:hover {
-    opacity: 1; /* Fully shown on mouse-over */
+.slider:focus-visible {
+    outline: none;
 }
 
 /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
 .slider::-webkit-slider-thumb {
     -webkit-appearance: none; /* Override default look */
     appearance: none;
-    width: 5px; /* Set a specific slider handle width */
-    height: 20px; /* Slider handle height */
-    background: #000000; /* Green background */
+    width: 8px; /* Set a specific slider handle width */
+    height: 16px; /* Slider handle height */
+    border: 0;
+    background: var(--ink);
     cursor: pointer; /* Cursor on hover */
 }
 
+.slider:focus-visible::-webkit-slider-thumb {
+    outline: 1px solid var(--ink);
+    outline-offset: 3px;
+}
+
 .slider::-moz-range-thumb {
-    width: 5px; /* Set a specific slider handle width */
-    height: 20px; /* Slider handle height */
-    background: #000000; /* Green background */
+    width: 8px; /* Set a specific slider handle width */
+    height: 16px; /* Slider handle height */
+    border: 0;
+    border-radius: 0;
+    background: var(--ink);
     cursor: pointer; /* Cursor on hover */
+}
+
+.slider:focus-visible::-moz-range-thumb {
+    outline: 1px solid var(--ink);
+    outline-offset: 3px;
 }
 
 /* Similarity bar*/
@@ -395,14 +391,12 @@ fieldset {
     display: none;
 }
 
-/* Every group is one block with the same padding, so headings, sliders and
-   labels share a single left edge. The markup carries basscss margin utilities
-   (mx2/ml2/my1/mt1) that produced three different indents; they are neutralised
-   here and the spacing comes from this block instead. */
+/* Every group is one block with the same inset, so headings, sliders, labels
+   and actions share a single left edge. */
 .interpolation-dialog-sidebar-item,
 #interpolation-view-controls,
 #interpolation-dialog-alpha-wrap {
-    padding: 14px 16px;
+    padding: 16px;
     border-bottom: 1px solid var(--hairline);
 }
 
@@ -410,17 +404,17 @@ fieldset {
     border-bottom: 0;
 }
 
-.dialog-sidebar .mx2,
-.dialog-sidebar .ml2,
-.dialog-sidebar .my1,
-.dialog-sidebar .mt1,
 .dialog-sidebar .sidebar-item-desc {
     margin: 0;
     padding: 0;
 }
 
 .dialog-sidebar h3 {
-    margin: 0 0 9px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 0 0 12px;
 }
 
 .dialog-sidebar .slider-container {
@@ -428,28 +422,46 @@ fieldset {
     margin: 0;
 }
 
-/* checkbox rows */
-#interpolation-view-controls .mt1 {
+.sidebar-control-list {
+    width: 100%;
+}
+
+/* Checkbox rows use the same rhythm and hit area as the other viewer controls. */
+#interpolation-view-controls .checkbox-control {
     display: flex;
     align-items: center;
-    gap: 7px;
-    margin-top: 7px;
+    gap: 8px;
+    min-height: 26px;
 }
 
 #interpolation-view-controls input[type="checkbox"] {
-    width: 12px;
-    height: 12px;
+    flex: 0 0 auto;
+    width: 13px;
+    height: 13px;
     margin: 0;
     accent-color: var(--ink);
 }
 
 #interpolation-view-controls label {
+    flex: 1;
+    color: var(--ink);
+    line-height: 26px;
     cursor: pointer;
 }
 
-#interpolation-dialog-alpha-wrap label {
-    display: block;
-    margin: 0 0 5px;
+.range-control-label {
+    display: flex !important;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    margin: 0;
+    color: var(--muted);
+}
+
+.range-control-label output {
+    color: var(--ink);
+    font: 500 9px "DM Mono", monospace;
 }
 
 /* range inputs carry a UA inline margin, which left the sliders 2px off the
@@ -458,32 +470,35 @@ fieldset {
     margin: 0;
 }
 
-#interpolation-dialog-alpha-wrap .slider-container + label {
-    margin-top: 13px;
+#interpolation-dialog-alpha-wrap .range-control-label + .slider-container {
+    margin-top: 9px;
+}
+
+#interpolation-dialog-alpha-wrap .slider-container + .range-control-label {
+    margin-top: 18px;
 }
 
 #btn-generate-alpha-wrap {
-    margin-top: 14px;
+    width: 100%;
+    min-height: 30px;
+    margin-top: 20px;
 }
 
 
 
 /* the model weight now reads out like the alpha/offset sliders do */
 .slider-value {
-    float: right;
-    margin-right: 1em;
+    flex: 0 0 auto;
+    margin: 0;
     color: var(--muted);
     font: 500 9px "DM Mono", monospace;
 }
 
-#interpolation-dialog-alpha-wrap label {
-    color: var(--muted);
-}
-
 #alpha-wrap-status {
     display: block;
-    margin-top: 4px;
+    margin-top: 8px;
     color: var(--muted);
+    line-height: 1.45;
 }
 
 #alpha-wrap-status:empty {
@@ -689,4 +704,3 @@ fieldset {
     font-weight: 600;
     color: #111;
 }
-
