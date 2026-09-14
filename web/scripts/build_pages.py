@@ -46,6 +46,31 @@ ROOT_INDEX = """<!doctype html>
 </html>
 """
 
+# GitHub Pages serves this for any unmatched path under the project, so a
+# mistyped link lands in the site rather than on a dead end.
+NOT_FOUND = """<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arch Form</title>
+    <style>
+      body {{ margin:0; min-height:100vh; display:grid; place-content:center; justify-items:center; gap:14px;
+             background:#fff; color:#141714; font-family:"Manrope",system-ui,sans-serif; text-align:center; }}
+      p {{ margin:0; color:#73786f; font:500 11px ui-monospace,monospace; letter-spacing:.1em; }}
+      a {{ padding:9px 14px; border:1px solid #d9d8d0; color:inherit; text-decoration:none;
+           font:500 10px ui-monospace,monospace; letter-spacing:.09em; }}
+      a:hover {{ background:#efeee7; }}
+    </style>
+    <meta http-equiv="refresh" content="3; url={base}web/" />
+  </head>
+  <body>
+    <p>THAT PAGE DOES NOT EXIST</p>
+    <a href="{base}web/">GO TO ARCH FORM</a>
+  </body>
+</html>
+"""
+
 
 def copy_tree(relative: str, out: pathlib.Path) -> int:
     source = ROOT / relative
@@ -102,6 +127,7 @@ def main() -> None:
     changed = rewrite(out, base)
     (out / ".nojekyll").touch()
     (out / "index.html").write_text(ROOT_INDEX, encoding="utf-8")
+    (out / "404.html").write_text(NOT_FOUND.format(base=base), encoding="utf-8")
 
     size = sum(f.stat().st_size for f in out.rglob("*") if f.is_file())
     print(f"\n{total} files, {size / 1024 / 1024:.0f} MB")
